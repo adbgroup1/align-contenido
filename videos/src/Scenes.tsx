@@ -2,10 +2,18 @@ import {
   Easing,
   Interactive,
   interpolate,
+  spring,
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { contributed, euros, futureValue } from "./brand";
+import {
+  COLORS,
+  SAFE,
+  contributed,
+  euros,
+  fontFamily,
+  futureValue,
+} from "./brand";
 
 const Disclaimer = () => (
   <Interactive.Div
@@ -466,3 +474,193 @@ export const Cta = Interactive.create({
   layout: "absolute-fill",
   schema: { ...Interactive.backgroundSchema },
 });
+
+/* =====================================================================
+   Piezas reutilizables para los reels semanales (parametrizables)
+   ===================================================================== */
+
+export const useIn = (delaySec = 0, instant = false) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  if (instant) return 1;
+  return spring({
+    frame: frame - delaySec * fps,
+    fps,
+    config: { damping: 200 },
+    durationInFrames: Math.round(0.45 * fps),
+  });
+};
+
+export const Stage: React.FC<{
+  bg?: string;
+  children: React.ReactNode;
+  justify?: "center" | "flex-start" | "space-between";
+  gap?: number;
+}> = ({ bg = COLORS.navy, children, justify = "center", gap = 50 }) => (
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      backgroundColor: bg,
+      fontFamily,
+    }}
+  >
+    <div
+      style={{
+        position: "absolute",
+        top: SAFE.top,
+        bottom: SAFE.bottom,
+        left: SAFE.left,
+        right: SAFE.right,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: justify,
+        gap,
+      }}
+    >
+      {children}
+    </div>
+  </div>
+);
+
+export const Title: React.FC<{
+  children: React.ReactNode;
+  size?: number;
+  color?: string;
+  delay?: number;
+  instant?: boolean;
+  weight?: number;
+}> = ({ children, size = 86, color = COLORS.white, delay = 0, instant = false, weight = 800 }) => {
+  const p = useIn(delay, instant);
+  return (
+    <div
+      style={{
+        fontSize: size,
+        fontWeight: weight,
+        color,
+        lineHeight: 1.08,
+        textAlign: "center",
+        letterSpacing: -1,
+        opacity: p,
+        translate: `0px ${(1 - p) * 40}px`,
+      }}
+    >
+      {children}
+    </div>
+  );
+};
+
+export const Pill: React.FC<{
+  children: React.ReactNode;
+  bg?: string;
+  color?: string;
+  size?: number;
+  delay?: number;
+  instant?: boolean;
+}> = ({ children, bg = COLORS.gold, color = COLORS.navy, size = 38, delay = 0, instant = false }) => {
+  const p = useIn(delay, instant);
+  return (
+    <div
+      style={{
+        fontSize: size,
+        fontWeight: 800,
+        color,
+        backgroundColor: bg,
+        padding: "10px 28px",
+        borderRadius: 999,
+        whiteSpace: "nowrap",
+        opacity: p,
+        scale: String(0.8 + 0.2 * p),
+      }}
+    >
+      {children}
+    </div>
+  );
+};
+
+export const CountUp: React.FC<{
+  from?: number;
+  to: number;
+  start?: number;
+  end: number;
+  format: (v: number) => string;
+  size?: number;
+  color?: string;
+}> = ({ from = 0, to, start = 0, end, format, size = 150, color = COLORS.white }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const v = interpolate(frame, [start * fps, end * fps], [from, to], {
+    easing: Easing.bezier(0.3, 0, 0.2, 1),
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+  return (
+    <div
+      style={{
+        fontSize: size,
+        fontWeight: 900,
+        color,
+        whiteSpace: "nowrap",
+        fontVariantNumeric: "tabular-nums",
+        letterSpacing: -3,
+      }}
+    >
+      {format(v)}
+    </div>
+  );
+};
+
+export const KeywordCta: React.FC<{ word: string }> = ({ word }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const pop = spring({ frame: frame - 0.3 * fps, fps, config: { damping: 11 } });
+  const pulse = 1 + 0.04 * Math.sin((frame / fps) * Math.PI * 2);
+  return (
+    <Stage bg={COLORS.paper} gap={60}>
+      <Title color={COLORS.navy} size={96} instant>
+        Comenta
+      </Title>
+      <div
+        style={{
+          fontSize: 150,
+          fontWeight: 900,
+          color: COLORS.white,
+          backgroundColor: COLORS.blue,
+          padding: "20px 60px",
+          borderRadius: 36,
+          letterSpacing: 4,
+          rotate: "-2deg",
+          scale: String(pop * pulse),
+        }}
+      >
+        {word}
+      </div>
+      <Title color={COLORS.navy} size={80} delay={0.8}>
+        y te lo mando
+        <br />
+        <span style={{ color: COLORS.blue }}>por DM</span>
+      </Title>
+    </Stage>
+  );
+};
+
+export const BrandOutro: React.FC<{
+  line: React.ReactNode;
+  visual?: React.ReactNode;
+}> = ({ line, visual }) => (
+  <Stage bg={COLORS.navy} justify="space-between" gap={30}>
+    <Title size={76} instant>
+      {line}
+    </Title>
+    {visual}
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
+      <div style={{ fontSize: 64, fontWeight: 900, letterSpacing: 6, color: COLORS.white }}>
+        ALIGN <span style={{ fontWeight: 500, color: COLORS.light }}>by ADB</span>
+      </div>
+      <div style={{ fontSize: 28, color: COLORS.light, textAlign: "center", lineHeight: 1.3 }}>
+        Contenido informativo, no es asesoramiento financiero.
+      </div>
+    </div>
+  </Stage>
+);
