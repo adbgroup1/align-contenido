@@ -3,12 +3,12 @@
 //   node scripts/ver-videos.mjs --n 10          → los 10 primeros candidatos sin ver de candidatos.json
 //   node scripts/ver-videos.mjs <url> [<url>…]  → vídeos concretos
 // Salida: ../investigacion/fichas/<id>.json  (y marca visto=true en candidatos.json)
-// Requiere GEMINI_API_KEY. Modelo: GEMINI_MODEL (por defecto gemini-2.5-flash).
+// Requiere GEMINI_API_KEY. Modelo: GEMINI_MODEL (por defecto gemini-3.8-flash).
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const KEY = process.env.GEMINI_API_KEY;
 if (!KEY) throw new Error("Falta GEMINI_API_KEY.");
-const MODEL = process.env.GEMINI_MODEL ?? "gemini-2.5-flash";
+const MODEL = process.env.GEMINI_MODEL ?? "gemini-3.8-flash";
 const ESPERA_MS = Number(process.env.GEMINI_ESPERA_MS ?? 7000); // tier gratis: ~10 peticiones/min
 
 const args = process.argv.slice(2);
