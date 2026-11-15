@@ -455,4 +455,4 @@ const Cta = () => {
 };
 
 export const W4702v2: React.FC<PropsVoz> = ({ voz, videoId }) =>
-  voz ? <Montaje videoId={videoId} voz={voz} escenas={ESCENAS} extra={EXTRA_W4702} /> : null;
+  voz ? <Montaje videoId={videoId} voz={voz} escenas={ESCENAS} extra={EXTRA_W4702} pista="piano-strings-light.mp3" /> : null;
