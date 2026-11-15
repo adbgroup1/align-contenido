@@ -23,13 +23,13 @@ Lee antes `CLAUDE.md`, `GUIA.md`, `semanas/<semana>/ideas.md` y `hooks.md`.
    - Destino: Curso para CURSO o EMPEZAR; Landing para SISTEMA o COLCHÓN.
    - **Dentro de la página va el guion:**
 
-| # | Tiempo | Texto en pantalla | Animación / visual | Nota |
+| # | Voz en off | Texto en pantalla | Animación / visual | Nota |
 |---|---|---|---|---|
-| 1 | 0,0–3,0 | … | … | HOOK |
-| 2 | 3,0–… | … | … | SEGUNDO GANCHO |
+| 1 | Frase que se oye (números en letra) | … | … | HOOK |
+| 2 | … | … | … | SEGUNDO GANCHO |
 | … | … | … | … | WOW (3–4 s) |
-| n-1 | … | «Comenta PALABRA…» | … | CTA |
-| n | últimos 2–3 s | Marca ALIGN + «Contenido informativo, no es asesoramiento financiero» | … | CIERRE / BUCLE |
+| n-1 | «Comenta PALABRA y te mando…» | «Comenta PALABRA…» | … | CTA |
+| n | Frase de cierre que enlaza con el hook | Marca ALIGN + «Contenido informativo, no es asesoramiento financiero» | … | CIERRE / BUCLE |
 
    Debajo de la tabla, cinco secciones:
    - **Fuentes:** entre corchetes, una por cifra;
@@ -40,6 +40,10 @@ Lee antes `CLAUDE.md`, `GUIA.md`, `semanas/<semana>/ideas.md` y `hooks.md`.
 
 ## Reglas
 
-- **Duración:** 20–45 s, con un cambio visual cada 2–3 s.
+- **Duración:** 20–45 s, con un cambio visual cada 2–3 s. **La voz marca el tiempo:** unas 2,7 palabras
+  por segundo, así que 30 s son unas 80 palabras de voz en total.
+- **Voz en off:** una frase por escena, de 1 a 3 s. Habla como un amigo, de tú y con frases cortas. La
+  primera frase **es** el hook y se oye desde el segundo 0. Los números van en letra («doscientos mil
+  euros»). La voz y el texto de pantalla dicen lo mismo con distintas palabras: el texto resume.
 - **Texto en pantalla:** 12 palabras como máximo por escena, y tiempo de sobra para leerlas (unas 3
   palabras por segundo).

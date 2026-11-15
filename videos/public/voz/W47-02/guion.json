@@ -1,0 +1,14 @@
+{
+  "escenas": [
+    { "id": "hook", "texto": "Mismos cien euros al mes. Diez años de diferencia." },
+    { "id": "gancho2", "texto": "Lucía empieza a invertir a los veinticinco. Marcos, a los treinta y cinco." },
+    { "id": "reglas", "texto": "Los dos meten cien euros al mes hasta los sesenta y cinco. Ejemplo hipotético, al seis por ciento anual." },
+    { "id": "pregunta", "texto": "¿Quién crees que acaba con más?" },
+    { "id": "wow", "texto": "Lucía llega a casi doscientos mil euros. Marcos, a cien mil." },
+    { "id": "rehook", "texto": "Y ojo, Marcos solo puso doce mil euros menos…" },
+    { "id": "mitad", "texto": "…pero acaba con la mitad." },
+    { "id": "tiempo", "texto": "El tiempo hace el trabajo pesado." },
+    { "id": "cta", "texto": "Comenta CURSO y te mando el curso para aprender desde cero." },
+    { "id": "cierre", "texto": "La diferencia no fue el dinero. Fueron diez años." }
+  ]
+}

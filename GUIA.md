@@ -9,8 +9,9 @@
   el dinero en la cuenta corriente, no saben por dónde empezar y desconfían de los «gurús».
 - **Tono:** claro, cercano, de tú, frases cortas. Un amigo que sabe del tema, no un banco ni un vendedor.
   Sin anglicismos innecesarios ni jerga sin explicar.
-- **Formato:** solo animación con Remotion, sin cara. Vertical 1080×1920 a 30 fps, de 20 a 45 s.
-  - Texto grande en pantalla: el 85 % se ve sin sonido.
+- **Formato:** animación con Remotion, sin cara, **con voz en off, música lejana y efectos de sonido**.
+  Vertical 1080×1920 a 30 fps, de 20 a 45 s.
+  - Subtítulos palabra a palabra y texto grande en pantalla: el 85 % se ve sin sonido.
   - Cifras animadas, gráficos que crecen, comparaciones A/B.
 - **Marca visual:** los colores y la tipografía (Inter) están en `videos/src/brand.ts`. No inventar
   colores nuevos.
@@ -80,6 +81,17 @@ Son reglas de credibilidad y de sentido común en finanzas, no un trámite:
   120 px de la derecha (ahí van los botones de Instagram, TikTok y YouTube). 90 px de margen a la izquierda.
 - **Nota de viralidad mínima 7/10** antes de pasar a revisión: hook, ritmo, momento wow, claridad y bucle.
 
+## Voz, música y sonido
+
+- **Voz:** una sola voz de ALIGN, siempre la misma (ElevenLabs, español de España). Tono de amigo que
+  sabe: cercano, con energía, sin gritar ni sonar a anuncio. Ritmo ágil (unas 2,7 palabras por segundo).
+- **Música:** lejana. Suena baja todo el vídeo y baja más bajo la voz (lo hace el kit). Lo-fi, ambient o
+  pop electrónico suave; nada épico ni triste. Solo pistas con licencia en `videos/public/musica/LICENCIAS.md`.
+- **Efectos:** cada cambio de escena con whoosh, golpe en las revelaciones, ticks en los contadores y una
+  campana en el wow. Como mucho 1 efecto por segundo. Están en `videos/public/sfx/`, sintetizados por
+  código.
+- **Mezcla final:** la voz siempre se entiende. Entre -16 y -12 LUFS integrados.
+
 ## Ideas: probado frente a experimento
 
 - **Unas 2 de cada 3 ideas son «Probado»:** repiten lo que ya ha funcionado en NUESTRO perfil (gancho,
@@ -101,5 +113,6 @@ Son reglas de credibilidad y de sentido común en finanzas, no un trámite:
 
 - No hablar de Skool ni de comunidades de pago.
 - No usar música, imágenes ni clips con copyright.
-  - Solo animación propia, iconos generados en código y la música libre de `videos/public/`, si la hay.
+  - Solo animación propia, iconos generados en código, la música con licencia de `videos/public/musica/`
+    y los efectos de `videos/public/sfx/`.
 - **No copiar vídeos de otros.** La investigación extrae **estructuras y técnicas**; el contenido es siempre nuestro.

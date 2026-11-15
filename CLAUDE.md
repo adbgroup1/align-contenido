@@ -25,6 +25,9 @@ desaparece al terminar.
 | Página «Resúmenes semanales» | `418cc81e-aca2-81de-aa81-fb279bb6cec8` |
 
 - **Una fila de «Vídeos» = un vídeo.** El título (`ID`) tiene el formato `W47-01`.
+  - Al crear filas con el conector, la propiedad título se llama **`userDefined:ID`**, no `ID`.
+  - «Semana» es un select: si la opción de la semana (`2026-W47`) no existe, añádela antes con
+    `notion-update-data-source` **listando también todas las opciones existentes**.
 - El guion completo va **dentro de la página** de esa fila.
 - **«Estado»** recorre: `Idea → Guion → Revisión manager OK → Renderizado → Tu revisión → Aprobado →
   Programado → Publicado → Analizado`, más `Devuelto`, `Cambios pedidos` y `Descartado`.
@@ -66,8 +69,23 @@ npx remotion render src/index.ts <ID> ../media/<semana>/<ID>.mp4 \
   --browser-executable=/opt/pw-browsers/chromium --chrome-mode=chrome-for-testing
 ```
 
+- **Kit v2:** los vídeos se montan con `videos/src/kit.tsx` (manual en `videos/KIT.md`). La voz se genera
+  antes del render con `node scripts/voz.mjs <ID>`.
 - **Si la fuente Inter no carga** (Google Fonts bloqueado), sigue con la fuente del sistema y apúntalo en la
   nota del manager. No te pares por eso.
+
+## Claves y red de la nube
+
+La nube solo deja salir a los dominios permitidos en el entorno. Las claves van como variables de entorno;
+**nunca se escriben en el repo** ni en Notion.
+
+| Variable | Para qué | Dominio que debe estar permitido |
+|---|---|---|
+| `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID` | Voz en off (`scripts/voz.mjs`) | `api.elevenlabs.io` |
+| `GEMINI_API_KEY` | Que Gemini vea los virales (`scripts/ver-videos.mjs`) | `generativelanguage.googleapis.com` |
+| `GOOGLE_API_KEY` (opcional; si no, usa `GEMINI_API_KEY`) | Buscar Shorts (`scripts/buscar-shorts.mjs`) | `www.googleapis.com` |
+
+- Si falta una clave o un dominio, el script lo dice. Apúntalo y no improvises otra vía.
 
 ## Reglas de todos los agentes
 
@@ -81,6 +99,8 @@ npx remotion render src/index.ts <ID> ../media/<semana>/<ID>.mp4 \
 - **Originalidad:** todo es propio; de otros creadores solo se aprenden patrones (gancho, ritmo, estructura,
   giro, cierre), nunca frases, guiones, imágenes ni música.
 
+- **Al empezar:** el repo llega con HEAD suelto. Haz
+  `git config --global --add safe.directory "$PWD" && git checkout -q main && git pull -q --ff-only`.
 - **Al terminar:** `git add -A && git commit -m "<agente>: <qué>" && git push`.
   - Si el push falla por cambios remotos: `git pull --rebase` y otra vez `git push`.
 - **No inventes datos.** Lo que no se vea, «sin dato».
