@@ -375,8 +375,7 @@ export const Subtitulos: React.FC<{
               color: activa ? COLORS.gold : claro ? COLORS.navy : COLORS.white,
               opacity: dicha ? 1 : 0.55,
               scale: activa ? "1.08" : "1",
-              WebkitTextStroke: claro ? undefined : "2px rgba(5,9,20,0.6)",
-              textShadow: claro ? "none" : "0 6px 24px rgba(0,0,0,0.6)",
+              textShadow: claro ? "none" : "0 3px 0 rgba(5,9,20,0.55), 0 6px 24px rgba(0,0,0,0.6)",
               display: "inline-block",
             }}
           >
