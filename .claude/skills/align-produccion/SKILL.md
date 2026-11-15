@@ -47,8 +47,8 @@ Después lee:
    flags de navegador.
 9. **Control de calidad.**
    - **Sonido:** `ffprobe` debe mostrar una pista de audio. Mide el volumen con
-     `ffmpeg -i <mp4> -af ebur128 -f null - 2>&1 | tail -12`: entre -16 y -12 LUFS integrados. Si no, ajusta
-     `base` de la música o el volumen de la voz.
+     `ffmpeg -i <mp4> -af ebur128 -f null - 2>&1 | tail -12`: entre -16 y -12 LUFS integrados. Si no, revisa
+     que la pista tenga su LUFS en `LUFS_PISTAS` (`kit.tsx`).
    - **Imagen:** saca 6 fotogramas con `remotion still` en `/tmp` (0, segundo 3, wow, rehook, CTA y cierre) y
      míralos.
      - El texto se lee y no se corta, y no pisa los subtítulos.

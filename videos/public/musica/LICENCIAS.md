@@ -5,6 +5,10 @@ Solo se usan pistas de esta lista. **Producción** elige por tono y no repite la
 Las pistas de Pixabay tienen la **Pixabay Content License**: uso comercial gratis y sin atribución. No se
 pueden vender ni redistribuir tal cual, aunque sí ir dentro de nuestros vídeos. Las eligió Andrés el 15 nov 2026.
 
+**Volumen:** cada pista suena muy distinta (de -5,6 a -19,5 LUFS). El kit las iguala con `LUFS_PISTAS` en
+`src/kit.tsx`. **Si añades una pista, mide su LUFS** (`ffmpeg -i x.mp3 -af ebur128 -f null - 2>&1 | grep ' I:' | tail -1`)
+y apúntalo allí.
+
 | Archivo | Duración | Tono | Encaja con | Origen |
 |---|---|---|---|---|
 | `lofi-polaroids.mp3` | 2:08 | Lo-fi cálido, tranquilo | Ahorro, hábitos, sistema | [Pixabay · FASSounds](https://pixabay.com/music/beats-lofi-polaroids-632981/) |

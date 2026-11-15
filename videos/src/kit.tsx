@@ -555,14 +555,32 @@ export const Sfx: React.FC<{ s: NombreSfx; volumen?: number; en?: number }> = ({
 };
 
 /**
+ * Volumen medido de cada pista (LUFS integrados, ffmpeg ebur128). Sirve para igualarlas: todas suenan al
+ * mismo nivel lejano. Al añadir una pista nueva, mide su LUFS y apúntalo aquí y en LICENCIAS.md.
+ */
+export const LUFS_PISTAS: Record<string, number> = {
+  "lay-back.mp3": -11.4,
+  "lofi-polaroids.mp3": -9.9,
+  "long-day.mp3": -14.5,
+  "minimal-ambient-tech.mp3": -11.4,
+  "piano-strings-light.mp3": -19.5,
+  "quiet-courtyard.mp3": -11.0,
+  "sunlight.mp3": -10.0,
+  "tech-synthpop.mp3": -5.6,
+  "pad-align.wav": -11.5,
+};
+/** Nivel de la música sin voz (LUFS). La voz va a unos -17: la música queda unos 14 dB por debajo. */
+export const MUSICA_OBJETIVO_LUFS = -31;
+
+/**
  * Música lejana: suena baja todo el vídeo y baja aún más mientras habla la voz.
  * Las pistas están en public/musica/ (ver public/musica/LICENCIAS.md).
  */
-export const Musica: React.FC<{ pista: string; voz: Voz; extra?: Record<string, number>; base?: number }> = ({
+export const Musica: React.FC<{ pista: string; voz: Voz; extra?: Record<string, number>; nivel?: number }> = ({
   pista,
   voz,
   extra = {},
-  base = 0.16,
+  nivel = 1,
 }) => {
   const { durationInFrames, fps } = useVideoConfig();
   // intervalos en los que habla la voz (frames absolutos)
@@ -573,6 +591,8 @@ export const Musica: React.FC<{ pista: string; voz: Voz; extra?: Record<string, 
     hablando.push([d0, d0 + e.segundos * fps]);
     off += framesEscena(e, i, extra);
   });
+  const lufs = LUFS_PISTAS[pista] ?? -11;
+  const base = Math.min(1, 10 ** ((MUSICA_OBJETIVO_LUFS - lufs) / 20)) * nivel;
   const volumen = (f: number) => {
     const enVoz = hablando.some(([a, b]) => f >= a - 4 && f <= b + 4);
     const fade = interpolate(f, [0, 15, durationInFrames - 30, durationInFrames], [0, 1, 1, 0], clamp);
