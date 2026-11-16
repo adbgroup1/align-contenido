@@ -7,7 +7,7 @@ desaparece al terminar.
 
 - Marca de finanzas personales de Alain De La Bastide.
 - Público: hispanohablantes en España de 22 a 40 años, sin formación financiera.
-- Hacemos **3 vídeos cortos por semana**, educativos y animados (Remotion, sin cara), para Instagram Reels
+- Hacemos **2 vídeos cortos por semana**, educativos y animados (Remotion, sin cara), para Instagram Reels
   (@alignbyadb) y YouTube Shorts (@ALIGNbyADB). TikTok está aparcado.
 - **El objetivo es crecer a corto plazo:** seguidores, compartidos, guardados y comentarios (CTA en `GUIA.md`).
   alignbyadb.com, con el curso y la llamada, se queda en la bio y no se empuja en el vídeo.

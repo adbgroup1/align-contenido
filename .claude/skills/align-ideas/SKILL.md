@@ -15,7 +15,7 @@ Lee antes `CLAUDE.md` y `GUIA.md`.
 
 ## Qué produces
 
-**6 ideas** en `semanas/<semana>/ideas.md` (las 4 mejores pasarán a guion y el manager elige 3). Cada una con:
+**5 ideas** en `semanas/<semana>/ideas.md` (las 3 mejores pasarán a guion y el manager elige 2). Cada una con:
 - Tipo de idea: **Probado** o **Experimento**.
   - Unas 4 Probado y 2 Experimento.
   - El Experimento sale del experimento de Aprendizajes si lo hay.

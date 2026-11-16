@@ -12,7 +12,7 @@ Lee antes `CLAUDE.md`, `GUIA.md`, `semanas/<semana>/ideas.md` y `hooks.md`.
 
 ## Pasos
 
-1. **Elige las 4 mejores ideas**, cada una con su hook ganador.
+1. **Elige las 3 mejores ideas**, cada una con su hook ganador.
 2. **Comprueba cada cifra (como mucho 2 por vídeo):**
    - busca la fuente con WebSearch; si no la encuentras, quita el dato;
    - los cálculos, hazlos con un script y apunta la fórmula.

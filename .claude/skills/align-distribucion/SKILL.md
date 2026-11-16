@@ -47,7 +47,7 @@ Andrés diseñó el sistema así: **su aprobación en Notion es la orden de publ
 
 ### 2. Elige el hueco
 
-- **Huecos:** martes, jueves y domingo.
+- **Huecos:** martes y viernes (2 vídeos por semana).
 - **Hora:** la que dé `getBestTimeToPostByNetwork`, o 19:30 si no hay datos.
 - **No pongas dos vídeos el mismo día.**
 

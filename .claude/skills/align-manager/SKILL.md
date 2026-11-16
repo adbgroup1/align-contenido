@@ -25,13 +25,13 @@ Lee `GUIA.md` y puntúa cada guion de 1 a 5 en:
 **Correcciones pequeñas** (una palabra, un tiempo) las haces tú directamente.
 
 **Después:**
-- Elige los **3 mejores**:
+- Elige los **2 mejores**:
   - Estado = `Revisión manager OK`;
   - en «Nota del manager», la nota y el porqué.
-  - Respeta la mezcla: unos 2 Probado y 1 Experimento.
+  - Respeta la mezcla: al menos 1 Probado y como mucho 1 Experimento.
 - Los demás:
   - Estado = `Devuelto` o `Descartado`, con su motivo.
-- **Si hay menos de 3 aprobables**, corrige tú los guiones siguiendo `align-guion` y revísalos otra vez
+- **Si hay menos de 2 aprobables**, corrige tú los guiones siguiendo `align-guion` y revísalos otra vez
   (2 vueltas como máximo).
 - Escribe `semanas/<semana>/manager.md` con la tabla de notas. Commit y push.
 

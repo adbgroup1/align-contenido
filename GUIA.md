@@ -108,8 +108,8 @@ Son reglas de credibilidad y de sentido común en finanzas, no un trámite:
 - **Vídeos al mes = publicaciones del plan de Metricool ÷ redes conectadas.**
 - **Redes (16 nov 2026): solo Instagram @alignbyadb y YouTube @ALIGNbyADB.** TikTok queda aparcado, porque la
   cuenta de marca necesita un móvil propio.
-- Plan gratis: 20 publicaciones al mes. Con 2 redes salen 10 vídeos al mes; con 3 vídeos por semana (unos 13)
-  faltan unos 3 al mes, así que hace falta el plan Starter o bajar el ritmo. El distribuidor nunca pasa del límite del plan: si no cabe, avisa.
+- Plan gratis: 20 publicaciones al mes. Con 2 redes salen 10 vídeos al mes. Por eso se hacen **2 vídeos por
+  semana** (decidido el 16 nov 2026), que son unos 9 al mes, 18 publicaciones. El distribuidor nunca pasa del límite del plan: si no cabe, avisa.
 
 ## Qué no hacer nunca
 
