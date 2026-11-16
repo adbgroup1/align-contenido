@@ -14,7 +14,7 @@ Si no hay ninguna, responde en una línea y termina, **sin** `npm ci`.
 Después lee:
 - `CLAUDE.md`, sección «Renderizar en esta nube»;
 - `GUIA.md`, secciones «Ritmo, gancho e imagen» y «Voz, música y sonido»;
-- `videos/KIT.md`, entero: es el manual de las piezas;
+- `videos/KIT.md`, entero: es el manual de las piezas (incluye «Imágenes generadas»);
 - `investigacion/TECNICAS.md`, si existe: elige **al menos 2 técnicas** de la lista «Por implementar» o
   «En el kit» que encajen con el guion.
 
@@ -27,7 +27,15 @@ Después lee:
    - Después, `cd videos && node scripts/voz.mjs <ID>`.
    - **Si falla** (sin clave o sin red): no hagas un vídeo mudo. Apunta el error exacto en «Nota del
      manager», deja la fila como estaba y pasa al siguiente.
-3. **Composición** en `videos/src/videos/<ID>.tsx` con el kit (`src/kit.tsx`).
+3. **Imágenes**, solo si el guion las pide: filas con `IMAGEN:` en la columna «Animación / visual».
+   - **Primero mira `public/img/<ID>/`:** si ya están los `.jpg` (los hace Andrés con Claude en local, skill
+     `align-imagenes`), úsalos tal cual y no escribas otro `imagenes.json`.
+   - Si faltan, sigue `KIT.md`, sección «Imágenes generadas»: escribe `public/img/<ID>/imagenes.json`, ejecuta
+     `node scripts/imagenes.mjs <ID>` y **mira cada `.jpg`** antes de montar.
+   - **Si falla** (sin clave, sin red o sin cupo): monta esa escena con piezas del kit, sin imagen, y apúntalo
+     en «Nota del manager». No te pares por eso.
+4. **Composición** en `videos/src/videos/<ID>.tsx` con el kit (`src/kit.tsx`).
+   - Con imágenes, toma como plantilla `src/videos/EJ-colchon.tsx`.
    - Toma como plantilla `src/videos/W47-02-v2.tsx`: lista `ESCENAS` con un `id` por escena de la voz,
      `Montaje` y `EXTRA_<ID>` para dar aire al wow, al CTA y al cierre.
    - Regístrala en `Root.tsx` con `defaultProps={{ videoId: "<ID>", voz: null }}` y
@@ -36,16 +44,16 @@ Después lee:
      una escena.
    - Pon los efectos de sonido donde pasa algo (ver la tabla de `KIT.md`), sin saturar.
    - Si creas una pieza reutilizable, muévela a `kit.tsx` y documéntala en `KIT.md`.
-4. **Música:** elige en `videos/public/musica/LICENCIAS.md` la pista que pegue con el tono del vídeo y
+5. **Música:** elige en `videos/public/musica/LICENCIAS.md` la pista que pegue con el tono del vídeo y
    pásala a `Montaje` con `pista=`. No uses dos veces seguidas la misma pista en la semana.
-5. **Respeta el guion:** textos, cifras, hook, segundo gancho, wow, CTA y cierre. El hook se ve y se oye
+6. **Respeta el guion:** textos, cifras, hook, segundo gancho, wow, CTA y cierre. El hook se ve y se oye
    en el fotograma 0. No inventes cifras.
-6. **Comprueba el código:** `cd videos && npx tsc --noEmit`.
-7. **Renderiza** a `media/<semana>/<ID>.mp4` con los flags de CLAUDE.md.
-8. **Miniatura:**
+7. **Comprueba el código:** `cd videos && npx tsc --noEmit`.
+8. **Renderiza** a `media/<semana>/<ID>.mp4` con los flags de CLAUDE.md.
+9. **Miniatura:**
    `npx remotion still src/index.ts <ID> ../media/<semana>/<ID>.jpg --frame=<frame del hook>`, con los mismos
    flags de navegador.
-9. **Control de calidad.**
+10. **Control de calidad.**
    - **Sonido:** `ffprobe` debe mostrar una pista de audio. Mide el volumen con
      `ffmpeg -i <mp4> -af ebur128 -f null - 2>&1 | tail -12`: entre -16 y -12 LUFS integrados. Si no, revisa
      que la pista tenga su LUFS en `LUFS_PISTAS` (`kit.tsx`).
@@ -59,8 +67,8 @@ Después lee:
      (¿parece de un canal profesional?).
      - **Si es menor de 7**, corrige y vuelve a renderizar (2 vueltas como máximo).
      - Si sigue por debajo, apúntalo en «Nota del manager».
-10. **Commit y push**, para que exista la URL pública.
-11. **Actualiza la fila en Notion:**
+11. **Commit y push**, para que exista la URL pública.
+12. **Actualiza la fila en Notion:**
     - Estado = `Tu revisión`;
     - «Enlace vídeo» = la URL de raw.githubusercontent;
     - «Nota viralidad»;
@@ -70,5 +78,5 @@ Después lee:
 ## Reglas
 
 - **Paquetes:** solo los de la familia `@remotion/*` de la misma versión que ya hay. Nada más.
-- Sin música, imágenes ni sonidos con copyright: solo los de `public/` y los que generes por código.
+- Sin música, imágenes ni sonidos con copyright: solo los de `public/`, los que generes por código y las imágenes de `scripts/imagenes.mjs`.
 - **Si un vídeo falla 3 veces**, apúntalo en «Nota del manager» y sigue con el siguiente.

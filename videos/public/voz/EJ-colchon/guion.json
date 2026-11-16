@@ -1,0 +1,24 @@
+{
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "¿Cuánto dinero deberías tener guardado por si acaso?"
+  },
+  {
+   "id": "imprevistos",
+   "texto": "El coche se rompe. El dentista. Un mes sin ingresos."
+  },
+  {
+   "id": "cifra",
+   "texto": "Eso es tu colchón. Una referencia habitual: de tres a seis meses de tus gastos."
+  },
+  {
+   "id": "idea",
+   "texto": "Primero, el colchón. Después, invertir."
+  },
+  {
+   "id": "cta",
+   "texto": "Comenta COLCHÓN y te mando cómo organizarlo en una llamada gratis."
+  }
+ ]
+}

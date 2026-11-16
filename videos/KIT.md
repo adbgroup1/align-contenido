@@ -80,3 +80,68 @@ node scripts/sfx.mjs               # regenera los efectos (no hace falta: ya est
   cuando haya un gráfico: deja el gráfico y una etiqueta corta.
 - Colores solo de `brand.ts`. Lucía/Marcos u opciones A/B: `accent` frente a `gold`.
 - El contenido cabe entre y=250 e y=1260; los subtítulos van encima de y=1440.
+
+## Imágenes generadas (método «imágenes + kit»)
+
+*Probado el 15 nov 2026 con «El colchón». Ejemplo completo: `src/videos/EJ-colchon.tsx`.*
+
+Para escenas que piden un objeto o una situación concreta (una hucha, una casa bajo la lluvia, una
+planta que brota) se genera **una imagen fija por escena** y el kit le da el movimiento: zoom lento,
+partículas, texto cinético, voz, subtítulos y música. **No se usan modelos de vídeo**: son caros, lentos y
+no caben en la nube.
+
+### Cuándo usarlo
+
+- Úsalo cuando la escena gana con un objeto real y reconocible (metáforas: colchón, lluvia, semilla, tarro).
+- Para cifras, comparaciones y gráficos, el kit sin imágenes sigue siendo mejor (`Cifra`, `Cristal`, barras,
+  curvas).
+- Lo normal es mezclar las dos cosas: 2–4 escenas con imagen y el resto con piezas del kit. El CTA va siempre
+  sin imagen (`fondo="claro"`).
+
+### Paso a paso
+
+1. **Encargos:** en `public/img/<ID>/imagenes.json` (formato en la cabecera de `scripts/imagenes.mjs`).
+   - **`estilo`:** el mismo bloque para todo el vídeo. Base de ALIGN: «Clean minimal 3D render, soft
+     studio lighting, deep navy blue background (#0F172A), cobalt blue (#1D4ED8) and pale periwinkle
+     (#C7D7FE) accents, subtle glossy materials, shallow depth of field.»
+   - **Un `prompt` por imagen, en inglés:** describe el objeto y lo que pasa, no la composición. El script
+     añade solo la regla de composición (objeto en la franja central, arriba y abajo libres) y el «sin texto».
+   - **Mismo objeto en varias escenas:** pon `"ref": "<id de la primera>"` y escribe «the same jar…».
+2. **Generar:** `node scripts/imagenes.mjs <ID>`.
+   - Por defecto usa Gemini (`GEMINI_API_KEY`, ya está en la nube); con `--openai` usa OpenAI.
+   - Con `--plan`, revisa los encargos sin gastar nada.
+   - Las imágenes que ya existen no se rehacen: para repetir una, `--solo <id> --forzar`.
+   - Salen un `.png` (referencia, no se sube) y un `.jpg` de ~200 KB, que es el que usa el vídeo.
+3. **Revisarlas antes de montar.** Mira cada `.jpg`.
+   - **Rehaz la imagen (como mucho 2 veces) si:**
+     - sale texto o algún logo;
+     - el objeto cambia entre escenas;
+     - está fuera de la franja central;
+     - tiene manos o caras raras.
+4. **Montar:** en cada escena, `<Foto src="img/<ID>/<id>.jpg" />` es el **primer hijo** de `<Escena>`, y
+   después va el texto en una `Zona` con `top={250} bottom={1050} justify="flex-start"`.
+5. Voz, música, render y control de calidad: igual que cualquier vídeo del kit.
+
+### Piezas
+
+| Pieza | Para qué |
+|---|---|
+| `Foto` | Imagen a pantalla completa con zoom lento y oscurecido arriba (texto) y abajo (subtítulos). `zoom=[inicio, fin]`, `subir` = px que sube durante la escena, `sombra` = 0–1 |
+| `Lluvia` | Gotas animadas por encima de una `Foto` (imprevistos, problemas, «tormenta») |
+
+### Reglas de imagen
+
+- **Una idea por imagen.** Fondo oscuro y limpio; nada de escenas recargadas.
+- **Movimiento siempre:** alterna acercar (`zoom=[1, 1.15]`) y alejar (`[1.15, 1]`) entre escenas
+  seguidas. Añade una partícula o un `Sfx` donde pase algo.
+- **Nada de personas reconocibles, marcas, billetes reales ni logotipos.** Monedas genéricas, sí.
+- **Las cifras nunca van dentro de la imagen:** van en `Cifra` o en `Palabras`, para poder comprobarlas.
+
+### Sin API (a mano, desde ChatGPT web)
+
+**Es el método actual (16 nov 2026):** lo hace Claude en local con Andrés delante; pasos en la skill
+`align-imagenes`. Andrés o Claude en local pueden generarlas en chatgpt.com, en **un solo chat** (así el
+tarro sale igual en todas), con los mismos textos de `imagenes.json`.
+- Guárdalas como `public/img/<ID>/<id>.png` y conviértelas a `.jpg` con
+  `ffmpeg -i x.png -q:v 3 x.jpg` (en Mac: `sips -s format jpeg x.png --out x.jpg`).
+- El script verá que ya existen y no las rehará.

@@ -15,6 +15,7 @@ import {
   AbsoluteFill,
   CalculateMetadataFunction,
   Easing,
+  Img,
   interpolate,
   Sequence,
   Series,
@@ -136,6 +137,69 @@ export const Fondo: React.FC<{ tono?: "noche" | "azul" | "claro"; luz?: string }
             : "radial-gradient(120% 80% at 50% 45%, transparent 55%, rgba(0,0,0,0.55) 100%)",
         }}
       />
+    </AbsoluteFill>
+  );
+};
+
+/* ---------- Foto: imagen generada a pantalla completa (public/img/<ID>/<nombre>.png) ----------
+   Zoom lento (Ken Burns) + oscurecido arriba para el texto y abajo para los subtítulos.
+   Va como primer hijo de <Escena>, debajo de <Zona>. */
+export const Foto: React.FC<{
+  src: string; // ruta dentro de public/, p. ej. "img/EJ-colchon/01-hucha.png"
+  zoom?: [number, number]; // escala al empezar y al acabar la escena
+  subir?: number; // px que sube la imagen durante la escena (negativo = baja)
+  sombra?: number; // 0–1, fuerza del oscurecido de arriba
+}> = ({ src, zoom = [1.12, 1], subir = 0, sombra = 0.9 }) => {
+  const frame = useCurrentFrame();
+  const { durationInFrames } = useVideoConfig();
+  const p = interpolate(frame, [0, durationInFrames], [0, 1], { ...clamp, easing: Easing.inOut(Easing.quad) });
+  const a = (x: number) => Math.round(Math.min(1, x) * 255).toString(16).padStart(2, "0");
+  return (
+    <AbsoluteFill style={{ overflow: "hidden", backgroundColor: COLORS.navy }}>
+      <Img
+        src={staticFile(src)}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          scale: String(zoom[0] + (zoom[1] - zoom[0]) * p),
+          translate: `0px ${-subir * p}px`,
+        }}
+      />
+      <AbsoluteFill
+        style={{
+          // arriba: texto · centro: el objeto · abajo (desde ~70 %): franja oscura para los subtítulos
+          background: `linear-gradient(180deg, ${COLORS.navy}${a(sombra)} 0%, ${COLORS.navy}${a(sombra * 0.7)} 26%, ${COLORS.navy}00 44%, ${COLORS.navy}00 60%, ${COLORS.navy}99 72%, ${COLORS.navy}E6 100%)`,
+        }}
+      />
+    </AbsoluteFill>
+  );
+};
+
+/* ---------- Lluvia: gotas animadas por encima de una Foto (escenas de «imprevistos») ---------- */
+export const Lluvia: React.FC<{ gotas?: number; color?: string }> = ({ gotas = 70, color = COLORS.light }) => {
+  const frame = useCurrentFrame();
+  return (
+    <AbsoluteFill style={{ pointerEvents: "none" }}>
+      {Array.from({ length: gotas }, (_, i) => {
+        const speed = 28 + ((i * 53) % 18);
+        return (
+          <div
+            key={i}
+            style={{
+              position: "absolute",
+              left: (i * 137.5) % 1080,
+              top: ((frame * speed + i * 211) % 2200) - 200,
+              width: 3,
+              height: 40 + ((i * 29) % 50),
+              borderRadius: 2,
+              background: `linear-gradient(180deg, ${color}00, ${color})`,
+              opacity: 0.25 + ((i * 17) % 40) / 100,
+              rotate: "8deg",
+            }}
+          />
+        );
+      })}
     </AbsoluteFill>
   );
 };

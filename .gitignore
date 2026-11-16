@@ -1,3 +1,6 @@
 node_modules/
 videos/out/
 .DS_Store
+
+# Imágenes generadas: se sube solo el JPG (el PNG pesa ~1,7 MB y solo sirve de referencia)
+videos/public/img/**/*.png

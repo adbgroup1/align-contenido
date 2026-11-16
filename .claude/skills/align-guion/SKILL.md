@@ -47,3 +47,10 @@ Lee antes `CLAUDE.md`, `GUIA.md`, `semanas/<semana>/ideas.md` y `hooks.md`.
   euros»). La voz y el texto de pantalla dicen lo mismo con distintas palabras: el texto resume.
 - **Texto en pantalla:** 12 palabras como máximo por escena, y tiempo de sobra para leerlas (unas 3
   palabras por segundo).
+- **Imágenes generadas** (opcional, de 2 a 4 escenas por vídeo): cuando una escena gana con un objeto o una
+  metáfora visual (un tarro que se llena, una casa bajo la lluvia, una semilla que brota), escribe en
+  «Animación / visual» `IMAGEN: <qué se ve, en una frase>`.
+  - Si el mismo objeto sale en varias escenas, dilo («el mismo tarro, ahora lleno»).
+  - **Nunca** cifras, texto, personas reconocibles ni marcas dentro de la imagen.
+  - Las cifras y los gráficos se hacen con el kit, sin imagen. El CTA va siempre sin imagen.
+  - Producción lo monta según `videos/KIT.md`, «Imágenes generadas».

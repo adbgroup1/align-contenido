@@ -71,6 +71,10 @@ npx remotion render src/index.ts <ID> ../media/<semana>/<ID>.mp4 \
 
 - **Kit v2:** los vídeos se montan con `videos/src/kit.tsx` (manual en `videos/KIT.md`). La voz se genera
   antes del render con `node scripts/voz.mjs <ID>`.
+- **Imágenes de escena:** si el guion lleva `IMAGEN:`, Andrés las hace antes con Claude en local, en ChatGPT web
+  (skill `align-imagenes`), y llegan en `public/img/<ID>/`. Si faltan, `node scripts/imagenes.mjs <ID>`
+  (`KIT.md`, «Imágenes generadas»); hoy la API no tiene cupo, así que esas escenas se montan sin imagen.
+  Nunca se usan modelos de vídeo.
 - **Si la fuente Inter no carga** (Google Fonts bloqueado), sigue con la fuente del sistema y apúntalo en la
   nota del manager. No te pares por eso.
 
@@ -82,8 +86,9 @@ La nube solo deja salir a los dominios permitidos en el entorno. Las claves van 
 | Variable | Para qué | Dominio que debe estar permitido |
 |---|---|---|
 | `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID` | Voz en off (`scripts/voz.mjs`) | `api.elevenlabs.io` |
-| `GEMINI_API_KEY` | Que Gemini vea los virales (`scripts/ver-videos.mjs`) | `generativelanguage.googleapis.com` |
-| `GOOGLE_API_KEY` (opcional; si no, usa `GEMINI_API_KEY`) | Buscar Shorts (`scripts/buscar-shorts.mjs`) | `www.googleapis.com` |
+| `GEMINI_API_KEY` | Que Gemini vea los virales (`scripts/ver-videos.mjs`) y las imágenes de escena (`scripts/imagenes.mjs`) | `generativelanguage.googleapis.com` |
+| `OPENAI_API_KEY` (opcional) | Imágenes de escena con `scripts/imagenes.mjs --openai` | `api.openai.com` |
+| `GOOGLE_API_KEY` (obligatoria: la clave de Gemini está vinculada a una cuenta de servicio y no admite YouTube) | Buscar Shorts (`scripts/buscar-shorts.mjs`) | `www.googleapis.com` |
 
 - Si falta una clave o un dominio, el script lo dice. Apúntalo y no improvises otra vía.
 

@@ -1,0 +1,24 @@
+{
+ "estilo": "Clean minimal 3D render, soft studio lighting, deep navy blue background (#0F172A), cobalt blue (#1D4ED8) and pale periwinkle (#C7D7FE) accents, subtle glossy materials, shallow depth of field.",
+ "proveedor_usado": "ChatGPT web (a mano, 15 nov 2026)",
+ "imagenes": [
+  {
+   "id": "01-hucha",
+   "prompt": "A small clear glass jar standing alone on a dark navy table, only three coins at the bottom of the jar, a single soft blue spotlight from above, lonely and quiet mood."
+  },
+  {
+   "id": "02-imprevistos",
+   "prompt": "A small 3D toy house and a tiny toy car on a dark navy table under a stormy little cloud raining blue drops, a periwinkle umbrella floating above them protecting them from the rain."
+  },
+  {
+   "id": "03-llenando",
+   "ref": "01-hucha",
+   "prompt": "The same clear glass jar on the dark navy table, now half full of silver and blue coins, more coins frozen mid-air falling into it, gentle blue rim light."
+  },
+  {
+   "id": "04-crece",
+   "ref": "01-hucha",
+   "prompt": "The same clear glass jar now full of silver coins on the dark navy table, a fresh green sprout with two leaves growing out of the top of the coins, warm hopeful soft light, calm mood."
+  }
+ ]
+}
