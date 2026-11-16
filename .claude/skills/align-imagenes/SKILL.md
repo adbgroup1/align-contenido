@@ -9,7 +9,7 @@ description: Imágenes de escena de ALIGN en modo semiautomático. Claude, en lo
 Las imágenes se hacen con el ChatGPT Plus de Andrés, en su Chrome, **solo en una sesión con él delante**.
 Nunca en una tarea programada ni sin supervisión: las condiciones de ChatGPT no permiten automatizarlo.
 
-**Cuándo:** después de la rutina Semana (guiones escritos) y **antes** de Producción.
+**Cuándo:** entre la rutina Semana (miércoles 09:00) y Producción (sábado 13:00). El parte diario del manager avisa de lo que falta.
 
 ## Pasos
 

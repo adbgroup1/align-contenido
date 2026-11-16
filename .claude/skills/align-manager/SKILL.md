@@ -42,10 +42,13 @@ Lee `GUIA.md` y puntúa cada guion de 1 a 5 en:
 ### Qué entra en «Necesito de ti:»
 
 - **Vídeos en `Tu revisión` sin decidir**, con el número y el enlace a cada fila.
+- **Imágenes pendientes** (de miércoles a sábado): filas en `Revisión manager OK` cuyo guion tiene alguna
+  `IMAGEN:` y sin ningún `.jpg` en `videos/public/img/<ID>/` del repo. Ponlo así: «Imágenes: W48-01, W48-02
+  (antes del sábado 13:00; abre una sesión en el Mac y di "haz las imágenes de la semana")».
 - **Atascos:**
-  - filas en `Revisión manager OK` sin vídeo desde hace más de 1 día;
+  - filas en `Revisión manager OK` sin vídeo después de la producción del sábado;
   - filas en `Aprobado` sin programar;
-  - semana sin guiones el domingo.
+  - semana sin guiones el jueves (la rutina Semana corre los miércoles).
 - **Errores** que otros agentes hayan dejado en «Nota del manager».
 - **Lo que falte para publicar:** por ejemplo, una red sin conectar en Metricool o el plan al límite.
 
