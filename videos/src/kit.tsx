@@ -753,7 +753,7 @@ export const CtaCrecer: React.FC<{
         </div>
         <div
           style={{
-            fontSize: boton.length > 10 ? 110 : 140,
+            fontSize: boton.length > 10 ? 100 : boton.length > 8 ? 118 : 140,
             fontWeight: 900,
             color: COLORS.white,
             background: `linear-gradient(160deg, #3B6BFF, ${COLORS.blue})`,
