@@ -1,0 +1,14 @@
+{
+  "escenas": [
+    { "id": "hook", "texto": "Tu colchón no puede estar en tu cuenta corriente." },
+    { "id": "gasto", "texto": "Porque si no está separado, no es colchón. Es gasto." },
+    { "id": "dato", "texto": "Y ojo: más de una de cada tres personas en España no puede pagar un imprevisto." },
+    { "id": "paso1", "texto": "Paso uno: una cuenta aparte, solo para emergencias." },
+    { "id": "rehook", "texto": "Paso dos: ¿cuánto tiene que haber?" },
+    { "id": "wow", "texto": "De tres a seis meses de tus gastos. Si gastas mil doscientos al mes, entre tres mil seiscientos y siete mil doscientos euros." },
+    { "id": "usos", "texto": "Y solo se toca si hay una avería, un despido o un médico." },
+    { "id": "repones", "texto": "Si lo usas, lo repones primero. Antes que cualquier otra cosa." },
+    { "id": "cta", "texto": "Guárdalo, y monta tu colchón este mes. Y síguenos para más." },
+    { "id": "cierre", "texto": "Tu colchón, separado y fuera de tu cuenta corriente." }
+  ]
+}
