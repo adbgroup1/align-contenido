@@ -111,6 +111,11 @@ La nube solo deja salir a los dominios permitidos en el entorno. Las claves van 
   - Si el push falla por cambios remotos: `git pull --rebase` y otra vez `git push`.
 - **No inventes datos.** Lo que no se vea, «sin dato».
 - **Nunca borres filas de Notion ni posts de Metricool.**
-- **Avisar a Andrés:** usa la herramienta de notificación push (PushNotification) **solo** cuando la skill lo
-  diga.
+- **Avisar a Andrés:** **solo** cuando la skill lo diga, con un correo. Una línea de Bash:
+  `curl -sL "$AVISO_URL" -H 'Content-Type: text/plain' --data-binary "<asunto>
+<detalle opcional>"`
+  - La primera línea es el asunto; debe responder `ok`. Como mucho 10 avisos al día.
+  - `AVISO_URL` es una variable del entorno (dominios `script.google.com` y `script.googleusercontent.com`).
+    Nunca la escribas en el repo ni en Notion. Si falta o no responde `ok`, dilo en el resumen.
+  - No uses PushNotification: Andrés no tiene la app de Claude en el móvil.
 - **Termina siempre con un resumen de 3–5 líneas** de lo que has hecho.

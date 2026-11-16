@@ -67,6 +67,6 @@ Lee `GUIA.md` y puntúa cada guion de 1 a 5 en:
 
 - **Si «Necesito de ti:» está vacío y no es lunes:** responde «Todo en orden» y termina, **sin
   notificación**.
-- **Si no**, manda **una** notificación push a Andrés, corta. Por ejemplo:
+- **Si no**, manda **un** aviso por correo a Andrés (así lo explica «Avisar a Andrés» en `CLAUDE.md`), corto. Por ejemplo:
   «ALIGN: 3 vídeos para revisar en Notion · 1 atasco: W47-02 sin renderizar».
 - Nunca pongas `Aprobado`, `Programado` ni `Publicado`.
