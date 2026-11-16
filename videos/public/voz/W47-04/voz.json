@@ -1,0 +1,476 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "¿Con catorce pagas cobras más que con doce?",
+   "archivo": "hook.mp3",
+   "segundos": 2.403265,
+   "palabras": [
+    {
+     "t": "¿Con",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "catorce",
+     "inicio": 0.337,
+     "fin": 0.685
+    },
+    {
+     "t": "pagas",
+     "inicio": 0.743,
+     "fin": 0.987
+    },
+    {
+     "t": "cobras",
+     "inicio": 1.045,
+     "fin": 1.312
+    },
+    {
+     "t": "más",
+     "inicio": 1.37,
+     "fin": 1.521
+    },
+    {
+     "t": "que",
+     "inicio": 1.567,
+     "fin": 1.649
+    },
+    {
+     "t": "con",
+     "inicio": 1.695,
+     "fin": 1.834
+    },
+    {
+     "t": "doce?",
+     "inicio": 1.892,
+     "fin": 2.368
+    }
+   ]
+  },
+  {
+   "id": "gancho2",
+   "texto": "Spoiler: no. Mira las dos tabletas.",
+   "archivo": "gancho2.mp3",
+   "segundos": 2.586122,
+   "palabras": [
+    {
+     "t": "Spoiler:",
+     "inicio": 0,
+     "fin": 0.557
+    },
+    {
+     "t": "no.",
+     "inicio": 0.673,
+     "fin": 0.952
+    },
+    {
+     "t": "Mira",
+     "inicio": 1.149,
+     "fin": 1.405
+    },
+    {
+     "t": "las",
+     "inicio": 1.451,
+     "fin": 1.567
+    },
+    {
+     "t": "dos",
+     "inicio": 1.614,
+     "fin": 1.741
+    },
+    {
+     "t": "tabletas.",
+     "inicio": 1.788,
+     "fin": 2.554
+    }
+   ]
+  },
+  {
+   "id": "ejemplo",
+   "texto": "Ejemplo: veinticuatro mil euros brutos al año.",
+   "archivo": "ejemplo.mp3",
+   "segundos": 3.056327,
+   "palabras": [
+    {
+     "t": "Ejemplo:",
+     "inicio": 0,
+     "fin": 0.662
+    },
+    {
+     "t": "veinticuatro",
+     "inicio": 0.859,
+     "fin": 1.416
+    },
+    {
+     "t": "mil",
+     "inicio": 1.463,
+     "fin": 1.591
+    },
+    {
+     "t": "euros",
+     "inicio": 1.637,
+     "fin": 1.892
+    },
+    {
+     "t": "brutos",
+     "inicio": 1.939,
+     "fin": 2.264
+    },
+    {
+     "t": "al",
+     "inicio": 2.334,
+     "fin": 2.403
+    },
+    {
+     "t": "año.",
+     "inicio": 2.426,
+     "fin": 3.019
+    }
+   ]
+  },
+  {
+   "id": "importes",
+   "texto": "Doce pagas de dos mil, o catorce de mil setecientos catorce.",
+   "archivo": "importes.mp3",
+   "segundos": 4.022857,
+   "palabras": [
+    {
+     "t": "Doce",
+     "inicio": 0,
+     "fin": 0.348
+    },
+    {
+     "t": "pagas",
+     "inicio": 0.406,
+     "fin": 0.755
+    },
+    {
+     "t": "de",
+     "inicio": 0.801,
+     "fin": 0.848
+    },
+    {
+     "t": "dos",
+     "inicio": 0.906,
+     "fin": 1.022
+    },
+    {
+     "t": "mil,",
+     "inicio": 1.068,
+     "fin": 1.451
+    },
+    {
+     "t": "o",
+     "inicio": 1.591,
+     "fin": 1.66
+    },
+    {
+     "t": "catorce",
+     "inicio": 1.718,
+     "fin": 2.136
+    },
+    {
+     "t": "de",
+     "inicio": 2.194,
+     "fin": 2.252
+    },
+    {
+     "t": "mil",
+     "inicio": 2.299,
+     "fin": 2.508
+    },
+    {
+     "t": "setecientos",
+     "inicio": 2.566,
+     "fin": 3.17
+    },
+    {
+     "t": "catorce.",
+     "inicio": 3.204,
+     "fin": 3.994
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Las apilas… y miden exactamente lo mismo.",
+   "archivo": "wow.mp3",
+   "segundos": 2.586122,
+   "palabras": [
+    {
+     "t": "Las",
+     "inicio": 0,
+     "fin": 0.174
+    },
+    {
+     "t": "apilas…",
+     "inicio": 0.232,
+     "fin": 0.708
+    },
+    {
+     "t": "y",
+     "inicio": 0.789,
+     "fin": 0.906
+    },
+    {
+     "t": "miden",
+     "inicio": 0.987,
+     "fin": 1.231
+    },
+    {
+     "t": "exactamente",
+     "inicio": 1.277,
+     "fin": 1.858
+    },
+    {
+     "t": "lo",
+     "inicio": 1.892,
+     "fin": 1.962
+    },
+    {
+     "t": "mismo.",
+     "inicio": 2.009,
+     "fin": 2.554
+    }
+   ]
+  },
+  {
+   "id": "regalo",
+   "texto": "La paga extra no es dinero extra.",
+   "archivo": "regalo.mp3",
+   "segundos": 1.933061,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0,
+     "fin": 0.128
+    },
+    {
+     "t": "paga",
+     "inicio": 0.174,
+     "fin": 0.383
+    },
+    {
+     "t": "extra",
+     "inicio": 0.453,
+     "fin": 0.766
+    },
+    {
+     "t": "no",
+     "inicio": 0.824,
+     "fin": 0.906
+    },
+    {
+     "t": "es",
+     "inicio": 0.952,
+     "fin": 0.998
+    },
+    {
+     "t": "dinero",
+     "inicio": 1.033,
+     "fin": 1.324
+    },
+    {
+     "t": "extra.",
+     "inicio": 1.37,
+     "fin": 1.904
+    }
+   ]
+  },
+  {
+   "id": "calendario",
+   "texto": "Es tu sueldo, que llega más tarde.",
+   "archivo": "calendario.mp3",
+   "segundos": 1.906939,
+   "palabras": [
+    {
+     "t": "Es",
+     "inicio": 0,
+     "fin": 0.209
+    },
+    {
+     "t": "tu",
+     "inicio": 0.255,
+     "fin": 0.325
+    },
+    {
+     "t": "sueldo,",
+     "inicio": 0.383,
+     "fin": 0.743
+    },
+    {
+     "t": "que",
+     "inicio": 0.766,
+     "fin": 0.836
+    },
+    {
+     "t": "llega",
+     "inicio": 0.859,
+     "fin": 1.091
+    },
+    {
+     "t": "más",
+     "inicio": 1.138,
+     "fin": 1.265
+    },
+    {
+     "t": "tarde.",
+     "inicio": 1.312,
+     "fin": 1.858
+    }
+   ]
+  },
+  {
+   "id": "planifica",
+   "texto": "Así que planifícala antes de que llegue.",
+   "archivo": "planifica.mp3",
+   "segundos": 2.089796,
+   "palabras": [
+    {
+     "t": "Así",
+     "inicio": 0,
+     "fin": 0.313
+    },
+    {
+     "t": "que",
+     "inicio": 0.383,
+     "fin": 0.464
+    },
+    {
+     "t": "planifícala",
+     "inicio": 0.511,
+     "fin": 1.126
+    },
+    {
+     "t": "antes",
+     "inicio": 1.161,
+     "fin": 1.451
+    },
+    {
+     "t": "de",
+     "inicio": 1.498,
+     "fin": 1.544
+    },
+    {
+     "t": "que",
+     "inicio": 1.591,
+     "fin": 1.66
+    },
+    {
+     "t": "llegue.",
+     "inicio": 1.683,
+     "fin": 2.043
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Comenta CURSO y te mando el curso para aprender desde cero.",
+   "archivo": "cta.mp3",
+   "segundos": 3.186939,
+   "palabras": [
+    {
+     "t": "Comenta",
+     "inicio": 0,
+     "fin": 0.511
+    },
+    {
+     "t": "CURSO",
+     "inicio": 0.557,
+     "fin": 0.952
+    },
+    {
+     "t": "y",
+     "inicio": 1.01,
+     "fin": 1.045
+    },
+    {
+     "t": "te",
+     "inicio": 1.103,
+     "fin": 1.161
+    },
+    {
+     "t": "mando",
+     "inicio": 1.219,
+     "fin": 1.44
+    },
+    {
+     "t": "el",
+     "inicio": 1.463,
+     "fin": 1.509
+    },
+    {
+     "t": "curso",
+     "inicio": 1.567,
+     "fin": 1.858
+    },
+    {
+     "t": "para",
+     "inicio": 1.904,
+     "fin": 2.043
+    },
+    {
+     "t": "aprender",
+     "inicio": 2.067,
+     "fin": 2.438
+    },
+    {
+     "t": "desde",
+     "inicio": 2.508,
+     "fin": 2.728
+    },
+    {
+     "t": "cero.",
+     "inicio": 2.775,
+     "fin": 3.158
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "texto": "Así que ya sabes: ¿doce o catorce?",
+   "archivo": "cierre.mp3",
+   "segundos": 2.533878,
+   "palabras": [
+    {
+     "t": "Así",
+     "inicio": 0,
+     "fin": 0.337
+    },
+    {
+     "t": "que",
+     "inicio": 0.406,
+     "fin": 0.499
+    },
+    {
+     "t": "ya",
+     "inicio": 0.569,
+     "fin": 0.673
+    },
+    {
+     "t": "sabes:",
+     "inicio": 0.72,
+     "fin": 1.161
+    },
+    {
+     "t": "¿doce",
+     "inicio": 1.207,
+     "fin": 1.672
+    },
+    {
+     "t": "o",
+     "inicio": 1.741,
+     "fin": 1.765
+    },
+    {
+     "t": "catorce?",
+     "inicio": 1.823,
+     "fin": 2.508
+    }
+   ]
+  }
+ ]
+}

@@ -1,574 +1,574 @@
 {
- "proveedor": "say (prueba)",
- "voz": "Mónica",
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
  "escenas": [
   {
    "id": "hook",
    "texto": "Mismos cien euros al mes. Diez años de diferencia.",
-   "archivo": "hook.wav",
-   "segundos": 2.690204081632653,
+   "archivo": "hook.mp3",
+   "segundos": 3.004082,
    "palabras": [
     {
      "t": "Mismos",
-     "inicio": 0.0807061224489796,
-     "fin": 0.3968051020408163
+     "inicio": 0,
+     "fin": 0.441
     },
     {
      "t": "cien",
-     "inicio": 0.3968051020408163,
-     "fin": 0.6338793367346939
+     "inicio": 0.464,
+     "fin": 0.65
     },
     {
      "t": "euros",
-     "inicio": 0.6338793367346939,
-     "fin": 0.9104659438775511
+     "inicio": 0.72,
+     "fin": 0.975
     },
     {
      "t": "al",
-     "inicio": 0.9104659438775511,
-     "fin": 1.0685154336734695
+     "inicio": 1.033,
+     "fin": 1.103
     },
     {
      "t": "mes.",
-     "inicio": 1.0685154336734695,
-     "fin": 1.3846144132653062
+     "inicio": 1.161,
+     "fin": 1.486
     },
     {
      "t": "Diez",
-     "inicio": 1.3846144132653062,
-     "fin": 1.6216886479591839
+     "inicio": 1.602,
+     "fin": 1.846
     },
     {
      "t": "años",
-     "inicio": 1.6216886479591839,
-     "fin": 1.8587628826530613
+     "inicio": 1.881,
+     "fin": 2.148
     },
     {
      "t": "de",
-     "inicio": 1.8587628826530613,
-     "fin": 2.01681237244898
+     "inicio": 2.194,
+     "fin": 2.241
     },
     {
      "t": "diferencia.",
-     "inicio": 2.01681237244898,
-     "fin": 2.609497959183674
+     "inicio": 2.287,
+     "fin": 2.972
     }
    ]
   },
   {
    "id": "gancho2",
    "texto": "Lucía empieza a invertir a los veinticinco. Marcos, a los treinta y cinco.",
-   "archivo": "gancho2.wav",
-   "segundos": 3.886167800453515,
+   "archivo": "gancho2.mp3",
+   "segundos": 3.343673,
    "palabras": [
     {
      "t": "Lucía",
-     "inicio": 0.11658503401360544,
-     "fin": 0.38861678004535144
+     "inicio": 0,
+     "fin": 0.348
     },
     {
      "t": "empieza",
-     "inicio": 0.38861678004535144,
-     "fin": 0.7383718820861678
+     "inicio": 0.372,
+     "fin": 0.685
     },
     {
      "t": "a",
-     "inicio": 0.7383718820861678,
-     "fin": 0.8549569160997732
+     "inicio": 0.708,
+     "fin": 0.731
     },
     {
      "t": "invertir",
-     "inicio": 0.8549569160997732,
-     "fin": 1.2435736961451247
+     "inicio": 0.766,
+     "fin": 1.103
     },
     {
      "t": "a",
-     "inicio": 1.2435736961451247,
-     "fin": 1.3601587301587301
+     "inicio": 1.126,
+     "fin": 1.149
     },
     {
      "t": "los",
-     "inicio": 1.3601587301587301,
-     "fin": 1.5544671201814058
+     "inicio": 1.184,
+     "fin": 1.277
     },
     {
      "t": "veinticinco.",
-     "inicio": 1.5544671201814058,
-     "fin": 2.176253968253968
+     "inicio": 1.312,
+     "fin": 1.916
     },
     {
      "t": "Marcos,",
-     "inicio": 2.176253968253968,
-     "fin": 2.603732426303855
+     "inicio": 1.95,
+     "fin": 2.345
     },
     {
      "t": "a",
-     "inicio": 2.603732426303855,
-     "fin": 2.7203174603174602
+     "inicio": 2.38,
+     "fin": 2.403
     },
     {
      "t": "los",
-     "inicio": 2.7203174603174602,
-     "fin": 2.914625850340136
+     "inicio": 2.438,
+     "fin": 2.543
     },
     {
      "t": "treinta",
-     "inicio": 2.914625850340136,
-     "fin": 3.2643809523809524
+     "inicio": 2.566,
+     "fin": 2.775
     },
     {
      "t": "y",
-     "inicio": 3.2643809523809524,
-     "fin": 3.380965986394558
+     "inicio": 2.798,
+     "fin": 2.821
     },
     {
      "t": "cinco.",
-     "inicio": 3.380965986394558,
-     "fin": 3.769582766439909
+     "inicio": 2.856,
+     "fin": 3.297
     }
    ]
   },
   {
    "id": "reglas",
    "texto": "Los dos meten cien euros al mes hasta los sesenta y cinco. Ejemplo hipotético, al seis por ciento anual.",
-   "archivo": "reglas.wav",
-   "segundos": 5.105215419501134,
+   "archivo": "reglas.mp3",
+   "segundos": 5.093878,
    "palabras": [
     {
      "t": "Los",
-     "inicio": 0.15315646258503401,
-     "fin": 0.33772963544392115
+     "inicio": 0,
+     "fin": 0.232
     },
     {
      "t": "dos",
-     "inicio": 0.33772963544392115,
-     "fin": 0.5223028083028083
+     "inicio": 0.267,
+     "fin": 0.395
     },
     {
      "t": "meten",
-     "inicio": 0.5223028083028083,
-     "fin": 0.7807052503052503
+     "inicio": 0.464,
+     "fin": 0.72
     },
     {
      "t": "cien",
-     "inicio": 0.7807052503052503,
-     "fin": 1.0021930577359148
+     "inicio": 0.766,
+     "fin": 0.952
     },
     {
      "t": "euros",
-     "inicio": 1.0021930577359148,
-     "fin": 1.2605954997383568
+     "inicio": 1.01,
+     "fin": 1.231
     },
     {
      "t": "al",
-     "inicio": 1.2605954997383568,
-     "fin": 1.4082540380254664
+     "inicio": 1.289,
+     "fin": 1.347
     },
     {
      "t": "mes",
-     "inicio": 1.4082540380254664,
-     "fin": 1.5928272108843535
+     "inicio": 1.393,
+     "fin": 1.567
     },
     {
      "t": "hasta",
-     "inicio": 1.5928272108843535,
-     "fin": 1.8512296528867955
+     "inicio": 1.614,
+     "fin": 1.8
     },
     {
      "t": "los",
-     "inicio": 1.8512296528867955,
-     "fin": 2.035802825745683
+     "inicio": 1.834,
+     "fin": 1.939
     },
     {
      "t": "sesenta",
-     "inicio": 2.035802825745683,
-     "fin": 2.3680345368916798
+     "inicio": 1.962,
+     "fin": 2.276
     },
     {
      "t": "y",
-     "inicio": 2.3680345368916798,
-     "fin": 2.478778440607012
+     "inicio": 2.299,
+     "fin": 2.322
     },
     {
      "t": "cinco.",
-     "inicio": 2.478778440607012,
-     "fin": 2.847924786324786
+     "inicio": 2.357,
+     "fin": 2.717
     },
     {
      "t": "Ejemplo",
-     "inicio": 2.847924786324786,
-     "fin": 3.180156497470783
+     "inicio": 2.752,
+     "fin": 3.17
     },
     {
      "t": "hipotético,",
-     "inicio": 3.180156497470783,
-     "fin": 3.7338760160474442
+     "inicio": 3.193,
+     "fin": 3.843
     },
     {
      "t": "al",
-     "inicio": 3.7338760160474442,
-     "fin": 3.881534554334554
+     "inicio": 3.901,
+     "fin": 4.029
     },
     {
      "t": "seis",
-     "inicio": 3.881534554334554,
-     "fin": 4.103022361765219
+     "inicio": 4.098,
+     "fin": 4.249
     },
     {
      "t": "por",
-     "inicio": 4.103022361765219,
-     "fin": 4.287595534624106
+     "inicio": 4.296,
+     "fin": 4.412
     },
     {
      "t": "ciento",
-     "inicio": 4.287595534624106,
-     "fin": 4.582912611198326
+     "inicio": 4.458,
+     "fin": 4.702
     },
     {
      "t": "anual.",
-     "inicio": 4.582912611198326,
-     "fin": 4.9520589569161
+     "inicio": 4.737,
+     "fin": 5.062
     }
    ]
   },
   {
    "id": "pregunta",
    "texto": "¿Quién crees que acaba con más?",
-   "archivo": "pregunta.wav",
-   "segundos": 1.3053968253968253,
+   "archivo": "pregunta.mp3",
+   "segundos": 1.854694,
    "palabras": [
     {
      "t": "¿Quién",
-     "inicio": 0.03916190476190476,
-     "fin": 0.25940577940577936
+     "inicio": 0,
+     "fin": 0.372
     },
     {
      "t": "crees",
-     "inicio": 0.25940577940577936,
-     "fin": 0.479649654049654
+     "inicio": 0.43,
+     "fin": 0.65
     },
     {
      "t": "que",
-     "inicio": 0.479649654049654,
-     "fin": 0.6369667073667072
+     "inicio": 0.697,
+     "fin": 0.766
     },
     {
      "t": "acaba",
-     "inicio": 0.6369667073667072,
-     "fin": 0.8572105820105819
+     "inicio": 0.789,
+     "fin": 1.045
     },
     {
      "t": "con",
-     "inicio": 0.8572105820105819,
-     "fin": 1.0145276353276351
+     "inicio": 1.091,
+     "fin": 1.207
     },
     {
      "t": "más?",
-     "inicio": 1.0145276353276351,
-     "fin": 1.2662349206349204
+     "inicio": 1.265,
+     "fin": 1.811
     }
    ]
   },
   {
    "id": "wow",
    "texto": "Lucía llega a casi doscientos mil euros. Marcos, a cien mil.",
-   "archivo": "wow.wav",
-   "segundos": 3.328888888888889,
+   "archivo": "wow.mp3",
+   "segundos": 3.84,
    "palabras": [
     {
      "t": "Lucía",
-     "inicio": 0.09986666666666666,
-     "fin": 0.38068831908831907
+     "inicio": 0,
+     "fin": 0.441
     },
     {
      "t": "llega",
-     "inicio": 0.38068831908831907,
-     "fin": 0.6615099715099715
+     "inicio": 0.464,
+     "fin": 0.673
     },
     {
      "t": "a",
-     "inicio": 0.6615099715099715,
-     "fin": 0.7818621082621082
+     "inicio": 0.697,
+     "fin": 0.72
     },
     {
      "t": "casi",
-     "inicio": 0.7818621082621082,
-     "fin": 1.0225663817663817
+     "inicio": 0.766,
+     "fin": 0.998
     },
     {
      "t": "doscientos",
-     "inicio": 1.0225663817663817,
-     "fin": 1.5039749287749287
+     "inicio": 1.045,
+     "fin": 1.509
     },
     {
      "t": "mil",
-     "inicio": 1.5039749287749287,
-     "fin": 1.7045618233618232
+     "inicio": 1.556,
+     "fin": 1.683
     },
     {
      "t": "euros.",
-     "inicio": 1.7045618233618232,
-     "fin": 2.105735612535612
+     "inicio": 1.73,
+     "fin": 2.101
     },
     {
      "t": "Marcos,",
-     "inicio": 2.105735612535612,
-     "fin": 2.5470267806267803
+     "inicio": 2.264,
+     "fin": 2.81
     },
     {
      "t": "a",
-     "inicio": 2.5470267806267803,
-     "fin": 2.667378917378917
+     "inicio": 2.902,
+     "fin": 2.995
     },
     {
      "t": "cien",
-     "inicio": 2.667378917378917,
-     "fin": 2.9080831908831906
+     "inicio": 3.053,
+     "fin": 3.286
     },
     {
      "t": "mil.",
-     "inicio": 2.9080831908831906,
-     "fin": 3.229022222222222
+     "inicio": 3.344,
+     "fin": 3.808
     }
    ]
   },
   {
    "id": "rehook",
    "texto": "Y ojo, Marcos solo puso doce mil euros menos…",
-   "archivo": "rehook.wav",
-   "segundos": 2.4936961451247166,
+   "archivo": "rehook.mp3",
+   "segundos": 3.004082,
    "palabras": [
     {
      "t": "Y",
-     "inicio": 0.07481088435374149,
-     "fin": 0.19400110688343133
+     "inicio": 0,
+     "fin": 0.128
     },
     {
      "t": "ojo,",
-     "inicio": 0.19400110688343133,
-     "fin": 0.5118417002959376
+     "inicio": 0.244,
+     "fin": 0.627
     },
     {
      "t": "Marcos",
-     "inicio": 0.5118417002959376,
-     "fin": 0.8296822937084438
+     "inicio": 0.789,
+     "fin": 1.149
     },
     {
      "t": "solo",
-     "inicio": 0.8296822937084438,
-     "fin": 1.0680627387678234
+     "inicio": 1.184,
+     "fin": 1.393
     },
     {
      "t": "puso",
-     "inicio": 1.0680627387678234,
-     "fin": 1.306443183827203
+     "inicio": 1.44,
+     "fin": 1.718
     },
     {
      "t": "doce",
-     "inicio": 1.306443183827203,
-     "fin": 1.5448236288865826
+     "inicio": 1.776,
+     "fin": 1.974
     },
     {
      "t": "mil",
-     "inicio": 1.5448236288865826,
-     "fin": 1.743473999769399
+     "inicio": 2.02,
+     "fin": 2.148
     },
     {
      "t": "euros",
-     "inicio": 1.743473999769399,
-     "fin": 2.021584519005342
+     "inicio": 2.206,
+     "fin": 2.45
     },
     {
      "t": "menos…",
-     "inicio": 2.021584519005342,
-     "fin": 2.418885260770975
+     "inicio": 2.508,
+     "fin": 2.972
     }
    ]
   },
   {
    "id": "mitad",
    "texto": "…pero acaba con la mitad.",
-   "archivo": "mitad.wav",
-   "segundos": 1.0500226757369615,
+   "archivo": "mitad.mp3",
+   "segundos": 1.906939,
    "palabras": [
     {
      "t": "…pero",
-     "inicio": 0.031500680272108846,
-     "fin": 0.21656717687074828
+     "inicio": 0,
+     "fin": 0.348
     },
     {
      "t": "acaba",
-     "inicio": 0.21656717687074828,
-     "fin": 0.432478089569161
+     "inicio": 0.372,
+     "fin": 0.627
     },
     {
      "t": "con",
-     "inicio": 0.432478089569161,
-     "fin": 0.5867001700680272
+     "inicio": 0.662,
+     "fin": 0.766
     },
     {
      "t": "la",
-     "inicio": 0.5867001700680272,
-     "fin": 0.7100778344671201
+     "inicio": 0.801,
+     "fin": 0.859
     },
     {
      "t": "mitad.",
-     "inicio": 0.7100778344671201,
-     "fin": 1.0185219954648526
+     "inicio": 0.906,
+     "fin": 1.858
     }
    ]
   },
   {
    "id": "tiempo",
    "texto": "El tiempo hace el trabajo pesado.",
-   "archivo": "tiempo.wav",
-   "segundos": 1.5765986394557823,
+   "archivo": "tiempo.mp3",
+   "segundos": 1.802449,
    "palabras": [
     {
      "t": "El",
-     "inicio": 0.047297959183673466,
-     "fin": 0.18844107547781014
+     "inicio": 0,
+     "fin": 0.209
     },
     {
      "t": "tiempo",
-     "inicio": 0.18844107547781014,
-     "fin": 0.4707273080660835
+     "inicio": 0.255,
+     "fin": 0.592
     },
     {
      "t": "hace",
-     "inicio": 0.4707273080660835,
-     "fin": 0.6824419825072885
+     "inicio": 0.615,
+     "fin": 0.778
     },
     {
      "t": "el",
-     "inicio": 0.6824419825072885,
-     "fin": 0.8235850988014252
+     "inicio": 0.801,
+     "fin": 0.859
     },
     {
      "t": "trabajo",
-     "inicio": 0.8235850988014252,
-     "fin": 1.1411571104632328
+     "inicio": 0.906,
+     "fin": 1.231
     },
     {
      "t": "pesado.",
-     "inicio": 1.1411571104632328,
-     "fin": 1.5293006802721087
+     "inicio": 1.265,
+     "fin": 1.765
     }
    ]
   },
   {
    "id": "cta",
    "texto": "Comenta CURSO y te mando el curso para aprender desde cero.",
-   "archivo": "cta.wav",
-   "segundos": 2.4899773242630387,
+   "archivo": "cta.mp3",
+   "segundos": 4.022857,
    "palabras": [
     {
      "t": "Comenta",
-     "inicio": 0.07469931972789116,
-     "fin": 0.36326381511508715
+     "inicio": 0,
+     "fin": 0.499
     },
     {
      "t": "CURSO",
-     "inicio": 0.36326381511508715,
-     "fin": 0.5877028670829063
+     "inicio": 0.557,
+     "fin": 0.964
     },
     {
      "t": "y",
-     "inicio": 0.5877028670829063,
-     "fin": 0.6838910322119717
+     "inicio": 1.033,
+     "fin": 1.103
     },
     {
      "t": "te",
-     "inicio": 0.6838910322119717,
-     "fin": 0.8121419190507254
+     "inicio": 1.173,
+     "fin": 1.242
     },
     {
      "t": "mando",
-     "inicio": 0.8121419190507254,
-     "fin": 1.0365809710185445
+     "inicio": 1.289,
+     "fin": 1.533
     },
     {
      "t": "el",
-     "inicio": 1.0365809710185445,
-     "fin": 1.1648318578572983
+     "inicio": 1.556,
+     "fin": 1.614
     },
     {
      "t": "curso",
-     "inicio": 1.1648318578572983,
-     "fin": 1.3892709098251173
+     "inicio": 1.672,
+     "fin": 1.974
     },
     {
      "t": "para",
-     "inicio": 1.3892709098251173,
-     "fin": 1.581647240083248
+     "inicio": 2.02,
+     "fin": 2.171
     },
     {
      "t": "aprender",
-     "inicio": 1.581647240083248,
-     "fin": 1.9022744571801324
+     "inicio": 2.194,
+     "fin": 2.601
     },
     {
      "t": "desde",
-     "inicio": 1.9022744571801324,
-     "fin": 2.1267135091479514
+     "inicio": 2.717,
+     "fin": 3.007
     },
     {
      "t": "cero.",
-     "inicio": 2.1267135091479514,
-     "fin": 2.415278004535147
+     "inicio": 3.053,
+     "fin": 3.994
     }
    ]
   },
   {
    "id": "cierre",
    "texto": "La diferencia no fue el dinero. Fueron diez años.",
-   "archivo": "cierre.wav",
-   "segundos": 2.4349206349206347,
+   "archivo": "cierre.mp3",
+   "segundos": 2.951837,
    "palabras": [
     {
      "t": "La",
-     "inicio": 0.07304761904761904,
-     "fin": 0.21836986646510453
+     "inicio": 0,
+     "fin": 0.151
     },
     {
      "t": "diferencia",
-     "inicio": 0.21836986646510453,
-     "fin": 0.654336608717561
+     "inicio": 0.186,
+     "fin": 0.673
     },
     {
      "t": "no",
-     "inicio": 0.654336608717561,
-     "fin": 0.7996588561350466
+     "inicio": 0.708,
+     "fin": 0.778
     },
     {
      "t": "fue",
-     "inicio": 0.7996588561350466,
-     "fin": 0.9813116654069035
+     "inicio": 0.813,
+     "fin": 0.964
     },
     {
      "t": "el",
-     "inicio": 0.9813116654069035,
-     "fin": 1.126633912824389
+     "inicio": 0.998,
+     "fin": 1.091
     },
     {
      "t": "dinero.",
-     "inicio": 1.126633912824389,
-     "fin": 1.526270093222474
+     "inicio": 1.138,
+     "fin": 1.556
     },
     {
      "t": "Fueron",
-     "inicio": 1.526270093222474,
-     "fin": 1.816914588057445
+     "inicio": 1.625,
+     "fin": 1.95
     },
     {
      "t": "diez",
-     "inicio": 1.816914588057445,
-     "fin": 2.0348979591836733
+     "inicio": 2.009,
+     "fin": 2.183
     },
     {
      "t": "años.",
-     "inicio": 2.0348979591836733,
-     "fin": 2.361873015873016
+     "inicio": 2.218,
+     "fin": 2.926
     }
    ]
   }

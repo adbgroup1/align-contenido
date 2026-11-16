@@ -1,0 +1,493 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "«Ahorro lo que me sobra.» Por eso nunca te sobra nada.",
+   "archivo": "hook.mp3",
+   "segundos": 3.108571,
+   "palabras": [
+    {
+     "t": "«Ahorro",
+     "inicio": 0,
+     "fin": 0.453
+    },
+    {
+     "t": "lo",
+     "inicio": 0.488,
+     "fin": 0.569
+    },
+    {
+     "t": "que",
+     "inicio": 0.604,
+     "fin": 0.673
+    },
+    {
+     "t": "me",
+     "inicio": 0.72,
+     "fin": 0.789
+    },
+    {
+     "t": "sobra.»",
+     "inicio": 0.836,
+     "fin": 1.254
+    },
+    {
+     "t": "Por",
+     "inicio": 1.451,
+     "fin": 1.625
+    },
+    {
+     "t": "eso",
+     "inicio": 1.695,
+     "fin": 1.846
+    },
+    {
+     "t": "nunca",
+     "inicio": 1.904,
+     "fin": 2.159
+    },
+    {
+     "t": "te",
+     "inicio": 2.206,
+     "fin": 2.276
+    },
+    {
+     "t": "sobra",
+     "inicio": 2.31,
+     "fin": 2.566
+    },
+    {
+     "t": "nada.",
+     "inicio": 2.612,
+     "fin": 3.065
+    }
+   ]
+  },
+  {
+   "id": "gancho2",
+   "texto": "No es cuánto cobras. Es el orden.",
+   "archivo": "gancho2.mp3",
+   "segundos": 2.35102,
+   "palabras": [
+    {
+     "t": "No",
+     "inicio": 0,
+     "fin": 0.174
+    },
+    {
+     "t": "es",
+     "inicio": 0.221,
+     "fin": 0.279
+    },
+    {
+     "t": "cuánto",
+     "inicio": 0.337,
+     "fin": 0.627
+    },
+    {
+     "t": "cobras.",
+     "inicio": 0.673,
+     "fin": 1.173
+    },
+    {
+     "t": "Es",
+     "inicio": 1.335,
+     "fin": 1.521
+    },
+    {
+     "t": "el",
+     "inicio": 1.591,
+     "fin": 1.66
+    },
+    {
+     "t": "orden.",
+     "inicio": 1.73,
+     "fin": 2.322
+    }
+   ]
+  },
+  {
+   "id": "reparto",
+   "texto": "El orden de siempre: cobras, gastas, y ahorras lo que quede.",
+   "archivo": "reparto.mp3",
+   "segundos": 4.127347,
+   "palabras": [
+    {
+     "t": "El",
+     "inicio": 0,
+     "fin": 0.151
+    },
+    {
+     "t": "orden",
+     "inicio": 0.221,
+     "fin": 0.476
+    },
+    {
+     "t": "de",
+     "inicio": 0.534,
+     "fin": 0.604
+    },
+    {
+     "t": "siempre:",
+     "inicio": 0.662,
+     "fin": 1.219
+    },
+    {
+     "t": "cobras,",
+     "inicio": 1.335,
+     "fin": 1.869
+    },
+    {
+     "t": "gastas,",
+     "inicio": 1.916,
+     "fin": 2.601
+    },
+    {
+     "t": "y",
+     "inicio": 2.74,
+     "fin": 2.786
+    },
+    {
+     "t": "ahorras",
+     "inicio": 2.844,
+     "fin": 3.228
+    },
+    {
+     "t": "lo",
+     "inicio": 3.286,
+     "fin": 3.355
+    },
+    {
+     "t": "que",
+     "inicio": 3.402,
+     "fin": 3.471
+    },
+    {
+     "t": "quede.",
+     "inicio": 3.529,
+     "fin": 4.087
+    }
+   ]
+  },
+  {
+   "id": "dia25",
+   "texto": "Y el día veinticinco, ya no queda nada que ahorrar.",
+   "archivo": "dia25.mp3",
+   "segundos": 3.186939,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.104
+    },
+    {
+     "t": "el",
+     "inicio": 0.174,
+     "fin": 0.232
+    },
+    {
+     "t": "día",
+     "inicio": 0.267,
+     "fin": 0.453
+    },
+    {
+     "t": "veinticinco,",
+     "inicio": 0.499,
+     "fin": 1.324
+    },
+    {
+     "t": "ya",
+     "inicio": 1.463,
+     "fin": 1.579
+    },
+    {
+     "t": "no",
+     "inicio": 1.625,
+     "fin": 1.718
+    },
+    {
+     "t": "queda",
+     "inicio": 1.765,
+     "fin": 1.985
+    },
+    {
+     "t": "nada",
+     "inicio": 2.032,
+     "fin": 2.241
+    },
+    {
+     "t": "que",
+     "inicio": 2.287,
+     "fin": 2.368
+    },
+    {
+     "t": "ahorrar.",
+     "inicio": 2.403,
+     "fin": 3.158
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Cambia el orden: cobras, ahorras, y después gastas.",
+   "archivo": "wow.mp3",
+   "segundos": 4.623673,
+   "palabras": [
+    {
+     "t": "Cambia",
+     "inicio": 0,
+     "fin": 0.383
+    },
+    {
+     "t": "el",
+     "inicio": 0.406,
+     "fin": 0.464
+    },
+    {
+     "t": "orden:",
+     "inicio": 0.534,
+     "fin": 0.917
+    },
+    {
+     "t": "cobras,",
+     "inicio": 1.057,
+     "fin": 1.567
+    },
+    {
+     "t": "ahorras,",
+     "inicio": 1.683,
+     "fin": 2.229
+    },
+    {
+     "t": "y",
+     "inicio": 2.345,
+     "fin": 2.438
+    },
+    {
+     "t": "después",
+     "inicio": 2.519,
+     "fin": 2.868
+    },
+    {
+     "t": "gastas.",
+     "inicio": 2.914,
+     "fin": 4.598
+    }
+   ]
+  },
+  {
+   "id": "transfer",
+   "texto": "El día uno, una transferencia automática a otra cuenta.",
+   "archivo": "transfer.mp3",
+   "segundos": 4.440816,
+   "palabras": [
+    {
+     "t": "El",
+     "inicio": 0,
+     "fin": 0.197
+    },
+    {
+     "t": "día",
+     "inicio": 0.255,
+     "fin": 0.464
+    },
+    {
+     "t": "uno,",
+     "inicio": 0.546,
+     "fin": 0.975
+    },
+    {
+     "t": "una",
+     "inicio": 1.207,
+     "fin": 1.416
+    },
+    {
+     "t": "transferencia",
+     "inicio": 1.451,
+     "fin": 2.148
+    },
+    {
+     "t": "automática",
+     "inicio": 2.171,
+     "fin": 2.949
+    },
+    {
+     "t": "a",
+     "inicio": 2.984,
+     "fin": 3.007
+    },
+    {
+     "t": "otra",
+     "inicio": 3.053,
+     "fin": 3.297
+    },
+    {
+     "t": "cuenta.",
+     "inicio": 3.344,
+     "fin": 4.412
+    }
+   ]
+  },
+  {
+   "id": "vives",
+   "texto": "Y vives con lo que queda, sin pensarlo.",
+   "archivo": "vives.mp3",
+   "segundos": 2.220408,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.104
+    },
+    {
+     "t": "vives",
+     "inicio": 0.174,
+     "fin": 0.418
+    },
+    {
+     "t": "con",
+     "inicio": 0.476,
+     "fin": 0.569
+    },
+    {
+     "t": "lo",
+     "inicio": 0.604,
+     "fin": 0.673
+    },
+    {
+     "t": "que",
+     "inicio": 0.72,
+     "fin": 0.789
+    },
+    {
+     "t": "queda,",
+     "inicio": 0.836,
+     "fin": 1.138
+    },
+    {
+     "t": "sin",
+     "inicio": 1.173,
+     "fin": 1.324
+    },
+    {
+     "t": "pensarlo.",
+     "inicio": 1.37,
+     "fin": 2.183
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Comenta SISTEMA y te enseño a montarlo en una llamada gratis.",
+   "archivo": "cta.mp3",
+   "segundos": 4.440816,
+   "palabras": [
+    {
+     "t": "Comenta",
+     "inicio": 0,
+     "fin": 0.499
+    },
+    {
+     "t": "SISTEMA",
+     "inicio": 0.557,
+     "fin": 1.103
+    },
+    {
+     "t": "y",
+     "inicio": 1.173,
+     "fin": 1.242
+    },
+    {
+     "t": "te",
+     "inicio": 1.324,
+     "fin": 1.382
+    },
+    {
+     "t": "enseño",
+     "inicio": 1.405,
+     "fin": 1.788
+    },
+    {
+     "t": "a",
+     "inicio": 1.811,
+     "fin": 1.834
+    },
+    {
+     "t": "montarlo",
+     "inicio": 1.869,
+     "fin": 2.403
+    },
+    {
+     "t": "en",
+     "inicio": 2.461,
+     "fin": 2.519
+    },
+    {
+     "t": "una",
+     "inicio": 2.612,
+     "fin": 2.763
+    },
+    {
+     "t": "llamada",
+     "inicio": 2.786,
+     "fin": 3.146
+    },
+    {
+     "t": "gratis.",
+     "inicio": 3.204,
+     "fin": 4.412
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "texto": "Y lo que sobra, para gastar sin culpa.",
+   "archivo": "cierre.mp3",
+   "segundos": 2.272653,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.104
+    },
+    {
+     "t": "lo",
+     "inicio": 0.174,
+     "fin": 0.244
+    },
+    {
+     "t": "que",
+     "inicio": 0.279,
+     "fin": 0.348
+    },
+    {
+     "t": "sobra,",
+     "inicio": 0.383,
+     "fin": 0.697
+    },
+    {
+     "t": "para",
+     "inicio": 0.743,
+     "fin": 0.906
+    },
+    {
+     "t": "gastar",
+     "inicio": 0.964,
+     "fin": 1.254
+    },
+    {
+     "t": "sin",
+     "inicio": 1.3,
+     "fin": 1.44
+    },
+    {
+     "t": "culpa.",
+     "inicio": 1.474,
+     "fin": 2.229
+    }
+   ]
+  }
+ ]
+}
