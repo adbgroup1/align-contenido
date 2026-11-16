@@ -7,6 +7,7 @@ import {
   Cristal,
   DefEscena,
   Escena,
+  Foto,
   Montaje,
   Palabras,
   Pildora,
@@ -26,6 +27,7 @@ const MAX = lucia(65);
 const LUCIA = COLORS.accent;
 const MARCOS = COLORS.gold;
 const EJEMPLO = "Ejemplo hipotético · 6 % anual";
+const IMG = (n: string) => `img/W47-02/${n}.jpg`;
 const k = (v: number) => euros(Math.round(v / 1000) * 1000);
 
 export const EXTRA_W4702: Record<string, number> = { wow: 0.8, mitad: 0.6, cta: 0.6, cierre: 0.8 };
@@ -138,16 +140,13 @@ const ESCENAS: DefEscena[] = [
     id: "hook",
     render: () => (
       <Escena sinEntrada sacudidas={[0.05]}>
+        <Foto src={IMG("01-dos-macetas")} zoom={[1.18, 1.02]} />
         <Sfx s="impacto" volumen={0.55} />
-        <Zona gap={60}>
+        <Zona top={250} bottom={1050} justify="flex-start" gap={26}>
           <Palabras texto="Mismos 100 € al mes. **10 años** de diferencia." size={96} stagger={0.05} />
-          <div style={{ display: "flex", gap: 60 }}>
-            <Cristal color={LUCIA} w={360} desde="izq" delay={0}>
-              <Persona edad={25} color={LUCIA} nombre="Lucía" />
-            </Cristal>
-            <Cristal color={MARCOS} w={360} desde="der" delay={0.08}>
-              <Persona edad={35} color={MARCOS} nombre="Marcos" />
-            </Cristal>
+          <div style={{ display: "flex", gap: 40 }}>
+            <Pildora bg="rgba(124,155,255,0.22)" color={LUCIA} size={44} delay={0.5}>Lucía · 25</Pildora>
+            <Pildora bg="rgba(251,191,36,0.2)" color={MARCOS} size={44} delay={0.7}>Marcos · 35</Pildora>
           </div>
         </Zona>
       </Escena>
@@ -220,9 +219,10 @@ const ESCENAS: DefEscena[] = [
   {
     id: "tiempo",
     render: () => (
-      <Escena fondo="azul">
-        <Zona gap={50}>
-          <Reloj />
+      <Escena sonidoEntrada="whoosh">
+        <Foto src={IMG("02-reloj-arena")} zoom={[1.0, 1.15]} />
+        <Sfx s="ding" volumen={0.3} en={0.9} />
+        <Zona top={250} bottom={1050} justify="flex-start" gap={26}>
           <Palabras texto="El tiempo hace **el trabajo pesado**" size={96} resalta={LUCIA} />
         </Zona>
       </Escena>
@@ -237,22 +237,15 @@ const ESCENAS: DefEscena[] = [
     id: "cierre",
     render: () => (
       <Escena>
-        <Zona gap={50}>
+        <Foto src={IMG("03-arbol")} zoom={[1.15, 1.0]} />
+        <Zona top={250} bottom={1050} justify="flex-start" gap={26}>
           <Palabras texto="La diferencia no fue el dinero. **Fueron 10 años.**" size={88} />
-          <div style={{ display: "flex", gap: 50, scale: "0.8" }}>
-            <Cristal color={LUCIA} w={330} desde="zoom" delay={0.6}>
-              <Persona edad={25} color={LUCIA} nombre="Lucía" />
-            </Cristal>
-            <Cristal color={MARCOS} w={330} desde="zoom" delay={0.7}>
-              <Persona edad={35} color={MARCOS} nombre="Marcos" />
-            </Cristal>
+        </Zona>
+        <Zona top={1300} bottom={300} gap={12}>
+          <div style={{ fontSize: 60, fontWeight: 900, letterSpacing: 6, color: COLORS.white }}>
+            ALIGN <span style={{ fontWeight: 500, color: COLORS.light }}>by ADB</span>
           </div>
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 12 }}>
-            <div style={{ fontSize: 60, fontWeight: 900, letterSpacing: 6, color: COLORS.white }}>
-              ALIGN <span style={{ fontWeight: 500, color: COLORS.light }}>by ADB</span>
-            </div>
-            <div style={{ fontSize: 28, color: COLORS.light }}>Contenido informativo, no es asesoramiento financiero.</div>
-          </div>
+          <div style={{ fontSize: 28, color: COLORS.light }}>Contenido informativo, no es asesoramiento financiero.</div>
         </Zona>
       </Escena>
     ),
@@ -401,23 +394,6 @@ const Sello = () => {
     >
       ½
     </div>
-  );
-};
-
-const Reloj = () => {
-  const frame = useCurrentFrame();
-  const s = useSpring(0, 12);
-  return (
-    <svg width={420} height={420} viewBox="-210 -210 420 420" style={{ scale: String(s), filter: `drop-shadow(0 0 40px ${LUCIA}88)` }}>
-      <circle r={190} fill="rgba(255,255,255,0.06)" stroke={LUCIA} strokeWidth={10} />
-      <circle r={190} fill="none" stroke={COLORS.gold} strokeWidth={10} strokeDasharray={`${(frame * 14) % 1194} 1194`} transform="rotate(-90)" strokeLinecap="round" />
-      {Array.from({ length: 12 }, (_, i) => (
-        <line key={i} x1={0} y1={-160} x2={0} y2={-140} stroke={COLORS.light} strokeWidth={8} strokeLinecap="round" transform={`rotate(${i * 30})`} />
-      ))}
-      <line x1={0} y1={0} x2={0} y2={-120} stroke={COLORS.white} strokeWidth={12} strokeLinecap="round" transform={`rotate(${frame * 18})`} />
-      <line x1={0} y1={0} x2={0} y2={-80} stroke={COLORS.white} strokeWidth={14} strokeLinecap="round" transform={`rotate(${frame * 1.5})`} />
-      <circle r={16} fill={COLORS.gold} />
-    </svg>
   );
 };
 

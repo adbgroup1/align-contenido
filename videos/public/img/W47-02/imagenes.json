@@ -1,0 +1,9 @@
+{
+ "estilo": "Clean minimal 3D render, soft studio lighting, deep navy blue background (#0F172A), cobalt blue (#1D4ED8) and pale periwinkle (#C7D7FE) accents, subtle glossy materials, shallow depth of field.",
+ "proveedor_usado": "ChatGPT web (a mano, 16 nov 2026)",
+ "imagenes": [
+  { "id": "01-dos-macetas", "prompt": "Two identical small glossy periwinkle flower pots side by side on a dark navy table. In the left pot a tall healthy young tree with many leaves; in the right pot only a tiny sprout with two leaves. Same soil, same pots, calm soft light." },
+  { "id": "02-reloj-arena", "prompt": "A tall elegant glass hourglass on a dark navy table, instead of sand small silver coins fall from the top bulb into the bottom bulb, where a small green plant is growing out of the pile of coins, soft cobalt rim light." },
+  { "id": "03-arbol", "ref": "01-dos-macetas", "prompt": "The same two periwinkle pots years later: the left one now holds a big lush tree twice the height of the small tree in the right pot. Gentle warm hopeful light." }
+ ]
+}

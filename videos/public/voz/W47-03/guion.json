@@ -1,0 +1,13 @@
+{
+  "escenas": [
+    { "id": "hook", "texto": "«Ahorro lo que me sobra.» Por eso nunca te sobra nada." },
+    { "id": "gancho2", "texto": "No es cuánto cobras. Es el orden." },
+    { "id": "reparto", "texto": "El orden de siempre: cobras, gastas, y ahorras lo que quede." },
+    { "id": "dia25", "texto": "Y el día veinticinco, ya no queda nada que ahorrar." },
+    { "id": "wow", "texto": "Cambia el orden: cobras, ahorras, y después gastas." },
+    { "id": "transfer", "texto": "El día uno, una transferencia automática a otra cuenta." },
+    { "id": "vives", "texto": "Y vives con lo que queda, sin pensarlo." },
+    { "id": "cta", "texto": "Comenta SISTEMA y te enseño a montarlo en una llamada gratis." },
+    { "id": "cierre", "texto": "Y lo que sobra, para gastar sin culpa." }
+  ]
+}

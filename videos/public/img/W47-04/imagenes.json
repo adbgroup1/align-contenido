@@ -1,0 +1,9 @@
+{
+ "estilo": "Clean minimal 3D render, soft studio lighting, deep navy blue background (#0F172A), cobalt blue (#1D4ED8) and pale periwinkle (#C7D7FE) accents, subtle glossy materials, shallow depth of field.",
+ "proveedor_usado": "ChatGPT web (a mano, 16 nov 2026)",
+ "imagenes": [
+  { "id": "01-tableta", "prompt": "A single premium dark chocolate bar half unwrapped from glossy cobalt blue foil, lying diagonally on a dark navy table, the squares of chocolate clearly visible, soft studio light with periwinkle reflections." },
+  { "id": "02-regalo", "prompt": "An open gift box wrapped in cobalt blue paper with a periwinkle ribbon on a dark navy table; inside the box there are just two plain squares of dark chocolate, slightly anticlimactic surprise, soft light." },
+  { "id": "03-tarros", "ref": "01-tableta", "prompt": "Three small clear glass jars in a row on the dark navy table, each holding a few squares of the same dark chocolate, the empty cobalt foil wrapper lying in front of them, tidy organised calm mood." }
+ ]
+}

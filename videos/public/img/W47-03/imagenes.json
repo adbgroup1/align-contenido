@@ -1,0 +1,10 @@
+{
+ "estilo": "Clean minimal 3D render, soft studio lighting, deep navy blue background (#0F172A), cobalt blue (#1D4ED8) and pale periwinkle (#C7D7FE) accents, subtle glossy materials, shallow depth of field.",
+ "proveedor_usado": "ChatGPT web (a mano, 16 nov 2026)",
+ "imagenes": [
+  { "id": "01-cerdito-vacio", "prompt": "A glossy periwinkle ceramic piggy bank standing alone on a dark navy table, completely empty, a single lonely coin lying next to it, dim cold blue spotlight, quiet slightly sad mood." },
+  { "id": "02-cartera-vacia", "prompt": "An open empty dark leather wallet lying on a dark navy table, nothing inside, two small pale paper moths flying out of it, cold dim light." },
+  { "id": "03-chorro", "ref": "01-cerdito-vacio", "prompt": "The same periwinkle ceramic piggy bank on the dark navy table, a steady smooth stream of silver coins arcing into its slot from above, like an automatic flow, bright cobalt rim light, energetic mood." },
+  { "id": "04-cerdito-lleno", "ref": "01-cerdito-vacio", "prompt": "The same periwinkle ceramic piggy bank now glowing softly, surrounded by a small neat pile of silver coins, calm satisfied warm light." }
+ ]
+}
