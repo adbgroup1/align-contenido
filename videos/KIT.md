@@ -52,6 +52,7 @@ node scripts/sfx.mjs               # regenera los efectos (no hace falta: ya est
 | `Cifra` | Contador grande con brillo, golpe al llegar y ticks de sonido |
 | `Cristal` | Tarjeta de cristal con borde de color que entra desde la izquierda, la derecha, abajo o con zoom |
 | `Pildora` | Etiqueta (p. ej., «Ejemplo hipotético · 6 % anual») |
+| `CtaCrecer` | Escena de CTA de crecimiento (`GUIA.md`): `tipo` = `compartir`, `guardar`, `comentar` o `seguir`; `boton` = texto grande («MÁNDASELO», «GUÁRDALO», «¿12 o 14?»); `linea` = frase debajo. Añade sola «Síguenos para más». Ponla en la escena `cta` con `subtitulosClaros: true` |
 | `Chispas` | Explosión de partículas en el momento wow (`en` = segundo) |
 | `Sfx` | Efecto de sonido en un segundo concreto |
 | `Subtitulos` | Ya lo pone `Montaje`; `subtitulos: false` en una escena lo quita (p. ej., en el cierre con marca) |

@@ -21,7 +21,8 @@ responde «Sin vídeos publicados todavía» y termina.
   - retención o tiempo medio visto;
   - likes, comentarios, guardados y compartidos;
   - seguidores ganados.
-- **Pasa a la fila de Notion:** Vistas y Retención %; «Comentarios palabra» si Metricool lo da.
+- **Pasa a la fila de Notion:** Vistas y Retención %. Los seguidores, guardados y compartidos van en el
+  Dashboard, porque son la métrica principal.
 - **Estado:**
   - `Publicado` cuando ya haya salido;
   - `Analizado` cuando tenga más de 7 días.
@@ -30,7 +31,8 @@ responde «Sin vídeos publicados todavía» y termina.
 ## 2 · Dashboard
 
 Al principio de «Resúmenes semanales», sección **«Dashboard <semana>»**:
-- **Esta semana frente a la anterior:** vistas, seguidores y comentarios con la palabra, por red.
+- **Esta semana frente a la anterior, por red:** seguidores ganados (lo primero), compartidos, guardados,
+  comentarios y vistas.
 - **Top 3** vídeos y por qué.
 - **Publicaciones usadas** del plan de Metricool este mes.
 
@@ -38,7 +40,7 @@ Al principio de «Resúmenes semanales», sección **«Dashboard <semana>»**:
 
 Arriba de la página Aprendizajes, reescribe estas secciones:
 - **Qué funciona en NUESTRO perfil:** por pilar, tipo de gancho, tipo de idea (Probado o Experimento),
-  duración, hora y palabra clave.
+  duración, hora y tipo de CTA (cuál gana más seguidores y compartidos).
   - **Con menos de 3 vídeos con datos**, márcalo como **indicio**.
 - **Repetir:** hasta 3 cosas.
 - **Evitar:** hasta 3 cosas.

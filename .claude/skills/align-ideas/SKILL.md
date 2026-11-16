@@ -19,7 +19,7 @@ Lee antes `CLAUDE.md` y `GUIA.md`.
 - Tipo de idea: **Probado** o **Experimento**.
   - Unas 4 Probado y 2 Experimento.
   - El Experimento sale del experimento de Aprendizajes si lo hay.
-- Pilar (1–5) y Palabra clave (CURSO, EMPEZAR, SISTEMA o COLCHÓN).
+- Pilar (1–5) y CTA (COMPARTIR, GUARDAR, COMENTAR o SEGUIR; ver `GUIA.md`). Va en la propiedad «Palabra clave».
 - Tipo de gancho: Número sorprendente, Error común, Contraste, Pregunta, Nadie te dice, Mito o Historia.
 - **Patrón:** la fila de Investigación en la que se inspira y qué técnica se toma.
 - El ángulo: lo que el espectador se lleva, en una frase.
@@ -30,7 +30,8 @@ Lee antes `CLAUDE.md` y `GUIA.md`.
 ## Criterios
 
 - Rota los pilares: al menos 3 distintos.
-- Unas 4 ideas con CURSO o EMPEZAR y 2 con SISTEMA o COLCHÓN, salvo que Aprendizajes diga otra cosa.
+- Objetivo: crecer. Prioriza ideas que la gente quiera **mandar a alguien** o **guardar**. Reparte COMPARTIR,
+  GUARDAR y COMENTAR, salvo que Aprendizajes diga otra cosa.
 - **El formato viene de la investigación, el tema es nuestro.**
 - Tiene que poder contarse **solo con animación** en 20–45 s.
 

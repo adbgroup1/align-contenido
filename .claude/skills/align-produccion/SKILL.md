@@ -46,7 +46,8 @@ Después lee:
    - Si creas una pieza reutilizable, muévela a `kit.tsx` y documéntala en `KIT.md`.
 5. **Música:** elige en `videos/public/musica/LICENCIAS.md` la pista que pegue con el tono del vídeo y
    pásala a `Montaje` con `pista=`. No uses dos veces seguidas la misma pista en la semana.
-6. **Respeta el guion:** textos, cifras, hook, segundo gancho, wow, CTA y cierre. El hook se ve y se oye
+6. **Respeta el guion:** textos, cifras, hook, segundo gancho, wow, CTA y cierre. El CTA se monta siempre con
+   `CtaCrecer` del kit (crecimiento: compartir, guardar, comentar o seguir); nunca palabra clave, curso ni llamada. El hook se ve y se oye
    en el fotograma 0. No inventes cifras.
 7. **Comprueba el código:** `cd videos && npx tsc --noEmit`.
 8. **Renderiza** a `media/<semana>/<ID>.mp4` con los flags de CLAUDE.md.

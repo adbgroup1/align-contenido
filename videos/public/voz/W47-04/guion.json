@@ -1,14 +1,44 @@
 {
   "escenas": [
-    { "id": "hook", "texto": "¿Con catorce pagas cobras más que con doce?" },
-    { "id": "gancho2", "texto": "Spoiler: no. Mira las dos tabletas." },
-    { "id": "ejemplo", "texto": "Ejemplo: veinticuatro mil euros brutos al año." },
-    { "id": "importes", "texto": "Doce pagas de dos mil, o catorce de mil setecientos catorce." },
-    { "id": "wow", "texto": "Las apilas… y miden exactamente lo mismo." },
-    { "id": "regalo", "texto": "La paga extra no es dinero extra." },
-    { "id": "calendario", "texto": "Es tu sueldo, que llega más tarde." },
-    { "id": "planifica", "texto": "Así que planifícala antes de que llegue." },
-    { "id": "cta", "texto": "Comenta CURSO y te mando el curso para aprender desde cero." },
-    { "id": "cierre", "texto": "Así que ya sabes: ¿doce o catorce?" }
+    {
+      "id": "hook",
+      "texto": "¿Con catorce pagas cobras más que con doce?"
+    },
+    {
+      "id": "gancho2",
+      "texto": "Spoiler: no. Mira las dos tabletas."
+    },
+    {
+      "id": "ejemplo",
+      "texto": "Ejemplo: veinticuatro mil euros brutos al año."
+    },
+    {
+      "id": "importes",
+      "texto": "Doce pagas de dos mil, o catorce de mil setecientos catorce."
+    },
+    {
+      "id": "wow",
+      "texto": "Las apilas… y miden exactamente lo mismo."
+    },
+    {
+      "id": "regalo",
+      "texto": "La paga extra no es dinero extra."
+    },
+    {
+      "id": "calendario",
+      "texto": "Es tu sueldo, que llega más tarde."
+    },
+    {
+      "id": "planifica",
+      "texto": "Así que planifícala antes de que llegue."
+    },
+    {
+      "id": "cta",
+      "texto": "¿Y tú, cobras en doce o en catorce pagas? Te leemos en comentarios. Y síguenos para más."
+    },
+    {
+      "id": "cierre",
+      "texto": "Catorce pagas no es cobrar más. Es cobrar distinto."
+    }
   ]
 }

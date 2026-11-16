@@ -20,7 +20,7 @@ Lee antes `CLAUDE.md`, `GUIA.md`, `semanas/<semana>/ideas.md` y `hooks.md`.
    - ID (`W<nn>-<nn>`, por ejemplo `W47-01`), Título, Estado = `Guion`, Semana, Pilar, Palabra clave, Hook;
    - Tipo de idea, Tipo de gancho y Patrón;
    - Plataformas = Instagram, YouTube y TikTok;
-   - Destino: Curso para CURSO o EMPEZAR; Landing para SISTEMA o COLCHÓN.
+   - «Palabra clave» = el CTA (COMPARTIR, GUARDAR, COMENTAR o SEGUIR). «Destino» se deja vacío.
    - **Dentro de la página va el guion:**
 
 | # | Voz en off | Texto en pantalla | Animación / visual | Nota |
@@ -28,7 +28,7 @@ Lee antes `CLAUDE.md`, `GUIA.md`, `semanas/<semana>/ideas.md` y `hooks.md`.
 | 1 | Frase que se oye (números en letra) | … | … | HOOK |
 | 2 | … | … | … | SEGUNDO GANCHO |
 | … | … | … | … | WOW (3–4 s) |
-| n-1 | «Comenta PALABRA y te mando…» | «Comenta PALABRA…» | … | CTA |
+| n-1 | CTA de crecimiento + «síguenos para más» (`GUIA.md`) | MÁNDASELO / GUÁRDALO / pregunta / SÍGUENOS | Pieza `CtaCrecer` del kit | CTA |
 | n | Frase de cierre que enlaza con el hook | Marca ALIGN + «Contenido informativo, no es asesoramiento financiero» | … | CIERRE / BUCLE |
 
    Debajo de la tabla, cinco secciones:

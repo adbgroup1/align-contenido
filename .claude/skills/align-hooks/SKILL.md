@@ -1,6 +1,6 @@
 ---
 name: align-hooks
-description: Agente 3 de ALIGN. Escribe 3 hooks por idea, el segundo gancho y el CTA de palabra clave, con foco máximo en los 3 primeros segundos.
+description: Agente 3 de ALIGN. Escribe 3 hooks por idea, el segundo gancho y el CTA de crecimiento (compartir, guardar, comentar o seguir), con foco máximo en los 3 primeros segundos.
 ---
 
 # Agente 3 — Hooks y CTA
@@ -31,8 +31,12 @@ Una idea de cierre que enlace con el hook, si encaja.
 
 ### CTA
 
-- En pantalla: «Comenta <PALABRA> y te lo mando por DM».
-- Versión para YouTube: «…enlace en el comentario fijado».
+- **De crecimiento, según la tabla de `GUIA.md`:** COMPARTIR, GUARDAR, COMENTAR o SEGUIR. Cierra siempre con
+  «síguenos para más».
+- **Concreto:** nombra a quién mandárselo, cuándo usarlo o qué responder. Por ejemplo, «Mándaselo a quien
+  siempre dice "ya empezaré"».
+- **Nunca** «comenta PALABRA y te mando…», ni el curso, ni la llamada, ni enlaces.
+- Para COMENTAR, deja también la pregunta para el comentario fijado.
 - Caption: 2–4 líneas, el CTA, 3–5 hashtags y la línea «Contenido informativo, no es asesoramiento
   financiero».
 

@@ -15,7 +15,7 @@
   - Cifras animadas, gráficos que crecen, comparaciones A/B.
 - **Marca visual:** los colores y la tipografía (Inter) están en `videos/src/brand.ts`. No inventar
   colores nuevos.
-- **Cierre de cada vídeo:** CTA con su palabra clave, marca ALIGN y aviso legal.
+- **Cierre de cada vídeo:** CTA de crecimiento (compartir, guardar, comentar o seguir), «síguenos para más», marca ALIGN y aviso legal.
 
 ## Pilares de contenido (todo vídeo encaja en uno)
 
@@ -26,26 +26,29 @@
    concepto), mitos y errores típicos.
 5. **Dinero en España:** IRPF básico, nómina, pagas extra, alquiler frente a compra. Datos españoles con fuente.
 
-## Embudo y palabras clave del CTA
+## Objetivo y CTA: crecimiento (decidido por Andrés el 16 nov 2026)
 
-Los dos destinos están en **la landing alignbyadb.com**:
-- **El curso de finanzas personales de ALIGN.** Para quien quiere aprender por su cuenta.
-- **La llamada gratuita de 30 min con Alain.** Para quien quiere ayuda directa.
+**Estos vídeos son para crecer a corto plazo, no para vender el curso ni la llamada.** El éxito se mide en
+**seguidores ganados, compartidos, guardados y comentarios**. El enlace a alignbyadb.com se queda en la bio y
+nadie lo empuja desde el vídeo.
 
-Cada vídeo lleva **una** palabra. Quien la comenta recibe por DM (ManyChat) el enlace a alignbyadb.com. El
-mensaje cambia según la palabra.
+Cada vídeo lleva **un CTA principal**, elegido según el tema, y termina siempre con «síguenos para más».
 
-| Palabra | Pilares | Lo que se destaca | Qué se promete en el CTA |
+| CTA | Cuándo encaja | Voz (ejemplo) | En pantalla |
 |---|---|---|---|
-| **CURSO** | 2, 4 y 5 | El curso | «Te mando el curso para aprender desde cero» |
-| **EMPEZAR** | 4 y general | El curso | «Te mando por dónde empezar, paso a paso» |
-| **SISTEMA** | 1 | La llamada | «Te mando cómo montarlo con Alain en una llamada gratis» |
-| **COLCHÓN** | 3 | La llamada | «Te mando cómo organizarlo en una llamada gratis» |
+| **COMPARTIR** | Mitos, contrastes, «nadie te dice»: cosas que apetece mandar a alguien | «Mándaselo a quien siempre dice "ya empezaré"» | MÁNDASELO |
+| **GUARDAR** | Sistemas y pasos prácticos que se aplican más tarde | «Guárdalo y hazlo el día que cobres» | GUÁRDALO |
+| **COMENTAR** | Preguntas con dos bandos («¿12 o 14?», «¿tú qué harías?») | «¿Tú cobras en doce o en catorce? Te leo» | Pregunta corta |
+| **SEGUIR** | Series y «parte 2», o cuando ninguno de los otros encaja | «Síguenos: mañana, la parte 2» | SÍGUENOS |
 
-- **Reparto:** aproximadamente 2 de cada 3 vídeos con CURSO o EMPEZAR y 1 con SISTEMA o COLCHÓN. El agente de retroalimentación
-  ajusta el reparto según lo que convierta.
-- **No prometer en el CTA un recurso que no exista.**
-- En YouTube Shorts el CTA es «Enlace en el comentario fijado».
+- **Reparto orientativo:** reparte los tres primeros; SEGUIR como principal solo en series. El agente de
+  resultados lo ajusta según qué gane más seguidores.
+- **El CTA tiene que ser concreto y nombrar a alguien o algo** («a quien siempre dice…», «el día que cobres»).
+  Nada de «dale like».
+- **Prohibido en vídeo:** «comenta PALABRA y te mando…», el curso, la llamada, alignbyadb.com y «enlace en la bio».
+- En YouTube Shorts vale el mismo CTA. En el comentario fijado va la pregunta del vídeo, no un enlace.
+- **Caption:** gancho en una línea, el CTA, 3–5 hashtags y «Contenido informativo, no es asesoramiento financiero».
+- Las palabras clave de antes (CURSO, EMPEZAR, SISTEMA y COLCHÓN) ya no se usan.
 
 ## Reglas de contenido (el manager rechaza el guion que no las cumpla)
 
@@ -109,7 +112,7 @@ Son reglas de credibilidad y de sentido común en finanzas, no un trámite:
 ## Qué no hacer nunca
 
 - No hablar mal de nadie ni nombrar bancos, brókers o «gurús» para criticarlos.
-- Sin autobombo: el vídeo enseña, no vende. La venta está en el CTA y en la llamada.
+- Sin autobombo: el vídeo enseña, no vende. Nada de venta en el vídeo: el objetivo es crecer.
 
 - No hablar de Skool ni de comunidades de pago.
 - No usar música, imágenes ni clips con copyright.

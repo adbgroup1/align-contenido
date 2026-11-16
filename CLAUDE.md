@@ -9,7 +9,8 @@ desaparece al terminar.
 - Público: hispanohablantes en España de 22 a 40 años, sin formación financiera.
 - Hacemos **3 vídeos cortos por semana**, educativos y animados (Remotion, sin cara), para Instagram Reels,
   YouTube Shorts y TikTok.
-- **El objetivo es llevar gente a alignbyadb.com**, donde están el curso y la llamada gratuita con Alain.
+- **El objetivo es crecer a corto plazo:** seguidores, compartidos, guardados y comentarios (CTA en `GUIA.md`).
+  alignbyadb.com, con el curso y la llamada, se queda en la bio y no se empuja en el vídeo.
 - **Antes de trabajar, lee `GUIA.md`:** marca, pilares, palabras clave y reglas de contenido.
 
 ## Dónde está cada cosa

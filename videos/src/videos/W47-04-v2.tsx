@@ -5,6 +5,7 @@ import {
   Chispas,
   Cifra,
   DefEscena,
+  CtaCrecer,
   Escena,
   Foto,
   Montaje,
@@ -16,7 +17,7 @@ import {
   Zona,
 } from "../kit";
 
-// W47-04 v2 · «¿14 pagas = cobrar más?» · CTA CURSO
+// W47-04 v2 · «¿14 pagas = cobrar más?» · CTA COMENTAR
 // Kit v2 + imágenes (public/img/W47-04/). Ejemplo hipotético, bruto anual: 24.000 € / 12 = 2.000 €; / 14 = 1.714 €
 // Notas del guion: hablar solo de bruto anual; junio y diciembre son fechas habituales, no obligatorias.
 const IMG = (n: string) => `img/W47-04/${n}.jpg`;
@@ -205,7 +206,7 @@ const ESCENAS: DefEscena[] = [
   {
     id: "cta",
     subtitulosClaros: true,
-    render: () => <Cta />,
+    render: () => <CtaCrecer tipo="comentar" boton="¿12 o 14?" linea="¿Tú cuántas pagas cobras? **Te leemos**" />,
   },
   {
     id: "cierre",
@@ -213,7 +214,7 @@ const ESCENAS: DefEscena[] = [
     render: () => (
       <Escena>
         <Zona gap={50}>
-          <Palabras texto="Así que ya sabes: **¿12 o 14?**" size={88} resalta={COLORS.gold} />
+          <Palabras texto="14 pagas no es cobrar más. **Es cobrar distinto.**" size={84} resalta={COLORS.gold} />
           <Nominas escala={0.75} delay={0.3} />
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 12 }}>
             <div style={{ fontSize: 60, fontWeight: 900, letterSpacing: 6, color: COLORS.white }}>
@@ -348,38 +349,6 @@ const Calendario = () => {
   );
 };
 
-const Cta = () => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const s = useSpring(0.35, 8, 0.8);
-  const pulso = 1 + 0.035 * Math.sin((frame / fps) * Math.PI * 2.2);
-  return (
-    <Escena fondo="claro">
-      <Sfx s="pop" volumen={0.4} en={0.35} />
-      <Sfx s="click" volumen={0.4} en={1.2} />
-      <Zona gap={50}>
-        <Palabras texto="Comenta" size={100} color={COLORS.navy} />
-        <div
-          style={{
-            fontSize: 170,
-            fontWeight: 900,
-            color: COLORS.white,
-            background: `linear-gradient(160deg, #3B6BFF, ${COLORS.blue})`,
-            padding: "26px 70px",
-            borderRadius: 44,
-            letterSpacing: 6,
-            rotate: "-3deg",
-            scale: String(s * pulso),
-            boxShadow: `0 30px 80px ${COLORS.blue}66, inset 0 -10px 0 rgba(0,0,0,0.2)`,
-          }}
-        >
-          CURSO
-        </div>
-        <Palabras texto="y te mando **el curso** para aprender desde cero" size={64} color={COLORS.navy} resalta={COLORS.blue} delay={0.8} />
-      </Zona>
-    </Escena>
-  );
-};
 
 export const W4704v2: React.FC<PropsVoz> = ({ voz, videoId }) =>
   voz ? <Montaje videoId={videoId} voz={voz} escenas={ESCENAS} extra={EXTRA_W4704} pista="minimal-ambient-tech.mp3" /> : null;

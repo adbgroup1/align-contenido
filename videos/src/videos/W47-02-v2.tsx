@@ -6,6 +6,7 @@ import {
   Cifra,
   Cristal,
   DefEscena,
+  CtaCrecer,
   Escena,
   Foto,
   Montaje,
@@ -17,7 +18,7 @@ import {
   Zona,
 } from "../kit";
 
-// W47-02 v2 · «Empezar a los 25 o a los 35» · CTA CURSO
+// W47-02 v2 · «Empezar a los 25 o a los 35» · CTA COMPARTIR
 // Ejemplo hipotético: 100 €/mes al 6 % anual, capitalización mensual
 const RATE = 0.06;
 const fv = (m: number) => futureValueAt(100, RATE, m);
@@ -231,7 +232,7 @@ const ESCENAS: DefEscena[] = [
   {
     id: "cta",
     subtitulosClaros: true,
-    render: () => <Cta />,
+    render: () => <CtaCrecer tipo="compartir" boton="MÁNDASELO" linea="a quien siempre dice **«ya empezaré»**" />,
   },
   {
     id: "cierre",
@@ -397,38 +398,6 @@ const Sello = () => {
   );
 };
 
-const Cta = () => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const s = useSpring(0.35, 8, 0.8);
-  const pulso = 1 + 0.035 * Math.sin((frame / fps) * Math.PI * 2.2);
-  return (
-    <Escena fondo="claro">
-      <Sfx s="pop" volumen={0.4} en={0.35} />
-      <Sfx s="click" volumen={0.4} en={1.2} />
-      <Zona gap={50}>
-        <Palabras texto="Comenta" size={100} color={COLORS.navy} />
-        <div
-          style={{
-            fontSize: 170,
-            fontWeight: 900,
-            color: COLORS.white,
-            background: `linear-gradient(160deg, #3B6BFF, ${COLORS.blue})`,
-            padding: "26px 70px",
-            borderRadius: 44,
-            letterSpacing: 6,
-            rotate: "-3deg",
-            scale: String(s * pulso),
-            boxShadow: `0 30px 80px ${COLORS.blue}66, inset 0 -10px 0 rgba(0,0,0,0.2)`,
-          }}
-        >
-          CURSO
-        </div>
-        <Palabras texto="y te mando **el curso** para aprender desde cero" size={64} color={COLORS.navy} resalta={COLORS.blue} delay={0.8} />
-      </Zona>
-    </Escena>
-  );
-};
 
 export const W4702v2: React.FC<PropsVoz> = ({ voz, videoId }) =>
   voz ? <Montaje videoId={videoId} voz={voz} escenas={ESCENAS} extra={EXTRA_W4702} pista="piano-strings-light.mp3" /> : null;

@@ -6,6 +6,7 @@ import {
   Cifra,
   Cristal,
   DefEscena,
+  CtaCrecer,
   Escena,
   Foto,
   Montaje,
@@ -17,7 +18,7 @@ import {
   Zona,
 } from "../kit";
 
-// W47-03 v2 · «Ahorro lo que me sobra (y nunca sobra)» · CTA SISTEMA
+// W47-03 v2 · «Ahorro lo que me sobra (y nunca sobra)» · CTA GUARDAR
 // Kit v2 + imágenes (public/img/W47-03/). Ejemplo hipotético: nómina 1.600 €; ahorro 10 % = 160 €; resto 1.440 €
 const IMG = (n: string) => `img/W47-03/${n}.jpg`;
 const NOMINA = 1600;
@@ -140,7 +141,7 @@ const ESCENAS: DefEscena[] = [
   {
     id: "cta",
     subtitulosClaros: true,
-    render: () => <Cta />,
+    render: () => <CtaCrecer tipo="guardar" boton="GUÁRDALO" linea="y hazlo **el día que cobres**" />,
   },
   {
     id: "cierre",
@@ -264,38 +265,6 @@ const Vives = () => {
   );
 };
 
-const Cta = () => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const s = useSpring(0.35, 8, 0.8);
-  const pulso = 1 + 0.035 * Math.sin((frame / fps) * Math.PI * 2.2);
-  return (
-    <Escena fondo="claro">
-      <Sfx s="pop" volumen={0.4} en={0.35} />
-      <Sfx s="click" volumen={0.4} en={1.2} />
-      <Zona gap={46}>
-        <Palabras texto="Comenta" size={100} color={COLORS.navy} />
-        <div
-          style={{
-            fontSize: 150,
-            fontWeight: 900,
-            color: COLORS.white,
-            background: `linear-gradient(160deg, #3B6BFF, ${COLORS.blue})`,
-            padding: "26px 60px",
-            borderRadius: 44,
-            letterSpacing: 4,
-            rotate: "-3deg",
-            scale: String(s * pulso),
-            boxShadow: `0 30px 80px ${COLORS.blue}66, inset 0 -10px 0 rgba(0,0,0,0.2)`,
-          }}
-        >
-          SISTEMA
-        </div>
-        <Palabras texto="y te enseño a **montarlo** en una llamada gratis" size={60} color={COLORS.navy} resalta={COLORS.blue} delay={0.8} />
-      </Zona>
-    </Escena>
-  );
-};
 
 export const W4703v2: React.FC<PropsVoz> = ({ voz, videoId }) =>
   voz ? <Montaje videoId={videoId} voz={voz} escenas={ESCENAS} extra={EXTRA_W4703} pista="lofi-polaroids.mp3" /> : null;

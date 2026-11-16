@@ -18,7 +18,8 @@ Lee `GUIA.md` y puntúa cada guion de 1 a 5 en:
 - **Verdad:** ¿2 cifras como mucho, todas con fuente?
 - **Originalidad:** compárala con la referencia de «Patrón»; solo puede coincidir la técnica.
 - **Reglas de `GUIA.md`:** basta un fallo para devolverlo.
-- **Embudo:** ¿la palabra encaja con el tema?
+- **Crecimiento:** ¿el CTA (compartir, guardar, comentar o seguir) encaja con el tema y es concreto? ¿Hay
+  algún resto de venta (curso, llamada, palabra clave, enlace)? Si lo hay, se devuelve.
 - **Producción:** ¿se puede hacer solo con animación?
 
 **Correcciones pequeñas** (una palabra, un tiempo) las haces tú directamente.

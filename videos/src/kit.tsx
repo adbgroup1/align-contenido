@@ -704,3 +704,89 @@ export const Montaje: React.FC<{
     </AbsoluteFill>
   );
 };
+
+/* ---------- CTA de crecimiento (GUIA.md: compartir, guardar, comentar o seguir) ---------- */
+export type TipoCta = "compartir" | "guardar" | "comentar" | "seguir";
+const IconoCta: React.FC<{ tipo: TipoCta; color: string }> = ({ tipo, color }) => {
+  const p = { fill: "none", stroke: color, strokeWidth: 9, strokeLinecap: "round" as const, strokeLinejoin: "round" as const };
+  return (
+    <svg width={150} height={150} viewBox="0 0 100 100">
+      {tipo === "compartir" ? (
+        <>
+          <path d="M88 12 L10 44 L42 56 L54 88 Z" {...p} />
+          <path d="M88 12 L42 56" {...p} />
+        </>
+      ) : tipo === "guardar" ? (
+        <path d="M24 10 H76 V90 L50 70 L24 90 Z" {...p} />
+      ) : tipo === "comentar" ? (
+        <path d="M14 18 H86 V68 H44 L24 86 V68 H14 Z" {...p} />
+      ) : (
+        <>
+          <circle cx="40" cy="34" r="16" {...p} />
+          <path d="M12 86 C12 64 26 56 40 56 C54 56 68 64 68 86" {...p} />
+          <path d="M80 30 V58 M66 44 H94" {...p} />
+        </>
+      )}
+    </svg>
+  );
+};
+
+export const CtaCrecer: React.FC<{
+  tipo: TipoCta;
+  boton: string; // texto grande: «MÁNDASELO», «GUÁRDALO», «¿12 o 14?», «SÍGUENOS»
+  linea: string; // frase debajo, admite **resaltado**
+  seguir?: boolean; // añade «Síguenos para más» (por defecto, sí salvo tipo seguir)
+}> = ({ tipo, boton, linea, seguir = tipo !== "seguir" }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const s = useSpring(0.3, 8, 0.8);
+  const ic = useSpring(0.05, 9, 0.6);
+  const pulso = 1 + 0.035 * Math.sin((frame / fps) * Math.PI * 2.2);
+  const sg = useSpring(1.4, 12, 0.7);
+  return (
+    <Escena fondo="claro">
+      <Sfx s="pop" volumen={0.4} en={0.3} />
+      <Sfx s="click" volumen={0.4} en={1.1} />
+      <Zona gap={40}>
+        <div style={{ scale: String(ic), rotate: `${(1 - ic) * -20}deg`, filter: `drop-shadow(0 16px 30px ${COLORS.blue}55)` }}>
+          <IconoCta tipo={tipo} color={COLORS.blue} />
+        </div>
+        <div
+          style={{
+            fontSize: boton.length > 10 ? 110 : 140,
+            fontWeight: 900,
+            color: COLORS.white,
+            background: `linear-gradient(160deg, #3B6BFF, ${COLORS.blue})`,
+            padding: "24px 56px",
+            borderRadius: 44,
+            letterSpacing: 3,
+            rotate: "-3deg",
+            scale: String(s * pulso),
+            whiteSpace: "nowrap",
+            boxShadow: `0 30px 80px ${COLORS.blue}66, inset 0 -10px 0 rgba(0,0,0,0.2)`,
+          }}
+        >
+          {boton}
+        </div>
+        <Palabras texto={linea} size={62} color={COLORS.navy} resalta={COLORS.blue} delay={0.7} />
+        {seguir ? (
+          <div
+            style={{
+              opacity: sg,
+              translate: `0px ${(1 - sg) * 30}px`,
+              fontSize: 44,
+              fontWeight: 800,
+              color: COLORS.blue,
+              border: `4px solid ${COLORS.blue}`,
+              borderRadius: 999,
+              padding: "12px 34px",
+              backgroundColor: COLORS.white,
+            }}
+          >
+            ＋ Síguenos para más
+          </div>
+        ) : null}
+      </Zona>
+    </Escena>
+  );
+};
