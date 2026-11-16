@@ -6,47 +6,47 @@
    "id": "hook",
    "texto": "¿Con catorce pagas cobras más que con doce?",
    "archivo": "hook.mp3",
-   "segundos": 2.403265,
+   "segundos": 2.586122,
    "palabras": [
     {
      "t": "¿Con",
      "inicio": 0,
-     "fin": 0.29
+     "fin": 0.313
     },
     {
      "t": "catorce",
-     "inicio": 0.337,
-     "fin": 0.685
+     "inicio": 0.36,
+     "fin": 0.708
     },
     {
      "t": "pagas",
-     "inicio": 0.743,
-     "fin": 0.987
+     "inicio": 0.778,
+     "fin": 1.045
     },
     {
      "t": "cobras",
-     "inicio": 1.045,
-     "fin": 1.312
+     "inicio": 1.103,
+     "fin": 1.393
     },
     {
      "t": "más",
-     "inicio": 1.37,
-     "fin": 1.521
+     "inicio": 1.451,
+     "fin": 1.637
     },
     {
      "t": "que",
-     "inicio": 1.567,
-     "fin": 1.649
+     "inicio": 1.695,
+     "fin": 1.776
     },
     {
      "t": "con",
-     "inicio": 1.695,
-     "fin": 1.834
+     "inicio": 1.834,
+     "fin": 1.962
     },
     {
      "t": "doce?",
-     "inicio": 1.892,
-     "fin": 2.368
+     "inicio": 2.009,
+     "fin": 2.554
     }
    ]
   },
@@ -54,37 +54,37 @@
    "id": "gancho2",
    "texto": "Spoiler: no. Mira las dos tabletas.",
    "archivo": "gancho2.mp3",
-   "segundos": 2.586122,
+   "segundos": 2.638367,
    "palabras": [
     {
      "t": "Spoiler:",
      "inicio": 0,
-     "fin": 0.557
+     "fin": 0.65
     },
     {
      "t": "no.",
-     "inicio": 0.673,
-     "fin": 0.952
+     "inicio": 0.766,
+     "fin": 1.115
     },
     {
      "t": "Mira",
-     "inicio": 1.149,
-     "fin": 1.405
+     "inicio": 1.347,
+     "fin": 1.579
     },
     {
      "t": "las",
-     "inicio": 1.451,
-     "fin": 1.567
+     "inicio": 1.625,
+     "fin": 1.753
     },
     {
      "t": "dos",
-     "inicio": 1.614,
-     "fin": 1.741
+     "inicio": 1.8,
+     "fin": 1.904
     },
     {
      "t": "tabletas.",
-     "inicio": 1.788,
-     "fin": 2.554
+     "inicio": 1.95,
+     "fin": 2.601
     }
    ]
   },
@@ -92,42 +92,42 @@
    "id": "ejemplo",
    "texto": "Ejemplo: veinticuatro mil euros brutos al año.",
    "archivo": "ejemplo.mp3",
-   "segundos": 3.056327,
+   "segundos": 3.160816,
    "palabras": [
     {
      "t": "Ejemplo:",
      "inicio": 0,
-     "fin": 0.662
+     "fin": 0.697
     },
     {
      "t": "veinticuatro",
      "inicio": 0.859,
-     "fin": 1.416
+     "fin": 1.44
     },
     {
      "t": "mil",
-     "inicio": 1.463,
-     "fin": 1.591
+     "inicio": 1.486,
+     "fin": 1.614
     },
     {
      "t": "euros",
-     "inicio": 1.637,
-     "fin": 1.892
+     "inicio": 1.66,
+     "fin": 1.927
     },
     {
      "t": "brutos",
-     "inicio": 1.939,
-     "fin": 2.264
+     "inicio": 1.974,
+     "fin": 2.322
     },
     {
      "t": "al",
-     "inicio": 2.334,
-     "fin": 2.403
+     "inicio": 2.38,
+     "fin": 2.45
     },
     {
      "t": "año.",
-     "inicio": 2.426,
-     "fin": 3.019
+     "inicio": 2.473,
+     "fin": 3.111
     }
    ]
   },
@@ -135,62 +135,62 @@
    "id": "importes",
    "texto": "Doce pagas de dos mil, o catorce de mil setecientos catorce.",
    "archivo": "importes.mp3",
-   "segundos": 4.022857,
+   "segundos": 3.84,
    "palabras": [
     {
      "t": "Doce",
      "inicio": 0,
-     "fin": 0.348
+     "fin": 0.337
     },
     {
      "t": "pagas",
      "inicio": 0.406,
-     "fin": 0.755
+     "fin": 0.685
     },
     {
      "t": "de",
-     "inicio": 0.801,
-     "fin": 0.848
+     "inicio": 0.731,
+     "fin": 0.789
     },
     {
      "t": "dos",
-     "inicio": 0.906,
-     "fin": 1.022
+     "inicio": 0.836,
+     "fin": 0.952
     },
     {
      "t": "mil,",
-     "inicio": 1.068,
-     "fin": 1.451
+     "inicio": 1.01,
+     "fin": 1.335
     },
     {
      "t": "o",
-     "inicio": 1.591,
-     "fin": 1.66
+     "inicio": 1.428,
+     "fin": 1.486
     },
     {
      "t": "catorce",
-     "inicio": 1.718,
-     "fin": 2.136
+     "inicio": 1.533,
+     "fin": 1.916
     },
     {
      "t": "de",
-     "inicio": 2.194,
-     "fin": 2.252
+     "inicio": 1.962,
+     "fin": 2.009
     },
     {
      "t": "mil",
-     "inicio": 2.299,
-     "fin": 2.508
+     "inicio": 2.055,
+     "fin": 2.194
     },
     {
      "t": "setecientos",
-     "inicio": 2.566,
-     "fin": 3.17
+     "inicio": 2.241,
+     "fin": 2.821
     },
     {
      "t": "catorce.",
-     "inicio": 3.204,
-     "fin": 3.994
+     "inicio": 2.868,
+     "fin": 3.808
     }
    ]
   },
@@ -198,42 +198,42 @@
    "id": "wow",
    "texto": "Las apilas… y miden exactamente lo mismo.",
    "archivo": "wow.mp3",
-   "segundos": 2.586122,
+   "segundos": 3.422041,
    "palabras": [
     {
      "t": "Las",
      "inicio": 0,
-     "fin": 0.174
+     "fin": 0.244
     },
     {
      "t": "apilas…",
-     "inicio": 0.232,
-     "fin": 0.708
+     "inicio": 0.313,
+     "fin": 0.894
     },
     {
      "t": "y",
-     "inicio": 0.789,
-     "fin": 0.906
+     "inicio": 1.207,
+     "fin": 1.289
     },
     {
      "t": "miden",
-     "inicio": 0.987,
-     "fin": 1.231
+     "inicio": 1.37,
+     "fin": 1.66
     },
     {
      "t": "exactamente",
-     "inicio": 1.277,
-     "fin": 1.858
+     "inicio": 1.73,
+     "fin": 2.461
     },
     {
      "t": "lo",
-     "inicio": 1.892,
-     "fin": 1.962
+     "inicio": 2.508,
+     "fin": 2.577
     },
     {
      "t": "mismo.",
-     "inicio": 2.009,
-     "fin": 2.554
+     "inicio": 2.624,
+     "fin": 3.39
     }
    ]
   },
@@ -241,42 +241,42 @@
    "id": "regalo",
    "texto": "La paga extra no es dinero extra.",
    "archivo": "regalo.mp3",
-   "segundos": 1.933061,
+   "segundos": 1.619592,
    "palabras": [
     {
      "t": "La",
      "inicio": 0,
-     "fin": 0.128
+     "fin": 0.151
     },
     {
      "t": "paga",
-     "inicio": 0.174,
-     "fin": 0.383
+     "inicio": 0.186,
+     "fin": 0.36
     },
     {
      "t": "extra",
-     "inicio": 0.453,
-     "fin": 0.766
+     "inicio": 0.383,
+     "fin": 0.639
     },
     {
      "t": "no",
-     "inicio": 0.824,
-     "fin": 0.906
+     "inicio": 0.685,
+     "fin": 0.755
     },
     {
      "t": "es",
-     "inicio": 0.952,
-     "fin": 0.998
+     "inicio": 0.789,
+     "fin": 0.836
     },
     {
      "t": "dinero",
-     "inicio": 1.033,
-     "fin": 1.324
+     "inicio": 0.871,
+     "fin": 1.149
     },
     {
      "t": "extra.",
-     "inicio": 1.37,
-     "fin": 1.904
+     "inicio": 1.196,
+     "fin": 1.579
     }
    ]
   },
@@ -298,12 +298,12 @@
     },
     {
      "t": "sueldo,",
-     "inicio": 0.383,
-     "fin": 0.743
+     "inicio": 0.372,
+     "fin": 0.72
     },
     {
      "t": "que",
-     "inicio": 0.766,
+     "inicio": 0.755,
      "fin": 0.836
     },
     {
@@ -314,11 +314,11 @@
     {
      "t": "más",
      "inicio": 1.138,
-     "fin": 1.265
+     "fin": 1.277
     },
     {
      "t": "tarde.",
-     "inicio": 1.312,
+     "inicio": 1.324,
      "fin": 1.858
     }
    ]
@@ -327,148 +327,188 @@
    "id": "planifica",
    "texto": "Así que planifícala antes de que llegue.",
    "archivo": "planifica.mp3",
-   "segundos": 2.089796,
+   "segundos": 1.985306,
    "palabras": [
     {
      "t": "Así",
      "inicio": 0,
-     "fin": 0.313
+     "fin": 0.267
     },
     {
      "t": "que",
-     "inicio": 0.383,
-     "fin": 0.464
+     "inicio": 0.325,
+     "fin": 0.406
     },
     {
      "t": "planifícala",
-     "inicio": 0.511,
-     "fin": 1.126
+     "inicio": 0.453,
+     "fin": 1.01
     },
     {
      "t": "antes",
-     "inicio": 1.161,
-     "fin": 1.451
+     "inicio": 1.045,
+     "fin": 1.289
     },
     {
      "t": "de",
-     "inicio": 1.498,
-     "fin": 1.544
+     "inicio": 1.324,
+     "fin": 1.382
     },
     {
      "t": "que",
-     "inicio": 1.591,
-     "fin": 1.66
+     "inicio": 1.416,
+     "fin": 1.486
     },
     {
      "t": "llegue.",
-     "inicio": 1.683,
-     "fin": 2.043
+     "inicio": 1.509,
+     "fin": 1.95
     }
    ]
   },
   {
    "id": "cta",
-   "texto": "Comenta CURSO y te mando el curso para aprender desde cero.",
+   "texto": "¿Y tú, cobras en doce o en catorce pagas? Te leemos en comentarios. Y síguenos para más.",
    "archivo": "cta.mp3",
-   "segundos": 3.186939,
+   "segundos": 6.4,
    "palabras": [
     {
-     "t": "Comenta",
+     "t": "¿Y",
      "inicio": 0,
-     "fin": 0.511
+     "fin": 0.174
     },
     {
-     "t": "CURSO",
-     "inicio": 0.557,
-     "fin": 0.952
+     "t": "tú,",
+     "inicio": 0.267,
+     "fin": 0.546
     },
     {
-     "t": "y",
-     "inicio": 1.01,
-     "fin": 1.045
+     "t": "cobras",
+     "inicio": 0.58,
+     "fin": 0.929
     },
     {
-     "t": "te",
-     "inicio": 1.103,
-     "fin": 1.161
+     "t": "en",
+     "inicio": 0.998,
+     "fin": 1.057
     },
     {
-     "t": "mando",
-     "inicio": 1.219,
-     "fin": 1.44
+     "t": "doce",
+     "inicio": 1.115,
+     "fin": 1.405
     },
     {
-     "t": "el",
+     "t": "o",
      "inicio": 1.463,
-     "fin": 1.509
+     "fin": 1.498
     },
     {
-     "t": "curso",
-     "inicio": 1.567,
-     "fin": 1.858
+     "t": "en",
+     "inicio": 1.544,
+     "fin": 1.591
+    },
+    {
+     "t": "catorce",
+     "inicio": 1.637,
+     "fin": 2.032
+    },
+    {
+     "t": "pagas?",
+     "inicio": 2.09,
+     "fin": 2.659
+    },
+    {
+     "t": "Te",
+     "inicio": 3.437,
+     "fin": 3.564
+    },
+    {
+     "t": "leemos",
+     "inicio": 3.611,
+     "fin": 3.947
+    },
+    {
+     "t": "en",
+     "inicio": 4.005,
+     "fin": 4.052
+    },
+    {
+     "t": "comentarios.",
+     "inicio": 4.087,
+     "fin": 4.865
+    },
+    {
+     "t": "Y",
+     "inicio": 5.062,
+     "fin": 5.143
+    },
+    {
+     "t": "síguenos",
+     "inicio": 5.224,
+     "fin": 5.596
     },
     {
      "t": "para",
-     "inicio": 1.904,
-     "fin": 2.043
+     "inicio": 5.654,
+     "fin": 5.805
     },
     {
-     "t": "aprender",
-     "inicio": 2.067,
-     "fin": 2.438
-    },
-    {
-     "t": "desde",
-     "inicio": 2.508,
-     "fin": 2.728
-    },
-    {
-     "t": "cero.",
-     "inicio": 2.775,
-     "fin": 3.158
+     "t": "más.",
+     "inicio": 5.851,
+     "fin": 6.362
     }
    ]
   },
   {
    "id": "cierre",
-   "texto": "Así que ya sabes: ¿doce o catorce?",
+   "texto": "Catorce pagas no es cobrar más. Es cobrar distinto.",
    "archivo": "cierre.mp3",
-   "segundos": 2.533878,
+   "segundos": 3.892245,
    "palabras": [
     {
-     "t": "Así",
+     "t": "Catorce",
      "inicio": 0,
-     "fin": 0.337
+     "fin": 0.476
     },
     {
-     "t": "que",
-     "inicio": 0.406,
-     "fin": 0.499
+     "t": "pagas",
+     "inicio": 0.522,
+     "fin": 0.848
     },
     {
-     "t": "ya",
-     "inicio": 0.569,
-     "fin": 0.673
+     "t": "no",
+     "inicio": 0.94,
+     "fin": 1.068
     },
     {
-     "t": "sabes:",
-     "inicio": 0.72,
-     "fin": 1.161
+     "t": "es",
+     "inicio": 1.126,
+     "fin": 1.184
     },
     {
-     "t": "¿doce",
-     "inicio": 1.207,
-     "fin": 1.672
+     "t": "cobrar",
+     "inicio": 1.242,
+     "fin": 1.556
     },
     {
-     "t": "o",
-     "inicio": 1.741,
-     "fin": 1.765
+     "t": "más.",
+     "inicio": 1.649,
+     "fin": 1.997
     },
     {
-     "t": "catorce?",
-     "inicio": 1.823,
-     "fin": 2.508
+     "t": "Es",
+     "inicio": 2.078,
+     "fin": 2.276
+    },
+    {
+     "t": "cobrar",
+     "inicio": 2.334,
+     "fin": 2.705
+    },
+    {
+     "t": "distinto.",
+     "inicio": 2.821,
+     "fin": 3.855
     }
    ]
   }

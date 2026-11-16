@@ -6,52 +6,52 @@
    "id": "hook",
    "texto": "Mismos cien euros al mes. Diez años de diferencia.",
    "archivo": "hook.mp3",
-   "segundos": 3.004082,
+   "segundos": 3.604898,
    "palabras": [
     {
      "t": "Mismos",
      "inicio": 0,
-     "fin": 0.441
+     "fin": 0.453
     },
     {
      "t": "cien",
-     "inicio": 0.464,
+     "inicio": 0.499,
      "fin": 0.65
     },
     {
      "t": "euros",
      "inicio": 0.72,
-     "fin": 0.975
+     "fin": 0.987
     },
     {
      "t": "al",
-     "inicio": 1.033,
-     "fin": 1.103
+     "inicio": 1.045,
+     "fin": 1.126
     },
     {
      "t": "mes.",
-     "inicio": 1.161,
-     "fin": 1.486
+     "inicio": 1.184,
+     "fin": 1.521
     },
     {
      "t": "Diez",
-     "inicio": 1.602,
-     "fin": 1.846
+     "inicio": 1.788,
+     "fin": 2.055
     },
     {
      "t": "años",
-     "inicio": 1.881,
-     "fin": 2.148
+     "inicio": 2.09,
+     "fin": 2.403
     },
     {
      "t": "de",
-     "inicio": 2.194,
-     "fin": 2.241
+     "inicio": 2.438,
+     "fin": 2.485
     },
     {
      "t": "diferencia.",
-     "inicio": 2.287,
-     "fin": 2.972
+     "inicio": 2.531,
+     "fin": 3.576
     }
    ]
   },
@@ -59,7 +59,7 @@
    "id": "gancho2",
    "texto": "Lucía empieza a invertir a los veinticinco. Marcos, a los treinta y cinco.",
    "archivo": "gancho2.mp3",
-   "segundos": 3.343673,
+   "segundos": 3.526531,
    "palabras": [
     {
      "t": "Lucía",
@@ -69,6 +69,220 @@
     {
      "t": "empieza",
      "inicio": 0.372,
+     "fin": 0.72
+    },
+    {
+     "t": "a",
+     "inicio": 0.882,
+     "fin": 0.906
+    },
+    {
+     "t": "invertir",
+     "inicio": 0.94,
+     "fin": 1.277
+    },
+    {
+     "t": "a",
+     "inicio": 1.312,
+     "fin": 1.335
+    },
+    {
+     "t": "los",
+     "inicio": 1.37,
+     "fin": 1.463
+    },
+    {
+     "t": "veinticinco.",
+     "inicio": 1.498,
+     "fin": 2.09
+    },
+    {
+     "t": "Marcos,",
+     "inicio": 2.125,
+     "fin": 2.577
+    },
+    {
+     "t": "a",
+     "inicio": 2.612,
+     "fin": 2.635
+    },
+    {
+     "t": "los",
+     "inicio": 2.682,
+     "fin": 2.786
+    },
+    {
+     "t": "treinta",
+     "inicio": 2.821,
+     "fin": 3.03
+    },
+    {
+     "t": "y",
+     "inicio": 3.053,
+     "fin": 3.077
+    },
+    {
+     "t": "cinco.",
+     "inicio": 3.111,
+     "fin": 3.483
+    }
+   ]
+  },
+  {
+   "id": "reglas",
+   "texto": "Los dos meten cien euros al mes hasta los sesenta y cinco. Ejemplo hipotético, al seis por ciento anual.",
+   "archivo": "reglas.mp3",
+   "segundos": 5.041633,
+   "palabras": [
+    {
+     "t": "Los",
+     "inicio": 0,
+     "fin": 0.209
+    },
+    {
+     "t": "dos",
+     "inicio": 0.244,
+     "fin": 0.348
+    },
+    {
+     "t": "meten",
+     "inicio": 0.406,
+     "fin": 0.673
+    },
+    {
+     "t": "cien",
+     "inicio": 0.72,
+     "fin": 0.906
+    },
+    {
+     "t": "euros",
+     "inicio": 0.964,
+     "fin": 1.196
+    },
+    {
+     "t": "al",
+     "inicio": 1.242,
+     "fin": 1.312
+    },
+    {
+     "t": "mes",
+     "inicio": 1.358,
+     "fin": 1.509
+    },
+    {
+     "t": "hasta",
+     "inicio": 1.556,
+     "fin": 1.73
+    },
+    {
+     "t": "los",
+     "inicio": 1.765,
+     "fin": 1.869
+    },
+    {
+     "t": "sesenta",
+     "inicio": 1.892,
+     "fin": 2.194
+    },
+    {
+     "t": "y",
+     "inicio": 2.218,
+     "fin": 2.241
+    },
+    {
+     "t": "cinco.",
+     "inicio": 2.276,
+     "fin": 2.635
+    },
+    {
+     "t": "Ejemplo",
+     "inicio": 2.659,
+     "fin": 3.042
+    },
+    {
+     "t": "hipotético,",
+     "inicio": 3.065,
+     "fin": 3.68
+    },
+    {
+     "t": "al",
+     "inicio": 3.704,
+     "fin": 3.785
+    },
+    {
+     "t": "seis",
+     "inicio": 3.843,
+     "fin": 4.029
+    },
+    {
+     "t": "por",
+     "inicio": 4.087,
+     "fin": 4.203
+    },
+    {
+     "t": "ciento",
+     "inicio": 4.249,
+     "fin": 4.551
+    },
+    {
+     "t": "anual.",
+     "inicio": 4.586,
+     "fin": 5.016
+    }
+   ]
+  },
+  {
+   "id": "pregunta",
+   "texto": "¿Quién crees que acaba con más?",
+   "archivo": "pregunta.mp3",
+   "segundos": 1.802449,
+   "palabras": [
+    {
+     "t": "¿Quién",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "crees",
+     "inicio": 0.348,
+     "fin": 0.546
+    },
+    {
+     "t": "que",
+     "inicio": 0.592,
+     "fin": 0.662
+    },
+    {
+     "t": "acaba",
+     "inicio": 0.685,
+     "fin": 0.952
+    },
+    {
+     "t": "con",
+     "inicio": 0.998,
+     "fin": 1.115
+    },
+    {
+     "t": "más?",
+     "inicio": 1.161,
+     "fin": 1.765
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Lucía llega a casi doscientos mil euros. Marcos, a cien mil.",
+   "archivo": "wow.mp3",
+   "segundos": 3.657143,
+   "palabras": [
+    {
+     "t": "Lucía",
+     "inicio": 0,
+     "fin": 0.418
+    },
+    {
+     "t": "llega",
+     "inicio": 0.441,
      "fin": 0.685
     },
     {
@@ -77,258 +291,44 @@
      "fin": 0.731
     },
     {
-     "t": "invertir",
-     "inicio": 0.766,
-     "fin": 1.103
-    },
-    {
-     "t": "a",
-     "inicio": 1.126,
-     "fin": 1.149
-    },
-    {
-     "t": "los",
-     "inicio": 1.184,
-     "fin": 1.277
-    },
-    {
-     "t": "veinticinco.",
-     "inicio": 1.312,
-     "fin": 1.916
-    },
-    {
-     "t": "Marcos,",
-     "inicio": 1.95,
-     "fin": 2.345
-    },
-    {
-     "t": "a",
-     "inicio": 2.38,
-     "fin": 2.403
-    },
-    {
-     "t": "los",
-     "inicio": 2.438,
-     "fin": 2.543
-    },
-    {
-     "t": "treinta",
-     "inicio": 2.566,
-     "fin": 2.775
-    },
-    {
-     "t": "y",
-     "inicio": 2.798,
-     "fin": 2.821
-    },
-    {
-     "t": "cinco.",
-     "inicio": 2.856,
-     "fin": 3.297
-    }
-   ]
-  },
-  {
-   "id": "reglas",
-   "texto": "Los dos meten cien euros al mes hasta los sesenta y cinco. Ejemplo hipotético, al seis por ciento anual.",
-   "archivo": "reglas.mp3",
-   "segundos": 5.093878,
-   "palabras": [
-    {
-     "t": "Los",
-     "inicio": 0,
-     "fin": 0.232
-    },
-    {
-     "t": "dos",
-     "inicio": 0.267,
-     "fin": 0.395
-    },
-    {
-     "t": "meten",
-     "inicio": 0.464,
-     "fin": 0.72
-    },
-    {
-     "t": "cien",
-     "inicio": 0.766,
-     "fin": 0.952
-    },
-    {
-     "t": "euros",
-     "inicio": 1.01,
-     "fin": 1.231
-    },
-    {
-     "t": "al",
-     "inicio": 1.289,
-     "fin": 1.347
-    },
-    {
-     "t": "mes",
-     "inicio": 1.393,
-     "fin": 1.567
-    },
-    {
-     "t": "hasta",
-     "inicio": 1.614,
-     "fin": 1.8
-    },
-    {
-     "t": "los",
-     "inicio": 1.834,
-     "fin": 1.939
-    },
-    {
-     "t": "sesenta",
-     "inicio": 1.962,
-     "fin": 2.276
-    },
-    {
-     "t": "y",
-     "inicio": 2.299,
-     "fin": 2.322
-    },
-    {
-     "t": "cinco.",
-     "inicio": 2.357,
-     "fin": 2.717
-    },
-    {
-     "t": "Ejemplo",
-     "inicio": 2.752,
-     "fin": 3.17
-    },
-    {
-     "t": "hipotético,",
-     "inicio": 3.193,
-     "fin": 3.843
-    },
-    {
-     "t": "al",
-     "inicio": 3.901,
-     "fin": 4.029
-    },
-    {
-     "t": "seis",
-     "inicio": 4.098,
-     "fin": 4.249
-    },
-    {
-     "t": "por",
-     "inicio": 4.296,
-     "fin": 4.412
-    },
-    {
-     "t": "ciento",
-     "inicio": 4.458,
-     "fin": 4.702
-    },
-    {
-     "t": "anual.",
-     "inicio": 4.737,
-     "fin": 5.062
-    }
-   ]
-  },
-  {
-   "id": "pregunta",
-   "texto": "¿Quién crees que acaba con más?",
-   "archivo": "pregunta.mp3",
-   "segundos": 1.854694,
-   "palabras": [
-    {
-     "t": "¿Quién",
-     "inicio": 0,
-     "fin": 0.372
-    },
-    {
-     "t": "crees",
-     "inicio": 0.43,
-     "fin": 0.65
-    },
-    {
-     "t": "que",
-     "inicio": 0.697,
-     "fin": 0.766
-    },
-    {
-     "t": "acaba",
-     "inicio": 0.789,
-     "fin": 1.045
-    },
-    {
-     "t": "con",
-     "inicio": 1.091,
-     "fin": 1.207
-    },
-    {
-     "t": "más?",
-     "inicio": 1.265,
-     "fin": 1.811
-    }
-   ]
-  },
-  {
-   "id": "wow",
-   "texto": "Lucía llega a casi doscientos mil euros. Marcos, a cien mil.",
-   "archivo": "wow.mp3",
-   "segundos": 3.84,
-   "palabras": [
-    {
-     "t": "Lucía",
-     "inicio": 0,
-     "fin": 0.441
-    },
-    {
-     "t": "llega",
-     "inicio": 0.464,
-     "fin": 0.673
-    },
-    {
-     "t": "a",
-     "inicio": 0.697,
-     "fin": 0.72
-    },
-    {
      "t": "casi",
-     "inicio": 0.766,
-     "fin": 0.998
+     "inicio": 0.789,
+     "fin": 1.08
     },
     {
      "t": "doscientos",
-     "inicio": 1.045,
-     "fin": 1.509
+     "inicio": 1.126,
+     "fin": 1.567
     },
     {
      "t": "mil",
-     "inicio": 1.556,
-     "fin": 1.683
+     "inicio": 1.614,
+     "fin": 1.73
     },
     {
      "t": "euros.",
-     "inicio": 1.73,
-     "fin": 2.101
+     "inicio": 1.776,
+     "fin": 2.136
     },
     {
      "t": "Marcos,",
-     "inicio": 2.264,
-     "fin": 2.81
+     "inicio": 2.252,
+     "fin": 2.752
     },
     {
      "t": "a",
-     "inicio": 2.902,
-     "fin": 2.995
+     "inicio": 2.81,
+     "fin": 2.891
     },
     {
      "t": "cien",
-     "inicio": 3.053,
-     "fin": 3.286
+     "inicio": 2.926,
+     "fin": 3.1
     },
     {
      "t": "mil.",
-     "inicio": 3.344,
-     "fin": 3.808
+     "inicio": 3.135,
+     "fin": 3.622
     }
    ]
   },
@@ -336,52 +336,52 @@
    "id": "rehook",
    "texto": "Y ojo, Marcos solo puso doce mil euros menos…",
    "archivo": "rehook.mp3",
-   "segundos": 3.004082,
+   "segundos": 2.925714,
    "palabras": [
     {
      "t": "Y",
      "inicio": 0,
-     "fin": 0.128
+     "fin": 0.093
     },
     {
      "t": "ojo,",
-     "inicio": 0.244,
-     "fin": 0.627
+     "inicio": 0.209,
+     "fin": 0.639
     },
     {
      "t": "Marcos",
-     "inicio": 0.789,
-     "fin": 1.149
+     "inicio": 0.755,
+     "fin": 1.115
     },
     {
      "t": "solo",
-     "inicio": 1.184,
-     "fin": 1.393
+     "inicio": 1.138,
+     "fin": 1.324
     },
     {
      "t": "puso",
-     "inicio": 1.44,
-     "fin": 1.718
+     "inicio": 1.37,
+     "fin": 1.625
     },
     {
      "t": "doce",
-     "inicio": 1.776,
-     "fin": 1.974
+     "inicio": 1.683,
+     "fin": 1.869
     },
     {
      "t": "mil",
-     "inicio": 2.02,
-     "fin": 2.148
+     "inicio": 1.916,
+     "fin": 2.043
     },
     {
      "t": "euros",
-     "inicio": 2.206,
-     "fin": 2.45
+     "inicio": 2.101,
+     "fin": 2.334
     },
     {
      "t": "menos…",
-     "inicio": 2.508,
-     "fin": 2.972
+     "inicio": 2.38,
+     "fin": 2.879
     }
    ]
   },
@@ -394,26 +394,26 @@
     {
      "t": "…pero",
      "inicio": 0,
-     "fin": 0.348
+     "fin": 0.418
     },
     {
      "t": "acaba",
-     "inicio": 0.372,
-     "fin": 0.627
+     "inicio": 0.464,
+     "fin": 0.836
     },
     {
      "t": "con",
-     "inicio": 0.662,
-     "fin": 0.766
+     "inicio": 0.882,
+     "fin": 0.987
     },
     {
      "t": "la",
-     "inicio": 0.801,
-     "fin": 0.859
+     "inicio": 1.033,
+     "fin": 1.091
     },
     {
      "t": "mitad.",
-     "inicio": 0.906,
+     "inicio": 1.138,
      "fin": 1.858
     }
    ]
@@ -422,100 +422,110 @@
    "id": "tiempo",
    "texto": "El tiempo hace el trabajo pesado.",
    "archivo": "tiempo.mp3",
-   "segundos": 1.802449,
+   "segundos": 1.933061,
    "palabras": [
     {
      "t": "El",
      "inicio": 0,
-     "fin": 0.209
+     "fin": 0.197
     },
     {
      "t": "tiempo",
      "inicio": 0.255,
-     "fin": 0.592
+     "fin": 0.639
     },
     {
      "t": "hace",
-     "inicio": 0.615,
-     "fin": 0.778
+     "inicio": 0.662,
+     "fin": 0.848
     },
     {
      "t": "el",
-     "inicio": 0.801,
-     "fin": 0.859
+     "inicio": 0.871,
+     "fin": 0.917
     },
     {
      "t": "trabajo",
-     "inicio": 0.906,
-     "fin": 1.231
+     "inicio": 0.964,
+     "fin": 1.312
     },
     {
      "t": "pesado.",
-     "inicio": 1.265,
-     "fin": 1.765
+     "inicio": 1.358,
+     "fin": 1.904
     }
    ]
   },
   {
    "id": "cta",
-   "texto": "Comenta CURSO y te mando el curso para aprender desde cero.",
+   "texto": "Mándaselo a ese amigo que siempre dice «ya empezaré». Y síguenos para más.",
    "archivo": "cta.mp3",
-   "segundos": 4.022857,
+   "segundos": 5.929796,
    "palabras": [
     {
-     "t": "Comenta",
+     "t": "Mándaselo",
      "inicio": 0,
-     "fin": 0.499
+     "fin": 0.569
     },
     {
-     "t": "CURSO",
-     "inicio": 0.557,
-     "fin": 0.964
+     "t": "a",
+     "inicio": 0.604,
+     "fin": 0.627
     },
     {
-     "t": "y",
-     "inicio": 1.033,
-     "fin": 1.103
+     "t": "ese",
+     "inicio": 0.673,
+     "fin": 0.836
     },
     {
-     "t": "te",
-     "inicio": 1.173,
-     "fin": 1.242
+     "t": "amigo",
+     "inicio": 0.871,
+     "fin": 1.138
     },
     {
-     "t": "mando",
-     "inicio": 1.289,
-     "fin": 1.533
+     "t": "que",
+     "inicio": 1.184,
+     "fin": 1.254
     },
     {
-     "t": "el",
-     "inicio": 1.556,
-     "fin": 1.614
+     "t": "siempre",
+     "inicio": 1.3,
+     "fin": 1.649
     },
     {
-     "t": "curso",
-     "inicio": 1.672,
-     "fin": 1.974
+     "t": "dice",
+     "inicio": 1.695,
+     "fin": 2.078
+    },
+    {
+     "t": "«ya",
+     "inicio": 2.276,
+     "fin": 2.577
+    },
+    {
+     "t": "empezaré».",
+     "inicio": 2.601,
+     "fin": 3.297
+    },
+    {
+     "t": "Y",
+     "inicio": 4.075,
+     "fin": 4.168
+    },
+    {
+     "t": "síguenos",
+     "inicio": 4.261,
+     "fin": 4.621
     },
     {
      "t": "para",
-     "inicio": 2.02,
-     "fin": 2.171
+     "inicio": 4.667,
+     "fin": 4.818
     },
     {
-     "t": "aprender",
-     "inicio": 2.194,
-     "fin": 2.601
-    },
-    {
-     "t": "desde",
-     "inicio": 2.717,
-     "fin": 3.007
-    },
-    {
-     "t": "cero.",
-     "inicio": 3.053,
-     "fin": 3.994
+     "t": "más.",
+     "inicio": 4.865,
+     "fin": 5.898
     }
    ]
   },
@@ -523,7 +533,7 @@
    "id": "cierre",
    "texto": "La diferencia no fue el dinero. Fueron diez años.",
    "archivo": "cierre.mp3",
-   "segundos": 2.951837,
+   "segundos": 3.160816,
    "palabras": [
     {
      "t": "La",
@@ -533,42 +543,42 @@
     {
      "t": "diferencia",
      "inicio": 0.186,
-     "fin": 0.673
+     "fin": 0.731
     },
     {
      "t": "no",
-     "inicio": 0.708,
-     "fin": 0.778
+     "inicio": 0.789,
+     "fin": 0.871
     },
     {
      "t": "fue",
-     "inicio": 0.813,
-     "fin": 0.964
+     "inicio": 0.917,
+     "fin": 1.068
     },
     {
      "t": "el",
-     "inicio": 0.998,
-     "fin": 1.091
+     "inicio": 1.091,
+     "fin": 1.149
     },
     {
      "t": "dinero.",
-     "inicio": 1.138,
-     "fin": 1.556
+     "inicio": 1.196,
+     "fin": 1.614
     },
     {
      "t": "Fueron",
-     "inicio": 1.625,
-     "fin": 1.95
+     "inicio": 1.811,
+     "fin": 2.171
     },
     {
      "t": "diez",
-     "inicio": 2.009,
-     "fin": 2.183
+     "inicio": 2.218,
+     "fin": 2.392
     },
     {
      "t": "años.",
-     "inicio": 2.218,
-     "fin": 2.926
+     "inicio": 2.426,
+     "fin": 3.111
     }
    ]
   }
