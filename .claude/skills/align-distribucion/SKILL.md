@@ -59,7 +59,7 @@ Usa `createScheduledPost`:
 - `media` = [la URL pública del MP4];
 - `providers`: solo las redes **que la marca tenga conectadas** según `getBrandSettings`;
 - `text` = el caption de la página;
-- `firstCommentText`: «Comenta <PALABRA> 👇»;
+- `firstCommentText`: la pregunta del vídeo, sin enlaces (ver «Objetivo y CTA» en `GUIA.md`);
 - `instagramData`: `{"type":"REEL","showReelOnFeed":true}`.
   - Si la herramienta admite **Reel de prueba** («trial reel»), úsalo mientras Aprendizajes no diga que el
     formato ya funciona.

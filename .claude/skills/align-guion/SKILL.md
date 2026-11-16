@@ -19,7 +19,7 @@ Lee antes `CLAUDE.md`, `GUIA.md`, `semanas/<semana>/ideas.md` y `hooks.md`.
 3. **Por cada guion, crea una fila en Vídeos** (o actualízala si ya existe):
    - ID (`W<nn>-<nn>`, por ejemplo `W47-01`), Título, Estado = `Guion`, Semana, Pilar, Palabra clave, Hook;
    - Tipo de idea, Tipo de gancho y Patrón;
-   - Plataformas = Instagram, YouTube y TikTok;
+   - Plataformas = Instagram y YouTube (TikTok, aparcado);
    - «Palabra clave» = el CTA (COMPARTIR, GUARDAR, COMENTAR o SEGUIR). «Destino» se deja vacío.
    - **Dentro de la página va el guion:**
 
