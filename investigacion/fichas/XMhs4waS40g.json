@@ -1,0 +1,114 @@
+{
+ "id": "XMhs4waS40g",
+ "url": "https://www.youtube.com/shorts/XMhs4waS40g",
+ "titulo": "Por qué ganar más no te saca de pobre (el truco del aumento) #ahorrochallenge #finanzaspersonales",
+ "canal": "FINANZAS CON ONE ",
+ "vistas": 27160,
+ "ratio": 26.6,
+ "duracion_s": 43,
+ "formato": "motion sin cara",
+ "nicho": "Finanzas personales",
+ "hook": {
+  "texto_y_visual_0_3s": "Texto: 'Por qué ganar más no te saca de pobre' con personaje corriendo agotado en caminadora persiguiendo un billete.",
+  "tecnica": "Paradoja contraintuitiva y metáfora visual inmediata de la carrera de la rata.",
+  "por_que_engancha": "Desafía la creencia común de que mayores ingresos resuelven automáticamente los problemas de dinero."
+ },
+ "segundo_gancho": "A los 3 meses de un aumento salarial vuelves a estar igual de apretado.",
+ "escenas": [
+  {
+   "desde_s": 0,
+   "hasta_s": 6,
+   "que_se_ve": "Personaje corriendo en cinta rodante tras un billete que se aleja; calendario avanzando meses rápidamente.",
+   "tecnica_visual": "Animación de ciclos de caminata (run cycle) con elementos que cuelgan y pantalla interactiva de velocidad."
+  },
+  {
+   "desde_s": 6,
+   "hasta_s": 21,
+   "que_se_ve": "Gráfico de barras verticales (ingresos, gastos, ahorro). Un globo rojo representa el estilo de vida inflando los gastos a cero ahorro.",
+   "tecnica_visual": "Animación procedural de alturas de barra y deformación elástica de vector para el globo inflable."
+  },
+  {
+   "desde_s": 21,
+   "hasta_s": 29,
+   "que_se_ve": "Personaje tras escritorio dividiendo un fajo de billetes: 50% al frasco de ahorro y 50% a caprichos/gustos.",
+   "tecnica_visual": "Morphing de fajos dividiéndose con etiquetas flotantes y micro-reacciones gestuales."
+  },
+  {
+   "desde_s": 29,
+   "hasta_s": 34,
+   "que_se_ve": "Gráfico de barras donde la columna de ahorro se llena mes a mes mientras el personaje celebra.",
+   "tecnica_visual": "Contador temporal tipo slider mensual sincronizado con la subida progresiva de la barra azul."
+  },
+  {
+   "desde_s": 34,
+   "hasta_s": 37,
+   "que_se_ve": "Pantalla dividida: persona que gana mucho con frasco vacío y polilla vs quien gana menos con frasco lleno y corona.",
+   "tecnica_visual": "Split screen simétrico de alto contraste con assets contextuales comparativos."
+  },
+  {
+   "desde_s": 37,
+   "hasta_s": 43,
+   "que_se_ve": "Amigo recibiendo aumento pero sepultado bajo facturas que caen.",
+   "tecnica_visual": "Lluvia física de documentos con rotación aleatoria y rebote al aterrizar."
+  }
+ ],
+ "ritmo": {
+  "cortes_totales": 6,
+  "segundos_por_plano_medio": 7.1,
+  "comentario": "Ritmo ágil y constante donde cada bloque temático dura entre 5 y 8 segundos, apoyado en transiciones narrativas."
+ },
+ "momento_wow": {
+  "segundo": 15,
+  "que_pasa": "El globo rojo de 'estilo de vida' se infla dentro de la columna de gastos aplastando totalmente la posibilidad de ahorro."
+ },
+ "cierre": {
+  "tipo": "Llamado a compartir social (CTA)",
+  "hace_bucle": false,
+  "cta": "Envíaselo a ese amigo que gana más que antes y está más endeudado."
+ },
+ "tipografia": {
+  "estilo": "Sans-serif geométrica gruesa y redondeada con bordes contrastados.",
+  "animacion": "Pop-up elástico palabra por palabra con cajas flotantes tipo badge.",
+  "subtitulos": "Subtítulos centrados superiores e inferiores sincronizados al habla con tracking de palabras clave."
+ },
+ "color_y_luz": "Paleta saturada y limpia con fondos azul oscuro/púrpura para destacar barras verde (ingreso), rojo (gasto) y azul (ahorro).",
+ "camara_y_transiciones": [
+  "Cortes directos entre escenas",
+  "Transición de puertas que cierran al personaje al final del hook",
+  "Split-screen vertical estático"
+ ],
+ "efectos": [
+  "Interpolaciones tipo bounce en iconos",
+  "Glow sutil en la barra de ahorro",
+  "Deformación de vector squash-and-stretch en el globo"
+ ],
+ "graficos_y_datos": "Gráfico de barras de 3 columnas (Ingresos, Gastos, Ahorro) transformado en metáfora narrativa.",
+ "sonido": {
+  "voz": "Voz en off masculina en español neutro, dinámica, clara y coloquial.",
+  "musica": "Base lo-fi/hip-hop instrumental alegre y sutil en segundo plano.",
+  "efectos_sonido": [
+   "Swishes en apariciones",
+   "Sonido de inflar globo",
+   "Tintineo de monedas",
+   "Pop al dividirse billetes"
+  ],
+  "mezcla": "Voz protagonista con ducking marcado sobre la música y SFX en momentos clave."
+ },
+ "que_lo_hace_premium": [
+  "Diseño de personajes 2D consistente y expresivo.",
+  "Fácil digestión visual de conceptos financieros abstractos.",
+  "Animaciones fluidas con timing y rebotes elásticos naturales."
+ ],
+ "nota_calidad_visual_1_10": 9,
+ "recetas_remotion": [
+  {
+   "tecnica": "Barra de progreso de ahorro mensual dinámica",
+   "como_hacerlo_en_codigo": "Usar interpolate(frame, [start, end], [0, targetHeight], { extrapolateRight: 'clamp' }) ligado a spring() para el rebote final de la barra."
+  },
+  {
+   "tecnica": "Efecto división de fajo de dinero",
+   "como_hacerlo_en_codigo": "Renderizar dos componentes idénticos superpuestos y animar sus transforms translateX con resortes opuestos disparados en el mismo frame."
+  }
+ ],
+ "idea_para_ALIGN": "Crear un template Remotion para explicar 'Regla 50/30/20' donde un solo input de sueldo distribuya fajos de dinero animados a 3 frascos personalizables."
+}
