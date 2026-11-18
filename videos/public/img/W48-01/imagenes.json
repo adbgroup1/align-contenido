@@ -1,0 +1,8 @@
+{
+ "estilo": "Clean minimal 3D render, soft studio lighting, deep navy blue background (#0F172A), cobalt blue (#1D4ED8) and pale periwinkle (#C7D7FE) accents, subtle glossy materials, shallow depth of field.",
+ "proveedor_usado": "ChatGPT web (a mano, 18 nov 2026)",
+ "imagenes": [
+  { "id": "06-carrito-lleno", "prompt": "A glossy periwinkle shopping trolley seen at a slight three-quarter angle on a dark navy floor, overflowing with plain unbranded cardboard boxes and parcels of different sizes wrapped in cobalt and periwinkle paper. Plain boxes with no labels or printing." },
+  { "id": "07-carrito-vacio", "ref": "06-carrito-lleno", "prompt": "The same glossy periwinkle shopping trolley, same angle and lighting, now almost empty: only one small plain unbranded parcel left inside, softly lit by a cobalt rim light. Calm, relieved mood." }
+ ]
+}

@@ -1,0 +1,8 @@
+{
+ "estilo": "Clean minimal 3D render, soft studio lighting, deep navy blue background (#0F172A), cobalt blue (#1D4ED8) and pale periwinkle (#C7D7FE) accents, subtle glossy materials, shallow depth of field.",
+ "proveedor_usado": "ChatGPT web (a mano, 18 nov 2026)",
+ "imagenes": [
+  { "id": "02-cesta-llena", "prompt": "A woven periwinkle shopping basket on a dark navy table, full of generic unbranded groceries: a round loaf of bread, apples, oranges, a bunch of bananas and a plain white milk bottle with no label. Abundant and appetising." },
+  { "id": "06-cesta-menos", "ref": "02-cesta-llena", "prompt": "The same woven periwinkle shopping basket, same angle and lighting, now holding about a quarter less food: the bread, a few apples and the milk bottle remain, with visible empty space where the rest used to be. Slightly cooler, quieter mood." }
+ ]
+}
