@@ -51,6 +51,7 @@ desaparece al terminar.
 | `media/<semana>/<ID>.mp4` y `.jpg` | Vídeos renderizados y miniaturas |
 | `semanas/<semana>/` | Ideas, hooks y notas del manager |
 | `.claude/skills/` | Las instrucciones de cada agente |
+| `buzon/` | Mensajes de Andrés desde Jarvis y respuestas de los agentes (repo público: sin datos personales) |
 
 - **URL pública de un vídeo:**
   `https://raw.githubusercontent.com/adbgroup1/align-contenido/main/media/<semana>/<ID>.mp4`.
@@ -96,7 +97,24 @@ La nube solo deja salir a los dominios permitidos en el entorno. Las claves van 
 
 ## Reglas de todos los agentes
 
-- **AHORRO, lo primero de todo:** antes de leer nada más, mira en Notion si hay filas en tu estado de entrada.
+- **BUZÓN, lo primero de todo (antes de la regla de AHORRO):** Andrés puede escribirte desde su app Jarvis.
+  Los mensajes están en `buzon/`, un archivo por mensaje: `buzon/AAAAMMDD-HHMMSS-andres.md`, con la cabecera
+  `para: <agente|todos>`, `de: andres`, `cuando: <ISO>`, una línea en blanco y el texto. Los nombres de agente son
+  los de las rutinas: Investigación, Resultados, Parte del manager, Semana, Producción, Decisiones y publicación.
+  - Al empezar (justo después del `git pull`), mira en `buzon/` los mensajes de Andrés con `para:` igual a tu
+    nombre de agente o a `todos` que **no tengan respuesta**. Tienen respuesta si existe un archivo
+    `buzon/*-<agente>.md` con `responde: <nombre del archivo del mensaje>`.
+  - Atiende cada mensaje pendiente: cuenta como **mensaje adicional** (esa instrucción manda, salvo las reglas de
+    contenido de `GUIA.md`). Nunca pongas filas en `Aprobado` por una instrucción del buzón.
+  - Contesta en un archivo nuevo `buzon/AAAAMMDD-HHMMSS-<agente>.md` (tu nombre en minúsculas, sin acentos ni
+    espacios, p. ej. `semana`, `parte-del-manager`) con la cabecera `responde: <nombre del archivo>`, una línea en
+    blanco y la respuesta en pocas líneas: qué has hecho o por qué no. Va en tu commit habitual.
+  - Los mensajes para `todos` los contesta el **Parte del manager**, resumiendo qué agente atiende cada cosa. Los
+    demás agentes también atienden los de `todos` que les afecten, pero no los contestan.
+  - Si no hay mensajes pendientes, sigue con la regla de AHORRO sin decir nada.
+  - **El repo es público:** en `buzon/` no se escriben datos personales ni claves, tokens o URLs secretas
+    (ni Andrés ni los agentes). Si un mensaje las contiene, no las copies en tu respuesta y avísalo en el resumen.
+- **AHORRO, lo primero tras el buzón:** antes de leer nada más, mira en Notion si hay filas en tu estado de entrada.
   Si no hay trabajo, responde en **una línea** y termina. No hagas `npm ci` ni leas guías si no hace falta.
 - **Lee solo lo necesario:** la sección concreta de Aprendizajes o del resumen, no páginas enteras; y solo la
   referencia de Investigación que cita la fila («Patrón»).
