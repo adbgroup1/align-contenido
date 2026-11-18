@@ -16,6 +16,9 @@ Nunca en una tarea programada ni sin supervisión: las condiciones de ChatGPT no
 1. `git pull --ff-only` en `repo-nube/`.
 2. **Qué vídeos llevan imagen:** en Notion (Vídeos), las filas de la semana con Estado `Revisión manager OK`
    y alguna fila `IMAGEN:` en la columna «Animación / visual» del guion. Si no hay ninguna, dilo y termina.
+   **Si Andrés dice «rehaz las imágenes»:** solo las marcadas `rehacer` en `public/img/<ID>/revision.json`.
+   Su `prompt` en `imagenes.json` ya viene corregido por el agente de Investigación; enséñale a Andrés el
+   motivo antes de generar. Usa el mismo chat de ChatGPT del vídeo si sigue abierto (para la continuidad).
 3. **Encargos:** por cada vídeo, escribe `videos/public/img/<ID>/imagenes.json` según `videos/KIT.md`
    («Imágenes generadas»): el bloque `estilo` de ALIGN y un `prompt` en inglés por cada `IMAGEN:`.
    Comprueba con `cd videos && node scripts/imagenes.mjs <ID> --plan`.
@@ -30,6 +33,8 @@ Nunca en una tarea programada ni sin supervisión: las condiciones de ChatGPT no
    `-s formatOptions 70`).
 6. **Revisar cada `.jpg`** con las reglas de `KIT.md`: nada de texto ni de logos, el mismo objeto en todas
    las escenas, el objeto centrado y sin caras raras. Se rehace como mucho 2 veces.
+   Esta es una primera criba; la revisión que manda la hace el agente de Investigación esa noche (03:00),
+   que aprueba, corrige o pide rehacer cada imagen en `revision.json`. Producción solo usa las aprobadas.
 7. **Subir a GitHub:** commit con los `.jpg` y los `imagenes.json` (los `.png` no se suben) y push, solo si
    Andrés lo pide. Sin push, la nube no ve las imágenes y Producción monta esas escenas sin imagen.
 

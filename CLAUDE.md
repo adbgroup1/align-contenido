@@ -73,7 +73,8 @@ npx remotion render src/index.ts <ID> ../media/<semana>/<ID>.mp4 \
 - **Kit v2:** los vídeos se montan con `videos/src/kit.tsx` (manual en `videos/KIT.md`). La voz se genera
   antes del render con `node scripts/voz.mjs <ID>`.
 - **Imágenes de escena:** si el guion lleva `IMAGEN:`, Andrés las hace antes con Claude en local, en ChatGPT web
-  (skill `align-imagenes`), y llegan en `public/img/<ID>/`. Si faltan, `node scripts/imagenes.mjs <ID>`
+  (skill `align-imagenes`), y llegan en `public/img/<ID>/`. Esa noche las revisa el agente de Investigación
+  (Paso 0 de su skill) y deja el veredicto en `public/img/<ID>/revision.json`; Producción solo usa las aprobadas. Si faltan, `node scripts/imagenes.mjs <ID>`
   (`KIT.md`, «Imágenes generadas»); hoy la API no tiene cupo, así que esas escenas se montan sin imagen.
   Nunca se usan modelos de vídeo.
 - **Si la fuente Inter no carga** (Google Fonts bloqueado), sigue con la fuente del sistema y apúntalo en la

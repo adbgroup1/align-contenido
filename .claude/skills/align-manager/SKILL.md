@@ -45,6 +45,9 @@ Lee `GUIA.md` y puntúa cada guion de 1 a 5 en:
 - **Imágenes pendientes** (de miércoles a sábado): filas en `Revisión manager OK` cuyo guion tiene alguna
   `IMAGEN:` y sin ningún `.jpg` en `videos/public/img/<ID>/` del repo. Ponlo así: «Imágenes: W48-01, W48-02
   (antes del sábado 13:00; abre una sesión en el Mac y di "haz las imágenes de la semana")».
+- **Imágenes para rehacer:** filas cuyo `videos/public/img/<ID>/revision.json` tiene `estado` = `pendiente`.
+  Pon el ID, la imagen y el motivo: «Rehacer imágenes: W48-01 07-carrito-vacio (logo en el lateral). Di
+  "rehaz las imágenes" en el Mac antes del sábado 13:00».
 - **Atascos:**
   - filas en `Revisión manager OK` sin vídeo después de la producción del sábado;
   - filas en `Aprobado` sin programar;

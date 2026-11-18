@@ -113,7 +113,8 @@ no caben en la nube.
    - Con `--plan`, revisa los encargos sin gastar nada.
    - Las imágenes que ya existen no se rehacen: para repetir una, `--solo <id> --forzar`.
    - Salen un `.png` (referencia, no se sube) y un `.jpg` de ~200 KB, que es el que usa el vídeo.
-3. **Revisarlas antes de montar.** Mira cada `.jpg`.
+3. **Revisarlas antes de montar.** Mira cada `.jpg`. La revisión oficial es el «Paso 0» de
+   `align-investigacion`, que deja el veredicto en `revision.json`.
    - **Rehaz la imagen (como mucho 2 veces) si:**
      - sale texto o algún logo;
      - el objeto cambia entre escenas;

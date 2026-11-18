@@ -29,7 +29,13 @@ Después lee:
      manager», deja la fila como estaba y pasa al siguiente.
 3. **Imágenes**, solo si el guion las pide: filas con `IMAGEN:` en la columna «Animación / visual».
    - **Primero mira `public/img/<ID>/`:** si ya están los `.jpg` (los hace Andrés con Claude en local, skill
-     `align-imagenes`), úsalos tal cual y no escribas otro `imagenes.json`.
+     `align-imagenes`), no escribas otro `imagenes.json`. Usa su `revision.json` (lo deja la Investigación
+     de cada noche):
+     - imágenes `aprobada` o `corregida`: úsalas tal cual;
+     - `rehacer` o `sin imagen`: monta esa escena con piezas del kit, sin imagen, y apúntalo en «Nota del
+       manager»;
+     - **si no hay `revision.json`** o falta alguna imagen en él (llegó después de las 03:00), revísala tú
+       antes de montar con el «Paso 0» de `.claude/skills/align-investigacion/SKILL.md`.
    - Si faltan, sigue `KIT.md`, sección «Imágenes generadas»: escribe `public/img/<ID>/imagenes.json`, ejecuta
      `node scripts/imagenes.mjs <ID>` y **mira cada `.jpg`** antes de montar.
    - **Si falla** (sin clave, sin red o sin cupo): monta esa escena con piezas del kit, sin imagen, y apúntalo
