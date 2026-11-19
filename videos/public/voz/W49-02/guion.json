@@ -1,0 +1,14 @@
+{ "escenas": [
+  { "id": "hook", "texto": "¿Y si mañana tu banco no abre?" },
+  { "id": "gancho2", "texto": "Tranquilo: hay un fondo que te devuelve el dinero. Pero con un límite." },
+  { "id": "fondo", "texto": "Se llama Fondo de Garantía de Depósitos." },
+  { "id": "dato", "texto": "Si tu banco quiebra, te devuelve hasta cien mil euros." },
+  { "id": "persona", "texto": "Por persona y por banco." },
+  { "id": "cubre", "texto": "Cubre lo que tienes en cuentas y depósitos." },
+  { "id": "wow", "texto": "Todo eso, hasta esa cifra, queda a salvo." },
+  { "id": "rehook", "texto": "¿Y lo que pasa de ese límite?" },
+  { "id": "fuera", "texto": "Eso no está cubierto." },
+  { "id": "reparte", "texto": "Por eso, quien tiene más, lo reparte en varios bancos." },
+  { "id": "cta", "texto": "¿Lo sabías antes de este vídeo? Sí o no, te leo. Síguenos para más." },
+  { "id": "cierre", "texto": "Así que, si mañana no abre, ya sabes qué recuperas." }
+] }

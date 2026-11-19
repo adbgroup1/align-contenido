@@ -1,0 +1,13 @@
+{ "escenas": [
+  { "id": "hook", "texto": "Hoy juzgamos al gimnasio de Dani." },
+  { "id": "gancho2", "texto": "Él dice que es barato: solo cuarenta euros al mes." },
+  { "id": "prueba1", "texto": "Prueba número uno: la bolsa de deporte, sin abrir desde octubre." },
+  { "id": "prueba2", "texto": "Prueba número dos: la app del gimnasio. Dos visitas este mes." },
+  { "id": "rehook", "texto": "Pero la fiscal tiene una pregunta." },
+  { "id": "pregunta", "texto": "Dani, ¿cuánto te cuesta cada vez que vas?" },
+  { "id": "wow", "texto": "Cuarenta euros entre dos visitas: veinte euros cada vez." },
+  { "id": "balanza", "texto": "Un gasto no es caro por la cuota, sino por lo poco que lo usas." },
+  { "id": "sentencia", "texto": "Sentencia: o vas más, o lo das de baja." },
+  { "id": "cta", "texto": "Mándaselo a quien paga el gimnasio y no va. Síguenos para más." },
+  { "id": "cierre", "texto": "Se levanta la sesión. Mañana, Dani va al gimnasio." }
+] }

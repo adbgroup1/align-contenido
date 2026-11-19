@@ -58,7 +58,8 @@ const Ardilla: React.FC<{
   barriga?: number; // 0–1, Lola tras el banquete
   entra?: "izq" | "der" | "abajo" | null;
   delay?: number;
-}> = ({ quien, x, y = SUELO_Y, escala = 1.15, expresion = "feliz", pose = "quieto", mirar = "frente", salto, barriga = 0, entra = null, delay = 0 }) => {
+  numero?: boolean;
+}> = ({ numero = true, quien, x, y = SUELO_Y, escala = 1.15, expresion = "feliz", pose = "quieto", mirar = "frente", salto, barriga = 0, entra = null, delay = 0 }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const a = ARDILLAS[quien];
@@ -115,7 +116,7 @@ const Ardilla: React.FC<{
         ) : null}
       </svg>
       {/* número */}
-      <div
+      {numero ? <div
         style={{
           position: "absolute",
           left: x - 26,
@@ -133,7 +134,7 @@ const Ardilla: React.FC<{
         }}
       >
         {a.n}
-      </div>
+      </div> : null}
     </div>
   );
 };
@@ -153,10 +154,10 @@ const Bellota: React.FC<{ x: number; y: number; r?: number; rot?: number; o?: nu
 );
 
 const Bolsa: React.FC<{ x: number; y: number; vacia?: number; caer?: number }> = ({ x, y, vacia = 0, caer = 1 }) => {
-  const yy = y - (1 - caer) * 900;
+  const yy = y - (1 - caer) * 420;
   return (
     <svg width={1080} height={1920} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
-      <g transform={`translate(${x} ${yy}) scale(${1 - vacia * 0.25} ${1 - vacia * 0.5})`} style={{ transformOrigin: "0 0" }}>
+      <g transform={`translate(${x} ${yy}) scale(${1 - vacia * 0.25} ${1 - vacia * 0.5})`} opacity={Math.min(1, caer * 2)}>
         <path d="M-60 0 Q-70 -80 -26 -96 L26 -96 Q70 -80 60 0 Z" fill={COLORS.paper} stroke={COLORS.navy} strokeWidth={5} />
         <path d="M-30 -96 Q0 -116 30 -96" fill="none" stroke={COLORS.red} strokeWidth={8} strokeLinecap="round" />
         <Bellota x={0} y={-46} r={20} />
@@ -390,7 +391,7 @@ const Rehook: React.FC = () => {
         if (p <= 0 || p >= 1) return null;
         return <HojaDic key={k} x={540 + (k % 2 ? 1 : -1) * p * 600} y={760 - p * 420} rot={p * 120 * (k % 2 ? 1 : -1)} />;
       })}
-      <div style={{ position: "absolute", top: 600, left: 0, right: 0, textAlign: "center" }}>
+      <div style={{ position: "absolute", top: 600, left: 0, right: 0, textAlign: "center", zIndex: 5 }}>
         <div style={{ fontSize: 80, fontWeight: 900, color: COLORS.white, textShadow: "0 8px 30px rgba(0,0,0,0.4)" }}>10 años después…</div>
         <div style={{ fontSize: 200, fontWeight: 900, color: COLORS.gold, lineHeight: 1, textShadow: "0 8px 30px rgba(0,0,0,0.4)" }}>Año {anio}</div>
       </div>
@@ -405,7 +406,7 @@ const Rehook: React.FC = () => {
 const Wow: React.FC = () => (
   <Escena sacudidas={[2.6]} sonidoEntrada="impacto">
     <Escenario tipo="campo" />
-    <Monton x={260} s={1} cartel={<><BellotaIcono /><span style={{ fontSize: 66, fontWeight: 900, color: COLORS.navy }}>3.000</span></>} />
+    <Monton x={330} s={1} cartel={<><BellotaIcono /><span style={{ fontSize: 66, fontWeight: 900, color: COLORS.navy }}>3.000</span></>} />
     <Arbol x={760} g={1} bellotas={1} />
     <div style={{ position: "absolute", top: 240, left: 90, right: 120, display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
       <div style={{ background: COLORS.white, border: `6px solid ${COLORS.green}`, borderRadius: 30, padding: "4px 36px", display: "flex", alignItems: "center", gap: 18 }}>
@@ -416,8 +417,8 @@ const Wow: React.FC = () => (
         Ejemplo hipotético · 5 % anual
       </Pildora>
     </div>
-    <Ardilla quien="bruno" x={260} y={SUELO_Y + 10} escala={0.85} expresion="sorpresa" mirar="der" />
-    <Ardilla quien="nina" x={560} y={SUELO_Y + 10} escala={0.95} expresion="feliz" pose="brazos-arriba" salto={2.6} />
+    <Ardilla quien="bruno" x={150} y={SUELO_Y + 10} escala={0.85} expresion="sorpresa" mirar="der" numero={false} />
+    <Ardilla quien="nina" x={560} y={SUELO_Y + 10} escala={0.95} expresion="feliz" pose="brazos-arriba" salto={2.6} numero={false} />
     <Chispas en={2.6} x={540} y={420} color={COLORS.green} />
     <Sfx s="ding" volumen={0.4} en={2.6} />
   </Escena>
@@ -455,9 +456,11 @@ const Moraleja: React.FC = () => {
         })}
       </svg>
       <Ardilla quien="nina" x={330} expresion="feliz" pose="senala" mirar="der" />
-      <Pildora delay={1.2} bg={COLORS.navy} color={COLORS.gold}>
-        Y cuanto antes, mejor
-      </Pildora>
+      <div style={{ position: "absolute", top: 400, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+        <Pildora delay={1.2} bg={COLORS.navy} color={COLORS.gold} size={44}>
+          Y cuanto antes, mejor
+        </Pildora>
+      </div>
     </Escena>
   );
 };

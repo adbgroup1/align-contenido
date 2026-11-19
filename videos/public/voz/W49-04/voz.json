@@ -1,0 +1,624 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Hoy juzgamos al gimnasio de Dani.",
+   "archivo": "hook.mp3",
+   "segundos": 1.906939,
+   "palabras": [
+    {
+     "t": "Hoy",
+     "inicio": 0,
+     "fin": 0.279
+    },
+    {
+     "t": "juzgamos",
+     "inicio": 0.313,
+     "fin": 0.766
+    },
+    {
+     "t": "al",
+     "inicio": 0.824,
+     "fin": 0.882
+    },
+    {
+     "t": "gimnasio",
+     "inicio": 0.929,
+     "fin": 1.335
+    },
+    {
+     "t": "de",
+     "inicio": 1.37,
+     "fin": 1.428
+    },
+    {
+     "t": "Dani.",
+     "inicio": 1.474,
+     "fin": 1.858
+    }
+   ]
+  },
+  {
+   "id": "gancho2",
+   "texto": "Él dice que es barato: solo cuarenta euros al mes.",
+   "archivo": "gancho2.mp3",
+   "segundos": 2.76898,
+   "palabras": [
+    {
+     "t": "Él",
+     "inicio": 0,
+     "fin": 0.151
+    },
+    {
+     "t": "dice",
+     "inicio": 0.209,
+     "fin": 0.418
+    },
+    {
+     "t": "que",
+     "inicio": 0.464,
+     "fin": 0.534
+    },
+    {
+     "t": "es",
+     "inicio": 0.557,
+     "fin": 0.604
+    },
+    {
+     "t": "barato:",
+     "inicio": 0.662,
+     "fin": 1.057
+    },
+    {
+     "t": "solo",
+     "inicio": 1.126,
+     "fin": 1.37
+    },
+    {
+     "t": "cuarenta",
+     "inicio": 1.416,
+     "fin": 1.8
+    },
+    {
+     "t": "euros",
+     "inicio": 1.846,
+     "fin": 2.09
+    },
+    {
+     "t": "al",
+     "inicio": 2.159,
+     "fin": 2.206
+    },
+    {
+     "t": "mes.",
+     "inicio": 2.241,
+     "fin": 2.74
+    }
+   ]
+  },
+  {
+   "id": "prueba1",
+   "texto": "Prueba número uno: la bolsa de deporte, sin abrir desde octubre.",
+   "archivo": "prueba1.mp3",
+   "segundos": 3.94449,
+   "palabras": [
+    {
+     "t": "Prueba",
+     "inicio": 0,
+     "fin": 0.406
+    },
+    {
+     "t": "número",
+     "inicio": 0.464,
+     "fin": 0.778
+    },
+    {
+     "t": "uno:",
+     "inicio": 0.848,
+     "fin": 1.173
+    },
+    {
+     "t": "la",
+     "inicio": 1.37,
+     "fin": 1.474
+    },
+    {
+     "t": "bolsa",
+     "inicio": 1.521,
+     "fin": 1.811
+    },
+    {
+     "t": "de",
+     "inicio": 1.858,
+     "fin": 1.916
+    },
+    {
+     "t": "deporte,",
+     "inicio": 1.962,
+     "fin": 2.473
+    },
+    {
+     "t": "sin",
+     "inicio": 2.508,
+     "fin": 2.659
+    },
+    {
+     "t": "abrir",
+     "inicio": 2.705,
+     "fin": 2.949
+    },
+    {
+     "t": "desde",
+     "inicio": 2.995,
+     "fin": 3.216
+    },
+    {
+     "t": "octubre.",
+     "inicio": 3.251,
+     "fin": 3.901
+    }
+   ]
+  },
+  {
+   "id": "prueba2",
+   "texto": "Prueba número dos: la app del gimnasio. Dos visitas este mes.",
+   "archivo": "prueba2.mp3",
+   "segundos": 4.493061,
+   "palabras": [
+    {
+     "t": "Prueba",
+     "inicio": 0,
+     "fin": 0.43
+    },
+    {
+     "t": "número",
+     "inicio": 0.476,
+     "fin": 0.778
+    },
+    {
+     "t": "dos:",
+     "inicio": 0.824,
+     "fin": 1.161
+    },
+    {
+     "t": "la",
+     "inicio": 1.393,
+     "fin": 1.579
+    },
+    {
+     "t": "app",
+     "inicio": 1.602,
+     "fin": 1.858
+    },
+    {
+     "t": "del",
+     "inicio": 2.02,
+     "fin": 2.136
+    },
+    {
+     "t": "gimnasio.",
+     "inicio": 2.183,
+     "fin": 2.856
+    },
+    {
+     "t": "Dos",
+     "inicio": 3.053,
+     "fin": 3.228
+    },
+    {
+     "t": "visitas",
+     "inicio": 3.286,
+     "fin": 3.669
+    },
+    {
+     "t": "este",
+     "inicio": 3.738,
+     "fin": 3.913
+    },
+    {
+     "t": "mes.",
+     "inicio": 3.959,
+     "fin": 4.458
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "texto": "Pero la fiscal tiene una pregunta.",
+   "archivo": "rehook.mp3",
+   "segundos": 1.906939,
+   "palabras": [
+    {
+     "t": "Pero",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "la",
+     "inicio": 0.337,
+     "fin": 0.395
+    },
+    {
+     "t": "fiscal",
+     "inicio": 0.43,
+     "fin": 0.755
+    },
+    {
+     "t": "tiene",
+     "inicio": 0.824,
+     "fin": 1.057
+    },
+    {
+     "t": "una",
+     "inicio": 1.115,
+     "fin": 1.231
+    },
+    {
+     "t": "pregunta.",
+     "inicio": 1.254,
+     "fin": 1.858
+    }
+   ]
+  },
+  {
+   "id": "pregunta",
+   "texto": "Dani, ¿cuánto te cuesta cada vez que vas?",
+   "archivo": "pregunta.mp3",
+   "segundos": 2.089796,
+   "palabras": [
+    {
+     "t": "Dani,",
+     "inicio": 0,
+     "fin": 0.395
+    },
+    {
+     "t": "¿cuánto",
+     "inicio": 0.418,
+     "fin": 0.731
+    },
+    {
+     "t": "te",
+     "inicio": 0.778,
+     "fin": 0.836
+    },
+    {
+     "t": "cuesta",
+     "inicio": 0.871,
+     "fin": 1.138
+    },
+    {
+     "t": "cada",
+     "inicio": 1.173,
+     "fin": 1.347
+    },
+    {
+     "t": "vez",
+     "inicio": 1.382,
+     "fin": 1.498
+    },
+    {
+     "t": "que",
+     "inicio": 1.533,
+     "fin": 1.602
+    },
+    {
+     "t": "vas?",
+     "inicio": 1.637,
+     "fin": 2.043
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Cuarenta euros entre dos visitas: veinte euros cada vez.",
+   "archivo": "wow.mp3",
+   "segundos": 4.205714,
+   "palabras": [
+    {
+     "t": "Cuarenta",
+     "inicio": 0,
+     "fin": 0.534
+    },
+    {
+     "t": "euros",
+     "inicio": 0.592,
+     "fin": 0.894
+    },
+    {
+     "t": "entre",
+     "inicio": 0.952,
+     "fin": 1.161
+    },
+    {
+     "t": "dos",
+     "inicio": 1.207,
+     "fin": 1.335
+    },
+    {
+     "t": "visitas:",
+     "inicio": 1.393,
+     "fin": 2.043
+    },
+    {
+     "t": "veinte",
+     "inicio": 2.31,
+     "fin": 2.67
+    },
+    {
+     "t": "euros",
+     "inicio": 2.74,
+     "fin": 3.007
+    },
+    {
+     "t": "cada",
+     "inicio": 3.065,
+     "fin": 3.239
+    },
+    {
+     "t": "vez.",
+     "inicio": 3.274,
+     "fin": 4.18
+    }
+   ]
+  },
+  {
+   "id": "balanza",
+   "texto": "Un gasto no es caro por la cuota, sino por lo poco que lo usas.",
+   "archivo": "balanza.mp3",
+   "segundos": 4.179592,
+   "palabras": [
+    {
+     "t": "Un",
+     "inicio": 0,
+     "fin": 0.197
+    },
+    {
+     "t": "gasto",
+     "inicio": 0.255,
+     "fin": 0.569
+    },
+    {
+     "t": "no",
+     "inicio": 0.627,
+     "fin": 0.697
+    },
+    {
+     "t": "es",
+     "inicio": 0.743,
+     "fin": 0.801
+    },
+    {
+     "t": "caro",
+     "inicio": 0.871,
+     "fin": 1.126
+    },
+    {
+     "t": "por",
+     "inicio": 1.184,
+     "fin": 1.312
+    },
+    {
+     "t": "la",
+     "inicio": 1.382,
+     "fin": 1.44
+    },
+    {
+     "t": "cuota,",
+     "inicio": 1.486,
+     "fin": 1.916
+    },
+    {
+     "t": "sino",
+     "inicio": 1.962,
+     "fin": 2.171
+    },
+    {
+     "t": "por",
+     "inicio": 2.218,
+     "fin": 2.334
+    },
+    {
+     "t": "lo",
+     "inicio": 2.392,
+     "fin": 2.45
+    },
+    {
+     "t": "poco",
+     "inicio": 2.496,
+     "fin": 2.752
+    },
+    {
+     "t": "que",
+     "inicio": 2.81,
+     "fin": 2.879
+    },
+    {
+     "t": "lo",
+     "inicio": 2.926,
+     "fin": 3.019
+    },
+    {
+     "t": "usas.",
+     "inicio": 3.088,
+     "fin": 4.133
+    }
+   ]
+  },
+  {
+   "id": "sentencia",
+   "texto": "Sentencia: o vas más, o lo das de baja.",
+   "archivo": "sentencia.mp3",
+   "segundos": 2.690612,
+   "palabras": [
+    {
+     "t": "Sentencia:",
+     "inicio": 0,
+     "fin": 0.824
+    },
+    {
+     "t": "o",
+     "inicio": 0.964,
+     "fin": 1.01
+    },
+    {
+     "t": "vas",
+     "inicio": 1.068,
+     "fin": 1.219
+    },
+    {
+     "t": "más,",
+     "inicio": 1.289,
+     "fin": 1.579
+    },
+    {
+     "t": "o",
+     "inicio": 1.672,
+     "fin": 1.718
+    },
+    {
+     "t": "lo",
+     "inicio": 1.776,
+     "fin": 1.846
+    },
+    {
+     "t": "das",
+     "inicio": 1.892,
+     "fin": 2.02
+    },
+    {
+     "t": "de",
+     "inicio": 2.067,
+     "fin": 2.113
+    },
+    {
+     "t": "baja.",
+     "inicio": 2.159,
+     "fin": 2.647
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Mándaselo a quien paga el gimnasio y no va. Síguenos para más.",
+   "archivo": "cta.mp3",
+   "segundos": 4.179592,
+   "palabras": [
+    {
+     "t": "Mándaselo",
+     "inicio": 0,
+     "fin": 0.546
+    },
+    {
+     "t": "a",
+     "inicio": 0.569,
+     "fin": 0.592
+    },
+    {
+     "t": "quien",
+     "inicio": 0.627,
+     "fin": 0.778
+    },
+    {
+     "t": "paga",
+     "inicio": 0.848,
+     "fin": 1.057
+    },
+    {
+     "t": "el",
+     "inicio": 1.08,
+     "fin": 1.138
+    },
+    {
+     "t": "gimnasio",
+     "inicio": 1.196,
+     "fin": 1.823
+    },
+    {
+     "t": "y",
+     "inicio": 1.892,
+     "fin": 1.927
+    },
+    {
+     "t": "no",
+     "inicio": 1.985,
+     "fin": 2.055
+    },
+    {
+     "t": "va.",
+     "inicio": 2.113,
+     "fin": 2.403
+    },
+    {
+     "t": "Síguenos",
+     "inicio": 2.635,
+     "fin": 3.1
+    },
+    {
+     "t": "para",
+     "inicio": 3.158,
+     "fin": 3.332
+    },
+    {
+     "t": "más.",
+     "inicio": 3.367,
+     "fin": 4.133
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "texto": "Se levanta la sesión. Mañana, Dani va al gimnasio.",
+   "archivo": "cierre.mp3",
+   "segundos": 3.343673,
+   "palabras": [
+    {
+     "t": "Se",
+     "inicio": 0,
+     "fin": 0.186
+    },
+    {
+     "t": "levanta",
+     "inicio": 0.232,
+     "fin": 0.615
+    },
+    {
+     "t": "la",
+     "inicio": 0.662,
+     "fin": 0.731
+    },
+    {
+     "t": "sesión.",
+     "inicio": 0.778,
+     "fin": 1.231
+    },
+    {
+     "t": "Mañana,",
+     "inicio": 1.347,
+     "fin": 1.892
+    },
+    {
+     "t": "Dani",
+     "inicio": 1.985,
+     "fin": 2.264
+    },
+    {
+     "t": "va",
+     "inicio": 2.322,
+     "fin": 2.392
+    },
+    {
+     "t": "al",
+     "inicio": 2.415,
+     "fin": 2.473
+    },
+    {
+     "t": "gimnasio.",
+     "inicio": 2.543,
+     "fin": 3.297
+    }
+   ]
+  }
+ ]
+}

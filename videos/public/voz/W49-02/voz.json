@@ -1,0 +1,617 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "¿Y si mañana tu banco no abre?",
+   "archivo": "hook.mp3",
+   "segundos": 1.933061,
+   "palabras": [
+    {
+     "t": "¿Y",
+     "inicio": 0,
+     "fin": 0.313
+    },
+    {
+     "t": "si",
+     "inicio": 0.395,
+     "fin": 0.488
+    },
+    {
+     "t": "mañana",
+     "inicio": 0.546,
+     "fin": 0.871
+    },
+    {
+     "t": "tu",
+     "inicio": 0.917,
+     "fin": 0.998
+    },
+    {
+     "t": "banco",
+     "inicio": 1.045,
+     "fin": 1.289
+    },
+    {
+     "t": "no",
+     "inicio": 1.335,
+     "fin": 1.405
+    },
+    {
+     "t": "abre?",
+     "inicio": 1.451,
+     "fin": 1.904
+    }
+   ]
+  },
+  {
+   "id": "gancho2",
+   "texto": "Tranquilo: hay un fondo que te devuelve el dinero. Pero con un límite.",
+   "archivo": "gancho2.mp3",
+   "segundos": 4.440816,
+   "palabras": [
+    {
+     "t": "Tranquilo:",
+     "inicio": 0,
+     "fin": 0.731
+    },
+    {
+     "t": "hay",
+     "inicio": 0.801,
+     "fin": 0.964
+    },
+    {
+     "t": "un",
+     "inicio": 1.01,
+     "fin": 1.068
+    },
+    {
+     "t": "fondo",
+     "inicio": 1.126,
+     "fin": 1.451
+    },
+    {
+     "t": "que",
+     "inicio": 1.509,
+     "fin": 1.579
+    },
+    {
+     "t": "te",
+     "inicio": 1.625,
+     "fin": 1.695
+    },
+    {
+     "t": "devuelve",
+     "inicio": 1.73,
+     "fin": 2.159
+    },
+    {
+     "t": "el",
+     "inicio": 2.183,
+     "fin": 2.241
+    },
+    {
+     "t": "dinero.",
+     "inicio": 2.287,
+     "fin": 2.752
+    },
+    {
+     "t": "Pero",
+     "inicio": 2.891,
+     "fin": 3.123
+    },
+    {
+     "t": "con",
+     "inicio": 3.181,
+     "fin": 3.297
+    },
+    {
+     "t": "un",
+     "inicio": 3.413,
+     "fin": 3.483
+    },
+    {
+     "t": "límite.",
+     "inicio": 3.553,
+     "fin": 4.412
+    }
+   ]
+  },
+  {
+   "id": "fondo",
+   "texto": "Se llama Fondo de Garantía de Depósitos.",
+   "archivo": "fondo.mp3",
+   "segundos": 2.45551,
+   "palabras": [
+    {
+     "t": "Se",
+     "inicio": 0,
+     "fin": 0.174
+    },
+    {
+     "t": "llama",
+     "inicio": 0.197,
+     "fin": 0.464
+    },
+    {
+     "t": "Fondo",
+     "inicio": 0.534,
+     "fin": 0.848
+    },
+    {
+     "t": "de",
+     "inicio": 0.894,
+     "fin": 0.94
+    },
+    {
+     "t": "Garantía",
+     "inicio": 0.975,
+     "fin": 1.44
+    },
+    {
+     "t": "de",
+     "inicio": 1.498,
+     "fin": 1.556
+    },
+    {
+     "t": "Depósitos.",
+     "inicio": 1.602,
+     "fin": 2.415
+    }
+   ]
+  },
+  {
+   "id": "dato",
+   "texto": "Si tu banco quiebra, te devuelve hasta cien mil euros.",
+   "archivo": "dato.mp3",
+   "segundos": 2.742857,
+   "palabras": [
+    {
+     "t": "Si",
+     "inicio": 0,
+     "fin": 0.163
+    },
+    {
+     "t": "tu",
+     "inicio": 0.209,
+     "fin": 0.29
+    },
+    {
+     "t": "banco",
+     "inicio": 0.325,
+     "fin": 0.557
+    },
+    {
+     "t": "quiebra,",
+     "inicio": 0.615,
+     "fin": 0.987
+    },
+    {
+     "t": "te",
+     "inicio": 1.01,
+     "fin": 1.091
+    },
+    {
+     "t": "devuelve",
+     "inicio": 1.138,
+     "fin": 1.498
+    },
+    {
+     "t": "hasta",
+     "inicio": 1.521,
+     "fin": 1.741
+    },
+    {
+     "t": "cien",
+     "inicio": 1.765,
+     "fin": 1.916
+    },
+    {
+     "t": "mil",
+     "inicio": 1.962,
+     "fin": 2.159
+    },
+    {
+     "t": "euros.",
+     "inicio": 2.229,
+     "fin": 2.694
+    }
+   ]
+  },
+  {
+   "id": "persona",
+   "texto": "Por persona y por banco.",
+   "archivo": "persona.mp3",
+   "segundos": 1.567347,
+   "palabras": [
+    {
+     "t": "Por",
+     "inicio": 0,
+     "fin": 0.197
+    },
+    {
+     "t": "persona",
+     "inicio": 0.267,
+     "fin": 0.639
+    },
+    {
+     "t": "y",
+     "inicio": 0.673,
+     "fin": 0.697
+    },
+    {
+     "t": "por",
+     "inicio": 0.766,
+     "fin": 0.894
+    },
+    {
+     "t": "banco.",
+     "inicio": 0.952,
+     "fin": 1.533
+    }
+   ]
+  },
+  {
+   "id": "cubre",
+   "texto": "Cubre lo que tienes en cuentas y depósitos.",
+   "archivo": "cubre.mp3",
+   "segundos": 2.272653,
+   "palabras": [
+    {
+     "t": "Cubre",
+     "inicio": 0,
+     "fin": 0.372
+    },
+    {
+     "t": "lo",
+     "inicio": 0.406,
+     "fin": 0.476
+    },
+    {
+     "t": "que",
+     "inicio": 0.522,
+     "fin": 0.592
+    },
+    {
+     "t": "tienes",
+     "inicio": 0.627,
+     "fin": 0.894
+    },
+    {
+     "t": "en",
+     "inicio": 0.952,
+     "fin": 1.01
+    },
+    {
+     "t": "cuentas",
+     "inicio": 1.057,
+     "fin": 1.405
+    },
+    {
+     "t": "y",
+     "inicio": 1.451,
+     "fin": 1.486
+    },
+    {
+     "t": "depósitos.",
+     "inicio": 1.533,
+     "fin": 2.229
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Todo eso, hasta esa cifra, queda a salvo.",
+   "archivo": "wow.mp3",
+   "segundos": 2.690612,
+   "palabras": [
+    {
+     "t": "Todo",
+     "inicio": 0,
+     "fin": 0.302
+    },
+    {
+     "t": "eso,",
+     "inicio": 0.372,
+     "fin": 0.639
+    },
+    {
+     "t": "hasta",
+     "inicio": 0.662,
+     "fin": 0.917
+    },
+    {
+     "t": "esa",
+     "inicio": 0.975,
+     "fin": 1.149
+    },
+    {
+     "t": "cifra,",
+     "inicio": 1.184,
+     "fin": 1.556
+    },
+    {
+     "t": "queda",
+     "inicio": 1.614,
+     "fin": 1.892
+    },
+    {
+     "t": "a",
+     "inicio": 1.927,
+     "fin": 1.95
+    },
+    {
+     "t": "salvo.",
+     "inicio": 1.997,
+     "fin": 2.647
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "texto": "¿Y lo que pasa de ese límite?",
+   "archivo": "rehook.mp3",
+   "segundos": 1.985306,
+   "palabras": [
+    {
+     "t": "¿Y",
+     "inicio": 0,
+     "fin": 0.255
+    },
+    {
+     "t": "lo",
+     "inicio": 0.325,
+     "fin": 0.395
+    },
+    {
+     "t": "que",
+     "inicio": 0.43,
+     "fin": 0.499
+    },
+    {
+     "t": "pasa",
+     "inicio": 0.546,
+     "fin": 0.778
+    },
+    {
+     "t": "de",
+     "inicio": 0.824,
+     "fin": 0.882
+    },
+    {
+     "t": "ese",
+     "inicio": 0.917,
+     "fin": 1.068
+    },
+    {
+     "t": "límite?",
+     "inicio": 1.115,
+     "fin": 1.95
+    }
+   ]
+  },
+  {
+   "id": "fuera",
+   "texto": "Eso no está cubierto.",
+   "archivo": "fuera.mp3",
+   "segundos": 1.28,
+   "palabras": [
+    {
+     "t": "Eso",
+     "inicio": 0,
+     "fin": 0.325
+    },
+    {
+     "t": "no",
+     "inicio": 0.383,
+     "fin": 0.453
+    },
+    {
+     "t": "está",
+     "inicio": 0.499,
+     "fin": 0.639
+    },
+    {
+     "t": "cubierto.",
+     "inicio": 0.685,
+     "fin": 1.254
+    }
+   ]
+  },
+  {
+   "id": "reparte",
+   "texto": "Por eso, quien tiene más, lo reparte en varios bancos.",
+   "archivo": "reparte.mp3",
+   "segundos": 2.742857,
+   "palabras": [
+    {
+     "t": "Por",
+     "inicio": 0,
+     "fin": 0.197
+    },
+    {
+     "t": "eso,",
+     "inicio": 0.267,
+     "fin": 0.546
+    },
+    {
+     "t": "quien",
+     "inicio": 0.592,
+     "fin": 0.755
+    },
+    {
+     "t": "tiene",
+     "inicio": 0.801,
+     "fin": 0.987
+    },
+    {
+     "t": "más,",
+     "inicio": 1.022,
+     "fin": 1.289
+    },
+    {
+     "t": "lo",
+     "inicio": 1.358,
+     "fin": 1.44
+    },
+    {
+     "t": "reparte",
+     "inicio": 1.498,
+     "fin": 1.811
+    },
+    {
+     "t": "en",
+     "inicio": 1.834,
+     "fin": 1.881
+    },
+    {
+     "t": "varios",
+     "inicio": 1.927,
+     "fin": 2.183
+    },
+    {
+     "t": "bancos.",
+     "inicio": 2.229,
+     "fin": 2.694
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "¿Lo sabías antes de este vídeo? Sí o no, te leo. Síguenos para más.",
+   "archivo": "cta.mp3",
+   "segundos": 4.205714,
+   "palabras": [
+    {
+     "t": "¿Lo",
+     "inicio": 0,
+     "fin": 0.209
+    },
+    {
+     "t": "sabías",
+     "inicio": 0.244,
+     "fin": 0.546
+    },
+    {
+     "t": "antes",
+     "inicio": 0.604,
+     "fin": 0.848
+    },
+    {
+     "t": "de",
+     "inicio": 0.882,
+     "fin": 0.94
+    },
+    {
+     "t": "este",
+     "inicio": 0.964,
+     "fin": 1.115
+    },
+    {
+     "t": "vídeo?",
+     "inicio": 1.161,
+     "fin": 1.556
+    },
+    {
+     "t": "Sí",
+     "inicio": 1.718,
+     "fin": 1.927
+    },
+    {
+     "t": "o",
+     "inicio": 2.009,
+     "fin": 2.032
+    },
+    {
+     "t": "no,",
+     "inicio": 2.101,
+     "fin": 2.299
+    },
+    {
+     "t": "te",
+     "inicio": 2.345,
+     "fin": 2.438
+    },
+    {
+     "t": "leo.",
+     "inicio": 2.485,
+     "fin": 2.821
+    },
+    {
+     "t": "Síguenos",
+     "inicio": 2.984,
+     "fin": 3.448
+    },
+    {
+     "t": "para",
+     "inicio": 3.495,
+     "fin": 3.657
+    },
+    {
+     "t": "más.",
+     "inicio": 3.704,
+     "fin": 4.18
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "texto": "Así que, si mañana no abre, ya sabes qué recuperas.",
+   "archivo": "cierre.mp3",
+   "segundos": 2.873469,
+   "palabras": [
+    {
+     "t": "Así",
+     "inicio": 0,
+     "fin": 0.267
+    },
+    {
+     "t": "que,",
+     "inicio": 0.337,
+     "fin": 0.534
+    },
+    {
+     "t": "si",
+     "inicio": 0.58,
+     "fin": 0.72
+    },
+    {
+     "t": "mañana",
+     "inicio": 0.778,
+     "fin": 1.08
+    },
+    {
+     "t": "no",
+     "inicio": 1.126,
+     "fin": 1.207
+    },
+    {
+     "t": "abre,",
+     "inicio": 1.242,
+     "fin": 1.498
+    },
+    {
+     "t": "ya",
+     "inicio": 1.533,
+     "fin": 1.649
+    },
+    {
+     "t": "sabes",
+     "inicio": 1.695,
+     "fin": 1.939
+    },
+    {
+     "t": "qué",
+     "inicio": 1.974,
+     "fin": 2.043
+    },
+    {
+     "t": "recuperas.",
+     "inicio": 2.101,
+     "fin": 2.833
+    }
+   ]
+  }
+ ]
+}
