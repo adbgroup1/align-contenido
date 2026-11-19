@@ -1,0 +1,601 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Ahorrar cincuenta euros gastando cien no es ahorrar.",
+   "archivo": "hook.mp3",
+   "segundos": 2.76898,
+   "palabras": [
+    {
+     "t": "Ahorrar",
+     "inicio": 0,
+     "fin": 0.36
+    },
+    {
+     "t": "cincuenta",
+     "inicio": 0.418,
+     "fin": 0.848
+    },
+    {
+     "t": "euros",
+     "inicio": 0.894,
+     "fin": 1.138
+    },
+    {
+     "t": "gastando",
+     "inicio": 1.184,
+     "fin": 1.533
+    },
+    {
+     "t": "cien",
+     "inicio": 1.567,
+     "fin": 1.776
+    },
+    {
+     "t": "no",
+     "inicio": 1.834,
+     "fin": 1.95
+    },
+    {
+     "t": "es",
+     "inicio": 1.997,
+     "fin": 2.067
+    },
+    {
+     "t": "ahorrar.",
+     "inicio": 2.136,
+     "fin": 2.74
+    }
+   ]
+  },
+  {
+   "id": "gancho2",
+   "texto": "Y este viernes vas a ver un montón de ofertas así.",
+   "archivo": "gancho2.mp3",
+   "segundos": 2.507755,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.116
+    },
+    {
+     "t": "este",
+     "inicio": 0.209,
+     "fin": 0.348
+    },
+    {
+     "t": "viernes",
+     "inicio": 0.395,
+     "fin": 0.743
+    },
+    {
+     "t": "vas",
+     "inicio": 0.789,
+     "fin": 0.894
+    },
+    {
+     "t": "a",
+     "inicio": 0.952,
+     "fin": 0.975
+    },
+    {
+     "t": "ver",
+     "inicio": 1.01,
+     "fin": 1.115
+    },
+    {
+     "t": "un",
+     "inicio": 1.173,
+     "fin": 1.219
+    },
+    {
+     "t": "montón",
+     "inicio": 1.254,
+     "fin": 1.579
+    },
+    {
+     "t": "de",
+     "inicio": 1.625,
+     "fin": 1.672
+    },
+    {
+     "t": "ofertas",
+     "inicio": 1.707,
+     "fin": 2.09
+    },
+    {
+     "t": "así.",
+     "inicio": 2.159,
+     "fin": 2.461
+    }
+   ]
+  },
+  {
+   "id": "prisa",
+   "texto": "El problema no es el descuento. Es la prisa.",
+   "archivo": "prisa.mp3",
+   "segundos": 2.533878,
+   "palabras": [
+    {
+     "t": "El",
+     "inicio": 0,
+     "fin": 0.174
+    },
+    {
+     "t": "problema",
+     "inicio": 0.209,
+     "fin": 0.569
+    },
+    {
+     "t": "no",
+     "inicio": 0.615,
+     "fin": 0.685
+    },
+    {
+     "t": "es",
+     "inicio": 0.731,
+     "fin": 0.778
+    },
+    {
+     "t": "el",
+     "inicio": 0.848,
+     "fin": 0.906
+    },
+    {
+     "t": "descuento.",
+     "inicio": 0.952,
+     "fin": 1.556
+    },
+    {
+     "t": "Es",
+     "inicio": 1.637,
+     "fin": 1.8
+    },
+    {
+     "t": "la",
+     "inicio": 1.869,
+     "fin": 1.927
+    },
+    {
+     "t": "prisa.",
+     "inicio": 1.974,
+     "fin": 2.508
+    }
+   ]
+  },
+  {
+   "id": "lunes",
+   "texto": "Si no lo querías el lunes, te lo está vendiendo la oferta.",
+   "archivo": "lunes.mp3",
+   "segundos": 3.996735,
+   "palabras": [
+    {
+     "t": "Si",
+     "inicio": 0,
+     "fin": 0.174
+    },
+    {
+     "t": "no",
+     "inicio": 0.232,
+     "fin": 0.29
+    },
+    {
+     "t": "lo",
+     "inicio": 0.337,
+     "fin": 0.406
+    },
+    {
+     "t": "querías",
+     "inicio": 0.441,
+     "fin": 0.755
+    },
+    {
+     "t": "el",
+     "inicio": 0.813,
+     "fin": 0.871
+    },
+    {
+     "t": "lunes,",
+     "inicio": 0.894,
+     "fin": 1.265
+    },
+    {
+     "t": "te",
+     "inicio": 1.289,
+     "fin": 1.358
+    },
+    {
+     "t": "lo",
+     "inicio": 1.405,
+     "fin": 1.486
+    },
+    {
+     "t": "está",
+     "inicio": 1.509,
+     "fin": 1.649
+    },
+    {
+     "t": "vendiendo",
+     "inicio": 1.695,
+     "fin": 2.101
+    },
+    {
+     "t": "la",
+     "inicio": 2.159,
+     "fin": 2.218
+    },
+    {
+     "t": "oferta.",
+     "inicio": 2.241,
+     "fin": 3.947
+    }
+   ]
+  },
+  {
+   "id": "regla",
+   "texto": "Prueba esto: la regla de las cuarenta y ocho horas.",
+   "archivo": "regla.mp3",
+   "segundos": 2.507755,
+   "palabras": [
+    {
+     "t": "Prueba",
+     "inicio": 0,
+     "fin": 0.36
+    },
+    {
+     "t": "esto:",
+     "inicio": 0.406,
+     "fin": 0.743
+    },
+    {
+     "t": "la",
+     "inicio": 0.813,
+     "fin": 0.894
+    },
+    {
+     "t": "regla",
+     "inicio": 0.952,
+     "fin": 1.161
+    },
+    {
+     "t": "de",
+     "inicio": 1.207,
+     "fin": 1.254
+    },
+    {
+     "t": "las",
+     "inicio": 1.277,
+     "fin": 1.382
+    },
+    {
+     "t": "cuarenta",
+     "inicio": 1.416,
+     "fin": 1.718
+    },
+    {
+     "t": "y",
+     "inicio": 1.776,
+     "fin": 1.8
+    },
+    {
+     "t": "ocho",
+     "inicio": 1.846,
+     "fin": 2.02
+    },
+    {
+     "t": "horas.",
+     "inicio": 2.043,
+     "fin": 2.461
+    }
+   ]
+  },
+  {
+   "id": "carrito",
+   "texto": "Lo metes en el carrito, no pagas y esperas dos días.",
+   "archivo": "carrito.mp3",
+   "segundos": 3.474286,
+   "palabras": [
+    {
+     "t": "Lo",
+     "inicio": 0,
+     "fin": 0.151
+    },
+    {
+     "t": "metes",
+     "inicio": 0.197,
+     "fin": 0.418
+    },
+    {
+     "t": "en",
+     "inicio": 0.464,
+     "fin": 0.511
+    },
+    {
+     "t": "el",
+     "inicio": 0.557,
+     "fin": 0.604
+    },
+    {
+     "t": "carrito,",
+     "inicio": 0.639,
+     "fin": 1.091
+    },
+    {
+     "t": "no",
+     "inicio": 1.149,
+     "fin": 1.242
+    },
+    {
+     "t": "pagas",
+     "inicio": 1.312,
+     "fin": 1.66
+    },
+    {
+     "t": "y",
+     "inicio": 1.741,
+     "fin": 1.765
+    },
+    {
+     "t": "esperas",
+     "inicio": 1.811,
+     "fin": 2.159
+    },
+    {
+     "t": "dos",
+     "inicio": 2.206,
+     "fin": 2.345
+    },
+    {
+     "t": "días.",
+     "inicio": 2.392,
+     "fin": 3.437
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Pasan las cuarenta y ocho horas… y casi todo sobra.",
+   "archivo": "wow.mp3",
+   "segundos": 2.951837,
+   "palabras": [
+    {
+     "t": "Pasan",
+     "inicio": 0,
+     "fin": 0.325
+    },
+    {
+     "t": "las",
+     "inicio": 0.36,
+     "fin": 0.464
+    },
+    {
+     "t": "cuarenta",
+     "inicio": 0.511,
+     "fin": 0.824
+    },
+    {
+     "t": "y",
+     "inicio": 0.894,
+     "fin": 0.917
+    },
+    {
+     "t": "ocho",
+     "inicio": 0.964,
+     "fin": 1.149
+    },
+    {
+     "t": "horas…",
+     "inicio": 1.173,
+     "fin": 1.567
+    },
+    {
+     "t": "y",
+     "inicio": 1.707,
+     "fin": 1.788
+    },
+    {
+     "t": "casi",
+     "inicio": 1.858,
+     "fin": 2.055
+    },
+    {
+     "t": "todo",
+     "inicio": 2.101,
+     "fin": 2.287
+    },
+    {
+     "t": "sobra.",
+     "inicio": 2.334,
+     "fin": 2.926
+    }
+   ]
+  },
+  {
+   "id": "falta",
+   "texto": "Lo que sigue haciendo falta, lo compras. Con descuento y sin culpa.",
+   "archivo": "falta.mp3",
+   "segundos": 4.257959,
+   "palabras": [
+    {
+     "t": "Lo",
+     "inicio": 0,
+     "fin": 0.151
+    },
+    {
+     "t": "que",
+     "inicio": 0.197,
+     "fin": 0.267
+    },
+    {
+     "t": "sigue",
+     "inicio": 0.302,
+     "fin": 0.522
+    },
+    {
+     "t": "haciendo",
+     "inicio": 0.557,
+     "fin": 0.94
+    },
+    {
+     "t": "falta,",
+     "inicio": 0.987,
+     "fin": 1.416
+    },
+    {
+     "t": "lo",
+     "inicio": 1.486,
+     "fin": 1.579
+    },
+    {
+     "t": "compras.",
+     "inicio": 1.625,
+     "fin": 2.218
+    },
+    {
+     "t": "Con",
+     "inicio": 2.334,
+     "fin": 2.508
+    },
+    {
+     "t": "descuento",
+     "inicio": 2.566,
+     "fin": 3.053
+    },
+    {
+     "t": "y",
+     "inicio": 3.111,
+     "fin": 3.135
+    },
+    {
+     "t": "sin",
+     "inicio": 3.181,
+     "fin": 3.344
+    },
+    {
+     "t": "culpa.",
+     "inicio": 3.39,
+     "fin": 4.226
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Guárdalo y míralo antes de pagar el viernes. Síguenos para más.",
+   "archivo": "cta.mp3",
+   "segundos": 3.108571,
+   "palabras": [
+    {
+     "t": "Guárdalo",
+     "inicio": 0,
+     "fin": 0.488
+    },
+    {
+     "t": "y",
+     "inicio": 0.534,
+     "fin": 0.557
+    },
+    {
+     "t": "míralo",
+     "inicio": 0.604,
+     "fin": 0.929
+    },
+    {
+     "t": "antes",
+     "inicio": 0.975,
+     "fin": 1.207
+    },
+    {
+     "t": "de",
+     "inicio": 1.242,
+     "fin": 1.289
+    },
+    {
+     "t": "pagar",
+     "inicio": 1.335,
+     "fin": 1.544
+    },
+    {
+     "t": "el",
+     "inicio": 1.579,
+     "fin": 1.625
+    },
+    {
+     "t": "viernes.",
+     "inicio": 1.672,
+     "fin": 2.078
+    },
+    {
+     "t": "Síguenos",
+     "inicio": 2.148,
+     "fin": 2.543
+    },
+    {
+     "t": "para",
+     "inicio": 2.589,
+     "fin": 2.728
+    },
+    {
+     "t": "más.",
+     "inicio": 2.763,
+     "fin": 3.065
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "texto": "Porque ahorrar cincuenta gastando cien… sigue sin ser ahorrar.",
+   "archivo": "cierre.mp3",
+   "segundos": 3.474286,
+   "palabras": [
+    {
+     "t": "Porque",
+     "inicio": 0,
+     "fin": 0.337
+    },
+    {
+     "t": "ahorrar",
+     "inicio": 0.36,
+     "fin": 0.604
+    },
+    {
+     "t": "cincuenta",
+     "inicio": 0.639,
+     "fin": 1.068
+    },
+    {
+     "t": "gastando",
+     "inicio": 1.115,
+     "fin": 1.463
+    },
+    {
+     "t": "cien…",
+     "inicio": 1.498,
+     "fin": 1.881
+    },
+    {
+     "t": "sigue",
+     "inicio": 2.043,
+     "fin": 2.345
+    },
+    {
+     "t": "sin",
+     "inicio": 2.38,
+     "fin": 2.519
+    },
+    {
+     "t": "ser",
+     "inicio": 2.566,
+     "fin": 2.705
+    },
+    {
+     "t": "ahorrar.",
+     "inicio": 2.763,
+     "fin": 3.437
+    }
+   ]
+  }
+ ]
+}

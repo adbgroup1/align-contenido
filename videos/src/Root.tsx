@@ -8,6 +8,7 @@ import { EJColchon, EXTRA_EJCOLCHON } from "./videos/EJ-colchon";
 import { EXTRA_W4703, W4703v2 } from "./videos/W47-03-v2";
 import { EXTRA_W4704, W4704v2 } from "./videos/W47-04-v2";
 import { EXTRA_W4701, W4701v2 } from "./videos/W47-01-v2";
+import { EXTRA_W4801, W4801 } from "./videos/W48-01";
 import { metadataConVoz } from "./kit";
 
 // 3+7+7+4+5 s a 30 fps = 780 frames, menos 4 transiciones de 12 = 732
@@ -76,6 +77,16 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{ videoId: "W47-04", voz: null }}
         calculateMetadata={metadataConVoz(EXTRA_W4704)}
+      />
+      <Composition
+        id="W48-01"
+        component={W4801}
+        durationInFrames={900}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ videoId: "W48-01", voz: null }}
+        calculateMetadata={metadataConVoz(EXTRA_W4801)}
       />
     </Folder>
   );

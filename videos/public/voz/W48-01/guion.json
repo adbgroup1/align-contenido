@@ -1,0 +1,14 @@
+{
+  "escenas": [
+    { "id": "hook", "texto": "Ahorrar cincuenta euros gastando cien no es ahorrar." },
+    { "id": "gancho2", "texto": "Y este viernes vas a ver un montón de ofertas así." },
+    { "id": "prisa", "texto": "El problema no es el descuento. Es la prisa." },
+    { "id": "lunes", "texto": "Si no lo querías el lunes, te lo está vendiendo la oferta." },
+    { "id": "regla", "texto": "Prueba esto: la regla de las cuarenta y ocho horas." },
+    { "id": "carrito", "texto": "Lo metes en el carrito, no pagas y esperas dos días." },
+    { "id": "wow", "texto": "Pasan las cuarenta y ocho horas… y casi todo sobra." },
+    { "id": "falta", "texto": "Lo que sigue haciendo falta, lo compras. Con descuento y sin culpa." },
+    { "id": "cta", "texto": "Guárdalo y míralo antes de pagar el viernes. Síguenos para más." },
+    { "id": "cierre", "texto": "Porque ahorrar cincuenta gastando cien… sigue sin ser ahorrar." }
+  ]
+}
