@@ -10,7 +10,7 @@ import { Chispas, CtaCrecer, DefEscena, Escena, Escenario, Foto, Lluvia, Montaje
 export const EXTRA_W4902: Record<string, number> = { hook: 0.3, wow: 1.0, rehook: 0.6, cta: 0.4, cierre: 0.6 };
 
 // La foto de la escena 3 solo se usa si llegó y pasó la revisión (Paso 0). Si no, la fachada se dibuja en código.
-const FOTO_SUCURSAL: string | null = null;
+const FOTO_SUCURSAL: string | null = "img/W49-02/03-sucursal-cerrada.jpg";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const useSeg = () => {
