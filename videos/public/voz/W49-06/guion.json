@@ -1,0 +1,13 @@
+{ "escenas": [
+  { "id": "hook", "texto": "Desde los dieciocho, llevas esto gastado en Lotería." },
+  { "id": "gancho2", "texto": "Setenta y dos euros y medio al año no parecen nada. Pero suman." },
+  { "id": "sube", "texto": "Cada diciembre, un poco más." },
+  { "id": "edades", "texto": "Los treinta, los treinta y cinco…" },
+  { "id": "wow", "texto": "A los cuarenta: mil quinientos noventa y cinco euros." },
+  { "id": "rehook", "texto": "Y ahora, la otra cifra: tus posibilidades." },
+  { "id": "bolas", "texto": "Cada décimo tiene una posibilidad entre cien mil de llevarse el Gordo." },
+  { "id": "giro", "texto": "No te digo que no juegues. Te digo que sepas qué compras." },
+  { "id": "moraleja", "texto": "Una ilusión, no un plan para tu dinero." },
+  { "id": "cta", "texto": "¿Cuánto llevas tú? Te leo. Síguenos para más." },
+  { "id": "cierre", "texto": "Y el contador vuelve a empezar este diciembre." }
+] }

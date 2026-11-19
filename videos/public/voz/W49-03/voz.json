@@ -1,0 +1,610 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Tres ardillas cobran la paga extra. Solo una acierta.",
+   "archivo": "hook.mp3",
+   "segundos": 3.604898,
+   "palabras": [
+    {
+     "t": "Tres",
+     "inicio": 0,
+     "fin": 0.279
+    },
+    {
+     "t": "ardillas",
+     "inicio": 0.337,
+     "fin": 0.766
+    },
+    {
+     "t": "cobran",
+     "inicio": 0.836,
+     "fin": 1.184
+    },
+    {
+     "t": "la",
+     "inicio": 1.231,
+     "fin": 1.3
+    },
+    {
+     "t": "paga",
+     "inicio": 1.358,
+     "fin": 1.602
+    },
+    {
+     "t": "extra.",
+     "inicio": 1.66,
+     "fin": 2.125
+    },
+    {
+     "t": "Solo",
+     "inicio": 2.287,
+     "fin": 2.589
+    },
+    {
+     "t": "una",
+     "inicio": 2.67,
+     "fin": 2.844
+    },
+    {
+     "t": "acierta.",
+     "inicio": 2.868,
+     "fin": 3.576
+    }
+   ]
+  },
+  {
+   "id": "gancho2",
+   "texto": "Lola se la come. Bruno la entierra. Nina planta un poco.",
+   "archivo": "gancho2.mp3",
+   "segundos": 3.892245,
+   "palabras": [
+    {
+     "t": "Lola",
+     "inicio": 0,
+     "fin": 0.279
+    },
+    {
+     "t": "se",
+     "inicio": 0.337,
+     "fin": 0.418
+    },
+    {
+     "t": "la",
+     "inicio": 0.453,
+     "fin": 0.511
+    },
+    {
+     "t": "come.",
+     "inicio": 0.557,
+     "fin": 0.987
+    },
+    {
+     "t": "Bruno",
+     "inicio": 1.149,
+     "fin": 1.463
+    },
+    {
+     "t": "la",
+     "inicio": 1.509,
+     "fin": 1.556
+    },
+    {
+     "t": "entierra.",
+     "inicio": 1.579,
+     "fin": 2.148
+    },
+    {
+     "t": "Nina",
+     "inicio": 2.345,
+     "fin": 2.635
+    },
+    {
+     "t": "planta",
+     "inicio": 2.682,
+     "fin": 2.995
+    },
+    {
+     "t": "un",
+     "inicio": 3.03,
+     "fin": 3.077
+    },
+    {
+     "t": "poco.",
+     "inicio": 3.135,
+     "fin": 3.855
+    }
+   ]
+  },
+  {
+   "id": "lola",
+   "texto": "Lola: banquete en diciembre.",
+   "archivo": "lola.mp3",
+   "segundos": 1.697959,
+   "palabras": [
+    {
+     "t": "Lola:",
+     "inicio": 0,
+     "fin": 0.476
+    },
+    {
+     "t": "banquete",
+     "inicio": 0.569,
+     "fin": 1.01
+    },
+    {
+     "t": "en",
+     "inicio": 1.033,
+     "fin": 1.08
+    },
+    {
+     "t": "diciembre.",
+     "inicio": 1.126,
+     "fin": 1.672
+    }
+   ]
+  },
+  {
+   "id": "bruno",
+   "texto": "Bruno: trescientas bellotas bajo tierra, cada diciembre.",
+   "archivo": "bruno.mp3",
+   "segundos": 3.056327,
+   "palabras": [
+    {
+     "t": "Bruno:",
+     "inicio": 0,
+     "fin": 0.511
+    },
+    {
+     "t": "trescientas",
+     "inicio": 0.569,
+     "fin": 1.115
+    },
+    {
+     "t": "bellotas",
+     "inicio": 1.161,
+     "fin": 1.533
+    },
+    {
+     "t": "bajo",
+     "inicio": 1.579,
+     "fin": 1.765
+    },
+    {
+     "t": "tierra,",
+     "inicio": 1.8,
+     "fin": 2.159
+    },
+    {
+     "t": "cada",
+     "inicio": 2.194,
+     "fin": 2.426
+    },
+    {
+     "t": "diciembre.",
+     "inicio": 2.473,
+     "fin": 3.019
+    }
+   ]
+  },
+  {
+   "id": "quietas",
+   "texto": "Quietas. Sin hacer nada.",
+   "archivo": "quietas.mp3",
+   "segundos": 2.037551,
+   "palabras": [
+    {
+     "t": "Quietas.",
+     "inicio": 0,
+     "fin": 0.755
+    },
+    {
+     "t": "Sin",
+     "inicio": 0.894,
+     "fin": 1.08
+    },
+    {
+     "t": "hacer",
+     "inicio": 1.126,
+     "fin": 1.347
+    },
+    {
+     "t": "nada.",
+     "inicio": 1.416,
+     "fin": 1.997
+    }
+   ]
+  },
+  {
+   "id": "nina",
+   "texto": "Nina planta sus trescientas cada diciembre.",
+   "archivo": "nina.mp3",
+   "segundos": 2.951837,
+   "palabras": [
+    {
+     "t": "Nina",
+     "inicio": 0,
+     "fin": 0.302
+    },
+    {
+     "t": "planta",
+     "inicio": 0.348,
+     "fin": 0.662
+    },
+    {
+     "t": "sus",
+     "inicio": 0.708,
+     "fin": 0.859
+    },
+    {
+     "t": "trescientas",
+     "inicio": 0.882,
+     "fin": 1.451
+    },
+    {
+     "t": "cada",
+     "inicio": 1.521,
+     "fin": 1.788
+    },
+    {
+     "t": "diciembre.",
+     "inicio": 1.834,
+     "fin": 2.926
+    }
+   ]
+  },
+  {
+   "id": "crece",
+   "texto": "Y cada año, lo plantado da algo más.",
+   "archivo": "crece.mp3",
+   "segundos": 2.272653,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.116
+    },
+    {
+     "t": "cada",
+     "inicio": 0.186,
+     "fin": 0.372
+    },
+    {
+     "t": "año,",
+     "inicio": 0.406,
+     "fin": 0.65
+    },
+    {
+     "t": "lo",
+     "inicio": 0.673,
+     "fin": 0.743
+    },
+    {
+     "t": "plantado",
+     "inicio": 0.778,
+     "fin": 1.184
+    },
+    {
+     "t": "da",
+     "inicio": 1.242,
+     "fin": 1.324
+    },
+    {
+     "t": "algo",
+     "inicio": 1.382,
+     "fin": 1.591
+    },
+    {
+     "t": "más.",
+     "inicio": 1.637,
+     "fin": 2.229
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "texto": "Diez años después…",
+   "archivo": "rehook.mp3",
+   "segundos": 1.28,
+   "palabras": [
+    {
+     "t": "Diez",
+     "inicio": 0,
+     "fin": 0.244
+    },
+    {
+     "t": "años",
+     "inicio": 0.279,
+     "fin": 0.546
+    },
+    {
+     "t": "después…",
+     "inicio": 0.58,
+     "fin": 1.254
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Bruno tiene tres mil. Nina, tres mil novecientas sesenta y dos.",
+   "archivo": "wow.mp3",
+   "segundos": 3.291429,
+   "palabras": [
+    {
+     "t": "Bruno",
+     "inicio": 0,
+     "fin": 0.279
+    },
+    {
+     "t": "tiene",
+     "inicio": 0.325,
+     "fin": 0.511
+    },
+    {
+     "t": "tres",
+     "inicio": 0.546,
+     "fin": 0.697
+    },
+    {
+     "t": "mil.",
+     "inicio": 0.743,
+     "fin": 0.998
+    },
+    {
+     "t": "Nina,",
+     "inicio": 1.265,
+     "fin": 1.579
+    },
+    {
+     "t": "tres",
+     "inicio": 1.614,
+     "fin": 1.8
+    },
+    {
+     "t": "mil",
+     "inicio": 1.846,
+     "fin": 1.95
+    },
+    {
+     "t": "novecientas",
+     "inicio": 1.985,
+     "fin": 2.473
+    },
+    {
+     "t": "sesenta",
+     "inicio": 2.496,
+     "fin": 2.821
+    },
+    {
+     "t": "y",
+     "inicio": 2.844,
+     "fin": 2.868
+    },
+    {
+     "t": "dos.",
+     "inicio": 2.914,
+     "fin": 3.251
+    }
+   ]
+  },
+  {
+   "id": "lola2",
+   "texto": "Y Lola… espera al siguiente diciembre.",
+   "archivo": "lola2.mp3",
+   "segundos": 2.168163,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.139
+    },
+    {
+     "t": "Lola…",
+     "inicio": 0.232,
+     "fin": 0.65
+    },
+    {
+     "t": "espera",
+     "inicio": 0.766,
+     "fin": 1.091
+    },
+    {
+     "t": "al",
+     "inicio": 1.126,
+     "fin": 1.196
+    },
+    {
+     "t": "siguiente",
+     "inicio": 1.254,
+     "fin": 1.579
+    },
+    {
+     "t": "diciembre.",
+     "inicio": 1.625,
+     "fin": 2.136
+    }
+   ]
+  },
+  {
+   "id": "moraleja",
+   "texto": "Lo que plantas cada año crece solo. Y cuanto antes, mejor.",
+   "archivo": "moraleja.mp3",
+   "segundos": 3.657143,
+   "palabras": [
+    {
+     "t": "Lo",
+     "inicio": 0,
+     "fin": 0.128
+    },
+    {
+     "t": "que",
+     "inicio": 0.163,
+     "fin": 0.244
+    },
+    {
+     "t": "plantas",
+     "inicio": 0.279,
+     "fin": 0.639
+    },
+    {
+     "t": "cada",
+     "inicio": 0.697,
+     "fin": 0.882
+    },
+    {
+     "t": "año",
+     "inicio": 0.917,
+     "fin": 1.173
+    },
+    {
+     "t": "crece",
+     "inicio": 1.231,
+     "fin": 1.567
+    },
+    {
+     "t": "solo.",
+     "inicio": 1.625,
+     "fin": 2.067
+    },
+    {
+     "t": "Y",
+     "inicio": 2.206,
+     "fin": 2.287
+    },
+    {
+     "t": "cuanto",
+     "inicio": 2.368,
+     "fin": 2.659
+    },
+    {
+     "t": "antes,",
+     "inicio": 2.705,
+     "fin": 3.019
+    },
+    {
+     "t": "mejor.",
+     "inicio": 3.042,
+     "fin": 3.622
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "¿Tú cuál eres, uno, dos o tres? Te leo. Síguenos para más.",
+   "archivo": "cta.mp3",
+   "segundos": 6.217143,
+   "palabras": [
+    {
+     "t": "¿Tú",
+     "inicio": 0,
+     "fin": 0.302
+    },
+    {
+     "t": "cuál",
+     "inicio": 0.348,
+     "fin": 0.511
+    },
+    {
+     "t": "eres,",
+     "inicio": 0.569,
+     "fin": 0.964
+    },
+    {
+     "t": "uno,",
+     "inicio": 1.103,
+     "fin": 1.544
+    },
+    {
+     "t": "dos",
+     "inicio": 1.683,
+     "fin": 2.02
+    },
+    {
+     "t": "o",
+     "inicio": 2.183,
+     "fin": 2.276
+    },
+    {
+     "t": "tres?",
+     "inicio": 2.334,
+     "fin": 2.844
+    },
+    {
+     "t": "Te",
+     "inicio": 3.506,
+     "fin": 3.634
+    },
+    {
+     "t": "leo.",
+     "inicio": 3.68,
+     "fin": 4.122
+    },
+    {
+     "t": "Síguenos",
+     "inicio": 4.435,
+     "fin": 4.899
+    },
+    {
+     "t": "para",
+     "inicio": 4.946,
+     "fin": 5.097
+    },
+    {
+     "t": "más.",
+     "inicio": 5.143,
+     "fin": 6.177
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "texto": "Y el diciembre que viene, otra paga extra.",
+   "archivo": "cierre.mp3",
+   "segundos": 2.35102,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.104
+    },
+    {
+     "t": "el",
+     "inicio": 0.163,
+     "fin": 0.221
+    },
+    {
+     "t": "diciembre",
+     "inicio": 0.255,
+     "fin": 0.65
+    },
+    {
+     "t": "que",
+     "inicio": 0.685,
+     "fin": 0.755
+    },
+    {
+     "t": "viene,",
+     "inicio": 0.789,
+     "fin": 1.091
+    },
+    {
+     "t": "otra",
+     "inicio": 1.149,
+     "fin": 1.428
+    },
+    {
+     "t": "paga",
+     "inicio": 1.474,
+     "fin": 1.695
+    },
+    {
+     "t": "extra.",
+     "inicio": 1.753,
+     "fin": 2.322
+    }
+   ]
+  }
+ ]
+}

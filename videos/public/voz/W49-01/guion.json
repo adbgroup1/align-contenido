@@ -1,0 +1,60 @@
+{
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Tu cuenta pierde agua por cuatro sitios a la vez."
+  },
+  {
+   "id": "gancho2",
+   "texto": "Y no son caprichos: se escapan solas."
+  },
+  {
+   "id": "f1",
+   "texto": "Fuga uno: suscripciones que ya no usas."
+  },
+  {
+   "id": "f1b",
+   "texto": "Revisa los cobros y da de baja lo que no abras."
+  },
+  {
+   "id": "f2",
+   "texto": "Fuga dos: comisiones por tener la cuenta."
+  },
+  {
+   "id": "f2b",
+   "texto": "Compara: muchas no cobran nada."
+  },
+  {
+   "id": "rehook",
+   "texto": "La tercera la tiene casi todo el mundo."
+  },
+  {
+   "id": "f3",
+   "texto": "Seguros que se renuevan solos, sin comparar el precio."
+  },
+  {
+   "id": "f3b",
+   "texto": "Pide otro precio un mes antes."
+  },
+  {
+   "id": "f4",
+   "texto": "Fuga cuatro: la tarjeta guardada en todas las apps."
+  },
+  {
+   "id": "f4b",
+   "texto": "Bórrala: compras menos por impulso."
+  },
+  {
+   "id": "wow",
+   "texto": "Cuatro gestos de cinco minutos, y el nivel por fin sube."
+  },
+  {
+   "id": "cta",
+   "texto": "Guárdalo y tapa una fuga el día que cobres. Síguenos para más."
+  },
+  {
+   "id": "cierre",
+   "texto": "Y el agua, por fin, se queda dentro."
+  }
+ ]
+}

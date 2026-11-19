@@ -1,0 +1,15 @@
+{ "escenas": [
+  { "id": "hook", "texto": "Tres ardillas cobran la paga extra. Solo una acierta." },
+  { "id": "gancho2", "texto": "Lola se la come. Bruno la entierra. Nina planta un poco." },
+  { "id": "lola", "texto": "Lola: banquete en diciembre." },
+  { "id": "bruno", "texto": "Bruno: trescientas bellotas bajo tierra, cada diciembre." },
+  { "id": "quietas", "texto": "Quietas. Sin hacer nada." },
+  { "id": "nina", "texto": "Nina planta sus trescientas cada diciembre." },
+  { "id": "crece", "texto": "Y cada año, lo plantado da algo más." },
+  { "id": "rehook", "texto": "Diez años después…" },
+  { "id": "wow", "texto": "Bruno tiene tres mil. Nina, tres mil novecientas sesenta y dos." },
+  { "id": "lola2", "texto": "Y Lola… espera al siguiente diciembre." },
+  { "id": "moraleja", "texto": "Lo que plantas cada año crece solo. Y cuanto antes, mejor." },
+  { "id": "cta", "texto": "¿Tú cuál eres, uno, dos o tres? Te leo. Síguenos para más." },
+  { "id": "cierre", "texto": "Y el diciembre que viene, otra paga extra." }
+] }

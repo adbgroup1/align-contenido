@@ -1,0 +1,693 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Tu cuenta pierde agua por cuatro sitios a la vez.",
+   "archivo": "hook.mp3",
+   "segundos": 2.45551,
+   "palabras": [
+    {
+     "t": "Tu",
+     "inicio": 0,
+     "fin": 0.151
+    },
+    {
+     "t": "cuenta",
+     "inicio": 0.197,
+     "fin": 0.476
+    },
+    {
+     "t": "pierde",
+     "inicio": 0.522,
+     "fin": 0.789
+    },
+    {
+     "t": "agua",
+     "inicio": 0.848,
+     "fin": 1.091
+    },
+    {
+     "t": "por",
+     "inicio": 1.138,
+     "fin": 1.254
+    },
+    {
+     "t": "cuatro",
+     "inicio": 1.3,
+     "fin": 1.591
+    },
+    {
+     "t": "sitios",
+     "inicio": 1.637,
+     "fin": 1.962
+    },
+    {
+     "t": "a",
+     "inicio": 2.02,
+     "fin": 2.043
+    },
+    {
+     "t": "la",
+     "inicio": 2.078,
+     "fin": 2.125
+    },
+    {
+     "t": "vez.",
+     "inicio": 2.159,
+     "fin": 2.415
+    }
+   ]
+  },
+  {
+   "id": "gancho2",
+   "texto": "Y no son caprichos: se escapan solas.",
+   "archivo": "gancho2.mp3",
+   "segundos": 2.45551,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.104
+    },
+    {
+     "t": "no",
+     "inicio": 0.186,
+     "fin": 0.255
+    },
+    {
+     "t": "son",
+     "inicio": 0.302,
+     "fin": 0.441
+    },
+    {
+     "t": "caprichos:",
+     "inicio": 0.488,
+     "fin": 1.045
+    },
+    {
+     "t": "se",
+     "inicio": 1.126,
+     "fin": 1.231
+    },
+    {
+     "t": "escapan",
+     "inicio": 1.254,
+     "fin": 1.66
+    },
+    {
+     "t": "solas.",
+     "inicio": 1.718,
+     "fin": 2.415
+    }
+   ]
+  },
+  {
+   "id": "f1",
+   "texto": "Fuga uno: suscripciones que ya no usas.",
+   "archivo": "f1.mp3",
+   "segundos": 2.951837,
+   "palabras": [
+    {
+     "t": "Fuga",
+     "inicio": 0,
+     "fin": 0.406
+    },
+    {
+     "t": "uno:",
+     "inicio": 0.476,
+     "fin": 0.836
+    },
+    {
+     "t": "suscripciones",
+     "inicio": 0.952,
+     "fin": 1.707
+    },
+    {
+     "t": "que",
+     "inicio": 1.765,
+     "fin": 1.846
+    },
+    {
+     "t": "ya",
+     "inicio": 1.916,
+     "fin": 1.997
+    },
+    {
+     "t": "no",
+     "inicio": 2.067,
+     "fin": 2.159
+    },
+    {
+     "t": "usas.",
+     "inicio": 2.218,
+     "fin": 2.926
+    }
+   ]
+  },
+  {
+   "id": "f1b",
+   "texto": "Revisa los cobros y da de baja lo que no abras.",
+   "archivo": "f1b.mp3",
+   "segundos": 2.35102,
+   "palabras": [
+    {
+     "t": "Revisa",
+     "inicio": 0,
+     "fin": 0.279
+    },
+    {
+     "t": "los",
+     "inicio": 0.325,
+     "fin": 0.43
+    },
+    {
+     "t": "cobros",
+     "inicio": 0.488,
+     "fin": 0.766
+    },
+    {
+     "t": "y",
+     "inicio": 0.824,
+     "fin": 0.848
+    },
+    {
+     "t": "da",
+     "inicio": 0.894,
+     "fin": 0.952
+    },
+    {
+     "t": "de",
+     "inicio": 0.998,
+     "fin": 1.057
+    },
+    {
+     "t": "baja",
+     "inicio": 1.091,
+     "fin": 1.3
+    },
+    {
+     "t": "lo",
+     "inicio": 1.347,
+     "fin": 1.428
+    },
+    {
+     "t": "que",
+     "inicio": 1.463,
+     "fin": 1.533
+    },
+    {
+     "t": "no",
+     "inicio": 1.591,
+     "fin": 1.695
+    },
+    {
+     "t": "abras.",
+     "inicio": 1.741,
+     "fin": 2.322
+    }
+   ]
+  },
+  {
+   "id": "f2",
+   "texto": "Fuga dos: comisiones por tener la cuenta.",
+   "archivo": "f2.mp3",
+   "segundos": 2.638367,
+   "palabras": [
+    {
+     "t": "Fuga",
+     "inicio": 0,
+     "fin": 0.325
+    },
+    {
+     "t": "dos:",
+     "inicio": 0.372,
+     "fin": 0.731
+    },
+    {
+     "t": "comisiones",
+     "inicio": 0.848,
+     "fin": 1.428
+    },
+    {
+     "t": "por",
+     "inicio": 1.486,
+     "fin": 1.591
+    },
+    {
+     "t": "tener",
+     "inicio": 1.649,
+     "fin": 1.881
+    },
+    {
+     "t": "la",
+     "inicio": 1.962,
+     "fin": 2.032
+    },
+    {
+     "t": "cuenta.",
+     "inicio": 2.067,
+     "fin": 2.601
+    }
+   ]
+  },
+  {
+   "id": "f2b",
+   "texto": "Compara: muchas no cobran nada.",
+   "archivo": "f2b.mp3",
+   "segundos": 1.933061,
+   "palabras": [
+    {
+     "t": "Compara:",
+     "inicio": 0,
+     "fin": 0.569
+    },
+    {
+     "t": "muchas",
+     "inicio": 0.708,
+     "fin": 1.045
+    },
+    {
+     "t": "no",
+     "inicio": 1.103,
+     "fin": 1.161
+    },
+    {
+     "t": "cobran",
+     "inicio": 1.207,
+     "fin": 1.486
+    },
+    {
+     "t": "nada.",
+     "inicio": 1.509,
+     "fin": 1.904
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "texto": "La tercera la tiene casi todo el mundo.",
+   "archivo": "rehook.mp3",
+   "segundos": 2.115918,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0,
+     "fin": 0.139
+    },
+    {
+     "t": "tercera",
+     "inicio": 0.186,
+     "fin": 0.522
+    },
+    {
+     "t": "la",
+     "inicio": 0.569,
+     "fin": 0.627
+    },
+    {
+     "t": "tiene",
+     "inicio": 0.673,
+     "fin": 0.917
+    },
+    {
+     "t": "casi",
+     "inicio": 0.964,
+     "fin": 1.184
+    },
+    {
+     "t": "todo",
+     "inicio": 1.242,
+     "fin": 1.405
+    },
+    {
+     "t": "el",
+     "inicio": 1.44,
+     "fin": 1.486
+    },
+    {
+     "t": "mundo.",
+     "inicio": 1.533,
+     "fin": 2.09
+    }
+   ]
+  },
+  {
+   "id": "f3",
+   "texto": "Seguros que se renuevan solos, sin comparar el precio.",
+   "archivo": "f3.mp3",
+   "segundos": 3.056327,
+   "palabras": [
+    {
+     "t": "Seguros",
+     "inicio": 0,
+     "fin": 0.43
+    },
+    {
+     "t": "que",
+     "inicio": 0.476,
+     "fin": 0.546
+    },
+    {
+     "t": "se",
+     "inicio": 0.58,
+     "fin": 0.639
+    },
+    {
+     "t": "renuevan",
+     "inicio": 0.697,
+     "fin": 1.091
+    },
+    {
+     "t": "solos,",
+     "inicio": 1.161,
+     "fin": 1.602
+    },
+    {
+     "t": "sin",
+     "inicio": 1.649,
+     "fin": 1.788
+    },
+    {
+     "t": "comparar",
+     "inicio": 1.834,
+     "fin": 2.183
+    },
+    {
+     "t": "el",
+     "inicio": 2.229,
+     "fin": 2.287
+    },
+    {
+     "t": "precio.",
+     "inicio": 2.345,
+     "fin": 3.019
+    }
+   ]
+  },
+  {
+   "id": "f3b",
+   "texto": "Pide otro precio un mes antes.",
+   "archivo": "f3b.mp3",
+   "segundos": 1.906939,
+   "palabras": [
+    {
+     "t": "Pide",
+     "inicio": 0,
+     "fin": 0.325
+    },
+    {
+     "t": "otro",
+     "inicio": 0.383,
+     "fin": 0.604
+    },
+    {
+     "t": "precio",
+     "inicio": 0.639,
+     "fin": 0.964
+    },
+    {
+     "t": "un",
+     "inicio": 1.022,
+     "fin": 1.08
+    },
+    {
+     "t": "mes",
+     "inicio": 1.126,
+     "fin": 1.312
+    },
+    {
+     "t": "antes.",
+     "inicio": 1.37,
+     "fin": 1.858
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "texto": "Fuga cuatro: la tarjeta guardada en todas las apps.",
+   "archivo": "f4.mp3",
+   "segundos": 2.873469,
+   "palabras": [
+    {
+     "t": "Fuga",
+     "inicio": 0,
+     "fin": 0.325
+    },
+    {
+     "t": "cuatro:",
+     "inicio": 0.372,
+     "fin": 0.778
+    },
+    {
+     "t": "la",
+     "inicio": 0.824,
+     "fin": 0.906
+    },
+    {
+     "t": "tarjeta",
+     "inicio": 0.952,
+     "fin": 1.289
+    },
+    {
+     "t": "guardada",
+     "inicio": 1.324,
+     "fin": 1.66
+    },
+    {
+     "t": "en",
+     "inicio": 1.683,
+     "fin": 1.741
+    },
+    {
+     "t": "todas",
+     "inicio": 1.8,
+     "fin": 2.101
+    },
+    {
+     "t": "las",
+     "inicio": 2.171,
+     "fin": 2.299
+    },
+    {
+     "t": "apps.",
+     "inicio": 2.392,
+     "fin": 2.833
+    }
+   ]
+  },
+  {
+   "id": "f4b",
+   "texto": "Bórrala: compras menos por impulso.",
+   "archivo": "f4b.mp3",
+   "segundos": 2.115918,
+   "palabras": [
+    {
+     "t": "Bórrala:",
+     "inicio": 0,
+     "fin": 0.58
+    },
+    {
+     "t": "compras",
+     "inicio": 0.662,
+     "fin": 0.998
+    },
+    {
+     "t": "menos",
+     "inicio": 1.057,
+     "fin": 1.265
+    },
+    {
+     "t": "por",
+     "inicio": 1.3,
+     "fin": 1.405
+    },
+    {
+     "t": "impulso.",
+     "inicio": 1.451,
+     "fin": 2.09
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Cuatro gestos de cinco minutos, y el nivel por fin sube.",
+   "archivo": "wow.mp3",
+   "segundos": 2.821224,
+   "palabras": [
+    {
+     "t": "Cuatro",
+     "inicio": 0,
+     "fin": 0.348
+    },
+    {
+     "t": "gestos",
+     "inicio": 0.383,
+     "fin": 0.697
+    },
+    {
+     "t": "de",
+     "inicio": 0.743,
+     "fin": 0.801
+    },
+    {
+     "t": "cinco",
+     "inicio": 0.836,
+     "fin": 1.08
+    },
+    {
+     "t": "minutos,",
+     "inicio": 1.126,
+     "fin": 1.544
+    },
+    {
+     "t": "y",
+     "inicio": 1.567,
+     "fin": 1.602
+    },
+    {
+     "t": "el",
+     "inicio": 1.637,
+     "fin": 1.695
+    },
+    {
+     "t": "nivel",
+     "inicio": 1.718,
+     "fin": 1.95
+    },
+    {
+     "t": "por",
+     "inicio": 2.009,
+     "fin": 2.125
+    },
+    {
+     "t": "fin",
+     "inicio": 2.171,
+     "fin": 2.31
+    },
+    {
+     "t": "sube.",
+     "inicio": 2.357,
+     "fin": 2.786
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Guárdalo y tapa una fuga el día que cobres. Síguenos para más.",
+   "archivo": "cta.mp3",
+   "segundos": 4.623673,
+   "palabras": [
+    {
+     "t": "Guárdalo",
+     "inicio": 0,
+     "fin": 0.499
+    },
+    {
+     "t": "y",
+     "inicio": 0.546,
+     "fin": 0.569
+    },
+    {
+     "t": "tapa",
+     "inicio": 0.639,
+     "fin": 0.871
+    },
+    {
+     "t": "una",
+     "inicio": 0.906,
+     "fin": 1.022
+    },
+    {
+     "t": "fuga",
+     "inicio": 1.08,
+     "fin": 1.347
+    },
+    {
+     "t": "el",
+     "inicio": 1.37,
+     "fin": 1.416
+    },
+    {
+     "t": "día",
+     "inicio": 1.486,
+     "fin": 1.707
+    },
+    {
+     "t": "que",
+     "inicio": 1.765,
+     "fin": 1.846
+    },
+    {
+     "t": "cobres.",
+     "inicio": 1.892,
+     "fin": 2.403
+    },
+    {
+     "t": "Síguenos",
+     "inicio": 2.566,
+     "fin": 3.03
+    },
+    {
+     "t": "para",
+     "inicio": 3.088,
+     "fin": 3.239
+    },
+    {
+     "t": "más.",
+     "inicio": 3.274,
+     "fin": 4.598
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "texto": "Y el agua, por fin, se queda dentro.",
+   "archivo": "cierre.mp3",
+   "segundos": 1.985306,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.093
+    },
+    {
+     "t": "el",
+     "inicio": 0.139,
+     "fin": 0.186
+    },
+    {
+     "t": "agua,",
+     "inicio": 0.244,
+     "fin": 0.488
+    },
+    {
+     "t": "por",
+     "inicio": 0.511,
+     "fin": 0.639
+    },
+    {
+     "t": "fin,",
+     "inicio": 0.697,
+     "fin": 0.94
+    },
+    {
+     "t": "se",
+     "inicio": 0.964,
+     "fin": 1.057
+    },
+    {
+     "t": "queda",
+     "inicio": 1.115,
+     "fin": 1.347
+    },
+    {
+     "t": "dentro.",
+     "inicio": 1.405,
+     "fin": 1.95
+    }
+   ]
+  }
+ ]
+}

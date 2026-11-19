@@ -1,0 +1,574 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Desde los dieciocho, llevas esto gastado en Lotería.",
+   "archivo": "hook.mp3",
+   "segundos": 2.821224,
+   "palabras": [
+    {
+     "t": "Desde",
+     "inicio": 0,
+     "fin": 0.313
+    },
+    {
+     "t": "los",
+     "inicio": 0.36,
+     "fin": 0.488
+    },
+    {
+     "t": "dieciocho,",
+     "inicio": 0.522,
+     "fin": 1.173
+    },
+    {
+     "t": "llevas",
+     "inicio": 1.207,
+     "fin": 1.474
+    },
+    {
+     "t": "esto",
+     "inicio": 1.544,
+     "fin": 1.718
+    },
+    {
+     "t": "gastado",
+     "inicio": 1.765,
+     "fin": 2.101
+    },
+    {
+     "t": "en",
+     "inicio": 2.136,
+     "fin": 2.183
+    },
+    {
+     "t": "Lotería.",
+     "inicio": 2.229,
+     "fin": 2.786
+    }
+   ]
+  },
+  {
+   "id": "gancho2",
+   "texto": "Setenta y dos euros y medio al año no parecen nada. Pero suman.",
+   "archivo": "gancho2.mp3",
+   "segundos": 3.892245,
+   "palabras": [
+    {
+     "t": "Setenta",
+     "inicio": 0,
+     "fin": 0.441
+    },
+    {
+     "t": "y",
+     "inicio": 0.464,
+     "fin": 0.488
+    },
+    {
+     "t": "dos",
+     "inicio": 0.546,
+     "fin": 0.685
+    },
+    {
+     "t": "euros",
+     "inicio": 0.743,
+     "fin": 0.998
+    },
+    {
+     "t": "y",
+     "inicio": 1.045,
+     "fin": 1.068
+    },
+    {
+     "t": "medio",
+     "inicio": 1.115,
+     "fin": 1.358
+    },
+    {
+     "t": "al",
+     "inicio": 1.393,
+     "fin": 1.463
+    },
+    {
+     "t": "año",
+     "inicio": 1.486,
+     "fin": 1.765
+    },
+    {
+     "t": "no",
+     "inicio": 1.811,
+     "fin": 1.939
+    },
+    {
+     "t": "parecen",
+     "inicio": 2.009,
+     "fin": 2.403
+    },
+    {
+     "t": "nada.",
+     "inicio": 2.45,
+     "fin": 2.763
+    },
+    {
+     "t": "Pero",
+     "inicio": 2.81,
+     "fin": 3.065
+    },
+    {
+     "t": "suman.",
+     "inicio": 3.111,
+     "fin": 3.855
+    }
+   ]
+  },
+  {
+   "id": "sube",
+   "texto": "Cada diciembre, un poco más.",
+   "archivo": "sube.mp3",
+   "segundos": 1.802449,
+   "palabras": [
+    {
+     "t": "Cada",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "diciembre,",
+     "inicio": 0.337,
+     "fin": 0.813
+    },
+    {
+     "t": "un",
+     "inicio": 0.882,
+     "fin": 0.952
+    },
+    {
+     "t": "poco",
+     "inicio": 0.998,
+     "fin": 1.219
+    },
+    {
+     "t": "más.",
+     "inicio": 1.265,
+     "fin": 1.765
+    }
+   ]
+  },
+  {
+   "id": "edades",
+   "texto": "Los treinta, los treinta y cinco…",
+   "archivo": "edades.mp3",
+   "segundos": 3.160816,
+   "palabras": [
+    {
+     "t": "Los",
+     "inicio": 0,
+     "fin": 0.186
+    },
+    {
+     "t": "treinta,",
+     "inicio": 0.232,
+     "fin": 0.755
+    },
+    {
+     "t": "los",
+     "inicio": 0.952,
+     "fin": 1.126
+    },
+    {
+     "t": "treinta",
+     "inicio": 1.173,
+     "fin": 1.486
+    },
+    {
+     "t": "y",
+     "inicio": 1.521,
+     "fin": 1.544
+    },
+    {
+     "t": "cinco…",
+     "inicio": 1.602,
+     "fin": 3.111
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "A los cuarenta: mil quinientos noventa y cinco euros.",
+   "archivo": "wow.mp3",
+   "segundos": 2.925714,
+   "palabras": [
+    {
+     "t": "A",
+     "inicio": 0,
+     "fin": 0.093
+    },
+    {
+     "t": "los",
+     "inicio": 0.151,
+     "fin": 0.267
+    },
+    {
+     "t": "cuarenta:",
+     "inicio": 0.313,
+     "fin": 0.789
+    },
+    {
+     "t": "mil",
+     "inicio": 0.871,
+     "fin": 1.057
+    },
+    {
+     "t": "quinientos",
+     "inicio": 1.103,
+     "fin": 1.567
+    },
+    {
+     "t": "noventa",
+     "inicio": 1.614,
+     "fin": 1.881
+    },
+    {
+     "t": "y",
+     "inicio": 1.904,
+     "fin": 1.927
+    },
+    {
+     "t": "cinco",
+     "inicio": 1.962,
+     "fin": 2.241
+    },
+    {
+     "t": "euros.",
+     "inicio": 2.287,
+     "fin": 2.879
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "texto": "Y ahora, la otra cifra: tus posibilidades.",
+   "archivo": "rehook.mp3",
+   "segundos": 2.951837,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.104
+    },
+    {
+     "t": "ahora,",
+     "inicio": 0.221,
+     "fin": 0.546
+    },
+    {
+     "t": "la",
+     "inicio": 0.615,
+     "fin": 0.731
+    },
+    {
+     "t": "otra",
+     "inicio": 0.813,
+     "fin": 1.045
+    },
+    {
+     "t": "cifra:",
+     "inicio": 1.08,
+     "fin": 1.509
+    },
+    {
+     "t": "tus",
+     "inicio": 1.579,
+     "fin": 1.765
+    },
+    {
+     "t": "posibilidades.",
+     "inicio": 1.823,
+     "fin": 2.926
+    }
+   ]
+  },
+  {
+   "id": "bolas",
+   "texto": "Cada décimo tiene una posibilidad entre cien mil de llevarse el Gordo.",
+   "archivo": "bolas.mp3",
+   "segundos": 4.022857,
+   "palabras": [
+    {
+     "t": "Cada",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "décimo",
+     "inicio": 0.337,
+     "fin": 0.72
+    },
+    {
+     "t": "tiene",
+     "inicio": 0.789,
+     "fin": 1.045
+    },
+    {
+     "t": "una",
+     "inicio": 1.091,
+     "fin": 1.219
+    },
+    {
+     "t": "posibilidad",
+     "inicio": 1.265,
+     "fin": 1.869
+    },
+    {
+     "t": "entre",
+     "inicio": 1.939,
+     "fin": 2.159
+    },
+    {
+     "t": "cien",
+     "inicio": 2.194,
+     "fin": 2.368
+    },
+    {
+     "t": "mil",
+     "inicio": 2.426,
+     "fin": 2.624
+    },
+    {
+     "t": "de",
+     "inicio": 2.694,
+     "fin": 2.752
+    },
+    {
+     "t": "llevarse",
+     "inicio": 2.786,
+     "fin": 3.228
+    },
+    {
+     "t": "el",
+     "inicio": 3.262,
+     "fin": 3.32
+    },
+    {
+     "t": "Gordo.",
+     "inicio": 3.39,
+     "fin": 3.994
+    }
+   ]
+  },
+  {
+   "id": "giro",
+   "texto": "No te digo que no juegues. Te digo que sepas qué compras.",
+   "archivo": "giro.mp3",
+   "segundos": 3.108571,
+   "palabras": [
+    {
+     "t": "No",
+     "inicio": 0,
+     "fin": 0.151
+    },
+    {
+     "t": "te",
+     "inicio": 0.197,
+     "fin": 0.267
+    },
+    {
+     "t": "digo",
+     "inicio": 0.313,
+     "fin": 0.499
+    },
+    {
+     "t": "que",
+     "inicio": 0.534,
+     "fin": 0.604
+    },
+    {
+     "t": "no",
+     "inicio": 0.639,
+     "fin": 0.708
+    },
+    {
+     "t": "juegues.",
+     "inicio": 0.743,
+     "fin": 1.161
+    },
+    {
+     "t": "Te",
+     "inicio": 1.277,
+     "fin": 1.405
+    },
+    {
+     "t": "digo",
+     "inicio": 1.44,
+     "fin": 1.649
+    },
+    {
+     "t": "que",
+     "inicio": 1.695,
+     "fin": 1.776
+    },
+    {
+     "t": "sepas",
+     "inicio": 1.823,
+     "fin": 2.148
+    },
+    {
+     "t": "qué",
+     "inicio": 2.194,
+     "fin": 2.276
+    },
+    {
+     "t": "compras.",
+     "inicio": 2.345,
+     "fin": 3.065
+    }
+   ]
+  },
+  {
+   "id": "moraleja",
+   "texto": "Una ilusión, no un plan para tu dinero.",
+   "archivo": "moraleja.mp3",
+   "segundos": 2.037551,
+   "palabras": [
+    {
+     "t": "Una",
+     "inicio": 0,
+     "fin": 0.221
+    },
+    {
+     "t": "ilusión,",
+     "inicio": 0.255,
+     "fin": 0.72
+    },
+    {
+     "t": "no",
+     "inicio": 0.789,
+     "fin": 0.882
+    },
+    {
+     "t": "un",
+     "inicio": 0.906,
+     "fin": 0.952
+    },
+    {
+     "t": "plan",
+     "inicio": 1.01,
+     "fin": 1.196
+    },
+    {
+     "t": "para",
+     "inicio": 1.254,
+     "fin": 1.405
+    },
+    {
+     "t": "tu",
+     "inicio": 1.44,
+     "fin": 1.521
+    },
+    {
+     "t": "dinero.",
+     "inicio": 1.567,
+     "fin": 1.997
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "¿Cuánto llevas tú? Te leo. Síguenos para más.",
+   "archivo": "cta.mp3",
+   "segundos": 2.403265,
+   "palabras": [
+    {
+     "t": "¿Cuánto",
+     "inicio": 0,
+     "fin": 0.395
+    },
+    {
+     "t": "llevas",
+     "inicio": 0.418,
+     "fin": 0.65
+    },
+    {
+     "t": "tú?",
+     "inicio": 0.697,
+     "fin": 0.929
+    },
+    {
+     "t": "Te",
+     "inicio": 0.964,
+     "fin": 1.057
+    },
+    {
+     "t": "leo.",
+     "inicio": 1.103,
+     "fin": 1.382
+    },
+    {
+     "t": "Síguenos",
+     "inicio": 1.44,
+     "fin": 1.823
+    },
+    {
+     "t": "para",
+     "inicio": 1.869,
+     "fin": 2.009
+    },
+    {
+     "t": "más.",
+     "inicio": 2.055,
+     "fin": 2.368
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "texto": "Y el contador vuelve a empezar este diciembre.",
+   "archivo": "cierre.mp3",
+   "segundos": 2.35102,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.116
+    },
+    {
+     "t": "el",
+     "inicio": 0.174,
+     "fin": 0.232
+    },
+    {
+     "t": "contador",
+     "inicio": 0.29,
+     "fin": 0.673
+    },
+    {
+     "t": "vuelve",
+     "inicio": 0.731,
+     "fin": 1.01
+    },
+    {
+     "t": "a",
+     "inicio": 1.033,
+     "fin": 1.057
+    },
+    {
+     "t": "empezar",
+     "inicio": 1.091,
+     "fin": 1.44
+    },
+    {
+     "t": "este",
+     "inicio": 1.498,
+     "fin": 1.649
+    },
+    {
+     "t": "diciembre.",
+     "inicio": 1.695,
+     "fin": 2.322
+    }
+   ]
+  }
+ ]
+}
