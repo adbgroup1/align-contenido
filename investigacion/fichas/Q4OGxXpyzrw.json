@@ -1,0 +1,48 @@
+{
+ "id": "Q4OGxXpyzrw",
+ "url": "https://www.youtube.com/shorts/Q4OGxXpyzrw",
+ "titulo": "Why The Rich Keep Getting Richer",
+ "canal": "StoryLoop_Shorts",
+ "vistas": 55285,
+ "ratio": 131.1,
+ "duracion_s": 71,
+ "formato": "fábula animada",
+ "nicho": "Finanzas (inflación)",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Título-pregunta sobre desigualdad; la historia empieza en una isla donde las conchas son dinero (por la descripción).",
+  "tecnica": "Título-pregunta sobre desigualdad; la historia empieza en una isla donde las conchas son dinero (por la descripción).",
+  "por_que_engancha": "Una fábula con personajes hace tangible la inflación. Los comentarios toman partido (justicia para Mele, el jefe es el culpable) y se enfadan con el jefe: la injusticia genera comentarios. Varios la nombran: «it's called inflation»."
+ },
+ "segundo_gancho": "El jefe encuentra una playa llena de conchas y los ahorros de una anciana pierden la mitad de valor sin que gaste una (por la descripción).",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "Suscripción",
+  "hace_bucle": "sin dato",
+  "cta": "Like y suscríbete para una nueva historia mañana"
+ },
+ "tipografia": {
+  "estilo": "sin dato",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "sin dato",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Metáfora cerrada (isla, conchas) que explica un concepto abstracto",
+  "Personaje con el que se empatiza"
+ ],
+ "nota_calidad_visual_1_10": "sin dato",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Fábula propia de 30 s que explique por qué el dinero parado pierde valor, con la inflación en España y un villano claro; CTA COMPARTIR."
+}
