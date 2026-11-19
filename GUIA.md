@@ -127,6 +127,31 @@ pastilla y una foto. La investigación decía otra cosa (4 de 6 fichas eran fáb
 - **Los personajes se dibujan en código** (SVG en Remotion, con la pieza `Personaje` del kit si existe) o con
   imágenes de escena. Nunca personas reconocibles.
 
+## Imagen de ChatGPT o dibujo en Remotion
+
+Andrés, 19 nov 2026: «no quiero que sea todo igual». Las imágenes de ChatGPT no son la opción por defecto:
+**cada escena se monta con lo que mejor la cuente**, y la semana tiene que verse variada.
+
+| Mejor `IMAGEN:` (foto fija de ChatGPT) | Mejor `DIBUJO:` (ilustración en código con Remotion) |
+|---|---|
+| Un objeto o un sitio real, con textura y ambiente | Lo que se mueve o cambia: se llena, crece, cae, se rompe |
+| Escena quieta, que vive del zoom lento | Personajes de fábulas e historias que andan, hablan o reaccionan |
+| Un plano que da realismo («esto te pasa a ti») | Iconos, esquemas, mapas, cuentas que se apilan |
+| | El mismo objeto en varios estados a lo largo del vídeo (sale idéntico siempre) |
+
+- **Reparto por semana (5 vídeos):** al menos **2 vídeos sin ninguna `IMAGEN:`** (dibujo en código, kit y
+  tipografía) y como mucho 3 con imágenes. Dos vídeos seguidos de la cola no llevan el mismo estilo visual
+  si se puede.
+- **Estilos visuales:** foto (imágenes + kit), ilustración plana en código, tipográfico (solo texto y
+  cifras) y mixto. El estilo encaja con el formato: una fábula pide dibujo; una historia «esto te pasa a ti»
+  puede pedir foto.
+- **Producción puede cambiarlo:** si una escena marcada `IMAGEN:` queda mejor dibujada (porque tiene que
+  moverse, o la imagen no llegó o no pasó la revisión), la dibuja en código y lo apunta en «Nota del
+  manager». Al revés no puede: en la nube no hay ChatGPT.
+- **El dibujo en código tiene que estar a la altura:** formas limpias, colores de la marca, con movimiento
+  (muelles, rebotes, pequeños gestos), nunca un recuadro con un emoji. Cómo se hace: `videos/KIT.md`,
+  «Dibujos en código».
+
 ## Qué no hacer nunca
 
 - No hablar mal de nadie ni nombrar bancos, brókers o «gurús» para criticarlos.

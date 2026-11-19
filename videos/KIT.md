@@ -82,6 +82,24 @@ node scripts/sfx.mjs               # regenera los efectos (no hace falta: ya est
 - Colores solo de `brand.ts`. Lucía/Marcos u opciones A/B: `accent` frente a `gold`.
 - El contenido cabe entre y=250 e y=1260; los subtítulos van encima de y=1440.
 
+## Dibujos en código (método «dibujo + kit»)
+
+*Regla de la `GUIA.md`, «Imagen de ChatGPT o dibujo en Remotion». Va en las escenas `DIBUJO:` del guion y
+en las `IMAGEN:` que Producción decida dibujar.*
+
+- **Qué es:** ilustración plana en SVG dentro del propio `.tsx`, animada con `useSpring`, `interpolate` y
+  `ease`. No hace falta red, ni clave, ni que Andrés haga nada: sale entera en la nube.
+- **Estilo ALIGN:** formas redondeadas y simples, 2 o 3 colores de `brand.ts` por dibujo y un color de acento,
+  sombras suaves en lugar de contornos negros, y fondo `Fondo` del kit.
+- **Siempre con movimiento:** algo entra con muelle, algo cambia de estado (se llena, crece, se vacía) y hay
+  un gesto pequeño en bucle (respirar, parpadear, balancearse). Un dibujo quieto es peor que una foto.
+- **Personajes:** cabeza y cuerpo con formas básicas, ojos que parpadean, boca que cambia con la emoción
+  (contento, sorprendido, preocupado). Nunca personas reconocibles ni marcas.
+- **Reutiliza:** si un dibujo sirve para otros vídeos (un personaje, una hucha, una cartera), muévelo a
+  `src/dibujos.tsx`, con sus props (color, estado, emoción), y apúntalo en la tabla de «Piezas».
+- **Míralo antes de dar el vídeo por bueno:** saca un `remotion still` de cada escena dibujada. Si parece
+  casero o de presentación de clase, simplifícalo o cambia la escena a cifras y texto del kit.
+
 ## Imágenes generadas (método «imágenes + kit»)
 
 *Probado el 15 nov 2026 con «El colchón». Ejemplo completo: `src/videos/EJ-colchon.tsx`.*
@@ -93,7 +111,9 @@ no caben en la nube.
 
 ### Cuándo usarlo
 
-- Úsalo cuando la escena gana con un objeto real y reconocible (metáforas: colchón, lluvia, semilla, tarro).
+- Úsalo cuando la escena gana con un objeto real y reconocible, con textura y ambiente, y no tiene que
+  cambiar mucho. Si tiene que moverse o transformarse (un tarro que se llena), suele quedar mejor dibujado
+  en código (ver «Dibujos en código»).
 - Para cifras, comparaciones y gráficos, el kit sin imágenes sigue siendo mejor (`Cifra`, `Cristal`, barras,
   curvas).
 - Lo normal es mezclar las dos cosas: 2–4 escenas con imagen y el resto con piezas del kit. El CTA va siempre

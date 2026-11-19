@@ -16,6 +16,9 @@ Nunca en una tarea programada ni sin supervisión: las condiciones de ChatGPT no
 1. `git pull --ff-only` en `repo-nube/`.
 2. **Qué vídeos llevan imagen:** en Notion (Vídeos), las filas de la semana con Estado `Revisión manager OK`
    y alguna fila `IMAGEN:` en la columna «Animación / visual» del guion. Si no hay ninguna, dilo y termina.
+   Las filas `DIBUJO:` no se hacen aquí: las dibuja Producción en código. Si ves una `IMAGEN:` que quedaría
+   mejor dibujada (tiene que moverse o cambiar), díselo a Andrés y, si está de acuerdo, cámbiala a `DIBUJO:`
+   en el guion de Notion en vez de hacerla.
    **Si Andrés dice «rehaz las imágenes»:** solo las marcadas `rehacer` en `public/img/<ID>/revision.json`.
    Su `prompt` en `imagenes.json` ya viene corregido por el agente de Investigación; enséñale a Andrés el
    motivo antes de generar. Usa el mismo chat de ChatGPT del vídeo si sigue abierto (para la continuidad).

@@ -53,10 +53,16 @@ Lee antes `CLAUDE.md`, `GUIA.md`, `semanas/<semana>/ideas.md` y `hooks.md`.
   euros»). La voz y el texto de pantalla dicen lo mismo con distintas palabras: el texto resume.
 - **Texto en pantalla:** 12 palabras como máximo por escena, y tiempo de sobra para leerlas (unas 3
   palabras por segundo).
-- **Imágenes generadas** (opcional, de 2 a 4 escenas por vídeo): cuando una escena gana con un objeto o una
-  metáfora visual (un tarro que se llena, una casa bajo la lluvia, una semilla que brota), escribe en
-  «Animación / visual» `IMAGEN: <qué se ve, en una frase>`.
+- **Imagen o dibujo, escena a escena** (regla de `GUIA.md`, «Imagen de ChatGPT o dibujo en Remotion»): cuando
+  una escena necesita algo más que texto y cifras, elige lo que mejor la cuente y escríbelo en «Animación /
+  visual»:
+  - `IMAGEN: <qué se ve, en una frase>`: foto fija de ChatGPT, para un objeto o un sitio real con textura y
+    ambiente (una casa bajo la lluvia, un carrito lleno). Se mueve poco: zoom lento.
+  - `DIBUJO: <qué se ve y qué hace>`: ilustración hecha en código con Remotion, para lo que **tiene que
+    moverse o cambiar** (un tarro que se llena, monedas que caen, un personaje que anda o reacciona), para los
+    personajes de fábulas e historias y para iconos y esquemas.
   - Si el mismo objeto sale en varias escenas, dilo («el mismo tarro, ahora lleno»).
-  - **Nunca** cifras, texto, personas reconocibles ni marcas dentro de la imagen.
-  - Las cifras y los gráficos se hacen con el kit, sin imagen. El CTA va siempre sin imagen.
-  - Producción lo monta según `videos/KIT.md`, «Imágenes generadas».
+  - **Nunca** cifras, texto, personas reconocibles ni marcas dentro de una `IMAGEN:`.
+  - Las cifras y los gráficos se hacen con el kit. El CTA va siempre sin imagen.
+  - **No todos los vídeos llevan `IMAGEN:`.** Mira el reparto de la semana en la `GUIA.md`.
+  - Producción lo monta según `videos/KIT.md`, «Imágenes generadas» y «Dibujos en código».

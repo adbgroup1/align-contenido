@@ -31,6 +31,9 @@ Lee `GUIA.md` y puntúa cada guion de 1 a 5 en:
   - Respeta la mezcla: al menos 3 Probado y como mucho 2 Experimento.
   - **Respeta la variedad de formato** (`GUIA.md`): al menos 3 formatos distintos, como mucho 2 de Explicación y
     al menos 1 que no saliera la semana anterior. Si no la cumplen, cambia uno por otro guion o corrígelo tú.
+  - **Respeta el reparto de imagen y dibujo** (`GUIA.md`, «Imagen de ChatGPT o dibujo en Remotion»): al menos 2
+    de los 5 sin ninguna `IMAGEN:`. Cada `IMAGEN:` que tenga que moverse o cambiar (se llena, crece, un
+    personaje que actúa) pásala a `DIBUJO:`.
   - **Mira el Patrón:** un «Probado» sin ficha detrás se cambia a Experimento.
 - Los demás:
   - Estado = `Devuelto` o `Descartado`, con su motivo.
