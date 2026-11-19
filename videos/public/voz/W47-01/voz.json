@@ -6,7 +6,7 @@
    "id": "hook",
    "texto": "Tu colchón no puede estar en tu cuenta corriente.",
    "archivo": "hook.mp3",
-   "segundos": 2.272653,
+   "segundos": 2.35102,
    "palabras": [
     {
      "t": "Tu",
@@ -15,43 +15,43 @@
     },
     {
      "t": "colchón",
-     "inicio": 0.186,
-     "fin": 0.522
+     "inicio": 0.197,
+     "fin": 0.569
     },
     {
      "t": "no",
-     "inicio": 0.569,
-     "fin": 0.639
+     "inicio": 0.615,
+     "fin": 0.697
     },
     {
      "t": "puede",
-     "inicio": 0.673,
-     "fin": 0.894
+     "inicio": 0.743,
+     "fin": 0.952
     },
     {
      "t": "estar",
-     "inicio": 0.917,
-     "fin": 1.115
+     "inicio": 0.975,
+     "fin": 1.184
     },
     {
      "t": "en",
-     "inicio": 1.161,
-     "fin": 1.207
+     "inicio": 1.231,
+     "fin": 1.277
     },
     {
      "t": "tu",
-     "inicio": 1.242,
-     "fin": 1.3
+     "inicio": 1.312,
+     "fin": 1.382
     },
     {
      "t": "cuenta",
-     "inicio": 1.335,
-     "fin": 1.602
+     "inicio": 1.428,
+     "fin": 1.707
     },
     {
      "t": "corriente.",
-     "inicio": 1.649,
-     "fin": 2.229
+     "inicio": 1.741,
+     "fin": 2.322
     }
    ]
   },
@@ -59,57 +59,57 @@
    "id": "gasto",
    "texto": "Porque si no está separado, no es colchón. Es gasto.",
    "archivo": "gasto.mp3",
-   "segundos": 2.951837,
+   "segundos": 3.996735,
    "palabras": [
     {
      "t": "Porque",
      "inicio": 0,
-     "fin": 0.348
+     "fin": 0.325
     },
     {
      "t": "si",
-     "inicio": 0.395,
-     "fin": 0.476
+     "inicio": 0.36,
+     "fin": 0.441
     },
     {
      "t": "no",
-     "inicio": 0.534,
-     "fin": 0.592
+     "inicio": 0.499,
+     "fin": 0.58
     },
     {
      "t": "está",
      "inicio": 0.627,
-     "fin": 0.766
+     "fin": 0.801
     },
     {
      "t": "separado,",
-     "inicio": 0.813,
-     "fin": 1.277
+     "inicio": 0.859,
+     "fin": 1.347
     },
     {
      "t": "no",
-     "inicio": 1.324,
-     "fin": 1.451
+     "inicio": 1.416,
+     "fin": 1.567
     },
     {
      "t": "es",
-     "inicio": 1.521,
-     "fin": 1.579
+     "inicio": 1.625,
+     "fin": 1.683
     },
     {
      "t": "colchón.",
-     "inicio": 1.649,
-     "fin": 2.113
+     "inicio": 1.741,
+     "fin": 2.218
     },
     {
      "t": "Es",
-     "inicio": 2.229,
-     "fin": 2.392
+     "inicio": 2.357,
+     "fin": 2.554
     },
     {
      "t": "gasto.",
-     "inicio": 2.45,
-     "fin": 2.926
+     "inicio": 2.635,
+     "fin": 3.947
     }
    ]
   },
@@ -117,67 +117,67 @@
    "id": "dato",
    "texto": "Y ojo: más de una de cada tres personas en España no puede pagar un imprevisto.",
    "archivo": "dato.mp3",
-   "segundos": 4.832653,
+   "segundos": 4.780408,
    "palabras": [
     {
      "t": "Y",
      "inicio": 0,
-     "fin": 0.116
+     "fin": 0.093
     },
     {
      "t": "ojo:",
-     "inicio": 0.232,
-     "fin": 0.604
+     "inicio": 0.209,
+     "fin": 0.557
     },
     {
      "t": "más",
-     "inicio": 0.801,
-     "fin": 0.998
+     "inicio": 0.824,
+     "fin": 1.022
     },
     {
      "t": "de",
      "inicio": 1.057,
-     "fin": 1.126
+     "fin": 1.115
     },
     {
      "t": "una",
-     "inicio": 1.219,
-     "fin": 1.393
+     "inicio": 1.196,
+     "fin": 1.347
     },
     {
      "t": "de",
-     "inicio": 1.44,
-     "fin": 1.509
+     "inicio": 1.393,
+     "fin": 1.451
     },
     {
      "t": "cada",
-     "inicio": 1.544,
-     "fin": 1.73
+     "inicio": 1.498,
+     "fin": 1.66
     },
     {
      "t": "tres",
-     "inicio": 1.765,
-     "fin": 1.939
+     "inicio": 1.707,
+     "fin": 1.881
     },
     {
      "t": "personas",
-     "inicio": 1.997,
-     "fin": 2.415
+     "inicio": 1.939,
+     "fin": 2.357
     },
     {
      "t": "en",
-     "inicio": 2.461,
-     "fin": 2.508
+     "inicio": 2.415,
+     "fin": 2.461
     },
     {
      "t": "España",
-     "inicio": 2.554,
-     "fin": 2.972
+     "inicio": 2.519,
+     "fin": 2.949
     },
     {
      "t": "no",
-     "inicio": 3.03,
-     "fin": 3.146
+     "inicio": 3.019,
+     "fin": 3.135
     },
     {
      "t": "puede",
@@ -197,7 +197,7 @@
     {
      "t": "imprevisto.",
      "inicio": 3.947,
-     "fin": 4.783
+     "fin": 4.737
     }
    ]
   },
@@ -205,47 +205,47 @@
    "id": "paso1",
    "texto": "Paso uno: una cuenta aparte, solo para emergencias.",
    "archivo": "paso1.mp3",
-   "segundos": 2.690612,
+   "segundos": 3.343673,
    "palabras": [
     {
      "t": "Paso",
      "inicio": 0,
-     "fin": 0.337
+     "fin": 0.36
     },
     {
      "t": "uno:",
-     "inicio": 0.395,
-     "fin": 0.65
+     "inicio": 0.418,
+     "fin": 0.743
     },
     {
      "t": "una",
-     "inicio": 0.708,
-     "fin": 0.859
+     "inicio": 0.906,
+     "fin": 1.057
     },
     {
      "t": "cuenta",
-     "inicio": 0.894,
-     "fin": 1.126
+     "inicio": 1.091,
+     "fin": 1.37
     },
     {
      "t": "aparte,",
-     "inicio": 1.149,
-     "fin": 1.498
+     "inicio": 1.405,
+     "fin": 1.858
     },
     {
      "t": "solo",
-     "inicio": 1.544,
-     "fin": 1.741
+     "inicio": 1.939,
+     "fin": 2.171
     },
     {
      "t": "para",
-     "inicio": 1.776,
-     "fin": 1.916
+     "inicio": 2.206,
+     "fin": 2.345
     },
     {
      "t": "emergencias.",
-     "inicio": 1.939,
-     "fin": 2.647
+     "inicio": 2.368,
+     "fin": 3.297
     }
    ]
   },
@@ -253,37 +253,37 @@
    "id": "rehook",
    "texto": "Paso dos: ¿cuánto tiene que haber?",
    "archivo": "rehook.mp3",
-   "segundos": 2.35102,
+   "segundos": 2.220408,
    "palabras": [
     {
      "t": "Paso",
      "inicio": 0,
-     "fin": 0.406
+     "fin": 0.337
     },
     {
      "t": "dos:",
-     "inicio": 0.476,
-     "fin": 0.894
+     "inicio": 0.395,
+     "fin": 0.766
     },
     {
      "t": "¿cuánto",
-     "inicio": 0.964,
-     "fin": 1.37
+     "inicio": 0.848,
+     "fin": 1.265
     },
     {
      "t": "tiene",
-     "inicio": 1.416,
-     "fin": 1.637
+     "inicio": 1.312,
+     "fin": 1.521
     },
     {
      "t": "que",
-     "inicio": 1.672,
-     "fin": 1.741
+     "inicio": 1.567,
+     "fin": 1.637
     },
     {
      "t": "haber?",
-     "inicio": 1.765,
-     "fin": 2.322
+     "inicio": 1.66,
+     "fin": 2.183
     }
    ]
   },
@@ -291,122 +291,122 @@
    "id": "wow",
    "texto": "De tres a seis meses de tus gastos. Si gastas mil doscientos al mes, entre tres mil seiscientos y siete mil doscientos euros.",
    "archivo": "wow.mp3",
-   "segundos": 8.542041,
+   "segundos": 9.377959,
    "palabras": [
     {
      "t": "De",
      "inicio": 0,
-     "fin": 0.151
+     "fin": 0.128
     },
     {
      "t": "tres",
-     "inicio": 0.197,
-     "fin": 0.383
+     "inicio": 0.174,
+     "fin": 0.372
     },
     {
      "t": "a",
-     "inicio": 0.453,
-     "fin": 0.476
+     "inicio": 0.43,
+     "fin": 0.453
     },
     {
      "t": "seis",
-     "inicio": 0.522,
-     "fin": 0.731
+     "inicio": 0.499,
+     "fin": 0.685
     },
     {
      "t": "meses",
-     "inicio": 0.789,
-     "fin": 1.138
+     "inicio": 0.755,
+     "fin": 1.033
     },
     {
      "t": "de",
-     "inicio": 1.184,
-     "fin": 1.242
+     "inicio": 1.08,
+     "fin": 1.138
     },
     {
      "t": "tus",
-     "inicio": 1.289,
-     "fin": 1.428
+     "inicio": 1.184,
+     "fin": 1.312
     },
     {
      "t": "gastos.",
-     "inicio": 1.474,
-     "fin": 2.101
+     "inicio": 1.347,
+     "fin": 1.962
     },
     {
      "t": "Si",
-     "inicio": 2.589,
-     "fin": 2.74
+     "inicio": 2.74,
+     "fin": 2.879
     },
     {
      "t": "gastas",
-     "inicio": 2.798,
-     "fin": 3.146
+     "inicio": 2.937,
+     "fin": 3.274
     },
     {
      "t": "mil",
-     "inicio": 3.204,
-     "fin": 3.344
+     "inicio": 3.332,
+     "fin": 3.471
     },
     {
      "t": "doscientos",
-     "inicio": 3.402,
-     "fin": 3.924
+     "inicio": 3.518,
+     "fin": 4.029
     },
     {
      "t": "al",
-     "inicio": 3.982,
-     "fin": 4.052
+     "inicio": 4.087,
+     "fin": 4.156
     },
     {
      "t": "mes,",
-     "inicio": 4.11,
-     "fin": 4.505
+     "inicio": 4.214,
+     "fin": 4.679
     },
     {
      "t": "entre",
-     "inicio": 4.702,
-     "fin": 5.027
+     "inicio": 4.876,
+     "fin": 5.213
     },
     {
      "t": "tres",
-     "inicio": 5.074,
-     "fin": 5.259
+     "inicio": 5.248,
+     "fin": 5.422
     },
     {
      "t": "mil",
-     "inicio": 5.317,
-     "fin": 5.503
+     "inicio": 5.492,
+     "fin": 5.642
     },
     {
      "t": "seiscientos",
-     "inicio": 5.55,
-     "fin": 6.223
+     "inicio": 5.689,
+     "fin": 6.385
     },
     {
      "t": "y",
-     "inicio": 6.293,
-     "fin": 6.327
+     "inicio": 6.467,
+     "fin": 6.513
     },
     {
      "t": "siete",
-     "inicio": 6.374,
-     "fin": 6.606
+     "inicio": 6.571,
+     "fin": 6.827
     },
     {
      "t": "mil",
-     "inicio": 6.653,
-     "fin": 6.803
+     "inicio": 6.885,
+     "fin": 7.059
     },
     {
      "t": "doscientos",
-     "inicio": 6.85,
-     "fin": 7.372
+     "inicio": 7.117,
+     "fin": 7.651
     },
     {
      "t": "euros.",
-     "inicio": 7.442,
-     "fin": 8.499
+     "inicio": 7.709,
+     "fin": 9.334
     }
    ]
   },
@@ -414,72 +414,72 @@
    "id": "usos",
    "texto": "Y solo se toca si hay una avería, un despido o un médico.",
    "archivo": "usos.mp3",
-   "segundos": 3.892245,
+   "segundos": 4.414694,
    "palabras": [
     {
      "t": "Y",
      "inicio": 0,
-     "fin": 0.128
+     "fin": 0.104
     },
     {
      "t": "solo",
-     "inicio": 0.209,
-     "fin": 0.406
+     "inicio": 0.197,
+     "fin": 0.383
     },
     {
      "t": "se",
-     "inicio": 0.441,
-     "fin": 0.522
+     "inicio": 0.418,
+     "fin": 0.499
     },
     {
      "t": "toca",
-     "inicio": 0.569,
+     "inicio": 0.546,
      "fin": 0.813
     },
     {
      "t": "si",
-     "inicio": 0.871,
-     "fin": 0.987
+     "inicio": 0.894,
+     "fin": 1.01
     },
     {
      "t": "hay",
-     "inicio": 1.033,
-     "fin": 1.138
+     "inicio": 1.057,
+     "fin": 1.173
     },
     {
      "t": "una",
-     "inicio": 1.196,
-     "fin": 1.324
+     "inicio": 1.231,
+     "fin": 1.335
     },
     {
      "t": "avería,",
      "inicio": 1.358,
-     "fin": 1.881
+     "fin": 1.823
     },
     {
      "t": "un",
-     "inicio": 2.043,
-     "fin": 2.159
+     "inicio": 1.985,
+     "fin": 2.101
     },
     {
      "t": "despido",
-     "inicio": 2.218,
-     "fin": 2.717
+     "inicio": 2.159,
+     "fin": 2.635
     },
     {
      "t": "o",
-     "inicio": 2.914,
-     "fin": 3.007
+     "inicio": 2.833,
+     "fin": 2.949
     },
     {
      "t": "un",
-     "inicio": 3.088,
-     "fin": 3.17
+     "inicio": 3.007,
+     "fin": 3.088
     },
     {
      "t": "médico.",
-     "inicio": 3.228,
-     "fin": 3.855
+     "inicio": 3.158,
+     "fin": 4.365
     }
    ]
   },
@@ -487,7 +487,7 @@
    "id": "repones",
    "texto": "Si lo usas, lo repones primero. Antes que cualquier otra cosa.",
    "archivo": "repones.mp3",
-   "segundos": 4.179592,
+   "segundos": 4.91102,
    "palabras": [
     {
      "t": "Si",
@@ -496,53 +496,53 @@
     },
     {
      "t": "lo",
-     "inicio": 0.221,
+     "inicio": 0.232,
      "fin": 0.313
     },
     {
      "t": "usas,",
-     "inicio": 0.348,
-     "fin": 0.755
+     "inicio": 0.36,
+     "fin": 0.871
     },
     {
      "t": "lo",
-     "inicio": 0.836,
-     "fin": 0.94
+     "inicio": 1.033,
+     "fin": 1.138
     },
     {
      "t": "repones",
-     "inicio": 1.022,
-     "fin": 1.393
+     "inicio": 1.231,
+     "fin": 1.649
     },
     {
      "t": "primero.",
-     "inicio": 1.428,
-     "fin": 1.927
+     "inicio": 1.695,
+     "fin": 2.218
     },
     {
      "t": "Antes",
-     "inicio": 2.194,
-     "fin": 2.601
+     "inicio": 2.995,
+     "fin": 3.332
     },
     {
      "t": "que",
-     "inicio": 2.659,
-     "fin": 2.74
+     "inicio": 3.379,
+     "fin": 3.46
     },
     {
      "t": "cualquier",
-     "inicio": 2.798,
-     "fin": 3.17
+     "inicio": 3.518,
+     "fin": 3.889
     },
     {
      "t": "otra",
-     "inicio": 3.228,
-     "fin": 3.425
+     "inicio": 3.947,
+     "fin": 4.133
     },
     {
      "t": "cosa.",
-     "inicio": 3.46,
-     "fin": 4.133
+     "inicio": 4.18,
+     "fin": 4.876
     }
    ]
   },
@@ -550,7 +550,7 @@
    "id": "cta",
    "texto": "Guárdalo, y monta tu colchón este mes. Y síguenos para más.",
    "archivo": "cta.mp3",
-   "segundos": 3.369796,
+   "segundos": 3.239184,
    "palabras": [
     {
      "t": "Guárdalo,",
@@ -560,11 +560,11 @@
     {
      "t": "y",
      "inicio": 0.546,
-     "fin": 0.58
+     "fin": 0.592
     },
     {
      "t": "monta",
-     "inicio": 0.639,
+     "inicio": 0.662,
      "fin": 0.871
     },
     {
@@ -575,37 +575,37 @@
     {
      "t": "colchón",
      "inicio": 1.01,
-     "fin": 1.324
+     "fin": 1.277
     },
     {
      "t": "este",
-     "inicio": 1.382,
-     "fin": 1.544
+     "inicio": 1.324,
+     "fin": 1.474
     },
     {
      "t": "mes.",
-     "inicio": 1.579,
-     "fin": 1.858
+     "inicio": 1.521,
+     "fin": 1.776
     },
     {
      "t": "Y",
-     "inicio": 1.997,
-     "fin": 2.078
+     "inicio": 1.916,
+     "fin": 1.997
     },
     {
      "t": "síguenos",
-     "inicio": 2.159,
-     "fin": 2.554
+     "inicio": 2.078,
+     "fin": 2.45
     },
     {
      "t": "para",
-     "inicio": 2.612,
-     "fin": 2.763
+     "inicio": 2.496,
+     "fin": 2.659
     },
     {
      "t": "más.",
-     "inicio": 2.81,
-     "fin": 3.344
+     "inicio": 2.694,
+     "fin": 3.204
     }
    ]
   },
@@ -613,52 +613,52 @@
    "id": "cierre",
    "texto": "Tu colchón, separado y fuera de tu cuenta corriente.",
    "archivo": "cierre.mp3",
-   "segundos": 3.239184,
+   "segundos": 3.108571,
    "palabras": [
     {
      "t": "Tu",
      "inicio": 0,
-     "fin": 0.186
+     "fin": 0.151
     },
     {
      "t": "colchón,",
-     "inicio": 0.232,
-     "fin": 0.813
+     "inicio": 0.186,
+     "fin": 0.685
     },
     {
      "t": "separado",
-     "inicio": 0.952,
-     "fin": 1.393
+     "inicio": 0.801,
+     "fin": 1.3
     },
     {
      "t": "y",
-     "inicio": 1.44,
-     "fin": 1.463
+     "inicio": 1.347,
+     "fin": 1.382
     },
     {
      "t": "fuera",
-     "inicio": 1.521,
-     "fin": 1.765
+     "inicio": 1.428,
+     "fin": 1.683
     },
     {
      "t": "de",
-     "inicio": 1.811,
-     "fin": 1.869
+     "inicio": 1.73,
+     "fin": 1.8
     },
     {
      "t": "tu",
-     "inicio": 1.904,
-     "fin": 1.974
+     "inicio": 1.834,
+     "fin": 1.904
     },
     {
      "t": "cuenta",
-     "inicio": 2.009,
-     "fin": 2.299
+     "inicio": 1.939,
+     "fin": 2.218
     },
     {
      "t": "corriente.",
-     "inicio": 2.345,
-     "fin": 3.204
+     "inicio": 2.264,
+     "fin": 3.065
     }
    ]
   }
