@@ -1,0 +1,48 @@
+{
+ "id": "uoS1qzRWdbM",
+ "url": "https://www.youtube.com/shorts/uoS1qzRWdbM",
+ "titulo": "Compound interest explained here #shorts",
+ "canal": "Mr Planktin",
+ "vistas": 7263652,
+ "ratio": 6.1,
+ "duracion_s": 58,
+ "formato": "historia animada 3D con niños y billetes",
+ "nicho": "Finanzas (interés compuesto)",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Título que promete explicar el interés compuesto con una historia; miniatura 3D con dos niños contando billetes (por título y miniatura).",
+  "tecnica": "Título que promete explicar el interés compuesto con una historia; miniatura 3D con dos niños contando billetes (por título y miniatura).",
+  "por_que_engancha": "Los comentarios no hablan de matemáticas sino de los personajes («es buena persona que ahorra»): engancha la historia con personajes simpáticos, no el dato. Alguien pregunta cómo aplicarlo, hay curiosidad práctica."
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sin dato",
+  "animacion": "sin dato",
+  "subtitulos": "subtítulos grandes con palabra clave resaltada en amarillo (por la miniatura)"
+ },
+ "color_y_luz": "sin dato",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Personajes 3D con expresión clara y color diferenciado por personaje (verde/naranja)",
+  "Subtítulo grande con palabra suelta y contorno"
+ ],
+ "nota_calidad_visual_1_10": "7 por la miniatura; render 3D con deformación leve en las manos",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Dos personajes con la misma cantidad que acaban distinto por una regla de interés compuesto, hecho con formas geométricas y números animados propios, sin personajes copiados."
+}
