@@ -26,7 +26,7 @@ const nIdx = args.indexOf("--n");
 const candPath = "../investigacion/candidatos.json";
 const cand = existsSync(candPath) ? JSON.parse(readFileSync(candPath, "utf8")) : [];
 const idDe = (s) => (s.match(/(?:shorts\/|v=|youtu\.be\/)([\w-]{11})/) || [])[1] ?? (/^[\w-]{11}$/.test(s) ? s : null);
-let ids = args.filter((a, i) => i !== nIdx && i !== nIdx + 1).map(idDe).filter(Boolean);
+let ids = args.filter((a, i) => nIdx < 0 || (i !== nIdx && i !== nIdx + 1)).map(idDe).filter(Boolean);
 if (nIdx >= 0) ids = cand.filter((c) => !c.visto).slice(0, Number(args[nIdx + 1])).map((c) => c.id);
 mkdirSync("../investigacion/datos", { recursive: true });
 
