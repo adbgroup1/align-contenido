@@ -753,7 +753,7 @@ export const CtaCrecer: React.FC<{
         </div>
         <div
           style={{
-            fontSize: boton.length > 10 ? 100 : boton.length > 8 ? 118 : 140,
+            fontSize: boton.length > 13 ? 84 : boton.length > 10 ? 100 : boton.length > 8 ? 118 : 140,
             fontWeight: 900,
             color: COLORS.white,
             background: `linear-gradient(160deg, #3B6BFF, ${COLORS.blue})`,
@@ -788,5 +788,446 @@ export const CtaCrecer: React.FC<{
         ) : null}
       </Zona>
     </Escena>
+  );
+};
+
+/* =====================================================================
+   PERSONAJES Y ESCENARIOS (fábulas e historias). Ver KIT.md, «Personajes».
+   Todo dibujado en SVG con los colores de brand.ts. Nunca personas reconocibles.
+   ===================================================================== */
+export type Expresion = "feliz" | "neutral" | "sorpresa" | "triste" | "preocupado" | "enfadado" | "pensativo";
+export type Pose = "quieto" | "saluda" | "brazos-arriba" | "senala" | "piensa" | "abraza" | "encoge";
+
+const BRAZOS: Record<Pose, [number, number]> = {
+  // ángulo de cada brazo desde «colgando» (0°) hacia fuera; [izquierdo, derecho]
+  quieto: [18, 18],
+  saluda: [18, 150],
+  "brazos-arriba": [150, 150],
+  senala: [18, 92],
+  piensa: [18, 165],
+  abraza: [-38, -38],
+  encoge: [70, 70],
+};
+
+/**
+ * Personaje: figura redonda tipo «judía» con ojos, cejas y boca, brazos y piernas.
+ * `x`, `y` = posición de los pies en el lienzo 1080×1920. `escala` 1 ≈ 200 px de ancho.
+ * Respira, parpadea solo y, con `anda`, mueve las piernas y bota. `salto` = segundo en que da un brinco.
+ */
+export const Personaje: React.FC<{
+  x: number;
+  y: number;
+  escala?: number;
+  color?: string;
+  expresion?: Expresion;
+  pose?: Pose;
+  mirar?: "izq" | "der" | "frente";
+  anda?: boolean;
+  salto?: number;
+  accesorio?: "lazo" | "gorra" | "gafas" | null;
+  colorAccesorio?: string;
+  entra?: "izq" | "der" | "abajo" | null;
+  delay?: number;
+  semilla?: number; // desfasa respiración y parpadeo entre personajes
+}> = ({
+  x,
+  y,
+  escala = 1.6,
+  color = COLORS.accent,
+  expresion = "neutral",
+  pose = "quieto",
+  mirar = "frente",
+  anda = false,
+  salto,
+  accesorio = null,
+  colorAccesorio = COLORS.red,
+  entra = null,
+  delay = 0,
+  semilla = 0,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const t = frame / fps + semilla * 0.77;
+  const s = useSpring(delay, 13, 0.7);
+  const ent = entra ? s : 1;
+  const offX = entra === "izq" ? -(1 - ent) * 700 : entra === "der" ? (1 - ent) * 700 : 0;
+  const offY = entra === "abajo" ? (1 - ent) * 500 : 0;
+  // respiración, paso y brinco
+  const resp = Math.sin(t * Math.PI * 1.6) * 3;
+  const paso = anda ? Math.sin(t * Math.PI * 2 * 1.8) : 0;
+  const bote = anda ? Math.abs(paso) * 8 : 0;
+  let brinco = 0;
+  if (salto !== undefined) {
+    const k = frame - Math.round(salto * fps);
+    if (k >= 0 && k < 14) brinco = Math.sin((k / 14) * Math.PI) * 46;
+  }
+  // parpadeo cada ~3 s (4 frames)
+  const ciclo = Math.floor(fps * 3.1);
+  const fb = (frame + semilla * 23) % ciclo;
+  const parpadeo = fb < 4 ? 0.12 : 1;
+  const px = mirar === "izq" ? -6 : mirar === "der" ? 6 : 0;
+  const sorpresa = expresion === "sorpresa";
+  const ojoR = sorpresa ? 18 : 15;
+  const [aI, aD] = BRAZOS[pose];
+  const onda = pose === "saluda" ? Math.sin(t * Math.PI * 2 * 1.5) * 18 : 0;
+  const L = 62;
+  const brazo = (lado: -1 | 1, ang: number) => {
+    const r = (ang * Math.PI) / 180;
+    const x0 = 100 + lado * 56;
+    const y0 = 130;
+    return { x0, y0, x1: x0 + lado * Math.sin(r) * L, y1: y0 + Math.cos(r) * L };
+  };
+  const bI = brazo(-1, aI);
+  const bD = brazo(1, aD + onda);
+  const oscuro = COLORS.navy;
+  const cejas: Record<Expresion, [number, number]> = {
+    // [inclinación (grados, + = hacia dentro abajo), altura extra]
+    feliz: [-6, 2],
+    neutral: [0, 0],
+    sorpresa: [-4, 12],
+    triste: [-18, 4],
+    preocupado: [-14, 6],
+    enfadado: [22, -2],
+    pensativo: [8, 4],
+  };
+  const [ci, ch] = cejas[expresion];
+  const boca: Record<Expresion, React.ReactNode> = {
+    feliz: <path d="M80 148 Q100 172 120 148" fill="none" stroke={oscuro} strokeWidth={6} strokeLinecap="round" />,
+    neutral: <path d="M86 156 L114 156" fill="none" stroke={oscuro} strokeWidth={6} strokeLinecap="round" />,
+    sorpresa: <ellipse cx={100} cy={158} rx={11} ry={15} fill={oscuro} />,
+    triste: <path d="M82 166 Q100 146 118 166" fill="none" stroke={oscuro} strokeWidth={6} strokeLinecap="round" />,
+    preocupado: <path d="M82 160 Q91 152 100 160 Q109 168 118 160" fill="none" stroke={oscuro} strokeWidth={6} strokeLinecap="round" />,
+    enfadado: <path d="M84 164 Q100 152 116 164" fill="none" stroke={oscuro} strokeWidth={7} strokeLinecap="round" />,
+    pensativo: <path d="M96 158 Q108 152 118 156" fill="none" stroke={oscuro} strokeWidth={6} strokeLinecap="round" />,
+  };
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: x - 100 * escala + offX,
+        top: y - 260 * escala + offY - brinco - bote,
+        width: 200 * escala,
+        height: 260 * escala,
+        opacity: Math.min(1, ent * 1.4),
+        pointerEvents: "none",
+      }}
+    >
+      <svg width={200 * escala} height={260 * escala} viewBox="0 0 200 260" style={{ overflow: "visible" }}>
+        {/* sombra */}
+        <ellipse cx={100} cy={254 + (brinco + bote) / escala} rx={58 - brinco * 0.3} ry={9} fill="#000" opacity={0.22} />
+        {/* piernas */}
+        <g stroke={oscuro} strokeWidth={15} strokeLinecap="round">
+          <line x1={82} y1={200} x2={82 - paso * 16} y2={246} />
+          <line x1={118} y1={200} x2={118 + paso * 16} y2={246} />
+        </g>
+        {/* brazo de detrás (izquierdo) */}
+        <line x1={bI.x0} y1={bI.y0} x2={bI.x1} y2={bI.y1} stroke={color} strokeWidth={17} strokeLinecap="round" />
+        <circle cx={bI.x1} cy={bI.y1} r={11} fill={color} stroke={oscuro} strokeWidth={3} />
+        {/* cuerpo */}
+        <g transform={`translate(0 ${resp * 0.5}) scale(1 ${1 + resp * 0.004})`} style={{ transformOrigin: "100px 210px" }}>
+          <rect x={40} y={56} width={120} height={158} rx={60} fill={color} stroke={oscuro} strokeWidth={4} />
+          <ellipse cx={100} cy={170} rx={40} ry={34} fill={COLORS.white} opacity={0.18} />
+          <ellipse cx={74} cy={86} rx={14} ry={9} fill={COLORS.white} opacity={0.35} transform="rotate(-25 74 86)" />
+          {/* ojos */}
+          {[78, 122].map((cx, i) => (
+            <g key={cx} transform={`translate(${cx} 112) scale(1 ${parpadeo}) translate(${-cx} -112)`}>
+              <ellipse cx={cx} cy={112} rx={ojoR} ry={ojoR + 2} fill={COLORS.white} stroke={oscuro} strokeWidth={3} />
+              <circle cx={cx + px} cy={114} r={sorpresa ? 6 : 7.5} fill={oscuro} />
+              <circle cx={cx + px + 3} cy={110} r={2.4} fill={COLORS.white} />
+              {/* ceja */}
+              <line
+                x1={cx - 14}
+                y1={88 - ch}
+                x2={cx + 14}
+                y2={88 - ch}
+                stroke={oscuro}
+                strokeWidth={6}
+                strokeLinecap="round"
+                transform={`rotate(${i === 0 ? ci : -ci} ${cx} ${88 - ch})`}
+              />
+            </g>
+          ))}
+          {expresion === "feliz" ? (
+            <>
+              <ellipse cx={64} cy={140} rx={10} ry={6} fill={COLORS.red} opacity={0.35} />
+              <ellipse cx={136} cy={140} rx={10} ry={6} fill={COLORS.red} opacity={0.35} />
+            </>
+          ) : null}
+          {boca[expresion]}
+          {accesorio === "gafas" ? (
+            <g fill="none" stroke={oscuro} strokeWidth={5}>
+              <circle cx={78} cy={112} r={21} />
+              <circle cx={122} cy={112} r={21} />
+              <line x1={99} y1={110} x2={101} y2={110} />
+            </g>
+          ) : null}
+          {accesorio === "lazo" ? (
+            <g transform="translate(132 60) rotate(18)">
+              <path d="M0 0 L-26 -16 L-26 16 Z M0 0 L26 -16 L26 16 Z" fill={colorAccesorio} stroke={oscuro} strokeWidth={3} strokeLinejoin="round" />
+              <circle r={7} fill={colorAccesorio} stroke={oscuro} strokeWidth={3} />
+            </g>
+          ) : null}
+          {accesorio === "gorra" ? (
+            <g>
+              <path d="M52 74 Q100 22 148 74 Z" fill={colorAccesorio} stroke={oscuro} strokeWidth={4} strokeLinejoin="round" />
+              <path d="M120 70 Q160 66 178 76 Q150 82 120 78 Z" fill={colorAccesorio} stroke={oscuro} strokeWidth={4} strokeLinejoin="round" />
+            </g>
+          ) : null}
+        </g>
+        {/* brazo de delante (derecho) */}
+        <line x1={bD.x0} y1={bD.y0} x2={bD.x1} y2={bD.y1} stroke={color} strokeWidth={17} strokeLinecap="round" />
+        <circle cx={bD.x1} cy={bD.y1} r={11} fill={color} stroke={oscuro} strokeWidth={3} />
+      </svg>
+    </div>
+  );
+};
+
+/** Línea del suelo de los escenarios: los pies de los personajes van aquí (por encima de los subtítulos). */
+export const SUELO_Y = 1250;
+
+/**
+ * Escenario dibujado en código, a pantalla completa. Va como primer hijo de <Escena>.
+ * `tipo` = `campo` (cielo, sol, colinas, nubes), `interior` (pared cálida, ventana, cuadro, lámpara),
+ * `tienda` (pared clara, estantes y mostrador) o `calle` (noche, edificios con ventanas que se encienden).
+ * Abajo lleva una franja oscura para que los subtítulos se lean.
+ */
+export const Escenario: React.FC<{ tipo: "campo" | "interior" | "tienda" | "calle"; tarde?: number }> = ({ tipo, tarde = 0 }) => {
+  const frame = useCurrentFrame();
+  const t = frame / 30;
+  const sombraAbajo = (
+    <AbsoluteFill
+      style={{ background: `linear-gradient(180deg, transparent 0%, transparent 66%, ${COLORS.navy}AA 80%, ${COLORS.navy}EE 100%)` }}
+    />
+  );
+  if (tipo === "campo") {
+    // `tarde` 0–1 oscurece el cielo hacia el atardecer
+    const cielo = `linear-gradient(180deg, ${COLORS.accent} 0%, ${COLORS.light} 45%, ${COLORS.paper} 70%)`;
+    return (
+      <AbsoluteFill style={{ overflow: "hidden", background: cielo }}>
+        <AbsoluteFill style={{ background: `linear-gradient(180deg, ${COLORS.navy} 0%, ${COLORS.blue} 60%)`, opacity: tarde * 0.75 }} />
+        <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
+          <circle cx={820} cy={430 + tarde * 260} r={110} fill={COLORS.gold} opacity={0.95} />
+          <circle cx={820} cy={430 + tarde * 260} r={170} fill={COLORS.gold} opacity={0.18} />
+          {[0, 1, 2].map((i) => {
+            const cx = ((i * 420 + t * (14 + i * 6)) % 1400) - 200;
+            const cy = 340 + i * 150;
+            return (
+              <g key={i} fill={COLORS.white} opacity={0.85}>
+                <ellipse cx={cx} cy={cy} rx={110} ry={38} />
+                <ellipse cx={cx - 50} cy={cy - 20} rx={60} ry={40} />
+                <ellipse cx={cx + 40} cy={cy - 28} rx={70} ry={46} />
+              </g>
+            );
+          })}
+          <path d="M-100 1080 Q250 900 560 1060 T1200 1020 V1920 H-100 Z" fill={COLORS.green} opacity={0.55} />
+          <path d="M-100 1180 Q300 1080 640 1170 T1200 1150 V1920 H-100 Z" fill={COLORS.green} />
+          <rect x={0} y={SUELO_Y - 20} width={1080} height={700} fill={COLORS.green} />
+          <rect x={0} y={SUELO_Y - 20} width={1080} height={700} fill={COLORS.navy} opacity={0.12} />
+          {Array.from({ length: 14 }, (_, i) => (
+            <path
+              key={i}
+              d={`M${40 + i * 75} ${SUELO_Y + 30 + (i % 3) * 40} q6 -26 12 0 q6 -20 12 0`}
+              stroke={COLORS.navy}
+              strokeOpacity={0.25}
+              strokeWidth={5}
+              fill="none"
+            />
+          ))}
+        </svg>
+        {sombraAbajo}
+      </AbsoluteFill>
+    );
+  }
+  if (tipo === "interior") {
+    const luz = 0.85 + 0.15 * Math.sin(t * 2.2);
+    return (
+      <AbsoluteFill style={{ overflow: "hidden", background: `linear-gradient(180deg, ${COLORS.chocoLight} 0%, ${COLORS.choco} 100%)` }}>
+        <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
+          {Array.from({ length: 12 }, (_, i) => (
+            <rect key={i} x={i * 96} y={0} width={48} height={SUELO_Y} fill={COLORS.white} opacity={0.04} />
+          ))}
+          {/* ventana con cielo */}
+          <rect x={120} y={300} width={300} height={380} rx={16} fill={COLORS.light} stroke={COLORS.paper} strokeWidth={18} />
+          <circle cx={340} cy={400} r={40} fill={COLORS.gold} opacity={0.9} />
+          <line x1={270} y1={300} x2={270} y2={680} stroke={COLORS.paper} strokeWidth={12} />
+          <line x1={120} y1={490} x2={420} y2={490} stroke={COLORS.paper} strokeWidth={12} />
+          {/* cuadro */}
+          <rect x={660} y={340} width={240} height={180} rx={10} fill={COLORS.navy} stroke={COLORS.gold} strokeWidth={12} />
+          <path d="M680 500 L740 430 L790 480 L830 440 L880 500 Z" fill={COLORS.accent} />
+          {/* lámpara */}
+          <line x1={780} y1={0} x2={780} y2={150} stroke={COLORS.navy} strokeWidth={6} />
+          <path d="M720 150 H840 L810 210 H750 Z" fill={COLORS.gold} />
+          <ellipse cx={780} cy={230} rx={240} ry={80} fill={COLORS.gold} opacity={0.12 * luz} />
+          {/* suelo */}
+          <rect x={0} y={SUELO_Y - 30} width={1080} height={700} fill={COLORS.navy} opacity={0.55} />
+          {Array.from({ length: 8 }, (_, i) => (
+            <line key={i} x1={i * 150} y1={SUELO_Y - 30} x2={i * 150 - 120} y2={1920} stroke={COLORS.white} strokeOpacity={0.06} strokeWidth={4} />
+          ))}
+        </svg>
+        {sombraAbajo}
+      </AbsoluteFill>
+    );
+  }
+  if (tipo === "tienda") {
+    return (
+      <AbsoluteFill style={{ overflow: "hidden", background: `linear-gradient(180deg, ${COLORS.paper} 0%, ${COLORS.light} 100%)` }}>
+        <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
+          {[420, 640].map((y, j) => (
+            <g key={y}>
+              <rect x={60} y={y} width={960} height={16} rx={6} fill={COLORS.grey} />
+              {Array.from({ length: 7 }, (_, i) => (
+                <rect
+                  key={i}
+                  x={90 + i * 135}
+                  y={y - 90 - ((i + j) % 3) * 20}
+                  width={90}
+                  height={90 + ((i + j) % 3) * 20}
+                  rx={10}
+                  fill={[COLORS.accent, COLORS.gold, COLORS.blue, COLORS.green][(i + j) % 4]}
+                  opacity={0.75}
+                />
+              ))}
+            </g>
+          ))}
+          {/* mostrador */}
+          <rect x={0} y={1010} width={1080} height={60} fill={COLORS.blue} />
+          <rect x={0} y={1070} width={1080} height={200} fill={COLORS.navy} />
+          <rect x={0} y={SUELO_Y - 20} width={1080} height={700} fill={COLORS.grey} />
+        </svg>
+        {sombraAbajo}
+      </AbsoluteFill>
+    );
+  }
+  // calle de noche
+  return (
+    <AbsoluteFill style={{ overflow: "hidden", background: `linear-gradient(180deg, ${COLORS.deep} 0%, ${COLORS.navy} 70%)` }}>
+      <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
+        {Array.from({ length: 30 }, (_, i) => (
+          <circle key={i} cx={(i * 197) % 1080} cy={240 + ((i * 89) % 420)} r={2 + (i % 3)} fill={COLORS.white} opacity={0.3 + 0.4 * Math.abs(Math.sin(t * 1.5 + i))} />
+        ))}
+        {[0, 1, 2, 3, 4].map((i) => {
+          const h = 420 + ((i * 137) % 260);
+          const x = i * 230 - 30;
+          return (
+            <g key={i}>
+              <rect x={x} y={SUELO_Y - h} width={210} height={h} fill={COLORS.blue} opacity={0.55} />
+              {Array.from({ length: 8 }, (_, k) => (
+                <rect
+                  key={k}
+                  x={x + 30 + (k % 2) * 90}
+                  y={SUELO_Y - h + 40 + Math.floor(k / 2) * 90}
+                  width={50}
+                  height={50}
+                  rx={6}
+                  fill={COLORS.gold}
+                  opacity={(i + k) % 3 === 0 || (frame / 30 > (i + k) % 5) ? 0.8 : 0.12}
+                />
+              ))}
+            </g>
+          );
+        })}
+        <rect x={0} y={SUELO_Y - 20} width={1080} height={700} fill={COLORS.grey} opacity={0.6} />
+      </svg>
+      {sombraAbajo}
+    </AbsoluteFill>
+  );
+};
+
+/** Bocadillo de diálogo o de pensamiento que entra con muelle. La punta señala hacia (`x` + `colaX`, abajo). */
+export const Bocadillo: React.FC<{
+  texto: string;
+  x: number;
+  y: number;
+  ancho?: number;
+  size?: number;
+  delay?: number;
+  piensa?: boolean;
+  colaX?: number;
+  color?: string;
+}> = ({ texto, x, y, ancho = 520, size = 54, delay = 0, piensa = false, colaX = 0, color = COLORS.white }) => {
+  const s = useSpring(delay, 11, 0.6);
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: x - ancho / 2,
+        top: y,
+        width: ancho,
+        scale: String(0.3 + 0.7 * s),
+        opacity: Math.min(1, s * 1.5),
+        transformOrigin: `${ancho / 2 + colaX}px 120%`,
+      }}
+    >
+      <div
+        style={{
+          background: color,
+          color: COLORS.navy,
+          borderRadius: piensa ? 90 : 44,
+          padding: "26px 34px",
+          fontSize: size,
+          fontWeight: 900,
+          lineHeight: 1.1,
+          textAlign: "center",
+          border: `5px solid ${COLORS.navy}`,
+          boxShadow: "0 18px 40px rgba(0,0,0,0.25)",
+        }}
+      >
+        {texto}
+      </div>
+      {piensa ? (
+        <>
+          <div style={{ position: "absolute", left: ancho / 2 + colaX - 18, bottom: -46, width: 36, height: 36, borderRadius: "50%", background: color, border: `5px solid ${COLORS.navy}` }} />
+          <div style={{ position: "absolute", left: ancho / 2 + colaX - 4, bottom: -80, width: 20, height: 20, borderRadius: "50%", background: color, border: `4px solid ${COLORS.navy}` }} />
+        </>
+      ) : (
+        <svg width={60} height={50} style={{ position: "absolute", left: ancho / 2 + colaX - 30, bottom: -44 }}>
+          <path d="M4 0 L30 46 L56 0" fill={color} stroke={COLORS.navy} strokeWidth={5} strokeLinejoin="round" />
+          <rect x={6} y={-6} width={48} height={9} fill={color} />
+        </svg>
+      )}
+    </div>
+  );
+};
+
+/** Rótulo pequeño arriba (fábulas e historias): poco texto, en la franja superior y sin tapar al personaje. */
+export const Rotulo: React.FC<{ texto: string; delay?: number; color?: string; fondo?: string; size?: number }> = ({
+  texto,
+  delay = 0.1,
+  color = COLORS.navy,
+  fondo = COLORS.white,
+  size = 64,
+}) => {
+  const s = useSpring(delay, 12, 0.6);
+  return (
+    <div style={{ position: "absolute", top: 250, left: SAFE.left, right: SAFE.right, display: "flex", justifyContent: "center" }}>
+      <div
+        style={{
+          background: fondo,
+          color,
+          fontFamily,
+          fontWeight: 900,
+          fontSize: size,
+          lineHeight: 1.08,
+          padding: "20px 36px",
+          borderRadius: 30,
+          textAlign: "center",
+          rotate: `${(1 - s) * -6 - 1.5}deg`,
+          translate: `0px ${(1 - s) * -80}px`,
+          opacity: Math.min(1, s * 1.4),
+          boxShadow: "0 16px 40px rgba(0,0,0,0.25)",
+          maxWidth: 860,
+        }}
+      >
+        {texto.split(/(\*\*[^*]+\*\*)/).map((p, i) =>
+          p.startsWith("**") ? (
+            <span key={i} style={{ color: COLORS.blue }}>
+              {p.replace(/\*\*/g, "")}
+            </span>
+          ) : (
+            <span key={i}>{p}</span>
+          ),
+        )}
+      </div>
+    </div>
   );
 };

@@ -167,3 +167,28 @@ tarro sale igual en todas), con los mismos textos de `imagenes.json`.
 - Guárdalas como `public/img/<ID>/<id>.png` y conviértelas a `.jpg` con
   `ffmpeg -i x.png -q:v 3 x.jpg` (en Mac: `sips -s format jpeg x.png --out x.jpg`).
 - El script verá que ya existen y no las rehará.
+
+## Personajes y escenarios (fábulas e historias)
+
+*Añadido el 19 nov 2026 («los vídeos son todos iguales»). Ejemplos: `src/videos/W48-02.tsx` (fábula) y
+`src/videos/W48-03.tsx` (historia).* Todo se dibuja en SVG con los colores de `brand.ts`: no hace falta API
+de imágenes. **Nunca personas reconocibles:** los personajes son figuras redondas con ojos, cejas y boca.
+
+| Pieza | Para qué |
+|---|---|
+| `Personaje` | Figura tipo «judía» con brazos, piernas y cara. Respira y parpadea sola. `x`, `y` = dónde pisan los pies (usa `SUELO_Y`); `escala` (1,6 por defecto ≈ 320 px de ancho); `color`; `expresion` = `feliz`, `neutral`, `sorpresa`, `triste`, `preocupado`, `enfadado` o `pensativo`; `pose` = `quieto`, `saluda`, `brazos-arriba`, `senala`, `piensa`, `abraza` o `encoge`; `mirar` = `izq`, `der` o `frente`; `anda` mueve las piernas y bota (la `x` la animas tú); `salto` = segundo en que da un brinco; `accesorio` = `lazo`, `gorra` o `gafas` (+ `colorAccesorio`); `entra` = `izq`, `der` o `abajo` con `delay`; `semilla` desfasa respiración y parpadeo entre dos personajes |
+| `Escenario` | Fondo dibujado a pantalla completa, **primer hijo de `<Escena>`**. `tipo` = `campo` (cielo, sol, nubes que se mueven, colinas; `tarde` 0–1 lo lleva al atardecer), `interior` (pared cálida, ventana, cuadro, lámpara), `tienda` (estantes y mostrador) o `calle` (noche, edificios con ventanas que se encienden). Trae una franja oscura abajo para los subtítulos |
+| `SUELO_Y` | 1250: la línea del suelo. Los pies van aquí, por encima de los subtítulos |
+| `Bocadillo` | Bocadillo de diálogo (o de pensamiento con `piensa`) que entra con muelle. `x`, `y` = centro arriba; `colaX` mueve la punta hacia el personaje |
+| `Rotulo` | Cartel corto arriba (y=250), con `**resaltado**`. Es el texto en pantalla de las fábulas: poco y arriba, el personaje manda |
+
+### Cómo se monta una fábula o una historia
+
+- **El personaje está en pantalla casi todo el vídeo** y cambia de expresión y de pose en cada escena
+  (sorpresa en el giro, triste en el problema, feliz en la moraleja). Un nombre y un color fijos de principio a fin.
+- **El escenario cambia** cada 2–3 escenas (`interior` → `campo` → `campo` con `tarde`), y algo se mueve en
+  cada escena (una polilla que vuela, una cesta que se vacía, un calendario que pasa hojas).
+- **Texto en pantalla: solo `Rotulo`** y, si hace falta, la cifra (`Cifra`) en un cartel. Nada de frase palabra
+  a palabra en el centro: eso es la plantilla de Explicación.
+- Los objetos de la historia (tarro, cesta, móvil, polilla…) se dibujan en el `.tsx` del vídeo. Si uno se
+  repite en otro vídeo, súbelo al kit.
