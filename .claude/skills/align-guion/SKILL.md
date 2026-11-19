@@ -46,8 +46,15 @@ Lee antes `CLAUDE.md`, `GUIA.md`, `semanas/<semana>/ideas.md` y `hooks.md`.
   y la moraleja práctica antes del CTA. Describe al personaje en «Animación / visual» la primera vez (forma,
   color, rasgo) y después nómbralo igual. La voz cuenta la historia; el texto en pantalla, solo lo clave.
 
-- **Duración:** 20–45 s, con un cambio visual cada 2–3 s. **La voz marca el tiempo:** unas 2,7 palabras
-  por segundo, así que 30 s son unas 80 palabras de voz en total.
+- **Duración: 15–30 s (lo ideal, 20–25 s).** Un cambio visual cada 1,5–3 s. **La voz marca el tiempo:** unas
+  2,7 palabras por segundo, así que **25 s son unas 65 palabras de voz en total. Máximo 75.** Cuenta las
+  palabras y escríbelo en «Duración». Si te pasas, corta escenas: nunca aceleres la voz.
+- **Humor y storytelling** (`GUIA.md`): al menos una broma por vídeo, con su gesto en «Animación / visual» y
+  marcada `BROMA` en la columna Nota. Conflicto en la primera frase, escenas encadenadas con «pero» y «así que».
+  Antes de entregar, quita cualquier escena que solo explique y no haga avanzar nada.
+- **Construye desde cero** (`GUIA.md`): un solo plano. Cada fila de la tabla es una pieza que entra
+  (`DIBUJO: entra <pieza> y encaja en <sitio>`). Describe el objeto completo en la fila 1, aunque empiece
+  vacío, para que Producción sepa hacia dónde va.
 - **Voz en off:** una frase por escena, de 1 a 3 s. Habla como un amigo, de tú y con frases cortas. La
   primera frase **es** el hook y se oye desde el segundo 0. Los números van en letra («doscientos mil
   euros»). La voz y el texto de pantalla dicen lo mismo con distintas palabras: el texto resume.

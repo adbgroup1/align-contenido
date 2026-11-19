@@ -10,7 +10,8 @@
 - **Tono:** claro, cercano, de tú, frases cortas. Un amigo que sabe del tema, no un banco ni un vendedor.
   Sin anglicismos innecesarios ni jerga sin explicar.
 - **Formato:** animación con Remotion, sin cara, **con voz en off, música lejana y efectos de sonido**.
-  Vertical 1080×1920 a 30 fps, de 20 a 45 s.
+  Vertical 1080×1920 a 30 fps, **de 15 a 30 s (lo ideal, 20–25 s)**. Andrés, 19 nov: «nuestros vídeos son muy
+  largos y aburren». Más de 30 s solo con un motivo muy claro, y nunca más de 35 s.
   - Subtítulos palabra a palabra y texto grande en pantalla: el 85 % se ve sin sonido.
   - Cifras animadas, gráficos que crecen, comparaciones A/B.
 - **Marca visual:** los colores y la tipografía (Inter) están en `videos/src/brand.ts`. No inventar
@@ -82,7 +83,8 @@ Son reglas de credibilidad y de sentido común en finanzas, no un trámite:
 - **Cierre en bucle** cuando se pueda: que la última frase enlace con la primera, para que se vea dos veces.
 - **Zona segura vertical (1080×1920):** nada importante en los 220 px de arriba, los 420 px de abajo ni los
   120 px de la derecha (ahí van los botones de Instagram, TikTok y YouTube). 90 px de margen a la izquierda.
-- **Nota de viralidad mínima 7/10** antes de pasar a revisión: hook, ritmo, momento wow, claridad y bucle.
+- **Nota de viralidad mínima 7/10** antes de pasar a revisión: hook, ritmo, momento wow, claridad, bucle y
+  **gracia** (¿hay al menos una broma que se ve?).
 
 ## Voz, música y sonido
 
@@ -119,13 +121,80 @@ Son reglas de credibilidad y de sentido común en finanzas, no un trámite:
 Andrés vio el 19 nov que los vídeos «son todos iguales»: todos eran explicación con texto palabra a palabra,
 pastilla y una foto. La investigación decía otra cosa (4 de 6 fichas eran fábulas animadas con personajes).
 
-- **Formatos:** Explicación (texto y gráficos), Fábula con personajes, Historia con personaje, Qué pasaría si,
+- **Formatos:** **Construye desde cero** (ver abajo), Explicación (texto y gráficos), Fábula con personajes, Historia con personaje, Qué pasaría si,
   Contador o acumulado, Comparación A/B (pantalla partida), Lista o ranking. Cada idea lleva el suyo.
 - **Cada semana, al menos 3 formatos distintos** entre los 5 vídeos, y **como mucho 2 de Explicación**.
 - **Al menos 1 vídeo con un formato que no saliera la semana anterior.**
 - **Dos vídeos seguidos de la cola no llevan el mismo formato**, si se puede.
 - **Los personajes se dibujan en código** (SVG en Remotion, con la pieza `Personaje` del kit si existe) o con
   imágenes de escena. Nunca personas reconocibles.
+
+## Formato «Construye desde cero» (el preferido de Andrés)
+
+Andrés, 19 nov 2026: «son muy virales y los mejores; tenemos que recrearlos». Viene de un reel de anatomía
+(«construye una rodilla desde cero»: 127.000 me gusta y 19.600 envíos). De ahí solo se toma la **estructura**.
+
+**Qué es:** un objeto que se monta **pieza a pieza** delante del espectador, como una receta. Cada frase de la voz
+añade una pieza. Al final, el objeto está entero y «funciona».
+
+**Hooks tipo** (el texto es nuestro, cada vez distinto):
+- «Pon esto encima de esto y tienes **tu primer colchón**».
+- «Si haces esto y le pones esto, tienes **tu primera inversión**».
+- «Construye una nómina desde cero».
+
+**Cómo se monta:**
+- **Un plano fijo y un solo objeto en el centro, sin cortes de escena.** El ritmo lo dan las piezas: entra una
+  cada 1,5–3 s, con un «pop» o un golpe de sonido y un pequeño rebote.
+- **De 4 a 6 piezas.** Voz en imperativos cortos: «Pon…», «Encima…», «Ahora, en medio…», «Pégale…», «Y ciérralo
+  con…». La última frase da el resultado: «…y ya tienes tu X».
+- **La última pieza es el wow:** el objeto completo se enciende, gira, se llena o suena.
+- **Una pieza de broma** (ver «Humor y storytelling»): la pieza que todos se saltan, la que «no viene en el
+  manual» o la que se cae y hay que volver a ponerla.
+- **Subtítulo grande de una o dos palabras**, arriba y en el centro, en la zona segura. El objeto ocupa el
+  centro de la pantalla.
+- **Solo `DIBUJO:`**, ninguna `IMAGEN:`: las piezas tienen que entrar y encajar. Ilustración limpia, con volumen
+  (degradado y sombra suave), sobre un fondo liso de la marca.
+- **15–25 s.** CTA: COMENTAR («¿qué pieza te falta a ti?») o COMPARTIR («mándaselo a quien todavía no tiene
+  la primera pieza»).
+
+**Objetos que encajan** (todo es concepto, nunca un producto concreto):
+- tu colchón (cuenta aparte, aportación automática el día que cobras, meta en meses de gastos…);
+- tu primera inversión (horizonte largo, aportación fija, diversificación, comisiones bajas y tiempo);
+- tu nómina (bruto, IRPF, Seguridad Social y neto: se ve qué pieza se lleva cada cosa);
+- tu mes organizado (nómina, gastos fijos, ahorro el primer día y lo que sobra para vivir);
+- y al revés, con humor: «construye una deuda de tarjeta desde cero» (compra pequeña, aplazar, intereses…).
+
+**Cupo:** mientras no haya datos propios que digan lo contrario, **1 o 2 vídeos por semana** con este formato
+(cuenta como «Probado»: patrón de `investigacion/TECNICAS.md`, «Construye desde cero»). No van dos seguidos en la
+cola.
+
+## Humor y storytelling (todos los vídeos)
+
+Andrés, 19 nov 2026: «nuestros vídeos son muy largos y aburren; necesitamos bromas y mejor storytelling».
+
+**Humor: como mínimo una broma por vídeo, y mejor dos.**
+- **Dónde:** una en el segundo gancho (s. 3–7) y otra justo antes del CTA. Nunca en el hook, que tiene que ser
+  claro.
+- **Qué funciona:**
+  - **Exageración:** «tu sueldo dura lo que un helado en agosto».
+  - **Objetos con actitud:** la cuenta que bosteza, el euro que hace la maleta, la tarjeta que guiña un ojo.
+  - **Lo que todos hemos hecho:** «el día 1 eres millonario; el día 28 cenas cereales».
+  - **Literal visual:** si la voz dice «se te va el dinero», el dinero se va andando.
+  - **Ironía contra nosotros o contra la situación,** nunca contra una persona o un colectivo.
+- **La broma se ve, no solo se oye:** cada chiste lleva su gesto en la animación (sorpresa, caída, ojos en
+  blanco).
+- **Nunca:** reírse de quien tiene poco dinero o deudas, humor que necesite contexto, ni chistes que tapen el
+  dato.
+
+**Storytelling: cada frase empuja la siguiente.**
+- **Conflicto desde la primera frase:** algo va mal, falta algo o hay una pregunta abierta. Nada de contexto
+  antes del problema.
+- **Encadena con «pero» y «así que», no con «y además».** Si una escena se puede quitar y el vídeo se
+  sigue entendiendo, se quita.
+- **Detalle concreto mejor que idea general:** «el día 28, con la nevera vacía» mejor que «a final de mes».
+- **Un protagonista** (personaje u objeto) al que le pasa algo, aunque el formato sea Lista o Explicación.
+- **Recompensa al final:** la última frase cierra lo que abrió el hook (bucle) y deja una idea que se pueda
+  repetir.
 
 ## Imagen de ChatGPT o dibujo en Remotion
 

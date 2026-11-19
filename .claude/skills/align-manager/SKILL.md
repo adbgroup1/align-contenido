@@ -21,6 +21,8 @@ Lee `GUIA.md` y puntúa cada guion de 1 a 5 en:
 - **Crecimiento:** ¿el CTA (compartir, guardar, comentar o seguir) encaja con el tema y es concreto? ¿Hay
   algún resto de venta (curso, llamada, palabra clave, enlace)? Si lo hay, se devuelve.
 - **Producción:** ¿se puede hacer solo con animación?
+- **Duración, humor y storytelling** (`GUIA.md`): se devuelve si pasa de 75 palabras de voz (unos 30 s), si no
+  tiene ninguna broma marcada `BROMA` o si tiene alguna escena que se puede quitar sin que se pierda nada.
 
 **Correcciones pequeñas** (una palabra, un tiempo) las haces tú directamente.
 
@@ -29,6 +31,7 @@ Lee `GUIA.md` y puntúa cada guion de 1 a 5 en:
   - Estado = `Revisión manager OK`;
   - en «Nota del manager», la nota y el porqué.
   - Respeta la mezcla: al menos 3 Probado y como mucho 2 Experimento.
+  - **Al menos 1 «Construye desde cero»** entre los 5, si hay alguno aprobable.
   - **Respeta la variedad de formato** (`GUIA.md`): al menos 3 formatos distintos, como mucho 2 de Explicación y
     al menos 1 que no saliera la semana anterior. Si no la cumplen, cambia uno por otro guion o corrígelo tú.
   - **Respeta el reparto de imagen y dibujo** (`GUIA.md`, «Imagen de ChatGPT o dibujo en Remotion»): al menos 2

@@ -124,6 +124,15 @@ comentarios.
    - Lo que más sube a una explicación es **meterla dentro de una metáfora o de un personaje**: la de la «bola de
      nieve» (N1El7I2ytOM) o la del diagrama que se monta (Cxo_0G6UDfM, ratio 430).
 
+**Construye desde cero** (añadido el 19 nov por Andrés; ficha de origen: reel Df5b59POgak, vía «Ideas de Andrés»)
+
+1. Hook en imperativo («Pon esto…») con el objeto todavía vacío → entra una pieza en cada frase, con un pop y
+   un rebote, en un único plano fijo → subtítulo de una palabra arriba → la última pieza completa el objeto y
+   «funciona» → pregunta «¿cuál te falta / te has roto tú?» + «mándaselo a quien…». *(reel de anatomía, 127.000
+   me gusta y 19.600 envíos: la cifra de envíos es la señal fuerte)*
+   - Por qué funciona: satisfacción de ver algo montarse, curiosidad por la siguiente pieza (nadie se va a
+     mitad) y la sensación de «ahora entiendo cómo está hecho».
+
 ---
 
 ## Patrones de hook (los 10 mejores)

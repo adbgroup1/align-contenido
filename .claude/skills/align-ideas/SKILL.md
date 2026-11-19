@@ -40,7 +40,11 @@ por semana aunque se publiquen 2; el resto queda en reserva, `GUIA.md`). Cada un
 - Objetivo: crecer. Prioriza ideas que la gente quiera **mandar a alguien** o **guardar**. Reparte COMPARTIR,
   GUARDAR y COMENTAR, salvo que Aprendizajes diga otra cosa.
 - **El formato viene de la investigación, el tema es nuestro.**
-- Tiene que poder contarse **solo con animación** en 20–45 s.
+- Tiene que poder contarse **solo con animación** en **15–30 s**. Si la idea necesita más, se parte en dos o se
+  descarta.
+- **«Construye desde cero»:** de las 8 ideas, **al menos 2** son de este formato (`GUIA.md`). Es el favorito de
+  Andrés.
+- **Cada idea dice dónde está la broma** («Broma: …»), en una línea (`GUIA.md`, «Humor y storytelling»).
 
 - **Si hay menos de 3 fichas sin usar y no existe `TECNICAS.md`**, dilo arriba del todo en `ideas.md`
   («Investigación escasa: N fichas») para que el manager lo vea.

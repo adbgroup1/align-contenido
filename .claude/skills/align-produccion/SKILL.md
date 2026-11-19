@@ -90,8 +90,10 @@ manager OK` con la nota «Pendiente de producción» y la siguiente ejecución l
      - Zona segura libre: 220 px arriba, 420 px abajo, 120 px a la derecha y 90 px a la izquierda.
      - Buen contraste.
    - **Sentido:** se entiende sin sonido gracias a los subtítulos y coincide con el guion.
-   - **Nota de viralidad** de 1 a 10: la media de hook, ritmo, momento wow, claridad, bucle y **acabado**
-     (¿parece de un canal profesional?).
+   - **Duración:** si el render pasa de 32 s, recorta escenas o frases (las que no muevan la historia) y vuelve a
+     generar la voz. Nunca subas la velocidad de la voz.
+   - **Nota de viralidad** de 1 a 10: la media de hook, ritmo, momento wow, claridad, bucle, **gracia** (¿la
+     broma se ve en la animación?) y **acabado** (¿parece de un canal profesional?).
      - **Si es menor de 7**, corrige y vuelve a renderizar (2 vueltas como máximo).
      - Si sigue por debajo, apúntalo en «Nota del manager».
 11. **Commit y push**, para que exista la URL pública.
