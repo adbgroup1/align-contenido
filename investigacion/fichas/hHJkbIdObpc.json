@@ -1,0 +1,51 @@
+{
+ "id": "hHJkbIdObpc",
+ "url": "https://www.youtube.com/shorts/hHJkbIdObpc",
+ "titulo": "🔥ЧТО СКРЫВАЕТ КУБ❓#3D #CINEMA4D #C4D #ЛАЙФХАК #SHORTS #РЕК #MotionDesign #Мемы",
+ "canal": "Никита Германов | Cinema 4D",
+ "vistas": 475424,
+ "ratio": 18.4,
+ "duracion_s": 43,
+ "formato": "animación 3D de Cinema 4D con un cubo con cara anime que se rompe, más meme de Shrek abajo, con texto en pantalla",
+ "formato_align": "Otro",
+ "estructura": "Pregunta de misterio → el objeto se rompe/transforma → revelación de lo que escondía (deducido de título y miniatura; los comentarios dicen que al final se 'construye un barco')",
+ "nicho": "Motion otro nicho (3D, ruso)",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: cubo rosa con cara anime agrietándose y rótulo 'ЧТО СКРЫВАЕТСЯ' ('qué se esconde'), con reacción de Shrek debajo",
+  "tecnica": "promesa de secreto / misterio",
+  "por_que_engancha": "Los comentarios hablan de una serie recurrente con el cubo ('cada vídeo me da más miedo por el cubo') y de la sorpresa final: personaje recurrente + revelación"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "La descripción pide suscribirse"
+ },
+ "tipografia": {
+  "estilo": "Sans negrita en mayúsculas blanca con contorno negro, centrada (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "Por la miniatura: fondo gris neutro, cubo rosa pastel y fragmentos violetas; abajo clip cálido",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Personaje recurrente (el cubo) que crea serie",
+  "Gancho de misterio 'qué se esconde dentro'"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Patrón 'qué esconde' con objeto recurrente: '¿Qué se esconde dentro de tu nómina?' — la nómina se rompe en capas (IRPF, Seguridad Social, neto) hasta revelar cuánto cuesta de verdad tu sueldo a la empresa. Sin meme ajeno",
+ "apto_align": true
+}

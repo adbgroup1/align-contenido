@@ -1,0 +1,52 @@
+{
+ "id": "AE6Tr36XKBE",
+ "url": "https://www.youtube.com/shorts/AE6Tr36XKBE",
+ "titulo": "Why The Rich Get Richer (Explained With One Chicken) 🐔",
+ "canal": "After Mind",
+ "vistas": 28115,
+ "ratio": 150.3,
+ "duracion_s": 77,
+ "formato": "animación 2D de dibujo plano con personajes y voz en off",
+ "formato_align": "Historia con personaje",
+ "estructura": "Premisa de reinicio (todos empiezan igual) → tres personajes toman decisiones distintas → salto temporal → resultado pobre/medio/rico → moraleja aplicada al espectador → pregunta '¿cuál eres?'",
+ "nicho": "Finanzas personales EN",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: pantalla partida 'POOR vs RICH': chico triste con el hueso de un pollo frente a chico feliz rodeado de gallinas y huevos de oro",
+  "tecnica": "contraste A/B",
+  "por_que_engancha": "Los comentarios discuten la metáfora (privilegio, impuestos, de dónde sale el gallo): polariza y genera debate; algunos dicen que ojalá se lo hubieran enseñado de niños"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "pregunta final '¿cuál eres?' para comentar (según la descripción)"
+ },
+ "tipografia": {
+  "estilo": "sans negra muy gruesa en amarillo con contorno negro (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "mitad superior gris apagada vs mitad inferior verde y dorada luminosa; contraste emocional fuerte (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "pantalla partida pobre/rico legible en un vistazo",
+  "metáfora única (una gallina) que simplifica un concepto abstracto",
+  "final con pregunta que provoca debate en comentarios"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Tres amigos cobran su primer sueldo de 1.200 €: uno lo gasta entero, otro lo guarda en la cuenta y otro invierte una parte cada mes; salto a 10 años y tres vidas distintas. Cierre con '¿cuál de los tres eres?'.",
+ "apto_align": true
+}

@@ -1,0 +1,50 @@
+{
+ "id": "vabIL-27Agw",
+ "url": "https://www.youtube.com/shorts/vabIL-27Agw",
+ "titulo": "Amazing Whiteboard Animation Explainer Video #helpmemakethismakesense",
+ "canal": "Fact Logic",
+ "vistas": 31631,
+ "ratio": 48.1,
+ "duracion_s": 17,
+ "formato": "clip de personas disfrazadas con reacción en recuadro (no es whiteboard pese al título)",
+ "formato_align": "Otro",
+ "estructura": "sin dato",
+ "nicho": "Otro (humor/reacción)",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: escena real de boda con disfraces y un reaccionador en recuadro",
+  "tecnica": "título engañoso / reacción",
+  "por_que_engancha": "sin dato (un solo comentario sin contenido)"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato (la descripción pide like, comentario y suscripción)"
+ },
+ "tipografia": {
+  "estilo": "sin dato",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "blanco y amarillo neón del arco, luz plana (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "sin dato"
+ ],
+ "nota_calidad_visual_1_10": "3 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "No sirve: es un clip con personas reales y reacción, no motion.",
+ "apto_align": false
+}

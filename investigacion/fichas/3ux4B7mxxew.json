@@ -1,0 +1,51 @@
+{
+ "id": "3ux4B7mxxew",
+ "url": "https://www.youtube.com/shorts/3ux4B7mxxew",
+ "titulo": "Learjet Dives 35,000 ft - \"We Are Out of Ten\" #Shorts",
+ "canal": "Flight Data Replay",
+ "vistas": 59412,
+ "ratio": 1237.8,
+ "duracion_s": 59,
+ "formato": "recreación en simulador de vuelo con datos ADS-B reales y audio real de control aéreo, con rótulos",
+ "formato_align": "Historia con personaje",
+ "estructura": "Cita dramática de cabina → contexto del vuelo → caída en tiempo real con audio real → final trágico (deducido de título, descripción y comentarios)",
+ "nicho": "Aviación / sucesos",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: rótulo rojo y blanco con la cita '\"We're gonna crash\"' sobre vista aérea y cabina abajo, banda '35,000 ft dive · real ATC audio'",
+  "tecnica": "cita dramática real",
+  "por_que_engancha": "Los comentarios reaccionan al audio real (lo que dicen los pilotos, la oración final): autenticidad y tensión"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "Remite al vídeo completo en la descripción"
+ },
+ "tipografia": {
+  "estilo": "Sans condensada negrita en mayúsculas, rojo y blanco con sombra (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "Por la miniatura: tonos apagados de satélite y cabina, rótulo rojo como acento",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "Instrumentos de cabina y altitud",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Audio real que da autenticidad",
+  "Rótulo con cita entre comillas"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "No apto (simulación de accidente real con audio ajeno). Patrón aprovechable: abrir con una frase entre comillas que da tensión ('\"No me llega a fin de mes\"') y una banda con el dato clave",
+ "apto_align": false
+}

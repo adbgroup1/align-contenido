@@ -1,0 +1,51 @@
+{
+ "id": "1iCxn0a8Iv0",
+ "url": "https://www.youtube.com/shorts/1iCxn0a8Iv0",
+ "titulo": "3 normas para compartir piso sin pelearse por dinero 🏠 #shorts",
+ "canal": "Aprende a ahorrar",
+ "vistas": 2935,
+ "ratio": 23.1,
+ "duracion_s": 52,
+ "formato": "animación 3D low-poly de personajes con titular fijo arriba",
+ "formato_align": "Lista",
+ "estructura": "Pregunta que identifica al público → conflicto → N normas → CTA de guardar y compartir",
+ "nicho": "Finanzas personales ES",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: dos personajes low-poly enfadados y titular '¿COMPARTES PISO?' con icono de hucha",
+  "tecnica": "pregunta de identificación ('¿compartes piso?')",
+  "por_que_engancha": "Comentario que bromea con el nombre de un personaje: los personajes con nombre generan identificación"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "Guárdalo y mándaselo a tu compañero de piso; pide ideas para el siguiente vídeo (según la descripción)"
+ },
+ "tipografia": {
+  "estilo": "sans redondeada gruesa blanca y amarilla con contorno negro (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "fondo gris neutro con personajes en ocre y verde (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "personajes recurrentes con nombre",
+  "CTA de compartir con alguien concreto"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'¿Vives en pareja? 3 normas para no discutir por dinero' con personajes recurrentes y CTA 'mándaselo a tu pareja'. Patrón pregunta de identificación + lista + compartir.",
+ "apto_align": true
+}

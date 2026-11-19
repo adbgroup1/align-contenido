@@ -1,0 +1,51 @@
+{
+ "id": "t1cYxhQK7VM",
+ "url": "https://www.youtube.com/shorts/t1cYxhQK7VM",
+ "titulo": "One Grain of Rice Broke a Kingdom",
+ "canal": "Tiny Toon Facts",
+ "vistas": 5296,
+ "ratio": 203.7,
+ "duracion_s": 39,
+ "formato": "animación 2D de personajes con escenario y subtítulos",
+ "formato_align": "Contador",
+ "estructura": "Leyenda (petición pequeña al rey) → el rey se ríe → duplicación casilla a casilla → cifra que se dispara → conexión con interés compuesto",
+ "nicho": "Finanzas personales EN",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: rey en su trono y un inventor con una bolsa sobre un tablero de ajedrez; subtítulo 'HE ORDERED A BAG.'",
+  "tecnica": "historia/leyenda + promesa de giro",
+  "por_que_engancha": "El comentario del canal plantea '¿1 millón hoy o un céntimo que se duplica 30 días?' para provocar respuestas"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sans gruesa en mayúsculas blanca con palabra clave en naranja (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "rojo, dorado y turquesa cálidos (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "tablero de ajedrez como contador visual (por la descripción)",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "historia clásica con giro numérico",
+  "contador que se dispara"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Un céntimo que se duplica cada día del mes contra 1.000 € hoy: contador que sube día a día y explota en la última semana, y conexión con el interés compuesto. Patrón: leyenda/premisa + contador exponencial.",
+ "apto_align": true
+}

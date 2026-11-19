@@ -1,0 +1,51 @@
+{
+ "id": "aj7ujHhjfVc",
+ "url": "https://www.youtube.com/shorts/aj7ujHhjfVc",
+ "titulo": "If graphs had sound #animation  #maths #creative #shorts #graphs #visualization #funny",
+ "canal": "NumbersThatSing",
+ "vistas": 42052,
+ "ratio": 15.4,
+ "duracion_s": 24,
+ "formato": "visualización de datos: gráfico de área que se dibuja con sonido sobre negro, serie 'If data graphs had sound'",
+ "formato_align": "Contador",
+ "estructura": "Título fijo de serie → gráfico se dibuja año a año con año y valor grandes → caída que se 'oye' → frase de cierre corta (por la miniatura)",
+ "nicho": "Datos / visualización",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: rótulo 'IF DATA GRAPHS HAD SOUND', curva de casos de polio cayendo de 57.000 a 107 con icono de jeringuilla",
+  "tecnica": "sonificación de datos / curiosidad",
+  "por_que_engancha": "sin dato (los comentarios no hablan del contenido)"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "Sans de sistema; año morado grande, valor blanco, nota en cursiva (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "Por la miniatura: negro con línea lavanda brillante y relleno tenue; contraste alto",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "Gráfico de área temporal con punto, año y valor; icono de fondo",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Una cifra que cae de miles a casi cero",
+  "Frase final corta bajo el valor"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'Si tu deuda tuviera sonido': una deuda de tarjeta revolving al 20 % que no baja aunque pagues la cuota mínima; el tono no baja nunca. Cierre: guarda esto antes de pagar a plazos",
+ "apto_align": true
+}

@@ -1,0 +1,51 @@
+{
+ "id": "M5uEzdPH3YQ",
+ "url": "https://www.youtube.com/shorts/M5uEzdPH3YQ",
+ "titulo": "POV: E se O MAR Secasse? #shorts",
+ "canal": "Zoonix Animation",
+ "vistas": 4849,
+ "ratio": 68.3,
+ "duracion_s": 51,
+ "formato": "animación 2D de personaje sencillo (estilo cartoon) con título fijo arriba",
+ "formato_align": "Qué pasaría si",
+ "estructura": "Pregunta hipotética → consecuencias encadenadas → escalada",
+ "nicho": "Motion otro nicho",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: personaje con boca abierta sobre fondo de fondo marino seco y titular 'E SE O MAR SECASSE?' en blanco y amarillo",
+  "tecnica": "pregunta hipotética",
+  "por_que_engancha": "sin dato"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sans bold mayúsculas, blanco con palabra clave en amarillo y sombra negra (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "cielo azul claro y arena beige, personaje en turquesa; contraste alto en el título (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "título grande y legible con palabra clave en color",
+  "personaje expresivo reconocible"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'¿Y si mañana desapareciera el efectivo en España?': un personaje sorprendido y consecuencias encadenadas en su día (café, propinas, ahorro en hucha). Reutiliza el patrón pregunta hipotética + escalada.",
+ "apto_align": true
+}

@@ -1,0 +1,52 @@
+{
+ "id": "zvhDmYYIWHo",
+ "url": "https://www.youtube.com/shorts/zvhDmYYIWHo",
+ "titulo": "Adam and the Lemonade Stand Surprise",
+ "canal": "JollyMibo Toons",
+ "vistas": 255871,
+ "ratio": 171.7,
+ "duracion_s": 91,
+ "formato": "cuento infantil animado en 3D estilo Pixar con dos niños, con narración (por la descripción)",
+ "formato_align": "Historia con personaje",
+ "estructura": "Meta de ahorro → trabajo → tentación → mal gasto → consecuencia y lección (deducido de la descripción)",
+ "nicho": "Infantil / educación financiera EN",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: niño riendo con una piruleta y una niña preocupada con un bote casi vacío de monedas, junto a un carrito de golosinas",
+  "tecnica": "historia con tentación",
+  "por_que_engancha": "sin dato (comentarios no disponibles)"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sin texto en la miniatura",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "Por la miniatura: luz cálida de atardecer, colores suaves y piel brillante, look 3D tipo Pixar",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Look 3D cinematográfico con luz dorada",
+  "Expresiones faciales claras que cuentan la emoción",
+  "Conflicto ahorro vs capricho que se entiende sin texto"
+ ],
+ "nota_calidad_visual_1_10": "8 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'Lucía y el viernes': dos amigos ahorran para un viaje; uno cae cada viernes en el 'solo es una caña' y el contador del bote baja. Final: uno viaja, el otro no. Mismo patrón meta → tentación → consecuencia, en adulto",
+ "apto_align": true
+}

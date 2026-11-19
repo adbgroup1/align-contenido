@@ -1,0 +1,52 @@
+{
+ "id": "JjTeTTE_udw",
+ "url": "https://www.youtube.com/shorts/JjTeTTE_udw",
+ "titulo": "What if the British NEVER Left India? 🇮🇳🇬🇧 #shorts #indianhistory",
+ "canal": "FactMapper SR",
+ "vistas": 549254,
+ "ratio": 16,
+ "duracion_s": 42,
+ "formato": "animación de mapa en relieve con personaje fotorrealista recortado y cartel, historia alternativa con voz (por título y descripción)",
+ "formato_align": "Qué pasaría si",
+ "estructura": "Premisa hipotética histórica → cómo sería hoy → dos futuros posibles (potencia o ciudadanos de segunda) → pregunta abierta (deducido de la descripción)",
+ "nicho": "Historia / mapas",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: mapa de la India en ocre sobre relieve gris con un soldado británico de casaca roja sosteniendo un cartel 'We are not leaving India.'",
+  "tecnica": "pregunta hipotética contrafactual",
+  "por_que_engancha": "Los comentarios discuten la historia y debaten el desenlace ('habría guerra civil en 5 años', 'aún estamos atrás'): la premisa invita a dar tu versión"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "Serif de cartel antiguo en negro sobre papel (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "Por la miniatura: ocre sobre gris desaturado, el rojo de la casaca como punto focal",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "Mapa en relieve con territorio resaltado",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Personaje recortado sobre mapa que 'habla' con un cartel",
+  "Paleta reducida con un único acento rojo",
+  "Premisa contrafactual que provoca debate"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'¿Y si España no hubiera entrado en el euro?': premisa → cómo sería tu nómina y tu hipoteca hoy → dos escenarios → '¿mejor o peor? comenta' (patrón contrafactual con personaje sobre mapa)",
+ "apto_align": true
+}

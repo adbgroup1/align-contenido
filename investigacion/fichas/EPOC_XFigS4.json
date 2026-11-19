@@ -1,0 +1,50 @@
+{
+ "id": "EPOC_XFigS4",
+ "url": "https://www.youtube.com/shorts/EPOC_XFigS4",
+ "titulo": "Global English fluency percentages ranked by country..📊✨ #shorts #geographyfacts #datavisualization",
+ "canal": "Read The Signs",
+ "vistas": 49836,
+ "ratio": 100.7,
+ "duracion_s": 7,
+ "formato": "captura estática de una lista de datos por países con meme de reacción ajeno abajo",
+ "formato_align": "Lista",
+ "estructura": "Titular chocante → tabla de datos → reacción de meme (por la miniatura)",
+ "nicho": "Datos / geografía",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: titular '99% of Chinese are speak fluent English!' que contradice la tabla de abajo (China 0,9 %) y reacción de un streamer",
+  "tecnica": "cifra chocante / titular falso",
+  "por_que_engancha": "Los comentarios corrigen los datos y el titular ('¿quién hizo esta lista?', 'el titular dice 99 % pero abajo pone otra cosa'): el error provoca corrección"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "Sans negrita negra sobre blanco (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "Por la miniatura: tabla blanca sobre negro con reacción cálida debajo; plano",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "Tabla de porcentajes por país con banderas",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Dato discutible que provoca correcciones"
+ ],
+ "nota_calidad_visual_1_10": "3 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "No apto (captura y meme ajenos). Patrón: ranking por países con España en mitad de tabla ('% de ahorro de los hogares en Europa: ¿dónde está España?') para que comenten, con datos correctos",
+ "apto_align": false
+}

@@ -1,0 +1,51 @@
+{
+ "id": "GkYMRFY4H6c",
+ "url": "https://www.youtube.com/shorts/GkYMRFY4H6c",
+ "titulo": "Parecen ricos, pero no aguantan 3 meses sin cobrar #FinanzasPersonales",
+ "canal": "MILLONARIO EN SILENCIO",
+ "vistas": 6569,
+ "ratio": 45.6,
+ "duracion_s": 55,
+ "formato": "animación 2D de monigotes en blanco y negro con acentos de color",
+ "formato_align": "Comparación A/B",
+ "estructura": "Reencuentro tras años → uno aparenta riqueza → revelación de deudas → el otro, discreto, tiene patrimonio → moraleja",
+ "nicho": "Finanzas personales ES (Latam)",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: 'PARECE RICO' en rojo; monigote sudando con reloj de oro y bola de 'DEUDA' frente a otro tranquilo con vaso de agua y billetes",
+  "tecnica": "contraste A/B (apariencia vs realidad)",
+  "por_que_engancha": "sin dato (un comentario de acuerdo)"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sans condensada roja en mayúsculas con contorno negro (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "blanco con rojo, oro y verde como acentos; muy limpio (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "contraste apariencia/realidad con objetos-símbolo (reloj, bola de deuda, vaso de agua)",
+  "estilo minimalista muy legible"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Dos amigos a los 35: uno con coche nuevo y viajes, otro con piso modesto; pregunta '¿cuántos meses aguantas sin cobrar?' y contador de meses para cada uno. Patrón: apariencia vs realidad.",
+ "apto_align": true
+}

@@ -1,0 +1,52 @@
+{
+ "id": "leuRxaiteX4",
+ "url": "https://www.youtube.com/shorts/leuRxaiteX4",
+ "titulo": "no eres pobre, eres desordenado 💸 #finanzaspersonales  #ahorro #gastoshormiga #deudas",
+ "canal": "FINANZAS CON ONE ",
+ "vistas": 12394,
+ "ratio": 12.1,
+ "duracion_s": 54,
+ "formato": "animación 2D de personaje redondo con subtítulos y voz",
+ "formato_align": "Lista",
+ "estructura": "Frase provocadora → paso 1 → paso 2 → paso 3 → paso 4 → pregunta '¿cuál empiezas hoy?'",
+ "nicho": "Finanzas personales ES (Latam)",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: personaje sonriente que tacha una nota 'DEBO Préstamo $800' con bola de nieve; título 'no eres pobre, eres desordenado'",
+  "tecnica": "frase provocadora / reencuadre",
+  "por_que_engancha": "sin dato (comentarios resumen los pasos)"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "pregunta '¿cuál paso vas a empezar hoy?' en comentarios (según la descripción)"
+ },
+ "tipografia": {
+  "estilo": "sans blanca con contorno en subtítulos (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "verde azulado y atardecer morado, contorno negro grueso; cálido (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "notas de deuda y checks verdes",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "título que reencuadra y pica",
+  "objetos-símbolo (bola de nieve, nota DEBO)",
+  "pasos concretos y aplicables"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'No ganas poco, gastas sin mapa': 4 pasos con objetos-símbolo (libreta, sobre, colchón, reloj de 24 h). Patrón: frase que reencuadra + lista de pasos + pregunta por cuál empiezas.",
+ "apto_align": true
+}

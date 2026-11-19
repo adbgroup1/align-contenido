@@ -1,0 +1,52 @@
+{
+ "id": "KNTsRU9VWPs",
+ "url": "https://www.youtube.com/shorts/KNTsRU9VWPs",
+ "titulo": "If China's Biggest Dam Collapses... 😳 🇨🇳 #shorts  #china  #geopolitics",
+ "canal": "ThinkLogicIndia",
+ "vistas": 4523407,
+ "ratio": 248.5,
+ "duracion_s": 73,
+ "formato": "animación de mapas sobre imagen satélite con marcadores y rótulos, explicación con voz (por título y descripción)",
+ "formato_align": "Qué pasaría si",
+ "estructura": "Pregunta hipotética catastrófica → contexto con datos (tamaño, coste) → consecuencias en cadena → pregunta al público (deducido de descripción y comentario fijado)",
+ "nicho": "Geopolítica / mapas",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: mapa satélite de Asia con China resaltada en rojo y un objetivo amarillo pulsante sobre la presa, rótulo 'CHINA'",
+  "tecnica": "pregunta hipotética catastrófica",
+  "por_que_engancha": "Los comentarios toman partido y especulan sobre guerra y consecuencias; el comentario fijado del canal pregunta '¿podría recuperarse? SÍ o NO', lo que dispara respuestas"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "Comentario fijado con pregunta SÍ/NO para provocar respuestas"
+ },
+ "tipografia": {
+  "estilo": "Sans condensada en blanco, negrita, con sombra (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "Por la miniatura: mapa satélite oscuro con país en rojo intenso y marcador amarillo; contraste alto",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "Mapa con zona resaltada y marcador objetivo",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Premisa '¿qué pasaría si...?' con escala enorme",
+  "Mapa satélite con resaltado rojo y marcador animado",
+  "Pregunta binaria fijada para comentarios"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'¿Qué pasaría si mañana cerrara tu banco?': premisa hipotética → qué protege el Fondo de Garantía (hasta 100.000 €) → qué no → pregunta SÍ/NO fijada ('¿tienes más de un banco?')",
+ "apto_align": true
+}

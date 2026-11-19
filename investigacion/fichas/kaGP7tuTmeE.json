@@ -1,0 +1,52 @@
+{
+ "id": "kaGP7tuTmeE",
+ "url": "https://www.youtube.com/shorts/kaGP7tuTmeE",
+ "titulo": "Video Markting | SaaS Explainer Video |  Simple and practical UI design will gains more popularity!",
+ "canal": "iCreator",
+ "vistas": 119814,
+ "ratio": 246.5,
+ "duracion_s": 13,
+ "formato": "anuncio motion de app bancaria con tarjetas de interfaz 3D flotando en cristal (Sber), por la miniatura",
+ "formato_align": "Explicación",
+ "estructura": "Interfaz de producto en capas → transiciones de pantallas → marca (deducido de miniatura y descripción de estudio de animación)",
+ "nicho": "Motion SaaS / fintech",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: tarjetas de interfaz semitransparentes ('Кошелёк', tipos de cambio USD/EUR/CNY) en abanico sobre fondo verde agua, con logo",
+  "tecnica": "demostración visual de interfaz",
+  "por_que_engancha": "Los comentarios alaban lo vistoso ('next level', 'crazy') pero uno dice que no entiende qué hace el producto"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "Sans geométrica limpia, negro sobre blanco (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "Por la miniatura: verde agua y verde lima con cristal esmerilado, brillo suave, contraste bajo-medio",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "Tarjetas de UI con cifras de tipo de cambio",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Tarjetas de UI en 3D con efecto cristal",
+  "Paleta de marca coherente",
+  "Movimiento de cámara entre capas (inferido por los comentarios de 'flashy')"
+ ],
+ "nota_calidad_visual_1_10": "8 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Recurso de estilo: tarjetas de 'app' en cristal flotando para mostrar un presupuesto 50/30/20 (tres tarjetas que se separan en abanico). El vídeo es un anuncio y no tiene gancho trasladable",
+ "apto_align": false
+}

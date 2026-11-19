@@ -1,0 +1,52 @@
+{
+ "id": "SBEXJSKwNB4",
+ "url": "https://www.youtube.com/shorts/SBEXJSKwNB4",
+ "titulo": "¿Tu dinero se está encogiendo? 💸📉 #Finanzas #Humor",
+ "canal": "Capital Caos",
+ "vistas": 16330,
+ "ratio": 347.4,
+ "duracion_s": 17,
+ "formato": "animación 3D tipo Pixar con objeto personificado (hucha) y subtítulos",
+ "formato_align": "Fábula con personajes",
+ "estructura": "Objeto (tus finanzas) habla al espectador → reproche → causa (inflación, suscripciones) → pregunta '¿cuál te representa?'",
+ "nicho": "Finanzas personales ES",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: hucha de cerdito triste con telarañas en una estantería y 'POV: TUS FINANZAS TE GRITAN'",
+  "tecnica": "POV + objeto personificado",
+  "por_que_engancha": "El canal fija un chiste sobre la hucha hambrienta y pregunta trucos de ahorro: el personaje da pie a bromas"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "pregunta '¿cuál de los dos te representa más?' (según la descripción)"
+ },
+ "tipografia": {
+  "estilo": "sans negra en amarillo en mayúsculas; subtítulo palabra a palabra con resaltado verde (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "oscuro, luz cálida de estudio sobre la hucha; viñeteado (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "objeto con expresión muy emotiva",
+  "detalle narrativo (telarañas = abandono)",
+  "duración corta (17 s)"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "POV: tu cuenta de ahorro te habla: una hucha agotada se queja de cada Bizum de cena y cada suscripción. Patrón: objeto personificado que te reprocha en 15-20 s.",
+ "apto_align": true
+}

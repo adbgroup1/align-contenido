@@ -1,0 +1,51 @@
+{
+ "id": "Cxo_0G6UDfM",
+ "url": "https://www.youtube.com/shorts/Cxo_0G6UDfM",
+ "titulo": "What Is the Stock Market & How Does It Work? 📈 #stokmarket #shorts #usa",
+ "canal": "Wealth Mints 🎬",
+ "vistas": 20984,
+ "ratio": 430.4,
+ "duracion_s": 36,
+ "formato": "ilustración 2D estática/semianimada con texto y diagramas",
+ "formato_align": "Explicación",
+ "estructura": "Pregunta del título → concepto paso a paso (empresa, acciones, dueños, oferta y demanda) → por qué suben o bajan",
+ "nicho": "Finanzas personales EN",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: chico pensativo rodeado de diagrama empresa→acciones→gente→gráfico, con '¿Qué es la bolsa y cómo funciona?'",
+  "tecnica": "pregunta directa",
+  "por_que_engancha": "sin dato (comentarios genéricos)"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sigue al canal (según la descripción)"
+ },
+ "tipografia": {
+  "estilo": "sans redondeada gruesa con fondos de rotulador amarillo y rojo (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "blanco con azules, verdes y rojos planos; limpio (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "diagrama de flujo con flechas y gráfico de velas",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "diagrama circular que resume el concepto en una imagen",
+  "estética limpia de ilustración plana"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'¿Qué es un ETF en 30 segundos?': un diagrama circular (tu dinero → cesta de empresas → crecen → vuelve a ti) que se construye flecha a flecha. Patrón: explicación con un único diagrama que se monta.",
+ "apto_align": true
+}

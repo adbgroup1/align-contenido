@@ -1,0 +1,51 @@
+{
+ "id": "evXxJa0DsAA",
+ "url": "https://www.youtube.com/shorts/evXxJa0DsAA",
+ "titulo": "SaaS Motion Graphics Ads | Premium Product Animation",
+ "canal": "yonomi",
+ "vistas": 66285,
+ "ratio": 705,
+ "duracion_s": 15,
+ "formato": "reel de portfolio de motion para SaaS: comparativa wireframe vs final de un icono",
+ "formato_align": "Comparación A/B",
+ "estructura": "Muestra de piezas de estilo → wireframe vs final (por la miniatura y descripción)",
+ "nicho": "Motion SaaS",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: dos tarjetas azules con una estrella blanca rotuladas 'wireframe' y 'final' sobre blanco",
+  "tecnica": "contraste antes/después",
+  "por_que_engancha": "Los comentarios piden el archivo o tutorial; no dicen por qué engancha (sin dato)"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "La descripción ofrece servicios de motion para marcas"
+ },
+ "tipografia": {
+  "estilo": "Sans negrita negra minúscula (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "Por la miniatura: blanco limpio con degradado azul-celeste, sombras suaves",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Degradados limpios y sombras suaves",
+  "Estética de producto premium"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "No es formato trasladable (portfolio); solo la estética limpia de degradado azul para tarjetas de dato",
+ "apto_align": false
+}

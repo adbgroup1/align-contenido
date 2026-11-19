@@ -1,0 +1,51 @@
+{
+ "id": "szGTyEHfgvw",
+ "url": "https://www.youtube.com/shorts/szGTyEHfgvw",
+ "titulo": "​The Magic of Compound Interest Explained! 📈💰",
+ "canal": "typemystiq",
+ "vistas": 5022,
+ "ratio": 81,
+ "duracion_s": 61,
+ "formato": "animación 3D de personajes estilo Pixar con subtítulos palabra a palabra",
+ "formato_align": "Comparación A/B",
+ "estructura": "Dos personajes con el mismo punto de partida → cada uno toma un camino con el dinero → salto temporal → resultado opuesto revelado con cifra",
+ "nicho": "Finanzas personales EN",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: chico 3D sorprendido con una golosina gigante en una tienda, subtítulo en pantalla; promete explicar el interés compuesto",
+  "tecnica": "contraste A/B (ahorrador vs gastador)",
+  "por_que_engancha": "Comentarios sin señal útil (solo uno que atribuye la animación a otro creador)"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "Pregunta en comentarios '¿ahorrador o gastador?' + like y suscribirse (según la descripción)"
+ },
+ "tipografia": {
+  "estilo": "subtítulos blancos centrados con contorno oscuro, palabra a palabra (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "tonos fríos cian de tienda con el personaje en naranja cálido como foco (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "render 3D de calidad tipo película de animación",
+  "contraste de color personaje cálido / fondo frío"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Dos compañeros de piso cobran lo mismo: uno mete 50 €/mes en un indexado y otro en caprichos; salto a 10 años y la cifra final de cada uno en pantalla. Cierre preguntando '¿cuál eres tú?'. Reutiliza el patrón de dos caminos y salto temporal.",
+ "apto_align": false
+}

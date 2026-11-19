@@ -1,0 +1,52 @@
+{
+ "id": "f9DhgmZ0UeY",
+ "url": "https://www.youtube.com/shorts/f9DhgmZ0UeY",
+ "titulo": "1 Income vs 5 Income Streams 💰 | Financial Freedom #shorts #viral #animation #stickmananimation",
+ "canal": "Brain in progress - Explained",
+ "vistas": 2485,
+ "ratio": 28.5,
+ "duracion_s": 15,
+ "formato": "animación 2D de monigotes estilo stickman con tuberías de neón y contadores",
+ "formato_align": "Comparación A/B",
+ "estructura": "Dos personajes con distinto número de fuentes de ingreso → evento negativo (corte) → contadores divergen → conclusión",
+ "nicho": "Finanzas personales EN",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: dos monigotes ante dos barriles con cifras, tuberías de colores y unas tijeras cortando la única tubería ('LAYOFF', 'SNIP!')",
+  "tecnica": "contraste A/B con contador",
+  "por_que_engancha": "Comentarios de acuerdo con la idea (\"we all should have multiple income sources\")"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sans gruesa pequeña en píldoras y cifras de color (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "fondo oscuro azul con neones de colores y dorado de monedas (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "contadores de dinero en barriles y etiquetas de fuentes (por la miniatura)",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "metáfora visual clara (tuberías = ingresos)",
+  "contadores en pantalla",
+  "15 s, muy compacto"
+ ],
+ "nota_calidad_visual_1_10": "8 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Dos personajes, uno con nómina y otro con nómina + alquiler de habitación + freelance: llega un despido (tijeras) y los contadores divergen. Patrón A/B + contador + evento.",
+ "apto_align": true
+}

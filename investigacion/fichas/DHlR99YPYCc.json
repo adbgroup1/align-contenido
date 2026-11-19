@@ -1,0 +1,51 @@
+{
+ "id": "DHlR99YPYCc",
+ "url": "https://www.youtube.com/shorts/DHlR99YPYCc",
+ "titulo": "The Richest Man in Babylon Explained in Bangla — Lesson 5 Own Your Home.",
+ "canal": "MindMotion Bangla",
+ "vistas": 11400,
+ "ratio": 74.5,
+ "duracion_s": 117,
+ "formato": "ilustración 2D con tipografía grande y voz (serie de lecciones de un libro)",
+ "formato_align": "Comparación A/B",
+ "estructura": "Cifra chocante → dos personajes (alquiler vs comprar) → lección del libro → moraleja",
+ "nicho": "Finanzas personales Bangladés",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: cifra gigante '10 años de alquiler = 12 lakh' en bengalí y personaje mirando una casa; 'alquiler vs casa'",
+  "tecnica": "cifra chocante",
+  "por_que_engancha": "sin dato (comentarios cortos)"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sans bengalí blanca y amarilla muy grande sobre verde oscuro (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "verde oscuro con amarillo dorado; sobrio y contrastado (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "cifra grande como protagonista",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "cifra gigante como gancho",
+  "serie numerada ('Lección 5')"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'10 años de alquiler en Madrid = X €': contador que suma el alquiler mes a mes hasta la cifra total, y luego el matiz (no siempre comprar gana). Patrón: cifra acumulada gigante como gancho.",
+ "apto_align": true
+}

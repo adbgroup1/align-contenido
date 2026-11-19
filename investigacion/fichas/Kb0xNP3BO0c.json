@@ -1,0 +1,52 @@
+{
+ "id": "Kb0xNP3BO0c",
+ "url": "https://www.youtube.com/shorts/Kb0xNP3BO0c",
+ "titulo": "What If All Water on Earth Froze in 1 Second? 🧊🌍",
+ "canal": "WHAT VERSE",
+ "vistas": 3292,
+ "ratio": 49.1,
+ "duracion_s": 23,
+ "formato": "infografía animada 2D con escala de datos y subtítulos con palabra resaltada",
+ "formato_align": "Qué pasaría si",
+ "estructura": "Pregunta hipotética → efecto inmediato → dato a escala comparado con algo conocido → consecuencias",
+ "nicho": "Motion otro nicho",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: océano de hielo subiendo junto a la Torre Eiffel con regla de altura y '+206 METERS HIGHER'",
+  "tecnica": "pregunta hipotética + escala comparativa",
+  "por_que_engancha": "El comentario fijado propone una pregunta SÍ/NO para comentar"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sans gruesa con cifra en azul brillante; subtítulo con palabra en caja (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "azul nocturno con hielo cian y torre dorada brillante (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "regla de altura y comparación con monumento (por la miniatura)",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "comparación de escala con objeto conocido",
+  "contraste azul/dorado",
+  "datos concretos en pantalla"
+ ],
+ "nota_calidad_visual_1_10": "8 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'¿Y si guardaras en billetes de 50 € lo que pagas de alquiler en 10 años?': torre de billetes subiendo junto a un edificio conocido con regla de altura. Patrón escala comparativa.",
+ "apto_align": true
+}

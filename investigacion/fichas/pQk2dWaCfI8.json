@@ -1,0 +1,52 @@
+{
+ "id": "pQk2dWaCfI8",
+ "url": "https://www.youtube.com/shorts/pQk2dWaCfI8",
+ "titulo": "¿Por qué los RICOS son cada vez más RICOS? 🐔",
+ "canal": "Código Riqueza",
+ "vistas": 14533,
+ "ratio": 175.1,
+ "duracion_s": 113,
+ "formato": "ilustración 2D plana con personajes con nombre y voz en off",
+ "formato_align": "Historia con personaje",
+ "estructura": "Premisa de reinicio → tres personajes reciben lo mismo → decisiones distintas → resultado rica/clase media/pobre → moraleja",
+ "nicho": "Finanzas personales ES",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: pregunta '¿Por qué los ricos se hacen más ricos?' y tres personajes con nombre y etiqueta Rica/Clase media/Pobre",
+  "tecnica": "pregunta + tres arquetipos",
+  "por_que_engancha": "Comentarios muy polarizados (de dónde salió el gallo, privilegio, 'el rico produce y el pobre consume'): el debate dispara la interacción"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sans redondeada gruesa en etiquetas tipo pegatina amarillas, rojas y blancas (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "colores cálidos y planos, contorno grueso; muy legible (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "etiquetas con iconos (corona, gráfico, flecha abajo)",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "tres arquetipos con nombre y etiqueta visibles",
+  "misma premisa que AE6Tr36XKBE adaptada al español: el patrón funciona en ES",
+  "provoca debate"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Tres compañeros de piso con el mismo sueldo y tres etiquetas (gasta todo, ahorra en la cuenta, invierte 100 €/mes); salto a 10 años. Patrón de tres arquetipos con nombre (ojo: no copiar la gallina, ya usada por otros).",
+ "apto_align": true
+}

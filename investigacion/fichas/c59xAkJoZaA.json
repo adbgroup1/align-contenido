@@ -1,0 +1,52 @@
+{
+ "id": "c59xAkJoZaA",
+ "url": "https://www.youtube.com/shorts/c59xAkJoZaA",
+ "titulo": "If the rise of China had sound 🐉🔊 [No AI] #animation #maths #history #shorts #graphs #visualization",
+ "canal": "NumbersThatSing",
+ "vistas": 27059,
+ "ratio": 9.9,
+ "duracion_s": 24,
+ "formato": "visualización de datos animada (gráfico de línea) con sonificación",
+ "formato_align": "Contador",
+ "estructura": "Título de premisa → gráfico que crece año a año con contador de cifra → varias métricas en serie (indicador de progreso) → caída final",
+ "nicho": "Motion otro nicho (datos/historia)",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: rótulo 'IF CHINA'S RISE HAD SOUND' sobre fondo negro y una línea rosa que sube con año y cifra grandes",
+  "tecnica": "premisa curiosa + dato que crece",
+  "por_que_engancha": "Los comentarios reaccionan a picos y caídas del gráfico (se dan cuenta del efecto COVID) y bromean con el sonido; piden más temas"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sans en mayúsculas blanca en cajita; cifras grandes en rosa y blanco (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "fondo negro con línea rosa neón brillante; alto contraste y mínimo (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "gráfico de línea con eje temporal, punto que avanza, año y cifra grandes y fuente citada",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "estética minimalista oscura con un solo color de acento",
+  "dato real con fuente",
+  "serie de métricas con indicador de progreso que retiene"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'Si tu sueldo tuviera sonido': un gráfico de línea que sube con el sueldo y baja con cada gasto del mes, con contador en euros y un tono que sube o baja; la caída de fin de mes es el giro.",
+ "apto_align": true
+}

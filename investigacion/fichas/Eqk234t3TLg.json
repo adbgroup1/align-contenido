@@ -1,0 +1,52 @@
+{
+ "id": "Eqk234t3TLg",
+ "url": "https://www.youtube.com/shorts/Eqk234t3TLg",
+ "titulo": "If life data graphs had sound #animation #maths #creative #shorts #graphs #visualization #history",
+ "canal": "HypnoPhysics",
+ "vistas": 69439,
+ "ratio": 7.3,
+ "duracion_s": 25,
+ "formato": "visualización de datos: gráfico de líneas sobre negro que se dibuja con sonido (más alto = tono más agudo), serie numerada",
+ "formato_align": "Contador",
+ "estructura": "Título fijo de serie → gráfico se dibuja año a año con el valor y el año grandes debajo → pico/caída que se 'oye' → siguiente gráfico (por la miniatura; los puntitos indican varias gráficas)",
+ "nicho": "Datos / visualización",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: rótulo 'IF DATA GRAPHS HAD SOUND', gráfico morado de migración en Alemania 1990-2026 con año y cifra grandes y un icono de fondo",
+  "tecnica": "sonificación de datos / curiosidad",
+  "por_que_engancha": "Los comentarios reaccionan a los picos ('el pico de 2020'), piden más ('hazlo para todo el mundo'): el sonido convierte la curva en emoción"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "Sans de sistema; año en morado grande y valor en blanco negrita (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "Por la miniatura: negro puro con línea lavanda brillante; minimalista, contraste alto",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "Gráfico de líneas temporal con punto que avanza, año y valor",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Mecánica clara: altura = tono",
+  "Minimalismo negro + un color",
+  "Formato serie con varias gráficas por vídeo"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'Si tu sueldo tuviera sonido': el salario medio de un joven en España vs el precio del alquiler, dibujados año a año con tono; el alquiler 'chilla' cada vez más agudo. Cierre: '¿cuál sonaría en tu casa?'",
+ "apto_align": true
+}

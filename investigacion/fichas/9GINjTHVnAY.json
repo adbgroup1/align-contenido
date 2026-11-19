@@ -1,0 +1,51 @@
+{
+ "id": "9GINjTHVnAY",
+ "url": "https://www.youtube.com/shorts/9GINjTHVnAY",
+ "titulo": "Barter vs Money 💰 Why Does the Dollar Have Value? Explained #Shorts",
+ "canal": "Paycheck & Progress",
+ "vistas": 4155,
+ "ratio": 23.6,
+ "duracion_s": 71,
+ "formato": "animación 2D dibujada a mano de monigotes sobre fondo papel",
+ "formato_align": "Explicación",
+ "estructura": "Situación cotidiana con problema → por qué falla el sistema antiguo → aparición de la solución → respuesta a la pregunta del título",
+ "nicho": "Finanzas personales EN",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: dos personajes intercambiando billetes por una bici; pregunta '¿por qué el dinero tiene valor?'",
+  "tecnica": "pregunta de curiosidad",
+  "por_que_engancha": "sin dato"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sin dato",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "fondo beige de papel, trazo negro y acentos verdes de dólar (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "estilo dibujado coherente",
+  "ejemplo cotidiano que hace concreto un concepto abstracto"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'¿Por qué un billete de 20 € vale algo?' empezando por un trueque imposible entre dos compañeros de piso. Reutiliza el patrón problema cotidiano → concepto.",
+ "apto_align": true
+}

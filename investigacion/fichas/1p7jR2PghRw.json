@@ -1,0 +1,52 @@
+{
+ "id": "1p7jR2PghRw",
+ "url": "https://www.youtube.com/shorts/1p7jR2PghRw",
+ "titulo": "CERDITO RICO vs CERDITO POBRE 🐷 La diferencia no es cuanto ganan #shorts",
+ "canal": "Mi Primer Ahorro",
+ "vistas": 3309,
+ "ratio": 87,
+ "duracion_s": 52,
+ "formato": "animación 2D de cerditos de línea dorada sobre pizarra verde, titulares numerados",
+ "formato_align": "Comparación A/B",
+ "estructura": "Premisa (mismo sueldo) → hábito #1..#4 comparando rico vs pobre → resultado a 10 años → pregunta '¿cuál eres?'",
+ "nicho": "Finanzas personales ES",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Por título y miniatura: dos cerditos dibujados, etiquetas RICO y POBRE, hábito numerado '#3 DINERO QUIETO O A TRABAJAR' y mini gráfico",
+  "tecnica": "contraste A/B con cifra",
+  "por_que_engancha": "sin dato"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "Pregunta '¿Tú cuál de los dos eres?' (según la descripción)"
+ },
+ "tipografia": {
+  "estilo": "sans redondeada blanca en mayúsculas con etiquetas tipo píldora (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "pizarra verde oscura con trazo dorado; elegante y alto contraste (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "mini gráfico de ejes con punto (por la miniatura)",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "paleta de dos colores muy coherente",
+  "etiquetas RICO/POBRE claras",
+  "numeración que invita a ver hasta el final"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'Mismo sueldo, distinto final': dos personajes con 1.500 € netos y 3 hábitos numerados que los separan; contador final a 10 años. Patrón A/B numerado.",
+ "apto_align": true
+}

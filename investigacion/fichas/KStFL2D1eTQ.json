@@ -1,0 +1,52 @@
+{
+ "id": "KStFL2D1eTQ",
+ "url": "https://www.youtube.com/shorts/KStFL2D1eTQ",
+ "titulo": "Why a Pricey Video Game Is Actually Cheap #animation #funny #gta6 #shorts  #moneytips",
+ "canal": "MoolahHQ",
+ "vistas": 24413,
+ "ratio": 387.5,
+ "duracion_s": 70,
+ "formato": "animación 3D de personajes estilizados con escenario de juicio",
+ "formato_align": "Historia con personaje",
+ "estructura": "Personaje defiende una compra cara → alguien le pone 'a juicio' → cálculo de coste por hora → comparación con otro gasto → pregunta que tumba su argumento",
+ "nicho": "Finanzas personales EN",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: chico con calculadora junto a una caja del videojuego en una sala de juicio; texto 'EXPENSIVE GAME ACTUALLY CHEAP'",
+  "tecnica": "paradoja / contraintuitivo",
+  "por_que_engancha": "Los comentarios comparan con otros ocios (cine, cenas) y debaten si es verdad; el propio autor fija una pregunta '¿es más barato que una noche fuera?'"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "comentario fijado del canal: pregunta al espectador y pide suscribirse"
+ },
+ "tipografia": {
+  "estilo": "sans gruesa en mayúsculas, amarillo y blanco con sombra (por la miniatura)",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "luz cálida de tribunal, morado del personaje y del póster; profundidad de campo cinematográfica (por la miniatura)",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "calculadora visible; probable cálculo de coste por hora (por la descripción)",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "3D con iluminación cálida y desenfoque de fondo",
+  "marco narrativo de juicio",
+  "cifras con fuente citada en la descripción"
+ ],
+ "nota_calidad_visual_1_10": "8 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "'Juicio' a un gasto: un chico defiende que el gimnasio de 40 €/mes es caro y su madre/jueza calcula el coste por uso frente a su suscripción de streaming que no usa. Reutiliza el marco juicio + coste por uso.",
+ "apto_align": true
+}
