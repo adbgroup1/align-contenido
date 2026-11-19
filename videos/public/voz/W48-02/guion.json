@@ -1,0 +1,15 @@
+{
+  "escenas": [
+    { "id": "hook", "texto": "Tus diez mil euros en la cuenta valen menos cada año." },
+    { "id": "gancho2", "texto": "El número no cambia. Lo que compra, sí." },
+    { "id": "inflacion", "texto": "Se llama inflación: los precios suben un poco cada año." },
+    { "id": "dato", "texto": "En dos mil veintidós, en España, subieron más de un ocho por ciento." },
+    { "id": "rehook", "texto": "Ahora imagina un tres por ciento al año, diez años seguidos." },
+    { "id": "wow", "texto": "Tus diez mil euros siguen ahí… pero compran como siete mil cuatrocientos." },
+    { "id": "cuarto", "texto": "Una cuarta parte menos, sin haber gastado nada." },
+    { "id": "cuesta", "texto": "No es para asustarte. No hacer nada también cuesta." },
+    { "id": "plan", "texto": "El colchón, a mano. Lo que no vas a tocar en años, merece un plan." },
+    { "id": "cta", "texto": "Mándaselo a quien lo tiene todo en la cuenta por si acaso. Síguenos para más." },
+    { "id": "cierre", "texto": "Y el año que viene, otra vez: tus diez mil euros valen menos." }
+  ]
+}

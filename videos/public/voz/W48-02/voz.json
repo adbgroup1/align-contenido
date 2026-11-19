@@ -1,0 +1,719 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Tus diez mil euros en la cuenta valen menos cada año.",
+   "archivo": "hook.mp3",
+   "segundos": 2.925714,
+   "palabras": [
+    {
+     "t": "Tus",
+     "inicio": 0,
+     "fin": 0.244
+    },
+    {
+     "t": "diez",
+     "inicio": 0.29,
+     "fin": 0.418
+    },
+    {
+     "t": "mil",
+     "inicio": 0.476,
+     "fin": 0.604
+    },
+    {
+     "t": "euros",
+     "inicio": 0.65,
+     "fin": 0.894
+    },
+    {
+     "t": "en",
+     "inicio": 0.952,
+     "fin": 0.998
+    },
+    {
+     "t": "la",
+     "inicio": 1.033,
+     "fin": 1.091
+    },
+    {
+     "t": "cuenta",
+     "inicio": 1.138,
+     "fin": 1.416
+    },
+    {
+     "t": "valen",
+     "inicio": 1.474,
+     "fin": 1.683
+    },
+    {
+     "t": "menos",
+     "inicio": 1.73,
+     "fin": 1.985
+    },
+    {
+     "t": "cada",
+     "inicio": 2.032,
+     "fin": 2.206
+    },
+    {
+     "t": "año.",
+     "inicio": 2.241,
+     "fin": 2.879
+    }
+   ]
+  },
+  {
+   "id": "gancho2",
+   "texto": "El número no cambia. Lo que compra, sí.",
+   "archivo": "gancho2.mp3",
+   "segundos": 4.440816,
+   "palabras": [
+    {
+     "t": "El",
+     "inicio": 0,
+     "fin": 0.163
+    },
+    {
+     "t": "número",
+     "inicio": 0.244,
+     "fin": 0.627
+    },
+    {
+     "t": "no",
+     "inicio": 0.743,
+     "fin": 0.894
+    },
+    {
+     "t": "cambia.",
+     "inicio": 0.952,
+     "fin": 1.544
+    },
+    {
+     "t": "Lo",
+     "inicio": 2.206,
+     "fin": 2.334
+    },
+    {
+     "t": "que",
+     "inicio": 2.38,
+     "fin": 2.461
+    },
+    {
+     "t": "compra,",
+     "inicio": 2.508,
+     "fin": 3.019
+    },
+    {
+     "t": "sí.",
+     "inicio": 3.216,
+     "fin": 4.412
+    }
+   ]
+  },
+  {
+   "id": "inflacion",
+   "texto": "Se llama inflación: los precios suben un poco cada año.",
+   "archivo": "inflacion.mp3",
+   "segundos": 3.892245,
+   "palabras": [
+    {
+     "t": "Se",
+     "inicio": 0,
+     "fin": 0.174
+    },
+    {
+     "t": "llama",
+     "inicio": 0.197,
+     "fin": 0.441
+    },
+    {
+     "t": "inflación:",
+     "inicio": 0.488,
+     "fin": 1.161
+    },
+    {
+     "t": "los",
+     "inicio": 1.358,
+     "fin": 1.486
+    },
+    {
+     "t": "precios",
+     "inicio": 1.533,
+     "fin": 1.927
+    },
+    {
+     "t": "suben",
+     "inicio": 1.962,
+     "fin": 2.276
+    },
+    {
+     "t": "un",
+     "inicio": 2.334,
+     "fin": 2.392
+    },
+    {
+     "t": "poco",
+     "inicio": 2.45,
+     "fin": 2.763
+    },
+    {
+     "t": "cada",
+     "inicio": 2.821,
+     "fin": 3.03
+    },
+    {
+     "t": "año.",
+     "inicio": 3.065,
+     "fin": 3.855
+    }
+   ]
+  },
+  {
+   "id": "dato",
+   "texto": "En dos mil veintidós, en España, subieron más de un ocho por ciento.",
+   "archivo": "dato.mp3",
+   "segundos": 5.146122,
+   "palabras": [
+    {
+     "t": "En",
+     "inicio": 0,
+     "fin": 0.151
+    },
+    {
+     "t": "dos",
+     "inicio": 0.209,
+     "fin": 0.348
+    },
+    {
+     "t": "mil",
+     "inicio": 0.418,
+     "fin": 0.557
+    },
+    {
+     "t": "veintidós,",
+     "inicio": 0.604,
+     "fin": 1.277
+    },
+    {
+     "t": "en",
+     "inicio": 1.3,
+     "fin": 1.416
+    },
+    {
+     "t": "España,",
+     "inicio": 1.486,
+     "fin": 2.148
+    },
+    {
+     "t": "subieron",
+     "inicio": 2.345,
+     "fin": 2.844
+    },
+    {
+     "t": "más",
+     "inicio": 2.902,
+     "fin": 3.088
+    },
+    {
+     "t": "de",
+     "inicio": 3.146,
+     "fin": 3.228
+    },
+    {
+     "t": "un",
+     "inicio": 3.297,
+     "fin": 3.367
+    },
+    {
+     "t": "ocho",
+     "inicio": 3.46,
+     "fin": 3.68
+    },
+    {
+     "t": "por",
+     "inicio": 3.738,
+     "fin": 3.866
+    },
+    {
+     "t": "ciento.",
+     "inicio": 3.924,
+     "fin": 5.108
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "texto": "Ahora imagina un tres por ciento al año, diez años seguidos.",
+   "archivo": "rehook.mp3",
+   "segundos": 3.94449,
+   "palabras": [
+    {
+     "t": "Ahora",
+     "inicio": 0,
+     "fin": 0.244
+    },
+    {
+     "t": "imagina",
+     "inicio": 0.29,
+     "fin": 0.685
+    },
+    {
+     "t": "un",
+     "inicio": 0.743,
+     "fin": 0.813
+    },
+    {
+     "t": "tres",
+     "inicio": 0.871,
+     "fin": 1.068
+    },
+    {
+     "t": "por",
+     "inicio": 1.126,
+     "fin": 1.242
+    },
+    {
+     "t": "ciento",
+     "inicio": 1.277,
+     "fin": 1.544
+    },
+    {
+     "t": "al",
+     "inicio": 1.579,
+     "fin": 1.625
+    },
+    {
+     "t": "año,",
+     "inicio": 1.66,
+     "fin": 1.95
+    },
+    {
+     "t": "diez",
+     "inicio": 1.985,
+     "fin": 2.194
+    },
+    {
+     "t": "años",
+     "inicio": 2.241,
+     "fin": 2.554
+    },
+    {
+     "t": "seguidos.",
+     "inicio": 2.577,
+     "fin": 3.901
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Tus diez mil euros siguen ahí… pero compran como siete mil cuatrocientos.",
+   "archivo": "wow.mp3",
+   "segundos": 4.832653,
+   "palabras": [
+    {
+     "t": "Tus",
+     "inicio": 0,
+     "fin": 0.232
+    },
+    {
+     "t": "diez",
+     "inicio": 0.255,
+     "fin": 0.418
+    },
+    {
+     "t": "mil",
+     "inicio": 0.464,
+     "fin": 0.592
+    },
+    {
+     "t": "euros",
+     "inicio": 0.639,
+     "fin": 0.894
+    },
+    {
+     "t": "siguen",
+     "inicio": 0.917,
+     "fin": 1.149
+    },
+    {
+     "t": "ahí…",
+     "inicio": 1.207,
+     "fin": 1.614
+    },
+    {
+     "t": "pero",
+     "inicio": 2.194,
+     "fin": 2.415
+    },
+    {
+     "t": "compran",
+     "inicio": 2.473,
+     "fin": 2.775
+    },
+    {
+     "t": "como",
+     "inicio": 2.833,
+     "fin": 3.007
+    },
+    {
+     "t": "siete",
+     "inicio": 3.042,
+     "fin": 3.239
+    },
+    {
+     "t": "mil",
+     "inicio": 3.274,
+     "fin": 3.402
+    },
+    {
+     "t": "cuatrocientos.",
+     "inicio": 3.46,
+     "fin": 4.783
+    }
+   ]
+  },
+  {
+   "id": "cuarto",
+   "texto": "Una cuarta parte menos, sin haber gastado nada.",
+   "archivo": "cuarto.mp3",
+   "segundos": 2.35102,
+   "palabras": [
+    {
+     "t": "Una",
+     "inicio": 0,
+     "fin": 0.221
+    },
+    {
+     "t": "cuarta",
+     "inicio": 0.267,
+     "fin": 0.499
+    },
+    {
+     "t": "parte",
+     "inicio": 0.546,
+     "fin": 0.766
+    },
+    {
+     "t": "menos,",
+     "inicio": 0.813,
+     "fin": 1.161
+    },
+    {
+     "t": "sin",
+     "inicio": 1.207,
+     "fin": 1.335
+    },
+    {
+     "t": "haber",
+     "inicio": 1.37,
+     "fin": 1.533
+    },
+    {
+     "t": "gastado",
+     "inicio": 1.591,
+     "fin": 1.916
+    },
+    {
+     "t": "nada.",
+     "inicio": 1.962,
+     "fin": 2.322
+    }
+   ]
+  },
+  {
+   "id": "cuesta",
+   "texto": "No es para asustarte. No hacer nada también cuesta.",
+   "archivo": "cuesta.mp3",
+   "segundos": 2.586122,
+   "palabras": [
+    {
+     "t": "No",
+     "inicio": 0,
+     "fin": 0.139
+    },
+    {
+     "t": "es",
+     "inicio": 0.186,
+     "fin": 0.232
+    },
+    {
+     "t": "para",
+     "inicio": 0.29,
+     "fin": 0.441
+    },
+    {
+     "t": "asustarte.",
+     "inicio": 0.464,
+     "fin": 1.068
+    },
+    {
+     "t": "No",
+     "inicio": 1.126,
+     "fin": 1.231
+    },
+    {
+     "t": "hacer",
+     "inicio": 1.254,
+     "fin": 1.451
+    },
+    {
+     "t": "nada",
+     "inicio": 1.521,
+     "fin": 1.718
+    },
+    {
+     "t": "también",
+     "inicio": 1.765,
+     "fin": 2.067
+    },
+    {
+     "t": "cuesta.",
+     "inicio": 2.113,
+     "fin": 2.554
+    }
+   ]
+  },
+  {
+   "id": "plan",
+   "texto": "El colchón, a mano. Lo que no vas a tocar en años, merece un plan.",
+   "archivo": "plan.mp3",
+   "segundos": 3.996735,
+   "palabras": [
+    {
+     "t": "El",
+     "inicio": 0,
+     "fin": 0.174
+    },
+    {
+     "t": "colchón,",
+     "inicio": 0.232,
+     "fin": 0.766
+    },
+    {
+     "t": "a",
+     "inicio": 0.882,
+     "fin": 0.929
+    },
+    {
+     "t": "mano.",
+     "inicio": 0.987,
+     "fin": 1.358
+    },
+    {
+     "t": "Lo",
+     "inicio": 1.474,
+     "fin": 1.591
+    },
+    {
+     "t": "que",
+     "inicio": 1.625,
+     "fin": 1.695
+    },
+    {
+     "t": "no",
+     "inicio": 1.741,
+     "fin": 1.823
+    },
+    {
+     "t": "vas",
+     "inicio": 1.869,
+     "fin": 1.985
+    },
+    {
+     "t": "a",
+     "inicio": 2.043,
+     "fin": 2.067
+    },
+    {
+     "t": "tocar",
+     "inicio": 2.101,
+     "fin": 2.334
+    },
+    {
+     "t": "en",
+     "inicio": 2.38,
+     "fin": 2.438
+    },
+    {
+     "t": "años,",
+     "inicio": 2.473,
+     "fin": 2.833
+    },
+    {
+     "t": "merece",
+     "inicio": 2.868,
+     "fin": 3.181
+    },
+    {
+     "t": "un",
+     "inicio": 3.228,
+     "fin": 3.274
+    },
+    {
+     "t": "plan.",
+     "inicio": 3.32,
+     "fin": 3.947
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Mándaselo a quien lo tiene todo en la cuenta por si acaso. Síguenos para más.",
+   "archivo": "cta.mp3",
+   "segundos": 3.709388,
+   "palabras": [
+    {
+     "t": "Mándaselo",
+     "inicio": 0,
+     "fin": 0.534
+    },
+    {
+     "t": "a",
+     "inicio": 0.569,
+     "fin": 0.592
+    },
+    {
+     "t": "quien",
+     "inicio": 0.627,
+     "fin": 0.755
+    },
+    {
+     "t": "lo",
+     "inicio": 0.801,
+     "fin": 0.859
+    },
+    {
+     "t": "tiene",
+     "inicio": 0.894,
+     "fin": 1.068
+    },
+    {
+     "t": "todo",
+     "inicio": 1.103,
+     "fin": 1.265
+    },
+    {
+     "t": "en",
+     "inicio": 1.289,
+     "fin": 1.335
+    },
+    {
+     "t": "la",
+     "inicio": 1.37,
+     "fin": 1.416
+    },
+    {
+     "t": "cuenta",
+     "inicio": 1.451,
+     "fin": 1.73
+    },
+    {
+     "t": "por",
+     "inicio": 1.788,
+     "fin": 1.927
+    },
+    {
+     "t": "si",
+     "inicio": 1.974,
+     "fin": 2.055
+    },
+    {
+     "t": "acaso.",
+     "inicio": 2.09,
+     "fin": 2.508
+    },
+    {
+     "t": "Síguenos",
+     "inicio": 2.624,
+     "fin": 3.053
+    },
+    {
+     "t": "para",
+     "inicio": 3.1,
+     "fin": 3.251
+    },
+    {
+     "t": "más.",
+     "inicio": 3.286,
+     "fin": 3.669
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "texto": "Y el año que viene, otra vez: tus diez mil euros valen menos.",
+   "archivo": "cierre.mp3",
+   "segundos": 2.951837,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.093
+    },
+    {
+     "t": "el",
+     "inicio": 0.151,
+     "fin": 0.197
+    },
+    {
+     "t": "año",
+     "inicio": 0.232,
+     "fin": 0.372
+    },
+    {
+     "t": "que",
+     "inicio": 0.406,
+     "fin": 0.476
+    },
+    {
+     "t": "viene,",
+     "inicio": 0.511,
+     "fin": 0.789
+    },
+    {
+     "t": "otra",
+     "inicio": 0.836,
+     "fin": 1.057
+    },
+    {
+     "t": "vez:",
+     "inicio": 1.103,
+     "fin": 1.324
+    },
+    {
+     "t": "tus",
+     "inicio": 1.405,
+     "fin": 1.567
+    },
+    {
+     "t": "diez",
+     "inicio": 1.602,
+     "fin": 1.73
+    },
+    {
+     "t": "mil",
+     "inicio": 1.776,
+     "fin": 1.904
+    },
+    {
+     "t": "euros",
+     "inicio": 1.95,
+     "fin": 2.171
+    },
+    {
+     "t": "valen",
+     "inicio": 2.218,
+     "fin": 2.415
+    },
+    {
+     "t": "menos.",
+     "inicio": 2.45,
+     "fin": 2.926
+    }
+   ]
+  }
+ ]
+}
