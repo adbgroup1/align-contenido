@@ -10,14 +10,21 @@ Lee antes `CLAUDE.md` y `GUIA.md`.
 ## Lee primero, en este orden
 
 1. En Aprendizajes: «Qué funciona en NUESTRO perfil», Repetir / Evitar y el experimento de la semana.
-2. Las filas de Investigación sin usar (las de «Usado en» vacío).
-3. Los títulos de Vídeos de las últimas 6 semanas, para no repetir temas.
+2. Las filas de Investigación sin usar (las de «Usado en» vacío) y `investigacion/TECNICAS.md`, si existe.
+3. Los títulos de Vídeos de las últimas 6 semanas, para no repetir temas, y el «Formato» de las ideas de
+   `semanas/<semana anterior>/ideas.md`, para no repetir formatos (`GUIA.md`, «Variedad de formato»).
 
 ## Qué produces
 
-**5 ideas** en `semanas/<semana>/ideas.md` (las 3 mejores pasarán a guion y el manager elige 2). Cada una con:
+**8 ideas** en `semanas/<semana>/ideas.md`: las 6 mejores pasarán a guion y el manager elige **5** (se producen 5
+por semana aunque se publiquen 2; el resto queda en reserva, `GUIA.md`). Cada una con:
 - Tipo de idea: **Probado** o **Experimento**.
-  - Unas 4 Probado y 2 Experimento.
+  - Unas 5 Probado y 3 Experimento.
+  - **Probado solo si su «Patrón» es una ficha de Investigación** (o una técnica de `TECNICAS.md`) o un dato de
+    nuestro perfil. Un título suelto de `candidatos.json`, sin ficha, no basta: eso es Experimento.
+- **Formato** (lista en `GUIA.md`, «Variedad de formato»). Entre las 8, al menos 4 formatos distintos y como
+  mucho 3 de Explicación. **Copia el formato de los virales de las fichas:** si casi todas son fábulas con
+  personajes, al menos 2 ideas son fábulas.
   - El Experimento sale del experimento de Aprendizajes si lo hay.
 - Pilar (1–5) y CTA (COMPARTIR, GUARDAR, COMENTAR o SEGUIR; ver `GUIA.md`). Va en la propiedad «Palabra clave».
 - Tipo de gancho: Número sorprendente, Error común, Contraste, Pregunta, Nadie te dice, Mito o Historia.
@@ -34,5 +41,8 @@ Lee antes `CLAUDE.md` y `GUIA.md`.
   GUARDAR y COMENTAR, salvo que Aprendizajes diga otra cosa.
 - **El formato viene de la investigación, el tema es nuestro.**
 - Tiene que poder contarse **solo con animación** en 20–45 s.
+
+- **Si hay menos de 3 fichas sin usar y no existe `TECNICAS.md`**, dilo arriba del todo en `ideas.md`
+  («Investigación escasa: N fichas») para que el manager lo vea.
 
 **Al terminar:** en Investigación, rellena «Usado en» de las referencias que has usado con la semana.

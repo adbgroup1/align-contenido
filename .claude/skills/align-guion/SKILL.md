@@ -12,13 +12,15 @@ Lee antes `CLAUDE.md`, `GUIA.md`, `semanas/<semana>/ideas.md` y `hooks.md`.
 
 ## Pasos
 
-1. **Elige las 3 mejores ideas**, cada una con su hook ganador.
+1. **Elige las 6 mejores ideas**, cada una con su hook ganador, respetando la mezcla de formatos de `GUIA.md`
+   («Variedad de formato»).
 2. **Comprueba cada cifra (como mucho 2 por vídeo):**
    - busca la fuente con WebSearch; si no la encuentras, quita el dato;
    - los cálculos, hazlos con un script y apunta la fórmula.
 3. **Por cada guion, crea una fila en Vídeos** (o actualízala si ya existe):
    - ID (`W<nn>-<nn>`, por ejemplo `W47-01`), Título, Estado = `Guion`, Semana, Pilar, Palabra clave, Hook;
-   - Tipo de idea, Tipo de gancho y Patrón;
+   - Tipo de idea, Tipo de gancho y Patrón. **El Patrón empieza por el formato:** `Fábula con personajes · ficha
+     «…» → …`;
    - Plataformas = Instagram y YouTube (TikTok, aparcado);
    - «Palabra clave» = el CTA (COMPARTIR, GUARDAR, COMENTAR o SEGUIR). «Destino» se deja vacío.
    - **Dentro de la página va el guion:**
@@ -39,6 +41,10 @@ Lee antes `CLAUDE.md`, `GUIA.md`, `semanas/<semana>/ideas.md` y `hooks.md`.
    - **Notas de producción**.
 
 ## Reglas
+
+- **Fábula o historia con personaje:** un personaje con nombre y un problema en la escena 1, el giro en el wow
+  y la moraleja práctica antes del CTA. Describe al personaje en «Animación / visual» la primera vez (forma,
+  color, rasgo) y después nómbralo igual. La voz cuenta la historia; el texto en pantalla, solo lo clave.
 
 - **Duración:** 20–45 s, con un cambio visual cada 2–3 s. **La voz marca el tiempo:** unas 2,7 palabras
   por segundo, así que 30 s son unas 80 palabras de voz en total.

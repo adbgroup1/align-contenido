@@ -9,9 +9,11 @@ Lee antes `CLAUDE.md`.
 
 ## AHORRO, primero
 
-**Entrada:** filas de Vídeos con Estado = `Tu revisión` y «Tu decisión» rellena, o con Estado = `Aprobado`.
+**Entrada:** filas de Vídeos con Estado = `Tu revisión` y «Tu decisión» rellena, o con Estado = `Aprobado`
+(incluida la reserva, que se programa en cuanto queda un hueco libre).
 
-Si no hay ninguna, responde «Sin decisiones nuevas» y termina.
+Si no hay ninguna, responde «Sin decisiones nuevas» y termina. Si solo hay reserva y no queda ningún hueco libre
+en los próximos 14 días, responde «Reserva: N vídeos, sin huecos libres» y termina.
 
 ### Filas en `Aprobado` sin «Tu decisión» = Aprobar: no programes, avisa
 
@@ -65,6 +67,16 @@ Andrés diseñó el sistema así: **su aprobación en Notion es la orden de publ
 - **Huecos:** martes y viernes (2 vídeos por semana).
 - **Hora:** la que dé `getBestTimeToPostByNetwork`, o 19:30 si no hay datos.
 - **No pongas dos vídeos el mismo día.**
+- **Se producen 5 por semana y se publican 2, así que se acumula una reserva** (`GUIA.md`, «Cadencia»):
+  - programa solo en los huecos libres de los **próximos 14 días**;
+  - lo que no quepa se queda en `Aprobado`, sin programar: es la **reserva**. En su «Nota del manager» escribe
+    «En reserva desde <fecha>» (una vez). No es un error ni hay que avisar;
+  - **cada noche, aunque no haya decisiones nuevas, rellena los huecos libres con la reserva**;
+  - **orden:** primero los que tienen fecha límite (en el guion o en la nota; por ejemplo Black Friday antes del
+    27 nov), después el más antiguo por ID. Si los dos siguientes de la cola tienen el mismo formato (empieza el
+    «Patrón»), adelanta uno de otro formato;
+  - un vídeo de fecha (Black Friday, Navidad, la renta) que ya no llega a tiempo **no se publica fuera de fecha**:
+    déjalo en reserva con la nota «Fuera de fecha» y avísalo en el resumen.
 
 ### 3. Crea la publicación
 

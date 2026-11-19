@@ -15,8 +15,15 @@ Después lee:
 - `CLAUDE.md`, sección «Renderizar en esta nube»;
 - `GUIA.md`, secciones «Ritmo, gancho e imagen» y «Voz, música y sonido»;
 - `videos/KIT.md`, entero: es el manual de las piezas (incluye «Imágenes generadas»);
-- `investigacion/TECNICAS.md`, si existe: elige **al menos 2 técnicas** de la lista «Por implementar» o
-  «En el kit» que encajen con el guion.
+- `investigacion/TECNICAS.md`: elige **al menos 2 técnicas** de la lista «Por implementar» o «En el kit» que
+  encajen con el guion. **Si no existe**, apúntalo en la «Nota del manager» de cada vídeo y saca las técnicas
+  de las fichas de `investigacion/fichas/` que cite su «Patrón».
+- `GUIA.md`, «Variedad de formato». **El formato del vídeo es el que pone el Patrón** (Fábula con personajes,
+  Historia, Contador…) y se tiene que notar en pantalla.
+
+**Son 5 vídeos por semana.** Hazlos en el orden del ID. Haz commit y push después de cada vídeo, no al final,
+para no perder trabajo si la sesión se corta. Si no te da tiempo a todos, deja los que falten en `Revisión
+manager OK` con la nota «Pendiente de producción» y la siguiente ejecución los termina.
 
 ## Por cada vídeo
 
@@ -48,6 +55,16 @@ Después lee:
      `calculateMetadata={metadataConVoz(EXTRA_<ID>)}`. La duración la marca la voz.
    - Cada escena necesita **movimiento propio**: algo entra, crece, cuenta o cambia. Un texto quieto no es
      una escena.
+   - **No repitas la plantilla de siempre.** Antes de montar, mira los `.tsx` de las 2 semanas anteriores. Si tu
+     vídeo acaba siendo otra vez «frase palabra a palabra en el centro + pastilla + una foto» en la mayoría de
+     escenas, no vale (Andrés, 19 nov: «son todos iguales»). Cambia la composición según el formato:
+     - **Fábula o historia:** el personaje en escena casi todo el vídeo, con expresiones y acciones (anda, mira,
+       se sorprende) y un escenario que cambia; el texto, poco y arriba. Dibújalo en SVG con piezas del kit
+       (pieza `Personaje` si existe; si no, créala en `kit.tsx` y documéntala en `KIT.md`) o con imágenes de escena.
+     - **Contador o acumulado:** una cifra grande que crece y cambia de color durante todo el vídeo.
+     - **Comparación A/B:** pantalla partida todo el vídeo, cada lado con su evolución.
+     - **Qué pasaría si:** la misma escena en dos versiones, con un rebobinado entre una y otra.
+   - **Dos vídeos de la misma semana no usan la misma pista de música ni el mismo color de fondo dominante.**
    - Pon los efectos de sonido donde pasa algo (ver la tabla de `KIT.md`), sin saturar.
    - Si creas una pieza reutilizable, muévela a `kit.tsx` y documéntala en `KIT.md`.
 5. **Música:** elige en `videos/public/musica/LICENCIAS.md` la pista que pegue con el tono del vídeo y
@@ -79,8 +96,8 @@ Después lee:
     - Estado = `Tu revisión`;
     - «Enlace vídeo» = la URL de raw.githubusercontent;
     - «Nota viralidad»;
-    - añade al principio de la página el vídeo incrustado (bloque de vídeo con esa URL) y una línea con las
-      técnicas de `TECNICAS.md` que has usado.
+    - añade al principio de la página el vídeo incrustado (bloque de vídeo con esa URL) y una línea con el
+      formato y las técnicas que has usado.
 
 ## Reglas
 

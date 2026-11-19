@@ -110,6 +110,22 @@ Son reglas de credibilidad y de sentido común en finanzas, no un trámite:
   cuenta de marca necesita un móvil propio.
 - Plan gratis: 20 publicaciones al mes. Con 2 redes salen 10 vídeos al mes. Por eso se hacen **2 vídeos por
   semana** (decidido el 16 nov 2026), que son unos 9 al mes, 18 publicaciones. El distribuidor nunca pasa del límite del plan: si no cabe, avisa.
+- **Se producen 5 vídeos por semana, aunque solo se publiquen 2** (decidido por Andrés el 19 nov 2026). Lo que no
+  cabe se queda **en reserva**: aprobado en Notion (`Aprobado`) y sin programar. Decisiones programa la reserva en
+  los huecos libres, como mucho a 14 días vista.
+
+## Variedad de formato
+
+Andrés vio el 19 nov que los vídeos «son todos iguales»: todos eran explicación con texto palabra a palabra,
+pastilla y una foto. La investigación decía otra cosa (4 de 6 fichas eran fábulas animadas con personajes).
+
+- **Formatos:** Explicación (texto y gráficos), Fábula con personajes, Historia con personaje, Qué pasaría si,
+  Contador o acumulado, Comparación A/B (pantalla partida), Lista o ranking. Cada idea lleva el suyo.
+- **Cada semana, al menos 3 formatos distintos** entre los 5 vídeos, y **como mucho 2 de Explicación**.
+- **Al menos 1 vídeo con un formato que no saliera la semana anterior.**
+- **Dos vídeos seguidos de la cola no llevan el mismo formato**, si se puede.
+- **Los personajes se dibujan en código** (SVG en Remotion, con la pieza `Personaje` del kit si existe) o con
+  imágenes de escena. Nunca personas reconocibles.
 
 ## Qué no hacer nunca
 

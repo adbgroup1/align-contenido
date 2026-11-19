@@ -25,13 +25,16 @@ Lee `GUIA.md` y puntúa cada guion de 1 a 5 en:
 **Correcciones pequeñas** (una palabra, un tiempo) las haces tú directamente.
 
 **Después:**
-- Elige los **2 mejores**:
+- Elige los **5 mejores** (se producen 5 y se publican 2; el resto va a la reserva):
   - Estado = `Revisión manager OK`;
   - en «Nota del manager», la nota y el porqué.
-  - Respeta la mezcla: al menos 1 Probado y como mucho 1 Experimento.
+  - Respeta la mezcla: al menos 3 Probado y como mucho 2 Experimento.
+  - **Respeta la variedad de formato** (`GUIA.md`): al menos 3 formatos distintos, como mucho 2 de Explicación y
+    al menos 1 que no saliera la semana anterior. Si no la cumplen, cambia uno por otro guion o corrígelo tú.
+  - **Mira el Patrón:** un «Probado» sin ficha detrás se cambia a Experimento.
 - Los demás:
   - Estado = `Devuelto` o `Descartado`, con su motivo.
-- **Si hay menos de 2 aprobables**, corrige tú los guiones siguiendo `align-guion` y revísalos otra vez
+- **Si hay menos de 5 aprobables**, corrige tú los guiones siguiendo `align-guion` y revísalos otra vez
   (2 vueltas como máximo).
 - Escribe `semanas/<semana>/manager.md` con la tabla de notas. Commit y push.
 
@@ -50,7 +53,8 @@ Lee `GUIA.md` y puntúa cada guion de 1 a 5 en:
   "rehaz las imágenes" en el Mac antes del sábado 13:00».
 - **Atascos:**
   - filas en `Revisión manager OK` sin vídeo después de la producción del sábado;
-  - filas en `Aprobado` sin programar. **Antes de darlo por atasco, míralo en Metricool**
+  - filas en `Aprobado` sin programar **cuando hay un martes o viernes libre en los próximos 14 días**. Si no hay
+    hueco libre, es **reserva**, no atasco (`GUIA.md`): no lo avises. **Antes de darlo por atasco, míralo en Metricool**
     (`getScheduledPosts`, marca 5900765, de hoy a 30 días). Busca el post por el nombre del MP4 en `media`
     (`<ID>.mp4`).
     - Si ya está programado, no es un atasco: es que Notion no guardó el cambio de Decisiones. Arregla la fila
@@ -136,7 +140,8 @@ Guárdalo en `informes/AAAA-MM-DD.md` y mándalo por correo, en un aviso aparte 
      `Nombre: OK / A MEDIAS / NO CORRIÓ / NO TOCABA · qué hizo · próxima vez`.
      - `NO TOCABA`: un agente al que no le tocaba correr desde el último informe. No es un fallo.
      - `A MEDIAS`: corrió, pero algo le salió mal (por ejemplo, Gemini 503).
-  3. **Publicado y en cola:** fecha y título de cada vídeo, y cuántas publicaciones del plan quedan este mes.
+  3. **Publicado y en cola:** fecha y título de cada vídeo, cuántas publicaciones del plan quedan este mes y
+     cuántos vídeos hay **en reserva** (aprobados sin programar) y en «Tu revisión».
   4. **Cosas que has arreglado tú**, si las hay.
   5. **Qué mejorarías**, como mucho 2 cosas concretas, solo si las ves en los datos.
 - Commit y push del informe con el mensaje `informe: AAAA-MM-DD`.
