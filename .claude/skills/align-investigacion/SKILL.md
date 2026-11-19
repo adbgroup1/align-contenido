@@ -1,23 +1,57 @@
 ---
 name: align-investigacion
-description: Agente 1 de ALIGN. Busca Shorts virales de motion y finanzas, hace que Gemini los vea enteros (imagen y sonido) y convierte lo aprendido en una biblioteca de técnicas (investigacion/TECNICAS.md) y en fichas de Notion. Tiene dos modos, estudio de 100 vídeos y ronda nocturna. Además, cada noche y antes que nada, revisa las imágenes de escena de la semana: las aprueba, las corrige o pide rehacerlas (Paso 0).
+description: Agente 1 de ALIGN. Busca Shorts virales de motion y finanzas, hace que Gemini los vea enteros (imagen y sonido) o, si Gemini falla, escribe él mismo la ficha con los datos y comentarios de YouTube, y convierte lo aprendido en una biblioteca de técnicas (investigacion/TECNICAS.md) y en fichas de Notion. Tiene dos modos, estudio de 100 vídeos y ronda nocturna. Además, cada noche y antes que nada, revisa las imágenes de escena de la semana: las aprueba, las corrige o pide rehacerlas (Paso 0).
 ---
 
-# Agente 1 — Investigación de virales (con Gemini)
+# Agente 1 — Investigación de virales (Gemini si funciona; si no, Claude)
 
 Lee antes `CLAUDE.md`. De `GUIA.md` basta la sección de originalidad.
 
-**Quién ve los vídeos:** Gemini, por API. Ve el Short entero, con imagen y sonido, y devuelve una ficha
-técnica. Tú buscas, eliges, cruzas las fichas y sacas conclusiones. **No descargues vídeos.**
+**Quién ve los vídeos (cambiado el 19 nov 2026, por Andrés: «no uses Gemini si no funciona»):**
+
+- **Plan A, Gemini:** lo ve por API, entero, con imagen y sonido, y devuelve una ficha técnica. Se intenta
+  **una vez por noche**. Al primer error de Gemini (503, 500, 429 o sin red), `ver-videos.mjs` para solo y
+  sale con el código 3 y el mensaje `GEMINI NO DISPONIBLE`. **Esa noche no vuelvas a llamar a Gemini.**
+- **Plan B, tú (Claude):** `datos-videos.mjs` baja de la YouTube Data API todo lo que se puede saber sin ver
+  el vídeo: título, descripción, etiquetas, duración, vistas, likes, los 20 comentarios más votados y la
+  miniatura. Con eso escribes tú la ficha (abajo, «Ficha con el plan B»).
+- ChatGPT no entra aquí: no hay API de OpenAI con saldo, y ChatGPT web solo se usa en el Mac con Andrés.
+- Tú buscas, eliges, cruzas las fichas y sacas conclusiones. **No descargues vídeos** (además, la red de la
+  nube bloquea youtube.com).
 
 | Script (en `videos/`) | Qué hace |
 |---|---|
 | `node scripts/buscar-shorts.mjs "<consulta>" … --max N` | Busca Shorts por vistas en YouTube y los añade a `investigacion/candidatos.json` con vistas, canal y ratio vistas/suscriptores |
-| `node scripts/ver-videos.mjs --n N` | Gemini ve los N primeros candidatos sin ver y escribe `investigacion/fichas/<id>.json` |
+| `node scripts/ver-videos.mjs --n N` | Plan A: Gemini ve los N primeros candidatos sin ver y escribe `investigacion/fichas/<id>.json` (`"fuente": "gemini"`) |
 | `node scripts/ver-videos.mjs <url> …` | Lo mismo con enlaces concretos (p. ej., sacados con WebSearch) |
+| `node scripts/datos-videos.mjs --n N` | Plan B: deja en `investigacion/datos/<id>.json` (y `<id>.jpg`) los datos de los N primeros candidatos sin ver |
 
-**Si falta la clave o la red:** si los scripts dan «Falta GEMINI_API_KEY» o error de conexión, no
-improvises. Apunta el error en una línea al final y termina.
+**Si falta la clave de YouTube** (`GOOGLE_API_KEY`) o su red, no improvises: apunta el error en una línea al
+final y termina. Que falle Gemini ya no es motivo para parar: pasa al plan B.
+
+### Ficha con el plan B
+
+Por cada `investigacion/datos/<id>.json`:
+
+1. Léelo y **mira la miniatura con Read** si existe (`miniatura` no es `null`).
+2. Escribe `investigacion/fichas/<id>.json` con **el mismo formato que las de Gemini**, más
+   `"fuente": "claude"`. Rellena solo lo que se deduce de verdad:
+   - **`hook`:** sale del título, la miniatura y el arranque de la descripción;
+   - **`formato` y `nicho`:** de la miniatura, el canal y las etiquetas;
+   - **`duracion_s`:** de la duración;
+   - **`cierre.cta`:** si la descripción lo dice;
+   - **`por_que_engancha` y `que_lo_hace_premium`:** de lo que repiten los comentarios (qué citan, qué
+     aprendieron, qué piden). Es la mejor pista que tienes de qué retiene.
+   - **`idea_para_ALIGN`:** tu propia idea, nunca una copia.
+3. Lo que solo se sabe viendo el vídeo (`escenas`, `ritmo`, `momento_wow`, `sonido`, `camara_y_transiciones`,
+   `efectos`, `tipografia.animacion`, `recetas_remotion`) va como `"sin dato"`, o `[]` si es una lista.
+   **No lo inventes.** `nota_calidad_visual_1_10` solo se pone si hay miniatura, y se apunta que es «por la
+   miniatura».
+4. Marca `"visto": true` en ese candidato de `candidatos.json`.
+5. Commit de `investigacion/datos/` junto con las fichas.
+
+**Al cruzar fichas para `TECNICAS.md`:** las técnicas visuales y de sonido salen solo de las fichas con
+`"fuente": "gemini"`. Las de `"fuente": "claude"` cuentan para hooks, temas, formato y lo que pide el público.
 
 ## Paso 0 — Revisión de imágenes (cada noche, antes del AHORRO)
 
@@ -94,9 +128,10 @@ Escribe o actualiza `videos/public/img/<ID>/revision.json`:
    - quita los que tengan cara como formato principal, los que sean solo grabación de pantalla y los
      duplicados;
    - prioriza un ratio vistas/suscriptores alto (≥5) o más de 500.000 vistas.
-3. **Gemini los ve:** `ver-videos.mjs --n 100`.
+3. **Fichas:** `ver-videos.mjs --n 100` (plan A).
    - Con el tier gratis tarda unos 15 minutos.
-   - Si corta por cuota (429), sigue con lo que haya y apunta cuántos faltan.
+   - Si sale con `GEMINI NO DISPONIBLE`, haz el resto con el plan B (`datos-videos.mjs`, de 20 en 20) y apunta
+     cuántas fichas son de cada fuente.
 4. **Síntesis:** escribe `investigacion/TECNICAS.md` cruzando todas las fichas.
    - **Ranking de técnicas** que más se repiten en los vídeos con mejor ratio. Para cada una:
      - qué es;
@@ -124,7 +159,11 @@ Escribe o actualiza `videos/public/img/<ID>/revision.json`:
 - **Como mucho 5 vídeos nuevos por noche.**
 - **Antes de buscar**, lee en Aprendizajes solo «Qué funciona en NUESTRO perfil» y el experimento de la
   semana. Busca referencias que refuercen eso o el experimento.
-- Usa `buscar-shorts.mjs` con 1–2 consultas y después `ver-videos.mjs --n 5`.
+- Usa `buscar-shorts.mjs` con 1–2 consultas y después `ver-videos.mjs --n 5` (plan A).
+- Si sale con `GEMINI NO DISPONIBLE`, completa hasta 5 con el plan B: `datos-videos.mjs --n <los que falten>`
+  y escribe tú esas fichas («Ficha con el plan B»).
+- **No guardes candidatos sin ficha** como si fuera trabajo hecho: cada noche debe acabar con fichas nuevas
+  (salvo por AHORRO).
 - Por cada ficha nueva, crea una fila en Investigación.
 - Si una técnica nueva aparece en 3 o más fichas, añádela a `TECNICAS.md` como «Por implementar».
 - **Commit y push** de `investigacion/`.
@@ -134,6 +173,8 @@ Escribe o actualiza `videos/public/img/<ID>/revision.json`:
 - **Vídeo:** el título.
 - **Propiedades:** Enlace, Plataforma, Nicho, Vistas, Fecha (hoy), Patrón de hook, Por qué funciona y
   Adaptable a ALIGN.
+- **Fuente:** pon en «Por qué funciona» si la ficha es de Gemini (vio el vídeo) o de Claude (sin verlo, por
+  datos y comentarios).
 - **Dentro de la página**, el resumen de la ficha:
   - ritmo;
   - hook de 0–3 s;
@@ -151,4 +192,4 @@ Escribe o actualiza `videos/public/img/<ID>/revision.json`:
 - **Instagram y TikTok:** solo lo público vía buscador, sin iniciar sesión ni saltarte bloqueos. Si das con
   el mismo vídeo en YouTube, usa ese.
 
-**Termina:** una línea con lo añadido y, si revisaste imágenes, otra con el veredicto (p. ej., «Imágenes W48-01: 2 aprobadas · W48-02: 1 aprobada, 1 para rehacer»).
+**Termina:** una línea con lo añadido y de qué fuente (p. ej., «5 fichas: 0 Gemini (503), 5 Claude») y, si revisaste imágenes, otra con el veredicto (p. ej., «Imágenes W48-01: 2 aprobadas · W48-02: 1 aprobada, 1 para rehacer»).

@@ -68,13 +68,19 @@ for (const url of urls) {
   try {
     const ficha = await ver(url);
     const c = cand.find((x) => x.id === id);
-    writeFileSync(destino, JSON.stringify({ id, url, titulo: c?.titulo, canal: c?.canal, vistas: c?.vistas, ratio: c?.ratio, ...ficha }, null, 1));
+    writeFileSync(destino, JSON.stringify({ id, url, fuente: "gemini", titulo: c?.titulo, canal: c?.canal, vistas: c?.vistas, ratio: c?.ratio, ...ficha }, null, 1));
     if (c) c.visto = true;
     ok++;
     console.log(`OK ${id} · calidad ${ficha.nota_calidad_visual_1_10}`);
   } catch (e) {
     console.log(`FALLO ${id}: ${e.message}`);
-    if (/429|RESOURCE_EXHAUSTED/.test(e.message)) break; // cuota del día agotada: seguir mañana
+    // Gemini caído, saturado (503/500), sin cupo (429) o sin red: no insistir esta noche.
+    // El agente sigue con el plan B (datos-videos.mjs + Claude). Código de salida 3 = «usa el plan B».
+    if (/Gemini (5\d\d|429)|RESOURCE_EXHAUSTED|UNAVAILABLE|fetch failed|ECONN|ENOTFOUND/.test(e.message)) {
+      if (cand.length) writeFileSync(candPath, JSON.stringify(cand, null, 1));
+      console.log(`GEMINI NO DISPONIBLE · fichas nuevas: ${ok} · sigue con el plan B (Claude)`);
+      process.exit(3);
+    }
   }
   await new Promise((r) => setTimeout(r, ESPERA_MS));
 }

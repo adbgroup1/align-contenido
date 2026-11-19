@@ -92,7 +92,7 @@ La nube solo deja salir a los dominios permitidos en el entorno. Las claves van 
 | `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID` | Voz en off (`scripts/voz.mjs`) | `api.elevenlabs.io` |
 | `GEMINI_API_KEY` | Que Gemini vea los virales (`scripts/ver-videos.mjs`) y las imágenes de escena (`scripts/imagenes.mjs`) | `generativelanguage.googleapis.com` |
 | `OPENAI_API_KEY` (opcional) | Imágenes de escena con `scripts/imagenes.mjs --openai` | `api.openai.com` |
-| `GOOGLE_API_KEY` (obligatoria: la clave de Gemini está vinculada a una cuenta de servicio y no admite YouTube) | Buscar Shorts (`scripts/buscar-shorts.mjs`) | `www.googleapis.com` |
+| `GOOGLE_API_KEY` (obligatoria: la clave de Gemini está vinculada a una cuenta de servicio y no admite YouTube) | Buscar Shorts (`scripts/buscar-shorts.mjs`) y plan B de la investigación (`scripts/datos-videos.mjs`, sin Gemini) | `www.googleapis.com` (y `i.ytimg.com` para las miniaturas, opcional) |
 
 - Si falta una clave o un dominio, el script lo dice. Apúntalo y no improvises otra vía.
 
