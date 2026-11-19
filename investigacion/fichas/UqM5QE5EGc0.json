@@ -1,0 +1,51 @@
+{
+ "id": "UqM5QE5EGc0",
+ "url": "https://www.youtube.com/shorts/UqM5QE5EGc0",
+ "titulo": "Blockbuster rechazó el futuro #finanzaspersonales #animation #tarjetadecredito",
+ "canal": "Ultimo Dolar",
+ "vistas": 2036,
+ "ratio": 21.4,
+ "duracion_s": 44,
+ "formato": "animación 2D de dibujo lineal con colores planos y voz en off",
+ "formato_align": "Historia con personaje",
+ "estructura": "Empresa dominante → rechaza una oportunidad → el rival crece → caída (deducido del título; sin más dato)",
+ "nicho": "Motion otro nicho (negocios)",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: 'rechazó el futuro' con dos personajes ante un cartel de '214 million subscribers'",
+  "tecnica": "historia de error histórico",
+  "por_que_engancha": "el único comentario es autopromoción del vídeo largo; sin dato"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato (comentario fijado remite a la historia completa)"
+ },
+ "tipografia": {
+  "estilo": "rotulado a mano en colores dentro del cartel",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "por la miniatura: fondo verde lima saturado con cartel azul; muy vivo",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "cifra grande de suscriptores en un cartel",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "cifra enorme en pantalla como prueba del éxito del rival",
+  "trazo a mano cercano"
+ ],
+ "nota_calidad_visual_1_10": "5 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Historia de una decisión de 'no' que costó caro, contada en pequeño: alguien rechaza algo barato a los 25 años y a los 35 ve lo que habría tenido; el patrón es el error con consecuencias diferidas, no el caso empresarial.",
+ "apto_align": true
+}

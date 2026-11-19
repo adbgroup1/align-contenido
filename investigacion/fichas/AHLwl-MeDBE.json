@@ -1,0 +1,51 @@
+{
+ "id": "AHLwl-MeDBE",
+ "url": "https://www.youtube.com/shorts/AHLwl-MeDBE",
+ "titulo": "Si eres ambicioso pero vago, mira esto",
+ "canal": "Escuchando al dinero",
+ "vistas": 2036,
+ "ratio": 84.8,
+ "duracion_s": 31,
+ "formato": "animación 2D de personaje trajeado junto a un árbol de monedas, con voz en off",
+ "formato_align": "Historia con personaje",
+ "estructura": "sin dato",
+ "nicho": "Finanzas personales ES",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: reto 'si eres ambicioso pero vago, mira esto' con un personaje serio de brazos cruzados junto a un árbol del que caen monedas de euro",
+  "tecnica": "reto/llamada al perfil del espectador",
+  "por_que_engancha": "sin comentarios útiles; sin dato"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sin dato",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "por la miniatura: degradado azul intenso con árbol verde y monedas doradas; alto contraste",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "árbol de monedas como metáfora",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "llamada directa a un perfil de espectador en el título",
+  "metáfora visual sencilla del dinero que crece"
+ ],
+ "nota_calidad_visual_1_10": "5 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "«Si quieres ganar sin esforzarte cada día, mira esto»: llamar a un perfil concreto del espectador y enseñarle que lo único 'automático' es poner el ahorro en piloto automático y dejar que crezca.",
+ "apto_align": true
+}

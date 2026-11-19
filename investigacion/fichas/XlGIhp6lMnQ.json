@@ -1,0 +1,51 @@
+{
+ "id": "XlGIhp6lMnQ",
+ "url": "https://www.youtube.com/shorts/XlGIhp6lMnQ",
+ "titulo": "¿Un millón hoy o un centavo que se duplica 30 días? 🪙",
+ "canal": "What If Cash",
+ "vistas": 2270,
+ "ratio": 87.3,
+ "duracion_s": 75,
+ "formato": "animación 2D de personaje cartoon sobre fondos 3D, con voz en off y subtítulos palabra a palabra",
+ "formato_align": "Qué pasaría si",
+ "estructura": "Dilema entre dos opciones → cada personaje elige una → progresión día a día → giro: la mayor parte llega al final → advertencia práctica",
+ "nicho": "Finanzas personales ES",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: dilema '¿un millón hoy o un centavo que se duplica 30 días?' con personaje junto a fajos de billetes",
+  "tecnica": "dilema / reto al espectador",
+  "por_que_engancha": "sin comentarios útiles; sin dato"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "subtítulos blancos en negrita con sombra, palabra a palabra",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "por la miniatura: colores vivos (verde, rosa, cielo azul), fondo con desenfoque",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "fajos de billetes con etiqueta de cantidad; progresión de la cifra deducible por el título",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "dilema clásico que obliga a elegir antes de ver la respuesta",
+  "personaje simpático en escenario cuidado"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "«¿Qué prefieres: 300 € al mes ya o X € que crecen un poco cada mes?»: el espectador elige en comentarios, un contador va subiendo mes a mes y el giro llega al final; cierre con la advertencia de que nada real se duplica sin riesgo.",
+ "apto_align": true
+}

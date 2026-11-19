@@ -1,0 +1,51 @@
+{
+ "id": "_1mZnMISSdk",
+ "url": "https://www.youtube.com/shorts/_1mZnMISSdk",
+ "titulo": "El envío gratis no es gratis: esto es lo que no ves 📦  #dinero #finanzaspersonales",
+ "canal": "Detras del numero",
+ "vistas": 1963,
+ "ratio": 33.8,
+ "duracion_s": 37,
+ "formato": "ilustración IA estilo cartoon semirrealista con avatar del creador dibujado, titular y voz en off",
+ "formato_align": "Historia con personaje",
+ "estructura": "Personaje quiere algo → la oferta 'gratis' le hace gastar más → cifra final del sobrecoste → pregunta al espectador",
+ "nicho": "Finanzas personales ES (Latam)",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: 'EL ENVÍO GRATIS ES UN ANZUELO' con una caja colgada de un anzuelo y un avatar señalando a cámara",
+  "tecnica": "desmontar algo 'gratis' / trampa oculta",
+  "por_que_engancha": "sin comentarios útiles; sin dato"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "Síguenos para más psicología del dinero"
+ },
+ "tipografia": {
+  "estilo": "sans gruesa blanca con palabra clave en amarillo dorado subrayada",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "por la miniatura: fondo oscuro con resplandor dorado y partículas; contraste cálido muy alto",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "metáfora del anzuelo, entendible al instante",
+  "iluminación dorada con brillos"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "«Lo gratis que te sale caro»: un personaje persigue algo 'gratis' (envío, prueba de 30 días, regalo por compra) y un contador suma lo que acaba gastando de más; cierre con la cifra total y una pregunta.",
+ "apto_align": true
+}

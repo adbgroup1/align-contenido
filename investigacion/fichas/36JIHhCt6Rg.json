@@ -1,0 +1,52 @@
+{
+ "id": "36JIHhCt6Rg",
+ "url": "https://www.youtube.com/shorts/36JIHhCt6Rg",
+ "titulo": "¿1.000 € hoy o 3 € al día? El dinero caído del cielo se va antes #shorts",
+ "canal": "Marta y el Gasto",
+ "vistas": 2025,
+ "ratio": 225,
+ "duracion_s": 62,
+ "formato": "animación 2D de mascota (blob morado) con texturas y subtítulos palabra a palabra, voz en off",
+ "formato_align": "Comparación A/B",
+ "estructura": "Dilema entre dos formas de recibir el mismo dinero → el personaje prueba las dos → resultado de cada una → explicación con estudio → consejo",
+ "nicho": "Finanzas personales ES",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: dilema '¿1.000 € hoy o 3 € al día?' con un blob morado y una cómoda con cajones etiquetados ('caprichos', 'colchón')",
+  "tecnica": "dilema A/B con cifras",
+  "por_que_engancha": "sin comentarios útiles; sin dato"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "subtítulos blancos con palabra clave en amarillo",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "por la miniatura: noche azul violeta, madera cálida y acentos amarillos; textura de grano",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "cajones etiquetados como cuentas mentales",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "metáfora de cajones etiquetados para las 'cuentas mentales'",
+  "textura de grano y paleta cuidada",
+  "respaldo con un estudio citado"
+ ],
+ "nota_calidad_visual_1_10": "8 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Explicar por qué el dinero 'extra' (la paga extra, un Bizum de la abuela) se va antes que el sueldo, con cajones que se llenan y se vacían; el patrón es un dilema A/B que se resuelve con una idea de psicología del dinero.",
+ "apto_align": true
+}

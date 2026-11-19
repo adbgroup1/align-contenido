@@ -1,0 +1,51 @@
+{
+ "id": "BDqg5D2AQa8",
+ "url": "https://www.youtube.com/shorts/BDqg5D2AQa8",
+ "titulo": "Tus suscripciones son mascotas que se comen tu cartera 🐾 #shorts",
+ "canal": "Hola Soy Cero",
+ "vistas": 1806,
+ "ratio": 66.9,
+ "duracion_s": 37,
+ "formato": "animación 3D vóxel con personaje y criaturas (mascotas), subtítulos grandes y voz en off",
+ "formato_align": "Fábula con personajes",
+ "estructura": "Mundo con una regla (cada gasto es una criatura) → las criaturas se comen el dinero poco a poco → contador del saldo que baja → pregunta al espectador",
+ "nicho": "Finanzas personales ES",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: personaje vóxel enfadado con un saldo de 1.092 € encima rodeado de mascotas de colores; texto 'cada mes se comían su sueldo poco a poco'",
+  "tecnica": "metáfora de mundo (gastos como criaturas) + contador",
+  "por_que_engancha": "sin comentarios útiles; sin dato"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "Sígueme para más mundos como este; pregunta cuántas tienes"
+ },
+ "tipografia": {
+  "estilo": "condensada blanca en mayúsculas con palabra clave en amarillo",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "por la miniatura: cielo azul claro, verde césped y criaturas de colores; alegre",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "contador de saldo encima del personaje",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "saldo visible que baja como contador",
+  "personificar cada suscripción como una criatura"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Cada pequeño cargo mensual es un bicho que se sube a la cartera del personaje; un contador del saldo baja mientras aparecen más, y al final se pregunta cuántos bichos tiene el espectador.",
+ "apto_align": true
+}

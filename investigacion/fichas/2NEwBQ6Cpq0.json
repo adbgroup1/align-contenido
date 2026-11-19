@@ -1,0 +1,51 @@
+{
+ "id": "2NEwBQ6Cpq0",
+ "url": "https://www.youtube.com/shorts/2NEwBQ6Cpq0",
+ "titulo": "El pan subió de 1 € a 1,20 €… ¿por qué? 🥖📈",
+ "canal": "ExitoSFinancieros",
+ "vistas": 2141,
+ "ratio": 56.3,
+ "duracion_s": 27,
+ "formato": "animación 2D de personaje redondo en escena urbana con etiquetas de precio animadas y voz en off",
+ "formato_align": "Explicación",
+ "estructura": "Pregunta cotidiana sobre un precio que sube → explicación del concepto → consejo → pregunta para comentarios",
+ "nicho": "Finanzas personales ES",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: subida del pan de 1 € a 1,20 € con un monigote sorprendido frente a una panadería llena de etiquetas amarillas con flechas rojas",
+  "tecnica": "precio cotidiano que sube (cifra concreta)",
+  "por_que_engancha": "un comentario es autopromoción del canal y otro solo risas; sin dato"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "pregunta en la descripción: ¿qué es lo que más te ha subido a ti?"
+ },
+ "tipografia": {
+  "estilo": "subtítulos blancos en mayúsculas con palabra clave en amarillo",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "por la miniatura: colores planos vivos (azul, amarillo, rojo/blanco del toldo), buen contraste",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "etiquetas de precio con flechas rojas de subida",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "etiquetas de precio que se multiplican como metáfora visual de la inflación",
+  "producto cotidiano en euros que el público reconoce"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Coger un producto que el espectador compra cada semana, enseñar su precio de hace unos años y el de hoy con etiquetas que saltan, explicar en una frase qué ha pasado y preguntar qué le ha subido más a él.",
+ "apto_align": true
+}

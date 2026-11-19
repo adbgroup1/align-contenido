@@ -1,0 +1,51 @@
+{
+ "id": "tA1xwH5N2aA",
+ "url": "https://www.youtube.com/shorts/tA1xwH5N2aA",
+ "titulo": "POV: Your Whole Salary Is His Monday #shorts  #pov  #personalfinance  #animation #investing #money",
+ "canal": "Oxy Finance",
+ "vistas": 2315,
+ "ratio": 53.8,
+ "duracion_s": 98,
+ "formato": "ilustración cartoon tipo cómic a pantalla partida con voz en off",
+ "formato_align": "Comparación A/B",
+ "estructura": "POV del espectador → comparación con alguien en el extremo opuesto → pregunta de cuánto tardaría en alcanzarlo → escalera de niveles",
+ "nicho": "Finanzas personales EN",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: POV, pantalla partida trabajador cansado arriba vs. rico durmiendo abajo, cifras '$82K vs $110K' en el centro",
+  "tecnica": "POV + contraste A/B con cifras",
+  "por_que_engancha": "el único comentario visible es una identificación personal con el madrugón del trabajador; sin más dato"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato (la descripción remite a un vídeo largo)"
+ },
+ "tipografia": {
+  "estilo": "sans gruesa amarilla con contorno negro en la franja central",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "por la miniatura: mitad superior fría y oscura (azul gris), mitad inferior cálida (rojo y dorado); contraste fuerte entre mitades",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "cifras enfrentadas en la miniatura; resto sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "pantalla partida con paletas fría/cálida que cuentan la historia sin texto",
+  "cifras grandes enfrentadas con rayo divisor"
+ ],
+ "nota_calidad_visual_1_10": "7 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "POV: lo que ganas en un año frente a lo que gana en intereses una cartera grande mientras su dueño duerme; pantalla partida y la pregunta de cuántos años tardarías tú en igualarlo ahorrando.",
+ "apto_align": true
+}

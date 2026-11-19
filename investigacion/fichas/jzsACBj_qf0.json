@@ -1,0 +1,51 @@
+{
+ "id": "jzsACBj_qf0",
+ "url": "https://www.youtube.com/shorts/jzsACBj_qf0",
+ "titulo": "Ganaba $3.000 al mes… ¿por qué siempre estaba SIN DINERO? 😱💸 | 11.ai",
+ "canal": "Finanzas Don Lucho",
+ "vistas": 1724,
+ "ratio": 8.1,
+ "duracion_s": 67,
+ "formato": "animación 3D low-poly de personaje recurrente (Don Lucho) con subtítulos y voz en off",
+ "formato_align": "Historia con personaje",
+ "estructura": "Personaje gana más → sube su nivel de vida → los gastos y deudas se acumulan → acaba igual o peor → lección",
+ "nicho": "Finanzas personales ES (Latam)",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "por título y miniatura: 'ganaba 3.000 $ al mes y siempre estaba sin dinero' con un señor de bigote pensativo y un signo de interrogación",
+  "tecnica": "paradoja (gana mucho pero no tiene nada)",
+  "por_que_engancha": "los comentarios se identifican con los pequeños caprichos ('gustitos'); el fijado repite la paradoja de ganar el triple y acabar en cero"
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "subtítulos blancos en negrita con contorno",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "por la miniatura: fondo rojo oscuro, camisa azul clara y lámpara amarilla; cálido",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "personaje recurrente con rasgos marcados",
+  "escena 3D sencilla pero cuidada"
+ ],
+ "nota_calidad_visual_1_10": "6 (por la miniatura)",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Un personaje recurrente que sube de sueldo y, con cada subida, aparece un gasto nuevo en pantalla hasta que el saldo vuelve a cero; enseña la inflación del estilo de vida.",
+ "apto_align": true
+}
