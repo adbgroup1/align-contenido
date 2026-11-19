@@ -58,6 +58,8 @@ Lee `GUIA.md` y puntúa cada guion de 1 a 5 en:
       (`https://app.metricool.com/planner/calendar?blogId=5900765&openWithPostUuid=<uuid>`). Apúntalo en el informe.
     - Solo si no está en Metricool, va a «Necesito de ti:»;
   - semana sin guiones el jueves (la rutina Semana corre los miércoles).
+- **Aprobados a medias:** filas en `Aprobado` con «Tu decisión» vacía. Así no se publican. Ponlo así: «W47-02:
+  parece aprobado pero falta "Tu decisión" = Aprobar en Notion».
 - **Errores** que otros agentes hayan dejado en «Nota del manager».
 - **Lo que falte para publicar:** por ejemplo, una red sin conectar en Metricool o el plan al límite.
 

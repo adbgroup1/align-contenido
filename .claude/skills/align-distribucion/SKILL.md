@@ -13,6 +13,21 @@ Lee antes `CLAUDE.md`.
 
 Si no hay ninguna, responde «Sin decisiones nuevas» y termina.
 
+### Filas en `Aprobado` sin «Tu decisión» = Aprobar: no programes, avisa
+
+Pasó el 16 y el 17 nov. W47-02, 03 y 04 estaban en `Aprobado` con «Tu decisión» vacía, así que no se
+programaron, nadie avisó a Andrés y se perdió la publicación del martes 17.
+
+- **No las programes.** Solo vale «Tu decisión» = `Aprobar`.
+- **Esa misma noche**, manda **un** correo a Andrés (regla «Avisar a Andrés» de `CLAUDE.md`) con todas las
+  filas afectadas:
+  `ALIGN: <IDs> parecen aprobados pero falta «Tu decisión» = Aprobar`
+  y, debajo, «Pon "Aprobar" en la columna "Tu decisión" de Notion y los programo esta noche o mañana a las
+  21:00», con el enlace a cada fila.
+- En la «Nota del manager» de cada fila, escribe: «Sin programar: falta "Tu decisión" = Aprobar (avisado el
+  <fecha>)».
+- **Si ya lo avisaste un día anterior** (la nota lo dice), no repitas el correo. El parte diario lo recordará.
+
 ## Según la decisión
 
 ### «Descartar»

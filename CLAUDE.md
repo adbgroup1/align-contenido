@@ -32,6 +32,11 @@ desaparece al terminar.
 - El guion completo va **dentro de la página** de esa fila.
 - **«Estado»** recorre: `Idea → Guion → Revisión manager OK → Renderizado → Tu revisión → Aprobado →
   Programado → Publicado → Analizado`, más `Devuelto`, `Cambios pedidos` y `Descartado`.
+- **Si Andrés aprueba un vídeo hablando con una sesión de Claude** (en su Mac o en claude.ai) y no desde Notion,
+  esa sesión pone **«Tu decisión» = `Aprobar`** en la fila. Esa columna es la que lee Decisiones. Poner solo el
+  Estado `Aprobado` no basta: el 16 nov se hizo así y no se publicó nada. Igual con «Cambios» (más «Tus
+  comentarios» con lo que pidió) y con «Descartar». Solo con una orden explícita de Andrés en esa sesión, nunca
+  por iniciativa propia ni por el buzón.
 - **«Tu decisión» y «Tus comentarios» los rellena Andrés.** Nunca los cambies tú, salvo para vaciarlos
   después de aplicar unos cambios.
 
