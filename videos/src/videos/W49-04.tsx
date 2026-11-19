@@ -1,5 +1,5 @@
 import React from "react";
-import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { COLORS } from "../brand";
 import { Bocadillo, Chispas, CtaCrecer, DefEscena, Escena, Escenario, Expresion, Foto, Montaje, Personaje, Pose, PropsVoz, Rotulo, Sfx, SUELO_Y, useSpring } from "../kit";
 
@@ -19,22 +19,38 @@ const useSeg = () => {
   return f / fps;
 };
 
-/* ---------- Sala: estrado, banquillo ---------- */
-const Sala: React.FC = () => (
-  <>
-    <Escenario tipo="interior" />
-    <svg width={1080} height={1920} style={{ position: "absolute", left: 0, top: 0 }}>
-      {/* escudo genérico en la pared */}
-      <circle cx={540} cy={520} r={90} fill={COLORS.gold} opacity={0.25} />
-      <path d="M540 450 L600 480 V540 Q600 590 540 610 Q480 590 480 540 V480 Z" fill={COLORS.gold} opacity={0.5} stroke={COLORS.choco} strokeWidth={4} />
-      {/* barandilla */}
-      <rect x={0} y={SUELO_Y - 170} width={1080} height={16} fill={COLORS.choco} />
-      {Array.from({ length: 14 }, (_, k) => (
-        <rect key={k} x={20 + k * 78} y={SUELO_Y - 160} width={14} height={160} fill={COLORS.choco} opacity={0.6} />
-      ))}
-    </svg>
-  </>
-);
+/* ---------- Sala de juicio (propia, sin ventana ni cuadros) ---------- */
+const Sala: React.FC = () => {
+  const f = useCurrentFrame();
+  return (
+    <AbsoluteFill style={{ background: `linear-gradient(180deg, #5A3520 0%, ${COLORS.choco} 55%, #4A2C1A 100%)`, overflow: "hidden" }}>
+      <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
+        {/* paneles de madera */}
+        {Array.from({ length: 6 }, (_, k) => (
+          <rect key={k} x={30 + k * 175} y={120} width={150} height={560} rx={10} fill={COLORS.chocoLight} opacity={0.18} stroke="#000" strokeOpacity={0.15} strokeWidth={4} />
+        ))}
+        {/* luz cenital que respira */}
+        <ellipse cx={540} cy={560} rx={520} ry={300} fill={COLORS.gold} opacity={0.07 + 0.02 * Math.sin(f / 20)} />
+        {/* escudo genérico */}
+        <path d="M540 470 L600 495 V550 Q600 600 540 620 Q480 600 480 550 V495 Z" fill={COLORS.gold} opacity={0.55} stroke="#3A2214" strokeWidth={5} />
+        <path d="M515 540 L540 565 L570 520" stroke="#3A2214" strokeWidth={8} fill="none" strokeLinecap="round" opacity={0.6} />
+        {/* estrado del juez */}
+        <rect x={190} y={700} width={700} height={330} rx={16} fill="#6B3E24" stroke="#3A2214" strokeWidth={6} />
+        <rect x={170} y={680} width={740} height={40} rx={12} fill={COLORS.chocoLight} stroke="#3A2214" strokeWidth={6} />
+        {[0, 1, 2].map((k) => (
+          <rect key={k} x={230 + k * 220} y={750} width={180} height={240} rx={10} fill="none" stroke="#3A2214" strokeOpacity={0.5} strokeWidth={5} />
+        ))}
+        {/* barandilla delante */}
+        <rect x={0} y={SUELO_Y - 150} width={1080} height={16} fill="#3A2214" />
+        {Array.from({ length: 14 }, (_, k) => (
+          <rect key={k} x={20 + k * 78} y={SUELO_Y - 140} width={14} height={140} fill="#3A2214" opacity={0.55} />
+        ))}
+        <rect x={0} y={SUELO_Y} width={1080} height={700} fill="#2A190F" />
+      </svg>
+      <AbsoluteFill style={{ background: `linear-gradient(180deg, transparent 0%, transparent 66%, ${COLORS.navy}AA 80%, ${COLORS.navy}EE 100%)` }} />
+    </AbsoluteFill>
+  );
+};
 
 /* ---------- Dani ---------- */
 const Dani: React.FC<{ x: number; y?: number; escala?: number; expresion?: Expresion; pose?: Pose; mirar?: "izq" | "der" | "frente"; salto?: number; sudor?: boolean; anda?: boolean }> = ({
@@ -104,24 +120,35 @@ const Buho: React.FC<{ x: number; y?: number; escala?: number; expresion?: Expre
   );
 };
 
-/* ---------- Mazo ---------- */
+/* ---------- Mazo: taco de madera + mazo que gira sobre el extremo del mango ---------- */
 const Mazo: React.FC<{ x: number; y: number; golpe: number; escala?: number }> = ({ x, y, golpe, escala = 1 }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const k = f / fps - golpe;
-  const ang = k < 0 ? interpolate(k, [-0.35, 0], [-55, 0], clamp) : k < 0.3 ? Math.sin(k * 30) * 6 * (1 - k / 0.3) : 0;
+  const ang = k < -0.35 ? 45 : k < 0 ? interpolate(k, [-0.35, -0.08, 0], [45, 55, 0], clamp) : k < 0.3 ? Math.abs(Math.sin(k * 20)) * 10 * (1 - k / 0.3) : 0;
   return (
     <svg width={1080} height={1920} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
       <g transform={`translate(${x} ${y}) scale(${escala})`}>
-        <ellipse cx={0} cy={20} rx={90} ry={20} fill={COLORS.choco} stroke={COLORS.navy} strokeWidth={4} />
-        <g transform={`translate(110 -20) rotate(${ang})`}>
-          <rect x={-10} y={-10} width={160} height={20} rx={8} fill={COLORS.chocoLight} stroke={COLORS.navy} strokeWidth={4} transform="rotate(-20)" />
-          <rect x={-80} y={-40} width={110} height={70} rx={14} fill={COLORS.choco} stroke={COLORS.navy} strokeWidth={4} transform="translate(-20 30)" />
+        {/* taco */}
+        <ellipse cx={0} cy={18} rx={95} ry={20} fill="#3A2214" />
+        <rect x={-95} y={-4} width={190} height={22} fill={COLORS.choco} stroke={COLORS.navy} strokeWidth={4} />
+        <ellipse cx={0} cy={-4} rx={95} ry={20} fill={COLORS.chocoLight} stroke={COLORS.navy} strokeWidth={4} />
+        {/* mazo: pivota en el extremo del mango */}
+        <g transform={`translate(190 -70) rotate(${ang})`}>
+          <rect x={-190} y={-9} width={190} height={18} rx={9} fill={COLORS.chocoLight} stroke={COLORS.navy} strokeWidth={4} />
+          <g transform="translate(-190 0)">
+            <rect x={-34} y={-58} width={68} height={116} rx={18} fill={COLORS.choco} stroke={COLORS.navy} strokeWidth={5} />
+            <rect x={-34} y={-58} width={68} height={22} rx={8} fill={COLORS.gold} stroke={COLORS.navy} strokeWidth={4} />
+            <rect x={-34} y={36} width={68} height={22} rx={8} fill={COLORS.gold} stroke={COLORS.navy} strokeWidth={4} />
+          </g>
         </g>
         {k >= 0 && k < 0.4
-          ? [0, 1, 2, 3].map((j) => (
-              <line key={j} x1={0} y1={0} x2={Math.cos((j / 3) * Math.PI + Math.PI) * (60 + k * 200)} y2={Math.sin((j / 3) * Math.PI + Math.PI) * (40 + k * 120)} stroke={COLORS.gold} strokeWidth={6} opacity={1 - k / 0.4} strokeLinecap="round" />
-            ))
+          ? [0, 1, 2, 3, 4].map((j) => {
+              const a2 = Math.PI + (j / 4) * Math.PI;
+              return (
+                <line key={j} x1={Math.cos(a2) * 70} y1={-20 + Math.sin(a2) * 30} x2={Math.cos(a2) * (110 + k * 220)} y2={-20 + Math.sin(a2) * (50 + k * 120)} stroke={COLORS.gold} strokeWidth={7} opacity={1 - k / 0.4} strokeLinecap="round" />
+              );
+            })
           : null}
       </g>
     </svg>
@@ -306,7 +333,7 @@ const Rehook: React.FC = () => (
 
 const Pregunta: React.FC = () => {
   const t = useSeg();
-  const z = interpolate(t, [0, 1.6], [1, 1.25], clamp);
+  const z = interpolate(t, [0, 1.6], [1, 1.15], clamp);
   const bote = Math.abs(Math.sin(t * 6)) * 30;
   return (
     <Escena>
@@ -328,10 +355,10 @@ const Wow: React.FC = () => {
     <Escena sacudidas={[1.6]}>
       <Sala />
       <Cartel x={540} y={420} parte={parte} />
-      <div style={{ position: "absolute", top: 260, left: 0, right: 0, textAlign: "center", fontSize: 54, fontWeight: 900, color: COLORS.white, textShadow: "0 6px 20px rgba(0,0,0,0.4)" }}>
+      <div style={{ position: "absolute", top: 260, left: 0, right: 0, textAlign: "center", fontSize: 76, fontWeight: 900, color: COLORS.white, textShadow: "0 6px 20px rgba(0,0,0,0.4)" }}>
         40 € ÷ 2 visitas
       </div>
-      <Mazo x={540} y={720} golpe={1.6} escala={1.1} />
+      <Mazo x={540} y={760} golpe={1.6} escala={1.1} />
       <Dani x={220} escala={1.1} expresion={t > 1.7 ? "sorpresa" : "preocupado"} salto={1.7} />
       <Buho x={880} escala={1.1} expresion="feliz" />
       <Chispas en={1.7} x={540} y={600} color={COLORS.red} />
