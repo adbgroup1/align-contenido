@@ -1,0 +1,186 @@
+# Hooks · 2026-W49
+
+Agente 3 · 19 nov 2026. Hooks de 6–10 palabras, en mitad de la acción, legibles sin sonido. Lo que se ve y lo que
+se lee dicen lo mismo desde el fotograma 0.
+
+---
+
+## Idea 1 · Las 4 fugas de tu cuenta (Lista · GUARDAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Error común | **Tu cuenta pierde agua por cuatro sitios a la vez** | Depósito de agua azul con 4 chorros saliendo y el nivel bajando | ¿Qué cuatro sitios? → s 6 a 24, uno a uno |
+| B | Nadie te dice | **Nadie te dice por dónde se te escapa el sueldo** | Monedas cayendo por grietas de un depósito | ¿Por dónde? → s 6 |
+| C | Pregunta | **¿Cuántas fugas tiene tu cuenta? Yo conté cuatro** | Depósito con lupa recorriéndolo | ¿Cuáles? → s 6 |
+
+**Gana A.** Es la metáfora visual en el fotograma 0 (el patrón de la ficha: problema dentro de un objeto) y promete
+una lista concreta de 4. B es más genérica; C abre igual pero sin imagen tan clara.
+
+- **Segundo gancho (s 3–6):** «Y no son caprichos: van solas.» (llega la cuadrilla de obreros diminutos con casco).
+- **Re-hook (s ~16):** «La tercera la tiene casi todo el mundo.»
+- **Bucle:** cierre «… y el agua, por fin, se queda dentro.» → el depósito lleno enlaza con el depósito del inicio.
+- **CTA GUARDAR:** voz «Guárdalo y tapa una fuga el día que cobres. Síguenos para más.» · pantalla **GUÁRDALO**.
+- **Caption:**
+  Tu cuenta pierde dinero por cuatro sitios y ninguno es un capricho.
+  Guárdalo y tapa una fuga el día que cobres.
+  #finanzaspersonales #ahorro #dinero #organizartudinero
+  Contenido informativo, no es asesoramiento financiero.
+
+---
+
+## Idea 2 · ¿Y si mañana cierra tu banco? (Qué pasaría si · COMENTAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Pregunta | **¿Y si mañana tu banco no abre?** | Persiana metálica de una sucursal que baja de golpe | ¿Qué pasa con mi dinero? → s 9 |
+| B | Número sorprendente | **Hay una cifra que protege tu dinero: cien mil** | «100.000 €» dentro de una cúpula | ¿Protege de qué? → s 6 |
+| C | Mito | **«El dinero en el banco está seguro». Hasta cierto punto** | Hucha con un candado que se abre | ¿Hasta dónde? → s 9 |
+
+**Gana A.** La premisa hipotética grande y con imagen inmediata (la persiana que baja) es el patrón del viral de
+4,5 M. B gasta la revelación demasiado pronto; C suena a miedo.
+
+- **Segundo gancho (s 3–6):** «Tranquilo: hay un fondo que te devuelve el dinero. Pero con un límite.»
+- **Re-hook (s ~15):** «Y lo que pasa de ese límite…»
+- **Bucle:** cierre «… así que, si mañana no abre, ya sabes qué recuperas.» → enlaza con la persiana del hook.
+- **CTA COMENTAR:** voz «¿Lo sabías antes de este vídeo? Sí o no, te leo. Síguenos para más.» · pantalla
+  **¿LO SABÍAS? SÍ / NO**. **Comentario fijado:** «¿Sabías que el fondo cubre hasta 100.000 € por persona y
+  banco? SÍ o NO 👇».
+- **Caption:**
+  ¿Y si mañana tu banco no abre? Esto es lo que recuperas.
+  ¿Lo sabías? Responde SÍ o NO.
+  #finanzaspersonales #dinero #ahorro #españa
+  Contenido informativo, no es asesoramiento financiero.
+
+---
+
+## Idea 3 · Tres ardillas y una paga extra (Fábula · COMENTAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Historia | **Tres ardillas cobran la paga extra. Solo una acierta** | Tres ardillas dibujadas, cada una con una bolsa de bellotas | ¿Cuál? → wow s 20 |
+| B | Contraste | **Misma paga extra, tres finales muy distintos** | Tres bolsas iguales que se separan en tres caminos | ¿Qué finales? → s 20 |
+| C | Pregunta | **¿Qué haces tú con la paga de diciembre?** | Calendario en diciembre y una bolsa de bellotas | → s 20 |
+
+**Gana A.** Presenta a los personajes y abre la intriga en una frase («solo una acierta»), como en la ficha de los
+tres personajes con el mismo recurso. C no tiene personaje en el fotograma 0.
+
+- **Segundo gancho (s 3–6):** «Lola se la come. Bruno la entierra. Nina planta un poco.»
+- **Re-hook (s ~18):** «Diez años después…»
+- **Bucle:** cierre «… y el diciembre que viene, otra paga extra.» → enlaza con las tres ardillas cobrando.
+- **CTA COMENTAR:** voz «¿Tú cuál eres, uno, dos o tres? Te leo. Síguenos para más.» · pantalla **¿1, 2 o 3?**.
+  **Comentario fijado:** «¿Lola (1), Bruno (2) o Nina (3)? Sé sincero 👇».
+- **Caption:**
+  Tres ardillas, la misma paga extra y tres finales distintos.
+  ¿Tú cuál eres: 1, 2 o 3?
+  #pagaextra #finanzaspersonales #interescompuesto #ahorro
+  Contenido informativo, no es asesoramiento financiero.
+
+---
+
+## Idea 4 · Juicio al gimnasio que no pisas (Historia · COMPARTIR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Contraste | **Dani paga 40 € de gimnasio. Cada visita, 20** | Dani dibujado en el banquillo de un juicio, con la cuota en un cartel | ¿Cómo 20? → wow s 14 |
+| B | Historia | **Hoy juzgamos al gimnasio de Dani** | Mazo de juez golpeando, Dani nervioso | ¿Culpable? → s 22 |
+| C | Error común | **El gimnasio barato que te sale carísimo** | Cuota «40 €/mes» que se infla | ¿Por qué? → s 14 |
+
+**Gana B.** El «juicio» es el patrón de la ficha (ratio 388) y arranca en mitad de la acción con un personaje; A
+gasta la revelación (20 €) en el hook. C es genérico.
+
+- **Segundo gancho (s 3–6):** «Él dice que es barato: solo cuarenta euros al mes.»
+- **Re-hook (s ~16):** «Pero la fiscal tiene una pregunta.»
+- **Bucle:** cierre «… se levanta la sesión. Mañana, Dani va al gimnasio.» → enlaza con el juicio.
+- **CTA COMPARTIR:** voz «Mándaselo a quien paga el gimnasio y no va. Síguenos para más.» · pantalla **MÁNDASELO**.
+- **Caption:**
+  Hoy juzgamos al gimnasio de Dani.
+  Mándaselo a quien paga el gimnasio y no va.
+  #finanzaspersonales #ahorro #gimnasio #dinero
+  Contenido informativo, no es asesoramiento financiero.
+
+---
+
+## Idea 5 · Dos amigos, mismo presupuesto de Navidad (Comparación A/B · GUARDAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Contraste | **Mismos 300 € de Navidad. Uno llega a enero sonriendo** | Pantalla partida: Marta y Leo, cada uno con 300 € | ¿Cuál y por qué? → s 20 |
+| B | Error común | **Así se te va la Navidad sin darte cuenta** | Saldo bajando a la derecha | → s 15 |
+| C | Pregunta | **¿Cómo llegas tú a enero?** | Calendario saltando al 7 de enero | → s 20 |
+
+**Gana A.** Pantalla partida legible de un vistazo (el patrón nº 1 de hooks del estudio) y abre la pregunta «¿cuál?».
+
+- **Segundo gancho (s 3–6):** «La diferencia no es el dinero. Es lo que hace Marta el día uno.»
+- **Re-hook (s ~16):** «Y entonces llega la cena de empresa…»
+- **Bucle:** cierre «… el año que viene, mismos 300 €.» → enlaza con el hook.
+- **CTA GUARDAR:** voz «Guárdalo y haz los sobres el día que cobres la paga. Síguenos para más.» · pantalla **GUÁRDALO**.
+- **Caption:**
+  Mismo presupuesto de Navidad, dos eneros muy distintos.
+  Guárdalo y haz los sobres el día que cobres la paga.
+  #navidad #finanzaspersonales #ahorro #presupuesto
+  Contenido informativo, no es asesoramiento financiero.
+
+---
+
+## Idea 6 · Lo que llevas gastado en Lotería (Contador · COMENTAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Número sorprendente | **Desde los 18, llevas esto gastado en Lotería** | Contador en 0 € que empieza a subir con un tono | ¿Cuánto? → wow s 14 |
+| B | Pregunta | **¿Cuántos décimos has comprado en tu vida?** | Décimos dibujados apilándose | → s 14 |
+| C | Mito | **«Este año toca». La cuenta dice otra cosa** | Bombo girando | → s 18 |
+
+**Gana A.** El contador que se mueve desde el fotograma 0 es el formato mismo, y nadie se va sin ver dónde acaba.
+
+- **Segundo gancho (s 3–6):** «Setenta euros al año no parecen nada. Pero suma.»
+- **Re-hook (s ~16):** «Y ahora, la otra cifra: tus posibilidades.»
+- **Bucle:** cierre «… y el contador vuelve a empezar este diciembre.» → enlaza con el contador a 0.
+- **CTA COMENTAR:** voz «¿Cuánto llevas tú? Te leo. Síguenos para más.» · pantalla **¿CUÁNTO LLEVAS TÚ?**.
+  **Comentario fijado:** «¿Cuánto gastas tú cada Navidad en Lotería? 👇».
+- **Caption:**
+  Desde los 18, llevas esto gastado en Lotería de Navidad.
+  ¿Cuánto llevas tú?
+  #loteriadenavidad #finanzaspersonales #dinero #españa
+  Contenido informativo, no es asesoramiento financiero.
+
+---
+
+## Idea 7 · POV: tu tarjeta te habla en diciembre (Fábula · COMPARTIR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Historia | **POV: tu tarjeta te habla el 15 de diciembre** | Tarjeta con cara agotada, sudando | ¿Qué dice? → s 4 |
+| B | Error común | **«Solo esta vez». Por vigésima vez** | Tarjeta con contador «×20» | → s 12 |
+| C | Pregunta | **¿Diciembre es caro o eres tú?** | Tarjeta mirando a cámara con los brazos cruzados | → s 14 |
+
+**Gana A.** POV con el objeto personificado (ficha de ratio 347): identificación inmediata y humor.
+
+- **Segundo gancho (s 3–6):** «Oye, ¿otra cena? Llevamos diecinueve "solo esta vez".»
+- **Bucle:** cierre «… nos vemos el 16.» → enlaza con «el 15 de diciembre».
+- **CTA COMPARTIR:** voz «Mándaselo a quien dice "es Navidad, una vez al año". Síguenos para más.» · **MÁNDASELO**.
+- **Caption:**
+  POV: tu tarjeta te habla en diciembre.
+  Mándaselo a quien dice «es Navidad, una vez al año».
+  #navidad #humor #finanzaspersonales #dinero
+  Contenido informativo, no es asesoramiento financiero.
+
+---
+
+## Idea 8 · Qué es un fondo indexado, en un solo dibujo (Explicación · GUARDAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Pregunta | **Fondo indexado: lo entiendes con este dibujo** | Un círculo vacío que empieza a dibujarse | ¿Qué es? → s 20 |
+| B | Mito | **Invertir no es elegir la empresa ganadora** | Dedo que duda entre logos genéricos | → s 10 |
+| C | Nadie te dice | **Nadie te lo explica así de simple** | Cesta vacía | → s 12 |
+
+**Gana A.** Promesa concreta y la imagen ya empieza a montarse en el fotograma 0 (ficha del diagrama, ratio 430).
+
+- **Segundo gancho (s 3–6):** «En vez de elegir una empresa, te llevas un poco de todas.»
+- **Bucle:** el círculo se cierra en la misma flecha con la que empezó.
+- **CTA GUARDAR:** voz «Guárdalo para cuando te lo pregunten. Síguenos para más.» · **GUÁRDALO**.
+- **Caption:**
+  Fondo indexado, explicado en un solo dibujo.
+  Guárdalo para cuando te lo pregunten.
+  #fondosindexados #invertir #finanzaspersonales #dinero
+  Contenido informativo, no es asesoramiento financiero.
