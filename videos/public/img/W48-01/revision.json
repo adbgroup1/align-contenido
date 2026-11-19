@@ -1,0 +1,8 @@
+{
+  "revisado": "2026-11-19",
+  "estado": "aprobadas",
+  "imagenes": {
+    "06-carrito-lleno": { "veredicto": "aprobada", "md5": "3e0d273e52c84dbdc26b789da2db76dc" },
+    "07-carrito-vacio": { "veredicto": "aprobada", "md5": "d79132bf16f54d799c3800273aa2d8f2" }
+  }
+}

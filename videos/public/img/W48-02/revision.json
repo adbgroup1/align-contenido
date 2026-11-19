@@ -1,0 +1,8 @@
+{
+  "revisado": "2026-11-19",
+  "estado": "aprobadas",
+  "imagenes": {
+    "02-cesta-llena": { "veredicto": "aprobada", "md5": "0723e92bc08c276fb7740b3cb98a210f" },
+    "06-cesta-menos": { "veredicto": "aprobada", "md5": "749b9e347ba712070a85af0f7bfa3f8a" }
+  }
+}
