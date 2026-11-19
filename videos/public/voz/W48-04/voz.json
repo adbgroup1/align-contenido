@@ -1,0 +1,581 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Tres euros al día. Parece nada, ¿verdad?",
+   "archivo": "hook.mp3",
+   "segundos": 2.403265,
+   "palabras": [
+    {
+     "t": "Tres",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "euros",
+     "inicio": 0.36,
+     "fin": 0.627
+    },
+    {
+     "t": "al",
+     "inicio": 0.685,
+     "fin": 0.755
+    },
+    {
+     "t": "día.",
+     "inicio": 0.801,
+     "fin": 1.126
+    },
+    {
+     "t": "Parece",
+     "inicio": 1.242,
+     "fin": 1.567
+    },
+    {
+     "t": "nada,",
+     "inicio": 1.614,
+     "fin": 1.823
+    },
+    {
+     "t": "¿verdad?",
+     "inicio": 1.846,
+     "fin": 2.368
+    }
+   ]
+  },
+  {
+   "id": "gancho2",
+   "texto": "Mira lo que pasa si no paras el contador.",
+   "archivo": "gancho2.mp3",
+   "segundos": 1.854694,
+   "palabras": [
+    {
+     "t": "Mira",
+     "inicio": 0,
+     "fin": 0.244
+    },
+    {
+     "t": "lo",
+     "inicio": 0.279,
+     "fin": 0.348
+    },
+    {
+     "t": "que",
+     "inicio": 0.395,
+     "fin": 0.464
+    },
+    {
+     "t": "pasa",
+     "inicio": 0.511,
+     "fin": 0.72
+    },
+    {
+     "t": "si",
+     "inicio": 0.743,
+     "fin": 0.813
+    },
+    {
+     "t": "no",
+     "inicio": 0.859,
+     "fin": 0.929
+    },
+    {
+     "t": "paras",
+     "inicio": 0.975,
+     "fin": 1.207
+    },
+    {
+     "t": "el",
+     "inicio": 1.265,
+     "fin": 1.312
+    },
+    {
+     "t": "contador.",
+     "inicio": 1.347,
+     "fin": 1.811
+    }
+   ]
+  },
+  {
+   "id": "hormiga",
+   "texto": "Un café por aquí, un snack por allá, una app que no usas.",
+   "archivo": "hormiga.mp3",
+   "segundos": 3.343673,
+   "palabras": [
+    {
+     "t": "Un",
+     "inicio": 0,
+     "fin": 0.163
+    },
+    {
+     "t": "café",
+     "inicio": 0.209,
+     "fin": 0.418
+    },
+    {
+     "t": "por",
+     "inicio": 0.464,
+     "fin": 0.592
+    },
+    {
+     "t": "aquí,",
+     "inicio": 0.627,
+     "fin": 0.975
+    },
+    {
+     "t": "un",
+     "inicio": 1.057,
+     "fin": 1.184
+    },
+    {
+     "t": "snack",
+     "inicio": 1.219,
+     "fin": 1.428
+    },
+    {
+     "t": "por",
+     "inicio": 1.486,
+     "fin": 1.602
+    },
+    {
+     "t": "allá,",
+     "inicio": 1.649,
+     "fin": 1.939
+    },
+    {
+     "t": "una",
+     "inicio": 2.055,
+     "fin": 2.264
+    },
+    {
+     "t": "app",
+     "inicio": 2.31,
+     "fin": 2.438
+    },
+    {
+     "t": "que",
+     "inicio": 2.519,
+     "fin": 2.601
+    },
+    {
+     "t": "no",
+     "inicio": 2.659,
+     "fin": 2.752
+    },
+    {
+     "t": "usas.",
+     "inicio": 2.798,
+     "fin": 3.297
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "texto": "Ni lo notas. Pero el contador no duerme.",
+   "archivo": "rehook.mp3",
+   "segundos": 2.742857,
+   "palabras": [
+    {
+     "t": "Ni",
+     "inicio": 0,
+     "fin": 0.139
+    },
+    {
+     "t": "lo",
+     "inicio": 0.186,
+     "fin": 0.244
+    },
+    {
+     "t": "notas.",
+     "inicio": 0.29,
+     "fin": 0.731
+    },
+    {
+     "t": "Pero",
+     "inicio": 0.848,
+     "fin": 1.068
+    },
+    {
+     "t": "el",
+     "inicio": 1.091,
+     "fin": 1.149
+    },
+    {
+     "t": "contador",
+     "inicio": 1.207,
+     "fin": 1.718
+    },
+    {
+     "t": "no",
+     "inicio": 1.858,
+     "fin": 1.95
+    },
+    {
+     "t": "duerme.",
+     "inicio": 2.009,
+     "fin": 2.694
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "En un año: mil noventa y cinco euros.",
+   "archivo": "wow.mp3",
+   "segundos": 2.586122,
+   "palabras": [
+    {
+     "t": "En",
+     "inicio": 0,
+     "fin": 0.163
+    },
+    {
+     "t": "un",
+     "inicio": 0.232,
+     "fin": 0.302
+    },
+    {
+     "t": "año:",
+     "inicio": 0.348,
+     "fin": 0.731
+    },
+    {
+     "t": "mil",
+     "inicio": 0.894,
+     "fin": 1.103
+    },
+    {
+     "t": "noventa",
+     "inicio": 1.161,
+     "fin": 1.474
+    },
+    {
+     "t": "y",
+     "inicio": 1.509,
+     "fin": 1.533
+    },
+    {
+     "t": "cinco",
+     "inicio": 1.579,
+     "fin": 1.927
+    },
+    {
+     "t": "euros.",
+     "inicio": 1.985,
+     "fin": 2.554
+    }
+   ]
+  },
+  {
+   "id": "diez",
+   "texto": "Y en diez años, diez mil novecientos cincuenta.",
+   "archivo": "diez.mp3",
+   "segundos": 2.403265,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.093
+    },
+    {
+     "t": "en",
+     "inicio": 0.163,
+     "fin": 0.221
+    },
+    {
+     "t": "diez",
+     "inicio": 0.267,
+     "fin": 0.43
+    },
+    {
+     "t": "años,",
+     "inicio": 0.453,
+     "fin": 0.789
+    },
+    {
+     "t": "diez",
+     "inicio": 0.813,
+     "fin": 0.964
+    },
+    {
+     "t": "mil",
+     "inicio": 1.022,
+     "fin": 1.149
+    },
+    {
+     "t": "novecientos",
+     "inicio": 1.184,
+     "fin": 1.672
+    },
+    {
+     "t": "cincuenta.",
+     "inicio": 1.695,
+     "fin": 2.368
+    }
+   ]
+  },
+  {
+   "id": "giro",
+   "texto": "No te digo que lo quites. Te digo que lo elijas.",
+   "archivo": "giro.mp3",
+   "segundos": 2.45551,
+   "palabras": [
+    {
+     "t": "No",
+     "inicio": 0,
+     "fin": 0.128
+    },
+    {
+     "t": "te",
+     "inicio": 0.174,
+     "fin": 0.244
+    },
+    {
+     "t": "digo",
+     "inicio": 0.279,
+     "fin": 0.453
+    },
+    {
+     "t": "que",
+     "inicio": 0.499,
+     "fin": 0.569
+    },
+    {
+     "t": "lo",
+     "inicio": 0.604,
+     "fin": 0.673
+    },
+    {
+     "t": "quites.",
+     "inicio": 0.72,
+     "fin": 1.126
+    },
+    {
+     "t": "Te",
+     "inicio": 1.161,
+     "fin": 1.254
+    },
+    {
+     "t": "digo",
+     "inicio": 1.3,
+     "fin": 1.544
+    },
+    {
+     "t": "que",
+     "inicio": 1.591,
+     "fin": 1.683
+    },
+    {
+     "t": "lo",
+     "inicio": 1.73,
+     "fin": 1.811
+    },
+    {
+     "t": "elijas.",
+     "inicio": 1.846,
+     "fin": 2.415
+    }
+   ]
+  },
+  {
+   "id": "sistema",
+   "texto": "Si te compensa, adelante. Si no, ese dinero puede ir a tu colchón.",
+   "archivo": "sistema.mp3",
+   "segundos": 4.022857,
+   "palabras": [
+    {
+     "t": "Si",
+     "inicio": 0,
+     "fin": 0.163
+    },
+    {
+     "t": "te",
+     "inicio": 0.209,
+     "fin": 0.267
+    },
+    {
+     "t": "compensa,",
+     "inicio": 0.313,
+     "fin": 0.894
+    },
+    {
+     "t": "adelante.",
+     "inicio": 0.975,
+     "fin": 1.544
+    },
+    {
+     "t": "Si",
+     "inicio": 1.66,
+     "fin": 1.8
+    },
+    {
+     "t": "no,",
+     "inicio": 1.869,
+     "fin": 2.067
+    },
+    {
+     "t": "ese",
+     "inicio": 2.125,
+     "fin": 2.357
+    },
+    {
+     "t": "dinero",
+     "inicio": 2.403,
+     "fin": 2.694
+    },
+    {
+     "t": "puede",
+     "inicio": 2.74,
+     "fin": 2.995
+    },
+    {
+     "t": "ir",
+     "inicio": 3.053,
+     "fin": 3.158
+    },
+    {
+     "t": "a",
+     "inicio": 3.204,
+     "fin": 3.228
+    },
+    {
+     "t": "tu",
+     "inicio": 3.274,
+     "fin": 3.344
+    },
+    {
+     "t": "colchón.",
+     "inicio": 3.39,
+     "fin": 3.994
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "¿Cuál es tu gasto de tres euros? Te leo. Síguenos para más.",
+   "archivo": "cta.mp3",
+   "segundos": 3.94449,
+   "palabras": [
+    {
+     "t": "¿Cuál",
+     "inicio": 0,
+     "fin": 0.337
+    },
+    {
+     "t": "es",
+     "inicio": 0.395,
+     "fin": 0.453
+    },
+    {
+     "t": "tu",
+     "inicio": 0.499,
+     "fin": 0.557
+    },
+    {
+     "t": "gasto",
+     "inicio": 0.604,
+     "fin": 0.882
+    },
+    {
+     "t": "de",
+     "inicio": 0.929,
+     "fin": 0.987
+    },
+    {
+     "t": "tres",
+     "inicio": 1.033,
+     "fin": 1.207
+    },
+    {
+     "t": "euros?",
+     "inicio": 1.277,
+     "fin": 1.753
+    },
+    {
+     "t": "Te",
+     "inicio": 1.985,
+     "fin": 2.113
+    },
+    {
+     "t": "leo.",
+     "inicio": 2.159,
+     "fin": 2.496
+    },
+    {
+     "t": "Síguenos",
+     "inicio": 2.659,
+     "fin": 3.1
+    },
+    {
+     "t": "para",
+     "inicio": 3.146,
+     "fin": 3.297
+    },
+    {
+     "t": "más.",
+     "inicio": 3.332,
+     "fin": 3.901
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "texto": "Porque tres euros al día nunca son solo tres euros.",
+   "archivo": "cierre.mp3",
+   "segundos": 2.76898,
+   "palabras": [
+    {
+     "t": "Porque",
+     "inicio": 0,
+     "fin": 0.325
+    },
+    {
+     "t": "tres",
+     "inicio": 0.36,
+     "fin": 0.522
+    },
+    {
+     "t": "euros",
+     "inicio": 0.592,
+     "fin": 0.789
+    },
+    {
+     "t": "al",
+     "inicio": 0.848,
+     "fin": 0.906
+    },
+    {
+     "t": "día",
+     "inicio": 0.952,
+     "fin": 1.161
+    },
+    {
+     "t": "nunca",
+     "inicio": 1.219,
+     "fin": 1.509
+    },
+    {
+     "t": "son",
+     "inicio": 1.556,
+     "fin": 1.695
+    },
+    {
+     "t": "solo",
+     "inicio": 1.753,
+     "fin": 1.95
+    },
+    {
+     "t": "tres",
+     "inicio": 1.985,
+     "fin": 2.148
+    },
+    {
+     "t": "euros.",
+     "inicio": 2.206,
+     "fin": 2.74
+    }
+   ]
+  }
+ ]
+}

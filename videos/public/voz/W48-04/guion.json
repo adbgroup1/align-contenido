@@ -1,0 +1,14 @@
+{
+  "escenas": [
+    { "id": "hook", "texto": "Tres euros al día. Parece nada, ¿verdad?" },
+    { "id": "gancho2", "texto": "Mira lo que pasa si no paras el contador." },
+    { "id": "hormiga", "texto": "Un café por aquí, un snack por allá, una app que no usas." },
+    { "id": "rehook", "texto": "Ni lo notas. Pero el contador no duerme." },
+    { "id": "wow", "texto": "En un año: mil noventa y cinco euros." },
+    { "id": "diez", "texto": "Y en diez años, diez mil novecientos cincuenta." },
+    { "id": "giro", "texto": "No te digo que lo quites. Te digo que lo elijas." },
+    { "id": "sistema", "texto": "Si te compensa, adelante. Si no, ese dinero puede ir a tu colchón." },
+    { "id": "cta", "texto": "¿Cuál es tu gasto de tres euros? Te leo. Síguenos para más." },
+    { "id": "cierre", "texto": "Porque tres euros al día nunca son solo tres euros." }
+  ]
+}

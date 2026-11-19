@@ -1,0 +1,591 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Ana y Pablo cobran doscientos euros más. Solo uno lo nota.",
+   "archivo": "hook.mp3",
+   "segundos": 4.597551,
+   "palabras": [
+    {
+     "t": "Ana",
+     "inicio": 0,
+     "fin": 0.244
+    },
+    {
+     "t": "y",
+     "inicio": 0.279,
+     "fin": 0.302
+    },
+    {
+     "t": "Pablo",
+     "inicio": 0.372,
+     "fin": 0.778
+    },
+    {
+     "t": "cobran",
+     "inicio": 0.917,
+     "fin": 1.324
+    },
+    {
+     "t": "doscientos",
+     "inicio": 1.382,
+     "fin": 1.904
+    },
+    {
+     "t": "euros",
+     "inicio": 1.974,
+     "fin": 2.252
+    },
+    {
+     "t": "más.",
+     "inicio": 2.31,
+     "fin": 2.728
+    },
+    {
+     "t": "Solo",
+     "inicio": 3.088,
+     "fin": 3.39
+    },
+    {
+     "t": "uno",
+     "inicio": 3.471,
+     "fin": 3.611
+    },
+    {
+     "t": "lo",
+     "inicio": 3.669,
+     "fin": 3.738
+    },
+    {
+     "t": "nota.",
+     "inicio": 3.785,
+     "fin": 4.551
+    }
+   ]
+  },
+  {
+   "id": "gancho2",
+   "texto": "Dentro de un año, uno tendrá ahorro. El otro, nada.",
+   "archivo": "gancho2.mp3",
+   "segundos": 2.76898,
+   "palabras": [
+    {
+     "t": "Dentro",
+     "inicio": 0,
+     "fin": 0.337
+    },
+    {
+     "t": "de",
+     "inicio": 0.383,
+     "fin": 0.43
+    },
+    {
+     "t": "un",
+     "inicio": 0.464,
+     "fin": 0.522
+    },
+    {
+     "t": "año,",
+     "inicio": 0.557,
+     "fin": 0.836
+    },
+    {
+     "t": "uno",
+     "inicio": 0.882,
+     "fin": 1.022
+    },
+    {
+     "t": "tendrá",
+     "inicio": 1.068,
+     "fin": 1.335
+    },
+    {
+     "t": "ahorro.",
+     "inicio": 1.358,
+     "fin": 1.73
+    },
+    {
+     "t": "El",
+     "inicio": 1.753,
+     "fin": 1.869
+    },
+    {
+     "t": "otro,",
+     "inicio": 1.927,
+     "fin": 2.206
+    },
+    {
+     "t": "nada.",
+     "inicio": 2.229,
+     "fin": 2.74
+    }
+   ]
+  },
+  {
+   "id": "ana",
+   "texto": "Ana no cambia nada. El aumento entra en la cuenta…",
+   "archivo": "ana.mp3",
+   "segundos": 3.108571,
+   "palabras": [
+    {
+     "t": "Ana",
+     "inicio": 0,
+     "fin": 0.244
+    },
+    {
+     "t": "no",
+     "inicio": 0.302,
+     "fin": 0.395
+    },
+    {
+     "t": "cambia",
+     "inicio": 0.441,
+     "fin": 0.755
+    },
+    {
+     "t": "nada.",
+     "inicio": 0.813,
+     "fin": 1.126
+    },
+    {
+     "t": "El",
+     "inicio": 1.184,
+     "fin": 1.324
+    },
+    {
+     "t": "aumento",
+     "inicio": 1.382,
+     "fin": 1.788
+    },
+    {
+     "t": "entra",
+     "inicio": 1.834,
+     "fin": 2.113
+    },
+    {
+     "t": "en",
+     "inicio": 2.148,
+     "fin": 2.206
+    },
+    {
+     "t": "la",
+     "inicio": 2.264,
+     "fin": 2.334
+    },
+    {
+     "t": "cuenta…",
+     "inicio": 2.38,
+     "fin": 3.065
+    }
+   ]
+  },
+  {
+   "id": "ana2",
+   "texto": "y se va en cenas, suscripciones y caprichos.",
+   "archivo": "ana2.mp3",
+   "segundos": 3.239184,
+   "palabras": [
+    {
+     "t": "y",
+     "inicio": 0,
+     "fin": 0.104
+    },
+    {
+     "t": "se",
+     "inicio": 0.186,
+     "fin": 0.279
+    },
+    {
+     "t": "va",
+     "inicio": 0.325,
+     "fin": 0.395
+    },
+    {
+     "t": "en",
+     "inicio": 0.418,
+     "fin": 0.464
+    },
+    {
+     "t": "cenas,",
+     "inicio": 0.522,
+     "fin": 1.01
+    },
+    {
+     "t": "suscripciones",
+     "inicio": 1.126,
+     "fin": 1.962
+    },
+    {
+     "t": "y",
+     "inicio": 2.101,
+     "fin": 2.194
+    },
+    {
+     "t": "caprichos.",
+     "inicio": 2.276,
+     "fin": 3.204
+    }
+   ]
+  },
+  {
+   "id": "pablo",
+   "texto": "Pablo, ese mismo mes, sube cien euros su transferencia automática.",
+   "archivo": "pablo.mp3",
+   "segundos": 4.414694,
+   "palabras": [
+    {
+     "t": "Pablo,",
+     "inicio": 0,
+     "fin": 0.534
+    },
+    {
+     "t": "ese",
+     "inicio": 0.604,
+     "fin": 0.813
+    },
+    {
+     "t": "mismo",
+     "inicio": 0.871,
+     "fin": 1.138
+    },
+    {
+     "t": "mes,",
+     "inicio": 1.184,
+     "fin": 1.567
+    },
+    {
+     "t": "sube",
+     "inicio": 1.637,
+     "fin": 1.95
+    },
+    {
+     "t": "cien",
+     "inicio": 1.974,
+     "fin": 2.148
+    },
+    {
+     "t": "euros",
+     "inicio": 2.206,
+     "fin": 2.485
+    },
+    {
+     "t": "su",
+     "inicio": 2.508,
+     "fin": 2.612
+    },
+    {
+     "t": "transferencia",
+     "inicio": 2.659,
+     "fin": 3.32
+    },
+    {
+     "t": "automática.",
+     "inicio": 3.344,
+     "fin": 4.365
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "texto": "Los otros cien los disfruta. Sin culpa.",
+   "archivo": "rehook.mp3",
+   "segundos": 3.761633,
+   "palabras": [
+    {
+     "t": "Los",
+     "inicio": 0,
+     "fin": 0.186
+    },
+    {
+     "t": "otros",
+     "inicio": 0.255,
+     "fin": 0.511
+    },
+    {
+     "t": "cien",
+     "inicio": 0.546,
+     "fin": 0.778
+    },
+    {
+     "t": "los",
+     "inicio": 0.859,
+     "fin": 0.998
+    },
+    {
+     "t": "disfruta.",
+     "inicio": 1.045,
+     "fin": 1.73
+    },
+    {
+     "t": "Sin",
+     "inicio": 2.218,
+     "fin": 2.426
+    },
+    {
+     "t": "culpa.",
+     "inicio": 2.473,
+     "fin": 3.715
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Un año después: Ana, cero. Pablo, mil doscientos euros.",
+   "archivo": "wow.mp3",
+   "segundos": 3.604898,
+   "palabras": [
+    {
+     "t": "Un",
+     "inicio": 0,
+     "fin": 0.139
+    },
+    {
+     "t": "año",
+     "inicio": 0.163,
+     "fin": 0.337
+    },
+    {
+     "t": "después:",
+     "inicio": 0.383,
+     "fin": 0.859
+    },
+    {
+     "t": "Ana,",
+     "inicio": 0.998,
+     "fin": 1.382
+    },
+    {
+     "t": "cero.",
+     "inicio": 1.428,
+     "fin": 1.904
+    },
+    {
+     "t": "Pablo,",
+     "inicio": 2.101,
+     "fin": 2.473
+    },
+    {
+     "t": "mil",
+     "inicio": 2.496,
+     "fin": 2.647
+    },
+    {
+     "t": "doscientos",
+     "inicio": 2.67,
+     "fin": 3.088
+    },
+    {
+     "t": "euros.",
+     "inicio": 3.146,
+     "fin": 3.576
+    }
+   ]
+  },
+  {
+   "id": "clave",
+   "texto": "La diferencia no es el sueldo. Es lo que hizo el primer mes.",
+   "archivo": "clave.mp3",
+   "segundos": 3.186939,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0,
+     "fin": 0.116
+    },
+    {
+     "t": "diferencia",
+     "inicio": 0.151,
+     "fin": 0.627
+    },
+    {
+     "t": "no",
+     "inicio": 0.673,
+     "fin": 0.743
+    },
+    {
+     "t": "es",
+     "inicio": 0.789,
+     "fin": 0.848
+    },
+    {
+     "t": "el",
+     "inicio": 0.906,
+     "fin": 0.975
+    },
+    {
+     "t": "sueldo.",
+     "inicio": 1.01,
+     "fin": 1.428
+    },
+    {
+     "t": "Es",
+     "inicio": 1.451,
+     "fin": 1.544
+    },
+    {
+     "t": "lo",
+     "inicio": 1.602,
+     "fin": 1.672
+    },
+    {
+     "t": "que",
+     "inicio": 1.718,
+     "fin": 1.788
+    },
+    {
+     "t": "hizo",
+     "inicio": 1.823,
+     "fin": 2.078
+    },
+    {
+     "t": "el",
+     "inicio": 2.101,
+     "fin": 2.159
+    },
+    {
+     "t": "primer",
+     "inicio": 2.241,
+     "fin": 2.543
+    },
+    {
+     "t": "mes.",
+     "inicio": 2.624,
+     "fin": 3.158
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Mándaselo a quien acaba de tener una subida. Síguenos para más.",
+   "archivo": "cta.mp3",
+   "segundos": 3.343673,
+   "palabras": [
+    {
+     "t": "Mándaselo",
+     "inicio": 0,
+     "fin": 0.557
+    },
+    {
+     "t": "a",
+     "inicio": 0.58,
+     "fin": 0.604
+    },
+    {
+     "t": "quien",
+     "inicio": 0.639,
+     "fin": 0.766
+    },
+    {
+     "t": "acaba",
+     "inicio": 0.813,
+     "fin": 1.08
+    },
+    {
+     "t": "de",
+     "inicio": 1.115,
+     "fin": 1.173
+    },
+    {
+     "t": "tener",
+     "inicio": 1.207,
+     "fin": 1.44
+    },
+    {
+     "t": "una",
+     "inicio": 1.486,
+     "fin": 1.602
+    },
+    {
+     "t": "subida.",
+     "inicio": 1.637,
+     "fin": 2.078
+    },
+    {
+     "t": "Síguenos",
+     "inicio": 2.241,
+     "fin": 2.694
+    },
+    {
+     "t": "para",
+     "inicio": 2.74,
+     "fin": 2.891
+    },
+    {
+     "t": "más.",
+     "inicio": 2.926,
+     "fin": 3.297
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "texto": "Y tú, la próxima vez que cobres más, ¿serás Ana o Pablo?",
+   "archivo": "cierre.mp3",
+   "segundos": 3.291429,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.116
+    },
+    {
+     "t": "tú,",
+     "inicio": 0.197,
+     "fin": 0.406
+    },
+    {
+     "t": "la",
+     "inicio": 0.488,
+     "fin": 0.58
+    },
+    {
+     "t": "próxima",
+     "inicio": 0.627,
+     "fin": 0.975
+    },
+    {
+     "t": "vez",
+     "inicio": 1.01,
+     "fin": 1.115
+    },
+    {
+     "t": "que",
+     "inicio": 1.149,
+     "fin": 1.219
+    },
+    {
+     "t": "cobres",
+     "inicio": 1.277,
+     "fin": 1.556
+    },
+    {
+     "t": "más,",
+     "inicio": 1.614,
+     "fin": 1.892
+    },
+    {
+     "t": "¿serás",
+     "inicio": 1.916,
+     "fin": 2.287
+    },
+    {
+     "t": "Ana",
+     "inicio": 2.368,
+     "fin": 2.496
+    },
+    {
+     "t": "o",
+     "inicio": 2.566,
+     "fin": 2.589
+    },
+    {
+     "t": "Pablo?",
+     "inicio": 2.647,
+     "fin": 3.251
+    }
+   ]
+  }
+ ]
+}

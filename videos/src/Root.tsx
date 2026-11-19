@@ -10,6 +10,9 @@ import { EXTRA_W4704, W4704v2 } from "./videos/W47-04-v2";
 import { EXTRA_W4701, W4701v2 } from "./videos/W47-01-v2";
 import { EXTRA_W4801, W4801 } from "./videos/W48-01";
 import { EXTRA_W4802, W4802 } from "./videos/W48-02";
+import { EXTRA_W4803, W4803 } from "./videos/W48-03";
+import { EXTRA_W4804, W4804 } from "./videos/W48-04";
+import { EXTRA_W4805, W4805 } from "./videos/W48-05";
 import { metadataConVoz } from "./kit";
 
 // 3+7+7+4+5 s a 30 fps = 780 frames, menos 4 transiciones de 12 = 732
@@ -98,6 +101,36 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{ videoId: "W48-02", voz: null }}
         calculateMetadata={metadataConVoz(EXTRA_W4802)}
+      />
+      <Composition
+        id="W48-03"
+        component={W4803}
+        durationInFrames={900}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ videoId: "W48-03", voz: null }}
+        calculateMetadata={metadataConVoz(EXTRA_W4803)}
+      />
+      <Composition
+        id="W48-04"
+        component={W4804}
+        durationInFrames={900}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ videoId: "W48-04", voz: null }}
+        calculateMetadata={metadataConVoz(EXTRA_W4804)}
+      />
+      <Composition
+        id="W48-05"
+        component={W4805}
+        durationInFrames={900}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ videoId: "W48-05", voz: null }}
+        calculateMetadata={metadataConVoz(EXTRA_W4805)}
       />
     </Folder>
   );

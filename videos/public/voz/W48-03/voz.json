@@ -1,0 +1,624 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Leo compró un móvil de mil euros y pagó mil doscientos.",
+   "archivo": "hook.mp3",
+   "segundos": 3.343673,
+   "palabras": [
+    {
+     "t": "Leo",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "compró",
+     "inicio": 0.337,
+     "fin": 0.697
+    },
+    {
+     "t": "un",
+     "inicio": 0.755,
+     "fin": 0.801
+    },
+    {
+     "t": "móvil",
+     "inicio": 0.848,
+     "fin": 1.161
+    },
+    {
+     "t": "de",
+     "inicio": 1.196,
+     "fin": 1.254
+    },
+    {
+     "t": "mil",
+     "inicio": 1.312,
+     "fin": 1.451
+    },
+    {
+     "t": "euros",
+     "inicio": 1.509,
+     "fin": 1.8
+    },
+    {
+     "t": "y",
+     "inicio": 1.881,
+     "fin": 1.916
+    },
+    {
+     "t": "pagó",
+     "inicio": 1.985,
+     "fin": 2.218
+    },
+    {
+     "t": "mil",
+     "inicio": 2.287,
+     "fin": 2.438
+    },
+    {
+     "t": "doscientos.",
+     "inicio": 2.485,
+     "fin": 3.297
+    }
+   ]
+  },
+  {
+   "id": "gancho2",
+   "texto": "Y nadie le engañó. Firmó lo que firma casi todo el mundo.",
+   "archivo": "gancho2.mp3",
+   "segundos": 4.545306,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.093
+    },
+    {
+     "t": "nadie",
+     "inicio": 0.174,
+     "fin": 0.43
+    },
+    {
+     "t": "le",
+     "inicio": 0.476,
+     "fin": 0.534
+    },
+    {
+     "t": "engañó.",
+     "inicio": 0.557,
+     "fin": 1.138
+    },
+    {
+     "t": "Firmó",
+     "inicio": 1.718,
+     "fin": 2.078
+    },
+    {
+     "t": "lo",
+     "inicio": 2.125,
+     "fin": 2.206
+    },
+    {
+     "t": "que",
+     "inicio": 2.252,
+     "fin": 2.322
+    },
+    {
+     "t": "firma",
+     "inicio": 2.368,
+     "fin": 2.717
+    },
+    {
+     "t": "casi",
+     "inicio": 2.786,
+     "fin": 3.088
+    },
+    {
+     "t": "todo",
+     "inicio": 3.158,
+     "fin": 3.379
+    },
+    {
+     "t": "el",
+     "inicio": 3.425,
+     "fin": 3.471
+    },
+    {
+     "t": "mundo.",
+     "inicio": 3.529,
+     "fin": 4.505
+    }
+   ]
+  },
+  {
+   "id": "tienda",
+   "texto": "En la tienda le dijeron: solo cincuenta euros al mes.",
+   "archivo": "tienda.mp3",
+   "segundos": 3.604898,
+   "palabras": [
+    {
+     "t": "En",
+     "inicio": 0,
+     "fin": 0.163
+    },
+    {
+     "t": "la",
+     "inicio": 0.197,
+     "fin": 0.267
+    },
+    {
+     "t": "tienda",
+     "inicio": 0.325,
+     "fin": 0.627
+    },
+    {
+     "t": "le",
+     "inicio": 0.673,
+     "fin": 0.743
+    },
+    {
+     "t": "dijeron:",
+     "inicio": 0.789,
+     "fin": 1.405
+    },
+    {
+     "t": "solo",
+     "inicio": 1.521,
+     "fin": 1.823
+    },
+    {
+     "t": "cincuenta",
+     "inicio": 1.869,
+     "fin": 2.415
+    },
+    {
+     "t": "euros",
+     "inicio": 2.485,
+     "fin": 2.821
+    },
+    {
+     "t": "al",
+     "inicio": 2.891,
+     "fin": 2.961
+    },
+    {
+     "t": "mes.",
+     "inicio": 3.019,
+     "fin": 3.576
+    }
+   ]
+  },
+  {
+   "id": "asiente",
+   "texto": "Cincuenta euros. Eso se paga sin pensar.",
+   "archivo": "asiente.mp3",
+   "segundos": 2.586122,
+   "palabras": [
+    {
+     "t": "Cincuenta",
+     "inicio": 0,
+     "fin": 0.58
+    },
+    {
+     "t": "euros.",
+     "inicio": 0.639,
+     "fin": 1.057
+    },
+    {
+     "t": "Eso",
+     "inicio": 1.103,
+     "fin": 1.382
+    },
+    {
+     "t": "se",
+     "inicio": 1.428,
+     "fin": 1.509
+    },
+    {
+     "t": "paga",
+     "inicio": 1.556,
+     "fin": 1.741
+    },
+    {
+     "t": "sin",
+     "inicio": 1.788,
+     "fin": 1.916
+    },
+    {
+     "t": "pensar.",
+     "inicio": 1.95,
+     "fin": 2.554
+    }
+   ]
+  },
+  {
+   "id": "plazos",
+   "texto": "Pero era a veinticuatro meses, con intereses.",
+   "archivo": "plazos.mp3",
+   "segundos": 2.690612,
+   "palabras": [
+    {
+     "t": "Pero",
+     "inicio": 0,
+     "fin": 0.267
+    },
+    {
+     "t": "era",
+     "inicio": 0.325,
+     "fin": 0.464
+    },
+    {
+     "t": "a",
+     "inicio": 0.488,
+     "fin": 0.511
+    },
+    {
+     "t": "veinticuatro",
+     "inicio": 0.557,
+     "fin": 1.115
+    },
+    {
+     "t": "meses,",
+     "inicio": 1.161,
+     "fin": 1.533
+    },
+    {
+     "t": "con",
+     "inicio": 1.567,
+     "fin": 1.741
+    },
+    {
+     "t": "intereses.",
+     "inicio": 1.811,
+     "fin": 2.647
+    }
+   ]
+  },
+  {
+   "id": "rehook",
+   "texto": "Cincuenta por veinticuatro…",
+   "archivo": "rehook.mp3",
+   "segundos": 1.802449,
+   "palabras": [
+    {
+     "t": "Cincuenta",
+     "inicio": 0,
+     "fin": 0.604
+    },
+    {
+     "t": "por",
+     "inicio": 0.65,
+     "fin": 0.778
+    },
+    {
+     "t": "veinticuatro…",
+     "inicio": 0.836,
+     "fin": 1.765
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Mil doscientos dos euros. Doscientos más por el mismo móvil.",
+   "archivo": "wow.mp3",
+   "segundos": 3.892245,
+   "palabras": [
+    {
+     "t": "Mil",
+     "inicio": 0,
+     "fin": 0.244
+    },
+    {
+     "t": "doscientos",
+     "inicio": 0.29,
+     "fin": 0.801
+    },
+    {
+     "t": "dos",
+     "inicio": 0.848,
+     "fin": 0.975
+    },
+    {
+     "t": "euros.",
+     "inicio": 1.057,
+     "fin": 1.533
+    },
+    {
+     "t": "Doscientos",
+     "inicio": 1.892,
+     "fin": 2.415
+    },
+    {
+     "t": "más",
+     "inicio": 2.473,
+     "fin": 2.624
+    },
+    {
+     "t": "por",
+     "inicio": 2.682,
+     "fin": 2.798
+    },
+    {
+     "t": "el",
+     "inicio": 2.844,
+     "fin": 2.891
+    },
+    {
+     "t": "mismo",
+     "inicio": 2.926,
+     "fin": 3.193
+    },
+    {
+     "t": "móvil.",
+     "inicio": 3.239,
+     "fin": 3.855
+    }
+   ]
+  },
+  {
+   "id": "clave",
+   "texto": "La cuota te dice si puedes pagarlo. El total, cuánto cuesta.",
+   "archivo": "clave.mp3",
+   "segundos": 3.056327,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0,
+     "fin": 0.128
+    },
+    {
+     "t": "cuota",
+     "inicio": 0.163,
+     "fin": 0.406
+    },
+    {
+     "t": "te",
+     "inicio": 0.453,
+     "fin": 0.522
+    },
+    {
+     "t": "dice",
+     "inicio": 0.557,
+     "fin": 0.755
+    },
+    {
+     "t": "si",
+     "inicio": 0.789,
+     "fin": 0.859
+    },
+    {
+     "t": "puedes",
+     "inicio": 0.906,
+     "fin": 1.161
+    },
+    {
+     "t": "pagarlo.",
+     "inicio": 1.207,
+     "fin": 1.625
+    },
+    {
+     "t": "El",
+     "inicio": 1.649,
+     "fin": 1.718
+    },
+    {
+     "t": "total,",
+     "inicio": 1.776,
+     "fin": 2.136
+    },
+    {
+     "t": "cuánto",
+     "inicio": 2.159,
+     "fin": 2.496
+    },
+    {
+     "t": "cuesta.",
+     "inicio": 2.543,
+     "fin": 3.019
+    }
+   ]
+  },
+  {
+   "id": "consejo",
+   "texto": "Antes de firmar, pide una sola cifra: el total a pagar.",
+   "archivo": "consejo.mp3",
+   "segundos": 3.892245,
+   "palabras": [
+    {
+     "t": "Antes",
+     "inicio": 0,
+     "fin": 0.383
+    },
+    {
+     "t": "de",
+     "inicio": 0.418,
+     "fin": 0.464
+    },
+    {
+     "t": "firmar,",
+     "inicio": 0.511,
+     "fin": 0.975
+    },
+    {
+     "t": "pide",
+     "inicio": 1.01,
+     "fin": 1.277
+    },
+    {
+     "t": "una",
+     "inicio": 1.37,
+     "fin": 1.533
+    },
+    {
+     "t": "sola",
+     "inicio": 1.579,
+     "fin": 1.776
+    },
+    {
+     "t": "cifra:",
+     "inicio": 1.811,
+     "fin": 2.264
+    },
+    {
+     "t": "el",
+     "inicio": 2.461,
+     "fin": 2.589
+    },
+    {
+     "t": "total",
+     "inicio": 2.659,
+     "fin": 3.007
+    },
+    {
+     "t": "a",
+     "inicio": 3.065,
+     "fin": 3.088
+    },
+    {
+     "t": "pagar.",
+     "inicio": 3.135,
+     "fin": 3.855
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "¿Tú miras la cuota o el total? Te leo. Síguenos para más.",
+   "archivo": "cta.mp3",
+   "segundos": 3.604898,
+   "palabras": [
+    {
+     "t": "¿Tú",
+     "inicio": 0,
+     "fin": 0.313
+    },
+    {
+     "t": "miras",
+     "inicio": 0.372,
+     "fin": 0.592
+    },
+    {
+     "t": "la",
+     "inicio": 0.639,
+     "fin": 0.697
+    },
+    {
+     "t": "cuota",
+     "inicio": 0.731,
+     "fin": 0.998
+    },
+    {
+     "t": "o",
+     "inicio": 1.08,
+     "fin": 1.103
+    },
+    {
+     "t": "el",
+     "inicio": 1.149,
+     "fin": 1.196
+    },
+    {
+     "t": "total?",
+     "inicio": 1.254,
+     "fin": 1.672
+    },
+    {
+     "t": "Te",
+     "inicio": 1.765,
+     "fin": 1.881
+    },
+    {
+     "t": "leo.",
+     "inicio": 1.927,
+     "fin": 2.206
+    },
+    {
+     "t": "Síguenos",
+     "inicio": 2.264,
+     "fin": 2.67
+    },
+    {
+     "t": "para",
+     "inicio": 2.717,
+     "fin": 2.868
+    },
+    {
+     "t": "más.",
+     "inicio": 2.902,
+     "fin": 3.576
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "texto": "La próxima vez que oigas solo cincuenta al mes, acuérdate de Leo.",
+   "archivo": "cierre.mp3",
+   "segundos": 3.291429,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0,
+     "fin": 0.104
+    },
+    {
+     "t": "próxima",
+     "inicio": 0.151,
+     "fin": 0.453
+    },
+    {
+     "t": "vez",
+     "inicio": 0.488,
+     "fin": 0.604
+    },
+    {
+     "t": "que",
+     "inicio": 0.65,
+     "fin": 0.743
+    },
+    {
+     "t": "oigas",
+     "inicio": 0.778,
+     "fin": 1.068
+    },
+    {
+     "t": "solo",
+     "inicio": 1.103,
+     "fin": 1.312
+    },
+    {
+     "t": "cincuenta",
+     "inicio": 1.335,
+     "fin": 1.741
+    },
+    {
+     "t": "al",
+     "inicio": 1.765,
+     "fin": 1.811
+    },
+    {
+     "t": "mes,",
+     "inicio": 1.869,
+     "fin": 2.159
+    },
+    {
+     "t": "acuérdate",
+     "inicio": 2.183,
+     "fin": 2.67
+    },
+    {
+     "t": "de",
+     "inicio": 2.717,
+     "fin": 2.775
+    },
+    {
+     "t": "Leo.",
+     "inicio": 2.821,
+     "fin": 3.251
+    }
+   ]
+  }
+ ]
+}

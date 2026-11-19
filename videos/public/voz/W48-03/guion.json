@@ -1,0 +1,15 @@
+{
+  "escenas": [
+    { "id": "hook", "texto": "Leo compró un móvil de mil euros y pagó mil doscientos." },
+    { "id": "gancho2", "texto": "Y nadie le engañó. Firmó lo que firma casi todo el mundo." },
+    { "id": "tienda", "texto": "En la tienda le dijeron: solo cincuenta euros al mes." },
+    { "id": "asiente", "texto": "Cincuenta euros. Eso se paga sin pensar." },
+    { "id": "plazos", "texto": "Pero era a veinticuatro meses, con intereses." },
+    { "id": "rehook", "texto": "Cincuenta por veinticuatro…" },
+    { "id": "wow", "texto": "Mil doscientos dos euros. Doscientos más por el mismo móvil." },
+    { "id": "clave", "texto": "La cuota te dice si puedes pagarlo. El total, cuánto cuesta." },
+    { "id": "consejo", "texto": "Antes de firmar, pide una sola cifra: el total a pagar." },
+    { "id": "cta", "texto": "¿Tú miras la cuota o el total? Te leo. Síguenos para más." },
+    { "id": "cierre", "texto": "La próxima vez que oigas solo cincuenta al mes, acuérdate de Leo." }
+  ]
+}

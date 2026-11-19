@@ -1,0 +1,14 @@
+{
+  "escenas": [
+    { "id": "hook", "texto": "Ana y Pablo cobran doscientos euros más. Solo uno lo nota." },
+    { "id": "gancho2", "texto": "Dentro de un año, uno tendrá ahorro. El otro, nada." },
+    { "id": "ana", "texto": "Ana no cambia nada. El aumento entra en la cuenta…" },
+    { "id": "ana2", "texto": "y se va en cenas, suscripciones y caprichos." },
+    { "id": "pablo", "texto": "Pablo, ese mismo mes, sube cien euros su transferencia automática." },
+    { "id": "rehook", "texto": "Los otros cien los disfruta. Sin culpa." },
+    { "id": "wow", "texto": "Un año después: Ana, cero. Pablo, mil doscientos euros." },
+    { "id": "clave", "texto": "La diferencia no es el sueldo. Es lo que hizo el primer mes." },
+    { "id": "cta", "texto": "Mándaselo a quien acaba de tener una subida. Síguenos para más." },
+    { "id": "cierre", "texto": "Y tú, la próxima vez que cobres más, ¿serás Ana o Pablo?" }
+  ]
+}
