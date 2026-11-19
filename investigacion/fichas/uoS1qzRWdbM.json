@@ -44,5 +44,8 @@
  ],
  "nota_calidad_visual_1_10": "7 por la miniatura; render 3D con deformación leve en las manos",
  "recetas_remotion": [],
- "idea_para_ALIGN": "Dos personajes con la misma cantidad que acaban distinto por una regla de interés compuesto, hecho con formas geométricas y números animados propios, sin personajes copiados."
+ "idea_para_ALIGN": "Dos personajes con la misma cantidad que acaban distinto por una regla de interés compuesto, hecho con formas geométricas y números animados propios, sin personajes copiados.",
+ "formato_align": "Historia con personaje",
+ "apto_align": true,
+ "estructura": "sin dato"
 }

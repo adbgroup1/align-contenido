@@ -43,5 +43,8 @@
  ],
  "nota_calidad_visual_1_10": "sin dato (por la miniatura: casero, con cara)",
  "recetas_remotion": [],
- "idea_para_ALIGN": "Descartado: formato con cara y público de exámenes, no encaja con ALIGN. Solo se anota la promesa de tiempo concreto."
+ "idea_para_ALIGN": "Descartado: formato con cara y público de exámenes, no encaja con ALIGN. Solo se anota la promesa de tiempo concreto.",
+ "formato_align": "Otro",
+ "apto_align": false,
+ "estructura": "sin dato"
 }

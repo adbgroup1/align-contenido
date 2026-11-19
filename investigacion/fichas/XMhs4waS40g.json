@@ -110,5 +110,9 @@
    "como_hacerlo_en_codigo": "Renderizar dos componentes idénticos superpuestos y animar sus transforms translateX con resortes opuestos disparados en el mismo frame."
   }
  ],
- "idea_para_ALIGN": "Crear un template Remotion para explicar 'Regla 50/30/20' donde un solo input de sueldo distribuya fajos de dinero animados a 3 frascos personalizables."
+ "idea_para_ALIGN": "Crear un template Remotion para explicar 'Regla 50/30/20' donde un solo input de sueldo distribuya fajos de dinero animados a 3 frascos personalizables.",
+ "formato_align": "Explicación",
+ "apto_align": true,
+ "estructura": "sin dato",
+ "fuente": "gemini"
 }

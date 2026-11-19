@@ -44,5 +44,8 @@
  ],
  "nota_calidad_visual_1_10": "sin dato",
  "recetas_remotion": [],
- "idea_para_ALIGN": "Solo el patrón de subtítulo con palabra clave y duración de 25 s. El clip es ajeno."
+ "idea_para_ALIGN": "Solo el patrón de subtítulo con palabra clave y duración de 25 s. El clip es ajeno.",
+ "formato_align": "Otro",
+ "apto_align": false,
+ "estructura": "sin dato"
 }

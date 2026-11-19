@@ -43,5 +43,8 @@
  ],
  "nota_calidad_visual_1_10": "sin dato",
  "recetas_remotion": [],
- "idea_para_ALIGN": "Poner un coste visible a un gasto invisible (suscripciones, pagos pequeños) con una premisa «¿y si…?» propia."
+ "idea_para_ALIGN": "Poner un coste visible a un gasto invisible (suscripciones, pagos pequeños) con una premisa «¿y si…?» propia.",
+ "formato_align": "Qué pasaría si",
+ "apto_align": true,
+ "estructura": "sin dato"
 }
