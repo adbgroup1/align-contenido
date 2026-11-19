@@ -51,6 +51,7 @@ desaparece al terminar.
 | `media/<semana>/<ID>.mp4` y `.jpg` | Vídeos renderizados y miniaturas |
 | `semanas/<semana>/` | Ideas, hooks y notas del manager |
 | `.claude/skills/` | Las instrucciones de cada agente |
+| `informes/AAAA-MM-DD.md` | Informe del workflow cada 2 días (lo escribe el Parte del manager; repo público: sin datos personales) |
 | `buzon/` | Mensajes de Andrés desde Jarvis y respuestas de los agentes (repo público: sin datos personales) |
 
 - **URL pública de un vídeo:**

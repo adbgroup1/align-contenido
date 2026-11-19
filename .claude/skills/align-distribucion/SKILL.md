@@ -74,6 +74,15 @@ Usa `createScheduledPost`:
 - «Plataformas» = las redes donde se ha programado;
 - «Metricool» = el `plannerUrl`.
 
+**Hazlo en síncrono y compruébalo** (fallo del 18 nov: Notion aceptó el cambio en segundo plano y a la mañana
+siguiente las filas seguían en `Aprobado`, así que el parte dio una alarma falsa):
+
+- Llama a `notion-update-page` con `"allow_async": false`.
+- Al terminar todas las filas, vuelve a consultarlas con **una** consulta SQL (`Estado`, `Metricool`).
+- Si alguna no sale en `Programado` con su enlace, repite su actualización una vez y vuelve a consultar.
+- Si sigue sin salir, escribe en su «Nota del manager»: «Programado en Metricool el <fecha> <hora>, pero Notion
+  no guardó el estado». Dilo también en el resumen final.
+
 ## Si una red no está conectada en Metricool
 
 Prográmalo en las que sí lo estén y apúntalo en «Nota del manager». El parte diario del manager se lo dirá a
