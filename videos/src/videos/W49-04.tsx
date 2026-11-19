@@ -10,7 +10,7 @@ import { Bocadillo, Chispas, CtaCrecer, DefEscena, Escena, Escenario, Expresion,
 export const EXTRA_W4904: Record<string, number> = { hook: 0.2, wow: 0.8, rehook: 0.3, cta: 0.4, cierre: 0.6 };
 
 // La foto de la escena 3 solo se usa si llegó y pasó la revisión (Paso 0). Si no, la bolsa se dibuja en código.
-const FOTO_BOLSA: string | null = null;
+const FOTO_BOLSA: string | null = "img/W49-04/03-bolsa-deporte.jpg";
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const useSeg = () => {
