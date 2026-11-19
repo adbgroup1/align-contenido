@@ -22,6 +22,7 @@ desaparece al terminar.
 | Página «ALIGN · Contenido» | `418cc81e-aca2-802b-82f1-dafb078bbea2` |
 | Base «Vídeos», data source | `collection://91319184-53cd-4484-bc27-348e3f1a5a3a` |
 | Base «Investigación», data source | `collection://418cc81e-aca2-811d-821b-000b03502156` |
+| Base «Ideas de Andrés», data source (links que le gustan a Andrés; los procesa el agente Ideas de Andrés) | `collection://41dcc81e-aca2-81d6-b33d-000b6dbb6c6c` |
 | Página «Aprendizajes» | `418cc81e-aca2-812d-9af6-dbe8044484e0` |
 | Página «Resúmenes semanales» | `418cc81e-aca2-81de-aa81-fb279bb6cec8` |
 
@@ -30,6 +31,9 @@ desaparece al terminar.
   - «Semana» es un select: si la opción de la semana (`2026-W47`) no existe, añádela antes con
     `notion-update-data-source` **listando también todas las opciones existentes**.
 - El guion completo va **dentro de la página** de esa fila.
+- **«Origen» en Investigación:** `Andrés` = un vídeo que le gusta personalmente a Andrés (lo trae el agente Ideas de
+  Andrés, con su nota en «Por qué funciona»); vacío o `Investigación` = lo encontró el agente 1. Cuentan igual:
+  son una ficha más de la bolsa. Muchas no han visto el vídeo (Instagram y TikTok no se abren desde la nube).
 - **«Estado»** recorre: `Idea → Guion → Revisión manager OK → Renderizado → Tu revisión → Aprobado →
   Programado → Publicado → Analizado`, más `Devuelto`, `Cambios pedidos` y `Descartado`.
 - **Si Andrés aprueba un vídeo hablando con una sesión de Claude** (en su Mac o en claude.ai) y no desde Notion,
@@ -106,7 +110,8 @@ La nube solo deja salir a los dominios permitidos en el entorno. Las claves van 
 - **BUZÓN, lo primero de todo (antes de la regla de AHORRO):** Andrés puede escribirte desde su app Jarvis.
   Los mensajes están en `buzon/`, un archivo por mensaje: `buzon/AAAAMMDD-HHMMSS-andres.md`, con la cabecera
   `para: <agente|todos>`, `de: andres`, `cuando: <ISO>`, una línea en blanco y el texto. Los nombres de agente son
-  los de las rutinas: Investigación, Resultados, Parte del manager, Semana, Producción, Decisiones y publicación.
+  los de las rutinas: Ideas de Andrés, Investigación, Resultados, Parte del manager, Semana, Producción,
+  Decisiones y publicación.
   - Al empezar (justo después del `git pull`), mira en `buzon/` los mensajes de Andrés con `para:` igual a tu
     nombre de agente o a `todos` que **no tengan respuesta**. Tienen respuesta si existe un archivo
     `buzon/*-<agente>.md` con `responde: <nombre del archivo del mensaje>`.
