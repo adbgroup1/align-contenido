@@ -1,0 +1,13 @@
+{
+  "escenas": [
+    { "id": "hook", "texto": "Construye una compra que no necesitas. Desde cero." },
+    { "id": "caja", "texto": "Pon una caja cualquiera. Encima, un menos setenta." },
+    { "id": "soloHoy", "texto": "Pégale un «solo hoy»." },
+    { "id": "reloj", "texto": "Una cuenta atrás… que mañana vuelve a empezar." },
+    { "id": "plazos", "texto": "Y tres cómodos plazos." },
+    { "id": "wow", "texto": "Listo. Ya te parece imprescindible." },
+    { "id": "prisa", "texto": "Ahora quítale la prisa: dos días en el carrito, sin pagar." },
+    { "id": "sobra", "texto": "Sin pegatinas, casi siempre sobra. Y si no, la compras tranquilo." },
+    { "id": "cta", "texto": "Guárdalo para el viernes. Síguenos para más." }
+  ]
+}
