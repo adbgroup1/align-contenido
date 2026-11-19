@@ -95,6 +95,8 @@ en las `IMAGEN:` que Producción decida dibujar.*
   un gesto pequeño en bucle (respirar, parpadear, balancearse). Un dibujo quieto es peor que una foto.
 - **Personajes:** cabeza y cuerpo con formas básicas, ojos que parpadean, boca que cambia con la emoción
   (contento, sorprendido, preocupado). Nunca personas reconocibles ni marcas.
+- **Personajes ya hechos:** usa `Personaje`, `Escenario`, `Bocadillo` y `Rotulo` de `kit.tsx` (sección
+  «Personajes y escenarios», más abajo) antes de dibujar uno nuevo.
 - **Reutiliza:** si un dibujo sirve para otros vídeos (un personaje, una hucha, una cartera), muévelo a
   `src/dibujos.tsx`, con sus props (color, estado, emoción), y apúntalo en la tabla de «Piezas».
 - **Míralo antes de dar el vídeo por bueno:** saca un `remotion still` de cada escena dibujada. Si parece
