@@ -1,0 +1,7 @@
+{
+ "estilo": "Clean minimal 3D render, soft studio lighting, deep navy blue background (#0F172A), cobalt blue (#1D4ED8) and pale periwinkle (#C7D7FE) accents, subtle glossy materials, shallow depth of field.",
+ "escenas": { "03-bolsa-deporte": "Escena 3 · «Prueba número uno: la bolsa de deporte, sin abrir desde octubre.» (zoom lento; la etiqueta de prueba se dibuja encima)" },
+ "imagenes": [
+  { "id": "03-bolsa-deporte", "prompt": "A closed cobalt blue gym duffel bag sitting on the floor next to the front door of a small apartment, a thin layer of dust on top, a pair of brand-new periwinkle sneakers resting on the bag with a plain paper tag still attached, soft lonely evening light, slightly funny abandoned mood. No logos, no letters, no people." }
+ ]
+}

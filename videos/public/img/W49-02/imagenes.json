@@ -1,0 +1,7 @@
+{
+ "estilo": "Clean minimal 3D render, soft studio lighting, deep navy blue background (#0F172A), cobalt blue (#1D4ED8) and pale periwinkle (#C7D7FE) accents, subtle glossy materials, shallow depth of field.",
+ "escenas": { "03-sucursal-cerrada": "Escena 3 · «Se llama Fondo de Garantía de Depósitos.» (zoom lento)" },
+ "imagenes": [
+  { "id": "03-sucursal-cerrada", "prompt": "The front of a small generic bank branch at night, closed, its metal roller shutter fully down, one street lamp casting a soft cobalt glow, wet pavement reflecting the light, quiet empty street, calm and slightly mysterious mood. No signs, no letters, no logos, no people." }
+ ]
+}
