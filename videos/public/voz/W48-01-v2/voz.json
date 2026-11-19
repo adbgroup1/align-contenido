@@ -1,0 +1,408 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "WWVK6dYMrl0ZHnHT7cRj",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Construye una compra que no necesitas. Desde cero.",
+   "archivo": "hook.mp3",
+   "segundos": 2.76898,
+   "palabras": [
+    {
+     "t": "Construye",
+     "inicio": 0,
+     "fin": 0.464
+    },
+    {
+     "t": "una",
+     "inicio": 0.511,
+     "fin": 0.627
+    },
+    {
+     "t": "compra",
+     "inicio": 0.673,
+     "fin": 0.975
+    },
+    {
+     "t": "que",
+     "inicio": 1.033,
+     "fin": 1.115
+    },
+    {
+     "t": "no",
+     "inicio": 1.173,
+     "fin": 1.242
+    },
+    {
+     "t": "necesitas.",
+     "inicio": 1.289,
+     "fin": 1.846
+    },
+    {
+     "t": "Desde",
+     "inicio": 1.881,
+     "fin": 2.148
+    },
+    {
+     "t": "cero.",
+     "inicio": 2.183,
+     "fin": 2.74
+    }
+   ]
+  },
+  {
+   "id": "caja",
+   "texto": "Pon una caja cualquiera. Encima, un menos setenta.",
+   "archivo": "caja.mp3",
+   "segundos": 3.056327,
+   "palabras": [
+    {
+     "t": "Pon",
+     "inicio": 0,
+     "fin": 0.197
+    },
+    {
+     "t": "una",
+     "inicio": 0.255,
+     "fin": 0.372
+    },
+    {
+     "t": "caja",
+     "inicio": 0.418,
+     "fin": 0.627
+    },
+    {
+     "t": "cualquiera.",
+     "inicio": 0.662,
+     "fin": 1.173
+    },
+    {
+     "t": "Encima,",
+     "inicio": 1.289,
+     "fin": 1.834
+    },
+    {
+     "t": "un",
+     "inicio": 1.927,
+     "fin": 1.974
+    },
+    {
+     "t": "menos",
+     "inicio": 2.02,
+     "fin": 2.264
+    },
+    {
+     "t": "setenta.",
+     "inicio": 2.287,
+     "fin": 3.019
+    }
+   ]
+  },
+  {
+   "id": "soloHoy",
+   "texto": "Pégale un «solo hoy».",
+   "archivo": "soloHoy.mp3",
+   "segundos": 1.697959,
+   "palabras": [
+    {
+     "t": "Pégale",
+     "inicio": 0,
+     "fin": 0.418
+    },
+    {
+     "t": "un",
+     "inicio": 0.488,
+     "fin": 0.604
+    },
+    {
+     "t": "«solo",
+     "inicio": 0.627,
+     "fin": 1.057
+    },
+    {
+     "t": "hoy».",
+     "inicio": 1.091,
+     "fin": 1.672
+    }
+   ]
+  },
+  {
+   "id": "reloj",
+   "texto": "Una cuenta atrás… que mañana vuelve a empezar.",
+   "archivo": "reloj.mp3",
+   "segundos": 2.638367,
+   "palabras": [
+    {
+     "t": "Una",
+     "inicio": 0,
+     "fin": 0.232
+    },
+    {
+     "t": "cuenta",
+     "inicio": 0.267,
+     "fin": 0.546
+    },
+    {
+     "t": "atrás…",
+     "inicio": 0.569,
+     "fin": 1.057
+    },
+    {
+     "t": "que",
+     "inicio": 1.173,
+     "fin": 1.277
+    },
+    {
+     "t": "mañana",
+     "inicio": 1.324,
+     "fin": 1.591
+    },
+    {
+     "t": "vuelve",
+     "inicio": 1.637,
+     "fin": 1.869
+    },
+    {
+     "t": "a",
+     "inicio": 1.892,
+     "fin": 1.927
+    },
+    {
+     "t": "empezar.",
+     "inicio": 1.985,
+     "fin": 2.601
+    }
+   ]
+  },
+  {
+   "id": "plazos",
+   "texto": "Y tres cómodos plazos.",
+   "archivo": "plazos.mp3",
+   "segundos": 1.515102,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.163
+    },
+    {
+     "t": "tres",
+     "inicio": 0.255,
+     "fin": 0.441
+    },
+    {
+     "t": "cómodos",
+     "inicio": 0.499,
+     "fin": 0.848
+    },
+    {
+     "t": "plazos.",
+     "inicio": 0.894,
+     "fin": 1.486
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Listo. Ya te parece imprescindible.",
+   "archivo": "wow.mp3",
+   "segundos": 2.403265,
+   "palabras": [
+    {
+     "t": "Listo.",
+     "inicio": 0,
+     "fin": 0.522
+    },
+    {
+     "t": "Ya",
+     "inicio": 0.836,
+     "fin": 0.975
+    },
+    {
+     "t": "te",
+     "inicio": 1.01,
+     "fin": 1.08
+    },
+    {
+     "t": "parece",
+     "inicio": 1.126,
+     "fin": 1.405
+    },
+    {
+     "t": "imprescindible.",
+     "inicio": 1.44,
+     "fin": 2.368
+    }
+   ]
+  },
+  {
+   "id": "prisa",
+   "texto": "Ahora quítale la prisa: dos días en el carrito, sin pagar.",
+   "archivo": "prisa.mp3",
+   "segundos": 3.291429,
+   "palabras": [
+    {
+     "t": "Ahora",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "quítale",
+     "inicio": 0.348,
+     "fin": 0.662
+    },
+    {
+     "t": "la",
+     "inicio": 0.708,
+     "fin": 0.766
+    },
+    {
+     "t": "prisa:",
+     "inicio": 0.813,
+     "fin": 1.254
+    },
+    {
+     "t": "dos",
+     "inicio": 1.37,
+     "fin": 1.567
+    },
+    {
+     "t": "días",
+     "inicio": 1.614,
+     "fin": 1.811
+    },
+    {
+     "t": "en",
+     "inicio": 1.869,
+     "fin": 1.916
+    },
+    {
+     "t": "el",
+     "inicio": 1.962,
+     "fin": 2.02
+    },
+    {
+     "t": "carrito,",
+     "inicio": 2.055,
+     "fin": 2.461
+    },
+    {
+     "t": "sin",
+     "inicio": 2.496,
+     "fin": 2.624
+    },
+    {
+     "t": "pagar.",
+     "inicio": 2.682,
+     "fin": 3.251
+    }
+   ]
+  },
+  {
+   "id": "sobra",
+   "texto": "Sin pegatinas, casi siempre sobra. Y si no, la compras tranquilo.",
+   "archivo": "sobra.mp3",
+   "segundos": 3.84,
+   "palabras": [
+    {
+     "t": "Sin",
+     "inicio": 0,
+     "fin": 0.197
+    },
+    {
+     "t": "pegatinas,",
+     "inicio": 0.244,
+     "fin": 0.894
+    },
+    {
+     "t": "casi",
+     "inicio": 0.929,
+     "fin": 1.173
+    },
+    {
+     "t": "siempre",
+     "inicio": 1.219,
+     "fin": 1.521
+    },
+    {
+     "t": "sobra.",
+     "inicio": 1.556,
+     "fin": 1.95
+    },
+    {
+     "t": "Y",
+     "inicio": 2.067,
+     "fin": 2.148
+    },
+    {
+     "t": "si",
+     "inicio": 2.229,
+     "fin": 2.334
+    },
+    {
+     "t": "no,",
+     "inicio": 2.403,
+     "fin": 2.589
+    },
+    {
+     "t": "la",
+     "inicio": 2.659,
+     "fin": 2.74
+    },
+    {
+     "t": "compras",
+     "inicio": 2.786,
+     "fin": 3.1
+    },
+    {
+     "t": "tranquilo.",
+     "inicio": 3.135,
+     "fin": 3.808
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Guárdalo para el viernes. Síguenos para más.",
+   "archivo": "cta.mp3",
+   "segundos": 2.168163,
+   "palabras": [
+    {
+     "t": "Guárdalo",
+     "inicio": 0,
+     "fin": 0.418
+    },
+    {
+     "t": "para",
+     "inicio": 0.453,
+     "fin": 0.569
+    },
+    {
+     "t": "el",
+     "inicio": 0.592,
+     "fin": 0.639
+    },
+    {
+     "t": "viernes.",
+     "inicio": 0.697,
+     "fin": 1.08
+    },
+    {
+     "t": "Síguenos",
+     "inicio": 1.103,
+     "fin": 1.486
+    },
+    {
+     "t": "para",
+     "inicio": 1.521,
+     "fin": 1.672
+    },
+    {
+     "t": "más.",
+     "inicio": 1.707,
+     "fin": 2.136
+    }
+   ]
+  }
+ ]
+}
