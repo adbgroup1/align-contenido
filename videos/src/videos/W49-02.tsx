@@ -82,13 +82,13 @@ const Sucursal: React.FC<{ baja: number; polvo?: number; y?: number; escala?: nu
 };
 
 /* ---------- Billetes, cúpula ---------- */
-const PilaBilletes: React.FC<{ x: number; base: number; n: number; mojados?: number; ancho?: number }> = ({ x, base, n, mojados = 0, ancho = 220 }) => {
+const PilaBilletes: React.FC<{ x: number; base: number; n: number; techo?: number; ancho?: number }> = ({ x, base, n, techo = -1, ancho = 240 }) => {
   const f = useCurrentFrame();
   return (
     <svg width={1080} height={1920} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
       {Array.from({ length: Math.floor(n) }, (_, k) => {
         const y = base - 18 - k * 22;
-        const mojado = k >= n - mojados;
+        const mojado = y < techo;
         const dx = Math.sin(k * 1.7) * 8;
         return (
           <g key={k}>
@@ -102,7 +102,7 @@ const PilaBilletes: React.FC<{ x: number; base: number; n: number; mojados?: num
   );
 };
 
-const Cupula: React.FC<{ x: number; base: number; r?: number; s?: number; rotulo?: string }> = ({ x, base, r = 300, s = 1, rotulo = "100.000 €" }) => {
+const Cupula: React.FC<{ x: number; base: number; r?: number; s?: number; rotulo?: string }> = ({ x, base, r = 340, s = 1, rotulo = "100.000 €" }) => {
   if (s <= 0.01) return null;
   const rr = r * s;
   return (
@@ -118,7 +118,7 @@ const Cupula: React.FC<{ x: number; base: number; r?: number; s?: number; rotulo
 };
 
 /* Lluvia que no entra en la cúpula: tapa el interior con el color del fondo */
-const Interior: React.FC<{ x: number; base: number; r?: number }> = ({ x, base, r = 300 }) => (
+const Interior: React.FC<{ x: number; base: number; r?: number }> = ({ x, base, r = 340 }) => (
   <svg width={1080} height={1920} style={{ position: "absolute", left: 0, top: 0 }}>
     <path d={`M${x - r} ${base} A${r} ${r * 1.05} 0 0 1 ${x + r} ${base} Z`} fill="#18224A" />
   </svg>
@@ -126,13 +126,13 @@ const Interior: React.FC<{ x: number; base: number; r?: number }> = ({ x, base, 
 
 /* ---------- Iconos ---------- */
 const IcoPersona: React.FC = () => (
-  <svg width={220} height={220} viewBox="0 0 100 100">
+  <svg width={300} height={300} viewBox="0 0 100 100">
     <circle cx={50} cy={32} r={18} fill={COLORS.light} stroke={COLORS.navy} strokeWidth={4} />
     <path d="M18 92 C18 66 32 56 50 56 C68 56 82 66 82 92 Z" fill={COLORS.light} stroke={COLORS.navy} strokeWidth={4} />
   </svg>
 );
 const IcoBanco: React.FC = () => (
-  <svg width={220} height={220} viewBox="0 0 100 100">
+  <svg width={300} height={300} viewBox="0 0 100 100">
     <path d="M10 36 L50 12 L90 36 Z" fill={COLORS.gold} stroke={COLORS.navy} strokeWidth={4} strokeLinejoin="round" />
     {[22, 40, 58, 76].map((x) => (
       <rect key={x} x={x - 4} y={40} width={10} height={40} fill={COLORS.paper} stroke={COLORS.navy} strokeWidth={3} />
@@ -141,14 +141,14 @@ const IcoBanco: React.FC = () => (
   </svg>
 );
 const Libreta: React.FC = () => (
-  <svg width={260} height={200} viewBox="0 0 130 100">
+  <svg width={340} height={260} viewBox="0 0 130 100">
     <rect x={6} y={10} width={118} height={80} rx={10} fill={COLORS.blue} stroke={COLORS.navy} strokeWidth={4} />
     <rect x={18} y={26} width={30} height={22} rx={4} fill={COLORS.gold} />
     <rect x={18} y={62} width={90} height={8} rx={4} fill={COLORS.light} />
   </svg>
 );
 const CajaFuerte: React.FC = () => (
-  <svg width={220} height={220} viewBox="0 0 100 100">
+  <svg width={280} height={280} viewBox="0 0 100 100">
     <rect x={10} y={20} width={80} height={70} rx={10} fill={COLORS.grey} stroke={COLORS.navy} strokeWidth={4} />
     <circle cx={50} cy={55} r={18} fill={COLORS.light} stroke={COLORS.navy} strokeWidth={4} />
     <line x1={50} y1={55} x2={62} y2={47} stroke={COLORS.navy} strokeWidth={4} strokeLinecap="round" />
@@ -288,17 +288,17 @@ const Cubre: React.FC = () => (
   <Escena fondo="noche">
     <Escenario tipo="calle" />
     <Rotulo texto="Cuentas y **depósitos**" />
-    <div style={{ position: "absolute", top: 600, left: 90, right: 120, display: "flex", justifyContent: "center", alignItems: "center", gap: 60 }}>
+    <div style={{ position: "absolute", top: 600, left: 90, right: 120, display: "flex", justifyContent: "center", alignItems: "center", gap: 40 }}>
       <Entra delay={0.2} desde="izq">
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
           <Libreta />
-          <div style={{ fontSize: 46, fontWeight: 900, color: COLORS.white }}>Cuenta</div>
+          <div style={{ fontSize: 46, fontWeight: 900, color: COLORS.navy, background: COLORS.white, borderRadius: 20, padding: "4px 24px" }}>Cuenta</div>
         </div>
       </Entra>
       <Entra delay={0.9} desde="der">
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
           <CajaFuerte />
-          <div style={{ fontSize: 46, fontWeight: 900, color: COLORS.white }}>Depósito</div>
+          <div style={{ fontSize: 46, fontWeight: 900, color: COLORS.navy, background: COLORS.white, borderRadius: 20, padding: "4px 24px" }}>Depósito</div>
         </div>
       </Entra>
     </div>
@@ -307,16 +307,17 @@ const Cubre: React.FC = () => (
   </Escena>
 );
 
-const BASE = 1180;
+const BASE = 1170;
+const TECHO = BASE - 340 * 1.05;
 const Wow: React.FC = () => {
   const t = useSeg();
   const cup = useSpring(0.2, 10, 0.7);
-  const n = interpolate(t, [0.4, 2.2], [0, 11], clamp);
+  const n = interpolate(t, [0.4, 2.2], [0, 13], clamp);
   return (
     <Escena fondo="noche" sacudidas={[2.4]}>
       <Escenario tipo="calle" />
       {t > 1.2 ? <Lluvia gotas={60} /> : null}
-      <Interior x={540} base={BASE} r={300 * cup} />
+      <Interior x={540} base={BASE} r={340 * cup} />
       <PilaBilletes x={540} base={BASE} n={n} />
       <Cupula x={540} base={BASE} s={cup} />
       <Rotulo texto="A salvo hasta **100.000 €**" />
@@ -331,13 +332,13 @@ const Rehook: React.FC = () => {
   const t = useSeg();
   const f = useCurrentFrame();
   const rebobina = t < 0.9;
-  const n = rebobina ? interpolate(t, [0, 0.9], [11, 4], clamp) : interpolate(t, [0.9, 2.4], [4, 18], clamp);
+  const n = rebobina ? interpolate(t, [0, 0.9], [13, 4], clamp) : interpolate(t, [0.9, 2.4], [4, 22], clamp);
   return (
     <Escena fondo="noche" sonidoEntrada="swoosh">
       <Escenario tipo="calle" />
       <Lluvia gotas={60} />
       <Interior x={540} base={BASE} />
-      <PilaBilletes x={540} base={BASE} n={n} />
+      <PilaBilletes x={540} base={BASE} n={n} techo={TECHO} />
       <Cupula x={540} base={BASE} />
       {rebobina ? (
         <>
@@ -360,9 +361,10 @@ const Fuera: React.FC = () => (
     <Escenario tipo="calle" />
     <Lluvia gotas={80} />
     <Interior x={540} base={BASE} />
-    <PilaBilletes x={540} base={BASE} n={18} mojados={5} />
+    <PilaBilletes x={540} base={BASE} n={22} techo={TECHO} />
     <Cupula x={540} base={BASE} />
     <Rotulo texto="Fuera: **no cubierto**" color={COLORS.navy} />
+    <div style={{ position: "absolute", top: 560, left: 640, background: COLORS.red, color: COLORS.white, fontSize: 40, fontWeight: 900, padding: "8px 22px", borderRadius: 16, rotate: "6deg" }}>← se moja</div>
     <Sfx s="pop" volumen={0.3} en={0.4} />
   </Escena>
 );
@@ -372,15 +374,15 @@ const Reparte: React.FC = () => {
   const p = interpolate(t, [0.3, 1.4], [0, 1], { ...clamp, easing: (x) => 1 - (1 - x) ** 3 });
   const xa = 540 - p * 250;
   const xb = 540 + p * 250;
-  const r = 300 - p * 90;
+  const r = 340 - p * 130;
   return (
     <Escena fondo="noche">
       <Escenario tipo="calle" />
       <Lluvia gotas={60} />
       <Interior x={xa} base={BASE} r={r} />
       <Interior x={xb} base={BASE} r={r} />
-      <PilaBilletes x={xa} base={BASE} n={18 - p * 9} ancho={200} />
-      {p > 0.05 ? <PilaBilletes x={xb} base={BASE} n={p * 9} ancho={200} /> : null}
+      <PilaBilletes x={xa} base={BASE} n={22 - p * 11} ancho={190} techo={BASE - r * 1.05} />
+      {p > 0.05 ? <PilaBilletes x={xb} base={BASE} n={p * 11} ancho={190} /> : null}
       <Cupula x={xa} base={BASE} r={r} rotulo="Banco A" />
       {p > 0.05 ? <Cupula x={xb} base={BASE} r={r} s={p} rotulo="Banco B" /> : null}
       <Rotulo texto="Más de 100.000 → **varios bancos**" size={56} />
