@@ -130,7 +130,10 @@ Guárdalo en `informes/AAAA-MM-DD.md` y mándalo por correo, en un aviso aparte 
   «todo en marcha», «1 agente atascado».
 - **Cuerpo**, en texto plano, sin tablas ni markdown, porque se lee en el móvil. Como mucho 25 líneas:
   1. **Veredicto**, en 1 o 2 frases.
-  2. **Cada agente**, una línea con el formato `Nombre: OK / A MEDIAS / NO CORRIÓ · qué hizo · próxima vez`.
+  2. **Cada agente**, una línea con el formato
+     `Nombre: OK / A MEDIAS / NO CORRIÓ / NO TOCABA · qué hizo · próxima vez`.
+     - `NO TOCABA`: un agente al que no le tocaba correr desde el último informe. No es un fallo.
+     - `A MEDIAS`: corrió, pero algo le salió mal (por ejemplo, Gemini 503).
   3. **Publicado y en cola:** fecha y título de cada vídeo, y cuántas publicaciones del plan quedan este mes.
   4. **Cosas que has arreglado tú**, si las hay.
   5. **Qué mejorarías**, como mucho 2 cosas concretas, solo si las ves en los datos.
