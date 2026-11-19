@@ -15,7 +15,7 @@ const args = process.argv.slice(2);
 const nIdx = args.indexOf("--n");
 const candPath = "../investigacion/candidatos.json";
 const cand = existsSync(candPath) ? JSON.parse(readFileSync(candPath, "utf8")) : [];
-let urls = args.filter((a, i) => a.startsWith("http") && i !== nIdx + 1);
+let urls = args.filter((a, i) => a.startsWith("http") && (nIdx < 0 || i !== nIdx + 1));
 if (nIdx >= 0) urls = cand.filter((c) => !c.visto).slice(0, Number(args[nIdx + 1])).map((c) => c.url);
 mkdirSync("../investigacion/fichas", { recursive: true });
 
