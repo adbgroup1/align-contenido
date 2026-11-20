@@ -84,7 +84,9 @@ Usa `createScheduledPost`:
 - `blogId` = `5900765`;
 - `autoPublish` = true;
 - `media` = [la URL pública del MP4];
-- `providers`: solo las redes **que la marca tenga conectadas** según `getBrandSettings`;
+- `providers`: solo las redes **que la marca tenga conectadas** según `getBrandSettings`, **menos TikTok**.
+  TikTok está conectado desde el 20 nov 2026, pero Andrés aún no quiere publicar ahí («todavía no subas nada»).
+  No lo incluyas hasta que una regla nueva de `GUIA.md` lo diga;
 - `text` = el caption de la página;
 - `firstCommentText`: la pregunta del vídeo, sin enlaces (ver «Objetivo y CTA» en `GUIA.md`);
 - `instagramData`: `{"type":"REEL","showReelOnFeed":true}`.
