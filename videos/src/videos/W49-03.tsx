@@ -1,5 +1,5 @@
 import React from "react";
-import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
+import { Easing, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { COLORS } from "../brand";
 import {
   Bocadillo,
@@ -63,20 +63,37 @@ const Ardilla: React.FC<{
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const a = ARDILLAS[quien];
+  // salto con anticipación (se agacha), vuelo en parábola y amortiguación al caer
   let brinco = 0;
+  let agacha = 0;
   if (salto !== undefined) {
     const k = f - Math.round(salto * fps);
-    if (k >= 0 && k < 14) brinco = Math.sin((k / 14) * Math.PI) * 50;
+    const T = 22;
+    if (k >= -6 && k < 0) agacha = Math.sin(((k + 6) / 6) * (Math.PI / 2)) * 0.07;
+    else if (k >= 0 && k < T) {
+      const p = k / T;
+      brinco = 4 * p * (1 - p) * 62;
+      agacha = -Math.sin(p * Math.PI) * 0.03;
+    } else if (k >= T && k < T + 8) agacha = Math.sin(((k - T) / 8) * Math.PI) * 0.06 * (1 - (k - T) / 8);
   }
+  // respiración suave (cada ardilla a su ritmo)
+  const resp = Math.sin(f / 13 + a.n * 2.1);
+  const sy = 1 + resp * 0.012 - agacha;
+  const sx = 1 - resp * 0.008 + agacha * 0.6;
+  const balanceo = Math.sin(f / 31 + a.n) * 0.6;
   const s = useSpring(delay, 13, 0.7);
   const ent = entra ? s : 1;
   const offX = entra === "izq" ? -(1 - ent) * 700 : entra === "der" ? (1 - ent) * 700 : 0;
   const offY = entra === "abajo" ? (1 - ent) * 500 : 0;
-  const colaOnda = Math.sin(f / 9 + a.n) * 6;
+  const colaOnda = Math.sin(f / 12 + a.n) * 5 + Math.sin(f / 5 + a.n) * 1.2;
   const caja = { left: x - 100 * escala, top: y - 260 * escala, width: 200 * escala, height: 260 * escala };
   const lado = quien === "bruno" ? -1 : 1; // la cola de Bruno, a la izquierda
   return (
-    <div style={{ position: "absolute", inset: 0, translate: `${offX}px ${offY - brinco}px`, opacity: Math.min(1, ent * 1.4) }}>
+    <div style={{ position: "absolute", inset: 0, translate: `${offX}px ${offY - brinco}px`, scale: `${sx} ${sy}`, rotate: `${balanceo}deg`, transformOrigin: `${x}px ${y}px`, opacity: Math.min(1, ent * 1.4) }}>
+      {/* sombra en el suelo, se encoge cuando salta */}
+      <svg style={{ position: "absolute", inset: 0, overflow: "visible" }} width={1080} height={1920}>
+        <ellipse cx={x} cy={y + 6} rx={(78 - brinco * 0.5) * escala} ry={(13 - brinco * 0.08) * escala} fill={COLORS.navy} opacity={0.16 - brinco * 0.0012} />
+      </svg>
       {/* cola (detrás) */}
       <svg style={{ position: "absolute", ...caja, overflow: "visible" }} viewBox="0 0 200 260">
         <g transform={`translate(${100 + lado * 50} 200) scale(${lado} 1) rotate(${colaOnda})`}>
@@ -264,7 +281,7 @@ const BolsaCae: React.FC<{ x: number; delay: number; vacia?: number }> = ({ x, d
 const Gancho2: React.FC = () => {
   const t = useSeg();
   const f = useCurrentFrame();
-  const pala = Math.sin(t * 9) * 20;
+  const pala = Math.sin(t * 7) * 18;
   return (
     <Escena>
       <Escenario tipo="campo" />
@@ -273,7 +290,7 @@ const Gancho2: React.FC = () => {
       <svg width={1080} height={1920} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
         {[0, 1, 2, 3].map((k) => {
           const p = ((f / 22 + k / 4) % 1);
-          return <Bellota key={k} x={POS.lola - 40 + k * 26} y={SUELO_Y - 330 - p * 140} rot={p * 300} o={1 - p} />;
+          return <Bellota key={k} x={POS.lola - 40 + k * 26} y={SUELO_Y - 330 - p * 140} rot={p * 300} o={Math.sin(p * Math.PI)} />;
         })}
         {/* pala de Bruno */}
         <g transform={`translate(${POS.bruno + 110} ${SUELO_Y - 120}) rotate(${-30 + pala})`}>
@@ -283,11 +300,11 @@ const Gancho2: React.FC = () => {
         {/* tierra que salta */}
         {[0, 1, 2].map((k) => {
           const p = ((f / 15 + k / 3) % 1);
-          return <circle key={k} cx={POS.bruno + 150 + p * 60} cy={SUELO_Y - 20 - Math.sin(p * Math.PI) * 90} r={9} fill={COLORS.choco} />;
+          return <circle key={k} cx={POS.bruno + 150 + p * 60} cy={SUELO_Y - 20 - Math.sin(p * Math.PI) * 90} r={9} fill={COLORS.choco} opacity={Math.sin(p * Math.PI)} />;
         })}
         {/* hoyo y bellota de Nina */}
         <ellipse cx={POS.nina - 120} cy={SUELO_Y} rx={46} ry={14} fill={COLORS.choco} />
-        <Bellota x={POS.nina - 120} y={interpolate(t, [0.8, 1.6], [SUELO_Y - 200, SUELO_Y - 8], clamp)} />
+        <Bellota x={POS.nina - 120} y={interpolate(t, [0.8, 1.6], [SUELO_Y - 200, SUELO_Y - 8], { ...clamp, easing: Easing.in(Easing.quad) })} />
       </svg>
       <Ardilla quien="bruno" x={POS.bruno} expresion="neutral" pose="senala" mirar="der" />
       <Ardilla quien="nina" x={POS.nina} expresion="feliz" pose="senala" mirar="izq" />
@@ -300,7 +317,7 @@ const Gancho2: React.FC = () => {
 
 const Lola: React.FC = () => {
   const t = useSeg();
-  const barriga = interpolate(t, [0.2, 1.4], [0, 1], clamp);
+  const barriga = interpolate(t, [0.2, 1.4], [0, 1], { ...clamp, easing: Easing.inOut(Easing.cubic) });
   const f = useCurrentFrame();
   return (
     <Escena>
@@ -312,7 +329,7 @@ const Lola: React.FC = () => {
         ))}
         {[0, 1, 2].map((k) => {
           const p = ((f / 18 + k / 3) % 1);
-          return <path key={`v${k}`} d="M0 0 q10 -16 20 0 Z" fill={COLORS.choco} transform={`translate(${540 + (k - 1) * 80 + p * 60 * (k - 1)} ${SUELO_Y - 360 + p * 300}) rotate(${p * 360})`} />;
+          return <path key={`v${k}`} d="M0 0 q10 -16 20 0 Z" fill={COLORS.choco} transform={`translate(${540 + (k - 1) * 80 + p * 60 * (k - 1)} ${SUELO_Y - 360 + p * 300}) rotate(${p * 360})`} opacity={Math.sin(p * Math.PI)} />;
         })}
       </svg>
       <Ardilla quien="lola" x={540} escala={1.5} expresion="feliz" pose="abraza" barriga={barriga} />
@@ -349,7 +366,7 @@ const Nina: React.FC = () => {
   const t = useSeg();
   const pasos = Math.min(3, Math.floor(t / 0.8));
   const g = useSpring(0.8 * pasos, 10, 0.6);
-  const crecer = 0.04 + (pasos - 1 + g) * 0.06;
+  const crecer = interpolate(t, [0, 3.2], [0.04, 0.22], { ...clamp, easing: Easing.inOut(Easing.quad) });
   return (
     <Escena>
       <Escenario tipo="campo" />
@@ -366,8 +383,8 @@ const Nina: React.FC = () => {
 
 const Crece: React.FC = () => {
   const t = useSeg();
-  const g = interpolate(t, [0, 1.8], [0.22, 0.55], { ...clamp, easing: (x) => 1 - (1 - x) ** 2 });
-  const b = interpolate(t, [1.2, 2.4], [0, 0.35], clamp);
+  const g = interpolate(t, [0, 1.8], [0.22, 0.55], { ...clamp, easing: Easing.inOut(Easing.quad) });
+  const b = interpolate(t, [1.2, 2.6], [0, 0.35], { ...clamp, easing: Easing.out(Easing.cubic) });
   return (
     <Escena>
       <Escenario tipo="campo" />
@@ -387,9 +404,9 @@ const Rehook: React.FC = () => {
     <Escena>
       <Escenario tipo="campo" tarde={0.35} />
       {Array.from({ length: 10 }, (_, k) => {
-        const p = interpolate(t, [k * 0.16, k * 0.16 + 0.7], [0, 1], clamp);
+        const p = interpolate(t, [k * 0.16, k * 0.16 + 0.8], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
         if (p <= 0 || p >= 1) return null;
-        return <HojaDic key={k} x={540 + (k % 2 ? 1 : -1) * p * 600} y={760 - p * 420} rot={p * 120 * (k % 2 ? 1 : -1)} />;
+        return <HojaDic key={k} x={540 + (k % 2 ? 1 : -1) * p * 600} y={760 - Math.sin(p * Math.PI * 0.8) * 420} rot={p * 120 * (k % 2 ? 1 : -1)} s={0.7 + 0.3 * Math.sin(p * Math.PI)} />;
       })}
       <div style={{ position: "absolute", top: 600, left: 0, right: 0, textAlign: "center", zIndex: 5 }}>
         <div style={{ fontSize: 80, fontWeight: 900, color: COLORS.white, textShadow: "0 8px 30px rgba(0,0,0,0.4)" }}>10 años después…</div>
@@ -452,7 +469,7 @@ const Moraleja: React.FC = () => {
         </g>
         {[0, 1, 2, 3].map((k) => {
           const p = ((f / 14 + k / 4) % 1);
-          return <ellipse key={k} cx={590 + p * 30} cy={SUELO_Y - 270 + p * 250} rx={6} ry={10} fill={COLORS.blue} opacity={1 - p} />;
+          return <ellipse key={k} cx={590 + p * 30} cy={SUELO_Y - 270 + p * 250} rx={6} ry={10} fill={COLORS.blue} opacity={Math.sin(p * Math.PI)} />;
         })}
       </svg>
       <Ardilla quien="nina" x={330} expresion="feliz" pose="senala" mirar="der" />
