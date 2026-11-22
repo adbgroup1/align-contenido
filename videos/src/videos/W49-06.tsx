@@ -1,7 +1,7 @@
 import React from "react";
 import { Audio, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { COLORS } from "../brand";
-import { Chispas, CtaCrecer, DefEscena, Escena, Montaje, Pildora, PropsVoz, Sfx, useSpring } from "../kit";
+import { Chispas, CtaCrecer, DefEscena, Escena, Montaje, Personaje, Pildora, PropsVoz, SUELO_Y, Sfx, useSpring } from "../kit";
 
 // W49-06 · «Lo que llevas gastado en Lotería de Navidad» · CONTADOR con sonificación · tipográfico + dibujo · CTA COMENTAR
 // Datos: 72,5 € por persona en 2025 (SELAE vía Newtral); 1 posibilidad entre 100.000 (números 00000–99999, SELAE).
@@ -55,20 +55,42 @@ const Decimo: React.FC<{ x: number; y: number; rot: number; n: number; s?: numbe
   </div>
 );
 
-/* Pila de décimos detrás del contador: `n` décimos */
+/* Torre de décimos a la derecha: `n` décimos (uno por diciembre). La torre es el hook visual. */
 const Pila: React.FC<{ n: number }> = ({ n }) => {
   const f = useCurrentFrame();
   return (
     <>
-      {Array.from({ length: Math.min(22, Math.floor(n)) }, (_, k) => {
+      {Array.from({ length: Math.min(26, Math.floor(n)) }, (_, k) => {
         const lado = k % 2 ? 1 : -1;
-        const x = 540 + lado * (230 + ((k * 29) % 60)) + Math.sin(f / 30 + k) * 3;
-        const y = 1230 - Math.floor(k / 2) * 24;
-        return <Decimo key={k} x={x} y={y} rot={lado * (4 + ((k * 17) % 14))} n={k} s={0.8} />;
+        const x = 850 + lado * (6 + ((k * 13) % 14)) + Math.sin(f / 30 + k) * 2;
+        const y = 1215 - k * 27;
+        return <Decimo key={k} x={x} y={y} rot={lado * (2 + ((k * 7) % 5))} n={k} s={0.78} />;
       })}
     </>
   );
 };
+
+/* El personaje del vídeo: la persona que compra un décimo cada diciembre. Envejece: gorra → gafas. */
+const Persona: React.FC<{ edad: number; expresion?: "feliz" | "sorpresa" | "pensativo" | "neutral" | "triste"; pose?: "quieto" | "saluda" | "brazos-arriba" | "senala" | "piensa" | "encoge"; escala?: number; x?: number; y?: number }> = ({
+  edad,
+  expresion = "feliz",
+  pose = "quieto",
+  escala = 1.35,
+  x = 260,
+  y = SUELO_Y,
+}) => (
+  <Personaje
+    x={x}
+    y={y}
+    escala={escala}
+    color={edad >= 35 ? "#7C8CF8" : COLORS.accent}
+    expresion={expresion}
+    pose={pose}
+    accesorio={edad >= 30 ? "gafas" : edad >= 22 ? "gorra" : null}
+    colorAccesorio={COLORS.gold}
+    mirar="der"
+  />
+);
 
 /* ---------- Contador de años ---------- */
 // La cifra es (edad − 18) × 72,5. Cada escena mueve la edad de `de` a `a` en `dur` segundos, con un tono por año.
@@ -91,11 +113,12 @@ const Contador: React.FC<{ de: number; a: number; t0?: number; dur: number; titu
   const pasos = Array.from({ length: a - de }, (_, k) => ({ en: t0 + ((k + 1) * dur) / (a - de), i: de + k + 1 - 18 }));
   return (
     <>
-      <Pila n={edad - 18} />
+      <Pila n={edad - 18 + 3} />
+      <Persona edad={edad} expresion={final && p >= 1 ? "sorpresa" : "feliz"} pose={final && p >= 1 ? "brazos-arriba" : "quieto"} />
       <div style={{ position: "absolute", top: 250, left: 90, right: 120, display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}>
         {titulo}
       </div>
-      <div style={{ position: "absolute", top: 560, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
+      <div style={{ position: "absolute", top: 400, left: 0, right: 280, display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
         <div
           style={{
             background: COLORS.white,
@@ -112,10 +135,10 @@ const Contador: React.FC<{ de: number; a: number; t0?: number; dur: number; titu
         </div>
         <div
           style={{
-            fontSize: v >= 1000 ? 210 : 230,
+            fontSize: v >= 1000 ? 150 : 170,
             fontWeight: 900,
             color,
-            letterSpacing: -8,
+            letterSpacing: -6,
             fontVariantNumeric: "tabular-nums",
             lineHeight: 1,
             scale: String(golpe),
@@ -188,8 +211,12 @@ const Edades: React.FC = () => (
   </Escena>
 );
 
-const Wow: React.FC = () => (
+const Wow: React.FC = () => {
+  const t = useSeg();
+  const z = interpolate(t, [1.6, 3.4], [1, 0.72], { ...clamp, easing: (x) => x * x * (3 - 2 * x) });
+  return (
   <Escena fondo="claro" sacudidas={[2.2]}>
+    <div style={{ position: "absolute", inset: 0, transformOrigin: "50% 85%", scale: String(z) }}>
     <Contador
       de={35}
       a={40}
@@ -199,9 +226,11 @@ const Wow: React.FC = () => (
       nota={<Nota delay={2.3}>Cálculo: 72,5 € × 22 años</Nota>}
     />
     <Chispas en={2.2} x={540} y={760} color={COLORS.gold} />
+    </div>
     <Sfx s="ding" volumen={0.45} en={2.2} />
   </Escena>
-);
+  );
+};
 
 const Rehook: React.FC = () => {
   const s = useSpring(0.5, 10, 0.7);
@@ -257,6 +286,9 @@ const BolasEscena: React.FC = () => {
         </div>
         <Nota delay={0.6}>Posibilidad de que un décimo lleve el Gordo · SELAE</Nota>
       </div>
+      <div style={{ opacity: interpolate(alejar, [0.35, 0.7], [0, 1], clamp) }}>
+        <Persona edad={40} expresion="pensativo" pose="piensa" escala={0.5} x={430} y={1010} />
+      </div>
       <Sfx s="swoosh" volumen={0.25} en={0.5} />
     </Escena>
   );
@@ -265,6 +297,7 @@ const BolasEscena: React.FC = () => {
 const Giro: React.FC = () => (
   <Escena fondo="noche">
     <Bolas alejar={0.82} parpadeo />
+    <Persona edad={40} expresion="pensativo" pose="senala" escala={0.5} x={430} y={1010} />
     <div style={{ position: "absolute", top: 250, left: 90, right: 120, display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
       <div style={{ background: COLORS.gold, borderRadius: 30, padding: "12px 40px", fontSize: 76, fontWeight: 900, color: COLORS.navy }}>Sabe qué compras</div>
     </div>
@@ -332,14 +365,16 @@ const Cierre: React.FC = () => {
         </div>
         <div style={{ fontSize: 30, color: COLORS.navy }}>Contenido informativo, no es asesoramiento financiero.</div>
       </div>
-      <div style={{ position: "absolute", top: 600, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
+      <div style={{ position: "absolute", top: 450, left: 0, right: 280, display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
         <div style={{ background: COLORS.white, border: `6px solid ${COLORS.blue}`, borderRadius: 999, padding: "8px 34px", fontSize: 56, fontWeight: 900, color: COLORS.navy }}>
           {t > 1 ? "Este diciembre" : "…"}
         </div>
-        <div style={{ fontSize: 230, fontWeight: 900, color: COLORS.blue, letterSpacing: -8, lineHeight: 1, scale: String(t > 1 ? 0.9 + 0.1 * s : 1) }}>
+        <div style={{ fontSize: 170, fontWeight: 900, color: COLORS.blue, letterSpacing: -6, lineHeight: 1, scale: String(t > 1 ? 0.9 + 0.1 * s : 1) }}>
           {eur(Math.round(v / GASTO) * GASTO)}
         </div>
       </div>
+      <Pila n={t > 1 ? 1 : 3} />
+      <Persona edad={18} expresion="feliz" pose="saluda" />
       <Tono i={0} en={1.0} />
     </Escena>
   );
