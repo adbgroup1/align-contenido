@@ -33,7 +33,7 @@ const buscar = async (params) => {
 };
 
 // 1 · Candidatas: acento mexicano en español; si no sale nada, búsqueda por texto
-let candidatas = await buscar({ language: "es", accent: "mexican", sort: "usage_character_count_7d" });
+let candidatas = await buscar({ language: "es", accent: "mexican", sort: "usage_character_count_1y" });
 if (candidatas.length < n) candidatas.push(...(await buscar({ search: "mexican", language: "es" })));
 if (candidatas.length < n) candidatas.push(...(await buscar({ search: "mexicano" })));
 const vistos = new Set();
