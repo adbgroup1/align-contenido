@@ -184,3 +184,126 @@ gasta la revelación (20 €) en el hook. C es genérico.
   Guárdalo para cuando te lo pregunten.
   #fondosindexados #invertir #finanzaspersonales #dinero
   Contenido informativo, no es asesoramiento financiero.
+
+---
+
+# Tanda 2
+
+Agente 3 · 24 nov 2026 · México. Regla de esta tanda, sacada del tablero: **conflicto visual desde el fotograma 0**
+(los ganchos de «concepto» pierden al 65–68 %), y lo que se lee = lo que se ve = lo que se oye.
+
+## Idea 1 · Mismo aguinaldo, dos eneros (A/B · COMPARTIR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Contraste | **Mismo aguinaldo. Dos eneros.** | Pantalla partida: dos cuates con el mismo sobre de $6,000; izquierda ya con bolsas, derecha partiendo el sobre en 3 | ¿Cómo llega cada uno a enero? → s 12 |
+| B | Pregunta | **¿Tu aguinaldo llega vivo a enero?** | Un sobre con suero en una camilla | ¿Llega? → s 12 |
+| C | Error común | **El error que hace eterna la cuesta de enero** | Una rampa gigante con un cuate subiéndola | ¿Qué error? → s 6 |
+
+**Gana A.** Es el patrón con indicio a favor (H5: contraste en pantalla partida desde el fotograma 0) y obliga a
+elegir bando en 1 s. C es de «concepto», justo lo que el tablero dice que pierde.
+
+- **Segundo gancho (s 3–6):** «Uno se lo gasta en dos días. El otro hace esto.» (el sobre se parte en 3 con un tijeretazo).
+- **Cierre en bucle:** «… y en enero, uno sube la cuesta y el otro la baja.» → vuelve a la pantalla partida.
+- **CTA COMPARTIR:** voz «Mándaselo a tu cuate que ya se gastó el aguinaldo… y todavía no se lo pagan.»
+- **Caption:**
+  Mismo aguinaldo, dos eneros. ¿Cuál eres tú? 👀
+  Mándaselo a tu cuate que ya se lo gastó y todavía no le llega.
+  #aguinaldo #cuestadeenero #finanzaspersonales #quincena #ahorro
+  Contenido informativo, no es asesoramiento financiero.
+
+## Idea 2 · Construye tu colchón desde cero (Construye desde cero · COMPARTIR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Imperativo (patrón de la ficha) | **Pon esto… y tienes tu primer colchón** | Catre de metal vacío; cae la primera pieza (una tarjeta «Cuenta aparte») con pop | ¿Qué piezas faltan? → una por frase, s 3–15 |
+| B | Contraste | **Tu cama: lista. Tu colchón de dinero: no.** | Cama hecha a la izquierda, catre vacío a la derecha | ¿Cómo se arma? → s 3 |
+| C | Pregunta | **¿Cuántas piezas tiene tu colchón?** | Catre vacío con signo de interrogación | ¿Cuántas? → s 15 |
+
+**Gana A.** Es la estructura exacta del favorito de Andrés (127.000 me gusta, 19.600 envíos), con el objeto vacío
+en pantalla y una pieza que ya está cayendo: nadie se va a mitad de un montaje.
+
+- **Segundo gancho (s 3–5):** «Primera pieza: una cuenta que no tocas.» (la base encaja con un clic).
+- **Cierre:** caen «llanta ponchada» y «consulta médica» del techo y rebotan: «Ahora sí, que caiga lo que caiga.»
+- **CTA COMPARTIR:** «¿Cuál te falta? Mándaselo a quien vive a una emergencia de la quiebra.»
+- **Caption:**
+  Pon esto sobre esto… y tienes tu primer colchón. ¿Cuál pieza te falta?
+  Mándaselo a quien vive a una emergencia de la quiebra.
+  #fondodeemergencia #ahorro #finanzaspersonales #quincena
+  Contenido informativo, no es asesoramiento financiero.
+
+## Idea 3 · La tanda de la oficina (Dilema · COMENTAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Pregunta / dilema | **Tanda de $1,000. ¿Pides el 1 o el 10?** | Una mano saca dos papelitos de una taza de oficina: «1» y «10» | ¿Cuál conviene? → s 14 |
+| B | Nadie te dice | **Nadie te dice qué es en realidad una tanda** | Una tanda dibujada como un círculo de 10 sillas | ¿Qué es? → s 10 |
+| C | Historia | **El número 7 se desapareció con la tanda** | Una silla vacía y humo | ¿Qué pasó? → s 16 |
+
+**Gana A.** Dilema de un dígito: el espectador ya tiene su respuesta antes de que acabe el gancho, y la escribe (H7).
+C es buen re-hook: va en el s ~15.
+
+- **Segundo gancho (s 3–6):** «Spoiler: los dos ganan algo distinto… y los dos arriesgan lo mismo.»
+- **Re-hook (s ~15):** el número 7 se esfuma: «… si nadie se desaparece.»
+- **CTA COMENTAR:** pantalla «Comenta 1 o 10» · comentario fijado: «¿Y a ti quién te quedó a deber una tanda? 👀»
+- **Caption:**
+  Tanda de $1,000 por quincena: ¿pides el 1 o el 10? Comenta tu número 👇
+  #tanda #ahorro #finanzaspersonales #quincena #dinero
+  Contenido informativo, no es asesoramiento financiero.
+
+## Idea 4 · POV: es día 3 (POV en bucle · COMENTAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | POV | **POV: es día 3** | Calendario en «1» con un billete con capa; salta a «3» y el billete está en los huesos con maleta | ¿A dónde se va? → s 5 |
+| B | Número | **Día 1: millonario. Día 3: ¿?** | Pantalla partida día 1 / día 3 | ¿Qué pasó? → s 4 |
+| C | Pregunta | **¿Cuánto te dura la quincena?** | Reloj de arena con billetes | — |
+
+**Gana A.** Dos palabras y una imagen que todo México reconoce; en 8 s no cabe otra cosa. Bucle perfecto: el
+último fotograma es el primero.
+
+- **Segundo gancho (s 2–4):** el billete se sube a un taxi con letrero «renta · Oxxo · Uber · MSI».
+- **Cierre en bucle:** texto «Págate primero el día 1» y el calendario vuelve al «1».
+- **CTA COMENTAR (solo texto):** «¿En qué día se te acaba a ti?» · comentario fijado: «Yo llego vivo al día…».
+- **Caption:**
+  POV: es día 3 y la quincena ya hizo maletas 🧳 ¿En qué día se te acaba a ti?
+  #quincena #memes #finanzaspersonales #ahorro
+  Contenido informativo, no es asesoramiento financiero.
+
+## Idea 5 · Carrusel MSI (Carrusel · GUARDAR)
+
+| # | Tipo | Portada | Se ve | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Número / conflicto visual | **Tus meses sin intereses del Buen Fin, sumados** | Torre de recibos tambaleándose | ¿Cuánto suman? → lámina 6 |
+| B | Pregunta | **¿Cuántos MSI aguanta tu quincena?** | Quincena dibujada cargando cajas | ¿Cuántos? → lámina 6 |
+| C | Nadie te dice | **Lo que nadie te dice de los meses sin intereses** | Letra pequeña con lupa | — |
+
+**Gana A.** Toca a quien acaba de comprar en el Buen Fin (el que más lo necesita) y la torre promete un derrumbe.
+
+- **Lámina 2 (obliga a deslizar):** «La regla: todas tus deudas juntas, máximo el 30 % de lo que ganas. Vamos a sumar.»
+- **Última:** 3 preguntas antes de comprar a meses + CTA «Guárdalo antes de tu próxima compra a meses».
+- **Caption:**
+  ¿Tus meses sin intereses ya se comieron tu quincena? Desliza y suma los tuyos ➡️
+  Guárdalo antes de tu próxima compra a meses.
+  #mesessinintereses #buenfin #tarjetadecredito #finanzaspersonales #quincena
+  Contenido informativo, no es asesoramiento financiero.
+
+## Idea 6 · 4 cosas del aguinaldo (Lista · COMPARTIR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Nadie te dice | **4 cosas del aguinaldo que nadie te explica** | Sobre de aguinaldo con 4 candados; un mini-obrero llega con una llave | ¿Cuáles? → una cada 5 s |
+| B | Pregunta | **¿Te toca aguinaldo si entraste en septiembre?** | El «nuevo» de la oficina con cara de duda | Sí → s 14 |
+| C | Número | **$3,519 de tu aguinaldo no pagan impuestos** | Un sobre partido en dos colores | ¿Y el resto? → s 20 |
+
+**Gana A.** Promete una lista cerrada de 4 (se queda hasta la última) y la imagen de candados es el conflicto
+visual. B y C van dentro como re-hooks (s ~12 y s ~18).
+
+- **Segundo gancho (s 3–6):** «La tercera le sirve a todo el que entró este año.»
+- **Cierre:** el sobre se abre del todo; «Ya lo sabes. Ahora que no te lo cuenten a medias.»
+- **CTA COMPARTIR:** «Mándaselo al grupo de la chamba.»
+- **Caption:**
+  4 cosas del aguinaldo que nadie te explica (la 3 le sirve a todos los nuevos) 👀
+  Mándaselo al grupo de la chamba.
+  #aguinaldo #aguinaldo2026 #derechoslaborales #finanzaspersonales #quincena
+  Contenido informativo, no es asesoramiento financiero.
