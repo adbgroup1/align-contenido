@@ -23,8 +23,10 @@ const usarSay = flags.includes("--say");
 const dir = join("public", "voz", id);
 const guion = JSON.parse(readFileSync(join(dir, "guion.json"), "utf8"));
 
-// Voz por defecto: se cambia con ELEVENLABS_VOICE_ID. Modelo multilingüe (español de España).
-const VOICE_ID = process.env.ELEVENLABS_VOICE_ID ?? "";
+// Qué voz se usa, por orden: «voz» del guion.json (prueba de una voz concreta) → «principal» de voces.json
+// (la de ALIGN, con acento mexicano) → ELEVENLABS_VOICE_ID del entorno (reserva).
+const voces = existsSync("voces.json") ? JSON.parse(readFileSync("voces.json", "utf8")) : {};
+const VOICE_ID = guion.voz || voces.principal?.id || process.env.ELEVENLABS_VOICE_ID || "";
 const MODEL_ID = process.env.ELEVENLABS_MODEL_ID ?? "eleven_multilingual_v2";
 
 // Duración: WAV por cabecera; MP3 con ffprobe (en la nube) o, si no hay, con el de Remotion
@@ -78,7 +80,7 @@ const palabrasEstimadas = (texto, segundos) => {
 const elevenlabs = async (texto, anterior, siguiente) => {
   const key = process.env.ELEVENLABS_API_KEY;
   if (!key) throw new Error("Falta ELEVENLABS_API_KEY (variables del entorno de la nube).");
-  if (!VOICE_ID) throw new Error("Falta ELEVENLABS_VOICE_ID (variables del entorno de la nube).");
+  if (!VOICE_ID) throw new Error("Falta la voz: pon «principal» en voces.json o ELEVENLABS_VOICE_ID en el entorno.");
   const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}/with-timestamps`, {
     method: "POST",
     headers: { "xi-api-key": key, "Content-Type": "application/json" },
@@ -88,7 +90,7 @@ const elevenlabs = async (texto, anterior, siguiente) => {
       language_code: "es",
       previous_text: anterior || undefined,
       next_text: siguiente || undefined,
-      voice_settings: { stability: 0.45, similarity_boost: 0.8, style: 0.35, use_speaker_boost: true, speed: 1.05 },
+      voice_settings: { stability: 0.45, similarity_boost: 0.8, style: 0.35, use_speaker_boost: true, speed: 1.05, ...(voces.ajustes ?? {}) },
     }),
   });
   if (!res.ok) throw new Error(`ElevenLabs ${res.status}: ${(await res.text()).slice(0, 300)}`);

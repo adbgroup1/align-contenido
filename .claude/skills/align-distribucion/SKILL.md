@@ -1,6 +1,6 @@
 ---
 name: align-distribucion
-description: Agente 7 de ALIGN. Recoge las decisiones de Andrés en Notion; programa en Metricool los vídeos aprobados, rehace los que tienen cambios y descarta lo rechazado.
+description: Agente 7 de ALIGN. Recoge las decisiones de Andrés en Notion y mantiene 1 publicación al día (reel o carrusel) programada en Metricool en hora de México para los próximos 4 días; rehace lo que tiene cambios, descarta lo rechazado y avisa cuando el plan de Metricool se acaba.
 ---
 
 # Agente 7 — Decisiones y distribución
@@ -12,8 +12,8 @@ Lee antes `CLAUDE.md`.
 **Entrada:** filas de Vídeos con Estado = `Tu revisión` y «Tu decisión» rellena, o con Estado = `Aprobado`
 (incluida la reserva, que se programa en cuanto queda un hueco libre).
 
-Si no hay ninguna, responde «Sin decisiones nuevas» y termina. Si solo hay reserva y no queda ningún hueco libre
-en los próximos 14 días, responde «Reserva: N vídeos, sin huecos libres» y termina.
+Si no hay ninguna, responde «Sin decisiones nuevas» y termina. Si solo hay reserva y no queda ningún día libre en
+los próximos 4, responde «Reserva: N, sin días libres» y termina.
 
 ### Filas en `Aprobado` sin «Tu decisión» = Aprobar: no programes, avisa
 
@@ -54,47 +54,62 @@ Andrés diseñó el sistema así: **su aprobación en Notion es la orden de publ
 
 ## Programar en Metricool
 
-### 1. Comprueba el límite
+**Objetivo: 1 publicación cada día, sin huecos** (Andrés, 24 nov 2026). Puede ser un reel o un carrusel.
 
-- Con `getScheduledPosts`, cuenta las publicaciones del mes.
-- **Plan gratis: 20 publicaciones al mes.** Cada red cuenta como una publicación.
-- Si el vídeo no cabe en todas las redes:
-  - prioriza Instagram > YouTube > TikTok;
-  - apúntalo en «Nota del manager».
+### 1. Comprueba el límite del plan
 
-### 2. Elige el hueco
+- Con `getScheduledPosts`, cuenta las publicaciones del mes (las publicadas más las programadas). Cada red cuenta
+  como una.
+- **Límite: 20 al mes** (plan gratis), salvo que Andrés haya pagado: lo sabrás porque Metricool deja programar más,
+  o por un mensaje suyo en el buzón. Si al programar Metricool da un error de límite, ese es el límite real.
+- **Cuando no quepa más este mes:**
+  - si cabe en una red pero no en las dos, prográmalo solo en Instagram;
+  - si no cabe nada, deja la reserva como está y **manda un correo a Andrés, solo la primera vez del mes**
+    (apúntalo en `informes/metricool-limite.txt` con la fecha): «ALIGN: Metricool al límite (N/20 este mes).
+    Paga el plan para seguir con 1 al día; la reserva tiene M publicaciones listas»;
+  - el parte diario se lo recordará.
 
-- **Huecos:** martes y viernes (2 vídeos por semana).
-- **Hora:** la que dé `getBestTimeToPostByNetwork`, o 19:30 si no hay datos.
-- **No pongas dos vídeos el mismo día.**
-- **Se producen 5 por semana y se publican 2, así que se acumula una reserva** (`GUIA.md`, «Cadencia»):
-  - programa solo en los huecos libres de los **próximos 14 días**;
-  - lo que no quepa se queda en `Aprobado`, sin programar: es la **reserva**. En su «Nota del manager» escribe
-    «En reserva desde <fecha>» (una vez). No es un error ni hay que avisar;
-  - **cada noche, aunque no haya decisiones nuevas, rellena los huecos libres con la reserva**;
-  - **orden:** primero los que tienen fecha límite (en el guion o en la nota; por ejemplo Black Friday antes del
-    27 nov), después el más antiguo por ID. Si los dos siguientes de la cola tienen el mismo formato (empieza el
-    «Patrón»), adelanta uno de otro formato;
-  - un vídeo de fecha (Black Friday, Navidad, la renta) que ya no llega a tiempo **no se publica fuera de fecha**:
-    déjalo en reserva con la nota «Fuera de fecha» y avísalo en el resumen.
+### 2. Elige el día y la hora
+
+- **Un día = una publicación**, todos los días. **Programa solo los próximos 4 días** (hoy no cuenta si ya pasó la
+  hora). Así, lo que ESCALA en el tablero puede entrar enseguida, en vez de esperar dos semanas.
+- **Hora, la de México:** la que dé `getBestTimeToPostByNetwork` (en `America/Mexico_City`) o, si no hay datos,
+  **19:30 de Ciudad de México**. Pon `publicationDate.timezone` = `America/Mexico_City`. Si Resultados ha
+  encontrado una hora mejor, úsala.
+- **Orden para llenar los días:**
+  1. lo que tiene fecha límite (aguinaldo, Navidad, la cuesta de enero…);
+  2. **lo que prueba algo que ESCALA** en `investigacion/EXPERIMENTOS.md`;
+  3. **lo hecho para México** (de W49-07 en adelante) antes que la reserva hecha para España;
+  4. el más antiguo por ID.
+  Si dos seguidos tienen la misma pieza y el mismo formato (el principio del «Patrón») y no se está escalando a
+  propósito, adelanta uno distinto.
+- **Lo que no cabe en los 4 días** se queda en `Aprobado`: es la **reserva**. Cada noche, aunque no haya decisiones
+  nuevas, llena los días libres con ella.
+- Un vídeo de fecha que ya no llega a tiempo **no se publica fuera de fecha**: déjalo con la nota «Fuera de fecha»
+  y dilo en el resumen.
+- **Lo que ya estaba programado** antes de este cambio se respeta: no lo muevas.
 
 ### 3. Crea la publicación
 
-Usa `createScheduledPost`:
-- `blogId` = `5900765`;
-- `autoPublish` = true;
+Usa `createScheduledPost`, con:
+- `blogId` = `5900765` y `autoPublish` = true;
+- `providers`: las redes que la marca tenga conectadas según `getBrandSettings`, **menos TikTok**, que está
+  conectado pero no se publica hasta que Andrés lo active con una regla nueva en `GUIA.md`;
+- `text` = el caption de la página y `firstCommentText` = la pregunta del vídeo, sin enlaces.
+
+**Si es un reel:**
 - `media` = [la URL pública del MP4];
-- `providers`: solo las redes **que la marca tenga conectadas** según `getBrandSettings`, **menos TikTok**.
-  TikTok está conectado desde el 20 nov 2026, pero Andrés aún no quiere publicar ahí («todavía no subas nada»).
-  No lo incluyas hasta que una regla nueva de `GUIA.md` lo diga;
-- `text` = el caption de la página;
-- `firstCommentText`: la pregunta del vídeo, sin enlaces (ver «Objetivo y CTA» en `GUIA.md`);
-- `instagramData`: `{"type":"REEL","showReelOnFeed":true}`.
-  - Si la herramienta admite **Reel de prueba** («trial reel»), úsalo mientras Aprendizajes no diga que el
-    formato ya funciona.
-  - Si admite **etiqueta de contenido hecho con IA**, actívala.
-- `youtubeData`: `{"type":"short","title":"<título YouTube>","madeForKids":false,"privacy":"public"}`;
-- `tiktokData`: `{"title":"<título>"}`.
+- `instagramData`: `{"type":"REEL","showReelOnFeed":true,"isAiGenerated":true}`. **Si es EXPLORAR** (Tipo de idea
+  = Experimento), usa `"type":"TRIAL_REEL"`: se enseña primero a quien no nos sigue, que es justo lo que queremos
+  medir. Apúntalo en la «Nota del manager» para que Resultados lo sepa;
+- `youtubeData`: `{"type":"short","title":"<título YouTube>","madeForKids":false,"privacy":"public","isAiGeneratedContent":true}`.
+
+**Si es un carrusel:**
+- `media` = [las URLs públicas de `media/<semana>/<ID>/01.jpg`, `02.jpg`… en orden];
+- `providers` = solo Instagram (YouTube no admite carruseles);
+- `instagramData`: `{"type":"POST","isAiGenerated":true}`.
+
+**Apunta en `investigacion/EXPERIMENTOS.md`**, en la fila de su hipótesis, el ID y la fecha de publicación.
 
 ### 4. Actualiza Notion
 

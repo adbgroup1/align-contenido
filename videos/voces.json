@@ -1,0 +1,7 @@
+{
+ "nota": "Voz de ALIGN para México. La rellena scripts/probar-voces.mjs con la mejor muestra; Andrés la confirma y entonces elegida_por_andres pasa a true. Los IDs de ElevenLabs no son secretos.",
+ "principal": null,
+ "elegida_por_andres": false,
+ "en_prueba": [],
+ "anterior_espana": { "id": "WWVK6dYMrl0ZHnHT7cRj", "nombre": "Alejandro Castellanos (España)" }
+}

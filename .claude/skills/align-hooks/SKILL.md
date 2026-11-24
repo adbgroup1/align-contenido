@@ -1,46 +1,41 @@
 ---
 name: align-hooks
-description: Agente 3 de ALIGN. Escribe 3 hooks por idea, el segundo gancho y el CTA de crecimiento (compartir, guardar, comentar o seguir), con foco máximo en los 3 primeros segundos.
+description: Agente 3 de ALIGN. Escribe varios ganchos por idea (en español de México), el segundo gancho, el cierre y el CTA, con foco máximo en los 3 primeros segundos. En los carruseles, la portada es el gancho.
 ---
 
-# Agente 3 — Hooks y CTA
+# Agente 3 — Ganchos y CTA
 
-Lee antes `CLAUDE.md`, la sección «Ritmo, gancho e imagen» de `GUIA.md` y `semanas/<semana>/ideas.md`.
+Lee antes `CLAUDE.md`, `GUIA.md` («Para quién: México» y «Lo que sabemos hoy»), `investigacion/EXPERIMENTOS.md` y
+`semanas/<semana>/ideas.md` (solo la tanda de hoy).
 
 ## Qué produces
 
-Escribe `semanas/<semana>/hooks.md`, y para **cada idea** pon esto:
+Escribe (o amplía con «Tanda 2») `semanas/<semana>/hooks.md`. Por cada idea:
 
-### 3 hooks (gana el mejor)
+### Varios ganchos, gana el mejor
 
-Cada uno con:
-- el tipo de gancho;
-- el texto en pantalla de 0–3 s: **6–10 palabras**, que empiece en mitad de la acción;
-- lo que se ve desde el fotograma 0, que tiene que decir lo mismo que el texto;
-- qué pregunta deja abierta y en qué segundo se cierra.
+Al menos 3, de tipos distintos. Cada uno con:
+- el texto en pantalla de los primeros 3 s (o el título de la portada, si es un carrusel);
+- lo que se ve desde el fotograma 0;
+- qué pregunta deja abierta y cuándo se cierra.
 
-Marca el ganador y explica por qué.
+Marca el ganador y di por qué parará el scroll de alguien en México. Si el tablero tiene un indicio sobre ganchos
+(por ejemplo, que el conflicto visual retiene más), úsalo o prueba lo contrario a propósito.
 
-### Segundo gancho
+### Segundo gancho y cierre
 
-Entre los segundos 3 y 7. Si el vídeo dura más de 30 s, añade un re-hook a mitad.
+- **Reel:** el segundo gancho, hacia los segundos 3–7, y un cierre que enlace con el gancho si encaja.
+- **Carrusel:** la lámina 2 tiene que obligar a deslizar, y la última da la recompensa y el CTA.
 
-### Bucle
+### CTA y caption
 
-Una idea de cierre que enlace con el hook, si encaja.
-
-### CTA
-
-- **De crecimiento, según la tabla de `GUIA.md`:** COMPARTIR, GUARDAR, COMENTAR o SEGUIR. Cierra siempre con
-  «síguenos para más».
-- **Concreto:** nombra a quién mandárselo, cuándo usarlo o qué responder. Por ejemplo, «Mándaselo a quien
-  siempre dice "ya empezaré"».
-- **Nunca** «comenta PALABRA y te mando…», ni el curso, ni la llamada, ni enlaces.
+- El CTA que pida la idea, concreto («mándaselo a tu cuate que vive de meses sin intereses»). Nunca el curso, la
+  llamada, los enlaces ni «comenta PALABRA».
 - Para COMENTAR, deja también la pregunta para el comentario fijado.
-- Caption: 2–4 líneas, el CTA, 3–5 hashtags y la línea «Contenido informativo, no es asesoramiento
-  financiero».
+- **Caption:** en español de México, con el gancho, el CTA, 3–5 hashtags pensados para México y la línea «Contenido
+  informativo, no es asesoramiento financiero».
 
 ## Reglas
 
 - Que se entienda **sin sonido**.
-- **Nunca prometer lo que el vídeo no da**, ni rentabilidades.
+- Nunca prometas lo que el vídeo no da, ni rentabilidades (límites legales de `GUIA.md`).

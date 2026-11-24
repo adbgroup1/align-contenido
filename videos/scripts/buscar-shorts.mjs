@@ -5,10 +5,19 @@
 // Requiere GOOGLE_API_KEY (o GEMINI_API_KEY) con «YouTube Data API v3» activada en su proyecto.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
+//   Opciones: --max N (por consulta, 25) · --region MX (país de YouTube) · --dias N (antigüedad máxima, 365;
+//   con --dias 30 sale lo que funciona ahora) · --idioma es (relevanceLanguage)
 const args = process.argv.slice(2);
-const maxIdx = args.indexOf("--max");
-const max = maxIdx >= 0 ? Number(args[maxIdx + 1]) : 25;
-const consultas = args.filter((a, i) => !a.startsWith("--") && i !== maxIdx + 1);
+const opcion = (n, porDefecto) => {
+  const i = args.indexOf(n);
+  return i >= 0 ? args[i + 1] : porDefecto;
+};
+const conValor = new Set(["--max", "--region", "--dias", "--idioma"].map((n) => args.indexOf(n) + 1).filter((i) => i > 0));
+const max = Number(opcion("--max", 25));
+const region = opcion("--region");
+const idioma = opcion("--idioma");
+const dias = Number(opcion("--dias", 365));
+const consultas = args.filter((a, i) => !a.startsWith("--") && !conValor.has(i));
 const KEY = process.env.GOOGLE_API_KEY ?? process.env.GEMINI_API_KEY;
 if (!KEY) throw new Error("Falta GOOGLE_API_KEY o GEMINI_API_KEY.");
 const API = "https://www.googleapis.com/youtube/v3";
@@ -24,7 +33,7 @@ const salida = "../investigacion/candidatos.json";
 mkdirSync("../investigacion", { recursive: true });
 const previos = existsSync(salida) ? JSON.parse(readFileSync(salida, "utf8")) : [];
 const vistos = new Set(previos.map((c) => c.id));
-const hace = new Date(Date.now() - 365 * 864e5).toISOString();
+const hace = new Date(Date.now() - dias * 864e5).toISOString();
 
 for (const q of consultas) {
   const ids = [];
@@ -38,6 +47,8 @@ for (const q of consultas) {
       order: "viewCount",
       publishedAfter: hace,
       maxResults: 50,
+      ...(region ? { regionCode: region } : {}),
+      ...(idioma ? { relevanceLanguage: idioma } : {}),
       ...(pageToken ? { pageToken } : {}),
     });
     ids.push(...s.items.map((i) => i.id.videoId));

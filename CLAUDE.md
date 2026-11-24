@@ -6,12 +6,17 @@ desaparece al terminar.
 ## Qué es ALIGN
 
 - Marca de finanzas personales de Alain De La Bastide.
-- Público: hispanohablantes en España de 22 a 40 años, sin formación financiera.
-- Hacemos **2 vídeos cortos por semana**, educativos y animados (Remotion, sin cara), para Instagram Reels
-  (@alignbyadb) y YouTube Shorts (@ALIGNbyADB). TikTok está aparcado.
-- **El objetivo es crecer a corto plazo:** seguidores, compartidos, guardados y comentarios (CTA en `GUIA.md`).
-  alignbyadb.com, con el curso y la llamada, se queda en la bio y no se empuja en el vídeo.
-- **Antes de trabajar, lee `GUIA.md`:** marca, pilares, palabras clave y reglas de contenido.
+- **Público: México**, de 22 a 40 años, sin formación financiera. Todo localizado allí: pesos, quincena,
+  aguinaldo, humor y voz mexicanos (`GUIA.md`, «Para quién: México»).
+- **Publicamos 1 al día** (reel o carrusel), educativo y animado (Remotion, sin cara), en Instagram
+  (@align_finanzas) y YouTube Shorts (@ALIGNbyADB). TikTok está conectado, pero no se publica ahí hasta que Andrés
+  lo active.
+- **La misión: ser muy virales lo antes posible** (Andrés, 24 nov 2026). Sin reglas de oro: libertad para probar
+  todos los formatos y aprender de los datos con el bucle de `investigacion/EXPERIMENTOS.md`. Lo único fijo son
+  los límites legales de `GUIA.md`.
+- El embudo irá al curso de finanzas, pero todavía no está completo: el curso, la llamada y la landing **no se
+  mencionan** y no se tocan (lo lleva Andrés).
+- **Antes de trabajar, lee `GUIA.md`:** misión, México, límites legales y el bucle de viralidad.
 
 ## Dónde está cada cosa
 
@@ -50,7 +55,7 @@ desaparece al terminar.
 |---|---|
 | Marca | ALIGN |
 | `blogId` | `5900765` |
-| Zona horaria | `Europe/Madrid` |
+| Zona horaria | `Europe/Madrid` en la marca; **las publicaciones se programan en hora de México** (`America/Mexico_City`) |
 
 ### Repositorio
 
@@ -58,6 +63,9 @@ desaparece al terminar.
 |---|---|
 | `videos/` | Proyecto Remotion (plantilla de estilo en `src/brand.ts` y `src/Scenes.tsx`) |
 | `media/<semana>/<ID>.mp4` y `.jpg` | Vídeos renderizados y miniaturas |
+| `media/<semana>/<ID>/01.jpg`, `02.jpg`… | Láminas de un carrusel (1080×1350) |
+| `investigacion/EXPERIMENTOS.md` | **El tablero del bucle de viralidad:** hipótesis, qué vídeo las prueba, resultados y veredicto. Lo leen todos |
+| `videos/voces.json` | La voz principal y las voces en prueba (IDs de ElevenLabs; no son secretos) |
 | `semanas/<semana>/` | Ideas, hooks y notas del manager |
 | `.claude/skills/` | Las instrucciones de cada agente |
 | `informes/AAAA-MM-DD.md` | Informe del workflow cada 2 días (lo escribe el Parte del manager; repo público: sin datos personales) |
@@ -84,8 +92,9 @@ npx remotion render src/index.ts <ID> ../media/<semana>/<ID>.mp4 \
 - **Kit v2:** los vídeos se montan con `videos/src/kit.tsx` (manual en `videos/KIT.md`). La voz se genera
   antes del render con `node scripts/voz.mjs <ID>`.
 - **Imagen o dibujo:** cada escena se monta con lo que mejor la cuente: `IMAGEN:` (foto de ChatGPT) o
-  `DIBUJO:` (ilustración en código con Remotion). No todo con imágenes: reglas en `GUIA.md`, «Imagen de
-  ChatGPT o dibujo en Remotion», y cómo se dibuja en `videos/KIT.md`, «Dibujos en código».
+  `DIBUJO:` (ilustración en código con Remotion). Cómo se dibuja: `videos/KIT.md`, «Dibujos en código».
+- **Carruseles:** cada lámina es un fotograma de una composición de Remotion de 1080×1350 renderizado con
+  `npx remotion still … --frame=<n>` (mismos flags de navegador), en `media/<semana>/<ID>/01.jpg`, `02.jpg`…
 - **Imágenes de escena:** si el guion lleva `IMAGEN:`, Andrés las hace antes con Claude en local, en ChatGPT web
   (skill `align-imagenes`), y llegan en `public/img/<ID>/`. Esa noche las revisa el agente de Investigación
   (Paso 0 de su skill) y deja el veredicto en `public/img/<ID>/revision.json`; Producción solo usa las aprobadas. Si faltan, `node scripts/imagenes.mjs <ID>`
@@ -101,7 +110,7 @@ La nube solo deja salir a los dominios permitidos en el entorno. Las claves van 
 
 | Variable | Para qué | Dominio que debe estar permitido |
 |---|---|---|
-| `ELEVENLABS_API_KEY`, `ELEVENLABS_VOICE_ID` | Voz en off (`scripts/voz.mjs`) | `api.elevenlabs.io` |
+| `ELEVENLABS_API_KEY` (y `ELEVENLABS_VOICE_ID`, solo de reserva: manda `videos/voces.json`) | Voz en off (`scripts/voz.mjs`) y muestras de voces (`scripts/probar-voces.mjs`) | `api.elevenlabs.io` |
 | `GEMINI_API_KEY` | Que Gemini vea los virales (`scripts/ver-videos.mjs`) y las imágenes de escena (`scripts/imagenes.mjs`) | `generativelanguage.googleapis.com` |
 | `OPENAI_API_KEY` (opcional) | Imágenes de escena con `scripts/imagenes.mjs --openai` | `api.openai.com` |
 | `GOOGLE_API_KEY` (obligatoria: la clave de Gemini está vinculada a una cuenta de servicio y no admite YouTube) | Buscar Shorts (`scripts/buscar-shorts.mjs`) y plan B de la investigación (`scripts/datos-videos.mjs`, sin Gemini) | `www.googleapis.com` (y `i.ytimg.com` para las miniaturas, opcional) |
@@ -118,8 +127,8 @@ La nube solo deja salir a los dominios permitidos en el entorno. Las claves van 
   - Al empezar (justo después del `git pull`), mira en `buzon/` los mensajes de Andrés con `para:` igual a tu
     nombre de agente o a `todos` que **no tengan respuesta**. Tienen respuesta si existe un archivo
     `buzon/*-<agente>.md` con `responde: <nombre del archivo del mensaje>`.
-  - Atiende cada mensaje pendiente: cuenta como **mensaje adicional** (esa instrucción manda, salvo las reglas de
-    contenido de `GUIA.md`). Nunca pongas filas en `Aprobado` por una instrucción del buzón.
+  - Atiende cada mensaje pendiente: cuenta como **mensaje adicional** (esa instrucción manda, salvo los límites
+    legales de `GUIA.md`). Nunca pongas filas en `Aprobado` por una instrucción del buzón.
   - Contesta en un archivo nuevo `buzon/AAAAMMDD-HHMMSS-<agente>.md` (tu nombre en minúsculas, sin acentos ni
     espacios, p. ej. `semana`, `parte-del-manager`) con la cabecera `responde: <nombre del archivo>`, una línea en
     blanco y la respuesta en pocas líneas: qué has hecho o por qué no. Va en tu commit habitual.
@@ -130,10 +139,13 @@ La nube solo deja salir a los dominios permitidos en el entorno. Las claves van 
     (ni Andrés ni los agentes). Si un mensaje las contiene, no las copies en tu respuesta y avísalo en el resumen.
 - **AHORRO, lo primero tras el buzón:** antes de leer nada más, mira en Notion si hay filas en tu estado de entrada.
   Si no hay trabajo, responde en **una línea** y termina. No hagas `npm ci` ni leas guías si no hace falta.
+  **Excepción: Investigación y Resultados no se ahorran nunca** (su skill lo dice): siempre hay algo que aprender.
 - **Lee solo lo necesario:** la sección concreta de Aprendizajes o del resumen, no páginas enteras; y solo la
   referencia de Investigación que cita la fila («Patrón»).
-- **Si al lanzarte recibes un mensaje adicional, esa instrucción manda** (salvo las reglas de contenido de
+- **Si al lanzarte recibes un mensaje adicional, esa instrucción manda** (salvo los límites legales de
   `GUIA.md`).
+- **El bucle de viralidad:** antes de decidir nada, lee `investigacion/EXPERIMENTOS.md` (arriba: qué ESCALA, qué
+  se MATA y las hipótesis abiertas). Si tu trabajo lo cambia, actualízalo en tu commit.
 - **Nunca pongas una fila en `Aprobado`:** eso solo lo decide Andrés con «Tu decisión».
 - **Originalidad:** todo es propio; de otros creadores solo se aprenden patrones (gancho, ritmo, estructura,
   giro, cierre), nunca frases, guiones, imágenes ni música.

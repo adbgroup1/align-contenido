@@ -84,7 +84,7 @@ node scripts/sfx.mjs               # regenera los efectos (no hace falta: ya est
 
 ## Dibujos en código (método «dibujo + kit»)
 
-*Regla de la `GUIA.md`, «Imagen de ChatGPT o dibujo en Remotion». Va en las escenas `DIBUJO:` del guion y
+*Pista de la `GUIA.md`, «Lo que sabemos hoy», punto «Imagen o dibujo». Va en las escenas `DIBUJO:` del guion y
 en las `IMAGEN:` que Producción decida dibujar.*
 
 - **Qué es:** ilustración plana en SVG dentro del propio `.tsx`, animada con `useSpring`, `interpolate` y
