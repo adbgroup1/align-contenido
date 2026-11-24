@@ -43,6 +43,9 @@ que pasa de los 3 s (con 3 reels).*
 | H4 | Los vídeos de menos de 15 s retienen más (más tiempo visto en %) | 2 vídeos de 7 a 12 s | — | % visto y repeticiones | Abierta |
 | H5 | Un A/B en pantalla partida con una decisión retiene más en los 3 s | Repetir W47-02 con otro tema | W47-02 | % que pasa de 3 s | Indicio a favor |
 | H6 | ¿Qué voz mexicana retiene más? Una joven e informal («cuate») frente a una madura y profesional | Rotación automática de 4 voces (`videos/voces.json`: Regina, Alejandro, Marlene, Enrique); gana la mejor con ≥3 vídeos cada una y +15 % | Desde el primer vídeo para México (W49-07+) | % que pasa de 3 s y tiempo visto | Abierta · en rotación |
+| H7 | Un CTA de comentar con un número («¿1 o 10?») consigue más comentarios que una pregunta abierta | Reel de la tanda (W49) frente a la mediana de comentarios | W49 (tanda) | Comentarios por 1.000 vistas | Abierta |
+| H8 | Una lista «nadie te dice» con datos legales útiles (aguinaldo) se comparte más que la mediana | Reel Lista de aguinaldo (W49) | W49 (aguinaldo) | Compartidos por 1.000 vistas | Abierta |
+| H9 | Una historia con personaje y un contador que crece en una esquina retiene más que la mediana | Reel de la posada (bolsa, W50) | — | % que pasa de 3 s y tiempo visto | Abierta |
 
 ## Histórico de veredictos
 
