@@ -1,11 +1,17 @@
 {
- "nota": "Voz de ALIGN para México. La rellena scripts/probar-voces.mjs con la mejor muestra; Andrés la confirma y entonces elegida_por_andres pasa a true. Los IDs de ElevenLabs no son secretos.",
+ "nota": "Voz de ALIGN para México. La decide el bucle (hipótesis H6), no Andrés: voz.mjs reparte los vídeos entre las voces de «rotacion» (la menos usada primero) y apunta cada una en «asignadas». Resultados compara las voces y, cuando una gana con datos, la pone en «principal» con ganadora: true y recorta la rotación. Los IDs de ElevenLabs no son secretos.",
  "principal": {
   "id": "sDh3eviBhiuHKi0MjTNq",
   "nombre": "Alejandro - Corporate and Elegant",
-  "provisional": true
+  "ganadora": false
  },
- "elegida_por_andres": false,
+ "rotacion": [
+  "9Godp7dNohUvXk6qp0gS",
+  "sDh3eviBhiuHKi0MjTNq",
+  "JYyJjNPfmNJdaby8LdZs",
+  "iDEmt5MnqUotdwCIVplo"
+ ],
+ "asignadas": {},
  "en_prueba": [
   {
    "nombre": "Alejandro - Corporate and Elegant",
@@ -36,6 +42,16 @@
    "nombre": "Ana María - Calm, Natural and Clear",
    "id": "m7yTemJqdIqrcNleANfX",
    "genero": "female"
+  }
+ ],
+ "descartadas": [
+  {
+   "id": "htFfPSZGJwjBv1CL0aMD",
+   "motivo": "acento latino neutro, no mexicano"
+  },
+  {
+   "id": "m7yTemJqdIqrcNleANfX",
+   "motivo": "tranquila, muy parecida a Enrique; se prueba si las 4 primeras no despegan"
   }
  ],
  "anterior_espana": {

@@ -42,7 +42,7 @@ que pasa de los 3 s (con 3 reels).*
 | H3 | Un carrusel educativo consigue más guardados que un reel del mismo tema | El mismo tema en reel y en carrusel, en semanas distintas | — | Guardados y alcance | Abierta |
 | H4 | Los vídeos de menos de 15 s retienen más (más tiempo visto en %) | 2 vídeos de 7 a 12 s | — | % visto y repeticiones | Abierta |
 | H5 | Un A/B en pantalla partida con una decisión retiene más en los 3 s | Repetir W47-02 con otro tema | W47-02 | % que pasa de 3 s | Indicio a favor |
-| H6 | Una voz mexicana con energía de «cuate» engancha más que la neutra | 2 voces distintas de `videos/voces.json` | — | % que pasa de 3 s y tiempo visto | Abierta |
+| H6 | ¿Qué voz mexicana retiene más? Una joven e informal («cuate») frente a una madura y profesional | Rotación automática de 4 voces (`videos/voces.json`: Regina, Alejandro, Marlene, Enrique); gana la mejor con ≥3 vídeos cada una y +15 % | Desde el primer vídeo para México (W49-07+) | % que pasa de 3 s y tiempo visto | Abierta · en rotación |
 
 ## Histórico de veredictos
 

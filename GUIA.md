@@ -12,6 +12,10 @@ y mejorar de verdad con ellos.
   viralidad»).
 - **Lo que manda son los datos**, no esta guía. Si los datos dicen que algo de aquí abajo no funciona, se cambia.
 - **Lo único fijo son los límites legales** (más abajo). Todo lo demás son pistas y puntos de partida.
+- **Decidid vosotros con datos** (Andrés, 24 nov: «en este tipo de decisiones es donde quiero que mejoremos»).
+  Voz, formato, hora, duración, música, estilo, CTA: no se le pregunta a Andrés. Se prueban varias opciones como
+  experimento y gana la que digan las cifras. A Andrés solo le llega lo que es suyo: aprobar vídeos, pagar,
+  claves y cuentas, e imágenes de ChatGPT.
 
 ## Para quién: México
 
@@ -145,10 +149,13 @@ Son lecciones de la investigación y de Andrés. Úsalas mientras no haya datos 
 ## Voz, música y sonido
 
 - **Voz:** ElevenLabs con **acento mexicano**. La voz principal está en `videos/voces.json` (`principal`).
-  - Hasta que Andrés elija una, vale la provisional que dejó `scripts/probar-voces.mjs` (muestras en
-    `media/pruebas/voces-mx/LISTA.md`). Si `principal` está vacía, `node scripts/probar-voces.mjs` antes de la voz.
-  - **Probar voces también es un experimento:** un guion puede llevar otra voz con `"voz": "<voice_id>"` en su
-    `guion.json`.
+  - **La voz la deciden los datos, no Andrés (24 nov: «decide tú»).** Mientras no haya ganadora, `voz.mjs`
+    reparte los vídeos entre las 4 voces de `rotacion` (Regina, Alejandro, Marlene y Enrique; muestras en
+    `media/pruebas/voces-mx/LISTA.md`) y apunta cada una en `asignadas`. Es la hipótesis H6.
+  - **Resultados elige la ganadora** cuando cada voz tenga al menos 3 vídeos medidos: la que más % pasa de 3 s y
+    más tiempo visto, con 15 % de ventaja o más, pasa a `principal` con `"ganadora": true`. Si ninguna gana, quita
+    la peor de `rotacion` y prueba otra (las descartadas o nuevas con `scripts/probar-voces.mjs`).
+  - Un guion puede forzar otra voz con `"voz": "<voice_id>"` en su `guion.json`, si la hipótesis lo pide.
 - **Música:** pistas con licencia de `videos/public/musica/LICENCIAS.md`. Se pueden probar otros tonos.
 - **Efectos:** `videos/public/sfx/`. La voz se entiende siempre. La mezcla, entre -16 y -12 LUFS.
 

@@ -13,4 +13,4 @@ Guion de la muestra: «¿Neta te llegó la quincena el viernes y el lunes ya est
 
 Revisión: 3 hombres y 3 mujeres; ninguna con acento de España ni infantil (Marlene es joven adulta, «Gen Z»). Ojo: Antonio (5) está catalogado como latino neutro, no específicamente mexicano.
 
-Para elegir: di en una sesión «me quedo con la voz N» (o escríbelo en el buzón a Producción).
+La voz la decide el bucle (H6): rotan Regina, Alejandro, Marlene y Enrique; Resultados elige la ganadora con datos.

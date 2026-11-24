@@ -56,8 +56,10 @@ Después lee:
 2. **Voz.**
    - Escribe `videos/public/voz/<ID>/guion.json` con **una escena por frase** de la voz (ver `KIT.md`).
    - Los números van en letra: «cien euros», «seis por ciento».
-   - Después, `cd videos && node scripts/voz.mjs <ID>`. La voz sale de `videos/voces.json` (la `principal`,
-     mexicana). Si el guion prueba otra voz (hipótesis de voz), pon `"voz": "<voice_id>"` en su `guion.json`.
+   - Después, `cd videos && node scripts/voz.mjs <ID>`. La voz la elige el propio script desde `videos/voces.json`:
+     reparte las voces de `rotacion` (H6) y apunta cuál lleva cada vídeo en `asignadas`. **Haz commit de
+     `voces.json`** y pon en «Nota del manager» qué voz lleva («Voz: Regina»). Solo si el guion pide una voz
+     concreta, `"voz": "<voice_id>"` en su `guion.json`.
    - **El texto de la voz, en español de México**, tal cual lo dice el guion (pesos, quincena…).
    - **Si falla** (sin clave o sin red): no hagas un vídeo mudo. Apunta el error exacto en «Nota del
      manager», deja la fila como estaba y pasa al siguiente.

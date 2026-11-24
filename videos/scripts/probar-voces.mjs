@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 // Busca voces con acento mexicano en la biblioteca de ElevenLabs y genera una muestra de cada una con un guion
-// de ALIGN para México (con broma), para que Andrés elija la voz principal.
+// de ALIGN para México (con broma), para meterlas en la rotación de voces (H6).
 //
 //   node scripts/probar-voces.mjs            → 6 voces (mezcla de hombre y mujer)
 //   node scripts/probar-voces.mjs --n 8
 //
 // Salida: ../media/pruebas/voces-mx/<n>-<nombre>.mp3 y ../media/pruebas/voces-mx/LISTA.md (con los enlaces raw).
-// Si voces.json no tiene «principal», pone la primera como provisional (elegida_por_andres: false).
+// Si voces.json no tiene «principal», pone la primera como provisional.
 // Necesita ELEVENLABS_API_KEY y el dominio api.elevenlabs.io.
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
@@ -105,17 +105,17 @@ writeFileSync(
     "|---|---|---|---|---|---|---|---|",
     ...filas.map((f) => `| ${f.n} | ${f.nombre} | ${f.genero} | ${f.edad} | ${f.estilo} | ${f.acento} | \`${f.id}\` | [mp3](${f.url}) |`),
     "",
-    "Para elegir: di en una sesión «me quedo con la voz N» (o escríbelo en el buzón a Producción).",
+    "La voz la decide el bucle (H6): Resultados mete o saca voces de «rotacion» en videos/voces.json.",
   ].join("\n"),
 );
 
 // 3 · Principal provisional si no hay ninguna
 if (filas.length && existsSync("voces.json")) {
   const voces = JSON.parse(readFileSync("voces.json", "utf8"));
-  voces.en_prueba = filas.map(({ nombre, id, genero }) => ({ nombre, id, genero }));
+  voces.en_prueba = [...(voces.en_prueba ?? []), ...filas.map(({ nombre, id, genero }) => ({ nombre, id, genero }))]
+    .filter((v, i, a) => a.findIndex((w) => w.id === v.id) === i);
   if (!voces.principal) {
     voces.principal = { id: filas[0].id, nombre: filas[0].nombre, provisional: true };
-    voces.elegida_por_andres = false;
   }
   writeFileSync("voces.json", JSON.stringify(voces, null, 1) + "\n");
 }

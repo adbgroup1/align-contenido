@@ -77,8 +77,7 @@ aprobada), más lo que está en `Tu revisión`.
   `videos/public/img/<ID>/`. Ponlo así: «Imágenes: W49-08, W49-10 (abre una sesión en el Mac y di "haz las imágenes";
   si en 2 días no están, Producción las dibuja en código)».
 - **Imágenes para rehacer:** filas cuyo `videos/public/img/<ID>/revision.json` tiene `estado` = `pendiente`.
-- **Elección de voz pendiente:** si `videos/voces.json` tiene `"elegida_por_andres": false`, recuérdalo una vez
-  cada 3 días: «Elige la voz mexicana: muestras en media/pruebas/voces-mx/LISTA.md».
+- **No le preguntes a Andrés lo que deciden los datos** (voz, formato, hora, música…): eso lo resuelve el bucle.
 - **Atascos:**
   - filas en `Revisión manager OK` sin vídeo después de 2 días;
   - filas en `Aprobado` sin programar **con un día libre en los próximos 4**. **Antes de darlo por atasco, míralo en

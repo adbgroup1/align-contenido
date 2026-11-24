@@ -43,7 +43,12 @@ Reescribe la sección «Estado» de `investigacion/EXPERIMENTOS.md`:
 4. **Viral:** si una publicación consigue más de 5 veces la mediana de vistas, márcala arriba del todo como
    **VIRAL**, explica por qué crees que ha funcionado y propón 3 variaciones. **Manda un correo a Andrés** esa misma
    mañana (regla «Avisar a Andrés»): «ALIGN: ¡<ID> está despegando! <vistas> vistas en <horas> h».
-5. **Abre hipótesis nuevas** si los datos sugieren algo que nadie ha probado.
+5. **La voz (H6):** cruza `videos/voces.json` → `asignadas` con las cifras. Cuando cada voz de `rotacion` tenga
+   3 vídeos medidos o más, la que gane en % que pasa de 3 s y tiempo visto por 15 % o más pasa a `principal` con
+   `"ganadora": true` (y `rotacion` se queda en esa sola). Si no gana ninguna, quita la peor y mete otra
+   (`descartadas`, o nuevas con `node scripts/probar-voces.mjs`). Ojo: el tema y el formato también cuentan;
+   compara vídeos parecidos cuando puedas. Commit de `voces.json`.
+6. **Abre hipótesis nuevas** si los datos sugieren algo que nadie ha probado.
 
 Cada punto, con su evidencia (IDs y cifras). **Sé brutal:** si algo no funciona, dilo y mátalo.
 

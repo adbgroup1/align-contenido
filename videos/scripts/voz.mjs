@@ -23,10 +23,24 @@ const usarSay = flags.includes("--say");
 const dir = join("public", "voz", id);
 const guion = JSON.parse(readFileSync(join(dir, "guion.json"), "utf8"));
 
-// Qué voz se usa, por orden: «voz» del guion.json (prueba de una voz concreta) → «principal» de voces.json
-// (la de ALIGN, con acento mexicano) → ELEVENLABS_VOICE_ID del entorno (reserva).
+// Qué voz se usa, por orden: «voz» del guion.json (prueba de una voz concreta) → la ya asignada a este vídeo en
+// voces.json → si no hay ganadora, la de «rotacion» menos usada (H6: la voz la deciden los datos) → «principal»
+// → ELEVENLABS_VOICE_ID del entorno (reserva). La asignación se guarda en voces.json: haz commit de ese archivo.
 const voces = existsSync("voces.json") ? JSON.parse(readFileSync("voces.json", "utf8")) : {};
-const VOICE_ID = guion.voz || voces.principal?.id || process.env.ELEVENLABS_VOICE_ID || "";
+const elegirVoz = () => {
+  if (guion.voz) return guion.voz;
+  voces.asignadas ??= {};
+  if (voces.asignadas[id]) return voces.asignadas[id];
+  const rot = voces.principal?.ganadora ? [] : voces.rotacion ?? [];
+  if (!rot.length || usarSay) return voces.principal?.id || process.env.ELEVENLABS_VOICE_ID || "";
+  const usos = (v) => Object.values(voces.asignadas).filter((x) => x === v).length;
+  const voz = [...rot].sort((a, b) => usos(a) - usos(b))[0];
+  voces.asignadas[id] = voz;
+  writeFileSync("voces.json", JSON.stringify(voces, null, 1) + "\n");
+  return voz;
+};
+const VOICE_ID = elegirVoz();
+console.log(`Voz: ${VOICE_ID}`);
 const MODEL_ID = process.env.ELEVENLABS_MODEL_ID ?? "eleven_multilingual_v2";
 
 // Duración: WAV por cabecera; MP3 con ffprobe (en la nube) o, si no hay, con el de Remotion
