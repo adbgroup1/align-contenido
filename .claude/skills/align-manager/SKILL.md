@@ -133,7 +133,7 @@ bien**. Va aparte de «Necesito de ti:» y se hace después del parte, en la mis
 - **Ideas de Andrés**, cada noche a las 02:30: solo deja rastro si había links.
 - **Investigación**, cada noche a las 03:00 y cada tarde a las 15:00: un commit en cada ronda.
 - **Resultados**, cada día a las 07:00: commit `resultados:` y `EXPERIMENTOS.md` al día.
-- **Semana**, el miércoles a las 09:00 y el domingo a las 10:00: commits `ideas:`, `hooks:`, `guion:` y
+- **Semana**, el miércoles a las 09:00 y el domingo a las 09:00: commits `ideas:`, `hooks:`, `guion:` y
   `manager:`.
 - **Producción**, cada día a las 13:00: commits `produccion:` cuando hay guiones esperando.
 - **Decisiones**, cada día a las 21:00: los próximos 4 días programados, si hay reserva.
