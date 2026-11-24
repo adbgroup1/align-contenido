@@ -38,13 +38,13 @@ que pasa de los 3 s (con 3 reels).*
 | # | Hipótesis | Cómo se prueba | Publicaciones | Métrica | Estado |
 |---|---|---|---|---|---|
 | H1 | El contenido localizado en México (pesos, quincena, humor y voz mexicanos) consigue más vistas y seguidores que el de España | Comparar los primeros vídeos para México con los de reserva hechos para España | W48/W49 (España) frente a W50+ (México) | Vistas, % que pasa de 3 s, seguidores | Abierta |
-| H2 | «Construye desde cero» consigue más compartidos y guardados que la mediana | 2 o 3 vídeos de este formato en W50 | — | Compartidos y guardados | Abierta |
-| H3 | Un carrusel educativo consigue más guardados que un reel del mismo tema | El mismo tema en reel y en carrusel, en semanas distintas | — | Guardados y alcance | Abierta |
-| H4 | Los vídeos de menos de 15 s retienen más (más tiempo visto en %) | 2 vídeos de 7 a 12 s | — | % visto y repeticiones | Abierta |
-| H5 | Un A/B en pantalla partida con una decisión retiene más en los 3 s | Repetir W47-02 con otro tema | W47-02 | % que pasa de 3 s | Indicio a favor |
+| H2 | «Construye desde cero» consigue más compartidos y guardados que la mediana | 2 o 3 vídeos de este formato en W50 | W49-08 | Compartidos y guardados | Abierta |
+| H3 | Un carrusel educativo consigue más guardados que un reel del mismo tema | El mismo tema en reel y en carrusel, en semanas distintas | W49-11 (primer carrusel, MSI) | Guardados y alcance | Abierta |
+| H4 | Los vídeos de menos de 15 s retienen más (más tiempo visto en %) | 2 vídeos de 7 a 12 s | W49-12 (8 s en bucle) | % visto y repeticiones | Abierta |
+| H5 | Un A/B en pantalla partida con una decisión retiene más en los 3 s | Repetir W47-02 con otro tema | W47-02, W49-07 (aguinaldo) | % que pasa de 3 s | Indicio a favor |
 | H6 | ¿Qué voz mexicana retiene más? Una joven e informal («cuate») frente a una madura y profesional | Rotación automática de 4 voces (`videos/voces.json`: Regina, Alejandro, Marlene, Enrique); gana la mejor con ≥3 vídeos cada una y +15 % | Desde el primer vídeo para México (W49-07+) | % que pasa de 3 s y tiempo visto | Abierta · en rotación |
-| H7 | Un CTA de comentar con un número («¿1 o 10?») consigue más comentarios que una pregunta abierta | Reel de la tanda (W49) frente a la mediana de comentarios | W49 (tanda) | Comentarios por 1.000 vistas | Abierta |
-| H8 | Una lista «nadie te dice» con datos legales útiles (aguinaldo) se comparte más que la mediana | Reel Lista de aguinaldo (W49) | W49 (aguinaldo) | Compartidos por 1.000 vistas | Abierta |
+| H7 | Un CTA de comentar con un número («¿1 o 10?») consigue más comentarios que una pregunta abierta | Reel de la tanda (W49) frente a la mediana de comentarios | W49-09 | Comentarios por 1.000 vistas | Abierta |
+| H8 | Una lista «nadie te dice» con datos legales útiles (aguinaldo) se comparte más que la mediana | Reel Lista de aguinaldo (W49) | W49-10 (reserva, antes del 10 dic) | Compartidos por 1.000 vistas | Abierta |
 | H9 | Una historia con personaje y un contador que crece en una esquina retiene más que la mediana | Reel de la posada (bolsa, W50) | — | % que pasa de 3 s y tiempo visto | Abierta |
 
 ## Histórico de veredictos
