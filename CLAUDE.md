@@ -32,7 +32,7 @@ desaparece al terminar.
 | Página «Resúmenes semanales» | `418cc81e-aca2-81de-aa81-fb279bb6cec8` |
 
 - **Una fila de «Vídeos» = un vídeo.** El título (`ID`) tiene el formato `W47-01`.
-  - Al crear filas con el conector, la propiedad título se llama **`userDefined:ID`**, no `ID`.
+  - Al crear filas con el conector, la propiedad título se llama **`userDefined:ID`**, no `ID`. Si da error («Property "ID" not found»), usa la clave **`title`** (24 nov: así funcionó).
   - «Semana» es un select: si la opción de la semana (`2026-W47`) no existe, añádela antes con
     `notion-update-data-source` **listando también todas las opciones existentes**.
 - El guion completo va **dentro de la página** de esa fila.
