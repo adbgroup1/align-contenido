@@ -30,6 +30,8 @@ que pasa de los 3 s (con 3 reels).*
   cuenta corriente» y W47-03 «Ahorro lo que me sobra»: el 65–68 % se salta). **Probar ganchos con conflicto
   visual desde el fotograma 0.**
 
+- **Tema caliente: Buen Fin ya pasó (13–17 nov) y llegan la cuenta de la tarjeta y el aguinaldo (se paga a más tardar el 20 dic); gancho «la cuesta de enero / pagar el mínimo» (caduca el 20 dic 2026).** Fuente: Condusef vía Yucatán (13 nov) y Expansión (10 nov). Apoyo: Shorts MX de «pagar el mínimo» (MALA LANA, 11 nov) usan la cifra $20,000 → $51,516. Sin dato de vistas que lo confirme.
+
 ### MATAR (dejar de hacer)
 - *(nada todavía)*
 

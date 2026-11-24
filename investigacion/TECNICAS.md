@@ -233,3 +233,13 @@ Son ideas propias: de la referencia solo se toma el patrón.
 
 - **Cifras:** todas las de estas ideas hay que comprobarlas en el guion (p. ej., el límite del Fondo de Garantía).
   En los virales, el público discute las cuentas.
+
+## Carruseles (ronda de tarde, 24 nov 2026)
+
+*Fuente: WebSearch, solo lo público (blogs de marketing, sin ejemplos concretos de cuentas de finanzas mexicanas; las cifras no traen metodología: tratarlas como pistas, no como datos).*
+
+- **Portada:** es el gancho; si aburre, no se desliza. Titular que genere curiosidad inmediata (promesa o número + pérdida).
+- **Láminas:** 7–10 con valor en cada una; la lámina 2 debe pagar la promesa de la portada (dato o primer paso), no repetirla.
+- **Formato «MITO → REALIDAD»:** una pareja de láminas por mito; cada revelación es ágil y se guarda.
+- **CTA:** cierre claro; diseñar pensando en **guardados** (según Metricool, citado por Marketing Directo, pesan más que los likes en 2026; «9× más guardados que una foto» es cifra sin metodología).
+- **Para ALIGN (H3):** probar portada con cifra en pesos («$20,000 → $51,516») + 7–8 láminas + CTA «guárdalo para tu quincena». Pendiente: ver carruseles reales de @ cuentas MX de finanzas (no accesibles desde la nube).
