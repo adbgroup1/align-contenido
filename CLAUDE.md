@@ -55,7 +55,7 @@ desaparece al terminar.
 |---|---|
 | Marca | ALIGN |
 | `blogId` | `5900765` |
-| Zona horaria | `Europe/Madrid` en la marca; **las publicaciones se programan en hora de México** (`America/Mexico_City`) |
+| Zona horaria | `Europe/Madrid` en la marca; **las publicaciones salen a las 13:30 de México (20:30 de España)**, en `America/Mexico_City` |
 
 ### Repositorio
 

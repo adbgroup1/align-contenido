@@ -73,9 +73,9 @@ Andrés diseñó el sistema así: **su aprobación en Notion es la orden de publ
 
 - **Un día = una publicación**, todos los días. **Programa solo los próximos 4 días** (hoy no cuenta si ya pasó la
   hora). Así, lo que ESCALA en el tablero puede entrar enseguida, en vez de esperar dos semanas.
-- **Hora, la de México:** la que dé `getBestTimeToPostByNetwork` (en `America/Mexico_City`) o, si no hay datos,
-  **19:30 de Ciudad de México**. Pon `publicationDate.timezone` = `America/Mexico_City`. Si Resultados ha
-  encontrado una hora mejor, úsala.
+- **Hora: 13:30 de Ciudad de México, que son las 20:30 de España** (Andrés, 24 nov: buena en los dos países). Pon
+  `publicationDate.timezone` = `America/Mexico_City`. Solo se cambia si Resultados demuestra con datos que otra hora
+  funciona mejor.
 - **Orden para llenar los días:**
   1. lo que tiene fecha límite (aguinaldo, Navidad, la cuesta de enero…);
   2. **lo que prueba algo que ESCALA** en `investigacion/EXPERIMENTOS.md`;

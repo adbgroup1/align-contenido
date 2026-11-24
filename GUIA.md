@@ -34,7 +34,9 @@ Son consideraciones para el embudo, no reglas de oro:
   de alguien que mañana querría ese curso: organizar la quincena, salir de deudas, el colchón y empezar a
   invertir. **De momento el curso y la landing no se mencionan en el contenido:** el embudo todavía no está
   completo y Andrés lo lleva por separado. No toques nada de eso.
-- **Horario:** se publica en hora de México (`America/Mexico_City`), no de Madrid.
+- **Horario:** **13:30 de Ciudad de México = 20:30 de España** (Andrés, 24 nov: una hora buena en los dos países: la
+  comida allí y la tarde-noche aquí). Se programa en `America/Mexico_City`. Si Resultados encuentra una hora mejor
+  con datos, se cambia.
 
 ## Marca
 
