@@ -243,3 +243,11 @@ Son ideas propias: de la referencia solo se toma el patrón.
 - **Formato «MITO → REALIDAD»:** una pareja de láminas por mito; cada revelación es ágil y se guarda.
 - **CTA:** cierre claro; diseñar pensando en **guardados** (según Metricool, citado por Marketing Directo, pesan más que los likes en 2026; «9× más guardados que una foto» es cifra sin metodología).
 - **Para ALIGN (H3):** probar portada con cifra en pesos («$20,000 → $51,516») + 7–8 láminas + CTA «guárdalo para tu quincena». Pendiente: ver carruseles reales de @ cuentas MX de finanzas (no accesibles desde la nube).
+
+### Ronda de tarde 25 nov 2026 (WebSearch, solo lo público)
+*Fuentes: Arsys, Tiendanube, Adaptlypost, Skedsocial, SocialKit (blogs de marketing; sin ejemplos reales de cuentas MX de finanzas; sin cifras fiables).*
+- **Portada que detiene el scroll + cada lámina empuja a la siguiente** (Adaptlypost). Una lámina sin gancho propio es donde se cae la gente.
+- **Segunda oportunidad:** Instagram puede reenseñar el carrusel a quien lo ignoró usando otra lámina como portada → la lámina 2 debe poder valer como portada alternativa.
+- **MITO → REALIDAD** repetido lámina a lámina (Skedsocial), trasladable a «mito del ahorro / de la tarjeta».
+- **Métrica:** tasa de guardados = guardados / alcance (SocialKit). CTA único de guardar, p. ej. «guárdalo para tu quincena».
+- Sin dato de carruseles MX virales concretos (IG no se abre desde la nube) → sigue pendiente verlos en el Mac.

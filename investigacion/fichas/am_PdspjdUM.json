@@ -1,0 +1,28 @@
+{
+ "id": "am_PdspjdUM",
+ "url": "https://www.youtube.com/shorts/am_PdspjdUM",
+ "titulo": "Meses sin intereses: ¿cuánto pagas al mes en realidad?",
+ "canal": "Mexa Finanzas",
+ "vistas": 764,
+ "suscriptores": 14,
+ "ratio": 54.6,
+ "duracion_s": 32,
+ "formato": "Pregunta-trampa + suma de mensualidades",
+ "formato_align": "Reel MX finanzas",
+ "nicho": "Finanzas México",
+ "fuente": "claude",
+ "region": "MX",
+ "hook": {
+  "texto_y_visual_0_3s": "Cifra sumada: 5 pagos de $300 = $1,500 al mes",
+  "tecnica": "sin dato (no visto)",
+  "por_que_engancha": "Sin dato de comentarios; vistas bajas (<800)"
+ },
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato"
+ },
+ "idea_para_ALIGN": "Gancho = pregunta con cifra oculta; cierre con pregunta «¿traes más de 3 compras a meses?»; propone una regla (tope de mensualidades según lo que ganas). Idea: lo sumado, no la mensualidad (MSI en enero).",
+ "apto_align": true,
+ "nota": "Ratio alto por canal diminuto; no es viral (<1.000 vistas). Sirve para temas y fórmulas, no como modelo de retención."
+}

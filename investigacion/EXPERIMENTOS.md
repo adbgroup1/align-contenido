@@ -33,6 +33,8 @@
 
 - **Tema caliente: Buen Fin ya pasó (13–17 nov) y llegan la cuenta de la tarjeta y el aguinaldo (se paga a más tardar el 20 dic); gancho «la cuesta de enero / pagar el mínimo» (caduca el 20 dic 2026).** Fuente: Condusef vía Yucatán (13 nov) y Expansión (10 nov). Apoyo: Shorts MX de «pagar el mínimo» (MALA LANA, 11 nov) usan la cifra $20,000 → $51,516. Sin dato de vistas que lo confirme.
 
+- **Tema caliente: Banxico bajó la tasa 25 pb a 6,25 % el 5 nov (3 votos a 2, contra el consenso que esperaba pausa) y avisa que la mantendrá «por un periodo prolongado». Gancho: «qué significa para tu tarjeta y tu ahorro (CETES)» (caduca el 18 dic 2026, próxima decisión).** Fuente: Bloomberg Línea y N+ (5 nov). Sin dato de vistas. Los Shorts MX de aguinaldo (4 vistos 25 nov, 519–738 vistas, canales de 13–53 subs) están saturados: otra cifra de aguinaldo no basta, pide personaje o reto (refuerza H12/H9).
+
 ### MATAR (dejar de hacer)
 - *(nada todavía)*
 
