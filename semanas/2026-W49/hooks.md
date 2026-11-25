@@ -322,12 +322,12 @@ carrusel. Ganchos para las 6 de la prioridad.
 |---|---|---|---|---|
 | A | Contraste (juego) | **Golpe de $250 a tu deuda… y casi ni la rajas** | Muro «DEUDA $5,000» con barra de vida; el mazo ya está bajando; el ladrillo apenas se raja | ¿Por qué no se rompe? → s 4 |
 | B | Pregunta | **¿Cuántos golpes para tumbar $5,000 de deuda?** | Muro con contador de golpes en 0 | ¿Cuántos? → s 12 |
-| C | Número sorprendente | **36 meses para tumbar este muro** | Muro con un calendario pegado | ¿Por qué tanto? → s 6 |
+| C | Número sorprendente | **35 meses para tumbar este muro** | Muro con un calendario pegado | ¿Por qué tanto? → s 6 |
 
 **Gana A.** El fracaso se ve en el fotograma 0 (golpe que no hace nada): es frustración de videojuego que todos
 conocen y deja la pregunta abierta sin decir «pago mínimo» todavía (H12: sin otra cifra en el título).
 
-- **Segundo gancho (s 3–6):** «De esos $250, $177 se los comen los intereses.» Salen ladrillos nuevos con «+IVA».
+- **Segundo gancho (s 3–6):** «De esos $250, $174 se los comen los intereses.» Salen ladrillos nuevos con «+IVA».
 - **Cierre:** power-up de $1,000: medio muro al suelo. «3 años o 6 meses. Tú eliges el mazo.» → vuelve al muro.
 - **CTA COMPARTIR:** «Mándaselo a quien sigue pagando el mínimo.»
 - **Caption:**

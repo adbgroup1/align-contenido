@@ -357,17 +357,18 @@ W49-10), colchón (W49-08), tanda (W49-09), MSI (W49-11) y el día 3 de la quinc
 - **CTA:** COMPARTIR («mándaselo a quien sigue pagando el mínimo»)
 - **Gancho:** un personaje con mazo frente a un muro de ladrillos: «DEUDA $5,000». Barra de vida arriba, estilo
   videojuego. Golpea con «$250»… y el ladrillo casi no se raja.
-- **Desarrollo:** «De tus $250, $177 se los comen los intereses: a la deuda solo le das $73» (Ejemplo hipotético).
-  Aparecen ladrillos nuevos de intereses. Nivel: «36 meses». Power-up: golpe de **$1,000** → cae medio muro:
+- **Desarrollo:** «De tus $250, $174 se los comen los intereses: a la deuda solo le das $76» (Ejemplo hipotético).
+  Aparecen ladrillos nuevos de intereses. Nivel: «35 meses». Power-up: golpe de **$1,000** → cae medio muro:
   «6 meses».
-- **Wow:** marcador final: con $250 pagas **$8,867** en 3 años; con $1,000, **$5,605** en 6 meses (Ejemplo
+- **Wow:** marcador final: con $250 pagas **$8,703** en 3 años; con $1,000, **$5,592** en 6 meses (Ejemplo
   hipotético).
 - **Broma:** el muro tiene cara y se ríe con cada golpe de $250; con el de $1,000 se le caen los lentes.
 - **Patrón:** ficha «Help … smash the money bricks» (2,6 M, ratio 76) → reto con dinero como mecánica de juego, sin
   famosos. Más H12: los 5 Shorts MX de «pagar el mínimo» con cifra no pasan de 1.137 vistas.
-- **Datos:** tasa efectiva promedio de clientes no totaleros, 36,7 % anual [Banxico, Indicadores Básicos de Tarjetas
-  de Crédito, dic 2025, citado por prensa: confirmar]; IVA del 16 % sobre intereses [LIVA]. Cálculo: saldo $5,000,
-  interés mensual 36,7 %/12 × 1,16 = 3,55 %.
+- **Datos:** ejemplo hipotético con tasa del 36 % anual, en línea con la tasa efectiva de clientes no totaleros (36,7 %
+  a dic 2025) [Banxico, Indicadores Básicos de Tarjetas de Crédito, citado por TandaCasa: confirmar]; IVA del 16 % sobre
+  intereses [LIVA art. 1]. Cálculo: saldo $5,000, interés mensual 3 % × 1,16 = 3,48 %; con $250/mes, 35 meses y $8,703;
+  con $1,000/mes, 6 meses y $5,592.
 
 ## Idea 4 · El intercambio de $300 que te costó $1,800
 
@@ -423,7 +424,7 @@ W49-10), colchón (W49-08), tanda (W49-09), MSI (W49-11) y el día 3 de la quinc
 - **Pieza:** Reel · **Formato:** A/B en pantalla partida · **Duración:** ~18 s
 - **CTA:** COMENTAR («¿T o NT?»)
 - **Gancho:** dos manos con la misma tarjeta y el mismo ticket de $5,000; «¿Cuál eres?».
-- **Desarrollo:** izquierda paga todo antes de la fecha límite: $0 de intereses. Derecha deja el saldo: unos $177
+- **Desarrollo:** izquierda paga todo antes de la fecha límite: $0 de intereses. Derecha deja el saldo: unos $174
   al mes con IVA (Ejemplo hipotético).
 - **Patrón:** W47-02 (A/B, nuestro mejor indicio) + término de Banxico «totalero».
 - **Datos:** los mismos de la Idea 3.

@@ -41,3 +41,30 @@ Ideas 1, 2, 3, 6, 5 y 4 de la Tanda 2 de `ideas.md`, con el gancho ganador de `h
 - **Tipo de gancho:** se añadieron las opciones `Imperativo` y `POV` en Notion para poder medirlas.
 - **Notion:** la propiedad título se escribe con la clave `title` (con `userDefined:ID` el conector dio error hoy).
 - **Todo en DIBUJO:** ninguna escena `IMAGEN:` → no hace falta aviso de imágenes.
+
+---
+
+# Tanda 3
+
+Agente 4 · 25 nov 2026 · México. Guion completo dentro de cada página de Notion («Vídeos»), Estado = Guion. Ideas 3,
+1, 5, 2, 4 y 6 de la Tanda 3 de `ideas.md`, con el gancho ganador de `hooks.md`. Fuera: idea 7 (totalero A/B).
+
+| ID | Título | Pieza · formato | Pilar | CTA | Tipo | Gancho | Hipótesis | Cifras | IMAGEN |
+|---|---|---|---|---|---|---|---|---|---|
+| W49-13 | Rompe el muro de tu deuda | Reel · Juego / reto · 22 s | 3 Colchón y deudas | COMPARTIR | Experimento | Contraste | H12 | 36 % hipotético [Banxico vía prensa]; IVA 16 % [LIVA]; cálculo | 0 |
+| W49-14 | «Para ahorrar necesito tener dinero» | Reel · Ironía + reto de casillas · 18 s | 1 Sistema | COMENTAR | Probado | Ironía | H10 | suma 10…200 = 2,100 | 0 |
+| W49-15 | Las hormigas de tu quincena | Reel · Fábula · 20 s | 1 Sistema | COMENTAR | Probado | Literal visual | H13 | ejemplo $1,130 × 24 = $27,120 | 0 |
+| W49-16 | Si tu quincena tuviera sonido · Cap. 1 | Reel · Gráfica sonorizada · 15 s | 1 Sistema | COMENTAR | Experimento | POV | H11 | ejemplo $6,000 | 0 |
+| W49-17 | El intercambio de $300 que te costó $1,800 | Reel · Historia + contador · 20 s | 1 Sistema | COMPARTIR | Probado | Historia | H9 | ejemplo 1,800 | 0 |
+| W49-18 | De cada 100 pesos que gasta un hogar en México | Carrusel · 7 láminas | 1 Sistema | GUARDAR | Experimento | Número sorprendente | H3 · H14 | ENIGH 2024 [INEGI 112/25] | 0 |
+
+- **Cálculos (Python):** r = 0,36/12 × 1,16 = 3,48 % mensual; $5,000 → intereses mes 1 $174; $250/mes → 35 meses,
+  $8,703; $1,000/mes → 6 meses, $5,592 · Σ10…200 = 2,100 · (450+450+160+70) × 24 = 27,120 · 9.6 + 9.1 = 18.7 ·
+  100 − 75.9 = 24.1.
+- **Comprobado con WebSearch el 25 nov:** ENIGH 2024 (INEGI, comunicado 112/25: $15,891 al mes; 37.7 / 19.5 / 9.6 /
+  9.1 %). Tasa de no totaleros: el 36,7 % (dic 2025) solo aparece en un blog (TandaCasa) que cita a Banxico; banxico.org.mx
+  no se abre desde la nube. Por eso se usa un **36 % redondo como ejemplo hipotético**, en pantalla con «Ejemplo
+  hipotético».
+- **Tipo de gancho:** se añadieron las opciones `Ironía` y `Literal visual` en Notion.
+- **Notion:** hoy la clave `title` funcionó (el conector la reescribe como `userDefined:ID`).
+- **Todo en DIBUJO:** ninguna escena `IMAGEN:`.
