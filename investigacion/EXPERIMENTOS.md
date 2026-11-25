@@ -52,6 +52,8 @@
 | H10 | Un gancho de ironía relatable sobre no poder ahorrar («para ahorrar hay que tener dinero») consigue más likes en comentarios y más vistas que un gancho de concepto | Reel con esa frase como gancho + reto de ahorro por casillas, frente a la mediana | — | Vistas, comentarios por 1.000 vistas | Abierta · evidencia: ficha XKg6pR7gILE (9,8 M vistas; los comentarios top, 1.302 y 652 likes, son esa broma) |
 | H11 | Una serie «si tu dinero tuviera sonido» (gráfica sonorizada con título fijo y contador de capítulos) funciona con cifras mexicanas | 2 o 3 vídeos de la serie con cifras de quincena/inflación | — | Vistas y % que pasa de 3 s | Abierta · evidencia: Sneaky Numbers 200 k y 222 k vistas con 57 k subs (fichas 6WMO9RNtIEs, NtQ8Xep5iYg); el tema de dinero rinde más que el bélico (81 k) |
 | H12 | En México, «pagar el mínimo» con una cifra en el título está saturado: pide formato distinto (personaje o reto), no otra cifra | No hacer un 6.º vídeo de cifra; probar el mismo tema como reto/juego con contador | — | Vistas frente a la mediana | Abierta · evidencia: 5 Shorts MX casi idénticos, todos entre 455 y 1.137 vistas (canales de 9–131 subs); frente a 2,6 M del reto «romper ladrillos de dinero» (LLrR6wTyLls) |
+| H13 | El mismo tema en fábula con criaturas literales («gastos hormiga» = hormigas) retiene más que el contador solo | Fábula de gastos hormiga para México frente a W48-04 (contador, España) | W49 Tanda 3 | % que pasa de 3 s y tiempo visto | Abierta |
+| H14 | Un dato oficial «de cada 100 pesos» dibujado con 100 monedas consigue más compartidos y guardados que la mediana | Carrusel con la ENIGH 2024 (INEGI) | W49 Tanda 3 | Guardados y compartidos por 1.000 de alcance | Abierta |
 
 ## Histórico de veredictos
 

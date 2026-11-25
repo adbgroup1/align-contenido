@@ -290,3 +290,146 @@ los meses sin intereses empezando a cobrarse. IDs desde **W49-07**.
 1. Idea 1 (A/B aguinaldo, H5) · 2. Idea 2 (Construye desde cero, H2) · 3. Idea 3 (Tanda, H7) · 4. Idea 6 (Lista
 aguinaldo, H8) · 5. Idea 5 (Carrusel MSI, H3) · 6. Idea 4 (POV 8 s, H4). **Fuera:** Idea 7 (posada): queda en la
 bolsa para la Tanda del domingo, porque ya hay dos ideas de aguinaldo y la posada encaja mejor la semana del 7 dic.
+
+---
+
+# Tanda 3
+
+Agente 2 (estratega) · miércoles 25 nov 2026 · segunda tanda para México. La Tanda 2 ya cubre aguinaldo (W49-07,
+W49-10), colchón (W49-08), tanda (W49-09), MSI (W49-11) y el día 3 de la quincena (W49-12). IDs desde **W49-13**.
+
+## Contexto (lo que manda el tablero)
+
+- **EXPERIMENTOS.md (25 nov):** nada ESCALA ni se MATA (mediana IG 170 vistas, ningún viral). Indicios: A/B con una
+  decisión (H5) y **los ganchos de concepto pierden a 2 de cada 3** → todos los ganchos abren con conflicto visual.
+  W48-01 (España) va un 66 % por debajo de la mediana: más razón para México (H1).
+- **Hipótesis nuevas de Investigación sin probar todavía:** H10 (ironía «para ahorrar hay que tener dinero», 9,8 M),
+  H11 (serie «si tu dinero tuviera sonido», 200 k con 57 k subs) y H12 (pagar el mínimo como juego, no como otra
+  cifra; reto «romper ladrillos de dinero», 2,6 M). Esta tanda las prueba las tres.
+- **TECNICAS.md:** Fábula (ratio 118) e Historia con personaje (ratio 50) son los formatos de finanzas más fuertes, y
+  la Tanda 2 no lleva ninguno → van dos (ideas 4 y 5). Contador como capa.
+- **Aprendizajes:** GUARDAR dio 0 guardados en 3 reels → GUARDAR solo en el carrusel; en reels, COMENTAR con barrera
+  baja y COMPARTIR.
+- **Todas** prueban además H1 (México) y H6 (rotación de voces).
+- **Cartera:** 4 EXPLOTAR (1, 4, 5, 7) + 3 EXPLORAR (2, 3, 6) · 1 carrusel + 6 reels · de 12 a 25 s.
+- **Imagen o dibujo:** todo `DIBUJO:` (ladrillos, hormigas, gráficas con sonido, casillas y láminas tipográficas).
+  Ninguna depende de imágenes de ChatGPT.
+
+---
+
+## Idea 1 · «Para ahorrar necesito tener dinero» (el reto de las 20 casillas)
+
+- **Apuesta:** EXPLOTAR (viral de 9,8 M «Money Saving Challenge Book») · **Hipótesis:** H10
+- **Pieza:** Reel · **Formato:** Ironía relatable + reto con objeto (tablero de casillas) · **Duración:** ~18 s
+- **CTA:** COMENTAR («¿Cuál casilla tachas primero?» → un número) · fijado: «¿Y tú qué haces con la de $200?»
+- **Gancho:** una alcancía de cochinito vacía, boca abajo, cae una pelusa. Texto: «Para ahorrar necesito tener
+  dinero». La broma que todos han dicho; para el scroll porque se reconoce al instante.
+- **Desarrollo:** aparece un tablero de 20 casillas de $10 a $200. No hay orden ni días: tachas la que puedas
+  cuando puedas. La de $10 un martes de crisis, la de $200 el día de la quincena.
+- **Wow:** al tachar las 20, el tablero se convierte en un sobre: **$2,100** (Ejemplo). «Y empezaste con diez pesos».
+- **Broma:** el cochinito, al principio con cara de abandonado; cada casilla le sube el ánimo hasta que baila.
+- **Patrón:** ficha «Money Saving Challenge Book» (9,8 M; comentarios top: la broma «para ahorrar necesito tener
+  dinero») → la ironía como gancho + reto numerado con un objeto. Objeto, cantidades y guion propios.
+- **Datos:** ninguno externo; 10 + 20 + … + 200 = 2,100.
+
+## Idea 2 · Si tu quincena tuviera sonido (Cap. 1)
+
+- **Apuesta:** EXPLORAR · **Hipótesis:** H11 (serie de gráficas sonorizadas con cifras mexicanas)
+- **Pieza:** Reel · **Formato:** Gráfica sonorizada / serie con capítulos · **Duración:** ~15 s
+- **CTA:** COMENTAR («¿En qué día suena así la tuya?») + SEGUIR implícito («Cap. 2: tu tarjeta»)
+- **Gancho:** título fijo arriba «Si tu quincena tuviera sonido · Cap. 1». Día 1: la línea sube a $6,000 con un
+  acorde de fanfarria. Desde el fotograma 0 ya se ve la línea arriba.
+- **Desarrollo:** cada gasto baja la línea con su sonido: renta $2,500 (bombo), súper $1,200 (golpe), MSI $600
+  (sirena corta), salida $700 (cumbia que se corta), celular $300, Uber $300, antojos del Oxxo $400 (tic, tic, tic).
+  Día 15: $0 y el pitido plano de hospital.
+- **Wow:** rebobinado. La misma quincena, pero el día 1 sale «págate primero −$600» con un «ding»: el día 15 la línea
+  termina en $600 y suena un acorde bonito.
+- **Broma:** los antojos del Oxxo son un tic-tic que no para; el pitido plano sale con texto «nadie: / mi cuenta el
+  día 15:».
+- **Patrón:** fichas Sneaky Numbers «If financial data graphs had sound» (200 k) y «Olympic Gold Rush» (222 k) →
+  gráfica de línea con sonido, título fijo y número de capítulo. Datos, sonidos y guion propios.
+- **Datos:** ninguno externo (ejemplo, suma $6,000).
+
+## Idea 3 · Rompe el muro de tu deuda (pagar el mínimo, en modo videojuego)
+
+- **Apuesta:** EXPLORAR · **Hipótesis:** H12 (pagar el mínimo como juego, no como otra cifra)
+- **Pieza:** Reel · **Formato:** Reto / videojuego con contador · **Duración:** ~22 s
+- **CTA:** COMPARTIR («mándaselo a quien sigue pagando el mínimo»)
+- **Gancho:** un personaje con mazo frente a un muro de ladrillos: «DEUDA $5,000». Barra de vida arriba, estilo
+  videojuego. Golpea con «$250»… y el ladrillo casi no se raja.
+- **Desarrollo:** «De tus $250, $177 se los comen los intereses: a la deuda solo le das $73» (Ejemplo hipotético).
+  Aparecen ladrillos nuevos de intereses. Nivel: «36 meses». Power-up: golpe de **$1,000** → cae medio muro:
+  «6 meses».
+- **Wow:** marcador final: con $250 pagas **$8,867** en 3 años; con $1,000, **$5,605** en 6 meses (Ejemplo
+  hipotético).
+- **Broma:** el muro tiene cara y se ríe con cada golpe de $250; con el de $1,000 se le caen los lentes.
+- **Patrón:** ficha «Help … smash the money bricks» (2,6 M, ratio 76) → reto con dinero como mecánica de juego, sin
+  famosos. Más H12: los 5 Shorts MX de «pagar el mínimo» con cifra no pasan de 1.137 vistas.
+- **Datos:** tasa efectiva promedio de clientes no totaleros, 36,7 % anual [Banxico, Indicadores Básicos de Tarjetas
+  de Crédito, dic 2025, citado por prensa: confirmar]; IVA del 16 % sobre intereses [LIVA]. Cálculo: saldo $5,000,
+  interés mensual 36,7 %/12 × 1,16 = 3,55 %.
+
+## Idea 4 · El intercambio de $300 que te costó $1,800
+
+- **Apuesta:** EXPLOTAR (Historia con personaje + Contador; viene de la bolsa de la Tanda 2) · **Hipótesis:** H9
+- **Pieza:** Reel · **Formato:** Historia con personaje + Contador · **Duración:** ~20 s
+- **CTA:** COMPARTIR («mándaselo al que organiza el intercambio»)
+- **Gancho:** Lalo (frijol naranja con gorro de Santa) sostiene un regalo con etiqueta «$300». Contador en la esquina:
+  $300. Texto: «El intercambio es de $300, dijeron».
+- **Desarrollo:** cooperación para la comida $200 → el suéter navideño «obligatorio» $800 → Uber ida y vuelta $350 →
+  tacos de madrugada $150. El contador sube a **$1,800** (Ejemplo).
+- **Wow / broma:** en el sorteo le toca el jefe y el contador tiembla; abre su regalo: un llavero.
+- **Cierre:** «Antes del intercambio, pon tu presupuesto del día completo, no solo del regalo».
+- **Patrón:** TECNICAS.md «Historia con personaje» (meta → tentación → consecuencia; «Adam and the Lemonade Stand»,
+  ratio 172) + Contador como capa.
+- **Datos:** ninguno externo (ejemplo).
+
+## Idea 5 · Las hormigas de tu quincena (fábula)
+
+- **Apuesta:** EXPLOTAR (Fábula, el formato de finanzas con más ratio) · **Hipótesis nueva H13:** el mismo tema
+  (gastos hormiga) en fábula con criaturas literales, para México, retiene más que el contador solo (W48-04, España)
+- **Pieza:** Reel · **Formato:** Fábula con personajes / mundo con una regla · **Duración:** ~20 s
+- **CTA:** COMENTAR («¿Cuál hormiga vive en tu casa?»)
+- **Gancho:** un bolillo gigante con «$6,000» escrito. Una hormiga con un vasito de café se lleva una migaja.
+  Texto: «Los gastos hormiga son literales».
+- **Desarrollo:** llega la hormiga del café ($45 diario), la del Oxxo ($30), la de los envíos de comida ($40) y la
+  de la suscripción que no usas (dormida pero cobrando). Contador: $1,130 por quincena.
+- **Wow:** zoom out: una fila de hormigas lleva el bolillo entero: «$27,120 al año» (Ejemplo).
+- **Broma:** la hormiga de la suscripción, en pijama, sigue cobrando dormida.
+- **Patrón:** TECNICAS.md Fábula «Mundo con una regla: cada gasto es una criatura que se come el saldo»
+  (BDqg5D2AQa8). Mundo, criaturas y guion propios.
+- **Datos:** ninguno externo; (450 + 450 + 160 + 70) × 24 quincenas = 27,120.
+
+## Idea 6 · Carrusel: de cada 100 pesos que gasta un hogar en México
+
+- **Apuesta:** EXPLORAR · **Hipótesis:** H3 (segundo carrusel) y **nueva H14:** un dato oficial «de cada 100 pesos»
+  dibujado con 100 monedas consigue más compartidos y guardados que la mediana
+- **Pieza:** Carrusel (7 láminas, solo Instagram) · **Formato:** Dato visual + plantilla
+- **CTA:** GUARDAR («Guárdalo y haz el tuyo esta quincena») + COMPARTIR secundario
+- **Gancho (portada):** 100 monedas de $1 en cuadrícula: «De cada 100 pesos que gasta un hogar mexicano… 38 se van
+  en comer».
+- **Desarrollo:** 37.7 alimentos, bebidas y tabaco → 19.5 transporte y comunicaciones → **el transporte se come más
+  que escuela, diversión y vivienda juntas (9.6 + 9.1 = 18.7)** → el resto (24.1) → plantilla vacía de 100 casillas
+  «haz el tuyo».
+- **Broma:** en la lámina del transporte, las monedas se suben a un micro lleno.
+- **Patrón:** ficha «57 de cada 100 pesos que gasta un hogar» (Secretos del Dinero, 195 vistas: la estructura, no la
+  ejecución) → se pasa a carrusel guardable.
+- **Datos:** gasto corriente monetario promedio de $15,891 al mes; alimentos 37.7 %, transporte y comunicaciones
+  19.5 %, educación y esparcimiento 9.6 %, vivienda 9.1 % [INEGI, ENIGH 2024, comunicado 112/25].
+
+## Idea 7 · ¿Totalero o no totalero? (misma tarjeta, dos meses)
+
+- **Apuesta:** EXPLOTAR · **Hipótesis:** H5 (A/B con una decisión)
+- **Pieza:** Reel · **Formato:** A/B en pantalla partida · **Duración:** ~18 s
+- **CTA:** COMENTAR («¿T o NT?»)
+- **Gancho:** dos manos con la misma tarjeta y el mismo ticket de $5,000; «¿Cuál eres?».
+- **Desarrollo:** izquierda paga todo antes de la fecha límite: $0 de intereses. Derecha deja el saldo: unos $177
+  al mes con IVA (Ejemplo hipotético).
+- **Patrón:** W47-02 (A/B, nuestro mejor indicio) + término de Banxico «totalero».
+- **Datos:** los mismos de la Idea 3.
+
+## Prioridad para el guion (las 6)
+
+1. Idea 3 (muro de la deuda, H12) · 2. Idea 1 (casillas, H10) · 3. Idea 5 (hormigas, H13) · 4. Idea 2 (quincena con
+sonido, H11) · 5. Idea 4 (intercambio, H9) · 6. Idea 6 (carrusel 100 pesos, H3/H14). **Fuera:** Idea 7: mismo tema
+que la 3 y H5 ya lo prueba W49-07; queda en la bolsa (si H12 sale mal, se prueba el tema en A/B).
