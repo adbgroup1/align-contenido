@@ -16,8 +16,9 @@
 
 ## Estado (lo reescribe Resultados cada día)
 
-*Actualizado: 24 nov 2026 (arranque, a mano). Mediana de Instagram: 192 vistas, 7 s de tiempo medio visto y 31,5 %
-que pasa de los 3 s (con 3 reels).*
+*Actualizado: 25 nov 2026 (Resultados). Mediana de Instagram con 4 reels: 170 vistas. Ninguna publicación pasa de 5× la mediana (umbral 850): sin VIRAL. La mejor sigue siendo W47-02 (207 vistas, 12,5 s, 56,3 % pasa de 3 s).*
+
+**Lo nuevo:** W48-01 (Black Friday, regla de las 48 h; 24 nov) lleva 58 vistas y 7 de alcance en menos de 24 h, un 66 % por debajo de la mediana. Con tan poco alcance, el % de 3 s no vale (indicio nulo). Sigue en España (50 €, «españa»): peor que W47. Aún sin veredicto, se medirá a 3 días. Tema estacional que caduca el viernes: no repetir.
 
 ### ESCALAR (hacer más, con variaciones)
 - *(nada todavía con datos suficientes)*

@@ -19,3 +19,13 @@ Duración del vídeo: sin dato en Metricool.
 ## Estado en Notion
 - W47-02 pasa de Programado a Publicado (salió el 20 nov). W47-01 y W47-03 siguen Publicado (menos de 8 días; Analizado a partir del 24 nov y 27 nov).
 - Vistas rellenadas con Instagram. Retención %: sin dato.
+
+## Medida 25 nov 2026 (07:00)
+| ID | Subida | Vistas | Alcance | Likes | Coment. | Guard. | Comp. | Tiempo medio (s) | Pasa 3 s % |
+|---|---|---|---|---|---|---|---|---|---|
+| W48-01 (Black Friday, regla 48 h; 24 nov, <24 h) | 24 nov | 58 | 7 | 0 | 1 | 0 | 0 | 4,2 | 90,6* |
+| W47-01 | 16 nov | 192 | 148 | 6 | 1 | 0 | 1 | 7,0 | 31,5 |
+| W47-03 | 19 nov | 148 | 124 | 6 | 1 | 0 | 0 | 6,8 | 34,4 |
+| W47-02 | 20 nov | 207 | 171 | 5 | 1 | 0 | 1 | 12,5 | 56,3 |
+
+*Con solo 7 de alcance, el 90,6 % no es fiable. Retención %: sin dato. Mediana IG (4 reels): 170 vistas.
