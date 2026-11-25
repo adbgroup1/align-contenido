@@ -76,3 +76,44 @@ los 6 pasan (cifras con fuente, «Ejemplo» en pantalla con las cantidades, avis
 - Primera tanda para México (H1) y primera con la rotación de voces (H6): `voz.mjs` asignará la voz.
 - Fuentes CONDUSEF citadas a través de prensa (El Imparcial, Fox Sports): no se encontró la guía original.
 - Notion: hoy la clave `userDefined:ID` falló al crear filas; funcionó `title` (apuntado en `CLAUDE.md`).
+
+---
+
+# Tanda 3 · Modo A (25 nov 2026, México)
+
+Nota de potencial viral 1–10 (gancho, retención, compartible, guardable, gracia, México, aprendizaje). Filtro legal:
+los 6 pasan (cifras con fuente o marcadas «Ejemplo» / «Ejemplo hipotético», aviso al final, sin productos, sin venta,
+sin marcas como recomendación).
+
+| ID | Pieza · formato | Hipótesis | Vuelta 1 | Cambio | Vuelta 2 | Decisión |
+|---|---|---|---|---|---|---|
+| W49-13 | Reel · Muro de la deuda (juego) | H12 | 8,1 (9/8/9/6/8/8/9) | el muro se burla («¿Eso fue todo, mijo?», «¡No manches!») | **8,4** | **Revisión manager OK** |
+| W49-14 | Reel · Ironía + 20 casillas | H10 | 8,1 (9/7/8/8/8/8/9) | escena 3 fusionada (16 s); «día 13, quincena en coma» | **8,4** | **Revisión manager OK** |
+| W49-15 | Reel · Fábula de las hormigas | H13 | 8,1 (9/8/8/5/9/9/9) | CTA «etiqueta a la hormiga del café de tu oficina» | **8,3** | **Revisión manager OK** |
+| W49-16 | Reel · Quincena con sonido, Cap. 1 | H11 | 7,6 (8/9/7/5/8/7/9) | «¡Ajúa!» de mariachi y grito del carrito de tamales | **8,3** | **Revisión manager OK** |
+| W49-17 | Reel · Intercambio + contador | H9 | 8,1 (8/8/9/6/9/9/8) | escenas 4+5 fusionadas (18 s) | **8,3** | **Revisión manager OK** |
+| W49-18 | Carrusel · De cada 100 pesos | H3 · H14 | 8,0 (8/8/8/9/6/8/9) | — | 8,0 | Devuelto (reserva: entra si W49-11 consigue guardados) |
+
+## Por qué esta selección
+
+- **Cartera:** 3 EXPLOTAR (W49-14 viral de 9,8 M, W49-15 Fábula, W49-17 Historia + contador) + 2 EXPLORAR (W49-13
+  H12, W49-16 H11). Cinco hipótesis distintas y cinco formatos de reel que aún no hemos publicado nunca. 15–22 s.
+- **Fuera el carrusel W49-18:** es el de menos nota y H3 ya la prueba W49-11; dos carruseles sin datos del primero
+  enseñarían poco. Queda de reserva (no caduca).
+- **«¿Lo vería entero alguien que no nos sigue?»** Sí en los 5: todos abren con el conflicto ya pasando en el
+  fotograma 0 (golpe que no rompe, cochinito vacío, hormiga robando, línea que cae, contador que sube solo).
+- **Orden sugerido para Decisiones:** W49-17 en la primera semana de diciembre (intercambios); el resto sin fecha.
+  No juntar W49-15 y W49-16 (las dos son de la quincena) ni W49-13 con W49-11 (las dos de deuda).
+
+## Imagen o dibujo
+
+- **Ninguno lleva `IMAGEN:`**: todo DIBUJO. No hace falta aviso a Andrés.
+
+## Avisos
+
+- **W49-13:** la tasa de no totaleros de Banxico (36,7 %, dic 2025) solo se pudo ver citada en un blog; banxico.org.mx
+  no resuelve desde la nube. El guion usa un **36 % redondo como ejemplo hipotético**. Si Andrés o Producción pueden
+  abrir el informe de Banxico, conviene confirmarlo.
+- **W49-16:** el sonido es el protagonista; Producción debe generar los efectos (o usar `videos/public/`), sin
+  grabaciones famosas.
+- Tipos de gancho nuevos en Notion: `Ironía` y `Literal visual`.
