@@ -3,37 +3,92 @@
  "url": "https://www.instagram.com/reel/Df5b59POgak/",
  "enlace_original": "https://www.instagram.com/reel/Df5b59POgak/",
  "origen": "andres",
- "fuente": "andres",
- "titulo": "Construye una rodilla desde cero (formato «Construye desde cero»)",
- "canal": "sin dato",
- "vistas": "sin dato",
- "duracion_s": "sin dato",
- "formato": "objeto que se monta pieza a pieza en plano fijo, una frase por pieza",
+ "fuente": "chrome",
+ "visto": true,
+ "visto_en": "Mac, Chrome de Andrés, 25 nov 2026 (fotogramas + pie; sin audio)",
+ "titulo": "Construye una rodilla desde cero",
+ "canal": "@laboratoriohumano3d",
+ "vistas": "sin dato (226 mil me gusta, 1.079 comentarios, 39,8 mil compartidos)",
+ "duracion_s": 83,
+ "formato": "ilustración médica 2D/3D en plano fijo; el objeto se arma pieza a pieza",
  "formato_align": "Construye desde cero",
- "estructura": "«Pon esto sobre esto y tienes X»: cada pieza entra con una frase y al final el objeto completo",
- "nicho": "sin dato",
+ "estructura": "fémur → tibia → ligamentos cruzados → meniscos → laterales → músculos → rótula → demostración de flexión con % de carga → piel encima: «¡Enhorabuena!»",
+ "nicho": "Ciencia / anatomía",
  "nota_andres": "El formato: «Pon esto sobre esto y tienes X» / «Si haces esto y le pones esto, tienes tu primer X». Un objeto que se monta pieza a pieza en un plano fijo, una frase por pieza. Para Andrés son los más virales y los mejores: hay que recrearlos (ya está en GUIA.md y TECNICAS.md). Vídeo corto, sin relleno.",
  "hook": {
-  "texto_y_visual_0_3s": "sin dato (vídeo no visto); por la nota: primera pieza en plano fijo con la fórmula «pon esto sobre esto»",
-  "tecnica": "fórmula de construcción «pon esto sobre esto y tienes X»",
-  "por_que_engancha": "Según la nota de Andrés: el espectador ve cómo algo complejo se arma pieza a pieza y espera el resultado final"
+  "texto_y_visual_0_3s": "Fondo azul degradado, fémur solo en el centro; la tibia sube desde abajo y encaja. Subtítulo palabra a palabra: «…dos… rodilla».",
+  "tecnica": "empieza ya construyendo: la primera pieza está en pantalla en el fotograma 0, sin introducción",
+  "por_que_engancha": "curiosidad por el resultado final y sensación de «esto lo entiendo»"
  },
- "segundo_gancho": "sin dato",
- "escenas": [],
- "ritmo": "por la nota: corto, una frase por pieza, sin relleno",
- "momento_wow": "sin dato",
- "cierre": {"tipo": "sin dato", "hace_bucle": "sin dato", "cta": "sin dato"},
- "tipografia": {"estilo": "sin dato", "animacion": "sin dato", "subtitulos": "sin dato"},
- "color_y_luz": "sin dato",
- "camara_y_transiciones": ["plano fijo (por la nota)"],
- "efectos": [],
- "graficos_y_datos": "sin dato",
- "sonido": {"voz": "sin dato", "musica": "sin dato", "efectos_sonido": [], "mezcla": "sin dato"},
- "que_lo_hace_premium": ["un solo objeto, un solo plano, una idea por pieza", "sin relleno"],
- "nota_calidad_visual_1_10": "sin dato",
- "recetas_remotion": [],
- "idea_para_ALIGN": "«Construye tu primer fondo de emergencia desde cero»: en plano fijo se apilan piezas (nómina → ahorro automático → colchón de 3 meses), una frase por pieza, y al final el objeto completo. Mismo patrón de montaje pieza a pieza con tema propio de ALIGN.",
- "apto_align": true,
- "visto": false,
- "aviso": "Sin ver el vídeo: Instagram no se abre desde la nube y no se encontró en YouTube. Ficha por la nota de Andrés."
+ "segundo_gancho": "a mitad (≈25 s) cambia a vista lateral con flexión y el dato «85 % CARGA»: el objeto hace algo",
+ "escenas": [
+  {
+   "t": "0-3",
+   "que": "fémur y tibia encajan"
+  },
+  {
+   "t": "3-10",
+   "que": "ligamentos cruzados en X, etiqueta naranja «CRUZADOS»"
+  },
+  {
+   "t": "10-20",
+   "que": "meniscos y ligamentos laterales"
+  },
+  {
+   "t": "20-30",
+   "que": "vista lateral, la rodilla se dobla, dato 85 % de carga"
+  },
+  {
+   "t": "30-55",
+   "que": "músculos (cuádriceps rojos), rótula y tendón"
+  },
+  {
+   "t": "55-70",
+   "que": "zoom a la articulación con puntos azules de las piezas, flecha de fuerza"
+  },
+  {
+   "t": "70-83",
+   "que": "la piel cubre todo: «¡Enhorabuena!», acabas de construir una rodilla"
+  }
+ ],
+ "ritmo": "una pieza cada 5-10 s, cada pieza con su frase; nunca cambia de plano salvo la vista lateral",
+ "momento_wow": "la flexión con el % de carga y el final con piel: el montaje se convierte en una pierna real",
+ "cierre": {
+  "tipo": "recompensa: «¡Enhorabuena!» (has construido X)",
+  "hace_bucle": "no",
+  "cta": "en el pie: «¿Cuál de estas piezas te has roto tú? Mándaselo a quien se lesionó la rodilla»"
+ },
+ "tipografia": {
+  "estilo": "subtítulo blanco en negrita con sombra, centrado arriba; palabras clave en etiquetas inclinadas naranjas o verdes con borde (CRUZADOS, 85 % CARGA, ¡ENHORABUENA!)",
+  "animacion": "palabra a palabra; etiquetas con pop",
+  "subtitulos": "sí, una o dos palabras"
+ },
+ "color_y_luz": "fondo azul degradado limpio, objeto en beige; rojo solo para músculos",
+ "camara_y_transiciones": "plano fijo, zoom suave al detalle y un giro a vista lateral",
+ "efectos": [
+  "flecha de fuerza",
+  "puntos que marcan piezas",
+  "pop de etiquetas"
+ ],
+ "graficos_y_datos": "un único dato (85 % de carga) como etiqueta",
+ "sonido": {
+  "voz": "sí, voz en off (los subtítulos siguen la locución); timbre sin dato",
+  "musica": "sin dato (no se oye desde Claude)",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "un objeto y un plano",
+  "cada pieza = una frase",
+  "etiquetas de color solo para la palabra clave",
+  "final de recompensa"
+ ],
+ "nota_calidad_visual_1_10": 8,
+ "recetas_remotion": [
+  "Objeto central que crece por capas (Sequence por pieza con spring de entrada desde fuera de cuadro)",
+  "Etiqueta inclinada naranja con pop (scale spring + rotate -6°)",
+  "Giro a vista lateral con interpolate de rotateY"
+ ],
+ "idea_para_ALIGN": "«Construye tu primer colchón (fondo de emergencia) desde cero»: un tarro en plano fijo; entran la quincena, el ahorro automático, el 10 %, el aguinaldo… cada pieza con su frase y una etiqueta naranja. A mitad, el tarro «aguanta» un golpe (se rompe el coche) con la etiqueta «3 MESES»; final: «¡Enhorabuena! Ya tienes colchón». Cantidades marcadas como ejemplo.",
+ "apto_align": true
 }

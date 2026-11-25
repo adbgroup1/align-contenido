@@ -1,0 +1,93 @@
+{
+ "id": "ig-DfvXi6KERBK",
+ "url": "https://www.instagram.com/reel/DfvXi6KERBK/",
+ "enlace_original": "https://www.instagram.com/reel/DfvXi6KERBK/",
+ "origen": "andres",
+ "fuente": "chrome",
+ "visto": true,
+ "visto_en": "Mac, Chrome de Andrés, 25 nov 2026 (fotogramas + pie; sin audio)",
+ "titulo": "Ya puedes usar Higgsfield gratis desde Claude",
+ "canal": "@lynxstudiosbcn",
+ "vistas": "sin dato",
+ "duracion_s": 65,
+ "formato": "dos mascotas 3D (bloque naranja = Claude, bloque verde = Higgsfield) que actúan la historia, con claqueta y paneles",
+ "formato_align": "Historia",
+ "estructura": "claqueta «Higgsfield vs Claude» → «ya puedes usar Higgsfield… desde Claude» → Higgsfield junta Kling, Veo… pagando → carta de sus abogados → Open Higgsfield: FLUX hace imágenes, LTX las anima → «0 créditos», solo pones la gráfica → «Sígueme para más trucos con Claude»",
+ "nicho": "IA / herramientas",
+ "nota_andres": "sin nota (Andrés lo mandó sin decir qué le gusta)",
+ "hook": {
+  "texto_y_visual_0_3s": "claqueta luminosa entre dos personajes que se miran; texto «Ya puedes usar Higgsfield»",
+  "tecnica": "rivalidad entre dos personajes (David contra Goliat) + novedad",
+  "por_que_engancha": "conflicto inmediato y personajes con cara"
+ },
+ "segundo_gancho": "la carta de los abogados en el atril con el personaje verde sudando",
+ "escenas": [
+  {
+   "t": "0-5",
+   "que": "claqueta, los dos personajes"
+  },
+  {
+   "t": "5-15",
+   "que": "presentación de cada uno con etiqueta"
+  },
+  {
+   "t": "15-25",
+   "que": "panel de Kling y demás; el naranja se asusta"
+  },
+  {
+   "t": "25-35",
+   "que": "carta de abogados en un atril"
+  },
+  {
+   "t": "35-50",
+   "que": "pantalla de «video-director» con pasos numerados"
+  },
+  {
+   "t": "50-58",
+   "que": "gráfica de 16 GB y «0 créditos» tachado"
+  },
+  {
+   "t": "58-65",
+   "que": "tarjetas del kit y botón de seguir"
+  }
+ ],
+ "ritmo": "rápido; un gag visual por escena (estrellas, sudor, signos de exclamación)",
+ "momento_wow": "el personaje verde sudando con la carta de los abogados",
+ "cierre": {
+  "tipo": "CTA seguir + palabra clave en el pie",
+  "hace_bucle": "no",
+  "cta": "Sígueme para más trucos con Claude; comenta HIGGS"
+ },
+ "tipografia": {
+  "estilo": "texto gris claro arriba con la palabra clave en blanco y negrita; etiquetas tipo píldora de color",
+  "animacion": "palabra a palabra",
+  "subtitulos": "sí"
+ },
+ "color_y_luz": "fondo oscuro de estudio con luz cenital; los dos personajes son los únicos colores",
+ "camara_y_transiciones": "cámara fija con empujes; personajes que entran y salen",
+ "efectos": [
+  "estrellas de alegría",
+  "gotas de sudor",
+  "signos de exclamación"
+ ],
+ "graficos_y_datos": "ninguno",
+ "sonido": {
+  "voz": "sí, voz en off (los subtítulos siguen la locución); timbre sin dato",
+  "musica": "sin dato (no se oye desde Claude)",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "dos personajes con emociones claras",
+  "gags visuales en cada escena",
+  "paleta mínima: cada personaje un color"
+ ],
+ "nota_calidad_visual_1_10": 8,
+ "recetas_remotion": [
+  "Personaje-bloque con ojos y boca que cambian (estados: feliz, susto, sudor)",
+  "Estrellas que hacen pop alrededor",
+  "Píldora de etiqueta que apunta al personaje"
+ ],
+ "idea_para_ALIGN": "Dos mascotas para un A/B con humor: «Tu quincena vs. tus antojos» o «el ahorro vs. los meses sin intereses»: bloques con cara, uno con el color de ALIGN, peleándose en un escenario oscuro; gags de sudor y estrellas, una idea por escena. Encaja con el formato A/B y con la broma visual.",
+ "apto_align": true
+}

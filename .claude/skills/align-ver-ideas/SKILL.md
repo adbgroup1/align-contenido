@@ -25,8 +25,13 @@ de Andrés y con él delante.** Nunca en una tarea programada.
 - **No descargues el vídeo.** Solo se mira, como lo miraría Andrés.
 - **Recorrerlo:** pausa el `<video>` y llévalo a cada momento con JavaScript
   (`v=document.querySelector('video'); v.pause(); v.currentTime=T`), con una captura en cada uno:
-  0 s, 1 s, 2 s, 3 s y después cada 2 s hasta el final (`v.duration`). Si hay un corte de escena entre dos
-  capturas, mete otra en medio. Así salen el gancho de 0–3 s, las escenas, los textos en pantalla y el cierre.
+  0,2 s, 1,5 s y 3 s (el gancho) y después unas 7 más repartidas (20 %, 40 %… del `v.duration`) y una al final.
+  Si dos capturas seguidas son de escenas muy distintas, mete otra en medio. Así salen el gancho, las escenas,
+  los textos en pantalla y el cierre.
+  - En Instagram hay varios `<video>` en la página: coge el visible
+    (`[...document.querySelectorAll('video')].find(v=>{const r=v.getBoundingClientRect();return r.top>=-10&&r.top<300&&r.width>100})`),
+    ponle `muted=true` y captura solo su recuadro con `zoom` (escala 0,35 basta).
+  - Probado el 25 nov con 5 reels: Instagram abre con la sesión de Andrés, sin pedir nada.
 - **Sonido:** Claude no lo oye. Apunta lo que se ve (nombre del audio, subtítulos, si habla alguien a cámara) y lo
   que no, `"sin dato"`. Si la nota de Andrés habla del sonido, pregúntale en una línea qué se oye.
 - **Texto:** `get_page_text` para el pie, la cuenta, las vistas o «me gusta» y los comentarios visibles (los

@@ -1,0 +1,89 @@
+{
+ "id": "ig-DfpHUNFiKke",
+ "url": "https://www.instagram.com/reel/DfpHUNFiKke/",
+ "enlace_original": "https://www.instagram.com/reel/DfpHUNFiKke/",
+ "origen": "andres",
+ "fuente": "chrome",
+ "visto": true,
+ "visto_en": "Mac, Chrome de Andrés, 25 nov 2026 (fotogramas + pie; sin audio)",
+ "titulo": "Mi Claude trabaja de madrugada en mi Instagram",
+ "canal": "@davidmadrazo.ia",
+ "vistas": "sin dato (59,3 mil me gusta, 56,2 mil comentarios, 31,2 mil compartidos)",
+ "duracion_s": 56,
+ "formato": "avatar 3D tipo pixel/vóxel del creador en una mesa de noche + ventanas de una app animadas encima",
+ "formato_align": "Historia",
+ "estructura": "son las 03:54 y el móvil avisa → «Claude se pone a trabajar» → busca virales de su nicho → los desmonta → escribe el gancho → agenda de la semana llena → «100 % automático, solo apruebo» → CTA comenta MÁQUINA",
+ "nicho": "IA / creadores",
+ "nota_andres": "sin nota (Andrés lo mandó sin decir qué le gusta)",
+ "hook": {
+  "texto_y_visual_0_3s": "habitación de noche con luna, reloj del móvil 03:54, mini avatar del creador; subtítulos «MI CLAUDE… TODAS LAS… TURNO DE MADRUGADA»",
+  "tecnica": "situación intrigante (algo trabaja mientras duermes) + hora concreta en pantalla",
+  "por_que_engancha": "promesa de «lo hace solo mientras duermes» y escena muy reconocible (el móvil en la mesilla)"
+ },
+ "segundo_gancho": "≈25 s: contador «122 reglas solo para el gancho» con sello «+120 REGLAS»",
+ "escenas": [
+  {
+   "t": "0-5",
+   "que": "noche, móvil con notificación de Claude"
+  },
+  {
+   "t": "5-15",
+   "que": "ventana «Descubridor»: busca nicho y salen miniaturas con vistas"
+  },
+  {
+   "t": "15-22",
+   "que": "«Desmontaje»: transcripción y escenas con tiempos"
+  },
+  {
+   "t": "22-30",
+   "que": "guion con el gancho escribiéndose y contador de reglas"
+  },
+  {
+   "t": "30-42",
+   "que": "agenda de la semana con 14 publicados; ejemplo con +195 mil vistas"
+  },
+  {
+   "t": "42-56",
+   "que": "checklist «100 % automático» y botón APROBAR; cierre con comentario MÁQUINA"
+  }
+ ],
+ "ritmo": "rápido: una ventana nueva cada 5-8 s; el avatar reacciona abajo",
+ "momento_wow": "la agenda llena y el «solo apruebo»",
+ "cierre": {
+  "tipo": "CTA de palabra clave (comenta MÁQUINA)",
+  "hace_bucle": "no",
+  "cta": "comenta MÁQUINA"
+ },
+ "tipografia": {
+  "estilo": "subtítulo en mayúsculas blancas con la última palabra en naranja, sobre píldora oscura, abajo; ventanas tipo macOS",
+  "animacion": "palabra a palabra",
+  "subtitulos": "sí"
+ },
+ "color_y_luz": "nocturno, azul oscuro con acentos naranjas; contraste alto",
+ "camara_y_transiciones": "cámara casi fija, la ventana entra con zoom; el avatar siempre abajo",
+ "efectos": [
+  "ventanas de app que aparecen y se escriben",
+  "sellos/etiquetas naranjas",
+  "cursor animado"
+ ],
+ "graficos_y_datos": "cifras de vistas en las miniaturas y contador de reglas",
+ "sonido": {
+  "voz": "sí, voz en off (los subtítulos siguen la locución); timbre sin dato",
+  "musica": "sin dato (no se oye desde Claude)",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "un personaje propio pequeño y constante",
+  "la interfaz como escenario",
+  "palabra clave del subtítulo en el color de marca"
+ ],
+ "nota_calidad_visual_1_10": 8,
+ "recetas_remotion": [
+  "Ventana tipo app (div con barra de 3 puntos) que entra con spring y texto que se escribe con slice por frame",
+  "Personaje fijo abajo que cambia de pose por escena",
+  "Sello naranja inclinado con pop"
+ ],
+ "idea_para_ALIGN": "Formato «tu dinero mientras duermes»: la mascota de ALIGN en la mesilla a las 03:00; en el móvil se ven ventanas que trabajan solas (el ahorro automático que se aparta en quincena, el colchón que crece, el interés compuesto sumando, con cifras de ejemplo). Cierre: «tú solo configuras una vez». Encaja con H de automatizar el ahorro y con «Historia».",
+ "apto_align": true
+}

@@ -1,0 +1,86 @@
+{
+ "id": "ig-DeVJXKeEhvq",
+ "url": "https://www.instagram.com/reel/DeVJXKeEhvq/",
+ "enlace_original": "https://www.instagram.com/reel/DeVJXKeEhvq/",
+ "origen": "andres",
+ "fuente": "chrome",
+ "visto": true,
+ "visto_en": "Mac, Chrome de Andrés, 25 nov 2026 (fotogramas + pie; sin audio)",
+ "titulo": "¿Qué es el S&P 500?",
+ "canal": "@arte.de.la.inversion",
+ "vistas": "sin dato (7.573 me gusta, 78 comentarios, 2.349 compartidos)",
+ "duracion_s": 99.5,
+ "formato": "dibujo a mano tipo pizarra (blanco y negro con un color de acento), muñeco con traje, metáforas visuales",
+ "formato_align": "Explicación",
+ "estructura": "pregunta + gráfico «1965: 1.000 $ → hoy 250.000 $» → qué es un índice → metáfora de la escuela y el promedio → si el número sube, a las empresas les va bien → 500 empresas en un vistazo → un ETF te las da todas → cierre",
+ "nicho": "Finanzas",
+ "nota_andres": "sin nota (Andrés lo mandó sin decir qué le gusta)",
+ "hook": {
+  "texto_y_visual_0_3s": "«¿QUÉ ES EL S&P 500?» escrito a mano arriba, muñeco señalando una gráfica que sube de 1965 $1,000 a HOY $250,000; zoom a la cifra",
+  "tecnica": "pregunta directa + cifra enorme de antes/después",
+  "por_que_engancha": "la cifra de 250 veces responde «¿por qué me importa?» antes de explicar"
+ },
+ "segundo_gancho": "metáfora de la escuela: no revisas cada examen, miras el promedio (A)",
+ "escenas": [
+  {
+   "t": "0-5",
+   "que": "pregunta y gráfica 1.000 → 250.000"
+  },
+  {
+   "t": "5-20",
+   "que": "lupa sobre una ciudad de empresas: imposible mirarlas una a una"
+  },
+  {
+   "t": "20-40",
+   "que": "escuela con exámenes A/B/C → promedio A"
+  },
+  {
+   "t": "40-60",
+   "que": "el S&P 500 como círculo con flecha que sube sobre edificios"
+  },
+  {
+   "t": "60-80",
+   "que": "las 500 empresas en cuadrícula, algunas suben y otras bajan"
+  },
+  {
+   "t": "80-99",
+   "que": "un ETF como caja con toda la ciudad dentro"
+  }
+ ],
+ "ritmo": "lento para un reel: una metáfora cada 15-20 s, con muchas palabras",
+ "momento_wow": "la escuela con el promedio: hace obvio qué es un índice",
+ "cierre": {
+  "tipo": "pregunta en el pie",
+  "hace_bucle": "no",
+  "cta": "«¿Tú sabías que un solo índice podía resumir a tantas empresas?»"
+ },
+ "tipografia": {
+  "estilo": "título escrito a mano; subtítulos blancos con borde y la palabra clave en amarillo, abajo",
+  "animacion": "palabra a palabra",
+  "subtitulos": "sí"
+ },
+ "color_y_luz": "fondos planos pastel (verde, amarillo, azul) que cambian por escena; trazo negro",
+ "camara_y_transiciones": "zoom lento a la cifra y cortes por escena",
+ "efectos": [
+  "dibujo que aparece",
+  "flechas que crecen"
+ ],
+ "graficos_y_datos": "un gráfico de línea simple con dos puntos etiquetados",
+ "sonido": {
+  "voz": "sí, voz en off (los subtítulos siguen la locución); timbre sin dato",
+  "musica": "sin dato (no se oye desde Claude)",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "metáforas cotidianas muy claras",
+  "un color de fondo por idea"
+ ],
+ "nota_calidad_visual_1_10": 7,
+ "recetas_remotion": [
+  "Gráfica de línea que se dibuja con strokeDashoffset y dos puntos etiquetados",
+  "Cuadrícula de 500 iconos con flechas aleatorias (random(seed))"
+ ],
+ "idea_para_ALIGN": "Metáfora de la escuela para México: «la quiniela / el promedio del salón» para explicar qué es un índice como el S&P/BMV (IPC), en 25 s y no 99: gancho con cifra de ejemplo marcada como histórica con fuente, una metáfora y fuera. Sin recomendar ETF ni producto: «cómo funciona», no «compra».",
+ "apto_align": true
+}

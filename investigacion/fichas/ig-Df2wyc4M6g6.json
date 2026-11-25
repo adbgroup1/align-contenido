@@ -1,0 +1,93 @@
+{
+ "id": "ig-Df2wyc4M6g6",
+ "url": "https://www.instagram.com/reel/Df2wyc4M6g6/",
+ "enlace_original": "https://www.instagram.com/reel/Df2wyc4M6g6/",
+ "origen": "andres",
+ "fuente": "chrome",
+ "visto": true,
+ "visto_en": "Mac, Chrome de Andrés, 25 nov 2026 (fotogramas + pie; sin audio)",
+ "titulo": "Cómo hacen dinero los ricos con la deuda (cash-out refinance)",
+ "canal": "@realhomesgroup.us",
+ "vistas": "sin dato (53,1 mil me gusta, 751 comentarios, 16,2 mil compartidos)",
+ "duracion_s": 88.5,
+ "formato": "3D estilizado tipo maqueta/juego (casa, buzón, carta, cámara acorazada) con texto en pantalla",
+ "formato_align": "Historia",
+ "estructura": "«así es como los ricos hacen…» con billetes cayendo sobre una casa → compras la casa → la rentas → pasan siete años (2033) y vale más → el banco te presta sobre el valor nuevo (carta «cash-out refinance» 460.000 $) → el dinero está libre de impuestos porque es deuda → repites con otra casa → CTA comenta CASA",
+ "nicho": "Finanzas / inmuebles",
+ "nota_andres": "sin nota (Andrés lo mandó sin decir qué le gusta)",
+ "hook": {
+  "texto_y_visual_0_3s": "plano cenital de una casa con jardín y billetes cayendo; texto «Así es como los ricos hacen…»",
+  "tecnica": "frase de secreto de ricos + imagen de dinero lloviendo",
+  "por_que_engancha": "curiosidad por «el truco de los ricos» y visual muy satisfactorio"
+ },
+ "segundo_gancho": "salto temporal «2033» con la casa revalorizada; y la cámara acorazada con «0 $ de impuestos – es deuda, no ingreso»",
+ "escenas": [
+  {
+   "t": "0-5",
+   "que": "casa desde arriba con billetes cayendo"
+  },
+  {
+   "t": "5-20",
+   "que": "la cámara baja a nivel de calle; compra con 20 % de inicial"
+  },
+  {
+   "t": "20-35",
+   "que": "buzón: llegan las rentas"
+  },
+  {
+   "t": "35-50",
+   "que": "«Pasan siete años», etiqueta 2033, la casa vale más"
+  },
+  {
+   "t": "50-65",
+   "que": "carta 3D de cash-out refinance con el valor nuevo"
+  },
+  {
+   "t": "65-80",
+   "que": "cámara acorazada con fajos bajo cúpula: 0 $ de impuestos"
+  },
+  {
+   "t": "80-88",
+   "que": "cenital de muchas casas iguales: lo repites; COMENTA CASA"
+  }
+ ],
+ "ritmo": "medio: una escena por idea con transiciones de cámara continuas (una sola maqueta)",
+ "momento_wow": "pasar de una casa a un barrio entero de casas en el plano final",
+ "cierre": {
+  "tipo": "CTA de palabra clave",
+  "hace_bucle": "casi: empieza y acaba en cenital de casas",
+  "cta": "comenta CASA"
+ },
+ "tipografia": {
+  "estilo": "texto blanco fino centrado arriba; etiquetas en píldora oscura con letras verdes o amarillas",
+  "animacion": "frase a frase",
+  "subtitulos": "sí"
+ },
+ "color_y_luz": "colores saturados de juguete (césped verde, tejado naranja, cielo azul)",
+ "camara_y_transiciones": "cámara continua por una sola maqueta: cenital → calle → objeto → cenital",
+ "efectos": [
+  "billetes que caen",
+  "cúpula de cristal",
+  "carta que gira"
+ ],
+ "graficos_y_datos": "valor de la propiedad en una carta; cifra de 0 $ de impuestos",
+ "sonido": {
+  "voz": "sí, voz en off (los subtítulos siguen la locución); timbre sin dato",
+  "musica": "sin dato (no se oye desde Claude)",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "una maqueta única que la cámara recorre",
+  "salto temporal con año en pantalla",
+  "objetos-símbolo (buzón = renta, carta = préstamo, cámara = dinero)"
+ ],
+ "nota_calidad_visual_1_10": 8,
+ "recetas_remotion": [
+  "Maqueta 2.5D con capas y cámara que hace zoom/pan continuo (transform scale/translate)",
+  "Etiqueta de año que entra con pop",
+  "Lluvia de billetes con partículas (Lluvia del kit)"
+ ],
+ "idea_para_ALIGN": "Mismo recurso de «una maqueta que la cámara recorre» para algo de México sin promesas: «Qué pasa con tu aguinaldo en 3 escenas» o «cómo funcionan los meses sin intereses»: casa/tienda en cenital, el dinero cae, salto a «marzo» y se ve lo que queda. El tema de apalancamiento con deuda NO: roza la promesa y la recomendación.",
+ "apto_align": true
+}
