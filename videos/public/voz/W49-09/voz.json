@@ -1,0 +1,415 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "JYyJjNPfmNJdaby8LdZs",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Tanda de mil por quincena. ¿Pides el uno o el diez?",
+   "archivo": "hook.mp3",
+   "segundos": 4.075102,
+   "palabras": [
+    {
+     "t": "Tanda",
+     "inicio": 0,
+     "fin": 0.395
+    },
+    {
+     "t": "de",
+     "inicio": 0.441,
+     "fin": 0.522
+    },
+    {
+     "t": "mil",
+     "inicio": 0.615,
+     "fin": 0.917
+    },
+    {
+     "t": "por",
+     "inicio": 0.987,
+     "fin": 1.115
+    },
+    {
+     "t": "quincena.",
+     "inicio": 1.173,
+     "fin": 1.8
+    },
+    {
+     "t": "¿Pides",
+     "inicio": 1.962,
+     "fin": 2.438
+    },
+    {
+     "t": "el",
+     "inicio": 2.519,
+     "fin": 2.601
+    },
+    {
+     "t": "uno",
+     "inicio": 2.717,
+     "fin": 2.937
+    },
+    {
+     "t": "o",
+     "inicio": 3.053,
+     "fin": 3.17
+    },
+    {
+     "t": "el",
+     "inicio": 3.204,
+     "fin": 3.274
+    },
+    {
+     "t": "diez?",
+     "inicio": 3.309,
+     "fin": 4.04
+    }
+   ]
+  },
+  {
+   "id": "diez",
+   "texto": "Diez personas: diez mil por turno.",
+   "archivo": "diez.mp3",
+   "segundos": 2.533878,
+   "palabras": [
+    {
+     "t": "Diez",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "personas:",
+     "inicio": 0.348,
+     "fin": 1.057
+    },
+    {
+     "t": "diez",
+     "inicio": 1.173,
+     "fin": 1.37
+    },
+    {
+     "t": "mil",
+     "inicio": 1.428,
+     "fin": 1.544
+    },
+    {
+     "t": "por",
+     "inicio": 1.602,
+     "fin": 1.718
+    },
+    {
+     "t": "turno.",
+     "inicio": 1.776,
+     "fin": 2.508
+    }
+   ]
+  },
+  {
+   "id": "spoiler",
+   "texto": "Spoiler: los dos ganan algo distinto.",
+   "archivo": "spoiler.mp3",
+   "segundos": 2.638367,
+   "palabras": [
+    {
+     "t": "Spoiler:",
+     "inicio": 0,
+     "fin": 0.673
+    },
+    {
+     "t": "los",
+     "inicio": 0.836,
+     "fin": 0.998
+    },
+    {
+     "t": "dos",
+     "inicio": 1.022,
+     "fin": 1.138
+    },
+    {
+     "t": "ganan",
+     "inicio": 1.196,
+     "fin": 1.428
+    },
+    {
+     "t": "algo",
+     "inicio": 1.486,
+     "fin": 1.695
+    },
+    {
+     "t": "distinto.",
+     "inicio": 1.73,
+     "fin": 2.601
+    }
+   ]
+  },
+  {
+   "id": "uno",
+   "texto": "El uno cobra diez mil hoy… y los paga en diez quincenas.",
+   "archivo": "uno.mp3",
+   "segundos": 3.94449,
+   "palabras": [
+    {
+     "t": "El",
+     "inicio": 0,
+     "fin": 0.209
+    },
+    {
+     "t": "uno",
+     "inicio": 0.325,
+     "fin": 0.569
+    },
+    {
+     "t": "cobra",
+     "inicio": 0.662,
+     "fin": 0.964
+    },
+    {
+     "t": "diez",
+     "inicio": 1.01,
+     "fin": 1.138
+    },
+    {
+     "t": "mil",
+     "inicio": 1.219,
+     "fin": 1.405
+    },
+    {
+     "t": "hoy…",
+     "inicio": 1.44,
+     "fin": 1.8
+    },
+    {
+     "t": "y",
+     "inicio": 2.032,
+     "fin": 2.101
+    },
+    {
+     "t": "los",
+     "inicio": 2.183,
+     "fin": 2.322
+    },
+    {
+     "t": "paga",
+     "inicio": 2.392,
+     "fin": 2.589
+    },
+    {
+     "t": "en",
+     "inicio": 2.612,
+     "fin": 2.659
+    },
+    {
+     "t": "diez",
+     "inicio": 2.705,
+     "fin": 2.856
+    },
+    {
+     "t": "quincenas.",
+     "inicio": 2.902,
+     "fin": 3.901
+    }
+   ]
+  },
+  {
+   "id": "elDiez",
+   "texto": "El diez pone mil, diez veces, y cobra al final.",
+   "archivo": "elDiez.mp3",
+   "segundos": 3.787755,
+   "palabras": [
+    {
+     "t": "El",
+     "inicio": 0,
+     "fin": 0.209
+    },
+    {
+     "t": "diez",
+     "inicio": 0.255,
+     "fin": 0.418
+    },
+    {
+     "t": "pone",
+     "inicio": 0.476,
+     "fin": 0.685
+    },
+    {
+     "t": "mil,",
+     "inicio": 0.731,
+     "fin": 1.126
+    },
+    {
+     "t": "diez",
+     "inicio": 1.44,
+     "fin": 1.66
+    },
+    {
+     "t": "veces,",
+     "inicio": 1.718,
+     "fin": 2.206
+    },
+    {
+     "t": "y",
+     "inicio": 2.287,
+     "fin": 2.38
+    },
+    {
+     "t": "cobra",
+     "inicio": 2.496,
+     "fin": 2.752
+    },
+    {
+     "t": "al",
+     "inicio": 2.786,
+     "fin": 2.868
+    },
+    {
+     "t": "final.",
+     "inicio": 2.926,
+     "fin": 3.762
+    }
+   ]
+  },
+  {
+   "id": "raja",
+   "texto": "Y los dos confían en que nadie se desaparezca.",
+   "archivo": "raja.mp3",
+   "segundos": 2.638367,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.093
+    },
+    {
+     "t": "los",
+     "inicio": 0.209,
+     "fin": 0.337
+    },
+    {
+     "t": "dos",
+     "inicio": 0.372,
+     "fin": 0.488
+    },
+    {
+     "t": "confían",
+     "inicio": 0.557,
+     "fin": 0.917
+    },
+    {
+     "t": "en",
+     "inicio": 0.987,
+     "fin": 1.033
+    },
+    {
+     "t": "que",
+     "inicio": 1.091,
+     "fin": 1.173
+    },
+    {
+     "t": "nadie",
+     "inicio": 1.231,
+     "fin": 1.451
+    },
+    {
+     "t": "se",
+     "inicio": 1.486,
+     "fin": 1.591
+    },
+    {
+     "t": "desaparezca.",
+     "inicio": 1.614,
+     "fin": 2.601
+    }
+   ]
+  },
+  {
+   "id": "decide",
+   "texto": "¿Necesitas la lana ya? El uno. ¿Quieres forzarte a ahorrar? El diez.",
+   "archivo": "decide.mp3",
+   "segundos": 5.32898,
+   "palabras": [
+    {
+     "t": "¿Necesitas",
+     "inicio": 0,
+     "fin": 0.72
+    },
+    {
+     "t": "la",
+     "inicio": 0.778,
+     "fin": 0.836
+    },
+    {
+     "t": "lana",
+     "inicio": 0.894,
+     "fin": 1.091
+    },
+    {
+     "t": "ya?",
+     "inicio": 1.161,
+     "fin": 1.509
+    },
+    {
+     "t": "El",
+     "inicio": 1.823,
+     "fin": 1.997
+    },
+    {
+     "t": "uno.",
+     "inicio": 2.09,
+     "fin": 2.45
+    },
+    {
+     "t": "¿Quieres",
+     "inicio": 2.496,
+     "fin": 2.937
+    },
+    {
+     "t": "forzarte",
+     "inicio": 2.984,
+     "fin": 3.413
+    },
+    {
+     "t": "a",
+     "inicio": 3.437,
+     "fin": 3.46
+    },
+    {
+     "t": "ahorrar?",
+     "inicio": 3.483,
+     "fin": 4.087
+    },
+    {
+     "t": "El",
+     "inicio": 4.4,
+     "fin": 4.586
+    },
+    {
+     "t": "diez.",
+     "inicio": 4.644,
+     "fin": 5.294
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Comenta tu número.",
+   "archivo": "cta.mp3",
+   "segundos": 1.253878,
+   "palabras": [
+    {
+     "t": "Comenta",
+     "inicio": 0,
+     "fin": 0.395
+    },
+    {
+     "t": "tu",
+     "inicio": 0.441,
+     "fin": 0.534
+    },
+    {
+     "t": "número.",
+     "inicio": 0.58,
+     "fin": 1.207
+    }
+   ]
+  }
+ ]
+}

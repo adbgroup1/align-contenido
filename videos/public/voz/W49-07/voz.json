@@ -1,0 +1,339 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "9Godp7dNohUvXk6qp0gS",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Mismo aguinaldo: seis mil pesos. ¿Cuál de los dos eres?",
+   "archivo": "hook.mp3",
+   "segundos": 3.604898,
+   "palabras": [
+    {
+     "t": "Mismo",
+     "inicio": 0,
+     "fin": 0.313
+    },
+    {
+     "t": "aguinaldo:",
+     "inicio": 0.337,
+     "fin": 1.068
+    },
+    {
+     "t": "seis",
+     "inicio": 1.207,
+     "fin": 1.44
+    },
+    {
+     "t": "mil",
+     "inicio": 1.498,
+     "fin": 1.695
+    },
+    {
+     "t": "pesos.",
+     "inicio": 1.776,
+     "fin": 2.368
+    },
+    {
+     "t": "¿Cuál",
+     "inicio": 2.531,
+     "fin": 2.81
+    },
+    {
+     "t": "de",
+     "inicio": 2.844,
+     "fin": 2.891
+    },
+    {
+     "t": "los",
+     "inicio": 2.937,
+     "fin": 3.042
+    },
+    {
+     "t": "dos",
+     "inicio": 3.065,
+     "fin": 3.17
+    },
+    {
+     "t": "eres?",
+     "inicio": 3.239,
+     "fin": 3.576
+    }
+   ]
+  },
+  {
+   "id": "gasta",
+   "texto": "Beto se lo gasta en dos días. ¡Me lo merezco!",
+   "archivo": "gasta.mp3",
+   "segundos": 3.108571,
+   "palabras": [
+    {
+     "t": "Beto",
+     "inicio": 0,
+     "fin": 0.279
+    },
+    {
+     "t": "se",
+     "inicio": 0.313,
+     "fin": 0.372
+    },
+    {
+     "t": "lo",
+     "inicio": 0.406,
+     "fin": 0.476
+    },
+    {
+     "t": "gasta",
+     "inicio": 0.511,
+     "fin": 0.72
+    },
+    {
+     "t": "en",
+     "inicio": 0.743,
+     "fin": 0.789
+    },
+    {
+     "t": "dos",
+     "inicio": 0.824,
+     "fin": 0.964
+    },
+    {
+     "t": "días.",
+     "inicio": 0.987,
+     "fin": 1.463
+    },
+    {
+     "t": "¡Me",
+     "inicio": 1.498,
+     "fin": 1.672
+    },
+    {
+     "t": "lo",
+     "inicio": 1.707,
+     "fin": 1.765
+    },
+    {
+     "t": "merezco!",
+     "inicio": 1.8,
+     "fin": 3.065
+    }
+   ]
+  },
+  {
+   "id": "parte",
+   "texto": "Memo lo parte en tres: gustos, enero y colchón.",
+   "archivo": "parte.mp3",
+   "segundos": 5.01551,
+   "palabras": [
+    {
+     "t": "Memo",
+     "inicio": 0,
+     "fin": 0.464
+    },
+    {
+     "t": "lo",
+     "inicio": 0.662,
+     "fin": 0.801
+    },
+    {
+     "t": "parte",
+     "inicio": 0.859,
+     "fin": 1.126
+    },
+    {
+     "t": "en",
+     "inicio": 1.149,
+     "fin": 1.207
+    },
+    {
+     "t": "tres:",
+     "inicio": 1.265,
+     "fin": 1.765
+    },
+    {
+     "t": "gustos,",
+     "inicio": 1.962,
+     "fin": 2.752
+    },
+    {
+     "t": "enero",
+     "inicio": 2.868,
+     "fin": 3.425
+    },
+    {
+     "t": "y",
+     "inicio": 3.622,
+     "fin": 3.715
+    },
+    {
+     "t": "colchón.",
+     "inicio": 3.808,
+     "fin": 4.969
+    }
+   ]
+  },
+  {
+   "id": "enero",
+   "texto": "Quince de enero.",
+   "archivo": "enero.mp3",
+   "segundos": 1.28,
+   "palabras": [
+    {
+     "t": "Quince",
+     "inicio": 0,
+     "fin": 0.43
+    },
+    {
+     "t": "de",
+     "inicio": 0.476,
+     "fin": 0.546
+    },
+    {
+     "t": "enero.",
+     "inicio": 0.569,
+     "fin": 1.254
+    }
+   ]
+  },
+  {
+   "id": "cuesta",
+   "texto": "Beto sube la cuesta de enero… y Memo la baja.",
+   "archivo": "cuesta.mp3",
+   "segundos": 3.239184,
+   "palabras": [
+    {
+     "t": "Beto",
+     "inicio": 0,
+     "fin": 0.313
+    },
+    {
+     "t": "sube",
+     "inicio": 0.36,
+     "fin": 0.534
+    },
+    {
+     "t": "la",
+     "inicio": 0.592,
+     "fin": 0.662
+    },
+    {
+     "t": "cuesta",
+     "inicio": 0.708,
+     "fin": 0.998
+    },
+    {
+     "t": "de",
+     "inicio": 1.033,
+     "fin": 1.08
+    },
+    {
+     "t": "enero…",
+     "inicio": 1.103,
+     "fin": 1.567
+    },
+    {
+     "t": "y",
+     "inicio": 1.8,
+     "fin": 1.916
+    },
+    {
+     "t": "Memo",
+     "inicio": 1.997,
+     "fin": 2.241
+    },
+    {
+     "t": "la",
+     "inicio": 2.299,
+     "fin": 2.368
+    },
+    {
+     "t": "baja.",
+     "inicio": 2.426,
+     "fin": 3.204
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Mándaselo a tu cuate que ya se lo gastó… y todavía no se lo pagan.",
+   "archivo": "cta.mp3",
+   "segundos": 3.474286,
+   "palabras": [
+    {
+     "t": "Mándaselo",
+     "inicio": 0,
+     "fin": 0.488
+    },
+    {
+     "t": "a",
+     "inicio": 0.511,
+     "fin": 0.534
+    },
+    {
+     "t": "tu",
+     "inicio": 0.58,
+     "fin": 0.662
+    },
+    {
+     "t": "cuate",
+     "inicio": 0.697,
+     "fin": 0.952
+    },
+    {
+     "t": "que",
+     "inicio": 0.987,
+     "fin": 1.057
+    },
+    {
+     "t": "ya",
+     "inicio": 1.103,
+     "fin": 1.149
+    },
+    {
+     "t": "se",
+     "inicio": 1.184,
+     "fin": 1.254
+    },
+    {
+     "t": "lo",
+     "inicio": 1.3,
+     "fin": 1.382
+    },
+    {
+     "t": "gastó…",
+     "inicio": 1.416,
+     "fin": 1.834
+    },
+    {
+     "t": "y",
+     "inicio": 1.858,
+     "fin": 1.939
+    },
+    {
+     "t": "todavía",
+     "inicio": 2.055,
+     "fin": 2.322
+    },
+    {
+     "t": "no",
+     "inicio": 2.368,
+     "fin": 2.45
+    },
+    {
+     "t": "se",
+     "inicio": 2.496,
+     "fin": 2.566
+    },
+    {
+     "t": "lo",
+     "inicio": 2.612,
+     "fin": 2.694
+    },
+    {
+     "t": "pagan.",
+     "inicio": 2.752,
+     "fin": 3.437
+    }
+   ]
+  }
+ ]
+}

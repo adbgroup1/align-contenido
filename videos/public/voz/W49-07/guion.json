@@ -1,0 +1,8 @@
+{ "escenas": [
+  { "id": "hook", "texto": "Mismo aguinaldo: seis mil pesos. ¿Cuál de los dos eres?" },
+  { "id": "gasta", "texto": "Beto se lo gasta en dos días. ¡Me lo merezco!" },
+  { "id": "parte", "texto": "Memo lo parte en tres: gustos, enero y colchón." },
+  { "id": "enero", "texto": "Quince de enero." },
+  { "id": "cuesta", "texto": "Beto sube la cuesta de enero… y Memo la baja." },
+  { "id": "cta", "texto": "Mándaselo a tu cuate que ya se lo gastó… y todavía no se lo pagan." }
+] }

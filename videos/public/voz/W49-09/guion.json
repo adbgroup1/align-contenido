@@ -1,0 +1,10 @@
+{ "escenas": [
+  { "id": "hook", "texto": "Tanda de mil por quincena. ¿Pides el uno o el diez?" },
+  { "id": "diez", "texto": "Diez personas: diez mil por turno." },
+  { "id": "spoiler", "texto": "Spoiler: los dos ganan algo distinto." },
+  { "id": "uno", "texto": "El uno cobra diez mil hoy… y los paga en diez quincenas." },
+  { "id": "elDiez", "texto": "El diez pone mil, diez veces, y cobra al final." },
+  { "id": "raja", "texto": "Y los dos confían en que nadie se desaparezca." },
+  { "id": "decide", "texto": "¿Necesitas la lana ya? El uno. ¿Quieres forzarte a ahorrar? El diez." },
+  { "id": "cta", "texto": "Comenta tu número." }
+] }

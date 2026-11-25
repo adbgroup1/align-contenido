@@ -1,0 +1,390 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "sDh3eviBhiuHKi0MjTNq",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Pon esto… y tienes tu primer colchón.",
+   "archivo": "hook.mp3",
+   "segundos": 2.742857,
+   "palabras": [
+    {
+     "t": "Pon",
+     "inicio": 0,
+     "fin": 0.244
+    },
+    {
+     "t": "esto…",
+     "inicio": 0.325,
+     "fin": 0.871
+    },
+    {
+     "t": "y",
+     "inicio": 1.033,
+     "fin": 1.103
+    },
+    {
+     "t": "tienes",
+     "inicio": 1.196,
+     "fin": 1.463
+    },
+    {
+     "t": "tu",
+     "inicio": 1.509,
+     "fin": 1.567
+    },
+    {
+     "t": "primer",
+     "inicio": 1.614,
+     "fin": 1.881
+    },
+    {
+     "t": "colchón.",
+     "inicio": 1.95,
+     "fin": 2.694
+    }
+   ]
+  },
+  {
+   "id": "cuenta",
+   "texto": "Primero, una cuenta aparte que no tocas.",
+   "archivo": "cuenta.mp3",
+   "segundos": 2.925714,
+   "palabras": [
+    {
+     "t": "Primero,",
+     "inicio": 0,
+     "fin": 0.685
+    },
+    {
+     "t": "una",
+     "inicio": 0.848,
+     "fin": 1.022
+    },
+    {
+     "t": "cuenta",
+     "inicio": 1.068,
+     "fin": 1.358
+    },
+    {
+     "t": "aparte",
+     "inicio": 1.405,
+     "fin": 1.776
+    },
+    {
+     "t": "que",
+     "inicio": 1.823,
+     "fin": 1.892
+    },
+    {
+     "t": "no",
+     "inicio": 1.95,
+     "fin": 2.032
+    },
+    {
+     "t": "tocas.",
+     "inicio": 2.09,
+     "fin": 2.879
+    }
+   ]
+  },
+  {
+   "id": "meta",
+   "texto": "La meta: tres meses de gastos.",
+   "archivo": "meta.mp3",
+   "segundos": 2.324898,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0,
+     "fin": 0.163
+    },
+    {
+     "t": "meta:",
+     "inicio": 0.221,
+     "fin": 0.697
+    },
+    {
+     "t": "tres",
+     "inicio": 0.813,
+     "fin": 1.057
+    },
+    {
+     "t": "meses",
+     "inicio": 1.115,
+     "fin": 1.382
+    },
+    {
+     "t": "de",
+     "inicio": 1.416,
+     "fin": 1.463
+    },
+    {
+     "t": "gastos.",
+     "inicio": 1.521,
+     "fin": 2.276
+    }
+   ]
+  },
+  {
+   "id": "resortes",
+   "texto": "Los resortes: el diez por ciento de cada quincena, en automático.",
+   "archivo": "resortes.mp3",
+   "segundos": 4.858776,
+   "palabras": [
+    {
+     "t": "Los",
+     "inicio": 0,
+     "fin": 0.186
+    },
+    {
+     "t": "resortes:",
+     "inicio": 0.244,
+     "fin": 1.01
+    },
+    {
+     "t": "el",
+     "inicio": 1.103,
+     "fin": 1.254
+    },
+    {
+     "t": "diez",
+     "inicio": 1.324,
+     "fin": 1.533
+    },
+    {
+     "t": "por",
+     "inicio": 1.591,
+     "fin": 1.73
+    },
+    {
+     "t": "ciento",
+     "inicio": 1.765,
+     "fin": 2.078
+    },
+    {
+     "t": "de",
+     "inicio": 2.136,
+     "fin": 2.206
+    },
+    {
+     "t": "cada",
+     "inicio": 2.252,
+     "fin": 2.543
+    },
+    {
+     "t": "quincena,",
+     "inicio": 2.601,
+     "fin": 3.286
+    },
+    {
+     "t": "en",
+     "inicio": 3.402,
+     "fin": 3.541
+    },
+    {
+     "t": "automático.",
+     "inicio": 3.611,
+     "fin": 4.83
+    }
+   ]
+  },
+  {
+   "id": "almohada",
+   "texto": "La almohada: un pedazo de tu aguinaldo.",
+   "archivo": "almohada.mp3",
+   "segundos": 2.638367,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0,
+     "fin": 0.151
+    },
+    {
+     "t": "almohada:",
+     "inicio": 0.174,
+     "fin": 0.766
+    },
+    {
+     "t": "un",
+     "inicio": 0.929,
+     "fin": 1.033
+    },
+    {
+     "t": "pedazo",
+     "inicio": 1.08,
+     "fin": 1.463
+    },
+    {
+     "t": "de",
+     "inicio": 1.521,
+     "fin": 1.591
+    },
+    {
+     "t": "tu",
+     "inicio": 1.637,
+     "fin": 1.718
+    },
+    {
+     "t": "aguinaldo.",
+     "inicio": 1.753,
+     "fin": 2.601
+    }
+   ]
+  },
+  {
+   "id": "sabana",
+   "texto": "Y la sábana: solo para emergencias.",
+   "archivo": "sabana.mp3",
+   "segundos": 2.638367,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.116
+    },
+    {
+     "t": "la",
+     "inicio": 0.209,
+     "fin": 0.279
+    },
+    {
+     "t": "sábana:",
+     "inicio": 0.337,
+     "fin": 0.871
+    },
+    {
+     "t": "solo",
+     "inicio": 0.987,
+     "fin": 1.265
+    },
+    {
+     "t": "para",
+     "inicio": 1.312,
+     "fin": 1.474
+    },
+    {
+     "t": "emergencias.",
+     "inicio": 1.498,
+     "fin": 2.601
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Ahora sí: que caiga lo que caiga.",
+   "archivo": "wow.mp3",
+   "segundos": 2.168163,
+   "palabras": [
+    {
+     "t": "Ahora",
+     "inicio": 0,
+     "fin": 0.348
+    },
+    {
+     "t": "sí:",
+     "inicio": 0.395,
+     "fin": 0.673
+    },
+    {
+     "t": "que",
+     "inicio": 0.813,
+     "fin": 0.917
+    },
+    {
+     "t": "caiga",
+     "inicio": 0.975,
+     "fin": 1.242
+    },
+    {
+     "t": "lo",
+     "inicio": 1.277,
+     "fin": 1.358
+    },
+    {
+     "t": "que",
+     "inicio": 1.393,
+     "fin": 1.463
+    },
+    {
+     "t": "caiga.",
+     "inicio": 1.521,
+     "fin": 2.136
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "¿Cuál te falta? Mándaselo a quien vive a una emergencia de la quiebra.",
+   "archivo": "cta.mp3",
+   "segundos": 4.022857,
+   "palabras": [
+    {
+     "t": "¿Cuál",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "te",
+     "inicio": 0.348,
+     "fin": 0.418
+    },
+    {
+     "t": "falta?",
+     "inicio": 0.464,
+     "fin": 0.964
+    },
+    {
+     "t": "Mándaselo",
+     "inicio": 1.196,
+     "fin": 1.73
+    },
+    {
+     "t": "a",
+     "inicio": 1.765,
+     "fin": 1.788
+    },
+    {
+     "t": "quien",
+     "inicio": 1.823,
+     "fin": 1.974
+    },
+    {
+     "t": "vive",
+     "inicio": 2.032,
+     "fin": 2.241
+    },
+    {
+     "t": "a",
+     "inicio": 2.264,
+     "fin": 2.287
+    },
+    {
+     "t": "una",
+     "inicio": 2.357,
+     "fin": 2.496
+    },
+    {
+     "t": "emergencia",
+     "inicio": 2.519,
+     "fin": 3.065
+    },
+    {
+     "t": "de",
+     "inicio": 3.111,
+     "fin": 3.158
+    },
+    {
+     "t": "la",
+     "inicio": 3.204,
+     "fin": 3.274
+    },
+    {
+     "t": "quiebra.",
+     "inicio": 3.332,
+     "fin": 3.994
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{ "escenas": [
+  { "id": "hook", "texto": "Pon esto… y tienes tu primer colchón." },
+  { "id": "cuenta", "texto": "Primero, una cuenta aparte que no tocas." },
+  { "id": "meta", "texto": "La meta: tres meses de gastos." },
+  { "id": "resortes", "texto": "Los resortes: el diez por ciento de cada quincena, en automático." },
+  { "id": "almohada", "texto": "La almohada: un pedazo de tu aguinaldo." },
+  { "id": "sabana", "texto": "Y la sábana: solo para emergencias." },
+  { "id": "wow", "texto": "Ahora sí: que caiga lo que caiga." },
+  { "id": "cta", "texto": "¿Cuál te falta? Mándaselo a quien vive a una emergencia de la quiebra." }
+] }
