@@ -45,7 +45,11 @@ usar en Investigación:** lo de Andrés se procesa siempre.
      b. Si no, prueba **WebFetch** del link para leer el texto público del post (autor, pie, miniatura). Si
         devuelve un muro de inicio de sesión, déjalo.
      c. Con lo que tengas (nota de Andrés, pie del post, cuenta del creador y lo que diga WebSearch de esa
-        cuenta), escribe la ficha con `"fuente": "andres"`. Todo lo que no se ve va como `"sin dato"`.
+        cuenta), escribe la ficha con `"fuente": "andres"` y `"visto": false`. Todo lo que no se ve va como
+        `"sin dato"`. **Haz la ficha aunque no haya nota ni pie:** basta con el id y el enlace; se completa al
+        verla en el Mac.
+     d. **Esa idea queda «Sin ver», nunca «No se pudo»** (regla de Andrés, 25 nov: «quiero que todas las ideas
+        que pase se vean de una manera u otra»). Se termina de ver en el Mac con la skill `align-ver-ideas`.
    - **Otro sitio:** WebFetch y lo mismo del punto c.
 3. **La ficha** va en `investigacion/fichas/<id>.json`, con el formato de siempre y además:
    - `"origen": "andres"`, `"nota_andres": "<su nota tal cual>"` y `"enlace_original": "<link que mandó>"`;
@@ -58,10 +62,13 @@ usar en Investigación:** lo de Andrés se procesa siempre.
    Si la ficha no ha visto el vídeo, dilo ahí («sin ver el vídeo: por su nota y el pie del post»).
    Dentro de la página, el resumen de la ficha y, si hay, el enlace de YouTube equivalente.
 5. **Cierra el origen:**
-   - Notion: en la fila de «Ideas de Andrés», «Estado» = `Procesada`, «Ficha» = URL de la fila de
-     Investigación y «Respuesta» = una línea con lo que has sacado (p. ej., «Gancho de contraste; sin ver el
-     vídeo, por tu nota»). Si el link no sirve (roto, privado, sin nada que leer y sin nota), «Estado» =
-     `No se pudo` y el motivo en «Respuesta».
+   - Notion: en la fila de «Ideas de Andrés», «Ficha» = URL de la fila de Investigación y «Estado»:
+     - `Procesada` solo si **has visto el vídeo** (YouTube con Gemini) o al menos su ficha de datos con
+       miniatura y comentarios (plan B). «Respuesta» = una línea con lo que has sacado.
+     - `Sin ver` si no has podido ver el vídeo (Instagram, TikTok, o sin nada en YouTube). «Respuesta» =
+       «No he podido ver el vídeo desde la nube (<motivo>). Se verá en el Mac: abre una sesión y di "mira las
+       ideas"».
+     - `No se pudo`, **solo** si el link está roto o no es un vídeo. Nunca porque la nube no lo vea.
    - Buzón: contesta como dice `CLAUDE.md` (archivo `buzon/…-ideas-de-andres.md`), con una línea por link.
 6. **Commit y push:** `git add -A && git commit -m "ideas-andres: <n> fichas" && git push`.
 
@@ -71,6 +78,8 @@ usar en Investigación:** lo de Andrés se procesa siempre.
 - **Nada personal en el repo** (es público): la nota de Andrés se copia, pero sin nombres de terceros que no sean
   el creador público del vídeo, ni teléfonos, correos o claves.
 - No toques Vídeos ni escribas guiones: de eso se encarga Semana.
-- No avises por correo: no hace falta; Andrés ve la respuesta en Notion o en Jarvis.
+- **Avisa siempre que algo quede sin ver.** Al terminar, si alguna idea ha quedado `Sin ver`, manda **un** aviso
+  por correo (regla «Avisar a Andrés» de `CLAUDE.md`): asunto «ALIGN: N ideas tuyas sin ver» y, en el detalle, una
+  línea por link con el motivo y «Abre una sesión en el Mac y di "mira las ideas"». Si todo se vio, sin correo.
 
-**Termina:** una línea, p. ej., «3 ideas de Andrés: 1 vista (YouTube), 2 sin ver (Instagram, por su nota)».
+**Termina:** una línea, p. ej., «3 ideas de Andrés: 1 vista (YouTube), 2 sin ver (Instagram; aviso enviado)».

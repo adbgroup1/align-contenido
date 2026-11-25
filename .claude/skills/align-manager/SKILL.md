@@ -76,6 +76,9 @@ aprobada), más lo que está en `Tu revisión`.
 - **Imágenes pendientes:** filas en `Revisión manager OK` con alguna `IMAGEN:` y sin `.jpg` en
   `videos/public/img/<ID>/`. Ponlo así: «Imágenes: W49-08, W49-10 (abre una sesión en el Mac y di "haz las imágenes";
   si en 2 días no están, Producción las dibuja en código)».
+- **Ideas de Andrés sin ver:** filas de la base «Ideas de Andrés» con «Estado» = `Sin ver` (y fichas de
+  `investigacion/fichas/` con `"origen": "andres"` y `"visto": false`). Ponlo así: «N ideas tuyas sin ver
+  (Instagram/TikTok): abre una sesión en el Mac y di "mira las ideas"». Andrés quiere que todas se vean.
 - **Imágenes para rehacer:** filas cuyo `videos/public/img/<ID>/revision.json` tiene `estado` = `pendiente`.
 - **No le preguntes a Andrés lo que deciden los datos** (voz, formato, hora, música…): eso lo resuelve el bucle.
 - **Atascos:**

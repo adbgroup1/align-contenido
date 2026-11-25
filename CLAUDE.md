@@ -38,7 +38,9 @@ desaparece al terminar.
 - El guion completo va **dentro de la página** de esa fila.
 - **«Origen» en Investigación:** `Andrés` = un vídeo que le gusta personalmente a Andrés (lo trae el agente Ideas de
   Andrés, con su nota en «Por qué funciona»); vacío o `Investigación` = lo encontró el agente 1. Cuentan igual:
-  son una ficha más de la bolsa. Muchas no han visto el vídeo (Instagram y TikTok no se abren desde la nube).
+  son una ficha más de la bolsa. Instagram y TikTok no se abren desde la nube: esas ideas quedan
+  «Sin ver» (ficha con `"visto": false`), se avisa a Andrés y se ven después en el Mac con la skill
+  `align-ver-ideas` («mira las ideas»). **Toda idea de Andrés se ve de una forma u otra** (Andrés, 25 nov).
 - **«Estado»** recorre: `Idea → Guion → Revisión manager OK → Renderizado → Tu revisión → Aprobado →
   Programado → Publicado → Analizado`, más `Devuelto`, `Cambios pedidos` y `Descartado`.
 - **Si Andrés aprueba un vídeo hablando con una sesión de Claude** (en su Mac o en claude.ai) y no desde Notion,
