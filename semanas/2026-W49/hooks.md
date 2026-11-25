@@ -307,3 +307,131 @@ visual. B y C van dentro como re-hooks (s ~12 y s ~18).
   Mándaselo al grupo de la chamba.
   #aguinaldo #aguinaldo2026 #derechoslaborales #finanzaspersonales #quincena
   Contenido informativo, no es asesoramiento financiero.
+
+---
+
+# Tanda 3
+
+Agente 3 · 25 nov 2026 · México. Misma regla del tablero: **conflicto visual desde el fotograma 0** y lo que se lee =
+lo que se ve. En los reels, COMENTAR con barrera baja (un número o una palabra) o COMPARTIR; GUARDAR solo en el
+carrusel. Ganchos para las 6 de la prioridad.
+
+## Idea 3 · Rompe el muro de tu deuda (Juego · COMPARTIR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Contraste (juego) | **Golpe de $250 a tu deuda… y casi ni la rajas** | Muro «DEUDA $5,000» con barra de vida; el mazo ya está bajando; el ladrillo apenas se raja | ¿Por qué no se rompe? → s 4 |
+| B | Pregunta | **¿Cuántos golpes para tumbar $5,000 de deuda?** | Muro con contador de golpes en 0 | ¿Cuántos? → s 12 |
+| C | Número sorprendente | **36 meses para tumbar este muro** | Muro con un calendario pegado | ¿Por qué tanto? → s 6 |
+
+**Gana A.** El fracaso se ve en el fotograma 0 (golpe que no hace nada): es frustración de videojuego que todos
+conocen y deja la pregunta abierta sin decir «pago mínimo» todavía (H12: sin otra cifra en el título).
+
+- **Segundo gancho (s 3–6):** «De esos $250, $177 se los comen los intereses.» Salen ladrillos nuevos con «+IVA».
+- **Cierre:** power-up de $1,000: medio muro al suelo. «3 años o 6 meses. Tú eliges el mazo.» → vuelve al muro.
+- **CTA COMPARTIR:** «Mándaselo a quien sigue pagando el mínimo.»
+- **Caption:**
+  Le pegas $250 a tu deuda y casi ni se raja. 🧱🔨 Así funciona pagar poquito.
+  Mándaselo a quien sigue pagando el mínimo.
+  #tarjetadecredito #deudas #finanzaspersonales #quincena #mexico
+  Ejemplo hipotético. Contenido informativo, no es asesoramiento financiero.
+
+## Idea 1 · «Para ahorrar necesito tener dinero» (Ironía + reto · COMENTAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Ironía relatable | **«Para ahorrar necesito tener dinero»** | Cochinito vacío boca abajo; cae una pelusa con «ploc» | ¿Y entonces? → s 3 |
+| B | Imperativo | **Tacha una casilla. Solo una.** | Tablero de 20 casillas, un plumón tachando la de $10 | ¿Cuánto junto? → s 14 |
+| C | Número | **De $10 a $2,100 sin darte cuenta** | Billete de $10 que se multiplica | ¿Cómo? → s 14 |
+
+**Gana A.** Es la broma que en el viral de 9,8 M sacó los comentarios más votados (H10). La frase entre comillas
+es lo que el espectador ha dicho: se siente aludido en 1 s.
+
+- **Segundo gancho (s 3–5):** «Por eso empiezas con diez pesos.» Aparece el tablero, la casilla de $10 se tacha.
+- **Cierre:** el tablero lleno se dobla en un sobre «$2,100»; el cochinito baila. «Y empezaste con diez pesos.»
+- **CTA COMENTAR:** «¿Cuál casilla tachas primero? Pon el número.» · Fijado: «¿Y la de $200 cuándo cae?»
+- **Caption:**
+  «Para ahorrar necesito tener dinero» 🐷 Empieza con $10.
+  20 casillas, de $10 a $200, en el orden que puedas. ¿Cuál tachas primero? Pon el número 👇
+  #ahorro #retodeahorro #quincena #finanzaspersonales #mexico
+  Contenido informativo, no es asesoramiento financiero.
+
+## Idea 5 · Las hormigas de tu quincena (Fábula · COMENTAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Literal visual | **Los gastos hormiga son literales** | Bolillo gigante «$6,000»; una hormiga con vasito de café ya se lleva una migaja | ¿Cuánto se llevan? → s 15 |
+| B | Pregunta | **¿Quién se comió tu quincena?** | Bolillo mordisqueado, huellitas de hormiga | ¿Quién? → s 4 |
+| C | Número | **$27,120 al año en hormigas** | Fila de hormigas cargando billetes | ¿Cómo? → s 15 |
+
+**Gana A.** Lo literal visual es el humor que mejor funciona sin sonido, y el robo ya está pasando en el fotograma 0.
+
+- **Segundo gancho (s 3–6):** «Y no viene sola.» Llegan la del Oxxo, la de los envíos y la de la suscripción.
+- **Cierre:** zoom out: la fila se lleva el bolillo entero. «$27,120 al año.» La hormiga del café saluda a cámara.
+- **CTA COMENTAR:** «¿Cuál hormiga vive en tu casa?» · Fijado: «La mía es la del café. ¿Y la tuya?»
+- **Caption:**
+  Los gastos hormiga son literales 🐜 Café, Oxxo, envíos y esa suscripción que ni usas.
+  ¿Cuál hormiga vive en tu casa? 👇
+  #gastoshormiga #quincena #ahorro #finanzaspersonales #mexico
+  Ejemplo. Contenido informativo, no es asesoramiento financiero.
+
+## Idea 2 · Si tu quincena tuviera sonido (Serie · COMENTAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Serie (título fijo) | **Si tu quincena tuviera sonido · Cap. 1** | Línea ya arriba en $6,000 con fanfarria; el primer gasto (renta) ya la tira con un bombazo | ¿Cómo suena el día 15? → s 10 |
+| B | POV | **POV: escuchas tu quincena** | Audífonos sobre una gráfica | ¿Cómo suena? → s 10 |
+| C | Pregunta | **¿Así suena tu cuenta?** | Gráfica plana con pitido | ¿Por qué? → s 10 |
+
+**Gana A.** Es el formato de la serie viral (título fijo + capítulo): promete un final sonoro y deja la puerta del
+Cap. 2 abierta (seguir). Sin sonido se entiende igual por la línea y los textos de cada gasto.
+
+- **Segundo gancho (s 3–5):** el tic-tic de los antojos que no para.
+- **Cierre:** pitido plano el día 15 → rebobinado → «págate primero» y la línea acaba en $600 con un acorde bonito.
+- **CTA COMENTAR:** «¿En qué día suena así la tuya?» · Fijado: «Cap. 2: tu tarjeta de crédito. ¿Lo hacemos?»
+- **Caption:**
+  Si tu quincena tuviera sonido 🎧 Cap. 1
+  ¿En qué día suena así la tuya? 👇
+  #quincena #finanzaspersonales #ahorro #mexico
+  Ejemplo. Contenido informativo, no es asesoramiento financiero.
+
+## Idea 4 · El intercambio de $300 que te costó $1,800 (Historia + contador · COMPARTIR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Historia | **«El intercambio es de $300», dijeron** | Lalo con su regalo de $300; el contador de la esquina ya empieza a subir solo | ¿Hasta cuánto? → s 15 |
+| B | Número | **Tu intercambio de $300 cuesta $1,800** | Etiqueta que cambia de $300 a $1,800 | ¿Cómo? → s 15 |
+| C | POV | **POV: te invitaron al intercambio** | Invitación con un sobre | ¿Qué pasa? → s 4 |
+
+**Gana A.** La frase «dijeron» es la ironía que todos conocen de diciembre; el contador que sube solo es el
+conflicto visual desde el fotograma 0.
+
+- **Segundo gancho (s 3–6):** «Primero, la cooperación para la comida.» Contador a $500.
+- **Cierre:** le toca regalarle al jefe y el contador tiembla; recibe un llavero. «Presupuesta el día, no el regalo.»
+- **CTA COMPARTIR:** «Mándaselo al que organiza el intercambio.»
+- **Caption:**
+  «El intercambio es de $300», dijeron 🎁
+  Cooperación, suéter, Uber, tacos… Presupuesta el día completo, no solo el regalo.
+  Mándaselo al que organiza el intercambio.
+  #intercambio #posada #diciembre #finanzaspersonales #mexico
+  Ejemplo. Contenido informativo, no es asesoramiento financiero.
+
+## Idea 6 · Carrusel: de cada 100 pesos (Dato + plantilla · GUARDAR)
+
+| # | Tipo | Portada | Se ve | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Número sorprendente | **De cada 100 pesos que gasta un hogar en México…** | 100 monedas en cuadrícula, 38 ya en un plato | ¿Y los otros 62? → láminas 2–5 |
+| B | Pregunta | **¿En qué se va tu lana?** | Cartera abierta con alas | ¿En qué? → lámina 3 |
+| C | Contraste | **El transporte se come más que la escuela y la casa juntas** | Micro lleno de monedas frente a una casa | ¿Neta? → lámina 4 |
+
+**Gana A.** Promete el reparto entero y la portada ya enseña la primera respuesta (38 en el plato). C se guarda como
+lámina 4: es el wow que obliga a compartirlo.
+
+- **Lámina 2 (obliga a deslizar):** «38 se van en comer. Pero lo que viene después sorprende.» (flecha →).
+- **Última:** plantilla vacía de 100 casillas, «Haz el tuyo esta quincena», «Guárdalo» y «Mándaselo a quien dice que
+  no sabe en qué se le va».
+- **Caption:**
+  De cada 100 pesos que gasta un hogar en México, 38 se van en comer y casi 20 en transporte 🚌
+  Guárdalo y haz tu propio «de cada 100» esta quincena.
+  #finanzaspersonales #quincena #inegi #mexico #presupuesto
+  Fuente: INEGI, ENIGH 2024. Contenido informativo, no es asesoramiento financiero.
