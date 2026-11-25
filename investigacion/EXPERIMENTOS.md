@@ -48,6 +48,9 @@ que pasa de los 3 s (con 3 reels).*
 | H7 | Un CTA de comentar con un número («¿1 o 10?») consigue más comentarios que una pregunta abierta | Reel de la tanda (W49) frente a la mediana de comentarios | W49-09 | Comentarios por 1.000 vistas | Abierta |
 | H8 | Una lista «nadie te dice» con datos legales útiles (aguinaldo) se comparte más que la mediana | Reel Lista de aguinaldo (W49) | W49-10 (reserva, antes del 10 dic) | Compartidos por 1.000 vistas | Abierta |
 | H9 | Una historia con personaje y un contador que crece en una esquina retiene más que la mediana | Reel de la posada (bolsa, W50) | — | % que pasa de 3 s y tiempo visto | Abierta |
+| H10 | Un gancho de ironía relatable sobre no poder ahorrar («para ahorrar hay que tener dinero») consigue más likes en comentarios y más vistas que un gancho de concepto | Reel con esa frase como gancho + reto de ahorro por casillas, frente a la mediana | — | Vistas, comentarios por 1.000 vistas | Abierta · evidencia: ficha XKg6pR7gILE (9,8 M vistas; los comentarios top, 1.302 y 652 likes, son esa broma) |
+| H11 | Una serie «si tu dinero tuviera sonido» (gráfica sonorizada con título fijo y contador de capítulos) funciona con cifras mexicanas | 2 o 3 vídeos de la serie con cifras de quincena/inflación | — | Vistas y % que pasa de 3 s | Abierta · evidencia: Sneaky Numbers 200 k y 222 k vistas con 57 k subs (fichas 6WMO9RNtIEs, NtQ8Xep5iYg); el tema de dinero rinde más que el bélico (81 k) |
+| H12 | En México, «pagar el mínimo» con una cifra en el título está saturado: pide formato distinto (personaje o reto), no otra cifra | No hacer un 6.º vídeo de cifra; probar el mismo tema como reto/juego con contador | — | Vistas frente a la mediana | Abierta · evidencia: 5 Shorts MX casi idénticos, todos entre 455 y 1.137 vistas (canales de 9–131 subs); frente a 2,6 M del reto «romper ladrillos de dinero» (LLrR6wTyLls) |
 
 ## Histórico de veredictos
 
