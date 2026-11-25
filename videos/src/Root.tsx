@@ -21,6 +21,7 @@ import { EXTRA_W4904, W4904 } from "./videos/W49-04";
 import { EXTRA_W4801v2, W4801v2 } from "./videos/W48-01-v2";
 import { EXTRA_W4907, W4907 } from "./videos/W49-07";
 import { EXTRA_W4908, W4908 } from "./videos/W49-08";
+import { EXTRA_W4909, W4909 } from "./videos/W49-09";
 import { metadataConVoz } from "./kit";
 
 // 3+7+7+4+5 s a 30 fps = 780 frames, menos 4 transiciones de 12 = 732
@@ -219,6 +220,16 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{ videoId: "W49-08", voz: null }}
         calculateMetadata={metadataConVoz(EXTRA_W4908)}
+      />
+      <Composition
+        id="W49-09"
+        component={W4909}
+        durationInFrames={900}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ videoId: "W49-09", voz: null }}
+        calculateMetadata={metadataConVoz(EXTRA_W4909)}
       />
     </Folder>
   );

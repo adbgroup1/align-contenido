@@ -88,7 +88,7 @@ const Taza: React.FC<{ x: number; y: number }> = ({ x, y }) => (
 );
 
 /* ---------- Silla de oficina ---------- */
-const Silla: React.FC<{ n: number; x: number; y: number; giro?: number; op?: number; escala?: number }> = ({ n, x, y, giro = 0, op = 1, escala = 1 }) => (
+const Silla: React.FC<{ n: number; x: number; y: number; giro?: number; op?: number; escala?: number }> = ({ n, x, y, giro = 0, op = 1, escala = 1.45 }) => (
   <div style={{ position: "absolute", left: x, top: y, translate: "-50% -50%", opacity: op, scale: String(escala), rotate: `${giro}deg` }}>
     <svg width={120} height={150} viewBox="0 0 120 150" style={{ overflow: "visible" }}>
       <rect x={22} y={4} width={76} height={70} rx={20} fill={COLORS.blue} stroke={COLORS.navy} strokeWidth={5} />
@@ -103,7 +103,7 @@ const Silla: React.FC<{ n: number; x: number; y: number; giro?: number; op?: num
 );
 
 const CENTRO = { x: 540, y: 780 };
-const posSilla = (i: number, rx = 330, ry = 300) => {
+const posSilla = (i: number, rx = 360, ry = 330) => {
   const a = (i / 10) * Math.PI * 2 - Math.PI / 2;
   return { x: CENTRO.x + Math.cos(a) * rx, y: CENTRO.y + Math.sin(a) * ry, a };
 };
@@ -137,8 +137,8 @@ const Gancho: React.FC<{ congelar?: boolean }> = ({ congelar }) => {
   const { fps } = useVideoConfig();
   const t = congelar ? 0 : frame / fps;
   // los papelitos ya asoman en el fotograma 0, salen de la taza y se abren
-  const sale = interpolate(t, [0, 0.5], [0.15, 1], { ...clamp, easing: (x) => 1 - (1 - x) ** 3 });
-  const abre = interpolate(t, [0.45, 0.8], [0.35, 1], clamp);
+  const sale = interpolate(t, [0, 0.5], [0.6, 1], { ...clamp, easing: (x) => 1 - (1 - x) ** 3 });
+  const abre = interpolate(t, [0.3, 0.7], [0.6, 1], clamp);
   const y = interpolate(sale, [0, 1], [1040, 780]);
   return (
     <>
@@ -171,7 +171,7 @@ const Diez: React.FC<{ dur: number }> = ({ dur }) => {
       </div>
       {Array.from({ length: 10 }, (_, i) => {
         const p = posSilla(i);
-        return <Silla key={i} n={i + 1} x={p.x} y={p.y} escala={Math.min(1, Math.max(0, (t - i * 0.06) * 5))} />;
+        return <Silla key={i} n={i + 1} x={p.x} y={p.y} escala={1.45 * Math.min(1, Math.max(0, (t - i * 0.06) * 5))} />;
       })}
       {/* monedas que viajan al centro */}
       {Array.from({ length: 10 }, (_, i) => {
@@ -242,7 +242,7 @@ const Uno: React.FC<{ dur: number }> = ({ dur }) => {
         <svg width={260} height={270} viewBox="0 0 260 270">
           <path d="M90 60 Q130 90 170 60 L150 30 Q130 44 110 30 Z" fill="#A16207" stroke={COLORS.navy} strokeWidth={6} strokeLinejoin="round" />
           <path d="M100 70 Q20 140 40 220 Q60 262 130 262 Q200 262 220 220 Q240 140 160 70 Z" fill="#CA8A04" stroke={COLORS.navy} strokeWidth={6} />
-          <text x={130} y={200} textAnchor="middle" fontFamily={fontFamily} fontWeight={900} fontSize={46} fill={COLORS.navy}>
+          <text x={130} y={200} textAnchor="middle" fontFamily={fontFamily} fontWeight={900} fontSize={36} fill={COLORS.navy}>
             $10,000
           </text>
         </svg>
@@ -317,7 +317,7 @@ const Raja: React.FC<{ dur: number }> = ({ dur }) => {
       {Array.from({ length: 10 }, (_, i) => {
         const p = posSilla(i);
         if (i === 6) {
-          return <Silla key={i} n={7} x={p.x} y={p.y} op={1 - humo} escala={1 + humo * 0.3} />;
+          return <Silla key={i} n={7} x={p.x} y={p.y} op={1 - humo} escala={1.45 + humo * 0.4} />;
         }
         // las demás sillas giran hacia el hueco
         const hacia = (Math.atan2(p7.y - p.y, p7.x - p.x) * 180) / Math.PI;
