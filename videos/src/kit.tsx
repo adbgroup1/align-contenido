@@ -824,8 +824,9 @@ export const Personaje: React.FC<{
   mirar?: "izq" | "der" | "frente";
   anda?: boolean;
   salto?: number;
-  accesorio?: "lazo" | "gorra" | "gafas" | "santa" | "corbata" | "casco" | null;
+  accesorio?: "lazo" | "gorra" | "gafas" | "santa" | "corbata" | "casco" | "sombrero" | null;
   colorAccesorio?: string;
+  bigote?: boolean; // bigote grande (encima de la boca)
   entra?: "izq" | "der" | "abajo" | null;
   delay?: number;
   semilla?: number; // desfasa respiración y parpadeo entre personajes
@@ -841,6 +842,7 @@ export const Personaje: React.FC<{
   salto,
   accesorio = null,
   colorAccesorio = COLORS.red,
+  bigote = false,
   entra = null,
   delay = 0,
   semilla = 0,
@@ -979,6 +981,17 @@ export const Personaje: React.FC<{
               <path d="M46 76 Q46 18 100 16 Q154 18 154 76 Z" fill={colorAccesorio} stroke={oscuro} strokeWidth={4} strokeLinejoin="round" />
               <rect x={34} y={70} width={132} height={16} rx={8} fill={colorAccesorio} stroke={oscuro} strokeWidth={4} />
               <rect x={92} y={18} width={16} height={54} rx={6} fill={COLORS.white} opacity={0.45} />
+            </g>
+          ) : null}
+          {bigote ? (
+            <path d="M100 140 Q86 128 70 134 Q54 140 50 156 Q62 146 76 150 Q90 154 100 146 Q110 154 124 150 Q138 146 150 156 Q146 140 130 134 Q114 128 100 140 Z" fill={COLORS.navy} stroke={oscuro} strokeWidth={2} />
+          ) : null}
+          {accesorio === "sombrero" ? (
+            <g>
+              <ellipse cx={100} cy={70} rx={96} ry={20} fill={colorAccesorio} stroke={oscuro} strokeWidth={4} />
+              <path d="M58 70 Q60 18 100 16 Q140 18 142 70 Z" fill={colorAccesorio} stroke={oscuro} strokeWidth={4} strokeLinejoin="round" />
+              <rect x={58} y={52} width={84} height={14} rx={4} fill={COLORS.red} opacity={0.85} />
+              <path d="M20 70 L180 70 M70 30 L130 30" stroke={oscuro} strokeWidth={2} opacity={0.25} />
             </g>
           ) : null}
           {accesorio === "corbata" ? (

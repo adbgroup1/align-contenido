@@ -1,0 +1,384 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "sDh3eviBhiuHKi0MjTNq",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "A este señor le quitaron tres ceros.",
+   "archivo": "hook.mp3",
+   "segundos": 2.115918,
+   "palabras": [
+    {
+     "t": "A",
+     "inicio": 0,
+     "fin": 0.07
+    },
+    {
+     "t": "este",
+     "inicio": 0.186,
+     "fin": 0.337
+    },
+    {
+     "t": "señor",
+     "inicio": 0.383,
+     "fin": 0.673
+    },
+    {
+     "t": "le",
+     "inicio": 0.72,
+     "fin": 0.789
+    },
+    {
+     "t": "quitaron",
+     "inicio": 0.824,
+     "fin": 1.184
+    },
+    {
+     "t": "tres",
+     "inicio": 1.242,
+     "fin": 1.44
+    },
+    {
+     "t": "ceros.",
+     "inicio": 1.463,
+     "fin": 2.09
+    }
+   ]
+  },
+  {
+   "id": "colchon",
+   "texto": "Se reía del banco: «mi lana, en mi colchón».",
+   "archivo": "colchon.mp3",
+   "segundos": 4.022857,
+   "palabras": [
+    {
+     "t": "Se",
+     "inicio": 0,
+     "fin": 0.139
+    },
+    {
+     "t": "reía",
+     "inicio": 0.209,
+     "fin": 0.464
+    },
+    {
+     "t": "del",
+     "inicio": 0.511,
+     "fin": 0.627
+    },
+    {
+     "t": "banco:",
+     "inicio": 0.673,
+     "fin": 1.254
+    },
+    {
+     "t": "«mi",
+     "inicio": 1.451,
+     "fin": 1.707
+    },
+    {
+     "t": "lana,",
+     "inicio": 1.788,
+     "fin": 2.357
+    },
+    {
+     "t": "en",
+     "inicio": 2.473,
+     "fin": 2.624
+    },
+    {
+     "t": "mi",
+     "inicio": 2.682,
+     "fin": 2.763
+    },
+    {
+     "t": "colchón».",
+     "inicio": 2.81,
+     "fin": 3.994
+    }
+   ]
+  },
+  {
+   "id": "calendario",
+   "texto": "Hasta que en el noventa y tres, mil pesos pasaron a ser uno.",
+   "archivo": "calendario.mp3",
+   "segundos": 3.578776,
+   "palabras": [
+    {
+     "t": "Hasta",
+     "inicio": 0,
+     "fin": 0.325
+    },
+    {
+     "t": "que",
+     "inicio": 0.383,
+     "fin": 0.453
+    },
+    {
+     "t": "en",
+     "inicio": 0.476,
+     "fin": 0.534
+    },
+    {
+     "t": "el",
+     "inicio": 0.592,
+     "fin": 0.639
+    },
+    {
+     "t": "noventa",
+     "inicio": 0.685,
+     "fin": 1.045
+    },
+    {
+     "t": "y",
+     "inicio": 1.068,
+     "fin": 1.091
+    },
+    {
+     "t": "tres,",
+     "inicio": 1.138,
+     "fin": 1.602
+    },
+    {
+     "t": "mil",
+     "inicio": 1.741,
+     "fin": 1.904
+    },
+    {
+     "t": "pesos",
+     "inicio": 1.962,
+     "fin": 2.241
+    },
+    {
+     "t": "pasaron",
+     "inicio": 2.299,
+     "fin": 2.659
+    },
+    {
+     "t": "a",
+     "inicio": 2.717,
+     "fin": 2.74
+    },
+    {
+     "t": "ser",
+     "inicio": 2.786,
+     "fin": 2.914
+    },
+    {
+     "t": "uno.",
+     "inicio": 2.984,
+     "fin": 3.529
+    }
+   ]
+  },
+  {
+   "id": "linterna",
+   "texto": "Pero con mil nuevos… compraba lo mismo.",
+   "archivo": "linterna.mp3",
+   "segundos": 2.873469,
+   "palabras": [
+    {
+     "t": "Pero",
+     "inicio": 0,
+     "fin": 0.221
+    },
+    {
+     "t": "con",
+     "inicio": 0.267,
+     "fin": 0.406
+    },
+    {
+     "t": "mil",
+     "inicio": 0.453,
+     "fin": 0.592
+    },
+    {
+     "t": "nuevos…",
+     "inicio": 0.639,
+     "fin": 1.254
+    },
+    {
+     "t": "compraba",
+     "inicio": 1.416,
+     "fin": 1.846
+    },
+    {
+     "t": "lo",
+     "inicio": 1.892,
+     "fin": 1.974
+    },
+    {
+     "t": "mismo.",
+     "inicio": 2.032,
+     "fin": 2.833
+    }
+   ]
+  },
+  {
+   "id": "polilla",
+   "texto": "La inflación ya se lo había comido: ciento cincuenta y nueve por ciento, en un solo año.",
+   "archivo": "polilla.mp3",
+   "segundos": 5.276735,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0,
+     "fin": 0.093
+    },
+    {
+     "t": "inflación",
+     "inicio": 0.128,
+     "fin": 0.534
+    },
+    {
+     "t": "ya",
+     "inicio": 0.58,
+     "fin": 0.662
+    },
+    {
+     "t": "se",
+     "inicio": 0.708,
+     "fin": 0.778
+    },
+    {
+     "t": "lo",
+     "inicio": 0.824,
+     "fin": 0.882
+    },
+    {
+     "t": "había",
+     "inicio": 0.906,
+     "fin": 1.149
+    },
+    {
+     "t": "comido:",
+     "inicio": 1.207,
+     "fin": 1.753
+    },
+    {
+     "t": "ciento",
+     "inicio": 1.892,
+     "fin": 2.252
+    },
+    {
+     "t": "cincuenta",
+     "inicio": 2.287,
+     "fin": 2.717
+    },
+    {
+     "t": "y",
+     "inicio": 2.752,
+     "fin": 2.775
+    },
+    {
+     "t": "nueve",
+     "inicio": 2.81,
+     "fin": 3.065
+    },
+    {
+     "t": "por",
+     "inicio": 3.111,
+     "fin": 3.251
+    },
+    {
+     "t": "ciento,",
+     "inicio": 3.286,
+     "fin": 3.808
+    },
+    {
+     "t": "en",
+     "inicio": 3.971,
+     "fin": 4.098
+    },
+    {
+     "t": "un",
+     "inicio": 4.214,
+     "fin": 4.296
+    },
+    {
+     "t": "solo",
+     "inicio": 4.342,
+     "fin": 4.609
+    },
+    {
+     "t": "año.",
+     "inicio": 4.656,
+     "fin": 5.248
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Los ceros no te los quita el gobierno: te los quita la inflación.",
+   "archivo": "cta.mp3",
+   "segundos": 3.892245,
+   "palabras": [
+    {
+     "t": "Los",
+     "inicio": 0,
+     "fin": 0.232
+    },
+    {
+     "t": "ceros",
+     "inicio": 0.255,
+     "fin": 0.592
+    },
+    {
+     "t": "no",
+     "inicio": 0.65,
+     "fin": 0.731
+    },
+    {
+     "t": "te",
+     "inicio": 0.778,
+     "fin": 0.848
+    },
+    {
+     "t": "los",
+     "inicio": 0.882,
+     "fin": 1.01
+    },
+    {
+     "t": "quita",
+     "inicio": 1.068,
+     "fin": 1.289
+    },
+    {
+     "t": "el",
+     "inicio": 1.312,
+     "fin": 1.358
+    },
+    {
+     "t": "gobierno:",
+     "inicio": 1.416,
+     "fin": 2.067
+    },
+    {
+     "t": "te",
+     "inicio": 2.183,
+     "fin": 2.287
+    },
+    {
+     "t": "los",
+     "inicio": 2.345,
+     "fin": 2.473
+    },
+    {
+     "t": "quita",
+     "inicio": 2.531,
+     "fin": 2.798
+    },
+    {
+     "t": "la",
+     "inicio": 2.844,
+     "fin": 2.902
+    },
+    {
+     "t": "inflación.",
+     "inicio": 2.949,
+     "fin": 3.855
+    }
+   ]
+  }
+ ]
+}

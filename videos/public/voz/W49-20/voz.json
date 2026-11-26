@@ -1,0 +1,351 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "JYyJjNPfmNJdaby8LdZs",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Solo puedes abrir una.",
+   "archivo": "hook.mp3",
+   "segundos": 1.750204,
+   "palabras": [
+    {
+     "t": "Solo",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "puedes",
+     "inicio": 0.337,
+     "fin": 0.58
+    },
+    {
+     "t": "abrir",
+     "inicio": 0.662,
+     "fin": 0.894
+    },
+    {
+     "t": "una.",
+     "inicio": 0.94,
+     "fin": 1.718
+    }
+   ]
+  },
+  {
+   "id": "ab",
+   "texto": "A: diez mil hoy. B: mil al mes, un año.",
+   "archivo": "ab.mp3",
+   "segundos": 3.474286,
+   "palabras": [
+    {
+     "t": "A:",
+     "inicio": 0,
+     "fin": 0.267
+    },
+    {
+     "t": "diez",
+     "inicio": 0.383,
+     "fin": 0.511
+    },
+    {
+     "t": "mil",
+     "inicio": 0.58,
+     "fin": 0.743
+    },
+    {
+     "t": "hoy.",
+     "inicio": 0.778,
+     "fin": 1.045
+    },
+    {
+     "t": "B:",
+     "inicio": 1.405,
+     "fin": 1.718
+    },
+    {
+     "t": "mil",
+     "inicio": 1.858,
+     "fin": 2.067
+    },
+    {
+     "t": "al",
+     "inicio": 2.125,
+     "fin": 2.194
+    },
+    {
+     "t": "mes,",
+     "inicio": 2.252,
+     "fin": 2.566
+    },
+    {
+     "t": "un",
+     "inicio": 2.647,
+     "fin": 2.763
+    },
+    {
+     "t": "año.",
+     "inicio": 2.798,
+     "fin": 3.437
+    }
+   ]
+  },
+  {
+   "id": "c",
+   "texto": "La C: ¿águila o sol? Veinticinco mil… o nada.",
+   "archivo": "c.mp3",
+   "segundos": 4.362449,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0,
+     "fin": 0.221
+    },
+    {
+     "t": "C:",
+     "inicio": 0.29,
+     "fin": 0.627
+    },
+    {
+     "t": "¿águila",
+     "inicio": 0.685,
+     "fin": 1.242
+    },
+    {
+     "t": "o",
+     "inicio": 1.358,
+     "fin": 1.44
+    },
+    {
+     "t": "sol?",
+     "inicio": 1.498,
+     "fin": 1.892
+    },
+    {
+     "t": "Veinticinco",
+     "inicio": 2.125,
+     "fin": 2.752
+    },
+    {
+     "t": "mil…",
+     "inicio": 2.81,
+     "fin": 3.239
+    },
+    {
+     "t": "o",
+     "inicio": 3.506,
+     "fin": 3.587
+    },
+    {
+     "t": "nada.",
+     "inicio": 3.669,
+     "fin": 4.319
+    }
+   ]
+  },
+  {
+   "id": "riesgo",
+   "texto": "En promedio gana la C. Pero la mitad de las veces: cero. La mejor caja es la que puedes perder.",
+   "archivo": "riesgo.mp3",
+   "segundos": 6.635102,
+   "palabras": [
+    {
+     "t": "En",
+     "inicio": 0,
+     "fin": 0.174
+    },
+    {
+     "t": "promedio",
+     "inicio": 0.221,
+     "fin": 0.72
+    },
+    {
+     "t": "gana",
+     "inicio": 0.813,
+     "fin": 1.045
+    },
+    {
+     "t": "la",
+     "inicio": 1.091,
+     "fin": 1.173
+    },
+    {
+     "t": "C.",
+     "inicio": 1.231,
+     "fin": 1.579
+    },
+    {
+     "t": "Pero",
+     "inicio": 1.892,
+     "fin": 2.101
+    },
+    {
+     "t": "la",
+     "inicio": 2.148,
+     "fin": 2.218
+    },
+    {
+     "t": "mitad",
+     "inicio": 2.264,
+     "fin": 2.543
+    },
+    {
+     "t": "de",
+     "inicio": 2.566,
+     "fin": 2.624
+    },
+    {
+     "t": "las",
+     "inicio": 2.67,
+     "fin": 2.798
+    },
+    {
+     "t": "veces:",
+     "inicio": 2.856,
+     "fin": 3.32
+    },
+    {
+     "t": "cero.",
+     "inicio": 3.437,
+     "fin": 3.913
+    },
+    {
+     "t": "La",
+     "inicio": 4.226,
+     "fin": 4.342
+    },
+    {
+     "t": "mejor",
+     "inicio": 4.389,
+     "fin": 4.644
+    },
+    {
+     "t": "caja",
+     "inicio": 4.725,
+     "fin": 5.074
+    },
+    {
+     "t": "es",
+     "inicio": 5.155,
+     "fin": 5.294
+    },
+    {
+     "t": "la",
+     "inicio": 5.352,
+     "fin": 5.41
+    },
+    {
+     "t": "que",
+     "inicio": 5.468,
+     "fin": 5.55
+    },
+    {
+     "t": "puedes",
+     "inicio": 5.596,
+     "fin": 5.805
+    },
+    {
+     "t": "perder.",
+     "inicio": 5.863,
+     "fin": 6.594
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Y el volado… cayó de canto. ¿A, B o C? Etiqueta al que se avienta con la C.",
+   "archivo": "cta.mp3",
+   "segundos": 6.948571,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.116
+    },
+    {
+     "t": "el",
+     "inicio": 0.197,
+     "fin": 0.267
+    },
+    {
+     "t": "volado…",
+     "inicio": 0.313,
+     "fin": 0.929
+    },
+    {
+     "t": "cayó",
+     "inicio": 1.242,
+     "fin": 1.556
+    },
+    {
+     "t": "de",
+     "inicio": 1.602,
+     "fin": 1.66
+    },
+    {
+     "t": "canto.",
+     "inicio": 1.718,
+     "fin": 2.218
+    },
+    {
+     "t": "¿A,",
+     "inicio": 2.357,
+     "fin": 2.786
+    },
+    {
+     "t": "B",
+     "inicio": 2.879,
+     "fin": 2.961
+    },
+    {
+     "t": "o",
+     "inicio": 3.274,
+     "fin": 3.437
+    },
+    {
+     "t": "C?",
+     "inicio": 3.471,
+     "fin": 3.82
+    },
+    {
+     "t": "Etiqueta",
+     "inicio": 4.307,
+     "fin": 5.027
+    },
+    {
+     "t": "al",
+     "inicio": 5.108,
+     "fin": 5.248
+    },
+    {
+     "t": "que",
+     "inicio": 5.306,
+     "fin": 5.387
+    },
+    {
+     "t": "se",
+     "inicio": 5.433,
+     "fin": 5.503
+    },
+    {
+     "t": "avienta",
+     "inicio": 5.526,
+     "fin": 5.944
+    },
+    {
+     "t": "con",
+     "inicio": 6.037,
+     "fin": 6.211
+    },
+    {
+     "t": "la",
+     "inicio": 6.258,
+     "fin": 6.339
+    },
+    {
+     "t": "C.",
+     "inicio": 6.385,
+     "fin": 6.92
+    }
+   ]
+  }
+ ]
+}

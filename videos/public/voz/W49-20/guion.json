@@ -1,0 +1,7 @@
+{ "escenas": [
+  { "id": "hook", "texto": "Solo puedes abrir una." },
+  { "id": "ab", "texto": "A: diez mil hoy. B: mil al mes, un año." },
+  { "id": "c", "texto": "La C: ¿águila o sol? Veinticinco mil… o nada." },
+  { "id": "riesgo", "texto": "En promedio gana la C. Pero la mitad de las veces: cero. La mejor caja es la que puedes perder." },
+  { "id": "cta", "texto": "Y el volado… cayó de canto. ¿A, B o C? Etiqueta al que se avienta con la C." }
+] }

@@ -1,0 +1,8 @@
+{ "escenas": [
+  { "id": "hook", "texto": "A este señor le quitaron tres ceros." },
+  { "id": "colchon", "texto": "Se reía del banco: «mi lana, en mi colchón»." },
+  { "id": "calendario", "texto": "Hasta que en el noventa y tres, mil pesos pasaron a ser uno." },
+  { "id": "linterna", "texto": "Pero con mil nuevos… compraba lo mismo." },
+  { "id": "polilla", "texto": "La inflación ya se lo había comido: ciento cincuenta y nueve por ciento, en un solo año." },
+  { "id": "cta", "texto": "Los ceros no te los quita el gobierno: te los quita la inflación." }
+] }
