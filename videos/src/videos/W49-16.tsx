@@ -94,7 +94,7 @@ const Grafica: React.FC<{ pts: [number, number][]; hastaDia: number; color?: str
 
 const Titulo: React.FC = () => (
   <div style={{ position: "absolute", top: 240, left: 90, right: 120, textAlign: "center", fontFamily }}>
-    <div style={{ display: "inline-block", fontSize: 50, fontWeight: 900, color: COLORS.white, background: "rgba(255,255,255,0.08)", border: `3px solid ${COLORS.light}55`, borderRadius: 22, padding: "10px 28px" }}>
+    <div style={{ display: "inline-block", fontSize: 40, fontWeight: 900, whiteSpace: "nowrap", color: COLORS.white, background: "rgba(255,255,255,0.08)", border: `3px solid ${COLORS.light}55`, borderRadius: 22, padding: "10px 28px" }}>
       🎧 Si tu quincena tuviera sonido <span style={{ color: COLORS.gold }}>· Cap. 1</span>
     </div>
   </div>
@@ -272,7 +272,7 @@ const GraficaFinal = () => {
         Día 15: <span style={{ color: COLORS.gold }}>$600</span> ✨ en tu sobre
       </div>
       <Grafica pts={pts} hastaDia={fin ? 15 : Math.min(15, 1.6 + t * 12)} color={fin ? COLORS.gold : COLORS.light} brillo={fin ? 1 : 0} />
-      <div style={{ position: "absolute", top: 1330, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
+      <div style={{ position: "absolute", top: 400, right: 130, display: "flex", justifyContent: "flex-end" }}>
         <Pildora size={28}>Ejemplo</Pildora>
       </div>
       {EV3.map((e, i) => (

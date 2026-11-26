@@ -68,7 +68,7 @@ const Calendario: React.FC<{ dia: number; arranca?: number }> = ({ dia, arranca 
 );
 
 /* ---------- El billete ---------- */
-const Billete: React.FC<{ x: number; y: number; flaco?: number; lentes?: boolean; capa?: boolean; maleta?: boolean; cara?: "presume" | "triste" | "adios"; t0?: number }> = ({
+const Billete: React.FC<{ x: number; y: number; flaco?: number; lentes?: boolean; capa?: boolean; maleta?: boolean; cara?: "presume" | "triste" | "adios"; t0?: number; escala?: number }> = ({
   x,
   y,
   flaco = 0,
@@ -77,6 +77,7 @@ const Billete: React.FC<{ x: number; y: number; flaco?: number; lentes?: boolean
   maleta = false,
   cara = "presume",
   t0,
+  escala = 1.45,
 }) => {
   const frame = useCurrentFrame();
   const t = t0 ?? frame / 30;
@@ -86,7 +87,7 @@ const Billete: React.FC<{ x: number; y: number; flaco?: number; lentes?: boolean
   const N = COLORS.navy;
   const saludo = cara === "adios" ? Math.sin(t * 14) * 30 : 0;
   return (
-    <div style={{ position: "absolute", left: x - 200, top: y - 420, width: 400, height: 420 }}>
+    <div style={{ position: "absolute", left: x - 200, top: y - 420, width: 400, height: 420, scale: String(escala), transformOrigin: "50% 100%" }}>
       <svg width={400} height={420} viewBox="0 0 400 420" style={{ overflow: "visible", filter: "drop-shadow(0 16px 20px rgba(0,0,0,0.3))" }}>
         {capa ? <path d={`M${200 - W / 2 + 10} 130 Q${100 + ondea} 260 ${60 + ondea} 330 L${340 + ondea * 0.5} 330 Q${300 + ondea * 0.5} 260 ${200 + W / 2 - 10} 130 Z`} fill={COLORS.red} stroke={N} strokeWidth={5} /> : null}
         {/* piernas */}
@@ -217,7 +218,7 @@ const Taxi: React.FC<{ x: number }> = ({ x }) => {
 const SeFue = () => {
   const t = useSeg();
   const llega = interpolate(t, [0, 0.35], [-400, 560], { ...clamp, easing: (x) => 1 - (1 - x) ** 3 });
-  const sale = interpolate(t, [0.9, 1.6], [0, -1300], { ...clamp, easing: (x) => x * x });
+  const sale = interpolate(t, [0.95, 2.25], [0, -1300], { ...clamp, easing: (x) => x * x });
   const x = llega + sale;
   return (
     <Escena luz="#B45309" sonidoEntrada="swoosh">
@@ -228,7 +229,7 @@ const SeFue = () => {
       <Taxi x={x} />
       {t >= 0.85 ? (
         <div style={{ position: "absolute", left: x + 40, top: 900, scale: "0.55" }}>
-          <Billete x={0} y={300} flaco={1} lentes={false} capa={false} cara="adios" />
+          <Billete x={0} y={300} flaco={1} lentes={false} capa={false} cara="adios" escala={1} />
         </div>
       ) : null}
       <div style={{ position: "absolute", top: 400, left: 90, right: 120, textAlign: "center", fontFamily, fontWeight: 900, fontSize: 58, color: COLORS.navy, opacity: interpolate(t, [0.4, 0.7], [0, 1], clamp) }}>
