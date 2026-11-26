@@ -35,6 +35,12 @@
 
 ### Comandos
 
+Después de renderizar, **siempre** `bash scripts/reparar-fotogramas.sh <ID> ../media/<semana>/<ID>.mp4`: en la nube
+Chromium a veces saca fotogramas «en mosaico» (sobre todo si hay otro render o `still` a la vez: renderiza de uno en
+uno) y algunas voces dejan el vídeo a -18/-20 LUFS. El script rehace esos fotogramas y normaliza el audio a -14 LUFS.
+Efectos extra propios (trompetas, bombo, sirena, cumbia, pitido, rebobinado, acorde, claxon): `bash scripts/sfx-extra.sh`
+→ `public/sfx/extra/`. La clave de ElevenLabs no tiene permiso de efectos de sonido (26 nov).
+
 ```
 node scripts/voz.mjs <ID>          # voz definitiva (ElevenLabs; ELEVENLABS_API_KEY y ELEVENLABS_VOICE_ID)
 node scripts/voz.mjs <ID> --say    # voz provisional de macOS, solo para probar en local

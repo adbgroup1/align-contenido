@@ -1,6 +1,7 @@
 #!/bin/bash
 # Repara fotogramas «en mosaico» (fallo intermitente de Chromium en la nube) de un vídeo ya renderizado.
 #   bash scripts/reparar-fotogramas.sh <ID> <mp4>        (desde videos/)
+# Al final deja el audio en -14 LUFS si sale fuera de -16…-12 (algunas voces salen a -18/-20).
 # Pasa sobre todo cuando la máquina está cargada (varios renders a la vez): renderiza cada vídeo solo.
 # Busca saltos bruscos de imagen (scene > 0.2), vuelve a sacar ese fotograma y los 2 siguientes (el fallo viene
 # en rachas) con `remotion still` y re-codifica el vídeo con el audio original. Rehacer un fotograma bueno no
@@ -16,7 +17,15 @@ for vuelta in 1 2 3 4; do
   rm -f "$TMP/s.txt"
   MALOS=""
   for n in $TODOS; do case "$HECHOS" in *" $n "*) ;; *) MALOS="$MALOS $n";; esac; done
-  if [ -z "$MALOS" ]; then echo "Sin fotogramas rotos (vuelta $vuelta)."; rm -rf "$TMP"; exit 0; fi
+  if [ -z "$MALOS" ]; then
+    echo "Sin fotogramas rotos (vuelta $vuelta)."
+    I=$(ffmpeg -i "$MP4" -af ebur128 -f null - 2>&1 | grep " I:" | tail -1 | awk '{print $2}')
+    if awk -v i="$I" 'BEGIN{exit !(i < -16 || i > -12)}'; then
+      ffmpeg -loglevel error -y -i "$MP4" -c:v copy -af "loudnorm=I=-14:TP=-1.5:LRA=11" -ar 48000 -c:a aac -b:a 192k -movflags +faststart "$TMP/n.mp4" && mv "$TMP/n.mp4" "$MP4"
+      echo "Audio: $I LUFS → -14"
+    fi
+    rm -rf "$TMP"; exit 0
+  fi
   echo "Vuelta $vuelta · fotogramas a rehacer:$MALOS"
   mkdir -p "$TMP/f"; rm -f "$TMP/f/"*
   ffmpeg -loglevel error -i "$MP4" -q:v 1 "$TMP/f/%05d.jpg"
