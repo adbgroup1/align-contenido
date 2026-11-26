@@ -1,0 +1,6 @@
+{ "escenas": [
+  { "id": "hook", "texto": "Día uno: ¡millonario!" },
+  { "id": "dia3", "texto": "Día tres…" },
+  { "id": "sefue", "texto": "…ya se fue." },
+  { "id": "cta", "texto": "Págate primero el día uno." }
+] }

@@ -1,0 +1,266 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "JYyJjNPfmNJdaby8LdZs",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "«Para ahorrar necesito tener dinero.»",
+   "archivo": "hook.mp3",
+   "segundos": 2.403265,
+   "palabras": [
+    {
+     "t": "«Para",
+     "inicio": 0,
+     "fin": 0.244
+    },
+    {
+     "t": "ahorrar",
+     "inicio": 0.267,
+     "fin": 0.662
+    },
+    {
+     "t": "necesito",
+     "inicio": 0.778,
+     "fin": 1.277
+    },
+    {
+     "t": "tener",
+     "inicio": 1.324,
+     "fin": 1.544
+    },
+    {
+     "t": "dinero.»",
+     "inicio": 1.591,
+     "fin": 2.368
+    }
+   ]
+  },
+  {
+   "id": "tablero",
+   "texto": "Empieza con diez. Veinte casillas, de diez a doscientos.",
+   "archivo": "tablero.mp3",
+   "segundos": 4.075102,
+   "palabras": [
+    {
+     "t": "Empieza",
+     "inicio": 0,
+     "fin": 0.476
+    },
+    {
+     "t": "con",
+     "inicio": 0.534,
+     "fin": 0.673
+    },
+    {
+     "t": "diez.",
+     "inicio": 0.72,
+     "fin": 1.126
+    },
+    {
+     "t": "Veinte",
+     "inicio": 1.393,
+     "fin": 1.718
+    },
+    {
+     "t": "casillas,",
+     "inicio": 1.776,
+     "fin": 2.45
+    },
+    {
+     "t": "de",
+     "inicio": 2.566,
+     "fin": 2.659
+    },
+    {
+     "t": "diez",
+     "inicio": 2.717,
+     "fin": 2.914
+    },
+    {
+     "t": "a",
+     "inicio": 2.972,
+     "fin": 2.995
+    },
+    {
+     "t": "doscientos.",
+     "inicio": 3.042,
+     "fin": 4.04
+    }
+   ]
+  },
+  {
+   "id": "dias",
+   "texto": "Día trece, quincena en coma: la de diez. Día quince: la de doscientos.",
+   "archivo": "dias.mp3",
+   "segundos": 5.929796,
+   "palabras": [
+    {
+     "t": "Día",
+     "inicio": 0,
+     "fin": 0.279
+    },
+    {
+     "t": "trece,",
+     "inicio": 0.337,
+     "fin": 0.859
+    },
+    {
+     "t": "quincena",
+     "inicio": 0.975,
+     "fin": 1.428
+    },
+    {
+     "t": "en",
+     "inicio": 1.451,
+     "fin": 1.498
+    },
+    {
+     "t": "coma:",
+     "inicio": 1.579,
+     "fin": 2.032
+    },
+    {
+     "t": "la",
+     "inicio": 2.264,
+     "fin": 2.438
+    },
+    {
+     "t": "de",
+     "inicio": 2.496,
+     "fin": 2.566
+    },
+    {
+     "t": "diez.",
+     "inicio": 2.624,
+     "fin": 3.17
+    },
+    {
+     "t": "Día",
+     "inicio": 3.529,
+     "fin": 3.773
+    },
+    {
+     "t": "quince:",
+     "inicio": 3.855,
+     "fin": 4.412
+    },
+    {
+     "t": "la",
+     "inicio": 4.551,
+     "fin": 4.702
+    },
+    {
+     "t": "de",
+     "inicio": 4.748,
+     "fin": 4.818
+    },
+    {
+     "t": "doscientos.",
+     "inicio": 4.865,
+     "fin": 5.898
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Las tachas todas… y tienes dos mil cien. Empezando con diez.",
+   "archivo": "wow.mp3",
+   "segundos": 4.257959,
+   "palabras": [
+    {
+     "t": "Las",
+     "inicio": 0,
+     "fin": 0.174
+    },
+    {
+     "t": "tachas",
+     "inicio": 0.221,
+     "fin": 0.522
+    },
+    {
+     "t": "todas…",
+     "inicio": 0.592,
+     "fin": 1.138
+    },
+    {
+     "t": "y",
+     "inicio": 1.335,
+     "fin": 1.428
+    },
+    {
+     "t": "tienes",
+     "inicio": 1.509,
+     "fin": 1.776
+    },
+    {
+     "t": "dos",
+     "inicio": 1.8,
+     "fin": 1.927
+    },
+    {
+     "t": "mil",
+     "inicio": 1.997,
+     "fin": 2.148
+    },
+    {
+     "t": "cien.",
+     "inicio": 2.206,
+     "fin": 2.624
+    },
+    {
+     "t": "Empezando",
+     "inicio": 2.984,
+     "fin": 3.529
+    },
+    {
+     "t": "con",
+     "inicio": 3.587,
+     "fin": 3.727
+    },
+    {
+     "t": "diez.",
+     "inicio": 3.773,
+     "fin": 4.226
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "¿Cuál tachas primero? Pon el número.",
+   "archivo": "cta.mp3",
+   "segundos": 2.324898,
+   "palabras": [
+    {
+     "t": "¿Cuál",
+     "inicio": 0,
+     "fin": 0.313
+    },
+    {
+     "t": "tachas",
+     "inicio": 0.372,
+     "fin": 0.65
+    },
+    {
+     "t": "primero?",
+     "inicio": 0.697,
+     "fin": 1.149
+    },
+    {
+     "t": "Pon",
+     "inicio": 1.265,
+     "fin": 1.451
+    },
+    {
+     "t": "el",
+     "inicio": 1.509,
+     "fin": 1.567
+    },
+    {
+     "t": "número.",
+     "inicio": 1.602,
+     "fin": 2.276
+    }
+   ]
+  }
+ ]
+}

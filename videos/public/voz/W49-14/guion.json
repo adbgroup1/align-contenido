@@ -1,0 +1,7 @@
+{ "escenas": [
+  { "id": "hook", "texto": "«Para ahorrar necesito tener dinero.»" },
+  { "id": "tablero", "texto": "Empieza con diez. Veinte casillas, de diez a doscientos." },
+  { "id": "dias", "texto": "Día trece, quincena en coma: la de diez. Día quince: la de doscientos." },
+  { "id": "wow", "texto": "Las tachas todas… y tienes dos mil cien. Empezando con diez." },
+  { "id": "cta", "texto": "¿Cuál tachas primero? Pon el número." }
+] }

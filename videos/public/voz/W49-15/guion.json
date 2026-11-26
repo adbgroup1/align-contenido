@@ -1,0 +1,9 @@
+{ "escenas": [
+  { "id": "hook", "texto": "Los gastos hormiga son literales." },
+  { "id": "cafe", "texto": "La del cafecito: cuarenta y cinco diarios." },
+  { "id": "nosola", "texto": "Y no viene sola." },
+  { "id": "oxxo", "texto": "La del Oxxo: treinta. La de los envíos: cuarenta." },
+  { "id": "sub", "texto": "Y la de la suscripción: cobra dormida." },
+  { "id": "wow", "texto": "Mil ciento treinta por quincena. Más de veintisiete mil al año." },
+  { "id": "cta", "texto": "¿Cuál vive en tu casa? Etiqueta a la del café de la oficina." }
+] }

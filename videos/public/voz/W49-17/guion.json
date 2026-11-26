@@ -1,0 +1,8 @@
+{ "escenas": [
+  { "id": "hook", "texto": "«El intercambio es de trescientos», dijeron." },
+  { "id": "coope", "texto": "Primero, la cooperación para la comida." },
+  { "id": "sueter", "texto": "Luego, el suéter «obligatorio»." },
+  { "id": "uber", "texto": "Uber ida y vuelta… y tacos de madrugada." },
+  { "id": "jefe", "texto": "Mil ochocientos. Y en el sorteo… le tocó el jefe." },
+  { "id": "cta", "texto": "Presupuesta el día, no el regalo. Mándaselo a quien organiza el intercambio." }
+] }

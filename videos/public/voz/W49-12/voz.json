@@ -1,0 +1,103 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "iDEmt5MnqUotdwCIVplo",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Día uno: ¡millonario!",
+   "archivo": "hook.mp3",
+   "segundos": 1.567347,
+   "palabras": [
+    {
+     "t": "Día",
+     "inicio": 0,
+     "fin": 0.232
+    },
+    {
+     "t": "uno:",
+     "inicio": 0.302,
+     "fin": 0.615
+    },
+    {
+     "t": "¡millonario!",
+     "inicio": 0.813,
+     "fin": 1.533
+    }
+   ]
+  },
+  {
+   "id": "dia3",
+   "texto": "Día tres…",
+   "archivo": "dia3.mp3",
+   "segundos": 0.914286,
+   "palabras": [
+    {
+     "t": "Día",
+     "inicio": 0,
+     "fin": 0.232
+    },
+    {
+     "t": "tres…",
+     "inicio": 0.302,
+     "fin": 0.882
+    }
+   ]
+  },
+  {
+   "id": "sefue",
+   "texto": "…ya se fue.",
+   "archivo": "sefue.mp3",
+   "segundos": 1.253878,
+   "palabras": [
+    {
+     "t": "…ya",
+     "inicio": 0,
+     "fin": 0.279
+    },
+    {
+     "t": "se",
+     "inicio": 0.325,
+     "fin": 0.418
+    },
+    {
+     "t": "fue.",
+     "inicio": 0.464,
+     "fin": 1.207
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Págate primero el día uno.",
+   "archivo": "cta.mp3",
+   "segundos": 1.38449,
+   "palabras": [
+    {
+     "t": "Págate",
+     "inicio": 0,
+     "fin": 0.348
+    },
+    {
+     "t": "primero",
+     "inicio": 0.383,
+     "fin": 0.662
+    },
+    {
+     "t": "el",
+     "inicio": 0.685,
+     "fin": 0.731
+    },
+    {
+     "t": "día",
+     "inicio": 0.766,
+     "fin": 0.894
+    },
+    {
+     "t": "uno.",
+     "inicio": 0.975,
+     "fin": 1.347
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,352 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "9Godp7dNohUvXk6qp0gS",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Le pegas doscientos cincuenta a tu deuda… y ni se raja.",
+   "archivo": "hook.mp3",
+   "segundos": 3.578776,
+   "palabras": [
+    {
+     "t": "Le",
+     "inicio": 0,
+     "fin": 0.139
+    },
+    {
+     "t": "pegas",
+     "inicio": 0.197,
+     "fin": 0.418
+    },
+    {
+     "t": "doscientos",
+     "inicio": 0.441,
+     "fin": 0.813
+    },
+    {
+     "t": "cincuenta",
+     "inicio": 0.929,
+     "fin": 1.451
+    },
+    {
+     "t": "a",
+     "inicio": 1.498,
+     "fin": 1.521
+    },
+    {
+     "t": "tu",
+     "inicio": 1.579,
+     "fin": 1.683
+    },
+    {
+     "t": "deuda…",
+     "inicio": 1.741,
+     "fin": 2.194
+    },
+    {
+     "t": "y",
+     "inicio": 2.612,
+     "fin": 2.682
+    },
+    {
+     "t": "ni",
+     "inicio": 2.74,
+     "fin": 2.833
+    },
+    {
+     "t": "se",
+     "inicio": 2.879,
+     "fin": 2.949
+    },
+    {
+     "t": "raja.",
+     "inicio": 3.019,
+     "fin": 3.529
+    }
+   ]
+  },
+  {
+   "id": "porque",
+   "texto": "Ciento setenta y cuatro se los comen los intereses.",
+   "archivo": "porque.mp3",
+   "segundos": 2.76898,
+   "palabras": [
+    {
+     "t": "Ciento",
+     "inicio": 0,
+     "fin": 0.395
+    },
+    {
+     "t": "setenta",
+     "inicio": 0.43,
+     "fin": 0.755
+    },
+    {
+     "t": "y",
+     "inicio": 0.789,
+     "fin": 0.813
+    },
+    {
+     "t": "cuatro",
+     "inicio": 0.859,
+     "fin": 1.149
+    },
+    {
+     "t": "se",
+     "inicio": 1.184,
+     "fin": 1.242
+    },
+    {
+     "t": "los",
+     "inicio": 1.277,
+     "fin": 1.382
+    },
+    {
+     "t": "comen",
+     "inicio": 1.428,
+     "fin": 1.625
+    },
+    {
+     "t": "los",
+     "inicio": 1.649,
+     "fin": 1.753
+    },
+    {
+     "t": "intereses.",
+     "inicio": 1.811,
+     "fin": 2.74
+    }
+   ]
+  },
+  {
+   "id": "ladrillos",
+   "texto": "Y cada mes salen ladrillos nuevos.",
+   "archivo": "ladrillos.mp3",
+   "segundos": 1.802449,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.116
+    },
+    {
+     "t": "cada",
+     "inicio": 0.197,
+     "fin": 0.372
+    },
+    {
+     "t": "mes",
+     "inicio": 0.441,
+     "fin": 0.569
+    },
+    {
+     "t": "salen",
+     "inicio": 0.592,
+     "fin": 0.836
+    },
+    {
+     "t": "ladrillos",
+     "inicio": 0.894,
+     "fin": 1.335
+    },
+    {
+     "t": "nuevos.",
+     "inicio": 1.405,
+     "fin": 1.765
+    }
+   ]
+  },
+  {
+   "id": "nivel",
+   "texto": "Treinta y cinco meses. Casi tres años.",
+   "archivo": "nivel.mp3",
+   "segundos": 2.35102,
+   "palabras": [
+    {
+     "t": "Treinta",
+     "inicio": 0,
+     "fin": 0.325
+    },
+    {
+     "t": "y",
+     "inicio": 0.348,
+     "fin": 0.372
+    },
+    {
+     "t": "cinco",
+     "inicio": 0.406,
+     "fin": 0.662
+    },
+    {
+     "t": "meses.",
+     "inicio": 0.72,
+     "fin": 1.068
+    },
+    {
+     "t": "Casi",
+     "inicio": 1.126,
+     "fin": 1.405
+    },
+    {
+     "t": "tres",
+     "inicio": 1.451,
+     "fin": 1.637
+    },
+    {
+     "t": "años.",
+     "inicio": 1.672,
+     "fin": 2.322
+    }
+   ]
+  },
+  {
+   "id": "powerup",
+   "texto": "Power-up: golpe de mil al mes.",
+   "archivo": "powerup.mp3",
+   "segundos": 1.854694,
+   "palabras": [
+    {
+     "t": "Power-up:",
+     "inicio": 0,
+     "fin": 0.569
+    },
+    {
+     "t": "golpe",
+     "inicio": 0.627,
+     "fin": 0.94
+    },
+    {
+     "t": "de",
+     "inicio": 0.975,
+     "fin": 1.033
+    },
+    {
+     "t": "mil",
+     "inicio": 1.068,
+     "fin": 1.207
+    },
+    {
+     "t": "al",
+     "inicio": 1.254,
+     "fin": 1.312
+    },
+    {
+     "t": "mes.",
+     "inicio": 1.37,
+     "fin": 1.811
+    }
+   ]
+  },
+  {
+   "id": "cae",
+   "texto": "Medio muro al suelo. Seis meses y adiós.",
+   "archivo": "cae.mp3",
+   "segundos": 2.690612,
+   "palabras": [
+    {
+     "t": "Medio",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "muro",
+     "inicio": 0.337,
+     "fin": 0.534
+    },
+    {
+     "t": "al",
+     "inicio": 0.569,
+     "fin": 0.639
+    },
+    {
+     "t": "suelo.",
+     "inicio": 0.685,
+     "fin": 1.103
+    },
+    {
+     "t": "Seis",
+     "inicio": 1.161,
+     "fin": 1.44
+    },
+    {
+     "t": "meses",
+     "inicio": 1.498,
+     "fin": 1.858
+    },
+    {
+     "t": "y",
+     "inicio": 1.974,
+     "fin": 2.032
+    },
+    {
+     "t": "adiós.",
+     "inicio": 2.09,
+     "fin": 2.647
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "¿Tres años o seis meses? Mándaselo a quien paga el mínimo.",
+   "archivo": "cta.mp3",
+   "segundos": 3.892245,
+   "palabras": [
+    {
+     "t": "¿Tres",
+     "inicio": 0,
+     "fin": 0.395
+    },
+    {
+     "t": "años",
+     "inicio": 0.43,
+     "fin": 0.731
+    },
+    {
+     "t": "o",
+     "inicio": 0.824,
+     "fin": 0.882
+    },
+    {
+     "t": "seis",
+     "inicio": 0.929,
+     "fin": 1.115
+    },
+    {
+     "t": "meses?",
+     "inicio": 1.173,
+     "fin": 1.683
+    },
+    {
+     "t": "Mándaselo",
+     "inicio": 1.916,
+     "fin": 2.403
+    },
+    {
+     "t": "a",
+     "inicio": 2.438,
+     "fin": 2.461
+    },
+    {
+     "t": "quien",
+     "inicio": 2.519,
+     "fin": 2.682
+    },
+    {
+     "t": "paga",
+     "inicio": 2.728,
+     "fin": 2.926
+    },
+    {
+     "t": "el",
+     "inicio": 2.949,
+     "fin": 3.007
+    },
+    {
+     "t": "mínimo.",
+     "inicio": 3.065,
+     "fin": 3.855
+    }
+   ]
+  }
+ ]
+}

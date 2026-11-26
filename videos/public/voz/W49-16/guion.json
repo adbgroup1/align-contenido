@@ -1,0 +1,6 @@
+{ "escenas": [
+  { "id": "ajua", "texto": "¡Ajúa!" },
+  { "id": "tamales", "texto": "¡Tamales calientitos!" },
+  { "id": "rebobina", "texto": "Misma quincena, pero el día uno te pagas primero." },
+  { "id": "final", "texto": "Día quince: seiscientos pesos. Y suena así. ¿En qué día suena así la tuya?" }
+] }

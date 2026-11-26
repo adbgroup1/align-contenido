@@ -1,0 +1,9 @@
+{ "escenas": [
+  { "id": "hook", "texto": "Le pegas doscientos cincuenta a tu deuda… y ni se raja." },
+  { "id": "porque", "texto": "Ciento setenta y cuatro se los comen los intereses." },
+  { "id": "ladrillos", "texto": "Y cada mes salen ladrillos nuevos." },
+  { "id": "nivel", "texto": "Treinta y cinco meses. Casi tres años." },
+  { "id": "powerup", "texto": "Power-up: golpe de mil al mes." },
+  { "id": "cae", "texto": "Medio muro al suelo. Seis meses y adiós." },
+  { "id": "cta", "texto": "¿Tres años o seis meses? Mándaselo a quien paga el mínimo." }
+] }

@@ -1,0 +1,168 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "9Godp7dNohUvXk6qp0gS",
+ "escenas": [
+  {
+   "id": "ajua",
+   "texto": "¡Ajúa!",
+   "archivo": "ajua.mp3",
+   "segundos": 0.444082,
+   "palabras": [
+    {
+     "t": "¡Ajúa!",
+     "inicio": 0,
+     "fin": 0.418
+    }
+   ]
+  },
+  {
+   "id": "tamales",
+   "texto": "¡Tamales calientitos!",
+   "archivo": "tamales.mp3",
+   "segundos": 0.966531,
+   "palabras": [
+    {
+     "t": "¡Tamales",
+     "inicio": 0,
+     "fin": 0.36
+    },
+    {
+     "t": "calientitos!",
+     "inicio": 0.395,
+     "fin": 0.929
+    }
+   ]
+  },
+  {
+   "id": "rebobina",
+   "texto": "Misma quincena, pero el día uno te pagas primero.",
+   "archivo": "rebobina.mp3",
+   "segundos": 2.951837,
+   "palabras": [
+    {
+     "t": "Misma",
+     "inicio": 0,
+     "fin": 0.302
+    },
+    {
+     "t": "quincena,",
+     "inicio": 0.348,
+     "fin": 0.836
+    },
+    {
+     "t": "pero",
+     "inicio": 0.871,
+     "fin": 1.08
+    },
+    {
+     "t": "el",
+     "inicio": 1.103,
+     "fin": 1.161
+    },
+    {
+     "t": "día",
+     "inicio": 1.219,
+     "fin": 1.382
+    },
+    {
+     "t": "uno",
+     "inicio": 1.451,
+     "fin": 1.591
+    },
+    {
+     "t": "te",
+     "inicio": 1.649,
+     "fin": 1.718
+    },
+    {
+     "t": "pagas",
+     "inicio": 1.765,
+     "fin": 1.974
+    },
+    {
+     "t": "primero.",
+     "inicio": 2.009,
+     "fin": 2.926
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "texto": "Día quince: seiscientos pesos. Y suena así. ¿En qué día suena así la tuya?",
+   "archivo": "final.mp3",
+   "segundos": 4.414694,
+   "palabras": [
+    {
+     "t": "Día",
+     "inicio": 0,
+     "fin": 0.209
+    },
+    {
+     "t": "quince:",
+     "inicio": 0.267,
+     "fin": 0.72
+    },
+    {
+     "t": "seiscientos",
+     "inicio": 0.836,
+     "fin": 1.382
+    },
+    {
+     "t": "pesos.",
+     "inicio": 1.44,
+     "fin": 1.858
+    },
+    {
+     "t": "Y",
+     "inicio": 1.881,
+     "fin": 1.916
+    },
+    {
+     "t": "suena",
+     "inicio": 1.985,
+     "fin": 2.206
+    },
+    {
+     "t": "así.",
+     "inicio": 2.229,
+     "fin": 2.531
+    },
+    {
+     "t": "¿En",
+     "inicio": 2.554,
+     "fin": 2.717
+    },
+    {
+     "t": "qué",
+     "inicio": 2.775,
+     "fin": 2.879
+    },
+    {
+     "t": "día",
+     "inicio": 2.926,
+     "fin": 3.088
+    },
+    {
+     "t": "suena",
+     "inicio": 3.135,
+     "fin": 3.332
+    },
+    {
+     "t": "así",
+     "inicio": 3.355,
+     "fin": 3.483
+    },
+    {
+     "t": "la",
+     "inicio": 3.529,
+     "fin": 3.599
+    },
+    {
+     "t": "tuya?",
+     "inicio": 3.657,
+     "fin": 4.365
+    }
+   ]
+  }
+ ]
+}

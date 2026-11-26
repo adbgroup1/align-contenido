@@ -1,0 +1,342 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "sDh3eviBhiuHKi0MjTNq",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Los gastos hormiga son literales.",
+   "archivo": "hook.mp3",
+   "segundos": 2.220408,
+   "palabras": [
+    {
+     "t": "Los",
+     "inicio": 0,
+     "fin": 0.209
+    },
+    {
+     "t": "gastos",
+     "inicio": 0.267,
+     "fin": 0.58
+    },
+    {
+     "t": "hormiga",
+     "inicio": 0.627,
+     "fin": 0.975
+    },
+    {
+     "t": "son",
+     "inicio": 1.022,
+     "fin": 1.173
+    },
+    {
+     "t": "literales.",
+     "inicio": 1.219,
+     "fin": 2.183
+    }
+   ]
+  },
+  {
+   "id": "cafe",
+   "texto": "La del cafecito: cuarenta y cinco diarios.",
+   "archivo": "cafe.mp3",
+   "segundos": 2.951837,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0,
+     "fin": 0.128
+    },
+    {
+     "t": "del",
+     "inicio": 0.174,
+     "fin": 0.29
+    },
+    {
+     "t": "cafecito:",
+     "inicio": 0.348,
+     "fin": 1.057
+    },
+    {
+     "t": "cuarenta",
+     "inicio": 1.149,
+     "fin": 1.614
+    },
+    {
+     "t": "y",
+     "inicio": 1.649,
+     "fin": 1.683
+    },
+    {
+     "t": "cinco",
+     "inicio": 1.73,
+     "fin": 2.055
+    },
+    {
+     "t": "diarios.",
+     "inicio": 2.101,
+     "fin": 2.926
+    }
+   ]
+  },
+  {
+   "id": "nosola",
+   "texto": "Y no viene sola.",
+   "archivo": "nosola.mp3",
+   "segundos": 1.671837,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.128
+    },
+    {
+     "t": "no",
+     "inicio": 0.244,
+     "fin": 0.337
+    },
+    {
+     "t": "viene",
+     "inicio": 0.395,
+     "fin": 0.697
+    },
+    {
+     "t": "sola.",
+     "inicio": 0.743,
+     "fin": 1.625
+    }
+   ]
+  },
+  {
+   "id": "oxxo",
+   "texto": "La del Oxxo: treinta. La de los envíos: cuarenta.",
+   "archivo": "oxxo.mp3",
+   "segundos": 3.84,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0,
+     "fin": 0.151
+    },
+    {
+     "t": "del",
+     "inicio": 0.197,
+     "fin": 0.313
+    },
+    {
+     "t": "Oxxo:",
+     "inicio": 0.43,
+     "fin": 0.766
+    },
+    {
+     "t": "treinta.",
+     "inicio": 0.836,
+     "fin": 1.486
+    },
+    {
+     "t": "La",
+     "inicio": 1.625,
+     "fin": 1.741
+    },
+    {
+     "t": "de",
+     "inicio": 1.788,
+     "fin": 1.834
+    },
+    {
+     "t": "los",
+     "inicio": 1.881,
+     "fin": 2.009
+    },
+    {
+     "t": "envíos:",
+     "inicio": 2.078,
+     "fin": 2.717
+    },
+    {
+     "t": "cuarenta.",
+     "inicio": 2.833,
+     "fin": 3.808
+    }
+   ]
+  },
+  {
+   "id": "sub",
+   "texto": "Y la de la suscripción: cobra dormida.",
+   "archivo": "sub.mp3",
+   "segundos": 2.821224,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0,
+     "fin": 0.128
+    },
+    {
+     "t": "la",
+     "inicio": 0.209,
+     "fin": 0.267
+    },
+    {
+     "t": "de",
+     "inicio": 0.325,
+     "fin": 0.383
+    },
+    {
+     "t": "la",
+     "inicio": 0.43,
+     "fin": 0.499
+    },
+    {
+     "t": "suscripción:",
+     "inicio": 0.534,
+     "fin": 1.37
+    },
+    {
+     "t": "cobra",
+     "inicio": 1.533,
+     "fin": 1.858
+    },
+    {
+     "t": "dormida.",
+     "inicio": 1.904,
+     "fin": 2.786
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Mil ciento treinta por quincena. Más de veintisiete mil al año.",
+   "archivo": "wow.mp3",
+   "segundos": 3.892245,
+   "palabras": [
+    {
+     "t": "Mil",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "ciento",
+     "inicio": 0.337,
+     "fin": 0.65
+    },
+    {
+     "t": "treinta",
+     "inicio": 0.708,
+     "fin": 1.022
+    },
+    {
+     "t": "por",
+     "inicio": 1.068,
+     "fin": 1.196
+    },
+    {
+     "t": "quincena.",
+     "inicio": 1.242,
+     "fin": 1.881
+    },
+    {
+     "t": "Más",
+     "inicio": 2.043,
+     "fin": 2.264
+    },
+    {
+     "t": "de",
+     "inicio": 2.287,
+     "fin": 2.334
+    },
+    {
+     "t": "veintisiete",
+     "inicio": 2.38,
+     "fin": 2.926
+    },
+    {
+     "t": "mil",
+     "inicio": 2.984,
+     "fin": 3.123
+    },
+    {
+     "t": "al",
+     "inicio": 3.181,
+     "fin": 3.251
+    },
+    {
+     "t": "año.",
+     "inicio": 3.274,
+     "fin": 3.855
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "¿Cuál vive en tu casa? Etiqueta a la del café de la oficina.",
+   "archivo": "cta.mp3",
+   "segundos": 3.787755,
+   "palabras": [
+    {
+     "t": "¿Cuál",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "vive",
+     "inicio": 0.348,
+     "fin": 0.522
+    },
+    {
+     "t": "en",
+     "inicio": 0.546,
+     "fin": 0.592
+    },
+    {
+     "t": "tu",
+     "inicio": 0.627,
+     "fin": 0.708
+    },
+    {
+     "t": "casa?",
+     "inicio": 0.766,
+     "fin": 1.277
+    },
+    {
+     "t": "Etiqueta",
+     "inicio": 1.44,
+     "fin": 1.985
+    },
+    {
+     "t": "a",
+     "inicio": 2.032,
+     "fin": 2.055
+    },
+    {
+     "t": "la",
+     "inicio": 2.101,
+     "fin": 2.171
+    },
+    {
+     "t": "del",
+     "inicio": 2.218,
+     "fin": 2.334
+    },
+    {
+     "t": "café",
+     "inicio": 2.392,
+     "fin": 2.659
+    },
+    {
+     "t": "de",
+     "inicio": 2.705,
+     "fin": 2.763
+    },
+    {
+     "t": "la",
+     "inicio": 2.821,
+     "fin": 2.868
+    },
+    {
+     "t": "oficina.",
+     "inicio": 2.902,
+     "fin": 3.762
+    }
+   ]
+  }
+ ]
+}
