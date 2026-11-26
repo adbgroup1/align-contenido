@@ -68,3 +68,26 @@ Agente 4 · 25 nov 2026 · México. Guion completo dentro de cada página de Not
 - **Tipo de gancho:** se añadieron las opciones `Ironía` y `Literal visual` en Notion.
 - **Notion:** hoy la clave `title` funcionó (el conector la reescribe como `userDefined:ID`).
 - **Todo en DIBUJO:** ninguna escena `IMAGEN:`.
+
+---
+
+# Tanda 4 · Guiones (26 nov 2026, tanda extra, México)
+
+6 filas en Notion «Vídeos», Estado = `Guion`, guion completo dentro de cada página:
+
+| ID | Pieza · formato | Hipótesis | Gancho | CTA | Duración |
+|---|---|---|---|---|---|
+| W49-19 | Reel · Historia + enigma del billete (Don Chema, 1993) | H15 | «En 1993 a este señor le quitaron tres ceros» | COMENTAR | ≈22 s |
+| W49-20 | Reel · Tres cajas + volado | H16 + H7 | «Solo puedes abrir una» | COMENTAR (A, B o C) | ≈20 s |
+| W49-21 | Reel · Carrera de canicas de la quincena | H16 | «La que llega primero, se cobra primero» | COMENTAR | ≈22 s |
+| W49-22 | Reel · Historia + contador (el primo «hasta el lunes») | H9 | «Te lo paso el lunes, primo» · DÍA 1 | COMPARTIR | ≈18 s |
+| W49-23 | Reel · Construye tu primera inversión ($100) | H2 | «Pon $100 aquí y tienes tu primera inversión» | COMPARTIR | ≈23 s |
+| W49-24 | Reel · Noticia + quiz (salario mínimo 2027) | H17 | «Esta semana se decide cuánto sube el mínimo» | COMENTAR (10, 12 o 15) | ≈18 s |
+
+- **Cifras comprobadas:** nuevo peso (1 ene 1993, DOF 22 jun 1992, vía El CEO/Expansión y Grupo Animal); inflación
+  1987 159,2 % (INEGI citado en tesis UNAM); mínimo de $100 en la plataforma del gobierno (gob.mx); CETES 28 d 6,49 %
+  (Expansión, 1 sep 2026) → 6 % como ejemplo hipotético; salario mínimo 2026 $315.04 y rango de 10–15 % (Uno TV y
+  Crónica, 17 nov 2026). No se encontró el INPC de la 1.ª quincena de nov 2026 ni la tasa de CETES de noviembre.
+- **Fuera:** Idea 4 (A/B Afore), en la bolsa.
+- Todo `DIBUJO:`; ninguna escena `IMAGEN:`.
+- Fichas de Investigación marcadas con «Usado en».
