@@ -1,0 +1,362 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "iDEmt5MnqUotdwCIVplo",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "¡Y arrancan! La que llega primero, se cobra primero.",
+   "archivo": "hook.mp3",
+   "segundos": 3.761633,
+   "palabras": [
+    {
+     "t": "¡Y",
+     "inicio": 0,
+     "fin": 0.174
+    },
+    {
+     "t": "arrancan!",
+     "inicio": 0.255,
+     "fin": 0.998
+    },
+    {
+     "t": "La",
+     "inicio": 1.231,
+     "fin": 1.347
+    },
+    {
+     "t": "que",
+     "inicio": 1.393,
+     "fin": 1.474
+    },
+    {
+     "t": "llega",
+     "inicio": 1.498,
+     "fin": 1.695
+    },
+    {
+     "t": "primero,",
+     "inicio": 1.741,
+     "fin": 2.31
+    },
+    {
+     "t": "se",
+     "inicio": 2.345,
+     "fin": 2.45
+    },
+    {
+     "t": "cobra",
+     "inicio": 2.496,
+     "fin": 2.74
+    },
+    {
+     "t": "primero.",
+     "inicio": 2.786,
+     "fin": 3.715
+    }
+   ]
+  },
+  {
+   "id": "renta",
+   "texto": "Renta: dos mil quinientos. Tarjeta: mil ochocientos.",
+   "archivo": "renta.mp3",
+   "segundos": 4.414694,
+   "palabras": [
+    {
+     "t": "Renta:",
+     "inicio": 0,
+     "fin": 0.488
+    },
+    {
+     "t": "dos",
+     "inicio": 0.58,
+     "fin": 0.789
+    },
+    {
+     "t": "mil",
+     "inicio": 0.859,
+     "fin": 0.987
+    },
+    {
+     "t": "quinientos.",
+     "inicio": 1.033,
+     "fin": 1.73
+    },
+    {
+     "t": "Tarjeta:",
+     "inicio": 1.927,
+     "fin": 2.67
+    },
+    {
+     "t": "mil",
+     "inicio": 2.984,
+     "fin": 3.262
+    },
+    {
+     "t": "ochocientos.",
+     "inicio": 3.332,
+     "fin": 4.365
+    }
+   ]
+  },
+  {
+   "id": "antojos",
+   "texto": "Los antojos rebotan en todos los clavos… y se llevan lo que queda.",
+   "archivo": "antojos.mp3",
+   "segundos": 3.892245,
+   "palabras": [
+    {
+     "t": "Los",
+     "inicio": 0,
+     "fin": 0.186
+    },
+    {
+     "t": "antojos",
+     "inicio": 0.232,
+     "fin": 0.557
+    },
+    {
+     "t": "rebotan",
+     "inicio": 0.604,
+     "fin": 1.033
+    },
+    {
+     "t": "en",
+     "inicio": 1.091,
+     "fin": 1.149
+    },
+    {
+     "t": "todos",
+     "inicio": 1.219,
+     "fin": 1.579
+    },
+    {
+     "t": "los",
+     "inicio": 1.602,
+     "fin": 1.718
+    },
+    {
+     "t": "clavos…",
+     "inicio": 1.776,
+     "fin": 2.415
+    },
+    {
+     "t": "y",
+     "inicio": 2.485,
+     "fin": 2.554
+    },
+    {
+     "t": "se",
+     "inicio": 2.635,
+     "fin": 2.728
+    },
+    {
+     "t": "llevan",
+     "inicio": 2.752,
+     "fin": 2.972
+    },
+    {
+     "t": "lo",
+     "inicio": 2.995,
+     "fin": 3.077
+    },
+    {
+     "t": "que",
+     "inicio": 3.111,
+     "fin": 3.193
+    },
+    {
+     "t": "queda.",
+     "inicio": 3.251,
+     "fin": 3.855
+    }
+   ]
+  },
+  {
+   "id": "ahorro",
+   "texto": "¿Y el ahorro? Atorado en el clavo del «ahorita».",
+   "archivo": "ahorro.mp3",
+   "segundos": 4.493061,
+   "palabras": [
+    {
+     "t": "¿Y",
+     "inicio": 0,
+     "fin": 0.255
+    },
+    {
+     "t": "el",
+     "inicio": 0.313,
+     "fin": 0.372
+    },
+    {
+     "t": "ahorro?",
+     "inicio": 0.441,
+     "fin": 0.917
+    },
+    {
+     "t": "Atorado",
+     "inicio": 1.335,
+     "fin": 1.8
+    },
+    {
+     "t": "en",
+     "inicio": 1.823,
+     "fin": 1.869
+    },
+    {
+     "t": "el",
+     "inicio": 1.927,
+     "fin": 1.997
+    },
+    {
+     "t": "clavo",
+     "inicio": 2.055,
+     "fin": 2.345
+    },
+    {
+     "t": "del",
+     "inicio": 2.392,
+     "fin": 2.543
+    },
+    {
+     "t": "«ahorita».",
+     "inicio": 2.589,
+     "fin": 4.458
+    }
+   ]
+  },
+  {
+   "id": "otra",
+   "texto": "Otra vez. Pero suelta al ahorro primero.",
+   "archivo": "otra.mp3",
+   "segundos": 2.690612,
+   "palabras": [
+    {
+     "t": "Otra",
+     "inicio": 0,
+     "fin": 0.302
+    },
+    {
+     "t": "vez.",
+     "inicio": 0.337,
+     "fin": 0.685
+    },
+    {
+     "t": "Pero",
+     "inicio": 1.045,
+     "fin": 1.231
+    },
+    {
+     "t": "suelta",
+     "inicio": 1.265,
+     "fin": 1.556
+    },
+    {
+     "t": "al",
+     "inicio": 1.591,
+     "fin": 1.66
+    },
+    {
+     "t": "ahorro",
+     "inicio": 1.73,
+     "fin": 1.997
+    },
+    {
+     "t": "primero.",
+     "inicio": 2.032,
+     "fin": 2.647
+    }
+   ]
+  },
+  {
+   "id": "gana",
+   "texto": "Se lleva seiscientos. Los antojos se ajustan.",
+   "archivo": "gana.mp3",
+   "segundos": 2.533878,
+   "palabras": [
+    {
+     "t": "Se",
+     "inicio": 0,
+     "fin": 0.163
+    },
+    {
+     "t": "lleva",
+     "inicio": 0.186,
+     "fin": 0.383
+    },
+    {
+     "t": "seiscientos.",
+     "inicio": 0.43,
+     "fin": 1.196
+    },
+    {
+     "t": "Los",
+     "inicio": 1.219,
+     "fin": 1.358
+    },
+    {
+     "t": "antojos",
+     "inicio": 1.405,
+     "fin": 1.741
+    },
+    {
+     "t": "se",
+     "inicio": 1.765,
+     "fin": 1.823
+    },
+    {
+     "t": "ajustan.",
+     "inicio": 1.858,
+     "fin": 2.508
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Págate primero. ¿Cuál canica gana en tu casa?",
+   "archivo": "cta.mp3",
+   "segundos": 3.004082,
+   "palabras": [
+    {
+     "t": "Págate",
+     "inicio": 0,
+     "fin": 0.418
+    },
+    {
+     "t": "primero.",
+     "inicio": 0.464,
+     "fin": 1.045
+    },
+    {
+     "t": "¿Cuál",
+     "inicio": 1.161,
+     "fin": 1.451
+    },
+    {
+     "t": "canica",
+     "inicio": 1.509,
+     "fin": 1.811
+    },
+    {
+     "t": "gana",
+     "inicio": 1.858,
+     "fin": 2.032
+    },
+    {
+     "t": "en",
+     "inicio": 2.055,
+     "fin": 2.101
+    },
+    {
+     "t": "tu",
+     "inicio": 2.148,
+     "fin": 2.218
+    },
+    {
+     "t": "casa?",
+     "inicio": 2.264,
+     "fin": 2.972
+    }
+   ]
+  }
+ ]
+}

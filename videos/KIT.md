@@ -38,6 +38,9 @@
 Después de renderizar, **siempre** `bash scripts/reparar-fotogramas.sh <ID> ../media/<semana>/<ID>.mp4`: en la nube
 Chromium a veces saca fotogramas «en mosaico» (sobre todo si hay otro render o `still` a la vez: renderiza de uno en
 uno) y algunas voces dejan el vídeo a -18/-20 LUFS. El script rehace esos fotogramas y normaliza el audio a -14 LUFS.
+**Ojo (26 nov):** el fallo también puede borrar **un solo elemento** unos fotogramas sueltos (en W49-20 parpadeaba una caja con
+`drop-shadow`), y eso el script no lo detecta. Mira una tira de fotogramas seguidos de cada escena; si algo parpadea,
+renderiza ese tramo con `--frames=<a>-<b> --concurrency=1` y sustituye esos fotogramas (o el vídeo entero con `--concurrency=2`).
 Efectos extra propios (trompetas, bombo, sirena, cumbia, pitido, rebobinado, acorde, claxon): `bash scripts/sfx-extra.sh`
 → `public/sfx/extra/`. La clave de ElevenLabs no tiene permiso de efectos de sonido (26 nov).
 

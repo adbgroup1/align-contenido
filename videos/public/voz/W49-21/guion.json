@@ -1,0 +1,9 @@
+{ "escenas": [
+  { "id": "hook", "texto": "¡Y arrancan! La que llega primero, se cobra primero." },
+  { "id": "renta", "texto": "Renta: dos mil quinientos. Tarjeta: mil ochocientos." },
+  { "id": "antojos", "texto": "Los antojos rebotan en todos los clavos… y se llevan lo que queda." },
+  { "id": "ahorro", "texto": "¿Y el ahorro? Atorado en el clavo del «ahorita»." },
+  { "id": "otra", "texto": "Otra vez. Pero suelta al ahorro primero." },
+  { "id": "gana", "texto": "Se lleva seiscientos. Los antojos se ajustan." },
+  { "id": "cta", "texto": "Págate primero. ¿Cuál canica gana en tu casa?" }
+] }
