@@ -199,7 +199,7 @@ const Hook = () => (
 
 const TableroEsc = () => {
   const t = useSeg();
-  const aparece = interpolate(t, [1.4, 3.0], [0, 1], clamp);
+  const aparece = interpolate(t, [0.15, 1.9], [0, 1], clamp);
   const tacha10 = interpolate(t, [3.2, 3.6], [0, 1], clamp);
   return (
     <Escena luz="#1E3A8A">
@@ -212,7 +212,7 @@ const TableroEsc = () => {
       <Tablero aparece={aparece} tachadas={[[10, tacha10]]} top={480} escala={0.92} />
       <Cochinito x={880} y={1300} escala={0.6} cara="atento" oreja={interpolate(t, [3.4, 3.7], [0, 1], clamp)} />
       {Array.from({ length: 6 }, (_, i) => (
-        <Sfx key={i} s="pop" volumen={0.22} en={1.45 + i * 0.25} />
+        <Sfx key={i} s="pop" volumen={0.22} en={0.2 + i * 0.3} />
       ))}
       <Sfx s="swoosh" volumen={0.4} en={3.2} />
     </Escena>
