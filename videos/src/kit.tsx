@@ -824,7 +824,7 @@ export const Personaje: React.FC<{
   mirar?: "izq" | "der" | "frente";
   anda?: boolean;
   salto?: number;
-  accesorio?: "lazo" | "gorra" | "gafas" | null;
+  accesorio?: "lazo" | "gorra" | "gafas" | "santa" | "corbata" | null;
   colorAccesorio?: string;
   entra?: "izq" | "der" | "abajo" | null;
   delay?: number;
@@ -965,6 +965,18 @@ export const Personaje: React.FC<{
             <g transform="translate(132 60) rotate(18)">
               <path d="M0 0 L-26 -16 L-26 16 Z M0 0 L26 -16 L26 16 Z" fill={colorAccesorio} stroke={oscuro} strokeWidth={3} strokeLinejoin="round" />
               <circle r={7} fill={colorAccesorio} stroke={oscuro} strokeWidth={3} />
+            </g>
+          ) : null}
+          {accesorio === "santa" ? (
+            <g>
+              <path d="M50 76 Q70 10 150 14 Q176 30 170 58 Q150 40 140 44 Q150 60 150 76 Z" fill={colorAccesorio} stroke={oscuro} strokeWidth={4} strokeLinejoin="round" />
+              <rect x={42} y={62} width={116} height={24} rx={12} fill={COLORS.white} stroke={oscuro} strokeWidth={4} />
+              <circle cx={170} cy={60} r={14} fill={COLORS.white} stroke={oscuro} strokeWidth={4} />
+            </g>
+          ) : null}
+          {accesorio === "corbata" ? (
+            <g>
+              <path d="M90 168 L110 168 L104 178 L114 214 L100 226 L86 214 L96 178 Z" fill={colorAccesorio} stroke={oscuro} strokeWidth={3} strokeLinejoin="round" />
             </g>
           ) : null}
           {accesorio === "gorra" ? (
