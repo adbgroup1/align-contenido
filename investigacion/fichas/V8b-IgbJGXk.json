@@ -1,0 +1,23 @@
+{
+ "id": "V8b-IgbJGXk",
+ "url": "https://www.youtube.com/shorts/V8b-IgbJGXk",
+ "titulo": "Con $26,000 al mes ya ganas más que 6 de cada 10 hogares en México",
+ "canal": "Economañana",
+ "vistas": 1406,
+ "ratio": 156.2,
+ "duracion_s": 34,
+ "formato": "Edificio de 10 pisos = deciles de hogares con datos INEGI (por descripción)",
+ "nicho": "Finanzas MX · Dato oficial visualizado",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "sin dato (no visto; por título y miniatura)",
+  "por_que_engancha": "Gancho de cifra en pesos que halaga/sorprende («ya ganas más que…») + metáfora visual de edificio de 10 pisos para deciles; cierra con pregunta «¿en qué piso vives?». Canal de 9 subs: señal débil de ratio."
+ },
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato"
+ },
+ "idea_para_ALIGN": "Muy adaptable: dibujo en código de 10 pisos con $ por piso (ENIGH, INEGI); apunta a H14 (dato oficial dibujado) y comentarios de «¿en qué piso estás?».",
+ "ronda": "tarde 26 nov 2026"
+}

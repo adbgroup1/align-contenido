@@ -256,3 +256,10 @@ Son ideas propias: de la referencia solo se toma el patrón.
 - **Reto con azar visible y ganador incierto («Unboxing Challenge», dados, canicas)** — Por implementar. Aparece en 5 fichas (QQnblvnZAuc 18,8 M, RRsVqn5IXTM 12 M, k505yJ7aCCg 7,9 M, RVOi1zgJ38g 4,2 M, zYVJytpV2aU 5,2 M, de 4–5 canales distintos, algunos de 48–89 k subs). Retiene por el suspense de «quién gana». Receta: cajas/torres en cuadrícula, resultado por dados o caída de canica, contador. Apunta a H16 (y H12).
 - **Sonido como contenido («cómo suena X en cada país/día»)** — 2 fichas (psQzp5qSKqc 4,6 M; zYVJytpV2aU 5,2 M). Refuerza H11. No vale como técnica visual hasta verlas con Gemini.
 - **Historia con enigma de objeto cotidiano + «se rieron de él… hasta que»** — 1 ficha de ratio extremo (cmis4CPFHx0, 2.489). Todavía menos de 3 fichas: seguir mirando.
+
+### Ronda de tarde 26 nov 2026 (WebSearch, solo lo público; Gemini 503 → plan B)
+*Fuentes: Adaptlypost, SocialKit, Marketing Directo/Metricool, Skillshare (blogs y cursos de marketing). Sin carruseles MX de finanzas concretos ni cifras fiables: repite lo ya anotado.*
+- **Límite técnico:** 1080×1350 y hasta 20 láminas, pero el máximo no es objetivo: 7–10 siguen siendo lo razonable.
+- **Medir con tasa de guardados (guardados/alcance)**, no con likes (SocialKit). Confirma H3/H14.
+- **Sin ejemplos nuevos accesibles:** los carruseles virales MX de finanzas siguen sin verse desde la nube → «mira las ideas» en el Mac.
+- **Creadores MX (plan B, sin ver):** el formato «dato INEGI como edificio/escala visual» (V8b-IgbJGXk) y la noticia con fecha de servicio (Lnmg2LaqlgI) son los dos patrones útiles; las vistas altas con 0 likes (2A7Hlgd8wz8, anuncio de Credy: 45 k vistas, 9 subs, 0 likes) son tráfico pagado: **ignorar ratios extremos con 0 likes**.
