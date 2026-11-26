@@ -117,3 +117,46 @@ sin marcas como recomendación).
 - **W49-16:** el sonido es el protagonista; Producción debe generar los efectos (o usar `videos/public/`), sin
   grabaciones famosas.
 - Tipos de gancho nuevos en Notion: `Ironía` y `Literal visual`.
+
+---
+
+# Tanda 4 · Modo A (26 nov 2026, tanda extra, México)
+
+Pedida por Andrés en el buzón (`20261126-112100-andres.md`): 5 guiones nuevos para cubrir diciembre, con H15 y H16 y
+el conflicto en el fotograma 0. Nota de potencial viral 1–10 (gancho / retención / compartible / guardable / gracia /
+México / aprendizaje). **Filtro legal:** los 6 pasan; en W49-23 se añadió «Así funciona; no es una recomendación» y
+«antes de impuestos» (el CETE se nombra como concepto, sin plataforma ni app).
+
+| ID | Pieza · formato | Hipótesis | Vuelta 1 | Cambio | Vuelta 2 | Cambio | Vuelta 3 | Decisión |
+|---|---|---|---|---|---|---|---|---|
+| W49-22 | Reel · Primo «hasta el lunes» + contador | H9 | **8,3** (9/8/10/4/9/10/8) | — | — | — | — | **Revisión manager OK** |
+| W49-21 | Reel · Carrera de canicas | H16 | 7,7 (8/9/7/6/8/7/9) | locutor de carreras, «¿Cuál gana?» en el fotograma 0, tarjeta departamental | **8,1** | — | — | **Revisión manager OK** |
+| W49-23 | Reel · Construye tu primera inversión | H2 | **8,1** (8/8/8/8/8/8/9) | filtro legal (no es recomendación) | — | — | — | **Revisión manager OK** |
+| W49-19 | Reel · Don Chema y los tres ceros | H15 | 7,7 (9/8/8/4/7/9/9) | linterna buscando los ceros; «compraba lo mismo» | **8,0** | — | — | **Revisión manager OK** |
+| W49-20 | Reel · Tres cajas + volado | H16 · H7 | 7,3 (9/8/7/5/7/6/9) | «¿águila o sol?», renta del depa | 7,7 | escenas 2+3 fusionadas; «etiqueta al que se avienta» | **8,0** | **Revisión manager OK** |
+| W49-24 | Reel · Salario mínimo 2027 | H17 | 7,0 (8/7/7/4/5/9/9) | jefe que jala la flecha | 7,4 | «o mándaselo a tu jefe» | 7,9 | Devuelto (reserva; caduca con el anuncio) |
+
+## Por qué esta selección
+
+- **Cartera:** 2 EXPLOTAR (W49-22 Historia + contador, W49-23 Construye desde cero) + 3 EXPLORAR (W49-19 H15,
+  W49-20 y W49-21 H16). Dos de H16 a propósito: lo pide el buzón y prueban dos mecánicas distintas (cajas con
+  dilema contra canicas sin decisión). 18–23 s.
+- **«¿Lo vería entero alguien que no nos sigue?»** Sí en los 5: el conflicto ya está pasando en el fotograma 0
+  (sello que borra ceros, cajas temblando, canicas cayendo, billete que se va con el primo, moneda de la que se
+  burlan).
+- **W49-24 fuera:** no llega a 8 en 3 vueltas (poca gracia, nada guardable) y caduca la primera semana de diciembre.
+  H17 queda abierta sin vídeo; se puede rescatar con la cifra oficial.
+- **Orden sugerido para Decisiones:** W49-22 → W49-21 → W49-19 → W49-23 → W49-20. No juntar W49-21 con W49-16
+  (quincena + págate primero) ni W49-22 con W49-17 (mismo Lalo). W49-20 y W49-21 (las dos H16) separadas al menos 2
+  días para medirlas por separado.
+
+## Imagen o dibujo
+
+- **Ninguno lleva `IMAGEN:`**: todo DIBUJO. No hace falta aviso a Andrés.
+
+## Avisos
+
+- No se encontraron el INPC de la 1.ª quincena de noviembre de 2026 ni la tasa de CETES de noviembre: W49-23 usa un
+  6 % redondo como ejemplo hipotético (el último dato visto: 6,49 %, 1 sep 2026).
+- W49-19: inflación de 1987 (159,2 %) citada por una tesis de la UNAM que atribuye el dato al INEGI; banxico.org.mx no
+  se abre desde la nube.
