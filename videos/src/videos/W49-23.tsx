@@ -92,28 +92,28 @@ const Voz: React.FC<{ texto: string; en: number; y?: number }> = ({ texto, en, y
 /* ---------- Composición acumulada ---------- */
 // Cada escena dibuja todas las piezas anteriores ya colocadas (plano fijo) y anima la suya.
 
-const MONEDA = { x: 540, y: 900 };
+const MONEDA = { x: 540, y: 1080 };
 
 const Base: React.FC<{ hasta: number; dia?: number }> = ({ hasta, dia = 28 }) => (
   <>
-    {hasta >= 2 ? <Edificio x={540} y={720} /> : null}
-    {hasta >= 3 ? <Calendario x={210} y={1050} dia={dia} /> : null}
+    {hasta >= 2 ? <Edificio x={540} y={1000} /> : null}
+    {hasta >= 3 ? <Calendario x={200} y={1150} dia={dia} /> : null}
     {hasta >= 4 ? (
       <>
-        <Moneda x={860} y={1080} r={26} texto="" />
-        <Moneda x={905} y={1060} r={22} texto="" />
+        <Moneda x={370} y={1215} r={26} texto="" />
+        <Moneda x={415} y={1195} r={22} texto="" />
       </>
     ) : null}
   </>
 );
 
 const Gancho: React.FC<{ congelar?: boolean }> = ({ congelar }) => {
-  const p = usePieza(congelar ? -1 : 0.05);
+  const p = usePieza(congelar ? -1 : -0.12);
   return (
     <>
       <Mesa />
       <Rotulo texto="Pon **$100** aquí y tienes tu primera inversión" delay={congelar ? -2 : -0.5} size={56} />
-      <div style={{ translate: `0px ${p.y}px`, scale: String(p.s), opacity: p.o }}>
+      <div style={{ position: "absolute", inset: 0, translate: `0px ${p.y}px`, scale: String(p.s), opacity: p.o, transformOrigin: `${MONEDA.x}px ${MONEDA.y}px` }}>
         <Moneda x={MONEDA.x} y={MONEDA.y} r={120} />
       </div>
     </>
@@ -138,10 +138,10 @@ const Cete = () => {
       <Mesa />
       <Rotulo texto="Le prestas al gobierno = **CETE**" size={60} />
       <div style={{ translate: `0px ${p.y}px`, opacity: p.o }}>
-        <Edificio x={540} y={720} />
+        <Edificio x={540} y={1000} />
       </div>
       <div style={{ opacity: 1 - entra }}>
-        <Moneda x={MONEDA.x} y={interpolate(entra, [0, 1], [MONEDA.y, 560])} r={interpolate(entra, [0, 1], [120, 40])} />
+        <Moneda x={MONEDA.x} y={interpolate(entra, [0, 1], [MONEDA.y, 850])} r={interpolate(entra, [0, 1], [120, 40])} />
       </div>
       <Sfx s="impacto" volumen={0.4} en={0.3} />
       <Sfx s="swoosh" volumen={0.35} en={1.2} />
@@ -160,7 +160,7 @@ const Plazo = () => {
       <Rotulo texto="Plazo: **28 días**" size={64} />
       <Base hasta={2} />
       <div style={{ translate: `0px ${p.y}px`, opacity: p.o }}>
-        <Calendario x={210} y={1050} dia={dia} />
+        <Calendario x={200} y={1150} dia={dia} />
       </div>
       {[0.5, 0.8, 1.05, 1.25, 1.4, 1.5].map((en) => (
         <Sfx key={en} s="tick" volumen={0.35} en={en} />
@@ -179,14 +179,14 @@ const Centavos = () => {
       <Rotulo texto="**+$0.47** de intereses" size={64} />
       <Base hasta={3} />
       <div style={{ translate: `0px ${a.y}px`, opacity: a.o }}>
-        <Moneda x={860} y={1080} r={26} texto="" />
+        <Moneda x={370} y={1215} r={26} texto="" />
       </div>
       <div style={{ translate: `0px ${b.y}px`, opacity: b.o }}>
-        <Moneda x={905} y={1060} r={22} texto="" />
+        <Moneda x={415} y={1195} r={22} texto="" />
       </div>
-      {t > 1.3 ? <Etiqueta x={880} y={960} texto="+$0.47" color="#4ADE80" s={0.9} /> : null}
+      {t > 1.3 ? <Etiqueta x={400} y={1100} texto="+$0.47" color="#4ADE80" s={0.9} /> : null}
       <div style={{ position: "absolute", left: 90, top: 1300 }}>
-        <Pildora size={28}>Ejemplo hipotético · 6 % anual</Pildora>
+        <Pildora size={34}>Ejemplo hipotético · 6 % anual</Pildora>
       </div>
       <Voz texto="¡JAJAJA! 🤣 ¿47 centavos?" en={2.1} y={440} />
       <Sfx s="ding" volumen={0.4} en={1.15} />
@@ -196,13 +196,13 @@ const Centavos = () => {
 };
 
 /** Torre de monedas que crece hasta `n` pisos. */
-const Torre: React.FC<{ n: number; x?: number; base?: number; bandera?: number }> = ({ n, x = 540, base = 1010, bandera = 0 }) => (
+const Torre: React.FC<{ n: number; x?: number; base?: number; bandera?: number }> = ({ n, x = 820, base = 1170, bandera = 0 }) => (
   <>
     {Array.from({ length: n }, (_, i) => (
-      <div key={i} style={{ position: "absolute", left: x - 110, top: base - i * 26, width: 220, height: 44, borderRadius: "50%", background: i % 2 ? "#F59E0B" : COLORS.gold, border: `5px solid ${COLORS.navy}`, boxShadow: "0 6px 8px rgba(0,0,0,0.25)" }} />
+      <div key={i} style={{ position: "absolute", left: x - 110, top: base - i * 22, width: 220, height: 44, borderRadius: "50%", background: i % 2 ? "#F59E0B" : COLORS.gold, border: `5px solid ${COLORS.navy}`, boxShadow: "0 6px 8px rgba(0,0,0,0.25)" }} />
     ))}
     {bandera > 0 ? (
-      <svg width={140} height={170} viewBox="0 0 140 170" style={{ position: "absolute", left: x - 10, top: base - n * 26 - 160 + (1 - bandera) * 60, opacity: bandera }}>
+      <svg width={140} height={170} viewBox="0 0 140 170" style={{ position: "absolute", left: x - 10, top: base - n * 22 - 160 + (1 - bandera) * 60, opacity: bandera }}>
         <line x1={10} y1={10} x2={10} y2={170} stroke={COLORS.navy} strokeWidth={8} />
         <path d="M14 12 L130 38 L14 66 Z" fill="#4ADE80" stroke={COLORS.navy} strokeWidth={5} />
       </svg>
@@ -222,12 +222,12 @@ const TorreEsc = () => {
       <Base hasta={4} />
       <Torre n={pisos} />
       {t < 1.5 ? (
-        <svg width={420} height={420} viewBox="0 0 420 420" style={{ position: "absolute", left: 330, top: 690, rotate: `${giro}deg` }}>
+        <svg width={420} height={420} viewBox="0 0 420 420" style={{ position: "absolute", left: 610, top: 960, rotate: `${giro}deg`, scale: "0.55" }}>
           <path d="M210 30 A180 180 0 1 1 40 150" fill="none" stroke="#4ADE80" strokeWidth={16} strokeLinecap="round" />
           <path d="M14 140 L48 112 L62 160 Z" fill="#4ADE80" />
         </svg>
       ) : null}
-      {t > 1.6 ? <Etiqueta x={840} y={800} texto={`Quincena ${q}`} color={COLORS.gold} s={0.75} /> : null}
+      {t > 1.6 ? <Etiqueta x={820} y={1260} texto={`Quincena ${q}`} color={COLORS.gold} s={0.75} /> : null}
       <Sfx s="swoosh" volumen={0.35} en={0.1} />
       {[1.7, 2.1, 2.5, 2.9, 3.3, 3.7].map((en) => (
         <Sfx key={en} s="tick" volumen={0.35} en={en} />
@@ -251,9 +251,9 @@ const Wow = () => {
         </div>
       </div>
       <Base hasta={4} />
-      <Torre n={pisos} base={1150} bandera={bandera} />
+      <Torre n={pisos} bandera={bandera} />
       <div style={{ position: "absolute", left: 90, top: 1300 }}>
-        <Pildora size={28}>Ejemplo hipotético · antes de impuestos</Pildora>
+        <Pildora size={34}>Ejemplo hipotético · antes de impuestos</Pildora>
       </div>
       {t > 4.4 ? <Voz texto="…oye, ¿me prestas? 🥺" en={4.4} y={560} /> : null}
       <Sfx s="riser" volumen={0.3} en={1.4} />
