@@ -14,7 +14,7 @@ const easeOut = (x: number) => 1 - (1 - x) ** 3;
 const CARTON = "#C08A4E";
 const CARTON_OSC = "#8B5E34";
 const XS = [210, 540, 870];
-const CAJA_Y = 1060; // base de las cajas
+const CAJA_Y = 1230; // base de las cajas
 
 const useSeg = () => {
   const frame = useCurrentFrame();
@@ -164,7 +164,7 @@ const Montones: React.FC<{ on: number }> = ({ on }) => (
 const Cajas: React.FC<{ tiembla?: number }> = ({ tiembla = 1 }) => (
   <>
     {XS.map((x, i) => (
-      <Caja key={i} x={x} letra={"ABC"[i]} tiembla={tiembla} />
+      <Caja key={i} x={x} letra={"ABC"[i]} tiembla={tiembla} escala={1.12} />
     ))}
   </>
 );
@@ -209,7 +209,7 @@ const AB = () => {
       <Caja x={XS[1]} letra="B" abre={abreB} color={COLORS.accent} />
       <Caja x={XS[2]} letra="C" tiembla={1} />
       <LluviaBilletes x={XS[0]} y={CAJA_Y - 200} en={A + 0.1} n={12} />
-      {sA > 0 ? <Etiqueta x={XS[0] + 40} y={520} arriba="$10,000" abajo="hoy" color="#4ADE80" s={sA} /> : null}
+      {sA > 0 ? <Etiqueta x={240} y={520} arriba="$10,000" abajo="hoy" color="#4ADE80" s={sA} /> : null}
       {/* 12 sobres que caen uno tras otro desde la caja B */}
       {Array.from({ length: 12 }, (_, i) => {
         const en = B + 0.2 + i * 0.1;
@@ -217,9 +217,9 @@ const AB = () => {
         if (k <= 0) return null;
         const col = i % 4;
         const fila = Math.floor(i / 4);
-        return <Sobre key={i} x={XS[1] - 180 + col * 120 + 60 * (fila % 2)} y={interpolate(k, [0, 1], [CAJA_Y - 200, 470 + fila * 80])} rot={(i % 3) * 6 - 6} />;
+        return <Sobre key={i} x={XS[1] - 160 + col * 120 + 50 * (fila % 2)} y={interpolate(k, [0, 1], [CAJA_Y - 200, 680 + fila * 85])} rot={(i % 3) * 6 - 6} />;
       })}
-      {sB > 0 ? <Etiqueta x={XS[1] + 90} y={770} arriba="$1,000 × 12" abajo="= $12,000 en un año" color={COLORS.accent} s={sB * 0.9} /> : null}
+      {sB > 0 ? <Etiqueta x={790} y={520} arriba="$1,000 × 12" abajo="= $12,000 en un año" color={COLORS.accent} s={sB * 0.9} /> : null}
       <Sfx s="pop" volumen={0.5} en={A} />
       <Sfx s="pop" volumen={0.45} en={B} />
       {Array.from({ length: 12 }, (_, i) => (i % 3 === 0 ? <Sfx key={i} s="tick" volumen={0.25} en={B + 0.2 + i * 0.1} /> : null))}
@@ -237,9 +237,9 @@ const C = () => {
     <Escena luz="#7C2D12" sonidoEntrada={null}>
       <div style={{ position: "absolute", left: 90, top: 1300 }}><Pildora size={30}>Ejemplo</Pildora></div>
       <Rotulo texto="La C: **¿águila o sol?**" size={64} />
-      <Caja x={XS[0]} letra="A" apagada={1} escala={0.8} y={CAJA_Y + 180} />
-      <Caja x={XS[1]} letra="C" abre={abre} y={CAJA_Y + 180} color={COLORS.gold} />
-      <Caja x={XS[2]} letra="B" apagada={1} escala={0.8} y={CAJA_Y + 180} />
+      <Caja x={XS[0]} letra="A" apagada={1} escala={0.8} y={CAJA_Y} />
+      <Caja x={XS[1]} letra="C" abre={abre} y={CAJA_Y} color={COLORS.gold} />
+      <Caja x={XS[2]} letra="B" apagada={1} escala={0.8} y={CAJA_Y} />
       <Moneda x={540} y={interpolate(sube, [0, 1], [1100, 700])} r={interpolate(sube, [0, 1], [60, 150])} giro={giro} />
       <Montones on={montones} />
       <Sfx s="pop" volumen={0.5} en={0.05} />
@@ -263,8 +263,8 @@ const Balanza: React.FC<{ incl: number; cRojo: number }> = ({ incl, cRojo }) => 
       </svg>
       {/* platos: izquierda A y B; derecha C */}
       {[
-        { x: 200, lado: -1, cont: <><Etiqueta x={0} y={-150} arriba="A $10,000" color="#4ADE80" s={0.62} /><Etiqueta x={0} y={-60} arriba="B $12,000" color={COLORS.accent} s={0.62} /></> },
-        { x: 880, lado: 1, cont: <Etiqueta x={0} y={-90} arriba={cRojo > 0.5 ? "C $0" : "C $12,500"} abajo={cRojo > 0.5 ? "1 de cada 2 veces" : "en promedio"} color={cRojo > 0.5 ? COLORS.red : COLORS.gold} s={0.75 + cRojo * 0.15} /> },
+        { x: 230, lado: -1, cont: <><Etiqueta x={0} y={-160} arriba="A $10,000" color="#4ADE80" s={0.8} /><Etiqueta x={0} y={-40} arriba="B $12,000" color={COLORS.accent} s={0.8} /></> },
+        { x: 850, lado: 1, cont: <Etiqueta x={0} y={-90} arriba={cRojo > 0.5 ? "C $0" : "C $12,500"} abajo={cRojo > 0.5 ? "1 de cada 2 veces" : "en promedio"} color={cRojo > 0.5 ? COLORS.red : COLORS.gold} s={0.95 + cRojo * 0.15} /> },
       ].map(({ x, lado, cont }) => {
         const dy = Math.sin((ang * Math.PI) / 180) * (x - 540);
         return (
