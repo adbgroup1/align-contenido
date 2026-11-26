@@ -42,8 +42,9 @@ de Andrés y con él delante.** Nunca en una tarea programada.
 - Reescribe `investigacion/fichas/<id>.json` con el formato de siempre (`align-investigacion`), ahora con datos
   vistos: `"fuente": "chrome"`, `"visto": true`, sin el campo `aviso`, y rellena escenas, hook, ritmo, cierre,
   tipografía, color, cámara y recetas de Remotion. Conserva `origen`, `nota_andres` y `enlace_original`.
-- Si la ficha no tenía nota, la idea para ALIGN sale de lo que se ve. **Pregúntale a Andrés en una línea qué
-  le gustó** si no queda claro, y guárdalo en `nota_andres`.
+- Si la ficha no tenía nota, la idea para ALIGN sale de lo que se ve. **No le preguntes a Andrés qué le gustó**
+  (26 nov: «que decidan los datos»): pon `nota_andres` = «sin nota: deciden los datos». El agente de Ideas las usa
+  como cualquier ficha y el bucle de `EXPERIMENTOS.md` dice qué patrón funciona.
 - `idea_para_ALIGN`: el patrón aplicado a ALIGN, nunca una copia.
 
 ## Cerrar
