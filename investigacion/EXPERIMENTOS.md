@@ -16,9 +16,9 @@
 
 ## Estado (lo reescribe Resultados cada día)
 
-*Actualizado: 25 nov 2026 (Resultados). Mediana de Instagram con 4 reels: 170 vistas. Ninguna publicación pasa de 5× la mediana (umbral 850): sin VIRAL. La mejor sigue siendo W47-02 (207 vistas, 12,5 s, 56,3 % pasa de 3 s).*
+*Actualizado: 26 nov 2026 (Resultados). Mediana de Instagram con 5 reels: 172 vistas. Ninguna publicación pasa de 5× la mediana (umbral 860): sin VIRAL. La mejor sigue siendo W47-02 (209 vistas, 12,4 s, 56,2 % pasa de 3 s).*
 
-**Lo nuevo:** W48-01 (Black Friday, regla de las 48 h; 24 nov) lleva 58 vistas y 7 de alcance en menos de 24 h, un 66 % por debajo de la mediana. Con tan poco alcance, el % de 3 s no vale (indicio nulo). Sigue en España (50 €, «españa»): peor que W47. Aún sin veredicto, se medirá a 3 días. Tema estacional que caduca el viernes: no repetir.
+**Lo nuevo:** W48-01 (Black Friday, regla de las 48 h) sube de 58 a 172 vistas (= mediana) y el 62,1 % pasa de los 3 s con 11,3 s de media: es el mejor retenedor de la cuenta, pero con 0 guardados y 0 compartidos. W48-02 («12 o 14 pagas», España; 25 nov, <24 h) lleva 94 vistas, un 45 % por debajo de la mediana, y el 34,7 % pasa de 3 s: el gancho de concepto vuelve a perder. Tres semanas con 0 guardados y 1 compartido en total: nadie guarda ni comparte contenido de España. Indicio fuerte para H1 (el contenido para México aún no se ha publicado).
 
 ### ESCALAR (hacer más, con variaciones)
 - *(nada todavía con datos suficientes)*

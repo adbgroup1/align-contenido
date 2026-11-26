@@ -29,3 +29,14 @@ Duración del vídeo: sin dato en Metricool.
 | W47-02 | 20 nov | 207 | 171 | 5 | 1 | 0 | 1 | 12,5 | 56,3 |
 
 *Con solo 7 de alcance, el 90,6 % no es fiable. Retención %: sin dato. Mediana IG (4 reels): 170 vistas.
+
+## Medida 26 nov 2026 (07:00) · Instagram Reels
+| ID | Subida (MX) | Vistas | Alcance | Likes | Coment. | Guard. | Comp. | Tiempo medio (s) | Pasa 3 s % |
+|---|---|---|---|---|---|---|---|---|---|
+| W48-02 (12 o 14 pagas, España; ID por deducción, <24 h) | 25 nov | 94 | 72 | 2 | 1 | 0 | 0 | 7,8 | 34,7 |
+| W48-01 (Black Friday 48 h; ~2 días) | 24 nov | 172 | 145 | 1 | 1 | 0 | 0 | 11,3 | 62,1 |
+| W47-02 (7 días) | 20 nov | 209 | 173 | 5 | 1 | 0 | 1 | 12,4 | 56,2 |
+| W47-03 (7 días) | 19 nov | 149 | 125 | 6 | 1 | 0 | 0 | 6,8 | 34,9 |
+| W47-01 (10 días) | 16 nov | 193 | 148 | 6 | 1 | 0 | 1 | 7,0 | 32,0 |
+
+Mediana IG (5 reels): 172 vistas (umbral VIRAL ×5 = 860). Retención %: sin dato. YouTube por vídeo: sin dato.
