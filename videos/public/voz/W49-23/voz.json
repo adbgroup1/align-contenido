@@ -1,0 +1,397 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "sDh3eviBhiuHKi0MjTNq",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "Pon cien pesos aquí y tienes tu primera inversión.",
+   "archivo": "hook.mp3",
+   "segundos": 2.925714,
+   "palabras": [
+    {
+     "t": "Pon",
+     "inicio": 0,
+     "fin": 0.232
+    },
+    {
+     "t": "cien",
+     "inicio": 0.279,
+     "fin": 0.453
+    },
+    {
+     "t": "pesos",
+     "inicio": 0.511,
+     "fin": 0.766
+    },
+    {
+     "t": "aquí",
+     "inicio": 0.824,
+     "fin": 1.103
+    },
+    {
+     "t": "y",
+     "inicio": 1.184,
+     "fin": 1.254
+    },
+    {
+     "t": "tienes",
+     "inicio": 1.324,
+     "fin": 1.591
+    },
+    {
+     "t": "tu",
+     "inicio": 1.625,
+     "fin": 1.695
+    },
+    {
+     "t": "primera",
+     "inicio": 1.741,
+     "fin": 2.067
+    },
+    {
+     "t": "inversión.",
+     "inicio": 2.101,
+     "fin": 2.879
+    }
+   ]
+  },
+  {
+   "id": "cete",
+   "texto": "Se los prestas al gobierno. Eso es un CETE.",
+   "archivo": "cete.mp3",
+   "segundos": 2.638367,
+   "palabras": [
+    {
+     "t": "Se",
+     "inicio": 0,
+     "fin": 0.139
+    },
+    {
+     "t": "los",
+     "inicio": 0.174,
+     "fin": 0.279
+    },
+    {
+     "t": "prestas",
+     "inicio": 0.325,
+     "fin": 0.639
+    },
+    {
+     "t": "al",
+     "inicio": 0.685,
+     "fin": 0.755
+    },
+    {
+     "t": "gobierno.",
+     "inicio": 0.789,
+     "fin": 1.324
+    },
+    {
+     "t": "Eso",
+     "inicio": 1.44,
+     "fin": 1.66
+    },
+    {
+     "t": "es",
+     "inicio": 1.695,
+     "fin": 1.753
+    },
+    {
+     "t": "un",
+     "inicio": 1.846,
+     "fin": 1.916
+    },
+    {
+     "t": "CETE.",
+     "inicio": 1.95,
+     "fin": 2.601
+    }
+   ]
+  },
+  {
+   "id": "plazo",
+   "texto": "Te los devuelve en veintiocho días…",
+   "archivo": "plazo.mp3",
+   "segundos": 1.933061,
+   "palabras": [
+    {
+     "t": "Te",
+     "inicio": 0,
+     "fin": 0.139
+    },
+    {
+     "t": "los",
+     "inicio": 0.174,
+     "fin": 0.29
+    },
+    {
+     "t": "devuelve",
+     "inicio": 0.325,
+     "fin": 0.673
+    },
+    {
+     "t": "en",
+     "inicio": 0.697,
+     "fin": 0.743
+    },
+    {
+     "t": "veintiocho",
+     "inicio": 0.789,
+     "fin": 1.242
+    },
+    {
+     "t": "días…",
+     "inicio": 1.289,
+     "fin": 1.904
+    }
+   ]
+  },
+  {
+   "id": "centavos",
+   "texto": "…con cuarenta y siete centavos de intereses.",
+   "archivo": "centavos.mp3",
+   "segundos": 2.76898,
+   "palabras": [
+    {
+     "t": "…con",
+     "inicio": 0,
+     "fin": 0.29
+    },
+    {
+     "t": "cuarenta",
+     "inicio": 0.348,
+     "fin": 0.697
+    },
+    {
+     "t": "y",
+     "inicio": 0.731,
+     "fin": 0.755
+    },
+    {
+     "t": "siete",
+     "inicio": 0.789,
+     "fin": 1.068
+    },
+    {
+     "t": "centavos",
+     "inicio": 1.103,
+     "fin": 1.602
+    },
+    {
+     "t": "de",
+     "inicio": 1.625,
+     "fin": 1.672
+    },
+    {
+     "t": "intereses.",
+     "inicio": 1.707,
+     "fin": 2.74
+    }
+   ]
+  },
+  {
+   "id": "torre",
+   "texto": "Los vuelves a meter. Y cada quincena, cien más.",
+   "archivo": "torre.mp3",
+   "segundos": 4.022857,
+   "palabras": [
+    {
+     "t": "Los",
+     "inicio": 0,
+     "fin": 0.186
+    },
+    {
+     "t": "vuelves",
+     "inicio": 0.232,
+     "fin": 0.546
+    },
+    {
+     "t": "a",
+     "inicio": 0.604,
+     "fin": 0.627
+    },
+    {
+     "t": "meter.",
+     "inicio": 0.673,
+     "fin": 1.184
+    },
+    {
+     "t": "Y",
+     "inicio": 1.451,
+     "fin": 1.533
+    },
+    {
+     "t": "cada",
+     "inicio": 1.625,
+     "fin": 1.846
+    },
+    {
+     "t": "quincena,",
+     "inicio": 1.904,
+     "fin": 2.612
+    },
+    {
+     "t": "cien",
+     "inicio": 2.728,
+     "fin": 3.053
+    },
+    {
+     "t": "más.",
+     "inicio": 3.111,
+     "fin": 3.994
+    }
+   ]
+  },
+  {
+   "id": "wow",
+   "texto": "Al año: dos mil cuatrocientos setenta y seis pesos. Y el que le presta al gobierno… eres tú.",
+   "archivo": "wow.mp3",
+   "segundos": 6.765714,
+   "palabras": [
+    {
+     "t": "Al",
+     "inicio": 0,
+     "fin": 0.186
+    },
+    {
+     "t": "año:",
+     "inicio": 0.221,
+     "fin": 0.673
+    },
+    {
+     "t": "dos",
+     "inicio": 0.836,
+     "fin": 1.045
+    },
+    {
+     "t": "mil",
+     "inicio": 1.115,
+     "fin": 1.265
+    },
+    {
+     "t": "cuatrocientos",
+     "inicio": 1.312,
+     "fin": 1.985
+    },
+    {
+     "t": "setenta",
+     "inicio": 2.009,
+     "fin": 2.461
+    },
+    {
+     "t": "y",
+     "inicio": 2.496,
+     "fin": 2.519
+    },
+    {
+     "t": "seis",
+     "inicio": 2.577,
+     "fin": 2.798
+    },
+    {
+     "t": "pesos.",
+     "inicio": 2.856,
+     "fin": 3.448
+    },
+    {
+     "t": "Y",
+     "inicio": 3.611,
+     "fin": 3.692
+    },
+    {
+     "t": "el",
+     "inicio": 3.75,
+     "fin": 3.808
+    },
+    {
+     "t": "que",
+     "inicio": 3.866,
+     "fin": 3.936
+    },
+    {
+     "t": "le",
+     "inicio": 3.982,
+     "fin": 4.052
+    },
+    {
+     "t": "presta",
+     "inicio": 4.098,
+     "fin": 4.412
+    },
+    {
+     "t": "al",
+     "inicio": 4.447,
+     "fin": 4.505
+    },
+    {
+     "t": "gobierno…",
+     "inicio": 4.551,
+     "fin": 5.294
+    },
+    {
+     "t": "eres",
+     "inicio": 5.608,
+     "fin": 5.909
+    },
+    {
+     "t": "tú.",
+     "inicio": 5.968,
+     "fin": 6.734
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Mándaselo a quien cree que invertir es de ricos.",
+   "archivo": "cta.mp3",
+   "segundos": 2.742857,
+   "palabras": [
+    {
+     "t": "Mándaselo",
+     "inicio": 0,
+     "fin": 0.604
+    },
+    {
+     "t": "a",
+     "inicio": 0.639,
+     "fin": 0.662
+    },
+    {
+     "t": "quien",
+     "inicio": 0.708,
+     "fin": 0.848
+    },
+    {
+     "t": "cree",
+     "inicio": 0.906,
+     "fin": 1.08
+    },
+    {
+     "t": "que",
+     "inicio": 1.126,
+     "fin": 1.196
+    },
+    {
+     "t": "invertir",
+     "inicio": 1.231,
+     "fin": 1.649
+    },
+    {
+     "t": "es",
+     "inicio": 1.695,
+     "fin": 1.753
+    },
+    {
+     "t": "de",
+     "inicio": 1.788,
+     "fin": 1.846
+    },
+    {
+     "t": "ricos.",
+     "inicio": 1.916,
+     "fin": 2.694
+    }
+   ]
+  }
+ ]
+}

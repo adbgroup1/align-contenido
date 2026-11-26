@@ -1,0 +1,269 @@
+{
+ "proveedor": "elevenlabs",
+ "voz": "9Godp7dNohUvXk6qp0gS",
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "«Te lo paso el lunes, primo.»",
+   "archivo": "hook.mp3",
+   "segundos": 2.403265,
+   "palabras": [
+    {
+     "t": "«Te",
+     "inicio": 0,
+     "fin": 0.232
+    },
+    {
+     "t": "lo",
+     "inicio": 0.255,
+     "fin": 0.325
+    },
+    {
+     "t": "paso",
+     "inicio": 0.383,
+     "fin": 0.592
+    },
+    {
+     "t": "el",
+     "inicio": 0.627,
+     "fin": 0.685
+    },
+    {
+     "t": "lunes,",
+     "inicio": 0.743,
+     "fin": 1.161
+    },
+    {
+     "t": "primo.»",
+     "inicio": 1.184,
+     "fin": 2.368
+    }
+   ]
+  },
+  {
+   "id": "d7",
+   "texto": "Día siete: «es que no ha caído la quincena».",
+   "archivo": "d7.mp3",
+   "segundos": 3.186939,
+   "palabras": [
+    {
+     "t": "Día",
+     "inicio": 0,
+     "fin": 0.255
+    },
+    {
+     "t": "siete:",
+     "inicio": 0.313,
+     "fin": 0.894
+    },
+    {
+     "t": "«es",
+     "inicio": 1.057,
+     "fin": 1.277
+    },
+    {
+     "t": "que",
+     "inicio": 1.324,
+     "fin": 1.393
+    },
+    {
+     "t": "no",
+     "inicio": 1.451,
+     "fin": 1.521
+    },
+    {
+     "t": "ha",
+     "inicio": 1.556,
+     "fin": 1.602
+    },
+    {
+     "t": "caído",
+     "inicio": 1.649,
+     "fin": 1.985
+    },
+    {
+     "t": "la",
+     "inicio": 2.043,
+     "fin": 2.113
+    },
+    {
+     "t": "quincena».",
+     "inicio": 2.159,
+     "fin": 3.158
+    }
+   ]
+  },
+  {
+   "id": "d15",
+   "texto": "Día quince: «pásame tu CLABE».",
+   "archivo": "d15.mp3",
+   "segundos": 2.115918,
+   "palabras": [
+    {
+     "t": "Día",
+     "inicio": 0,
+     "fin": 0.221
+    },
+    {
+     "t": "quince:",
+     "inicio": 0.279,
+     "fin": 0.592
+    },
+    {
+     "t": "«pásame",
+     "inicio": 0.627,
+     "fin": 1.126
+    },
+    {
+     "t": "tu",
+     "inicio": 1.173,
+     "fin": 1.265
+    },
+    {
+     "t": "CLABE».",
+     "inicio": 1.312,
+     "fin": 2.09
+    }
+   ]
+  },
+  {
+   "id": "d40",
+   "texto": "Día cuarenta: «ahorita».",
+   "archivo": "d40.mp3",
+   "segundos": 2.168163,
+   "palabras": [
+    {
+     "t": "Día",
+     "inicio": 0,
+     "fin": 0.221
+    },
+    {
+     "t": "cuarenta:",
+     "inicio": 0.279,
+     "fin": 0.871
+    },
+    {
+     "t": "«ahorita».",
+     "inicio": 0.894,
+     "fin": 2.136
+    }
+   ]
+  },
+  {
+   "id": "d90",
+   "texto": "Día noventa: Beto sube historia desde la playa.",
+   "archivo": "d90.mp3",
+   "segundos": 3.186939,
+   "palabras": [
+    {
+     "t": "Día",
+     "inicio": 0,
+     "fin": 0.244
+    },
+    {
+     "t": "noventa:",
+     "inicio": 0.313,
+     "fin": 0.789
+    },
+    {
+     "t": "Beto",
+     "inicio": 1.207,
+     "fin": 1.474
+    },
+    {
+     "t": "sube",
+     "inicio": 1.521,
+     "fin": 1.683
+    },
+    {
+     "t": "historia",
+     "inicio": 1.718,
+     "fin": 2.125
+    },
+    {
+     "t": "desde",
+     "inicio": 2.148,
+     "fin": 2.287
+    },
+    {
+     "t": "la",
+     "inicio": 2.334,
+     "fin": 2.403
+    },
+    {
+     "t": "playa.",
+     "inicio": 2.438,
+     "fin": 3.158
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "texto": "Presta solo lo que podrías regalar. Mándaselo a tu primo: él sabe.",
+   "archivo": "cta.mp3",
+   "segundos": 3.709388,
+   "palabras": [
+    {
+     "t": "Presta",
+     "inicio": 0,
+     "fin": 0.348
+    },
+    {
+     "t": "solo",
+     "inicio": 0.395,
+     "fin": 0.592
+    },
+    {
+     "t": "lo",
+     "inicio": 0.627,
+     "fin": 0.697
+    },
+    {
+     "t": "que",
+     "inicio": 0.743,
+     "fin": 0.813
+    },
+    {
+     "t": "podrías",
+     "inicio": 0.859,
+     "fin": 1.173
+    },
+    {
+     "t": "regalar.",
+     "inicio": 1.219,
+     "fin": 1.602
+    },
+    {
+     "t": "Mándaselo",
+     "inicio": 1.637,
+     "fin": 2.09
+    },
+    {
+     "t": "a",
+     "inicio": 2.113,
+     "fin": 2.136
+    },
+    {
+     "t": "tu",
+     "inicio": 2.183,
+     "fin": 2.264
+    },
+    {
+     "t": "primo:",
+     "inicio": 2.31,
+     "fin": 2.763
+    },
+    {
+     "t": "él",
+     "inicio": 2.833,
+     "fin": 2.972
+    },
+    {
+     "t": "sabe.",
+     "inicio": 3.019,
+     "fin": 3.669
+    }
+   ]
+  }
+ ]
+}

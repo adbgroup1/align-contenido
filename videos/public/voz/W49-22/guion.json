@@ -1,0 +1,8 @@
+{ "escenas": [
+  { "id": "hook", "texto": "«Te lo paso el lunes, primo.»" },
+  { "id": "d7", "texto": "Día siete: «es que no ha caído la quincena»." },
+  { "id": "d15", "texto": "Día quince: «pásame tu CLABE»." },
+  { "id": "d40", "texto": "Día cuarenta: «ahorita»." },
+  { "id": "d90", "texto": "Día noventa: Beto sube historia desde la playa." },
+  { "id": "cta", "texto": "Presta solo lo que podrías regalar. Mándaselo a tu primo: él sabe." }
+] }

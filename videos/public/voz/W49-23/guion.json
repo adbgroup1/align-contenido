@@ -1,0 +1,9 @@
+{ "escenas": [
+  { "id": "hook", "texto": "Pon cien pesos aquí y tienes tu primera inversión." },
+  { "id": "cete", "texto": "Se los prestas al gobierno. Eso es un CETE." },
+  { "id": "plazo", "texto": "Te los devuelve en veintiocho días…" },
+  { "id": "centavos", "texto": "…con cuarenta y siete centavos de intereses." },
+  { "id": "torre", "texto": "Los vuelves a meter. Y cada quincena, cien más." },
+  { "id": "wow", "texto": "Al año: dos mil cuatrocientos setenta y seis pesos. Y el que le presta al gobierno… eres tú." },
+  { "id": "cta", "texto": "Mándaselo a quien cree que invertir es de ricos." }
+] }
