@@ -43,7 +43,7 @@ const Hormiga: React.FC<{
   const cuerpo = "#1F2937";
   const brazo = saluda ? Math.sin(t * 12) * 25 : 0;
   return (
-    <div style={{ position: "absolute", left: x - 110 * escala, top: y - 190 * escala - bote, width: 220 * escala, height: 190 * escala, transform: `scaleX(${mira})` }}>
+    <div style={{ position: "absolute", left: x - 110 * escala, top: y - 190 * escala - bote, width: 220 * escala, height: 190 * escala, transform: `scaleX(${-mira})` }}>
       <svg width={220 * escala} height={190 * escala} viewBox="0 0 220 190" style={{ overflow: "visible" }}>
         <ellipse cx={110} cy={186} rx={80} ry={6} fill="#000" opacity={0.2} />
         {/* patas */}
@@ -184,8 +184,8 @@ const Gancho: React.FC<{ congelar?: boolean }> = ({ congelar }) => {
     <>
       <Escenario tipo="campo" />
       <Rotulo texto="Los gastos hormiga son **literales** 🐜" delay={congelar ? -2 : -0.5} size={58} />
-      <Bolillo x={760} mordidas={1} />
-      <Hormiga x={interpolate(tt, [0, 2.5], [520, 230])} tipo="cafe" miga escala={1.3} />
+      <Bolillo x={700} mordidas={1} escala={1.35} />
+      <Hormiga x={interpolate(tt, [0, 2.5], [330, 130])} tipo="cafe" miga escala={1.6} semilla={0.5} />
     </>
   );
 };
@@ -204,7 +204,7 @@ const Cafe = () => {
     <Escena luz="#166534">
       <Escenario tipo="campo" />
       <Rotulo texto="☕ **$45** al día" size={66} />
-      <Hormiga x={560} escala={2.3} tipo="cafe" anda={false} mira={1} saluda />
+      <Hormiga x={560} escala={2.3} tipo="cafe" anda={false} mira={1} saluda semilla={0.5} />
       <Contador pasos={[[0, 0], [1.2, 450]]} />
       <div style={{ position: "absolute", left: 90, top: 600, opacity: interpolate(t, [1.2, 1.5], [0, 1], clamp) }}>
         <Pildora size={30}>× 10 días hábiles</Pildora>
@@ -243,8 +243,8 @@ const Oxxo = () => {
       <Escenario tipo="campo" tarde={0.3} />
       <Rotulo texto="🏪 **$30** al día · 🛵 **$40** por envío" size={52} />
       <Bolillo x={830} mordidas={2} escala={0.85} />
-      <Hormiga x={interpolate(t, [0, 0.8], [1250, 560], { ...clamp, easing: (x) => 1 - (1 - x) ** 2 }) - Math.max(0, t - 1.5) * 90} tipo="bolsa" escala={1.4} miga={t > 0.8} />
-      <Hormiga x={interpolate(t, [1.6, 2.4], [1300, 760], { ...clamp, easing: (x) => 1 - (1 - x) ** 2 })} y={PISO - 30} tipo="repartidor" escala={1.3} semilla={2} miga={t > 2.4} />
+      <Hormiga x={interpolate(t, [0, 0.8], [1250, 560], { ...clamp, easing: (x) => 1 - (1 - x) ** 2 }) - Math.max(0, t - 1.5) * 90} tipo="bolsa" escala={1.6} miga={t > 0.8} />
+      <Hormiga x={interpolate(t, [1.6, 2.4], [1300, 760], { ...clamp, easing: (x) => 1 - (1 - x) ** 2 })} y={PISO - 30} tipo="repartidor" escala={1.5} semilla={2} miga={t > 2.4} />
       <Contador pasos={[[0, 450], [0.85, 900], [2.85, 1060]]} />
       <Sfx s="pop" volumen={0.4} en={0.85} />
       <Sfx s="pop" volumen={0.4} en={2.85} />
@@ -259,7 +259,7 @@ const Sub = () => {
       <Escenario tipo="campo" tarde={0.6} />
       <Rotulo texto="😴 la suscripción que **ni usas**" size={58} />
       <Bolillo x={830} mordidas={3} escala={0.85} />
-      <Hormiga x={interpolate(t, [0, 3], [700, 380])} tipo="pijama" escala={1.6} ojos="dormida" miga={t > 0.3} semilla={3} />
+      <Hormiga x={interpolate(t, [0, 3], [700, 380])} tipo="pijama" escala={1.9} ojos="dormida" miga={t > 0.3} semilla={3} />
       {[0, 1, 2].map((i) => {
         const k = ((t * 0.8 + i / 3) % 1);
         return (
@@ -294,7 +294,7 @@ const Wow = () => {
           <Hormiga key={`f${i}`} x={1000 + i * 110 - avanza * 900} y={PISO + 40} escala={0.45} miga semilla={i * 0.6} />
         ))}
       </div>
-      <div style={{ position: "absolute", top: 300, left: 90, right: 120, textAlign: "center", fontFamily }}>
+      <div style={{ position: "absolute", top: 290, left: 90, right: 120, textAlign: "center", fontFamily, background: "rgba(15,23,42,0.78)", borderRadius: 36, padding: "26px 20px 30px" }}>
         <div style={{ fontSize: 54, fontWeight: 900, color: COLORS.white, textShadow: "0 4px 20px rgba(0,0,0,0.5)" }}>
           <span style={{ color: COLORS.gold }}>$1,130</span> por quincena
         </div>
