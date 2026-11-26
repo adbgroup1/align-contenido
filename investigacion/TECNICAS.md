@@ -251,3 +251,8 @@ Son ideas propias: de la referencia solo se toma el patrón.
 - **MITO → REALIDAD** repetido lámina a lámina (Skedsocial), trasladable a «mito del ahorro / de la tarjeta».
 - **Métrica:** tasa de guardados = guardados / alcance (SocialKit). CTA único de guardar, p. ej. «guárdalo para tu quincena».
 - Sin dato de carruseles MX virales concretos (IG no se abre desde la nube) → sigue pendiente verlos en el Mac.
+
+### Ronda nocturna 26 nov 2026 (fichas de Claude por datos; Gemini 503; sin dato visual)
+- **Reto con azar visible y ganador incierto («Unboxing Challenge», dados, canicas)** — Por implementar. Aparece en 5 fichas (QQnblvnZAuc 18,8 M, RRsVqn5IXTM 12 M, k505yJ7aCCg 7,9 M, RVOi1zgJ38g 4,2 M, zYVJytpV2aU 5,2 M, de 4–5 canales distintos, algunos de 48–89 k subs). Retiene por el suspense de «quién gana». Receta: cajas/torres en cuadrícula, resultado por dados o caída de canica, contador. Apunta a H16 (y H12).
+- **Sonido como contenido («cómo suena X en cada país/día»)** — 2 fichas (psQzp5qSKqc 4,6 M; zYVJytpV2aU 5,2 M). Refuerza H11. No vale como técnica visual hasta verlas con Gemini.
+- **Historia con enigma de objeto cotidiano + «se rieron de él… hasta que»** — 1 ficha de ratio extremo (cmis4CPFHx0, 2.489). Todavía menos de 3 fichas: seguir mirando.
