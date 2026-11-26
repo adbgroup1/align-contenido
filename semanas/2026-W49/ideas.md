@@ -434,3 +434,148 @@ W49-10), colchón (W49-08), tanda (W49-09), MSI (W49-11) y el día 3 de la quinc
 1. Idea 3 (muro de la deuda, H12) · 2. Idea 1 (casillas, H10) · 3. Idea 5 (hormigas, H13) · 4. Idea 2 (quincena con
 sonido, H11) · 5. Idea 4 (intercambio, H9) · 6. Idea 6 (carrusel 100 pesos, H3/H14). **Fuera:** Idea 7: mismo tema
 que la 3 y H5 ya lo prueba W49-07; queda en la bolsa (si H12 sale mal, se prueba el tema en A/B).
+
+---
+
+# Tanda 4
+
+Agente 2 (estratega) · jueves 26 nov 2026 · **tanda extra pedida por Andrés** (buzón `20261126-112100-andres.md`):
+descartó W49-02, W48-03 y W48-04 y la cola se vacía el 30 nov. IDs desde **W49-19**. Sin repetir temas de W49-07 a
+W49-18 (aguinaldo, colchón, tanda, día 3, MSI, intercambio, pagar el mínimo, casillas de ahorro, gastos hormiga,
+quincena con sonido, ENIGH).
+
+## Contexto (lo que manda el tablero y el buzón)
+
+- **EXPERIMENTOS.md (26 nov):** nada ESCALA ni se MATA (mediana IG 172). **W48-01 es el mejor retenedor (62 % pasa
+  de 3 s)** y abre con el conflicto ya pasando; los ganchos de concepto pierden a 2 de cada 3. → **todas** las ideas
+  abren con el conflicto visible en el fotograma 0.
+- **Andrés pide abrir H15 y H16**, que no tienen vídeo. H15 (objeto de la cartera + «se reía… hasta que», ficha
+  cmis4CPFHx0, 1,6 M con 652 subs) → Idea 1. H16 (azar visible: cajas, dados, canicas; 4 canales con 4–19 M) →
+  Ideas 2 y 3. **H17** (noticia de México de la semana; delxjzjFMl0, ratio 185) → Idea 7, porque esta semana la
+  Conasami discute el salario mínimo 2027.
+- **Fichas de Andrés vistas el 25 nov:** «Construye una rodilla desde cero» (su nota: «son los más virales y los
+  mejores: hay que recrearlos») → Idea 5. Cash-out refinance y S&P 500: no encajan con México sin vender productos;
+  quedan en la bolsa.
+- **Cartera:** 3 EXPLOTAR (4, 5, 6) + 4 EXPLORAR (1, 2, 3, 7). Más exploración de lo normal a propósito: el buzón
+  pide abrir hipótesis sin vídeo. 7 reels de 12 a 22 s (sin carrusel: W49-11 aún no tiene datos y W49-18 está de
+  reserva).
+- **Imagen o dibujo:** todo `DIBUJO:` (cajas, canicas, monedas, personajes). Ninguna depende de ChatGPT.
+
+---
+
+## Idea 1 · El millón de Don Chema (y los tres ceros que le quitaron)
+
+- **Apuesta:** EXPLORAR · **Hipótesis:** H15 (objeto de la cartera + personaje «se reía… hasta que»)
+- **Pieza:** Reel · **Formato:** Historia con enigma de un objeto (el billete) + giro · **Duración:** ~20 s
+- **CTA:** COMENTAR («¿Tus papás o abuelos se acuerdan de los billetes de 100 mil?»)
+- **Gancho:** fotograma 0: Don Chema (señor bigotón con sombrero) abraza un fajo que dice **$1,000,000**; un sello
+  rojo «−000» cae encima y el fajo ahora dice **$1,000**. Texto: «En 1993 a este señor le quitaron tres ceros».
+  Para el scroll porque se ve el robo antes de entenderlo.
+- **Desarrollo:** Don Chema se reía del banco («mi lana, en mi colchón») → 1 de enero de 1993: mil pesos viejos =
+  un nuevo peso → **pero el sello no le quitó nada**: el valor ya se lo había comido la inflación (en 1987 los
+  precios subieron 159 % en un solo año).
+- **Wow:** «Los tres ceros no te los quita el gobierno: te los quita la inflación, poquito a poco».
+- **Broma:** el colchón de Don Chema tiene una polilla que se come los billetes (la inflación hecha bicho) y eructa.
+- **Patrón:** ficha cmis4CPFHx0 «Why Your Coins Have Ridges» (1,6 M, ratio 2.489): enigma de un objeto cotidiano +
+  personaje del que se burlan + giro. Historia, objeto y guion propios (México, 1993).
+- **Datos:** 1.000 pesos = 1 nuevo peso desde el 1 ene 1993 (decreto DOF 22 jun 1992) [Banxico / El CEO, Expansión];
+  inflación de 1987: 159,2 % [INEGI, citado en tesis UNAM]; inflación anual 1.ª quincena de julio 2026: 3,10 % [INEGI].
+
+## Idea 2 · Tres cajas: ¿cuál te llevas?
+
+- **Apuesta:** EXPLORAR · **Hipótesis:** H16 (azar visible) + H7 (CTA de comentar con una letra)
+- **Pieza:** Reel · **Formato:** Dilema con cajas misteriosas + volado · **Duración:** ~18 s
+- **CTA:** COMENTAR («A, B o C») · fijado: «¿Y si la C te deja sin renta, la sigues eligiendo?»
+- **Gancho:** tres cajas que tiemblan en fila con «A», «B», «C» y un contador «Elige en 3… 2…». Texto: «Solo
+  puedes abrir una».
+- **Desarrollo:** se abren: A = $10,000 hoy; B = $1,000 al mes durante un año ($12,000); C = un volado: $25,000 o
+  $0. Cuentas rápidas en pantalla: C vale más «en promedio» ($12,500)… pero la mitad de las veces te quedas en cero.
+- **Wow:** «La mejor caja no es la que más da: es la que puedes aguantar perder. Eso se llama riesgo».
+- **Broma:** el volado gira, gira… y cae **de canto**. «Ni el destino quiere decidir por ti».
+- **Patrón:** «Unboxing Challenge» (QQnblvnZAuc 18,8 M; RRsVqn5IXTM 12 M): cajas que se abren y ganador incierto.
+  Cajas, cantidades y guion propios.
+- **Datos:** ninguno externo (ejemplo). 0,5 × 25,000 = 12,500; 12 × 1,000 = 12,000.
+
+## Idea 3 · Carrera de canicas: ¿quién se cobra primero tu quincena?
+
+- **Apuesta:** EXPLORAR · **Hipótesis:** H16 (reto con azar visible y ganador incierto)
+- **Pieza:** Reel · **Formato:** Carrera de canicas (satisfying) + contador · **Duración:** ~20 s
+- **CTA:** COMENTAR («¿Cuál canica gana en tu casa?») + COMPARTIR implícito
+- **Gancho:** cuatro canicas ya cayendo por un tablero de clavos: Renta (azul), Tarjeta (roja), Antojos (amarilla) y
+  Ahorro (verde). Abajo, una cubeta con «Quincena $6,000». Texto: «La que llega primero, se cobra primero».
+- **Desarrollo:** Renta llega y se lleva $2,500, Tarjeta $1,800, Antojos $1,700 (rebota en todos los clavos del
+  Oxxo)… Ahorro se atora en un clavo que dice «ahorita». Llega: $0.
+- **Wow:** repetición: «Ahora suelta al Ahorro antes que a las demás». Sale primero, se lleva $600 y las demás se
+  ajustan. «Págate primero: es la única carrera que puedes arreglar».
+- **Broma:** la canica de Antojos va en zigzag, con lentes de sol y un vaso de café.
+- **Patrón:** fichas zYVJytpV2aU (canicas, 5,2 M) y RRsVqn5IXTM (¿quién gana?, 12 M). Tablero, canicas y guion propios.
+- **Datos:** ninguno externo (ejemplo; 2,500 + 1,800 + 1,700 = 6,000; con ahorro: 600 + 2,500 + 1,500 + 1,400).
+
+## Idea 4 · A/B: ahorro voluntario en tu Afore, ¿a los 25 o a los 35?
+
+- **Apuesta:** EXPLOTAR (W47-02, nuestro mejor indicio, pero con cifras de México) · **Hipótesis:** H5 + H1 (el mismo
+  formato que funcionó en España, ahora localizado: comparación directa)
+- **Pieza:** Reel · **Formato:** A/B en pantalla partida · **Duración:** ~18 s
+- **CTA:** COMENTAR («¿Cuántos años tienes?»)
+- **Gancho:** pantalla partida, dos frijoles idénticos con su alcancía; arriba «25» y «35». Texto: «Mismos $500 al
+  mes. ¿Quién llega con más a los 65?».
+- **Wow:** a los 65: **$763,010** frente a **$416,129** (Ejemplo hipotético, 5 % anual). El de 25 puso solo $60,000
+  más.
+- **Broma:** el de 35 pasa los 10 años de diferencia «pensándolo» en una hamaca.
+- **Patrón:** W47-02 (A/B con una decisión de edad, 56 % pasa de 3 s).
+- **Datos:** cálculo propio, fórmula de valor futuro de una renta mensual (5 %/12, 480 y 360 meses).
+- **Nota:** queda fuera del guion: H5 ya lo prueba W49-07 esta semana. En la bolsa para cuando W49-07 dé datos.
+
+## Idea 5 · Construye tu primera inversión desde cero (con $100)
+
+- **Apuesta:** EXPLOTAR (favorito de Andrés; ficha suya «rodilla desde cero») · **Hipótesis:** H2
+- **Pieza:** Reel · **Formato:** Construye desde cero (plano fijo, una pieza por frase) · **Duración:** ~20 s
+- **CTA:** COMPARTIR («mándaselo a quien cree que invertir es de ricos»)
+- **Gancho:** fotograma 0: una sola moneda de $100 sobre una mesa vacía y una vocecita se ríe: «¿Y eso qué?».
+  Texto: «Pon $100 aquí y tienes tu primera inversión».
+- **Piezas:** 1) $100 · 2) se los prestas al gobierno (eso es un CETE) · 3) plazo de 28 días (calendario que se
+  arranca) · 4) te los devuelve con intereses: **46 centavos** (Ejemplo hipotético al 6 %) — risas · 5) los vuelves
+  a meter solitos (flecha circular) · 6) +$100 cada quincena.
+- **Wow:** al año, la torre de monedas: **$2,476** (Ejemplo hipotético). «Y ya le prestas al gobierno. Tú».
+- **Broma:** los 46 centavos ni para el chicle; la vocecita que se reía al final pide prestado.
+- **Patrón:** ficha de Andrés ig-Df5b59POgak («Construye una rodilla desde cero»). Objeto y guion propios.
+- **Datos:** mínimo de $100 en la plataforma oficial del gobierno [gob.mx, «Aprende a invertir cetesdirecto»]; CETES a
+  28 días en 6,49 % (1 sep 2026) [Expansión]; Banxico bajó su tasa a 6,25 % el 5 nov [Bloomberg Línea]. El 6 % es
+  ejemplo hipotético. Cálculo: 100 × 0,06 × 28/360 = 0,47; 24 quincenas de $100 al 6 %/24 = 2,476.
+
+## Idea 6 · Le presté $500 a mi primo «hasta el lunes»
+
+- **Apuesta:** EXPLOTAR (Historia con personaje + contador, como W49-17; tema que todos han vivido) · **Hipótesis:** H9
+- **Pieza:** Reel · **Formato:** Historia con personaje + contador de días · **Duración:** ~18 s
+- **CTA:** COMPARTIR («mándaselo a tu primo, él sabe»)
+- **Gancho:** Lalo (frijol naranja) le da un billete de $500 a su primo Beto (frijol verde con gorra para atrás).
+  Esquina: «Día 1». Beto: «Te lo paso el lunes, primo».
+- **Desarrollo:** el contador corre: Día 7 «no ha caído la quincena» → Día 15 «pásame tu CLABE» (Lalo la manda tres
+  veces) → Día 40 «ahorita» → Día 90: Beto sube historia desde la playa.
+- **Wow:** el billete de $500 aparece en la historia de Beto, con lentes de sol.
+- **Cierre:** «Regla: presta solo lo que podrías regalar. Así, si vuelve, es ganancia».
+- **Patrón:** ficha l0c0a4SAxyA («Don Ahorrín prestó $500 hasta el lunes», señal débil pero tema MX) + TECNICAS.md
+  «Historia con personaje» + contador. Personajes y guion propios.
+- **Datos:** ninguno externo.
+
+## Idea 7 · ¿Cuánto te suben en 2027? (el salario mínimo, esta semana)
+
+- **Apuesta:** EXPLORAR · **Hipótesis:** H17 (noticia económica de México de la semana con pregunta y cifra en pesos)
+- **Pieza:** Reel · **Formato:** Noticia + quiz para comentar · **Duración:** ~15 s
+- **CTA:** COMENTAR («¿10, 12 o 15 %?»)
+- **Gancho:** un recibo de nómina con «$315.04 al día» y una flecha que tiembla hacia arriba con «¿?». Texto:
+  «Esta semana se decide cuánto te suben».
+- **Desarrollo:** hoy: $315.04 al día, unos $9,577 al mes. La Conasami discute el aumento; hablan de 10 a 15 %. Tres
+  botones: 10 % = $346.54 · 12 % = $352.84 · 15 % = $362.30 al día.
+- **Wow:** «Y ojo: si los precios suben 3 % y tu sueldo no, en realidad te bajaron el sueldo».
+- **Broma:** el recibo de nómina cruza los dedos.
+- **Patrón:** ficha delxjzjFMl0 (noticia MX con pregunta, 153 k con 829 subs) e iEJ5RBFB-5A (493 k).
+- **Datos:** salario mínimo general 2026: $315.04 diarios [Conasami, vía Uno TV / Crónica 17 nov 2026]; sesión de la
+  Conasami y rango de 10–15 % estimado por su presidente [Uno TV, 17 nov 2026]. Caduca: hay que publicarlo antes del
+  anuncio (primera semana de diciembre) o actualizarlo con la cifra oficial.
+
+## Prioridad para el guion (las 6)
+
+1. Idea 1 (Don Chema, H15) · 2. Idea 2 (tres cajas, H16 + H7) · 3. Idea 3 (canicas, H16) · 4. Idea 6 (primo, H9) ·
+5. Idea 5 (primera inversión, H2) · 6. Idea 7 (salario mínimo, H17). **Fuera:** Idea 4 (A/B Afore): H5 ya la prueba
+W49-07; queda en la bolsa.
