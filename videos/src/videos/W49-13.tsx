@@ -29,7 +29,7 @@ const Hud: React.FC<{ vida: number; nivel?: string }> = ({ vida, nivel = "NIVEL 
   const t = useSeg();
   const k = Math.max(0, Math.min(1, vida / 5000));
   return (
-    <div style={{ position: "absolute", top: 400, left: 90, right: 120, fontFamily }}>
+    <div style={{ position: "absolute", top: 455, left: 90, right: 120, fontFamily }}>
       <div style={{ display: "flex", justifyContent: "space-between", fontSize: 30, fontWeight: 900, color: COLORS.white, letterSpacing: 3, marginBottom: 8 }}>
         <span>{nivel}</span>
         <span style={{ color: COLORS.red, fontVariantNumeric: "tabular-nums" }}>{pesos(vida)}</span>
@@ -160,7 +160,7 @@ const Muro: React.FC<{ grieta?: number; cae?: number; boca?: "burla" | "grita" |
 };
 
 /* ---------- El mazo ---------- */
-const Mazo: React.FC<{ ang: number; texto: string; oro?: boolean; x?: number; y?: number; escala?: number }> = ({ ang, texto, oro, x = TX + 70, y = SUELO_Y - 250, escala = 1 }) => (
+const Mazo: React.FC<{ ang: number; texto: string; oro?: boolean; x?: number; y?: number; escala?: number }> = ({ ang, texto, oro, x = TX + 120, y = SUELO_Y - 230, escala = 1 }) => (
   <div style={{ position: "absolute", left: x, top: y, width: 0, height: 0, rotate: `${ang}deg`, scale: String(escala) }}>
     <div style={{ position: "absolute", left: -12, top: -300, width: 24, height: 320, borderRadius: 12, background: "#92400E", border: "4px solid #451A03" }} />
     <div
@@ -189,8 +189,8 @@ const Mazo: React.FC<{ ang: number; texto: string; oro?: boolean; x?: number; y?
 );
 
 /** Ángulo del mazo: arriba (-60) → golpe (60) en `en` segundos. */
-const angGolpe = (t: number, en: number, desde = -70) =>
-  t < en ? interpolate(t, [0, en], [desde, -95], clamp) : interpolate(t, [en, en + 0.12, en + 0.5], [-95, 62, 50], clamp);
+const angGolpe = (t: number, en: number, desde = -25) =>
+  t < en ? interpolate(t, [0, en], [desde, -45], clamp) : interpolate(t, [en, en + 0.12, en + 0.5], [-45, 62, 54], clamp);
 
 const Destello: React.FC<{ en: number; x: number; y: number }> = ({ en, x, y }) => {
   const t = useSeg();
@@ -216,7 +216,7 @@ const Gancho: React.FC<{ congelar?: boolean }> = ({ congelar }) => {
       <Hud vida={vida} />
       <Muro grieta={tt < GOLPE ? 0 : 1} boca="burla" />
       <Personaje x={TX} y={SUELO_Y} escala={1.7} {...TONO} expresion={tt < GOLPE + 0.6 ? "enfadado" : "sorpresa"} pose="quieto" mirar="der" />
-      <Mazo ang={congelar ? -80 : angGolpe(tt, GOLPE)} texto="$250" />
+      <Mazo ang={congelar ? -25 : angGolpe(tt, GOLPE)} texto="$250" />
     </>
   );
 };
@@ -334,7 +334,7 @@ const PowerUp = () => {
       <Hud vida={5000} />
       <Muro boca="seria" />
       <Personaje x={TX} y={SUELO_Y} escala={1.7} {...TONO} expresion="feliz" pose="brazos-arriba" mirar="der" salto={0.15} />
-      <Mazo ang={-70 + Math.sin(t * 6) * 6} texto="$1,000" oro escala={0.4 + 0.6 * s} />
+      <Mazo ang={-15 + Math.sin(t * 6) * 6} texto="$1,000" oro escala={0.4 + 0.6 * s} />
       <Chispas en={0.3} x={TX + 70} y={SUELO_Y - 600} color={COLORS.gold} n={18} />
       <Sfx s="ding" volumen={0.5} en={0.25} />
       <Sfx s="ding" volumen={0.3} en={0.45} />
@@ -369,7 +369,7 @@ const Cae = () => {
       {marc < 1 ? <Hud vida={interpolate(t, [G, G + 0.4], [5000, 4000], clamp)} nivel="NIVEL 2 · POWER-UP" /> : null}
       <Muro cae={cae} boca="grita" lentes={lentes} />
       <Personaje x={TX} y={SUELO_Y} escala={1.7} {...TONO} expresion="feliz" pose="brazos-arriba" mirar="der" />
-      <Mazo ang={angGolpe(t, G, -95)} texto="$1,000" oro />
+      <Mazo ang={angGolpe(t, G, -45)} texto="$1,000" oro />
       <Destello en={G} x={MX + 80} y={MY + 150} />
       <Bocadillo texto="¡No manches!" x={800} y={MY + 60} ancho={360} size={50} delay={G + 0.35} colaX={-40} />
       <Marcador on={marc} />
