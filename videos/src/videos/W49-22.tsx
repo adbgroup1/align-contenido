@@ -165,7 +165,7 @@ const D15 = () => {
       <Escenario tipo="interior" />
       <Rotulo texto="«Pásame **tu CLABE**»" size={60} />
       <Personaje x={260} y={SUELO_Y} escala={1.5} {...LALO} expresion="preocupado" pose="senala" mirar="der" />
-      <Celular x={700} y={900} escala={0.95} rot={4}>
+      <Celular x={730} y={880} escala={1.3} rot={4}>
         <div style={{ background: COLORS.blue, color: COLORS.white, fontFamily, fontWeight: 900, fontSize: 26, padding: "12px 16px" }}>Primo Beto 🌴</div>
         {[0.4, 0.8, 1.2].map((en, i) => (
           <Chat key={i} y={80 + i * 70} on={interpolate(t, [en, en + 0.15], [0, 1], clamp)} />
@@ -200,7 +200,7 @@ const D40 = () => {
       })}
       <Personaje x={540} y={SUELO_Y} escala={1.8} {...LALO} expresion="neutral" pose="encoge" mirar="frente" />
       <Telarana x={540} y={SUELO_Y - 470} on={interpolate(t, [1.0, 1.6], [0, 1], clamp)} />
-      {t > 0.8 ? <Bocadillo texto="«Ahorita»" x={830} y={640} ancho={280} size={52} delay={0.8} colaX={-60} /> : null}
+      {t > 0.8 ? <Bocadillo texto="«Ahorita»" x={800} y={640} ancho={340} size={52} delay={0.8} colaX={-60} /> : null}
       <Dias de={15} a={40} en={0} dur={1.1} />
       <Sfx s="swoosh" volumen={0.35} en={0.1} />
       <Sfx s="pop" volumen={0.4} en={0.8} />
