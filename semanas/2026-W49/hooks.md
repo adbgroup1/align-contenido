@@ -435,3 +435,145 @@ lámina 4: es el wow que obliga a compartirlo.
   Guárdalo y haz tu propio «de cada 100» esta quincena.
   #finanzaspersonales #quincena #inegi #mexico #presupuesto
   Fuente: INEGI, ENIGH 2024. Contenido informativo, no es asesoramiento financiero.
+
+---
+
+# Tanda 4
+
+Agente 3 · 26 nov 2026 (tanda extra) · México. Regla del tablero, más fuerte que nunca: **el conflicto ya está
+pasando en el fotograma 0** (W48-01: 62 % pasa de 3 s; los ganchos de concepto pierden a 2 de cada 3). Nada de
+definiciones en la primera frase. COMENTAR con barrera mínima (una letra, un número) o COMPARTIR.
+
+## Idea 1 · El millón de Don Chema (Historia + enigma · COMENTAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Literal visual | **En 1993 a este señor le quitaron tres ceros** | Don Chema abraza un fajo «$1,000,000»; un sello rojo «−000» lo golpea y queda «$1,000» | ¿Quién y por qué? → s 6 |
+| B | Pregunta | **¿Por qué tu peso perdió tres ceros?** | Una moneda de $1 con «000» que se le caen como dientes | ¿Por qué? → s 6 |
+| C | Historia | **Se reía del banco: «mi lana, en mi colchón»** | Don Chema acostado sobre un colchón que cruje de billetes | ¿Qué le pasó? → s 5 |
+
+**Gana A.** Se ve el «robo» antes de entenderlo (conflicto en el fotograma 0) y cumple H15: objeto de la cartera +
+personaje. B es pregunta de concepto (pierde según el tablero); C tarda 3 s en llegar al conflicto. C se usa como
+segunda frase («se reía del banco… hasta que»).
+
+- **Segundo gancho (s 3–6):** «Don Chema se reía del banco… hasta que el 1 de enero de 1993 mil pesos pasaron a
+  ser un peso.»
+- **Giro (s 9–14):** «Pero ojo: el sello no le quitó nada. El valor ya se lo había comido la inflación: en 1987 todo
+  subió 159 % en un año.» La polilla del colchón eructa.
+- **Cierre:** «Los tres ceros no te los quita el gobierno: te los quita la inflación, poquito a poco.» → vuelve el
+  sello sobre un billete de hoy, que pierde un poquito de color (bucle).
+- **CTA COMENTAR:** «¿Tus papás se acuerdan de los billetes de cien mil? Pregúntales y cuéntanos.» · Fijado: «¿Qué
+  compraban con un billete de 100 mil?»
+- **Caption:**
+  En 1993 a Don Chema le quitaron tres ceros 💸 (y no fue lo peor que le pasó).
+  ¿Tus papás se acuerdan de los billetes de cien mil? Cuéntanos 👇
+  #inflacion #historiadeMexico #dinero #finanzaspersonales #mexico
+  Contenido informativo, no es asesoramiento financiero.
+
+## Idea 2 · Tres cajas: ¿cuál te llevas? (Dilema + azar · COMENTAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Imperativo + reto | **Solo puedes abrir una** | Tres cajas A, B y C que tiemblan; cuenta atrás «3… 2…» | ¿Qué hay dentro? → s 3–8 |
+| B | Pregunta | **¿$10,000 hoy o un volado por $25,000?** | Moneda girando sobre dos montones | ¿Cuál? → s 14 |
+| C | Número | **El 50 % de la gente elige mal esta caja** | Caja C con signo de interrogación | Sin dato: descartado (no hay fuente) |
+
+**Gana A.** El reto ya empezó (cuenta atrás y cajas temblando): suspense de unboxing (H16) y el espectador elige
+antes de saber. C queda fuera porque inventa un dato.
+
+- **Segundo gancho (s 3–8):** se abren una tras otra: A $10,000 hoy · B $1,000 al mes por un año · C volado:
+  $25,000 o $0. «¿Ya elegiste?»
+- **Giro (s 9–14):** en promedio la C vale $12,500… pero la mitad de las veces te deja en cero. «La mejor caja es la
+  que puedes aguantar perder. Eso se llama riesgo.»
+- **Cierre:** el volado gira y cae de canto. «Ni el destino quiere decidir por ti.» → las cajas se cierran (bucle).
+- **CTA COMENTAR:** «Pon tu letra: A, B o C.» · Fijado: «¿Y si la C te deja sin renta, la sigues eligiendo?»
+- **Caption:**
+  Solo puedes abrir una 📦📦📦 ¿Cuál te llevas? Pon tu letra 👇
+  Ejemplo. Contenido informativo, no es asesoramiento financiero.
+  #reto #dinero #finanzaspersonales #riesgo #mexico
+
+## Idea 3 · Carrera de canicas de tu quincena (Reto · COMENTAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Reto con azar | **La que llega primero, se cobra primero** | 4 canicas ya cayendo entre clavos; cubeta «Quincena $6,000» abajo | ¿Quién gana? → s 8 |
+| B | Pregunta | **¿Quién se come tu quincena primero?** | Las 4 canicas en la salida | ¿Quién? → s 8 |
+| C | POV | **POV: tu ahorro en la quincena** | Canica verde atorada en un clavo «ahorita» | ¿Sale? → s 8 |
+
+**Gana A.** El movimiento ya está pasando (canicas cayendo, sonido de clavos) y la regla se lee en una frase: el
+espectador apuesta por una canica sin darse cuenta (H16). C se usa como broma en s 6.
+
+- **Segundo gancho (s 3–7):** Renta llega primero y se lleva $2,500; Tarjeta, $1,800; Antojos, $1,700 tras rebotar
+  en todos los clavos. Ahorro, atorado en «ahorita».
+- **Giro (s 10–16):** rebobinado. «Ahora suelta al Ahorro antes que a las demás.» Llega primero: $600.
+- **Cierre:** «Págate primero: es la única carrera que puedes arreglar.» → las canicas vuelven a la salida (bucle).
+- **CTA COMENTAR:** «¿Cuál canica gana en tu casa?» · Fijado: «La amarilla, ¿verdad?»
+- **Caption:**
+  La que llega primero se cobra primero 🔵🔴🟡🟢 ¿Cuál gana en tu casa? 👇
+  Ejemplo. Contenido informativo, no es asesoramiento financiero.
+  #quincena #ahorro #finanzaspersonales #retodeahorro #mexico
+
+## Idea 6 · Le presté $500 a mi primo «hasta el lunes» (Historia + contador · COMPARTIR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Historia (cita) | **«Te lo paso el lunes, primo»** · esquina: DÍA 1 | Lalo le da el billete de $500 a Beto; el contador ya corre | ¿Lo pagó? → s 14 |
+| B | Ironía | **El lunes más largo de la historia** | Calendario que se arranca hoja tras hoja | ¿Cuánto duró? → s 14 |
+| C | Pregunta | **¿Cuántos días tarda tu primo en pagarte?** | Contador en 0 | ¿Cuántos? → s 14 |
+
+**Gana A.** La frase la ha oído todo México; el contador de días ya corriendo es el conflicto en el fotograma 0 y es
+el patrón de H9 (personaje + contador). B se usa de broma en el día 40.
+
+- **Segundo gancho (s 3–6):** DÍA 7: «Es que no ha caído la quincena.» DÍA 15: «Pásame tu CLABE.» (Lalo la manda tres
+  veces.)
+- **Wow (s 10–14):** DÍA 90: Beto sube historia desde la playa; el billete de $500 sale en la foto, con lentes.
+- **Cierre:** «Regla: presta solo lo que podrías regalar. Si vuelve, es ganancia.» → contador vuelve a «DÍA 1» (bucle).
+- **CTA COMPARTIR:** «Mándaselo a tu primo. Él sabe.»
+- **Caption:**
+  «Te lo paso el lunes, primo» 📅 Día 90 y contando.
+  Mándaselo a tu primo. Él sabe 👀
+  #prestardinero #familia #finanzaspersonales #humor #mexico
+  Contenido informativo, no es asesoramiento financiero.
+
+## Idea 5 · Construye tu primera inversión desde cero (Construye · COMPARTIR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Imperativo | **Pon $100 aquí y tienes tu primera inversión** | Una moneda de $100 cae en una mesa vacía; una vocecita: «¿Y eso qué?» | ¿Cómo? → s 3–15 |
+| B | Mito | **«Invertir es para ricos»** | Moneda solita con un sombrero de copa que se le cae | ¿Lo es? → s 15 |
+| C | Número | **46 centavos: lo que gana tu primera inversión** | Dos monedas de 20 y una de 5 centavos | ¿Y vale la pena? → s 15 |
+
+**Gana A.** Es la frase del formato que a Andrés le parece el más viral («pon esto aquí y tienes…», ficha de la
+rodilla) y la burla de la vocecita es el conflicto en el fotograma 0. C se usa como broma en la pieza 4.
+
+- **Segundo gancho (s 3–7):** «Se los prestas al gobierno. Eso es un CETE.» · «Te los devuelve en 28 días.»
+- **Broma (s 8–10):** «…con cuarenta y seis centavos de intereses.» Risas grabadas. «Ejemplo hipotético.»
+- **Cierre:** +$100 cada quincena y la torre crece: $2,476 al año (Ejemplo hipotético). «Y ya le prestas al
+  gobierno. Tú.» La vocecita se calla… y pide prestado.
+- **CTA COMPARTIR:** «Mándaselo a quien cree que invertir es de ricos.»
+- **Caption:**
+  Pon $100 aquí y tienes tu primera inversión 🪙 (sí, le prestas al gobierno).
+  Mándaselo a quien cree que invertir es de ricos.
+  #cetes #invertir #ahorro #finanzaspersonales #mexico
+  Ejemplo hipotético; las tasas cambian cada semana. Contenido informativo, no es asesoramiento financiero.
+
+## Idea 7 · ¿Cuánto te suben en 2027? (Noticia + quiz · COMENTAR)
+
+| # | Tipo | Texto 0–3 s | Se ve desde el fotograma 0 | Pregunta abierta → se cierra |
+|---|---|---|---|---|
+| A | Noticia + pregunta | **Esta semana se decide cuánto te suben** | Recibo «$315.04 al día» con una flecha que tiembla hacia arriba «¿?» | ¿Cuánto? → s 6–10 |
+| B | Número | **$315.04: tu sueldo mínimo hoy** | El recibo solo | Concepto, pierde |
+| C | Pregunta | **¿10, 12 o 15 %?** | Tres botones | Sin contexto en 1 s |
+
+**Gana A.** Es actualidad que le toca el bolsillo a millones (H17), con la flecha temblando como conflicto. B y C
+son de concepto.
+
+- **Segundo gancho (s 3–6):** «Hoy el mínimo es $315.04 al día: unos $9,577 al mes. Y hablan de subirlo entre 10 y
+  15 %.»
+- **Giro (s 9–12):** «Pero si los precios suben y tu sueldo no, en realidad te lo bajaron.»
+- **Cierre:** los tres botones parpadean; el recibo cruza los dedos.
+- **CTA COMENTAR:** «¿Cuánto crees que suben? Pon 10, 12 o 15.» · Fijado: «¿Y a ti te suben en enero?»
+- **Caption:**
+  Esta semana se decide cuánto sube el salario mínimo 2027 🧾 ¿10, 12 o 15 %? Pon tu número 👇
+  #salariominimo #sueldo #quincena #finanzaspersonales #mexico
+  Contenido informativo, no es asesoramiento financiero.
