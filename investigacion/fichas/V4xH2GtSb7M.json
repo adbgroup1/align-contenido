@@ -1,0 +1,117 @@
+{
+ "id": "V4xH2GtSb7M",
+ "url": "https://www.youtube.com/shorts/V4xH2GtSb7M",
+ "fuente": "gemini",
+ "titulo": "36 Colors JJK Pen vs 3 Painting Brushes! 😱🎨 #shortvideo",
+ "canal": "AAMS KE Fact",
+ "vistas": 26318121,
+ "ratio": 3.6,
+ "duracion_s": 57,
+ "formato": "otro",
+ "nicho": "Papelería / Demostración de producto / Entretenimiento",
+ "hook": {
+  "texto_y_visual_0_3s": "Aparición rápida de botes de rotuladores sobre la mesa que una chica arrebata de inmediato con gestos exagerados.",
+  "tecnica": "Competencia inmediata / FOMO visual de objetos atractivos",
+  "por_que_engancha": "Genera tensión cómica y curiosidad al ver la avaricia de una participante frente a la frustración de la otra."
+ },
+ "segundo_gancho": "La perdedora saca inesperadamente un estuche cilíndrico prémium de 36 marcadores que eclipsa al resto.",
+ "escenas": [
+  {
+   "desde_s": 0,
+   "hasta_s": 7,
+   "que_se_ve": "Una mano ofrece diferentes sets de pintura y la chica de blanco los acapara todos.",
+   "tecnica_visual": "Plano frontal estático con acción física acelerada"
+  },
+  {
+   "desde_s": 7,
+   "hasta_s": 18,
+   "que_se_ve": "La chica presume su botín y se burla de su compañera.",
+   "tecnica_visual": "Actuación expresiva con acting reactivo"
+  },
+  {
+   "desde_s": 18,
+   "hasta_s": 22,
+   "que_se_ve": "La otra chica revela su estuche amarillo prémium con cremallera.",
+   "tecnica_visual": "Product reveal en primer plano"
+  },
+  {
+   "desde_s": 22,
+   "hasta_s": 37,
+   "que_se_ve": "La primera chica intenta pintar un corazón pero sus ceras se rompen y manchan.",
+   "tecnica_visual": "Plano cenital/macro del fallo del producto inferior"
+  },
+  {
+   "desde_s": 37,
+   "hasta_s": 43,
+   "que_se_ve": "Apertura en abanico circular de los 36 rotuladores acrílicos.",
+   "tecnica_visual": "Close-up apetecible del packaging y variedad cromática"
+  },
+  {
+   "desde_s": 43,
+   "hasta_s": 53,
+   "que_se_ve": "Demostración de trazo fluido y relleno perfecto con el rotulador rosa.",
+   "tecnica_visual": "ASMR visual de coloreado satisfactorio en plano cenital"
+  },
+  {
+   "desde_s": 53,
+   "hasta_s": 57,
+   "que_se_ve": "Comparación lado a lado de ambos dibujos y petición de puntuación.",
+   "tecnica_visual": "Side-by-side comparison para llamada a la acción"
+  }
+ ],
+ "ritmo": {
+  "cortes_totales": 18,
+  "segundos_por_plano_medio": 3.1,
+  "comentario": "Dinámica de contraste rápido: conflicto inicial ágil, seguido de demostración táctil detallada y cierre comparativo veloz."
+ },
+ "momento_wow": {
+  "segundo": 41,
+  "que_pasa": "Apertura cenital del cilindro mostrando los 36 rotuladores perfectamente ordenados en degradado de color."
+ },
+ "cierre": {
+  "tipo": "Pregunta de valoración abierta",
+  "hace_bucle": false,
+  "cta": "Pedir calificación del 1 al 100 para el dibujo ganador"
+ },
+ "tipografia": {
+  "estilo": "Subtítulos en chino integrados con tipografía sans-serif redondeada y borde negro",
+  "animacion": "Aparición directa sincronizada con la locución",
+  "subtitulos": "Centrados en el tercio inferior, texto corto y legible"
+ },
+ "color_y_luz": "Iluminación de estudio plana y muy blanca, colores saturados en los productos para transmitir vivacidad infantil/juvenil.",
+ "camara_y_transiciones": [
+  "Corte directo entre plano medio de las caras y plano cenital de las manos",
+  "Zoom óptico ligero para enfatizar el detalle del rotulador estropeado vs el nuevo"
+ ],
+ "efectos": [
+  "Aceleración sutil de dibujo",
+  "Efectos visuales de contraste fallido vs perfecto"
+ ],
+ "graficos_y_datos": "Sin overlays de datos; el impacto visual se basa completamente en la fisicalidad de los objetos.",
+ "sonido": {
+  "voz": "Doblaje en hindi muy teatralizado con tonos agudos y burlones",
+  "musica": "Música de fondo ligera y cómica que acompaña el sketch",
+  "efectos_sonido": [
+   "Foleys de tapas abriéndose",
+   "Golpes secos de objetos sobre la mesa"
+  ],
+  "mezcla": "Voz doblada predominante en primer término con música en segundo plano"
+ },
+ "que_lo_hace_premium": [
+  "Satisfacción visual extrema (oddly satisfying) durante el coloreado fluido",
+  "Contraste narrativo claro de 'problema vs solución'",
+  "Presentación del producto de forma compacta y visualmente organizada"
+ ],
+ "nota_calidad_visual_1_10": 7,
+ "recetas_remotion": [
+  {
+   "tecnica": "Side-by-side de producto malo vs producto bueno",
+   "como_hacerlo_en_codigo": "Dividir la pantalla con AbsoluteFill y flex-direction row; aplicar animaciones de error (shake, opacidad baja) en el lado izquierdo y brillo/escala elástica en el derecho usando interpolate y spring."
+  },
+  {
+   "tecnica": "Relleno progresivo fluido tipo ASMR",
+   "como_hacerlo_en_codigo": "Animar una máscara SVG o un path con strokeDashoffset interpolado con frame para simular que un gráfico financiero (ej. barra de ahorro o tarta) se completa de forma continua y ultrasuave."
+  }
+ ],
+ "idea_para_ALIGN": "Comparar visualmente 'método tradicional de ahorro' (hucha rota, comisiones bancarias que fallan como la cera) frente a 'inversión automatizada' (gráfico limpio que se llena sin fricción), cerrando con side-by-side del patrimonio resultante."
+}

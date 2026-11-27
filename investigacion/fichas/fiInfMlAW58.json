@@ -1,0 +1,52 @@
+{
+ "id": "fiInfMlAW58",
+ "url": "https://www.youtube.com/shorts/fiInfMlAW58",
+ "titulo": "¿De qué sirve que suba el salario si la inflación ya va en 3.75%? 🚨📉 #shorts",
+ "canal": "Reynaga Capital MX",
+ "vistas": 1859,
+ "suscriptores": 829,
+ "ratio": 2.2,
+ "duracion_s": 172,
+ "formato": "Explicador con presentador, 2:52",
+ "formato_align": "Noticia",
+ "estructura": "sin dato",
+ "nicho": "Finanzas MX · Noticia de inflación",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Pregunta de agravio con cifra: «¿De qué sirve que suba el salario si la inflación ya va en 3.75%?»",
+  "tecnica": "Pregunta retórica + cifra oficial INEGI",
+  "por_que_engancha": "Noticia de esta semana con cifra y enfado; los comentarios (9) piden regular precios: debate, no dato. 1.859 vistas con 829 subs (ratio 2,2): refuerza H17 sólo a medias."
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sin dato",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "sin dato",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Cifra oficial y fecha exacta en la descripción"
+ ],
+ "nota_calidad_visual_1_10": "sin dato",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Gancho «tu quincena rinde menos»: inflación 3,75 % de octubre con el ejemplo de $10,000 que compran $7,900 en pesos (ya anotado en Indicios).",
+ "apto_align": true,
+ "region": "MX"
+}

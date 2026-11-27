@@ -1,0 +1,52 @@
+{
+ "id": "q_Lihv7teNg",
+ "url": "https://www.youtube.com/shorts/q_Lihv7teNg",
+ "titulo": "🚨 ¡Alerta financiera! México rompe récords históricos de cartera vencida 📉💳 #shorts",
+ "canal": "World Trade Latam",
+ "vistas": 9420,
+ "suscriptores": 24400,
+ "ratio": 0.4,
+ "duracion_s": 69,
+ "formato": "Noticia con presentador, 1:09",
+ "formato_align": "Noticia",
+ "estructura": "sin dato",
+ "nicho": "Finanzas MX · Deuda",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "«¡Alerta financiera! México rompe récords históricos de cartera vencida»: alarma + cifra de Banxico",
+  "tecnica": "Alarma con récord histórico",
+  "por_que_engancha": "9,4 mil vistas, 24 k subs, 90 likes (ratio 0,4): tema de alarma sin personaje ni dibujo no mueve. Los comentarios culpan al gobierno o a las tarjetas de fintech: tema de deuda sí genera opinión."
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sin dato",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "sin dato",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [
+  "Descripción con fuente Banxico"
+ ],
+ "nota_calidad_visual_1_10": "sin dato",
+ "recetas_remotion": [],
+ "idea_para_ALIGN": "Mostrar «cartera vencida récord» como 100 tarjetas en fila y N que no pagan, no como titular.",
+ "apto_align": true,
+ "region": "MX"
+}

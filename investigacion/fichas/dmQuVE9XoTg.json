@@ -1,0 +1,108 @@
+{
+ "id": "dmQuVE9XoTg",
+ "url": "https://www.youtube.com/shorts/dmQuVE9XoTg",
+ "fuente": "gemini",
+ "titulo": "Rainbow Squishies in my Fidget Collection! 🌈💕 *satisfying squishy challenge*",
+ "canal": "It’Sarah 💜",
+ "vistas": 19795148,
+ "ratio": 5,
+ "duracion_s": 15,
+ "formato": "cara + gráficos",
+ "nicho": "Sensorial / ASMR / Entretenimiento",
+ "hook": {
+  "texto_y_visual_0_3s": "Aplastamiento dinámico de cubo de gel roja con texto superior 'this is red ❤️' y canción rítmica.",
+  "tecnica": "Estímulo táctil/ASMR inmediato con código de color fuerte.",
+  "por_que_engancha": "Combina curiosidad sensorial, sonido rítmico y satisfacción visual instantánea."
+ },
+ "segundo_gancho": "Transición rápida al color azul con cambio inmediato de todos los elementos en mesa.",
+ "escenas": [
+  {
+   "desde_s": 0,
+   "hasta_s": 2.5,
+   "que_se_ve": "Sección roja: aplasta gelatina y muestra juguetes rojos.",
+   "tecnica_visual": "Jump cut, enfoque centrado en producto deformándose."
+  },
+  {
+   "desde_s": 2.5,
+   "hasta_s": 5,
+   "que_se_ve": "Sección azul: estira gel y squishy de helado azul.",
+   "tecnica_visual": "Corte directo en compás musical, cambio completo de paleta."
+  },
+  {
+   "desde_s": 5,
+   "hasta_s": 7.5,
+   "que_se_ve": "Sección verde: control de consola elástico verde.",
+   "tecnica_visual": "Deformación elástica sincronizada al beat."
+  },
+  {
+   "desde_s": 7.5,
+   "hasta_s": 10,
+   "que_se_ve": "Sección amarilla: barra de mantequilla squishy retorcida.",
+   "tecnica_visual": "Estiramiento lateral amplio rompiendo el encuadre."
+  },
+  {
+   "desde_s": 10,
+   "hasta_s": 12.5,
+   "que_se_ve": "Sección rosa: bandeja de slime y muñeco rosa.",
+   "tecnica_visual": "Interacción táctil rápida, colores pastel vibrantes."
+  },
+  {
+   "desde_s": 12.5,
+   "hasta_s": 15,
+   "que_se_ve": "Sección morada: esfera texturizada morada.",
+   "tecnica_visual": "Compresión circular centrada y corte final."
+  }
+ ],
+ "ritmo": {
+  "cortes_totales": 6,
+  "segundos_por_plano_medio": 2.5,
+  "comentario": "Sincronización exacta al ritmo de una canción de rima infantil de 4 tiempos por bloque."
+ },
+ "momento_wow": {
+  "segundo": 8,
+  "que_pasa": "La mantequilla squishy amarilla se estira y dobla drásticamente en sincronía con la voz."
+ },
+ "cierre": {
+  "tipo": "Corte seco al final de la escala de colores",
+  "hace_bucle": true,
+  "cta": "Ninguno"
+ },
+ "tipografia": {
+  "estilo": "Sans-serif redondeada blanca con sombra suave.",
+  "animacion": "Estática por escena, cambia texto y emoji según el color.",
+  "subtitulos": "Texto guía superior fijo simple ('this is [color] [emoji]')."
+ },
+ "color_y_luz": "Iluminación frontal brillante de estudio con monocromías temáticas ultra saturadas por escena.",
+ "camara_y_transiciones": [
+  "Cámara fija en plano medio vertical",
+  "Hard cuts limpios sincronizados a la pista de audio"
+ ],
+ "efectos": [
+  "Squash and stretch físico de objetos",
+  "Saturación de color controlada"
+ ],
+ "graficos_y_datos": "Solo títulos superiores de texto con emojis correspondientes.",
+ "sonido": {
+  "voz": "Voz femenina cantada infantil en métrica regular y repetitiva.",
+  "musica": "Canción infantil pegadiza estructurada en compases de 2.5 segundos.",
+  "efectos_sonido": [],
+  "mezcla": "Música/voz al 100%, sin sonido ambiental capturado."
+ },
+ "que_lo_hace_premium": [
+  "Consistencia cromática perfecta en cada set de objetos",
+  "Coordinación motriz milimétrica con el compás de la música",
+  "Iluminación limpia y clara sin sombras duras"
+ ],
+ "nota_calidad_visual_1_10": 7,
+ "recetas_remotion": [
+  {
+   "tecnica": "Segmentación cromática rítmica en código",
+   "como_hacerlo_en_codigo": "Definir un array de categorías con `color`, `title` y `durationInFrames = 75`. Iterar con `Series.Sequence` modulando fondo y tipografía."
+  },
+  {
+   "tecnica": "Efecto squash and stretch procedural en assets",
+   "como_hacerlo_en_codigo": "Usar `spring()` de Remotion alternando `scaleX` y `scaleY` inversamente en cada impacto de compás musical."
+  }
+ ],
+ "idea_para_ALIGN": "Categorizar conceptos financieros (Ej: Renta fija = azul, Acciones = verde, Cripto = morado) usando animaciones 2D 'squishy' sincronizadas a un beat rápido de 2 segundos por activo."
+}
