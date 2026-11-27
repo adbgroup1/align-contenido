@@ -68,14 +68,14 @@ const Cuentas: React.FC = () => {
             key={r}
             style={{
               position: "absolute",
-              left: 520 + (i % 2) * 30,
-              maxWidth: 410,
+              left: 545 + (i % 2) * 25,
+              whiteSpace: "nowrap",
               top: 330 + i * 110,
               rotate: `${(i % 2 ? 4 : -5) * k}deg`,
               background: "#fff",
               fontFamily: "monospace",
               fontWeight: 700,
-              fontSize: 32,
+              fontSize: 28,
               padding: "12px 18px",
               boxShadow: "0 8px 20px rgba(0,0,0,0.4)",
               opacity: k,
@@ -97,8 +97,8 @@ const Cuentas: React.FC = () => {
 const Drama: React.FC = () => (
   <AbsoluteFill>
     <Salon tono="#450A0A" />
-    <ZoomDrama en={0.2} x={540} y={880}>
-      <Aguinaldo x={540} y={900} escala={1.3} gesto="sorpresa" habla rot={0} />
+    <ZoomDrama en={0.2} x={540} y={800}>
+      <Aguinaldo x={540} y={800} escala={1.3} gesto="sorpresa" habla rot={0} />
     </ZoomDrama>
   </AbsoluteFill>
 );

@@ -1,0 +1,470 @@
+{
+ "proveedor": "elevenlabs",
+ "modelo": "eleven_v3",
+ "voz": "YKUjKbMlejgvkOZlnnvt",
+ "reparto": {
+  "narrador": "narrador",
+  "tarjeta": "villano",
+  "aguinaldo": "compa",
+  "cochinito": "abuelita"
+ },
+ "escenas": [
+  {
+   "id": "hook",
+   "personaje": "tarjeta",
+   "texto": "Ay, Aguinaldo… ¿y si nos vamos a doce meses sin intereses?",
+   "archivo": "hook.mp3",
+   "segundos": 5.564082,
+   "palabras": [
+    {
+     "t": "Ay,",
+     "inicio": 0.56,
+     "fin": 0.76
+    },
+    {
+     "t": "Aguinaldo…",
+     "inicio": 0.79,
+     "fin": 2
+    },
+    {
+     "t": "¿y",
+     "inicio": 2.04,
+     "fin": 2.16
+    },
+    {
+     "t": "si",
+     "inicio": 2.187,
+     "fin": 2.24
+    },
+    {
+     "t": "nos",
+     "inicio": 2.28,
+     "fin": 2.4
+    },
+    {
+     "t": "vamos",
+     "inicio": 2.467,
+     "fin": 2.8
+    },
+    {
+     "t": "a",
+     "inicio": 2.88,
+     "fin": 2.96
+    },
+    {
+     "t": "doce",
+     "inicio": 3.04,
+     "fin": 3.28
+    },
+    {
+     "t": "meses",
+     "inicio": 3.36,
+     "fin": 3.76
+    },
+    {
+     "t": "sin",
+     "inicio": 3.78,
+     "fin": 3.84
+    },
+    {
+     "t": "intereses?",
+     "inicio": 3.91,
+     "fin": 5.52
+    }
+   ]
+  },
+  {
+   "id": "aguinaldo",
+   "personaje": "aguinaldo",
+   "texto": "¿Sin intereses? ¡Pues sí, mi amor!",
+   "archivo": "aguinaldo.mp3",
+   "segundos": 3.239184,
+   "palabras": [
+    {
+     "t": "¿Sin",
+     "inicio": 0.18,
+     "fin": 0.24
+    },
+    {
+     "t": "intereses?",
+     "inicio": 0.33,
+     "fin": 1.36
+    },
+    {
+     "t": "¡Pues",
+     "inicio": 1.64,
+     "fin": 2.08
+    },
+    {
+     "t": "sí,",
+     "inicio": 2.16,
+     "fin": 2.4
+    },
+    {
+     "t": "mi",
+     "inicio": 2.453,
+     "fin": 2.56
+    },
+    {
+     "t": "amor!",
+     "inicio": 2.656,
+     "fin": 3.2
+    }
+   ]
+  },
+  {
+   "id": "cochinito",
+   "personaje": "cochinito",
+   "texto": "Aguinaldo… acuérdate de mí. Soy tu cochinito.",
+   "archivo": "cochinito.mp3",
+   "segundos": 4.519184,
+   "palabras": [
+    {
+     "t": "Aguinaldo…",
+     "inicio": 0.275,
+     "fin": 1.36
+    },
+    {
+     "t": "acuérdate",
+     "inicio": 1.42,
+     "fin": 2
+    },
+    {
+     "t": "de",
+     "inicio": 2.027,
+     "fin": 2.08
+    },
+    {
+     "t": "mí.",
+     "inicio": 2.187,
+     "fin": 2.401
+    },
+    {
+     "t": "Soy",
+     "inicio": 2.681,
+     "fin": 3.521
+    },
+    {
+     "t": "tu",
+     "inicio": 3.548,
+     "fin": 3.601
+    },
+    {
+     "t": "cochinito.",
+     "inicio": 3.665,
+     "fin": 4.481
+    }
+   ]
+  },
+  {
+   "id": "despues",
+   "personaje": "narrador",
+   "texto": "Doce meses después…",
+   "archivo": "despues.mp3",
+   "segundos": 1.645714,
+   "palabras": [
+    {
+     "t": "Doce",
+     "inicio": 0.293,
+     "fin": 0.48
+    },
+    {
+     "t": "meses",
+     "inicio": 0.547,
+     "fin": 0.88
+    },
+    {
+     "t": "después…",
+     "inicio": 0.97,
+     "fin": 1.6
+    }
+   ]
+  },
+  {
+   "id": "cuentas",
+   "personaje": "tarjeta",
+   "texto": "La pantalla de diciembre, el celular de enero, el viaje de Semana Santa… todos a meses. Todos al mismo tiempo.",
+   "archivo": "cuentas.mp3",
+   "segundos": 9.247347,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0.142,
+     "fin": 0.16
+    },
+    {
+     "t": "pantalla",
+     "inicio": 0.213,
+     "fin": 0.64
+    },
+    {
+     "t": "de",
+     "inicio": 0.693,
+     "fin": 0.8
+    },
+    {
+     "t": "diciembre,",
+     "inicio": 0.864,
+     "fin": 1.64
+    },
+    {
+     "t": "el",
+     "inicio": 1.707,
+     "fin": 1.84
+    },
+    {
+     "t": "celular",
+     "inicio": 1.89,
+     "fin": 2.24
+    },
+    {
+     "t": "de",
+     "inicio": 2.267,
+     "fin": 2.32
+    },
+    {
+     "t": "enero,",
+     "inicio": 2.4,
+     "fin": 3.2
+    },
+    {
+     "t": "el",
+     "inicio": 3.227,
+     "fin": 3.28
+    },
+    {
+     "t": "viaje",
+     "inicio": 3.34,
+     "fin": 3.6
+    },
+    {
+     "t": "de",
+     "inicio": 3.627,
+     "fin": 3.68
+    },
+    {
+     "t": "Semana",
+     "inicio": 3.74,
+     "fin": 4
+    },
+    {
+     "t": "Santa…",
+     "inicio": 4.187,
+     "fin": 5.4
+    },
+    {
+     "t": "todos",
+     "inicio": 5.447,
+     "fin": 5.68
+    },
+    {
+     "t": "a",
+     "inicio": 5.72,
+     "fin": 5.76
+    },
+    {
+     "t": "meses.",
+     "inicio": 5.867,
+     "fin": 6.96
+    },
+    {
+     "t": "Todos",
+     "inicio": 7.053,
+     "fin": 7.52
+    },
+    {
+     "t": "al",
+     "inicio": 7.573,
+     "fin": 7.68
+    },
+    {
+     "t": "mismo",
+     "inicio": 7.747,
+     "fin": 8.08
+    },
+    {
+     "t": "tiempo.",
+     "inicio": 8.149,
+     "fin": 9.2
+    }
+   ]
+  },
+  {
+   "id": "drama",
+   "personaje": "aguinaldo",
+   "texto": "¡¿Me estás diciendo que sigo pagando la Navidad pasada?!",
+   "archivo": "drama.mp3",
+   "segundos": 4.675918,
+   "palabras": [
+    {
+     "t": "¡¿Me",
+     "inicio": 0.06,
+     "fin": 0.16
+    },
+    {
+     "t": "estás",
+     "inicio": 0.24,
+     "fin": 0.64
+    },
+    {
+     "t": "diciendo",
+     "inicio": 0.736,
+     "fin": 1.36
+    },
+    {
+     "t": "que",
+     "inicio": 1.42,
+     "fin": 1.6
+    },
+    {
+     "t": "sigo",
+     "inicio": 1.68,
+     "fin": 2
+    },
+    {
+     "t": "pagando",
+     "inicio": 2.1,
+     "fin": 2.8
+    },
+    {
+     "t": "la",
+     "inicio": 2.853,
+     "fin": 2.96
+    },
+    {
+     "t": "Navidad",
+     "inicio": 3.02,
+     "fin": 3.52
+    },
+    {
+     "t": "pasada?!",
+     "inicio": 3.66,
+     "fin": 4.64
+    }
+   ]
+  },
+  {
+   "id": "leccion",
+   "personaje": "narrador",
+   "texto": "Los meses sin intereses no cobran intereses… pero sí se comen tus quincenas. Súmalos todos antes de firmar el siguiente.",
+   "archivo": "leccion.mp3",
+   "segundos": 8.202449,
+   "palabras": [
+    {
+     "t": "Los",
+     "inicio": 0,
+     "fin": 0.16
+    },
+    {
+     "t": "meses",
+     "inicio": 0.213,
+     "fin": 0.48
+    },
+    {
+     "t": "sin",
+     "inicio": 0.5,
+     "fin": 0.56
+    },
+    {
+     "t": "intereses",
+     "inicio": 0.62,
+     "fin": 1.2
+    },
+    {
+     "t": "no",
+     "inicio": 1.253,
+     "fin": 1.36
+    },
+    {
+     "t": "cobran",
+     "inicio": 1.42,
+     "fin": 1.68
+    },
+    {
+     "t": "intereses…",
+     "inicio": 1.75,
+     "fin": 2.561
+    },
+    {
+     "t": "pero",
+     "inicio": 2.608,
+     "fin": 2.8
+    },
+    {
+     "t": "sí",
+     "inicio": 2.88,
+     "fin": 3.04
+    },
+    {
+     "t": "se",
+     "inicio": 3.12,
+     "fin": 3.28
+    },
+    {
+     "t": "comen",
+     "inicio": 3.34,
+     "fin": 3.6
+    },
+    {
+     "t": "tus",
+     "inicio": 3.64,
+     "fin": 3.76
+    },
+    {
+     "t": "quincenas.",
+     "inicio": 3.787,
+     "fin": 4.72
+    },
+    {
+     "t": "Súmalos",
+     "inicio": 4.88,
+     "fin": 5.44
+    },
+    {
+     "t": "todos",
+     "inicio": 5.533,
+     "fin": 6
+    },
+    {
+     "t": "antes",
+     "inicio": 6.067,
+     "fin": 6.4
+    },
+    {
+     "t": "de",
+     "inicio": 6.427,
+     "fin": 6.48
+    },
+    {
+     "t": "firmar",
+     "inicio": 6.544,
+     "fin": 6.88
+    },
+    {
+     "t": "el",
+     "inicio": 6.907,
+     "fin": 6.96
+    },
+    {
+     "t": "siguiente.",
+     "inicio": 7.072,
+     "fin": 8.16
+    }
+   ]
+  },
+  {
+   "id": "continuara",
+   "personaje": "cochinito",
+   "texto": "Continuará.",
+   "archivo": "continuara.mp3",
+   "segundos": 1.306122,
+   "palabras": [
+    {
+     "t": "Continuará.",
+     "inicio": 0.594,
+     "fin": 1.28
+    }
+   ]
+  }
+ ]
+}
