@@ -1,0 +1,434 @@
+{
+ "proveedor": "elevenlabs",
+ "modelo": "eleven_v3",
+ "voz": "HxRDsm0E8jdUUrG0lqbK",
+ "reparto": {
+  "narrador": "narrador"
+ },
+ "escenas": [
+  {
+   "id": "hook",
+   "personaje": "narrador",
+   "texto": "Matemáticas de quincena. Si lo pago a doce meses, cada mes es casi gratis.",
+   "archivo": "hook.mp3",
+   "segundos": 5.250612,
+   "palabras": [
+    {
+     "t": "Matemáticas",
+     "inicio": 0.21,
+     "fin": 0.72
+    },
+    {
+     "t": "de",
+     "inicio": 0.747,
+     "fin": 0.8
+    },
+    {
+     "t": "quincena.",
+     "inicio": 0.853,
+     "fin": 1.361
+    },
+    {
+     "t": "Si",
+     "inicio": 1.547,
+     "fin": 1.92
+    },
+    {
+     "t": "lo",
+     "inicio": 1.947,
+     "fin": 2
+    },
+    {
+     "t": "pago",
+     "inicio": 2.08,
+     "fin": 2.4
+    },
+    {
+     "t": "a",
+     "inicio": 2.44,
+     "fin": 2.48
+    },
+    {
+     "t": "doce",
+     "inicio": 2.533,
+     "fin": 2.72
+    },
+    {
+     "t": "meses,",
+     "inicio": 2.787,
+     "fin": 3.36
+    },
+    {
+     "t": "cada",
+     "inicio": 3.408,
+     "fin": 3.6
+    },
+    {
+     "t": "mes",
+     "inicio": 3.72,
+     "fin": 4.08
+    },
+    {
+     "t": "es",
+     "inicio": 4.16,
+     "fin": 4.32
+    },
+    {
+     "t": "casi",
+     "inicio": 4.384,
+     "fin": 4.64
+    },
+    {
+     "t": "gratis.",
+     "inicio": 4.709,
+     "fin": 5.2
+    }
+   ]
+  },
+  {
+   "id": "oferta",
+   "personaje": "narrador",
+   "texto": "Si estaba en oferta y no lo compro, estoy perdiendo dinero.",
+   "archivo": "oferta.mp3",
+   "segundos": 3.317551,
+   "palabras": [
+    {
+     "t": "Si",
+     "inicio": 0,
+     "fin": 0.08
+    },
+    {
+     "t": "estaba",
+     "inicio": 0.114,
+     "fin": 0.32
+    },
+    {
+     "t": "en",
+     "inicio": 0.347,
+     "fin": 0.4
+    },
+    {
+     "t": "oferta",
+     "inicio": 0.491,
+     "fin": 1.04
+    },
+    {
+     "t": "y",
+     "inicio": 1.08,
+     "fin": 1.12
+    },
+    {
+     "t": "no",
+     "inicio": 1.173,
+     "fin": 1.28
+    },
+    {
+     "t": "lo",
+     "inicio": 1.307,
+     "fin": 1.36
+    },
+    {
+     "t": "compro,",
+     "inicio": 1.42,
+     "fin": 2.2
+    },
+    {
+     "t": "estoy",
+     "inicio": 2.233,
+     "fin": 2.4
+    },
+    {
+     "t": "perdiendo",
+     "inicio": 2.44,
+     "fin": 2.8
+    },
+    {
+     "t": "dinero.",
+     "inicio": 2.857,
+     "fin": 3.28
+    }
+   ]
+  },
+  {
+   "id": "tarjeta",
+   "personaje": "narrador",
+   "texto": "Si pago con tarjeta, no cuenta, porque no salió de mi cartera.",
+   "archivo": "tarjeta.mp3",
+   "segundos": 3.395918,
+   "palabras": [
+    {
+     "t": "Si",
+     "inicio": 0,
+     "fin": 0.08
+    },
+    {
+     "t": "pago",
+     "inicio": 0.128,
+     "fin": 0.32
+    },
+    {
+     "t": "con",
+     "inicio": 0.36,
+     "fin": 0.48
+    },
+    {
+     "t": "tarjeta,",
+     "inicio": 0.52,
+     "fin": 1.12
+    },
+    {
+     "t": "no",
+     "inicio": 1.173,
+     "fin": 1.28
+    },
+    {
+     "t": "cuenta,",
+     "inicio": 1.326,
+     "fin": 1.92
+    },
+    {
+     "t": "porque",
+     "inicio": 1.966,
+     "fin": 2.24
+    },
+    {
+     "t": "no",
+     "inicio": 2.293,
+     "fin": 2.4
+    },
+    {
+     "t": "salió",
+     "inicio": 2.44,
+     "fin": 2.64
+    },
+    {
+     "t": "de",
+     "inicio": 2.667,
+     "fin": 2.72
+    },
+    {
+     "t": "mi",
+     "inicio": 2.773,
+     "fin": 2.88
+    },
+    {
+     "t": "cartera.",
+     "inicio": 2.92,
+     "fin": 3.36
+    }
+   ]
+  },
+  {
+   "id": "casa",
+   "personaje": "narrador",
+   "texto": "Si es para la casa, es inversión.",
+   "archivo": "casa.mp3",
+   "segundos": 2.037551,
+   "palabras": [
+    {
+     "t": "Si",
+     "inicio": 0,
+     "fin": 0.08
+    },
+    {
+     "t": "es",
+     "inicio": 0.133,
+     "fin": 0.24
+    },
+    {
+     "t": "para",
+     "inicio": 0.272,
+     "fin": 0.4
+    },
+    {
+     "t": "la",
+     "inicio": 0.427,
+     "fin": 0.48
+    },
+    {
+     "t": "casa,",
+     "inicio": 0.624,
+     "fin": 1.28
+    },
+    {
+     "t": "es",
+     "inicio": 1.307,
+     "fin": 1.36
+    },
+    {
+     "t": "inversión.",
+     "inicio": 1.417,
+     "fin": 2
+    }
+   ]
+  },
+  {
+   "id": "merezco",
+   "personaje": "narrador",
+   "texto": "Si me sobra tantito, me lo merezco. Y si me lo merezco… ya no me sobra.",
+   "archivo": "merezco.mp3",
+   "segundos": 5.485714,
+   "palabras": [
+    {
+     "t": "Si",
+     "inicio": 0,
+     "fin": 0.08
+    },
+    {
+     "t": "me",
+     "inicio": 0.107,
+     "fin": 0.16
+    },
+    {
+     "t": "sobra",
+     "inicio": 0.2,
+     "fin": 0.4
+    },
+    {
+     "t": "tantito,",
+     "inicio": 0.448,
+     "fin": 1.12
+    },
+    {
+     "t": "me",
+     "inicio": 1.147,
+     "fin": 1.2
+    },
+    {
+     "t": "lo",
+     "inicio": 1.253,
+     "fin": 1.36
+    },
+    {
+     "t": "merezco.",
+     "inicio": 1.424,
+     "fin": 2.2
+    },
+    {
+     "t": "Y",
+     "inicio": 2.604,
+     "fin": 2.644
+    },
+    {
+     "t": "si",
+     "inicio": 2.697,
+     "fin": 2.804
+    },
+    {
+     "t": "me",
+     "inicio": 2.831,
+     "fin": 2.884
+    },
+    {
+     "t": "lo",
+     "inicio": 2.937,
+     "fin": 3.044
+    },
+    {
+     "t": "merezco…",
+     "inicio": 3.108,
+     "fin": 4.284
+    },
+    {
+     "t": "ya",
+     "inicio": 4.324,
+     "fin": 4.404
+    },
+    {
+     "t": "no",
+     "inicio": 4.431,
+     "fin": 4.484
+    },
+    {
+     "t": "me",
+     "inicio": 4.537,
+     "fin": 4.644
+    },
+    {
+     "t": "sobra.",
+     "inicio": 4.704,
+     "fin": 5.444
+    }
+   ]
+  },
+  {
+   "id": "verdad",
+   "personaje": "narrador",
+   "texto": "La única cuenta que sí sale: primero apartas, y luego gastas lo que queda.",
+   "archivo": "verdad.mp3",
+   "segundos": 4.754286,
+   "palabras": [
+    {
+     "t": "La",
+     "inicio": 0.204,
+     "fin": 0.24
+    },
+    {
+     "t": "única",
+     "inicio": 0.293,
+     "fin": 0.56
+    },
+    {
+     "t": "cuenta",
+     "inicio": 0.606,
+     "fin": 0.88
+    },
+    {
+     "t": "que",
+     "inicio": 0.92,
+     "fin": 1.04
+    },
+    {
+     "t": "sí",
+     "inicio": 1.093,
+     "fin": 1.2
+    },
+    {
+     "t": "sale:",
+     "inicio": 1.28,
+     "fin": 1.601
+    },
+    {
+     "t": "primero",
+     "inicio": 1.7,
+     "fin": 2.4
+    },
+    {
+     "t": "apartas,",
+     "inicio": 2.453,
+     "fin": 3.2
+    },
+    {
+     "t": "y",
+     "inicio": 3.32,
+     "fin": 3.44
+    },
+    {
+     "t": "luego",
+     "inicio": 3.493,
+     "fin": 3.76
+    },
+    {
+     "t": "gastas",
+     "inicio": 3.824,
+     "fin": 4.16
+    },
+    {
+     "t": "lo",
+     "inicio": 4.187,
+     "fin": 4.24
+    },
+    {
+     "t": "que",
+     "inicio": 4.26,
+     "fin": 4.32
+    },
+    {
+     "t": "queda.",
+     "inicio": 4.387,
+     "fin": 4.72
+    }
+   ]
+  }
+ ]
+}

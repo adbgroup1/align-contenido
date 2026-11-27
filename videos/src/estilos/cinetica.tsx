@@ -62,7 +62,7 @@ export const Cinetica: React.FC<{
               fontFamily: F.anton,
               fontSize: fuerte ? 230 : p.t.length > 9 ? 120 : 160,
               lineHeight: 1.02,
-              color: fuerte ? (bg === "#FDE047" ? "#DC2626" : "#FDE047") : tinta,
+              color: fuerte ? (bg === "#FDE047" || bg === "#F5F5F4" ? "#DC2626" : "#FDE047") : tinta, // en fondo claro, rojo (el amarillo no se lee)
               textTransform: "uppercase",
               textAlign: "center",
               scale: String(ultima ? 0.7 + 0.3 * k : 1),
