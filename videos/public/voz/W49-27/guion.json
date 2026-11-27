@@ -1,0 +1,36 @@
+{
+ "modelo": "eleven_v3",
+ "reparto": {
+  "narrador": "narradora"
+ },
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "[nervous] POV: abres la app del banco después de la posada."
+  },
+  {
+   "id": "intercambio",
+   "texto": "El intercambio era de quinientos. [sighs] Más la bolsita de regalo, que no sé por qué cuesta ochenta."
+  },
+  {
+   "id": "uber",
+   "texto": "Uber de ida, porque iba guapa. [laughs] Uber de regreso, porque ya no iba guapa."
+  },
+  {
+   "id": "tacos",
+   "texto": "Los tacos de las dos de la mañana. [defiant] No me arrepiento."
+  },
+  {
+   "id": "tiendita",
+   "texto": "[confused] ¿Y tres veces en la tiendita? ¿Qué compré tres veces en la tiendita?"
+  },
+  {
+   "id": "truco",
+   "texto": "El truco: antes de diciembre, aparta una lana solo para fiestas. Cuando se acaba, se acabó la fiesta."
+  },
+  {
+   "id": "remate",
+   "texto": "[whispers] Y no, la tarjeta de crédito no cuenta como lana aparte."
+  }
+ ]
+}

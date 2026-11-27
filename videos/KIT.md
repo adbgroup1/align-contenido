@@ -179,6 +179,64 @@ tarro sale igual en todas), con los mismos textos de `imagenes.json`.
   `ffmpeg -i x.png -q:v 3 x.jpg` (en Mac: `sips -s format jpeg x.png --out x.jpg`).
 - El script verá que ya existen y no las rehará.
 
+## Estilos (v4, 27 nov): que ningún vídeo se parezca al anterior
+
+Un **estilo** es la piel entera del vídeo: fondo, tipografía, subtítulos, sonido y forma de cerrar. Están en
+`src/estilos/` (se importan desde `"../estilos"`). Catálogo y fichas de diseño de todos, también los que faltan:
+`investigacion/ESTILOS.md`. **Si un guion pide un estilo que no está, se construye** siguiendo su ficha y se añade aquí.
+
+| Estilo | Pieza | Para qué | Subtítulos | Ejemplo |
+|---|---|---|---|---|
+| `chat` | `Chat` (mensajes con `en`, tipo texto/audio/sticker/borrado/foto, reacciones, «escribiendo…») | familia, primo, tanda, oficina | `ninguno` (narrador: `caja` arriba, `subY≈1430`) | W49-25 |
+| `banco` | `AppBanco` (saldo animado, movimientos, notificaciones) | a dónde se fue la quincena, cargos hormiga, MSI | `caja` | W49-27 |
+| `noticiero` | `Noticiero` (EN VIVO, rótulo, cintillo; `children` en el centro) | lo cotidiano como noticia nacional | `ninguno` o `limpio` | W49-29 |
+| `telenovela` | `MarcoTelenovela`, `TituloCapitulo`, `ZoomDrama` + objetos con cara | drama exagerado, series por capítulos | `limpio` | W49-26 |
+| `cinetica` | `Cinetica` (palabra a palabra, fondos planos, `resalta`) | rants, listas rápidas, «matemáticas de quincena» | `ninguno` (ya es el texto) | W49-28 |
+| `meme` | `Meme` (franja blanca con texto + reacción debajo) | «yo cuando…», reacciones | `ninguno` | — |
+| `notas` | `Notas` (se escribe sola, casillas, tachones) | listas, planes, presupuestos | `ninguno` | — |
+| `libreta` | `HojaLibreta`, `Manuscrito`, `Trazo`, `CirculoMano` | cuentas a mano, «te lo explico como a mi abuelita» | `limpio` | — |
+| `blob` | lo de antes (`Personaje`, `Escenario`, `Rotulo`…) | fábulas con personaje | `karaoke` | W49-22 |
+
+**Objetos con cara** (`objetos.tsx`): `Tarjeta`, `Aguinaldo`, `Cochinito`, `Quincena` y `Cara` (ponle cara a lo que
+sea). Props: `gesto` (feliz, coqueta, sorpresa, llora, enojo, triste, malvada, neutral) y `habla` (mueve la boca).
+Siempre el mismo diseño para el mismo personaje: son la serie.
+
+**Cierres** (`cierres.tsx`): `Aviso` (obligatorio, pequeño; `caja` para fondos claros o con lista), `ComentarioFijado`,
+`PreguntaFinal`. La tarjeta `CtaCrecer` del kit es un cierre más, no el de siempre.
+
+**Montaje, opciones nuevas:**
+- `subtitulos="karaoke" | "caja" | "limpio" | "ninguno"` (y por escena `estiloSub`), `subY` para moverlos;
+- `fondoFijo={({ inicios }) => …}` y `capa={…}`: capas continuas por debajo o por encima de las escenas, para los
+  estilos de pantalla entera. Ahí el tiempo es el del vídeo entero: usa `en(inicios, "escena", s)` para colocar cosas
+  «s segundos después de que empiece a hablar la escena X»;
+- `pista={null}` = sin música; `nivelMusica` para subirla o bajarla.
+
+**Fuentes** (`F` de `comun.tsx`): `inter`, `anton`, `caveat`, `playfair`, `playfairIt`, `roboto`, `marker`, `bangers`.
+
+### Voz con personajes (guion.json)
+
+```json
+{
+ "modelo": "eleven_v3",
+ "reparto": { "narrador": "narrador", "mama": "mama", "primo": "compa" },
+ "escenas": [
+  { "id": "hook", "texto": "[sarcastic] Error número uno: avisar en el grupo que ya te cayó el aguinaldo." },
+  { "id": "mama", "personaje": "mama", "texto": "[excited] ¡Ay, mijo! ¿Entonces ahora sí me pagas lo de la luz?" }
+ ]
+}
+```
+
+- El reparto apunta a roles de `voces.json` → «personajes» (los rellena `scripts/casting-voces.mjs --aplicar`) o a
+  un voice_id. Sin voz fija, `voz.mjs` usa una de la rotación distinta de la del narrador.
+- Las etiquetas `[…]` se mandan a ElevenLabs y no salen en los subtítulos. Si v3 falla, `voz.mjs` repite con v2.
+- Prueba local sin gastar créditos: `node scripts/voz.mjs <ID> --say` (voces de macOS de México, una por personaje).
+
+### Control de variedad
+
+`node scripts/variedad.mjs <ID> --estilo … --formato … --cierre … --pista … --tema mexico|general` antes de cada
+render; `node scripts/variedad.mjs --ver` para ver lo último. Escribe `registro.json` (haz commit). Las reglas están
+en la cabecera del script y en `GUIA.md`, «v4 · 3».
+
 ## Personajes y escenarios (fábulas e historias)
 
 *Añadido el 19 nov 2026 («los vídeos son todos iguales»). Ejemplos: `src/videos/W48-02.tsx` (fábula) y

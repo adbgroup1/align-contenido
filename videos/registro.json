@@ -1,0 +1,266 @@
+{
+ "nota": "Registro de variedad: un vídeo por fila, en orden de producción. Lo escribe scripts/variedad.mjs; ver KIT.md, «Control de variedad».",
+ "videos": [
+  {
+   "id": "W48-01",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "tech-synthpop.mp3",
+   "tema": "general",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W48-02",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "quiet-courtyard.mp3",
+   "tema": "general",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W48-03",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "lay-back.mp3",
+   "tema": "general",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W48-04",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "sunlight.mp3",
+   "tema": "general",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W48-05",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "long-day.mp3",
+   "tema": "general",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-01",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "lofi-polaroids.mp3",
+   "tema": "general",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-02",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "quiet-courtyard.mp3",
+   "tema": "general",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-03",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "piano-strings-light.mp3",
+   "tema": "general",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-04",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "lay-back.mp3",
+   "tema": "general",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-06",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "minimal-ambient-tech.mp3",
+   "tema": "general",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-07",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "tech-synthpop.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-08",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "sunlight.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-09",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "long-day.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-12",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "otro",
+   "pista": "long-day.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-13",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "tech-synthpop.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-14",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "sunlight.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-15",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "lay-back.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-16",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "pad-align.wav",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-17",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "lofi-polaroids.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-19",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "quiet-courtyard.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-20",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "minimal-ambient-tech.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-21",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "lay-back.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-22",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "sunlight.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-23",
+   "estilo": "blob",
+   "formato": "",
+   "cierre": "tarjeta",
+   "pista": "piano-strings-light.mp3",
+   "tema": "mexico",
+   "fecha": "antes del 27 nov"
+  },
+  {
+   "id": "W49-25",
+   "estilo": "chat",
+   "formato": "historia",
+   "cierre": "remate",
+   "pista": "lay-back.mp3",
+   "tema": "mexico",
+   "fecha": "2026-11-27"
+  },
+  {
+   "id": "W49-26",
+   "estilo": "telenovela",
+   "formato": "serie",
+   "cierre": "serie",
+   "pista": "ninguna",
+   "tema": "general",
+   "fecha": "2026-11-27"
+  },
+  {
+   "id": "W49-27",
+   "estilo": "banco",
+   "formato": "pov",
+   "cierre": "pregunta",
+   "pista": "lofi-polaroids.mp3",
+   "tema": "mexico",
+   "fecha": "2026-11-27"
+  },
+  {
+   "id": "W49-28",
+   "estilo": "cinetica",
+   "formato": "lista",
+   "cierre": "comentario",
+   "pista": "tech-synthpop.mp3",
+   "tema": "general",
+   "fecha": "2026-11-27"
+  },
+  {
+   "id": "W49-29",
+   "estilo": "noticiero",
+   "formato": "noticiero",
+   "cierre": "remate",
+   "pista": "minimal-ambient-tech.mp3",
+   "tema": "mexico",
+   "fecha": "2026-11-27"
+  }
+ ]
+}

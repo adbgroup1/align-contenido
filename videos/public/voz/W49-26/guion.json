@@ -1,0 +1,49 @@
+{
+ "modelo": "eleven_v3",
+ "reparto": {
+  "narrador": "narrador",
+  "tarjeta": "villano",
+  "aguinaldo": "compa",
+  "cochinito": "abuelita"
+ },
+ "escenas": [
+  {
+   "id": "hook",
+   "personaje": "tarjeta",
+   "texto": "[mischievously] Ay, Aguinaldo… ¿y si nos vamos a doce meses sin intereses?"
+  },
+  {
+   "id": "aguinaldo",
+   "personaje": "aguinaldo",
+   "texto": "[excited] ¿Sin intereses? ¡Pues sí, mi amor!"
+  },
+  {
+   "id": "cochinito",
+   "personaje": "cochinito",
+   "texto": "[whispers] Aguinaldo… acuérdate de mí. Soy tu cochinito."
+  },
+  {
+   "id": "despues",
+   "texto": "[dramatic] Doce meses después…"
+  },
+  {
+   "id": "cuentas",
+   "personaje": "tarjeta",
+   "texto": "[laughs] La pantalla de diciembre, el celular de enero, el viaje de Semana Santa… todos a meses. Todos al mismo tiempo."
+  },
+  {
+   "id": "drama",
+   "personaje": "aguinaldo",
+   "texto": "[shouting] ¡¿Me estás diciendo que sigo pagando la Navidad pasada?!"
+  },
+  {
+   "id": "leccion",
+   "texto": "Los meses sin intereses no cobran intereses… pero sí se comen tus quincenas. Súmalos todos antes de firmar el siguiente."
+  },
+  {
+   "id": "continuara",
+   "personaje": "cochinito",
+   "texto": "[sighs] Continuará."
+  }
+ ]
+}

@@ -1,6 +1,79 @@
 # Guía de ALIGN — la leen TODOS los agentes antes de trabajar
 
-*v3 · 24 nov 2026 · modo «viralidad a toda costa»*
+*v4 · 27 nov 2026 · replanteamiento: comedia de verdad, voz mexicana de verdad y ningún vídeo igual a otro*
+
+## v4 · Lo que cambia el 27 nov (manda sobre todo lo de abajo que lo contradiga)
+
+Andrés revisó los vídeos de W49 y su veredicto fue claro: **«todos iguales», voces que «no suenan nada mexicano, no
+usan ni jerga ni acento», solo «pesos y casos en México», «solo vídeos explicativos», humor e índices de viralidad
+«lamentables» y «siempre la misma pantalla de CTA»**. «ESTO TIENE QUE FUNCIONAR.» El diagnóstico (en la pantalla se
+ve): los 20 últimos vídeos eran el mismo vídeo con otro tema (rótulo blanco arriba, muñeco blob en el centro,
+subtítulo en mayúsculas abajo, tarjeta blanca «MÁNDASELO» al final, voz de narrador neutro y música lo-fi).
+
+### 1 · Primero comedia, después finanzas
+
+- **El vídeo es un sketch, una historia o un chiste sobre la vida adulta y el dinero en México.** El dato o la
+  lección van de **remate o giro**, nunca de premisa. Prueba: si quitas la lección, ¿el vídeo sigue teniendo gracia?
+  Si no, no está listo. (Investigación: `investigacion/MEXICO-VIRAL.md`, A1–A15.)
+- **Lo explicativo puro (narrador que cuenta un concepto) es la excepción**, como mucho 1 de cada 7.
+- **Personajes de serie con voz propia** (`MEXICO-VIRAL.md`, C): la Mamá, la Tía Chuy, el Primo Charly (el que pide
+  prestado), la Abuelita, el Godín y los objetos con cara (la Tarjeta, el Aguinaldo, el Cochinito, la Quincena:
+  `videos/src/estilos/objetos.tsx`). Siempre con el mismo diseño, nombre y voz para que la gente los reconozca y siga
+  la serie.
+- **Dos o tres risas por vídeo, no una.** El guionista escribe 3 remates posibles para el final y el manager elige el
+  mejor (ver `align-guion` y `align-manager`).
+
+### 2 · Voz mexicana de verdad
+
+- **Las voces de narrador corporativo se acabaron.** `scripts/casting-voces.mjs` busca voces mexicanas jóvenes y
+  coloquiales, diseña voces a medida (chilango, chilanga, mamá, abuelita, compa) y **Gemini escucha cada muestra y
+  puntúa el acento**: entran solo las que pasan de 7 en acento. Ranking en `media/pruebas/casting/RANKING.md`.
+- **Modelo `eleven_v3`** con etiquetas de actuación (`[laughs]`, `[sarcastic]`, `[sighs]`, `[whispers]`,
+  `[excited]`, `[mischievously]`…): una o dos por frase, donde haya actuación. No salen en los subtítulos.
+- **Varias voces por vídeo:** cada escena puede llevar `"personaje"` y el guion su `"reparto"` (ver `KIT.md`).
+- **El acento lo pone la voz; la gracia, el texto.** Los guiones se escriben como habla un chilango de 25 años:
+  «no manches», «neta», «ando bien bruja», «ya cayó la quincena», «nomás tantito», «está cañón», «me late», «qué oso»,
+  «un buen de lana», «el viernes sin falta, carnal»… **De 2 a 4 expresiones por vídeo, en boca de los personajes**,
+  nunca un diccionario forzado (`MEXICO-VIRAL.md`, D y F).
+
+### 3 · Ningún vídeo igual al anterior (se comprueba con un script, no con buena voluntad)
+
+- **Cada vídeo declara su ESTILO** (la piel: `chat`, `notas`, `banco`, `ticket`, `noticiero`, `telenovela`, `meme`,
+  `cinetica`, `libreta`, `rpg`, `split`, `buscador`, `documental`, `ranking`, `grafica`, `collage`, `blob`…) y su
+  **CIERRE** (`remate`, `bucle`, `personaje`, `pregunta`, `comentario`, `serie`, `silencio`, `guardar` o `tarjeta`).
+  Catálogo y diseño de cada uno: `investigacion/ESTILOS.md`. Piezas ya hechas: `videos/src/estilos/` (manual en
+  `KIT.md`, «Estilos»). **Si un guion pide un estilo que aún no existe, Producción lo construye** con la ficha de
+  `ESTILOS.md` y lo añade a la biblioteca.
+- **`node scripts/variedad.mjs <ID> --estilo … --cierre … --pista … --tema …`** (en `videos/`) lo comprueba antes de
+  renderizar. Si sale con error, **se cambia el vídeo, no la regla**. Reglas: el estilo no se repite en los 2
+  anteriores ni más de 2 veces en 7; el cierre no se repite seguido; la tarjeta de CTA, como mucho 2 de cada 7; la
+  pista no se repite en los 2 anteriores; de cada 10, al menos 3 de tema general.
+- **El muñeco blob y la tarjeta «MÁNDASELO» pasan a ser un estilo y un cierre más**, no la plantilla.
+
+### 4 · El CTA solo cuando suma
+
+- **Sin tarjeta final por defecto.** Lo normal es cerrar con el remate, un bucle, un personaje que lo pide dentro de la
+  historia («mándaselo a tu primo, que ya sé que te debe») o un comentario fijado. **Sin CTA** en: vídeos de menos de
+  15 s, finales que son un chiste, estilos que parecen un pantallazo real (chat, notas, banco) y cuando el vídeo
+  anterior ya lo pedía.
+- **Lo único obligatorio al final** es el aviso legal pequeño: `<Aviso />` de `estilos/cierres.tsx`.
+
+### 5 · Público: México en el centro, pero no solo México
+
+- **Unos 7 de cada 10 vídeos, para México** (todo lo de «Para quién: México»).
+- **Unos 3 de cada 10, de tema general** para cualquier hispanohablante: la misma voz mexicana, pero situaciones que
+  entiende todo el mundo (la tarjeta, los antojos, el amigo que no paga, las suscripciones) sin referencias que solo
+  pillan en México (nada de Afore, Buen Fin ni tandas ahí). Se marca `--tema general` en el control de variedad y en
+  el Patrón. Sirve para crecer fuera de México y para comparar (hipótesis H-tema).
+
+### 6 · Investigación de comedia, no solo de finanzas
+
+- La investigación nocturna estudia **también creadores de comedia mexicana sin finanzas** (vida adulta, familia,
+  oficina, sketches animados, frutinovelas, doblajes): de ahí salen las estructuras de humor. Al menos 5 de las 15
+  fichas de cada noche son de comedia (ver `align-investigacion`).
+- Cada ficha apunta **el mecanismo del chiste** (identificación, exageración, personaje tipo, giro, lógica absurda,
+  remate visual) además del gancho y el formato.
+
 
 ## La misión (Andrés, 24 nov 2026)
 
@@ -139,8 +212,8 @@ Son lecciones de la investigación y de Andrés. Úsalas mientras no haya datos 
 - **Humor:** que la broma se vea en la animación. Exageración, objetos con actitud, «lo que todos hemos hecho» y
   lo literal visual. Nunca reírse de quien tiene poco dinero.
 - **Subtítulos grandes**, porque la mayoría lo ve sin sonido.
-- **CTA de crecimiento:** compartir («mándaselo a…»), guardar, comentar (una pregunta) o seguir. Que sea concreto:
-  nada de «dale like». Se puede probar sin CTA, o con otro tipo, si es la hipótesis.
+- **CTA de crecimiento (v4: solo cuando suma, ver «v4 · 4»):** compartir («mándaselo a…»), guardar, comentar (una
+  pregunta) o seguir. Que sea concreto: nada de «dale like». Mejor dicho por un personaje que en una tarjeta.
 - **Zona segura (1080×1920):** que no quede nada importante en los 220 px de arriba, los 420 px de abajo ni los
   120 px de la derecha.
 - **Imagen o dibujo:** `IMAGEN:` es una foto fija de ChatGPT (la hace Andrés en el Mac) y `DIBUJO:` es una
@@ -148,7 +221,9 @@ Son lecciones de la investigación y de Andrés. Úsalas mientras no haya datos 
 
 ## Voz, música y sonido
 
-- **Voz:** ElevenLabs con **acento mexicano**. La voz principal está en `videos/voces.json` (`principal`).
+- **Voz (v4, 27 nov):** ElevenLabs, modelo `eleven_v3`, voces elegidas por `scripts/casting-voces.mjs` (Gemini
+  puntúa el acento) y **personajes con voz propia** (`voces.json`, «personajes»). Lo de abajo sigue valiendo para la
+  rotación del narrador. La voz principal está en `videos/voces.json` (`principal`).
   - **La voz la deciden los datos, no Andrés (24 nov: «decide tú»).** Mientras no haya ganadora, `voz.mjs`
     reparte los vídeos entre las 4 voces de `rotacion` (Regina, Alejandro, Marlene y Enrique; muestras en
     `media/pruebas/voces-mx/LISTA.md`) y apunta cada una en `asignadas`. Es la hipótesis H6.

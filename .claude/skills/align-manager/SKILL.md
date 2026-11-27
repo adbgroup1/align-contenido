@@ -35,8 +35,15 @@ Puntúa cada guion como lo haría el algoritmo y como lo haría alguien de Méxi
 | Gracia | ¿Hay una broma que se ve y suena mexicana? |
 | México | ¿Suena a México de verdad (pesos, vocabulario, situaciones)? |
 | Aprendizaje | ¿Prueba una hipótesis clara del tablero? |
+| **Comedia (v4)** | Si quitas la lección, ¿sigue teniendo gracia? ¿Hay 2–3 risas? **Si no, máximo 6.** |
+| **Voz mexicana (v4)** | ¿Los personajes hablan como mexicanos de verdad (jerga en su boca, etiquetas de actuación)? |
+| **Distinto (v4)** | ¿Se ve y se oye distinto de los últimos vídeos (`node scripts/variedad.mjs --ver`)? **Si repite estilo o cierre, máximo 5.** |
 
 ### 3 · Bucle de mejora
+
+**Punch-up (v4, siempre, antes de puntuar la vuelta):** lee el guion en voz alta como si fueras un comediante
+mexicano. Escribe 3 remates nuevos para el final y 1 chiste más a mitad; quédate con lo mejor de todo (también de los
+3 remates del guionista). Si el guion es lección con un chiste pegado, reescríbelo como sketch.
 
 - **Si un guion tiene menos de 8, mejóralo tú** siguiendo `align-guion`: otro gancho, quitar escenas, una broma
   mejor, más México. Vuelve a puntuarlo.
@@ -47,6 +54,9 @@ Puntúa cada guion como lo haría el algoritmo y como lo haría alguien de Méxi
 ### 4 · Elige 5
 
 - Los **5 con más nota** pasan a `Revisión manager OK`, con la nota, la hipótesis y el porqué en «Nota del manager».
+- **Variedad (v4):** los 5 elegidos tienen 5 estilos distintos y al menos 3 cierres distintos, y como mucho 1 cierre
+  `tarjeta`. Comprueba con `node scripts/variedad.mjs --ver` que no repiten lo último producido. Al menos 1 de los 5
+  es de tema `general`.
 - **No hay cuotas de formato.** Solo comprueba la cartera: más o menos la mitad EXPLOTAR y la mitad EXPLORAR. Si
   algo ESCALA en el tablero, prioriza sus variaciones. Si los 5 prueban lo mismo sin que el tablero lo pida, cambia
   uno por otra apuesta.

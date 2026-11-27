@@ -30,6 +30,22 @@ Después lee:
 - Haz commit y push después de cada pieza, no al final, para no perder trabajo si la sesión se corta. Lo que no te dé
   tiempo a hacer se queda en `Revisión manager OK` para mañana.
 
+## v4 (27 nov): estilos, personajes y control de variedad
+
+- **El estilo y el cierre son los que pone el guion** (`ESTILO`, `CIERRE`). Usa la biblioteca `videos/src/estilos/`
+  (manual en `KIT.md`, «Estilos»). **Si el estilo no existe, constrúyelo** con su ficha de `investigacion/ESTILOS.md`,
+  añádelo a `src/estilos/` y documéntalo en `KIT.md`. Nunca lo resuelvas con el muñeco blob y un rótulo.
+- **Antes de renderizar:** `node scripts/variedad.mjs <ID> --estilo … --formato … --cierre … --pista … --tema …`.
+  Si da error, **cambia el vídeo** (otra pista, otro cierre) o, si es el estilo, apúntalo en «Nota del manager» y
+  pasa al siguiente. Haz commit de `registro.json`.
+- **Voz:** en `guion.json` pon `"modelo": "eleven_v3"`, el `"reparto"` (personaje → rol de `voces.json`,
+  «personajes», o voice_id) y en cada escena su `"personaje"`. Copia las etiquetas de actuación del guion tal cual.
+  Si `voz.mjs` avisa de que v3 falló o de que no hay tiempos («tiempos estimados»), apúntalo en «Nota del manager».
+- **Subtítulos:** elige el estilo con `subtitulos=` en `Montaje` (`karaoke`, `caja`, `limpio` o `ninguno`); en
+  estilos donde el texto ya está en pantalla (chat, notas, cinética), `ninguno`.
+- **Cierre:** `CtaCrecer` solo si el guion dice `CIERRE: tarjeta`. Siempre `<Aviso />` al final.
+- **Ejemplos:** W49-25 (chat), W49-26 (telenovela), W49-27 (banco), W49-28 (cinética) y W49-29 (noticiero).
+
 ## Si es un carrusel
 
 1. Lee el guion lámina a lámina.
@@ -81,7 +97,7 @@ Después lee:
      en «Nota del manager». No te pares por eso.
 4. **Composición** en `videos/src/videos/<ID>.tsx` con el kit (`src/kit.tsx`).
    - Con imágenes, toma como plantilla `src/videos/EJ-colchon.tsx`.
-   - Toma como plantilla `src/videos/W47-02-v2.tsx`: lista `ESCENAS` con un `id` por escena de la voz,
+   - Toma como plantilla el piloto v4 del mismo estilo (W49-25 a W49-29) o, si no hay, `src/videos/W47-02-v2.tsx`: lista `ESCENAS` con un `id` por escena de la voz,
      `Montaje` y `EXTRA_<ID>` para dar aire al wow, al CTA y al cierre.
    - Regístrala en `Root.tsx` con `defaultProps={{ videoId: "<ID>", voz: null }}` y
      `calculateMetadata={metadataConVoz(EXTRA_<ID>)}`. La duración la marca la voz.
@@ -102,8 +118,8 @@ Después lee:
    - Si creas una pieza reutilizable, muévela a `kit.tsx` y documéntala en `KIT.md`.
 5. **Música:** elige en `videos/public/musica/LICENCIAS.md` la pista que pegue con el tono del vídeo y
    pásala a `Montaje` con `pista=`. No uses dos veces seguidas la misma pista en la semana.
-6. **Respeta el guion:** textos, cifras, hook, segundo gancho, wow, CTA y cierre. El CTA se monta siempre con
-   `CtaCrecer` del kit (crecimiento: compartir, guardar, comentar o seguir); nunca palabra clave, curso ni llamada. El hook se ve y se oye
+6. **Respeta el guion:** textos, cifras, hook, segundo gancho, wow, CTA y cierre. El cierre es el del guion
+   (v4: `CtaCrecer` solo si `CIERRE: tarjeta`); nunca palabra clave, curso ni llamada. El hook se ve y se oye
    en el fotograma 0. No inventes cifras.
 7. **Comprueba el código:** `cd videos && npx tsc --noEmit`.
 8. **Renderiza** a `media/<semana>/<ID>.mp4` con los flags de CLAUDE.md.

@@ -34,6 +34,11 @@ import { EXTRA_W4920, W4920 } from "./videos/W49-20";
 import { EXTRA_W4921, W4921 } from "./videos/W49-21";
 import { EXTRA_W4922, W4922 } from "./videos/W49-22";
 import { EXTRA_W4923, W4923 } from "./videos/W49-23";
+import { EXTRA_W4925, W4925 } from "./videos/W49-25";
+import { EXTRA_W4926, W4926 } from "./videos/W49-26";
+import { EXTRA_W4927, W4927 } from "./videos/W49-27";
+import { EXTRA_W4928, W4928 } from "./videos/W49-28";
+import { EXTRA_W4929, W4929 } from "./videos/W49-29";
 import { metadataConVoz } from "./kit";
 
 // 3+7+7+4+5 s a 30 fps = 780 frames, menos 4 transiciones de 12 = 732
@@ -352,6 +357,56 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{ videoId: "W49-16", voz: null }}
         calculateMetadata={metadataConVoz(EXTRA_W4916)}
+      />
+      <Composition
+        id="W49-25"
+        component={W4925}
+        durationInFrames={600}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ videoId: "W49-25", voz: null }}
+        calculateMetadata={metadataConVoz(EXTRA_W4925)}
+      />
+      <Composition
+        id="W49-26"
+        component={W4926}
+        durationInFrames={600}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ videoId: "W49-26", voz: null }}
+        calculateMetadata={metadataConVoz(EXTRA_W4926)}
+      />
+      <Composition
+        id="W49-27"
+        component={W4927}
+        durationInFrames={600}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ videoId: "W49-27", voz: null }}
+        calculateMetadata={metadataConVoz(EXTRA_W4927)}
+      />
+      <Composition
+        id="W49-28"
+        component={W4928}
+        durationInFrames={600}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ videoId: "W49-28", voz: null }}
+        calculateMetadata={metadataConVoz(EXTRA_W4928)}
+      />
+      <Composition
+        id="W49-29"
+        component={W4929}
+        durationInFrames={600}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{ videoId: "W49-29", voz: null }}
+        calculateMetadata={metadataConVoz(EXTRA_W4929)}
       />
       <Composition id="W49-11" component={W4911} durationInFrames={LAMINAS_W4911} fps={30} width={1080} height={1350} />
     </Folder>

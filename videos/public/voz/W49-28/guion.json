@@ -1,0 +1,32 @@
+{
+ "modelo": "eleven_v3",
+ "reparto": {
+  "narrador": "narrador"
+ },
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "[excited] Matemáticas de quincena. Si lo pago a doce meses, cada mes es casi gratis."
+  },
+  {
+   "id": "oferta",
+   "texto": "Si estaba en oferta y no lo compro, estoy perdiendo dinero."
+  },
+  {
+   "id": "tarjeta",
+   "texto": "Si pago con tarjeta, no cuenta, porque no salió de mi cartera."
+  },
+  {
+   "id": "casa",
+   "texto": "Si es para la casa, es inversión."
+  },
+  {
+   "id": "merezco",
+   "texto": "Si me sobra tantito, me lo merezco. [laughs] Y si me lo merezco… ya no me sobra."
+  },
+  {
+   "id": "verdad",
+   "texto": "[serious] La única cuenta que sí sale: primero apartas, y luego gastas lo que queda."
+  }
+ ]
+}

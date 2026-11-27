@@ -1,0 +1,40 @@
+{
+ "modelo": "eleven_v3",
+ "reparto": {
+  "narrador": "narrador",
+  "mama": "mama",
+  "primo": "compa"
+ },
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "[excited] Última hora: se reporta la desaparición de una quincena a solo treinta y seis horas de haber llegado."
+  },
+  {
+   "id": "vista",
+   "texto": "Fue vista por última vez en la tiendita de la esquina, comprando unas papitas y un refresco."
+  },
+  {
+   "id": "mama",
+   "personaje": "mama",
+   "texto": "[sighs] Yo le dije que no saliera sola."
+  },
+  {
+   "id": "banda",
+   "texto": "Las autoridades sospechan de una banda conocida como… [dramatic] Los Antojitos."
+  },
+  {
+   "id": "primo",
+   "personaje": "primo",
+   "texto": "[nervous] Yo nomás le pedí doscientos, carnal. ¡Yo no fui!"
+  },
+  {
+   "id": "consejo",
+   "texto": "Los expertos recomiendan: cuando llegue la próxima quincena, no la dejen sola. Denle un trabajo a cada peso desde el día uno."
+  },
+  {
+   "id": "cierre",
+   "texto": "[whispers] Seguiremos informando."
+  }
+ ]
+}

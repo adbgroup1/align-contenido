@@ -163,13 +163,20 @@ Lee `investigacion/EXPERIMENTOS.md` entero. **Tu búsqueda sirve al bucle:**
 
 ### Qué hacer
 
-- **Hasta 15 vídeos nuevos por noche**, repartidos más o menos así:
-  - **un tercio, finanzas personales en México y Latinoamérica:** «finanzas personales México», «quincena»,
-    «aguinaldo», «meses sin intereses», «Afore», «ahorro México», «cuesta de enero», «tarjeta de crédito
-    México». Mira qué creadores mexicanos tienen más vistas por suscriptor;
-  - **un tercio, finanzas animadas** en cualquier idioma;
-  - **un tercio, lo viral de cualquier nicho** que se pueda trasladar: formatos nuevos, tendencias de esta semana,
-    memes y estructuras de sketch.
+- **Hasta 15 vídeos nuevos por noche**, repartidos más o menos así (v4, 27 nov: Andrés quiere humor y viralidad de
+  verdad, no solo explicativos):
+  - **5, COMEDIA MEXICANA sin finanzas:** sketches de vida adulta, familia, oficina, godínez, tías, mamá mexicana,
+    animación con humor, frutinovelas u objetos con cara, doblajes, «tipos de personas», POV. Consultas como «sketch
+    mamá mexicana», «humor godín», «tipos de mexicanos», «telenovela animada», «POV mexicano», «animación humor
+    México». Ahí está cómo se hace reír a nuestro público;
+  - **5, finanzas o dinero con humor** en México y Latinoamérica (quincena, aguinaldo, meses sin intereses, tandas,
+    cuesta de enero), y lo que más vistas por suscriptor tenga;
+  - **5, lo viral de cualquier nicho o idioma** que se pueda trasladar: formatos, estilos visuales sin cara (chat,
+    notas, noticiero, Reddit story, split screen…), tendencias de esta semana.
+- **Cada ficha apunta además (v4):** `"mecanismo_humor"` (identificación, exageración, personaje tipo, giro, lógica
+  absurda, remate visual, ironía… o «ninguno»), `"estilo_visual"` (con los nombres de `investigacion/ESTILOS.md`) y
+  `"jerga"` (expresiones mexicanas que usa y si suenan naturales). Lo que aprendas de comedia y jerga, añádelo a
+  `investigacion/MEXICO-VIRAL.md` (secciones B, C, D o E) con la ficha de origen.
 - `buscar-shorts.mjs` con 3 a 5 consultas variadas (con `--region MX --idioma es` en las de México y `--dias 30` para ver lo que funciona ahora) y después
   `ver-videos.mjs --n 15` (plan A). Si sale con `GEMINI NO DISPONIBLE`, completa con el plan B
   (`datos-videos.mjs`, de 5 en 5) y escribe tú esas fichas.

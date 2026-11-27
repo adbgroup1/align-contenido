@@ -1,0 +1,44 @@
+{
+ "modelo": "eleven_v3",
+ "reparto": {
+  "narrador": "narrador",
+  "mama": "mama",
+  "tia": "tia",
+  "primo": "compa",
+  "abuelita": "abuelita"
+ },
+ "escenas": [
+  {
+   "id": "hook",
+   "texto": "[sarcastic] Error número uno: avisar en el grupo de la familia que ya te cayó el aguinaldo."
+  },
+  {
+   "id": "mama",
+   "personaje": "mama",
+   "texto": "[excited] ¡Ay, mijo, qué bueno! ¿Entonces ahora sí me pagas los quinientos de la luz?"
+  },
+  {
+   "id": "tia",
+   "personaje": "tia",
+   "texto": "[mischievously] ¿Y cuánto te dieron, mijo? Nomás por saber, eh."
+  },
+  {
+   "id": "primo",
+   "personaje": "primo",
+   "texto": "Primo, préstame dos mil. El viernes sin falta te los paso, neta."
+  },
+  {
+   "id": "abuelita",
+   "personaje": "abuelita",
+   "texto": "[sighs] Mijo, guárdalo debajo del colchón, como yo."
+  },
+  {
+   "id": "giro",
+   "texto": "[laughs] El colchón de la abuelita lleva años perdiendo contra la inflación. Así que el truco es otro: el mismo día que cae, lo apartas."
+  },
+  {
+   "id": "remate",
+   "texto": "[whispers] Antes de que el grupo se entere. [laughs] Y la tía salió del grupo."
+  }
+ ]
+}

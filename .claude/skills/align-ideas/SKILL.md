@@ -10,6 +10,20 @@ Lee antes `CLAUDE.md` y `GUIA.md` (sobre todo «La misión», «Para quién: Mé
 **Tu trabajo es encontrar lo que nos hará virales.** No hay cuotas de formato, pilar ni tipo de idea: elige lo que
 creas que tiene más opciones de explotar y lo que más nos va a enseñar. Lo que no funcione se mata rápido.
 
+## v4 (27 nov): comedia primero, cada vídeo distinto
+
+Andrés: «todos iguales», «solo explicativos», humor «lamentable». Desde ahora:
+- **Cada idea es un sketch, una historia o un chiste de vida adulta y dinero**; la lección va de remate
+  (`GUIA.md`, «v4 · 1»). Explicativo puro, como mucho 1 de cada 7. Fuente principal de ideas:
+  `investigacion/MEXICO-VIRAL.md` (formatos B, personajes C, ganchos E) y `investigacion/ESTILOS.md`.
+- **Cada idea declara:** `ESTILO` (piel visual de `ESTILOS.md`), `CIERRE` (remate, bucle, personaje, pregunta,
+  comentario, serie, silencio, guardar o tarjeta), `TEMA` (`mexico` o `general`) y `PERSONAJES` (con quién habla:
+  narrador, Mamá, Tía Chuy, Primo Charly, Abuelita, la Tarjeta…).
+- **Mira antes lo último producido:** `cd videos && node scripts/variedad.mjs --ver`. En la tanda, **ningún estilo
+  dos veces** (salvo escalar a propósito) y al menos 4 estilos distintos de los del último `--ver`.
+- **3 de cada 10 de tema general** (para cualquier hispano, sin referencias solo mexicanas).
+- **Las series cuentan:** si una idea es un capítulo (La Tarjeta, cap. 2…), dilo; las series ganan seguidores.
+
 ## Lee primero, en este orden
 
 1. **`investigacion/EXPERIMENTOS.md`**: qué ESCALA, qué se MATA, los indicios y las hipótesis abiertas.
@@ -31,6 +45,7 @@ añádelas debajo con el título «Tanda 2»). De ahí salen 6 guiones y el mana
 - **Formato** (cualquiera: los de `GUIA.md`, «Qué se puede probar», u otro que veas en los virales).
 - **Duración prevista** (libre; di por qué si se sale de 15–30 s).
 - **CTA** (compartir, guardar, comentar, seguir o ninguno si es la prueba). Va en la propiedad «Palabra clave».
+- **ESTILO · CIERRE · TEMA · PERSONAJES** (ver «v4» arriba).
 - **El gancho**, en una frase, y por qué para el scroll.
 - **El momento wow** y **la broma** (con su toque mexicano).
 - **Patrón:** la ficha o el dato en que se inspira, o «sin referencia: apuesta propia».

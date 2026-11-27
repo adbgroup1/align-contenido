@@ -11,6 +11,22 @@ Lee antes `CLAUDE.md`, `GUIA.md` («Para quién: México», «Límites legales»
 - **Si te lanzan para corregir un vídeo concreto**, lee «Tus comentarios» o «Nota del manager» de esa fila y
   aplica esos cambios **antes que nada**.
 
+## v4 (27 nov): así se escribe ahora
+
+- **Comedia primero:** sketch o historia de vida adulta y dinero; la lección, de remate (`GUIA.md`, «v4 · 1»).
+- **Una columna nueva, «Quién»:** narrador o el personaje que habla. Cada personaje con su forma de hablar
+  (`investigacion/MEXICO-VIRAL.md`, C). La Mamá no habla como el Primo.
+- **Voz con actuación:** en «Voz en off» van las etiquetas de `eleven_v3` donde hay actuación (`[laughs]`,
+  `[sarcastic]`, `[sighs]`, `[whispers]`, `[excited]`, `[mischievously]`, `[nervous]`), una o dos por frase como mucho.
+- **Jerga real, 2–4 expresiones por vídeo**, en boca de los personajes (`MEXICO-VIRAL.md`, D). Si el tema es
+  `general`, español de México pero sin referencias que solo se entiendan allí.
+- **Debajo de la tabla, además:** `ESTILO`, `CIERRE`, `TEMA`, `REPARTO` (personaje → rol de voz de
+  `videos/voces.json`, «personajes») y **3 remates alternativos** para el final (el manager elige).
+- **CTA solo si suma** (`GUIA.md`, «v4 · 4»). Si lo hay, mejor dicho por un personaje que en una tarjeta.
+- **Ejemplos de referencia:** los pilotos W49-25 a W49-29 (`videos/public/voz/W49-2*/guion.json` y
+  `videos/src/videos/W49-2*.tsx`): chat de la familia, telenovela «La Tarjeta», POV de la app del banco, matemáticas
+  de quincena y noticiero de la quincena desaparecida.
+
 ## Pasos
 
 1. **Elige las 6 ideas con más opciones de hacerse virales**, cada una con su gancho ganador.
@@ -30,11 +46,11 @@ Lee antes `CLAUDE.md`, `GUIA.md` («Para quién: México», «Límites legales»
 
 ## Guion de un reel
 
-| # | Voz en off | Texto en pantalla | Animación / visual | Nota |
-|---|---|---|---|---|
-| 1 | La frase que se oye desde el segundo 0 (números en letra) | … | … | GANCHO |
-| … | … | … | … | SEGUNDO GANCHO · WOW · BROMA |
-| n | CTA y cierre | … + «Contenido informativo, no es asesoramiento financiero» | … | CTA / CIERRE |
+| # | Quién | Voz en off | Texto en pantalla | Animación / visual | Nota |
+|---|---|---|---|---|---|
+| 1 | narrador | La frase que se oye desde el segundo 0, con etiquetas si actúa (números en letra) | … | … | GANCHO |
+| … | mama | `[sighs] Yo le dije que no saliera sola.` | … | … | BROMA · GIRO |
+| n | … | Remate o cierre | … + aviso legal pequeño | … | CIERRE |
 
 ## Guion de un carrusel
 

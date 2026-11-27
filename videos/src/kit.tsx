@@ -671,28 +671,58 @@ export type DefEscena = {
   render: (ctx: { voz: EscenaVoz; dur: number }) => React.ReactNode;
   subtitulos?: boolean;
   subtitulosClaros?: boolean;
+  estiloSub?: EstiloSub; // cambia el estilo de subtítulo solo en esta escena
 };
+
+/** Frame (absoluto, desde el inicio del vídeo) en que empieza cada escena de la voz, y en que empieza a hablar. */
+export type Inicios = Record<string, { escena: number; voz: number; dur: number }>;
+export const calcularInicios = (voz: Voz, extra: Record<string, number> = {}): Inicios => {
+  const out: Inicios = {};
+  let off = 0;
+  voz.escenas.forEach((e, i) => {
+    const dur = framesEscena(e, i, extra);
+    out[e.id] = { escena: off, voz: off + (i === 0 ? 0 : ENTRADA_VOZ), dur };
+    off += dur;
+  });
+  return out;
+};
+
+/** Estilo de subtítulos: «karaoke» (el de siempre, mayúsculas con palabra activa), «caja» (frase en caja blanca,
+ *  estilo TikTok), «limpio» (minúsculas, sombra, sin caja) o «ninguno» (el texto ya está en pantalla). */
+export type EstiloSub = "karaoke" | "caja" | "limpio" | "ninguno";
 
 export const Montaje: React.FC<{
   videoId: string;
   voz: Voz;
   escenas: DefEscena[];
-  pista?: string;
+  pista?: string | null; // null = sin música (a veces el silencio o solo efectos funciona mejor)
   extra?: Record<string, number>;
-}> = ({ videoId, voz, escenas, pista = "pad-align.wav", extra = {} }) => {
+  subtitulos?: EstiloSub;
+  subY?: number;
+  /** Capa continua por DEBAJO de las escenas (formatos de pantalla entera: chat, app, noticiero…). */
+  fondoFijo?: (ctx: { inicios: Inicios }) => React.ReactNode;
+  /** Capa continua por ENCIMA de las escenas (rótulos fijos, marcadores, comentario fijado…). */
+  capa?: (ctx: { inicios: Inicios }) => React.ReactNode;
+  nivelMusica?: number;
+}> = ({ videoId, voz, escenas, pista = "pad-align.wav", extra = {}, subtitulos = "karaoke", subY, fondoFijo, capa, nivelMusica }) => {
+  const inicios = calcularInicios(voz, extra);
   return (
     <AbsoluteFill style={{ backgroundColor: COLORS.deep }}>
+      {fondoFijo ? fondoFijo({ inicios }) : null}
       <Series>
         {voz.escenas.map((ev, i) => {
           const def = escenas.find((d) => d.id === ev.id);
           const dur = framesEscena(ev, i, extra);
           const desde = i === 0 ? 0 : ENTRADA_VOZ;
+          const estilo: EstiloSub = def?.subtitulos === false ? "ninguno" : def?.estiloSub ?? subtitulos;
           return (
             <Series.Sequence key={ev.id} durationInFrames={dur} name={ev.id}>
               {def ? def.render({ voz: ev, dur }) : null}
-              {def?.subtitulos !== false ? (
-                <Subtitulos palabras={ev.palabras} desde={desde} claro={def?.subtitulosClaros} />
-              ) : null}
+              {estilo === "karaoke" ? (
+                <Subtitulos palabras={ev.palabras} desde={desde} claro={def?.subtitulosClaros} y={subY} />
+              ) : estilo === "ninguno" ? null : (
+                <SubtituloFrase palabras={ev.palabras} desde={desde} estilo={estilo} y={subY} />
+              )}
               <Sequence from={desde} layout="none" name={`voz ${ev.id}`}>
                 <Audio src={staticFile(`voz/${videoId}/${ev.archivo}`)} volume={1} />
               </Sequence>
@@ -700,8 +730,59 @@ export const Montaje: React.FC<{
           );
         })}
       </Series>
-      <Musica pista={pista} voz={voz} extra={extra} />
+      {capa ? capa({ inicios }) : null}
+      {pista ? <Musica pista={pista} voz={voz} extra={extra} nivel={nivelMusica} /> : null}
     </AbsoluteFill>
+  );
+};
+
+/** Subtítulo por frases cortas: «caja» (blanco con texto negro, tipo TikTok) o «limpio» (blanco con sombra). */
+export const SubtituloFrase: React.FC<{ palabras: Palabra[]; desde?: number; estilo: "caja" | "limpio"; y?: number; porPagina?: number }> = ({
+  palabras,
+  desde = 0,
+  estilo,
+  y = 470,
+  porPagina = 5,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const t = (frame - desde) / fps;
+  const paginas: Palabra[][] = [];
+  let actual: Palabra[] = [];
+  palabras.forEach((p) => {
+    actual.push(p);
+    if (actual.length >= porPagina || /[.,;:!?…]$/.test(p.t)) {
+      paginas.push(actual);
+      actual = [];
+    }
+  });
+  if (actual.length) paginas.push(actual);
+  const idx = paginas.findIndex((pg, i) => t < (paginas[i + 1]?.[0].inicio ?? Infinity) && t >= pg[0].inicio - 0.05);
+  if (idx < 0) return null;
+  const texto = paginas[idx].map((p) => p.t).join(" ").replace(/[.,;:…]+$/, "");
+  const caja = estilo === "caja";
+  return (
+    <div style={{ position: "absolute", bottom: y, left: SAFE.left, right: SAFE.right, display: "flex", justifyContent: "center" }}>
+      <div
+        style={{
+          fontFamily,
+          fontSize: caja ? 54 : 60,
+          fontWeight: 800,
+          lineHeight: 1.25,
+          textAlign: "center",
+          color: caja ? "#111" : COLORS.white,
+          background: caja ? COLORS.white : "transparent",
+          padding: caja ? "10px 26px 14px" : 0,
+          borderRadius: caja ? 18 : 0,
+          boxDecorationBreak: "clone",
+          WebkitBoxDecorationBreak: "clone",
+          textShadow: caja ? "none" : "0 0 4px #000, 0 4px 18px rgba(0,0,0,0.85)",
+          maxWidth: 860,
+        }}
+      >
+        {texto}
+      </div>
+    </div>
   );
 };
 
