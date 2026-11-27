@@ -16,7 +16,7 @@
 
 ## Estado (lo reescribe Resultados cada día)
 
-*Actualizado: 26 nov 2026 (Resultados). Mediana de Instagram con 5 reels: 172 vistas. Ninguna publicación pasa de 5× la mediana (umbral 860): sin VIRAL. La mejor sigue siendo W47-02 (209 vistas, 12,4 s, 56,2 % pasa de 3 s).*
+*Actualizado: 27 nov 2026 (Resultados; cifras sin cambios desde el 26 nov, sin VIRAL). Falta medir «Tres ardillas» (publicado 26 nov, aún sin métricas). Los 4 siguientes programados siguen en euros (España): H1 no se pone a prueba todavía. Anterior: 26 nov. Mediana de Instagram con 5 reels: 172 vistas. Ninguna publicación pasa de 5× la mediana (umbral 860): sin VIRAL. La mejor sigue siendo W47-02 (209 vistas, 12,4 s, 56,2 % pasa de 3 s).*
 
 **Lo nuevo:** W48-01 (Black Friday, regla de las 48 h) sube de 58 a 172 vistas (= mediana) y el 62,1 % pasa de los 3 s con 11,3 s de media: es el mejor retenedor de la cuenta, pero con 0 guardados y 0 compartidos. W48-02 («12 o 14 pagas», España; 25 nov, <24 h) lleva 94 vistas, un 45 % por debajo de la mediana, y el 34,7 % pasa de 3 s: el gancho de concepto vuelve a perder. Tres semanas con 0 guardados y 1 compartido en total: nadie guarda ni comparte contenido de España. Indicio fuerte para H1 (el contenido para México aún no se ha publicado).
 
