@@ -1,7 +1,7 @@
 import React from "react";
-import { AbsoluteFill, useCurrentFrame, useVideoConfig } from "remotion";
-import { DefEscena, ENTRADA_VOZ, EscenaVoz, Montaje, PropsVoz, SubtituloFrase } from "../kit";
-import { AppBanco, Aviso, en, Movimiento, PreguntaFinal } from "../estilos";
+import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
+import { DefEscena, ENTRADA_VOZ, EscenaVoz, Montaje, PropsVoz, Sfx, SubtituloFrase } from "../kit";
+import { AppBanco, Aviso, clamp, en, entrada, F, Movimiento, pesos, PreguntaFinal } from "../estilos";
 
 // W49-27 · «POV: abres la app del banco después de la posada» · Reel · ESTILO banco · CIERRE remate + pregunta
 // Voz de narradora joven, en primera persona, con quejas y risas. Montos de ejemplo (no son datos).
@@ -21,11 +21,52 @@ const AvisoTrasVoz: React.FC<{ voz: EscenaVoz }> = ({ voz }) => {
   return t > voz.segundos + 0.1 ? <Aviso caja y={776} /> : null;
 };
 
+// «El truco»: sin esto, 12 s de la misma pantalla quieta. Sube una hoja de «Apartado · Fiestas» que se llena con
+// «aparta una lana» y se vacía con «cuando se acaba»; con «se acabó la fiesta», sello. Tiempos atados a las palabras.
+const palabra = (voz: EscenaVoz, w: string, def: number) => voz.palabras.find((p) => p.t.toLowerCase().startsWith(w))?.inicio ?? def;
+const Apartado: React.FC<{ voz: EscenaVoz }> = ({ voz }) => {
+  const t = (useCurrentFrame() - ENTRADA_VOZ) / useVideoConfig().fps;
+  const tAparta = palabra(voz, "aparta", 2.4);
+  const tAcaba = palabra(voz, "acaba", 5.6);
+  const tAcabo = palabra(voz, "acabó", 6.6);
+  const sube = entrada(t, Math.max(0, tAparta - 0.5), 0.45);
+  const lleno = interpolate(t, [tAparta, tAparta + 1.6], [0, 1], clamp) * (1 - interpolate(t, [tAcaba, tAcabo], [0, 1], clamp));
+  const sello = entrada(t, tAcabo, 0.25);
+  const META = 1500;
+  return (
+    <>
+      <div style={{ position: "absolute", left: 60, right: 60, top: 920 + (1 - sube) * 900, height: 520, background: "#fff", borderRadius: 40, boxShadow: "0 -10px 40px rgba(0,0,0,0.25)", fontFamily: F.roboto, padding: "40px 50px" }}>
+        <div style={{ fontSize: 40, color: "#6B7280" }}>Apartado</div>
+        <div style={{ fontSize: 64, fontWeight: 900, color: "#111827", marginTop: 4 }}>Fiestas 🎉</div>
+        <div style={{ fontSize: 110, fontWeight: 900, color: "#134E4A", marginTop: 20, fontVariantNumeric: "tabular-nums", letterSpacing: -3 }}>{pesos(META * lleno)}</div>
+        <div style={{ height: 34, borderRadius: 17, background: "#E5E7EB", marginTop: 26, overflow: "hidden" }}>
+          <div style={{ height: "100%", width: `${lleno * 100}%`, background: lleno > 0.25 ? "#10B981" : "#EF4444", borderRadius: 17 }} />
+        </div>
+        <div style={{ fontSize: 34, color: "#6B7280", marginTop: 16 }}>Solo para posadas, intercambios y tacos</div>
+      </div>
+      {sello > 0 ? (
+        <div style={{ position: "absolute", left: 0, right: 0, top: 1130, display: "flex", justifyContent: "center" }}>
+          <div style={{ rotate: "-8deg", scale: String(1.6 - 0.6 * sello), opacity: sello, border: "10px solid #DC2626", color: "#DC2626", fontFamily: F.anton, fontSize: 92, padding: "6px 34px", borderRadius: 16, background: "rgba(255,255,255,0.85)" }}>
+            SE ACABÓ LA FIESTA
+          </div>
+        </div>
+      ) : null}
+      <Sfx s="whoosh" volumen={0.35} en={Math.max(0, tAparta - 0.5)} />
+      <Sfx s="impacto" volumen={0.45} en={tAcabo} />
+    </>
+  );
+};
+
 const ESCENAS: DefEscena[] = ["hook", "intercambio", "uber", "tacos", "tiendita", "truco", "remate"].map((id) => ({
   id,
   estiloSub: "ninguno",
   render: ({ voz }) =>
-    id !== "remate" ? (
+    id === "truco" ? (
+      <AbsoluteFill>
+        <Apartado voz={voz} />
+        <SubHastaFin voz={voz} desde={ENTRADA_VOZ} />
+      </AbsoluteFill>
+    ) : id !== "remate" ? (
       <SubHastaFin voz={voz} desde={id === "hook" ? 0 : ENTRADA_VOZ} />
     ) : (
       <AbsoluteFill>
