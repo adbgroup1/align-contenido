@@ -1,0 +1,500 @@
+{
+ "proveedor": "elevenlabs",
+ "modelo": "eleven_v3",
+ "voz": "ewn5JTa3lNPY8QVuZJi6",
+ "reparto": {
+  "narrador": "narrador",
+  "mama": "mama",
+  "primo": "compa"
+ },
+ "escenas": [
+  {
+   "id": "hook",
+   "personaje": "narrador",
+   "texto": "Última hora: se reporta la desaparición de una quincena a solo treinta y seis horas de haber llegado.",
+   "archivo": "hook.mp3",
+   "segundos": 5.877551,
+   "palabras": [
+    {
+     "t": "Última",
+     "inicio": 0.15,
+     "fin": 0.48
+    },
+    {
+     "t": "hora:",
+     "inicio": 0.528,
+     "fin": 0.96
+    },
+    {
+     "t": "se",
+     "inicio": 1.013,
+     "fin": 1.12
+    },
+    {
+     "t": "reporta",
+     "inicio": 1.177,
+     "fin": 1.52
+    },
+    {
+     "t": "la",
+     "inicio": 1.573,
+     "fin": 1.68
+    },
+    {
+     "t": "desaparición",
+     "inicio": 1.72,
+     "fin": 2.4
+    },
+    {
+     "t": "de",
+     "inicio": 2.453,
+     "fin": 2.56
+    },
+    {
+     "t": "una",
+     "inicio": 2.64,
+     "fin": 2.88
+    },
+    {
+     "t": "quincena",
+     "inicio": 2.96,
+     "fin": 3.52
+    },
+    {
+     "t": "a",
+     "inicio": 3.64,
+     "fin": 3.76
+    },
+    {
+     "t": "solo",
+     "inicio": 3.824,
+     "fin": 4.08
+    },
+    {
+     "t": "treinta",
+     "inicio": 4.12,
+     "fin": 4.4
+    },
+    {
+     "t": "y",
+     "inicio": 4.48,
+     "fin": 4.56
+    },
+    {
+     "t": "seis",
+     "inicio": 4.592,
+     "fin": 4.72
+    },
+    {
+     "t": "horas",
+     "inicio": 4.773,
+     "fin": 5.04
+    },
+    {
+     "t": "de",
+     "inicio": 5.067,
+     "fin": 5.12
+    },
+    {
+     "t": "haber",
+     "inicio": 5.16,
+     "fin": 5.36
+    },
+    {
+     "t": "llegado.",
+     "inicio": 5.424,
+     "fin": 5.84
+    }
+   ]
+  },
+  {
+   "id": "vista",
+   "personaje": "narrador",
+   "texto": "Fue vista por última vez en la tiendita de la esquina, comprando unas papitas y un refresco.",
+   "archivo": "vista.mp3",
+   "segundos": 5.146122,
+   "palabras": [
+    {
+     "t": "Fue",
+     "inicio": 0,
+     "fin": 0.16
+    },
+    {
+     "t": "vista",
+     "inicio": 0.213,
+     "fin": 0.48
+    },
+    {
+     "t": "por",
+     "inicio": 0.52,
+     "fin": 0.64
+    },
+    {
+     "t": "última",
+     "inicio": 0.697,
+     "fin": 1.04
+    },
+    {
+     "t": "vez",
+     "inicio": 1.1,
+     "fin": 1.28
+    },
+    {
+     "t": "en",
+     "inicio": 1.307,
+     "fin": 1.36
+    },
+    {
+     "t": "la",
+     "inicio": 1.387,
+     "fin": 1.44
+    },
+    {
+     "t": "tiendita",
+     "inicio": 1.493,
+     "fin": 1.92
+    },
+    {
+     "t": "de",
+     "inicio": 1.973,
+     "fin": 2.08
+    },
+    {
+     "t": "la",
+     "inicio": 2.107,
+     "fin": 2.16
+    },
+    {
+     "t": "esquina,",
+     "inicio": 2.213,
+     "fin": 2.72
+    },
+    {
+     "t": "comprando",
+     "inicio": 2.773,
+     "fin": 3.2
+    },
+    {
+     "t": "unas",
+     "inicio": 3.264,
+     "fin": 3.52
+    },
+    {
+     "t": "papitas",
+     "inicio": 3.58,
+     "fin": 4.08
+    },
+    {
+     "t": "y",
+     "inicio": 4.16,
+     "fin": 4.24
+    },
+    {
+     "t": "un",
+     "inicio": 4.293,
+     "fin": 4.4
+    },
+    {
+     "t": "refresco.",
+     "inicio": 4.46,
+     "fin": 5.12
+    }
+   ]
+  },
+  {
+   "id": "mama",
+   "personaje": "mama",
+   "texto": "Yo le dije que no saliera sola.",
+   "archivo": "mama.mp3",
+   "segundos": 2.847347,
+   "palabras": [
+    {
+     "t": "Yo",
+     "inicio": 0.507,
+     "fin": 0.72
+    },
+    {
+     "t": "le",
+     "inicio": 0.773,
+     "fin": 0.88
+    },
+    {
+     "t": "dije",
+     "inicio": 0.933,
+     "fin": 1.12
+    },
+    {
+     "t": "que",
+     "inicio": 1.16,
+     "fin": 1.28
+    },
+    {
+     "t": "no",
+     "inicio": 1.307,
+     "fin": 1.36
+    },
+    {
+     "t": "saliera",
+     "inicio": 1.42,
+     "fin": 1.84
+    },
+    {
+     "t": "sola.",
+     "inicio": 1.92,
+     "fin": 2.8
+    }
+   ]
+  },
+  {
+   "id": "banda",
+   "personaje": "narrador",
+   "texto": "Las autoridades sospechan de una banda conocida como… Los Antojitos.",
+   "archivo": "banda.mp3",
+   "segundos": 4.832653,
+   "palabras": [
+    {
+     "t": "Las",
+     "inicio": 0,
+     "fin": 0.16
+    },
+    {
+     "t": "autoridades",
+     "inicio": 0.213,
+     "fin": 0.8
+    },
+    {
+     "t": "sospechan",
+     "inicio": 0.88,
+     "fin": 1.52
+    },
+    {
+     "t": "de",
+     "inicio": 1.547,
+     "fin": 1.6
+    },
+    {
+     "t": "una",
+     "inicio": 1.66,
+     "fin": 1.84
+    },
+    {
+     "t": "banda",
+     "inicio": 1.893,
+     "fin": 2.16
+    },
+    {
+     "t": "conocida",
+     "inicio": 2.227,
+     "fin": 2.8
+    },
+    {
+     "t": "como…",
+     "inicio": 2.896,
+     "fin": 3.68
+    },
+    {
+     "t": "Los",
+     "inicio": 3.896,
+     "fin": 3.92
+    },
+    {
+     "t": "Antojitos.",
+     "inicio": 3.98,
+     "fin": 4.8
+    }
+   ]
+  },
+  {
+   "id": "primo",
+   "personaje": "primo",
+   "texto": "Yo nomás le pedí doscientos, carnal. ¡Yo no fui!",
+   "archivo": "primo.mp3",
+   "segundos": 4.519184,
+   "palabras": [
+    {
+     "t": "Yo",
+     "inicio": 0.213,
+     "fin": 0.24
+    },
+    {
+     "t": "nomás",
+     "inicio": 0.32,
+     "fin": 0.64
+    },
+    {
+     "t": "le",
+     "inicio": 0.693,
+     "fin": 0.8
+    },
+    {
+     "t": "pedí",
+     "inicio": 0.86,
+     "fin": 1.12
+    },
+    {
+     "t": "doscientos,",
+     "inicio": 1.18,
+     "fin": 1.92
+    },
+    {
+     "t": "carnal.",
+     "inicio": 1.984,
+     "fin": 2.72
+    },
+    {
+     "t": "¡Yo",
+     "inicio": 2.88,
+     "fin": 3.12
+    },
+    {
+     "t": "no",
+     "inicio": 3.173,
+     "fin": 3.28
+    },
+    {
+     "t": "fui!",
+     "inicio": 3.4,
+     "fin": 4.48
+    }
+   ]
+  },
+  {
+   "id": "consejo",
+   "personaje": "narrador",
+   "texto": "Los expertos recomiendan: cuando llegue la próxima quincena, no la dejen sola. Denle un trabajo a cada peso desde el día uno.",
+   "archivo": "consejo.mp3",
+   "segundos": 7.314286,
+   "palabras": [
+    {
+     "t": "Los",
+     "inicio": 0,
+     "fin": 0.16
+    },
+    {
+     "t": "expertos",
+     "inicio": 0.217,
+     "fin": 0.64
+    },
+    {
+     "t": "recomiendan:",
+     "inicio": 0.693,
+     "fin": 1.36
+    },
+    {
+     "t": "cuando",
+     "inicio": 1.44,
+     "fin": 1.92
+    },
+    {
+     "t": "llegue",
+     "inicio": 1.952,
+     "fin": 2.16
+    },
+    {
+     "t": "la",
+     "inicio": 2.187,
+     "fin": 2.24
+    },
+    {
+     "t": "próxima",
+     "inicio": 2.3,
+     "fin": 2.72
+    },
+    {
+     "t": "quincena,",
+     "inicio": 2.773,
+     "fin": 3.52
+    },
+    {
+     "t": "no",
+     "inicio": 3.573,
+     "fin": 3.68
+    },
+    {
+     "t": "la",
+     "inicio": 3.733,
+     "fin": 3.84
+    },
+    {
+     "t": "dejen",
+     "inicio": 3.867,
+     "fin": 4.16
+    },
+    {
+     "t": "sola.",
+     "inicio": 4.224,
+     "fin": 4.64
+    },
+    {
+     "t": "Denle",
+     "inicio": 4.68,
+     "fin": 4.88
+    },
+    {
+     "t": "un",
+     "inicio": 4.907,
+     "fin": 4.96
+    },
+    {
+     "t": "trabajo",
+     "inicio": 5.02,
+     "fin": 5.44
+    },
+    {
+     "t": "a",
+     "inicio": 5.48,
+     "fin": 5.52
+    },
+    {
+     "t": "cada",
+     "inicio": 5.568,
+     "fin": 5.76
+    },
+    {
+     "t": "peso",
+     "inicio": 5.84,
+     "fin": 6.16
+    },
+    {
+     "t": "desde",
+     "inicio": 6.2,
+     "fin": 6.4
+    },
+    {
+     "t": "el",
+     "inicio": 6.427,
+     "fin": 6.48
+    },
+    {
+     "t": "día",
+     "inicio": 6.54,
+     "fin": 6.72
+    },
+    {
+     "t": "uno.",
+     "inicio": 6.84,
+     "fin": 7.28
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "personaje": "narrador",
+   "texto": "Seguiremos informando.",
+   "archivo": "cierre.mp3",
+   "segundos": 2.35102,
+   "palabras": [
+    {
+     "t": "Seguiremos",
+     "inicio": 0.21,
+     "fin": 0.64
+    },
+    {
+     "t": "informando.",
+     "inicio": 0.697,
+     "fin": 2.32
+    }
+   ]
+  }
+ ]
+}

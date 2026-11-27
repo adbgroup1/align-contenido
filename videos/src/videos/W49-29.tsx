@@ -25,7 +25,7 @@ const Pantalla: React.FC<{ id: string }> = ({ id }) => {
     );
   }
   if (id === "banda") {
-    const k = interpolate(t, [1.4, 1.8], [0, 1], clamp);
+    const k = interpolate(t, [0.05, 0.45], [0, 1], clamp);
     return (
       <AbsoluteFill>
         <div style={{ position: "absolute", top: 400, left: 100, right: 140, display: "flex", justifyContent: "space-around", fontSize: 170, opacity: k, scale: String(0.6 + 0.4 * k) }}>
@@ -75,7 +75,7 @@ export const W4929: React.FC<PropsVoz> = ({ voz, videoId }) =>
       escenas={ESCENAS}
       extra={EXTRA_W4929}
       pista="minimal-ambient-tech.mp3"
-      subY={1500}
+      subY={220}
       fondoFijo={({ inicios }) => (
         <Noticiero
           titulares={[
