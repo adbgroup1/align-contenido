@@ -263,3 +263,9 @@ Son ideas propias: de la referencia solo se toma el patrón.
 - **Medir con tasa de guardados (guardados/alcance)**, no con likes (SocialKit). Confirma H3/H14.
 - **Sin ejemplos nuevos accesibles:** los carruseles virales MX de finanzas siguen sin verse desde la nube → «mira las ideas» en el Mac.
 - **Creadores MX (plan B, sin ver):** el formato «dato INEGI como edificio/escala visual» (V8b-IgbJGXk) y la noticia con fecha de servicio (Lnmg2LaqlgI) son los dos patrones útiles; las vistas altas con 0 likes (2A7Hlgd8wz8, anuncio de Credy: 45 k vistas, 9 subs, 0 likes) son tráfico pagado: **ignorar ratios extremos con 0 likes**.
+
+### Ronda de tarde 27 nov 2026 (WebSearch, solo lo público; Gemini 503 → plan B)
+*Fuentes: Canva MX (plantillas), Nu México (blog), Minuto60, Estrategias de Inversión. Sin carruseles MX de finanzas concretos ni cifras de guardados: la búsqueda no devolvió ejemplos virales.*
+- **Nada nuevo en estructura de carruseles:** se repiten portada-promesa, lámina 2 que paga, CTA de guardar. Nu México propone el formato «avance de ahorro» (mostrar progreso) como inspiración: posible idea de serie para carrusel, sin datos.
+- **Sigue pendiente:** ver carruseles reales de cuentas MX en el Mac («mira las ideas»).
+- **Creadores MX (plan B, sin ver):** «regla con número + momento de pago» (72 horas tras cobrar, YacKygrTn5M) y «quincena 1 = fijo / quincena 2 = vida» (mEzIgazUY3w): ambos de un canal de 1.110 subs con 5–8× ratio y casi sin comentarios (señal débil). Dos personajes con el mismo sueldo (edw21vIKj4U) refuerza H18.
