@@ -1,15 +1,15 @@
 {
  "nota": "Voz de ALIGN para México. La decide el bucle (hipótesis H6), no Andrés: voz.mjs reparte los vídeos entre las voces de «rotacion» (la menos usada primero) y apunta cada una en «asignadas». Resultados compara las voces y, cuando una gana con datos, la pone en «principal» con ganadora: true y recorta la rotación. Los IDs de ElevenLabs no son secretos.",
  "principal": {
-  "id": "sDh3eviBhiuHKi0MjTNq",
-  "nombre": "Alejandro - Corporate and Elegant",
+  "id": "ewn5JTa3lNPY8QVuZJi6",
+  "nombre": "Ana Sofía-Conversational",
   "ganadora": false
  },
  "rotacion": [
-  "9Godp7dNohUvXk6qp0gS",
-  "sDh3eviBhiuHKi0MjTNq",
-  "JYyJjNPfmNJdaby8LdZs",
-  "iDEmt5MnqUotdwCIVplo"
+  "ewn5JTa3lNPY8QVuZJi6",
+  "YKUjKbMlejgvkOZlnnvt",
+  "HxRDsm0E8jdUUrG0lqbK",
+  "j7e3J6ksqsziQcIGyAWI"
  ],
  "asignadas": {
   "W49-07": "9Godp7dNohUvXk6qp0gS",
@@ -29,34 +29,28 @@
  },
  "en_prueba": [
   {
-   "nombre": "Alejandro - Corporate and Elegant",
-   "id": "sDh3eviBhiuHKi0MjTNq",
-   "genero": "male"
+   "id": "ewn5JTa3lNPY8QVuZJi6",
+   "nombre": "Ana Sofía-Conversational",
+   "genero": "female",
+   "nota": 9.4
   },
   {
-   "nombre": "Marlene - Melodic, Pleasant and Bright",
-   "id": "JYyJjNPfmNJdaby8LdZs",
-   "genero": "female"
+   "id": "YKUjKbMlejgvkOZlnnvt",
+   "nombre": "Alejandro Ballesteros-Warm and Joyful",
+   "genero": "male",
+   "nota": 8.9
   },
   {
-   "nombre": "Enrique Mondragón - Elegant and Dynamic",
-   "id": "iDEmt5MnqUotdwCIVplo",
-   "genero": "male"
+   "id": "HxRDsm0E8jdUUrG0lqbK",
+   "nombre": "Javi - Social Media",
+   "genero": "male",
+   "nota": 8.9
   },
   {
-   "nombre": "Regina - Contact Center",
-   "id": "9Godp7dNohUvXk6qp0gS",
-   "genero": "female"
-  },
-  {
-   "nombre": "Antonio - Confident, Gentle and Clear",
-   "id": "htFfPSZGJwjBv1CL0aMD",
-   "genero": "male"
-  },
-  {
-   "nombre": "Ana María - Calm, Natural and Clear",
-   "id": "m7yTemJqdIqrcNleANfX",
-   "genero": "female"
+   "id": "j7e3J6ksqsziQcIGyAWI",
+   "nombre": "Valentina - Energetic and Radiant",
+   "genero": "female",
+   "nota": 8.9
   }
  ],
  "descartadas": [
@@ -67,10 +61,50 @@
   {
    "id": "m7yTemJqdIqrcNleANfX",
    "motivo": "tranquila, muy parecida a Enrique; se prueba si las 4 primeras no despegan"
+  },
+  {
+   "id": "qGUobVOQFekqmtk6YZdK",
+   "motivo": "Chente: 9.4 en el casting, pero es una voz de llamadas de cobranza (tono call center) y dejaba la rotación en 3 mujeres y 1 hombre; entra Alejandro Ballesteros (8.9)"
   }
  ],
  "anterior_espana": {
   "id": "WWVK6dYMrl0ZHnHT7cRj",
   "nombre": "Alejandro Castellanos (España)"
- }
+ },
+ "rotacion_anterior": [
+  "9Godp7dNohUvXk6qp0gS",
+  "sDh3eviBhiuHKi0MjTNq",
+  "JYyJjNPfmNJdaby8LdZs",
+  "iDEmt5MnqUotdwCIVplo"
+ ],
+ "personajes": {
+  "mama": {
+   "id": "iBGVhgcEZS6A5gTOjqSJ",
+   "nombre": "Gabiyoya - Warm, Gentle and Friendly",
+   "nota": 8.8
+  },
+  "abuelita": {
+   "id": "D3ws14YxTqcjPaXEOehR",
+   "nombre": "Azu - Calm, Soft and Melodic",
+   "nota": 9.1
+  },
+  "compa": {
+   "id": "KaqDAydogRM91Fctgddi",
+   "nombre": "Arath Figueroa - Mexican Chilango",
+   "nota": 9.4
+  },
+  "tia": {
+   "id": "twZzvyYIl5ntDHC1Vatv",
+   "nombre": "Angelica - Friendly, Energetic & Professional",
+   "nota": 9.1
+  },
+  "villano": {
+   "id": "j3pzCmrdzkT5DUtyT61a",
+   "nombre": "Paloma - Resonant and Earthy",
+   "nota": 9
+  }
+ },
+ "modelo": "eleven_v3",
+ "casting": "media/pruebas/casting/RANKING.md (2026-11-27)",
+ "nota_casting": "27 nov: Gemini puntúa casi todo con 9 de acento (incluida una voz de España de control), así que su nota no distingue bien. Solo entran voces etiquetadas con acento mexicano en la Voice Library. Andrés tiene la última palabra al oírlas (RANKING.md)."
 }

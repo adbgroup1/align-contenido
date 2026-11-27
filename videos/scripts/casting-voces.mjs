@@ -19,6 +19,13 @@ const args = process.argv.slice(2);
 const N = Number(args[args.indexOf("--n") + 1] || 12) || 12;
 const DISENO = args.includes("--diseno");
 const APLICAR = args.includes("--aplicar");
+// --repuntuar: no genera nada; vuelve a puntuar con Gemini las muestras de casting.json que se quedaron sin nota
+// (p. ej. por un 503) y rehace el ranking (y voces.json con --aplicar). Úsalo con otro GEMINI_MODEL si el de siempre falla.
+const REPUNTUAR = args.includes("--repuntuar");
+// --ids id[:rol],id[:rol]…: prueba esas voces de la Voice Library (con el rol que se busca: mama, abuelita, tia,
+// villano, compa, narrador…) y las AÑADE a casting.json, sin repetir las que ya están. Sirve para los personajes
+// cuando Voice Design no está disponible (la clave necesita el permiso voice_generation).
+const IDS = args.includes("--ids") ? args[args.indexOf("--ids") + 1].split(",").map((x) => x.split(":")) : null;
 const MODELO = process.env.CASTING_MODELO ?? "eleven_v3";
 const KEY = process.env.ELEVENLABS_API_KEY;
 if (!KEY) throw new Error("Falta ELEVENLABS_API_KEY.");
@@ -59,13 +66,15 @@ const pasos = [
 ];
 const vistos = new Set();
 let cand = [];
-for (const p of pasos) {
+for (const p of REPUNTUAR || IDS ? [] : pasos) {
   for (const v of await buscar(p)) {
     if (vistos.has(v.voice_id)) continue;
     vistos.add(v.voice_id);
     const texto = `${v.name} ${v.description ?? ""} ${v.descriptive ?? ""} ${v.use_case ?? ""} ${v.category ?? ""}`;
     if (MALAS.test(texto)) continue;
-    cand.push({ fuente: "biblioteca", id: v.voice_id, owner: v.public_owner_id, nombre: v.name, genero: v.gender, edad: v.age, uso: v.use_case, descripcion: (v.description ?? "").slice(0, 160) });
+    // 27 nov: las búsquedas por texto traían voces en inglés o indonesio; solo español con acento mexicano
+    if (v.language !== "es" || (v.accent && v.accent !== "mexican")) continue;
+    cand.push({ fuente: "biblioteca", id: v.voice_id, owner: v.public_owner_id, nombre: v.name, genero: v.gender, edad: v.age, uso: v.use_case, acento_biblioteca: v.accent, descripcion: (v.description ?? "").slice(0, 160) });
   }
   if (cand.length >= N * 2) break;
 }
@@ -129,15 +138,16 @@ const puntuar = async (buf) => {
     "coloquial (¿suena a un cuate hablando y no a locutor, comercial o call center?), " +
     "gracia (¿transmite humor, actitud, cambios de tono?), claridad (¿se entiende todo?), " +
     "y edad_aparente (número). Devuelve SOLO JSON: {\"acento\":n,\"coloquial\":n,\"gracia\":n,\"claridad\":n,\"edad_aparente\":n,\"genero\":\"hombre|mujer\",\"rol_ideal\":\"narrador|narradora|mama|abuelita|compa|tia|villano|otro\",\"comentario\":\"una línea\"}";
-  for (let intento = 0; intento < 2; intento++) {
+  for (let intento = 0; intento < 3; intento++) {
     const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI}`, {
       method: "POST",
+      signal: AbortSignal.timeout(180000),
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         contents: [{ parts: [{ inline_data: { mime_type: "audio/mpeg", data: buf.toString("base64") } }, { text: prompt }] }],
         generationConfig: { responseMimeType: "application/json", temperature: 0.2 },
       }),
-    });
+    }).catch((e) => ({ ok: false, status: e.name }));
     if (r.ok) {
       const j = await r.json();
       try {
@@ -146,15 +156,40 @@ const puntuar = async (buf) => {
         return null;
       }
     }
-    console.warn(`Gemini ${r.status}`);
-    await new Promise((s) => setTimeout(s, 4000));
+    console.warn(`Gemini ${GEMINI_MODEL} ${r.status}`);
+    await new Promise((s) => setTimeout(s, r.status === 429 ? 20000 : 4000));
   }
   return null;
 };
 
-const filas = [];
+const filas = REPUNTUAR || IDS ? JSON.parse(readFileSync(`${dir}/casting.json`, "utf8")).filas : [];
+if (IDS) {
+  // busca cada voz en la biblioteca (por su nombre no se puede: se pide la página de voces mexicanas y se filtra)
+  const todas = [];
+  for (const p of [{ gender: "male" }, { gender: "female" }, { gender: "male", sort: "cloned_by_count" }, { gender: "female", sort: "cloned_by_count" }, { gender: "female", age: "old" }, { gender: "male", age: "old" }, { gender: "female", age: "middle_aged" }, { gender: "male", age: "middle_aged" }])
+    todas.push(...(await buscar({ language: "es", accent: "mexican", ...p })));
+  for (const [id, rol] of IDS) {
+    if (filas.some((f) => f.id === id)) continue;
+    const v = todas.find((x) => x.voice_id === id);
+    if (!v) {
+      console.warn(`${id}: no está en la Voice Library (español, acento mexicano)`);
+      continue;
+    }
+    elegidas.push({ fuente: "biblioteca", rol, id, owner: v.public_owner_id, nombre: v.name, genero: v.gender, edad: v.age, uso: v.use_case, acento_biblioteca: v.accent, descripcion: (v.description ?? "").slice(0, 160) });
+  }
+}
+if (REPUNTUAR) {
+  for (const f of filas) {
+    if (f.nota || !existsSync(`${dir}/${f.archivo}`)) continue;
+    if (f.acento_biblioteca && f.acento_biblioteca !== "mexican") continue; // no entran igualmente: no gasto cuota
+    f.modelo_nota = GEMINI_MODEL;
+    f.nota = await puntuar(readFileSync(`${dir}/${f.archivo}`));
+    console.log(`${f.nombre}: ${f.nota ? `acento ${f.nota.acento}, coloquial ${f.nota.coloquial}, gracia ${f.nota.gracia}` : "sin nota"}`);
+  }
+}
 const slug = (s) => s.toLowerCase().normalize("NFD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 28);
 
+const base = IDS ? filas.length : 0; // con --ids, los archivos nuevos siguen la numeración de casting.json
 for (const [i, v] of elegidas.entries()) {
   let r = await tts(v.id);
   if (r.error && v.owner) {
@@ -165,14 +200,14 @@ for (const [i, v] of elegidas.entries()) {
     console.warn(`${v.nombre}: ${r.error}`);
     continue;
   }
-  const archivo = `${String(i + 1).padStart(2, "0")}-${slug(v.nombre)}.mp3`;
+  const archivo = `${String(i + 1 + base).padStart(2, "0")}-${slug(v.nombre)}.mp3`;
   writeFileSync(`${dir}/${archivo}`, r.audio);
   const nota = await puntuar(r.audio);
   filas.push({ ...v, archivo, alignment: r.alignment, nota });
   console.log(`${v.nombre}: ${nota ? `acento ${nota.acento}, coloquial ${nota.coloquial}, gracia ${nota.gracia}` : "sin nota"}`);
 }
 
-if (DISENO) {
+if (DISENO && !REPUNTUAR && !IDS) {
   for (const d of DISENOS) {
     const previews = await disenar(d);
     if (!previews) continue;
@@ -193,7 +228,7 @@ writeFileSync(`${dir}/casting.json`, JSON.stringify({ fecha: new Date().toISOStr
 const md = [
   "# Casting de voces mexicanas",
   "",
-  `*${new Date().toISOString().slice(0, 10)} · modelo ${MODELO} · nota de Gemini escuchando (acento 40 %, coloquial 30 %, gracia 20 %, claridad 10 %)*`,
+  `*${new Date().toISOString().slice(0, 10)} · modelo ${MODELO} · nota de Gemini (${GEMINI_MODEL}) escuchando (acento 40 %, coloquial 30 %, gracia 20 %, claridad 10 %)*`,
   "",
   `Muestra: «${sinEtiquetas(MUESTRA)}»`,
   "",
@@ -214,7 +249,9 @@ if (APLICAR) {
     console.log("Sin notas de Gemini: no aplico nada.");
     process.exit(0);
   }
-  const buenas = filas.filter((f) => f.nota && f.nota.acento >= 7 && f.nota.claridad >= 6);
+  // 27 nov: Gemini dio 9 de acento «chilango» a una voz de España de control, así que su nota sola no basta: además
+  // la voz tiene que estar etiquetada con acento mexicano en la biblioteca (o ser un diseño a medida mexicano).
+  const buenas = filas.filter((f) => f.nota && f.nota.acento >= 7 && f.nota.claridad >= 6 && (f.fuente === "diseno" || f.acento_biblioteca === "mexican"));
   // guarda las voces diseñadas buenas (ocupan hueco: solo la mejor de cada rol)
   const guardar = async (f) => {
     if (f.fuente !== "diseno") return f.id;
@@ -234,7 +271,8 @@ if (APLICAR) {
   const mejorDe = (cond) => buenas.find((f) => cond(f) && !usados.has(f.archivo));
   const personajes = {};
   for (const rol of ["mama", "abuelita", "compa", "tia", "villano"]) {
-    const f = mejorDe((x) => x.nota.rol_ideal === rol || x.rol === rol);
+    // primero la voz que se buscó para ese rol (--ids id:rol o un diseño); si no, la que Gemini ve para ese rol
+    const f = mejorDe((x) => x.rol === rol) ?? mejorDe((x) => !x.rol && x.nota.rol_ideal === rol);
     if (!f) continue;
     const id = await guardar(f);
     if (id) {
@@ -245,6 +283,7 @@ if (APLICAR) {
   const narr = [];
   for (const f of buenas) {
     if (narr.length >= 4 || usados.has(f.archivo)) continue;
+    if (f.rol && !["narrador", "narradora", "chilango", "chilanga"].includes(f.rol)) continue; // voces buscadas para un personaje
     if (!["narrador", "narradora", "otro", undefined].includes(f.nota.rol_ideal) && f.fuente === "diseno" && !["chilango", "chilanga"].includes(f.rol)) continue;
     const id = await guardar(f);
     if (!id) continue;

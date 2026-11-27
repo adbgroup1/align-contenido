@@ -39,7 +39,11 @@ const elegirVoz = () => {
   if (guion.voz) return guion.voz;
   voces.asignadas ??= {};
   if (voces.asignadas[id]) return voces.asignadas[id];
-  const rot = voces.principal?.ganadora ? [] : voces.rotacion ?? [];
+  let rot = voces.principal?.ganadora ? [] : voces.rotacion ?? [];
+  // "reparto": { "narrador": "narradora" } pide narradora: solo las voces de mujer de la rotación (si las hay)
+  const genero = { narradora: "female" }[guion.reparto?.narrador];
+  const generoDe = (v) => (voces.en_prueba ?? []).find((x) => x.id === v)?.genero;
+  if (genero && rot.some((v) => generoDe(v) === genero)) rot = rot.filter((v) => generoDe(v) === genero);
   if (!rot.length || usarSay) return voces.principal?.id || process.env.ELEVENLABS_VOICE_ID || "";
   const usos = (v) => Object.values(voces.asignadas).filter((x) => x === v).length;
   const voz = [...rot].sort((a, b) => usos(a) - usos(b))[0];
@@ -52,7 +56,12 @@ console.log(`Voz del narrador: ${VOICE_ID}`);
 const MODEL_ID = guion.modelo ?? voces.modelo ?? process.env.ELEVENLABS_MODEL_ID ?? "eleven_multilingual_v2";
 console.log(`Modelo: ${MODEL_ID}`);
 const vozDe = (personaje) => {
-  if (!personaje || personaje === "narrador") return guion.reparto?.narrador ?? VOICE_ID;
+  if (!personaje || personaje === "narrador") {
+    // el narrador puede ser un voice_id, un rol de voces.json → «personajes» o «narrador»/«narradora» (= la rotación)
+    const ref = guion.reparto?.narrador;
+    if (!ref || ["narrador", "narradora"].includes(ref)) return VOICE_ID;
+    return voces.personajes?.[ref]?.id ?? (/^[A-Za-z0-9]{18,}$/.test(ref) ? ref : VOICE_ID);
+  }
   const ref = guion.reparto?.[personaje] ?? personaje; // el reparto puede dar un voice_id o un rol de voces.json
   const v = voces.personajes?.[ref]?.id ?? (/^[A-Za-z0-9]{18,}$/.test(ref) ? ref : null);
   if (v) return v;
