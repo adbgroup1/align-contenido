@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill } from "remotion";
 import { DefEscena, Montaje, PropsVoz, Sfx } from "../kit";
-import { Aviso, Chat, en, entrada, F, MsgChat, useSeg } from "../estilos";
+import { Aviso, Chat, en, MsgChat } from "../estilos";
 
 // W49-25 · «El grupo de la familia se entera de tu aguinaldo» · Reel · ESTILO chat · CIERRE remate (sin CTA)
 // Piloto del replanteamiento del 27 nov: personajes con voz propia (mamá, tía, primo, abuelita), voz mexicana
@@ -24,7 +24,7 @@ const ESCENAS: DefEscena[] = ["hook", "mama", "tia", "primo", "abuelita", "giro"
 
 const Remate: React.FC<{ dur: number }> = () => (
   <AbsoluteFill>
-    <Aviso caja y={1395} />
+    <Aviso caja y={1474} />
   </AbsoluteFill>
 );
 
@@ -48,10 +48,11 @@ export const W4925: React.FC<PropsVoz> = ({ voz, videoId }) =>
           { de: "yo", en: en(inicios, "giro", 2.6), escribe: 0, texto: "Ya lo aparté desde el día que cayó 😇", hora: "13:06" },
           { de: "Tía Chuy", en: en(inicios, "remate", 1.1), escribe: 0.6, tipo: "borrado", hora: "13:06" },
           { de: "Mamá", en: en(inicios, "remate", 1.8), escribe: 0.3, tipo: "sticker", texto: "😤", hora: "13:06" },
+          { de: "sistema", en: en(inicios, "remate", 2.4), escribe: 0, tipo: "sistema", texto: "Tía Chuy salió del grupo" },
         ];
         return (
           <>
-            <Chat titulo="Familia 🇲🇽🎄" info="Tú, Mamá, Tía Chuy, Primo Charly, Abuelita" miembros={MIEMBROS} mensajes={m} base={1370} />
+            <ChatFamilia mensajes={m} />
             <SistemaSalio en={en(inicios, "remate", 2.4)} />
           </>
         );
@@ -59,19 +60,11 @@ export const W4925: React.FC<PropsVoz> = ({ voz, videoId }) =>
     />
   ) : null;
 
-/** Mensaje del sistema: «Tía Chuy salió del grupo». */
-const SistemaSalio: React.FC<{ en: number }> = ({ en: t0 }) => {
-  const t = useSeg();
-  if (t < t0) return null;
-  const k = entrada(t, t0, 0.3);
-  return (
-    <>
-      <div style={{ position: "absolute", top: 1240, left: 0, right: 0, display: "flex", justifyContent: "center", opacity: Math.min(1, k * 1.5), scale: String(Math.min(1.1, k)) }}>
-        <div style={{ background: "#FEF3C7", color: "#713F12", fontFamily: F.roboto, fontSize: 40, padding: "12px 30px", borderRadius: 16, boxShadow: "0 2px 4px rgba(0,0,0,0.15)" }}>
-          Tía Chuy salió del grupo
-        </div>
-      </div>
-      <Sfx s="impacto" volumen={0.45} en={t0} />
-    </>
-  );
-};
+/** El chat no sube por detrás de los subtítulos del narrador (caja arriba, hasta y≈490): las burbujas que pasan de
+ *  y=510 se van. La barra «Mensaje» queda en 1352–1462 y el aviso legal, debajo. */
+const ChatFamilia: React.FC<{ mensajes: MsgChat[] }> = ({ mensajes }) => (
+  <Chat titulo="Familia 🇲🇽🎄" info="Tú, Mamá, Tía Chuy, Primo Charly, Abuelita" miembros={MIEMBROS} mensajes={mensajes} base={1322} tope={510} />
+);
+
+/** Golpe de sonido cuando la tía sale del grupo (el aviso va dentro del chat, tipo «sistema»). */
+const SistemaSalio: React.FC<{ en: number }> = ({ en: t0 }) => <Sfx s="impacto" volumen={0.45} en={t0} />;

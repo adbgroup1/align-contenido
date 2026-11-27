@@ -10,7 +10,7 @@ export type MsgChat = {
   de: string; // nombre de un miembro, o «yo» (va a la derecha)
   en: number; // segundo absoluto en que aparece (usa en(inicios, "escena", s))
   texto?: string;
-  tipo?: "texto" | "audio" | "sticker" | "borrado" | "foto";
+  tipo?: "texto" | "audio" | "sticker" | "borrado" | "foto" | "sistema"; // sistema: aviso centrado («X salió del grupo»)
   segundosAudio?: number; // para tipo audio: duración que se muestra («0:47»)
   escribe?: number; // segundos de «escribiendo…» antes (por defecto 0.9; 0 = sin aviso)
   reaccion?: { emoji: string; en: number };
@@ -26,7 +26,8 @@ export const Chat: React.FC<{
   oscuro?: boolean;
   sonido?: boolean;
   base?: number; // borde inferior de la lista de mensajes (1440)
-}> = ({ titulo, info, miembros, mensajes, oscuro = false, sonido = true, base = 1440 }) => {
+  tope?: number; // por encima de esta altura las burbujas ya no se ven (120; súbelo si hay subtítulos arriba)
+}> = ({ titulo, info, miembros, mensajes, oscuro = false, sonido = true, base = 1440, tope = 120 }) => {
   const t = useSeg();
   const fondo = oscuro ? "#0B141A" : "#EFE7DD";
   const burbujaYo = oscuro ? "#005C4B" : "#D9FDD3";
@@ -41,7 +42,8 @@ export const Chat: React.FC<{
   // alto aproximado de cada burbuja para apilar desde abajo
   const alto = (m: MsgChat) => {
     if (m.tipo === "sticker") return 250;
-    if (m.tipo === "audio") return 130;
+    if (m.tipo === "sistema") return 76;
+    if (m.tipo === "audio") return 130 + (m.de !== "yo" ? 44 : 0);
     if (m.tipo === "foto") return 420;
     const lineas = Math.max(1, Math.ceil((m.texto ?? "").length / 24));
     return 70 + lineas * 54 + (m.de !== "yo" ? 44 : 0) + (m.reaccion ? 30 : 0);
@@ -77,23 +79,29 @@ export const Chat: React.FC<{
         const yo = m.de === "yo";
         const mb = miembros[m.de];
         const top = pos[i] + empuje;
-        if (top < 120) return null;
+        if (top < tope) return null;
         return (
           <div
             key={i}
             style={{
               position: "absolute",
               top,
-              left: yo ? undefined : 60,
-              right: yo ? 150 : undefined,
-              maxWidth: 760,
-              transformOrigin: yo ? "right bottom" : "left bottom",
+              left: m.tipo === "sistema" ? 0 : yo ? undefined : 60,
+              right: m.tipo === "sistema" ? 0 : yo ? 150 : undefined,
+              maxWidth: m.tipo === "sistema" ? undefined : 760,
+              display: m.tipo === "sistema" ? "flex" : undefined,
+              justifyContent: m.tipo === "sistema" ? "center" : undefined,
+              transformOrigin: m.tipo === "sistema" ? "center bottom" : yo ? "right bottom" : "left bottom",
               scale: String(0.6 + 0.4 * k),
               opacity: Math.min(1, k * 1.5),
             }}
           >
             {m.tipo === "sticker" ? (
               <div style={{ fontSize: 210, lineHeight: 1 }}>{m.texto}</div>
+            ) : m.tipo === "sistema" ? (
+              <div style={{ background: oscuro ? "#182229" : "#FEF3C7", color: oscuro ? "#FFD279" : "#713F12", fontSize: 38, padding: "12px 30px", borderRadius: 16, boxShadow: "0 2px 4px rgba(0,0,0,0.15)" }}>
+                {m.texto}
+              </div>
             ) : (
               <div
                 style={{
@@ -191,7 +199,7 @@ export const Chat: React.FC<{
         Mensaje
       </div>
       {sonido
-        ? mensajes.map((m, i) => <Sfx key={i} s={m.de === "yo" ? "swoosh" : "pop"} volumen={m.de === "yo" ? 0.18 : 0.32} en={m.en} />)
+        ? mensajes.map((m, i) => m.tipo === "sistema" ? null : <Sfx key={i} s={m.de === "yo" ? "swoosh" : "pop"} volumen={m.de === "yo" ? 0.18 : 0.32} en={m.en} />)
         : null}
     </div>
   );
