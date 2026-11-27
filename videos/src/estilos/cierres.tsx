@@ -63,12 +63,12 @@ export const ComentarioFijado: React.FC<{ texto: string; en?: number; usuario?: 
 };
 
 /** Pregunta suelta sobre el último plano, sin tarjeta: texto grande con caja, como en los reels hechos a mano. */
-export const PreguntaFinal: React.FC<{ texto: string; en?: number; y?: number }> = ({ texto, en = 0, y = 1250 }) => {
+export const PreguntaFinal: React.FC<{ texto: string; en?: number; y?: number; tam?: number }> = ({ texto, en = 0, y = 1250, tam = 56 }) => {
   const t = useSeg();
   const k = entrada(t, en, 0.3);
   return (
     <div style={{ position: "absolute", top: y, left: 90, right: 120, display: "flex", justifyContent: "center" }}>
-      <div style={{ background: "#fff", color: "#111", fontFamily: F.roboto, fontWeight: 900, fontSize: 56, padding: "12px 30px", borderRadius: 18, rotate: "-2deg", scale: String(Math.min(1.05, k)) }}>{texto}</div>
+      <div style={{ background: "#fff", color: "#111", fontFamily: F.roboto, fontWeight: 900, fontSize: tam, padding: "12px 30px", borderRadius: 18, rotate: "-2deg", scale: String(Math.min(1.05, k)) }}>{texto}</div>
     </div>
   );
 };

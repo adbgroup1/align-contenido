@@ -1,0 +1,543 @@
+{
+ "proveedor": "elevenlabs",
+ "modelo": "eleven_v3",
+ "voz": "j7e3J6ksqsziQcIGyAWI",
+ "reparto": {
+  "narrador": "narradora"
+ },
+ "escenas": [
+  {
+   "id": "hook",
+   "personaje": "narrador",
+   "texto": "POV: abres la app del banco después de la posada.",
+   "archivo": "hook.mp3",
+   "segundos": 3.004082,
+   "palabras": [
+    {
+     "t": "POV:",
+     "inicio": 0.34,
+     "fin": 0.48
+    },
+    {
+     "t": "abres",
+     "inicio": 0.613,
+     "fin": 1.04
+    },
+    {
+     "t": "la",
+     "inicio": 1.093,
+     "fin": 1.2
+    },
+    {
+     "t": "app",
+     "inicio": 1.24,
+     "fin": 1.36
+    },
+    {
+     "t": "del",
+     "inicio": 1.4,
+     "fin": 1.52
+    },
+    {
+     "t": "banco",
+     "inicio": 1.573,
+     "fin": 1.84
+    },
+    {
+     "t": "después",
+     "inicio": 1.89,
+     "fin": 2.24
+    },
+    {
+     "t": "de",
+     "inicio": 2.267,
+     "fin": 2.32
+    },
+    {
+     "t": "la",
+     "inicio": 2.347,
+     "fin": 2.4
+    },
+    {
+     "t": "posada.",
+     "inicio": 2.46,
+     "fin": 2.96
+    }
+   ]
+  },
+  {
+   "id": "intercambio",
+   "personaje": "narrador",
+   "texto": "El intercambio era de quinientos. Más la bolsita de regalo, que no sé por qué cuesta ochenta.",
+   "archivo": "intercambio.mp3",
+   "segundos": 7.392653,
+   "palabras": [
+    {
+     "t": "El",
+     "inicio": 0,
+     "fin": 0.08
+    },
+    {
+     "t": "intercambio",
+     "inicio": 0.133,
+     "fin": 0.8
+    },
+    {
+     "t": "era",
+     "inicio": 0.88,
+     "fin": 1.12
+    },
+    {
+     "t": "de",
+     "inicio": 1.173,
+     "fin": 1.28
+    },
+    {
+     "t": "quinientos.",
+     "inicio": 1.307,
+     "fin": 2.6
+    },
+    {
+     "t": "Más",
+     "inicio": 3.663,
+     "fin": 3.843
+    },
+    {
+     "t": "la",
+     "inicio": 3.896,
+     "fin": 4.003
+    },
+    {
+     "t": "bolsita",
+     "inicio": 4.051,
+     "fin": 4.403
+    },
+    {
+     "t": "de",
+     "inicio": 4.456,
+     "fin": 4.563
+    },
+    {
+     "t": "regalo,",
+     "inicio": 4.623,
+     "fin": 5.243
+    },
+    {
+     "t": "que",
+     "inicio": 5.293,
+     "fin": 5.443
+    },
+    {
+     "t": "no",
+     "inicio": 5.496,
+     "fin": 5.603
+    },
+    {
+     "t": "sé",
+     "inicio": 5.683,
+     "fin": 5.843
+    },
+    {
+     "t": "por",
+     "inicio": 5.903,
+     "fin": 6.083
+    },
+    {
+     "t": "qué",
+     "inicio": 6.123,
+     "fin": 6.243
+    },
+    {
+     "t": "cuesta",
+     "inicio": 6.323,
+     "fin": 6.643
+    },
+    {
+     "t": "ochenta.",
+     "inicio": 6.703,
+     "fin": 7.363
+    }
+   ]
+  },
+  {
+   "id": "uber",
+   "personaje": "narrador",
+   "texto": "Uber de ida, porque iba guapa. Uber de regreso, porque ya no iba guapa.",
+   "archivo": "uber.mp3",
+   "segundos": 6.922449,
+   "palabras": [
+    {
+     "t": "Uber",
+     "inicio": 0,
+     "fin": 0.24
+    },
+    {
+     "t": "de",
+     "inicio": 0.267,
+     "fin": 0.32
+    },
+    {
+     "t": "ida,",
+     "inicio": 0.427,
+     "fin": 0.96
+    },
+    {
+     "t": "porque",
+     "inicio": 0.994,
+     "fin": 1.2
+    },
+    {
+     "t": "iba",
+     "inicio": 1.253,
+     "fin": 1.44
+    },
+    {
+     "t": "guapa.",
+     "inicio": 1.493,
+     "fin": 2
+    },
+    {
+     "t": "Uber",
+     "inicio": 2.869,
+     "fin": 3.445
+    },
+    {
+     "t": "de",
+     "inicio": 3.472,
+     "fin": 3.525
+    },
+    {
+     "t": "regreso,",
+     "inicio": 3.585,
+     "fin": 4.405
+    },
+    {
+     "t": "porque",
+     "inicio": 4.439,
+     "fin": 4.645
+    },
+    {
+     "t": "ya",
+     "inicio": 4.725,
+     "fin": 4.885
+    },
+    {
+     "t": "no",
+     "inicio": 4.938,
+     "fin": 5.045
+    },
+    {
+     "t": "iba",
+     "inicio": 5.098,
+     "fin": 5.285
+    },
+    {
+     "t": "guapa.",
+     "inicio": 5.338,
+     "fin": 6.885
+    }
+   ]
+  },
+  {
+   "id": "tacos",
+   "personaje": "narrador",
+   "texto": "Los tacos de las dos de la mañana. No me arrepiento.",
+   "archivo": "tacos.mp3",
+   "segundos": 3.709388,
+   "palabras": [
+    {
+     "t": "Los",
+     "inicio": 0,
+     "fin": 0.16
+    },
+    {
+     "t": "tacos",
+     "inicio": 0.24,
+     "fin": 0.64
+    },
+    {
+     "t": "de",
+     "inicio": 0.667,
+     "fin": 0.72
+    },
+    {
+     "t": "las",
+     "inicio": 0.78,
+     "fin": 0.96
+    },
+    {
+     "t": "dos",
+     "inicio": 1.02,
+     "fin": 1.2
+    },
+    {
+     "t": "de",
+     "inicio": 1.227,
+     "fin": 1.28
+    },
+    {
+     "t": "la",
+     "inicio": 1.307,
+     "fin": 1.36
+    },
+    {
+     "t": "mañana.",
+     "inicio": 1.44,
+     "fin": 2.28
+    },
+    {
+     "t": "No",
+     "inicio": 2.753,
+     "fin": 2.806
+    },
+    {
+     "t": "me",
+     "inicio": 2.833,
+     "fin": 2.886
+    },
+    {
+     "t": "arrepiento.",
+     "inicio": 2.939,
+     "fin": 3.686
+    }
+   ]
+  },
+  {
+   "id": "tiendita",
+   "personaje": "narrador",
+   "texto": "¿Y tres veces en la tiendita? ¿Qué compré tres veces en la tiendita?",
+   "archivo": "tiendita.mp3",
+   "segundos": 4.597551,
+   "palabras": [
+    {
+     "t": "¿Y",
+     "inicio": 0.06,
+     "fin": 0.08
+    },
+    {
+     "t": "tres",
+     "inicio": 0.144,
+     "fin": 0.4
+    },
+    {
+     "t": "veces",
+     "inicio": 0.453,
+     "fin": 0.72
+    },
+    {
+     "t": "en",
+     "inicio": 0.773,
+     "fin": 0.88
+    },
+    {
+     "t": "la",
+     "inicio": 0.907,
+     "fin": 0.96
+    },
+    {
+     "t": "tiendita?",
+     "inicio": 1.013,
+     "fin": 1.6
+    },
+    {
+     "t": "¿Qué",
+     "inicio": 2.12,
+     "fin": 2.72
+    },
+    {
+     "t": "compré",
+     "inicio": 2.773,
+     "fin": 3.12
+    },
+    {
+     "t": "tres",
+     "inicio": 3.168,
+     "fin": 3.36
+    },
+    {
+     "t": "veces",
+     "inicio": 3.413,
+     "fin": 3.68
+    },
+    {
+     "t": "en",
+     "inicio": 3.707,
+     "fin": 3.76
+    },
+    {
+     "t": "la",
+     "inicio": 3.787,
+     "fin": 3.84
+    },
+    {
+     "t": "tiendita?",
+     "inicio": 3.893,
+     "fin": 4.56
+    }
+   ]
+  },
+  {
+   "id": "truco",
+   "personaje": "narrador",
+   "texto": "El truco: antes de diciembre, aparta una lana solo para fiestas. Cuando se acaba, se acabó la fiesta.",
+   "archivo": "truco.mp3",
+   "segundos": 7.810612,
+   "palabras": [
+    {
+     "t": "El",
+     "inicio": 0,
+     "fin": 0.08
+    },
+    {
+     "t": "truco:",
+     "inicio": 0.16,
+     "fin": 0.96
+    },
+    {
+     "t": "antes",
+     "inicio": 1.027,
+     "fin": 1.36
+    },
+    {
+     "t": "de",
+     "inicio": 1.387,
+     "fin": 1.44
+    },
+    {
+     "t": "diciembre,",
+     "inicio": 1.504,
+     "fin": 2.4
+    },
+    {
+     "t": "aparta",
+     "inicio": 2.453,
+     "fin": 2.8
+    },
+    {
+     "t": "una",
+     "inicio": 2.84,
+     "fin": 2.96
+    },
+    {
+     "t": "lana",
+     "inicio": 3.04,
+     "fin": 3.44
+    },
+    {
+     "t": "solo",
+     "inicio": 3.52,
+     "fin": 3.84
+    },
+    {
+     "t": "para",
+     "inicio": 3.904,
+     "fin": 4.16
+    },
+    {
+     "t": "fiestas.",
+     "inicio": 4.213,
+     "fin": 5.12
+    },
+    {
+     "t": "Cuando",
+     "inicio": 5.177,
+     "fin": 5.52
+    },
+    {
+     "t": "se",
+     "inicio": 5.547,
+     "fin": 5.6
+    },
+    {
+     "t": "acaba,",
+     "inicio": 5.68,
+     "fin": 6.28
+    },
+    {
+     "t": "se",
+     "inicio": 6.373,
+     "fin": 6.56
+    },
+    {
+     "t": "acabó",
+     "inicio": 6.64,
+     "fin": 7.04
+    },
+    {
+     "t": "la",
+     "inicio": 7.067,
+     "fin": 7.12
+    },
+    {
+     "t": "fiesta.",
+     "inicio": 7.2,
+     "fin": 7.76
+    }
+   ]
+  },
+  {
+   "id": "remate",
+   "personaje": "narrador",
+   "texto": "Y no, la tarjeta de crédito no cuenta como lana aparte.",
+   "archivo": "remate.mp3",
+   "segundos": 4.205714,
+   "palabras": [
+    {
+     "t": "Y",
+     "inicio": 0.15,
+     "fin": 0.16
+    },
+    {
+     "t": "no,",
+     "inicio": 0.267,
+     "fin": 0.56
+    },
+    {
+     "t": "la",
+     "inicio": 0.693,
+     "fin": 0.96
+    },
+    {
+     "t": "tarjeta",
+     "inicio": 1.02,
+     "fin": 1.44
+    },
+    {
+     "t": "de",
+     "inicio": 1.493,
+     "fin": 1.6
+    },
+    {
+     "t": "crédito",
+     "inicio": 1.664,
+     "fin": 2.16
+    },
+    {
+     "t": "no",
+     "inicio": 2.267,
+     "fin": 2.48
+    },
+    {
+     "t": "cuenta",
+     "inicio": 2.549,
+     "fin": 2.96
+    },
+    {
+     "t": "como",
+     "inicio": 3.024,
+     "fin": 3.28
+    },
+    {
+     "t": "lana",
+     "inicio": 3.32,
+     "fin": 3.6
+    },
+    {
+     "t": "aparte.",
+     "inicio": 3.667,
+     "fin": 4.16
+    }
+   ]
+  }
+ ]
+}
