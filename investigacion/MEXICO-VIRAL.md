@@ -123,6 +123,28 @@ siempre hipotéticas, datos reales con fuente, la línea de «no es asesoramient
 
 ---
 
+### Aprendido en la ronda del 28 nov (15 fichas, plan B: sin ver el vídeo)
+
+- **La línea citable manda.** En 4 vídeos de 8,8 a 20 M de vistas el comentario top cita una frase del personaje, no el tema:
+  «le da 100 y quiere 20» (H0-uwRtrgRY, 6.444 ♥), «¡Juan!» (Av69W3M6Vf8, 3.937 ♥), «una fotito mental» (HeGKXpleZA4, 681 ♥).
+  Escribir el guion hacia una línea así (H25).
+- **Deuda entre familia con cifra pequeña** (H0-uwRtrgRY, 20 M): «mi mamá cuando le cobro el dinero que le presté». Dinero + familia = identificación máxima.
+- **Escenario Oxxo/tienda en dibujo 2D de contorno grueso** (Av69W3M6Vf8, 14 M, ratio 26): el modelo mexicano, animado y viral.
+- **«¿Y si…? en los 2000 en México»** (HeGKXpleZA4, 16,7 M): nostalgia + rótulo de conflicto en el fotograma 0.
+- **Costumbre doméstica con giro al abrir** (HRQo7bTLNCY, bote de helado con frijoles, 2,3 M con 23 k subs).
+- **Jerga que suena natural en los comentarios:** «güey», «déjala ahí», «mamá Chela», «recarga», «quincena», «troca».
+- **Lo que NO funcionó:** cifra de oferta suelta (PGlHWZgFvMU, 254 vistas con 617 k subs) y «La quincena…» sin conflicto (ZxoWmsxzPbs, 228 k con 1,19 M subs).
+
+### Aprendido en la ronda del 28 nov (15 fichas, plan B: sin ver el vídeo)
+
+- **La línea citable manda.** En 4 vídeos de 8,8 a 20 M de vistas el comentario top cita una frase del personaje, no el tema:
+  «le da 100 y quiere 20» (H0-uwRtrgRY, 6.444 ♥), «¡Juan!» (Av69W3M6Vf8, 3.937 ♥), «una fotito mental» (HeGKXpleZA4, 681 ♥). Escribir el guion hacia una línea así (H25).
+- **Deuda entre familia con cifra pequeña** (H0-uwRtrgRY, 20 M): «mi mamá cuando le cobro el dinero que le presté».
+- **Escenario Oxxo/tienda en dibujo 2D de contorno grueso** (Av69W3M6Vf8, 14 M, ratio 26).
+- **«¿Y si…? en los 2000 en México»** (HeGKXpleZA4, 16,7 M): nostalgia + rótulo de conflicto en el fotograma 0.
+- **Costumbre doméstica con giro al abrir** (HRQo7bTLNCY, bote de helado con frijoles, 2,3 M con 23 k subs).
+- **Lo que NO funcionó:** cifra de oferta suelta (PGlHWZgFvMU, 254 vistas con 617 k subs) y «La quincena…» sin conflicto (ZxoWmsxzPbs, 228 k con 1,19 M subs).
+
 ## C. Personajes tipo mexicanos reutilizables
 
 Hay que hacerlos **serie**: siempre el mismo diseño, la misma voz y sus frases propias. Las frases de abajo son

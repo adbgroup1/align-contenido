@@ -1,0 +1,53 @@
+{
+ "id": "ethLDu3BrvM",
+ "url": "https://www.youtube.com/shorts/ethLDu3BrvM",
+ "titulo": "¿LO SIGUES VIENDO BIEN?",
+ "canal": "Pepe el Travieso",
+ "vistas": 349852,
+ "suscriptores": 5940,
+ "ratio": 58.9,
+ "duracion_s": 6,
+ "formato": "Meme de 6 s, 350 k vistas",
+ "formato_align": "Loop corto sin cara",
+ "estructura": "sin dato",
+ "nicho": "Viral de cualquier nicho",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Título-pregunta que reta al espectador a mirar («¿LO SIGUES VIENDO BIEN?»)",
+  "tecnica": "pregunta que reta a mirar; objeto fuera de lugar",
+  "por_que_engancha": "6 s y 350 k vistas con 5,9 k subs (ratio 59). Los comentarios son sobre un detalle del vídeo (la calavera), no el tema: un solo objeto raro que el espectador tiene que buscar."
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sin dato",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "sin dato",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [],
+ "nota_calidad_visual_1_10": "sin dato",
+ "recetas_remotion": [],
+ "mecanismo_humor": "pregunta absurda a la cámara",
+ "estilo_visual": "sin dato (miniatura)",
+ "jerga": "sin jerga",
+ "idea_para_ALIGN": "Vídeo de 6 s con un objeto «mal» en pantalla y un título que pide encontrarlo: «¿Cuál es el gasto que no debería estar en tu quincena?» Retención por búsqueda. Probar a ≤8 s (H4). · Refuerza H4 (menos de 15 s).",
+ "apto_align": true,
+ "nota": "Plan B (28 nov 2026): Gemini sin cuota (429); ficha escrita con título, descripción, comentarios top y miniatura."
+}

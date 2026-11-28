@@ -1,0 +1,53 @@
+{
+ "id": "PGlHWZgFvMU",
+ "url": "https://www.youtube.com/shorts/PGlHWZgFvMU",
+ "titulo": "Troca por $4,000 de inicial y $1,000 al mes sin interés #shorts",
+ "canal": "Mio y tuyo renta Maikel",
+ "vistas": 254,
+ "suscriptores": 617000,
+ "ratio": 0,
+ "duracion_s": 45,
+ "formato": "Anuncio de troca a meses sin intereses, 45 s",
+ "formato_align": "Anuncio de vendedor, con cara",
+ "estructura": "sin dato",
+ "nicho": "Finanzas con humor (anuncio)",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Anuncio con cifra «$4.000 de inicial y $1.000 al mes sin interés»",
+  "tecnica": "sin dato",
+  "por_que_engancha": "Solo 254 vistas con 617 k subs (ratio 0). Es un anuncio de venta: ni siquiera con el canal grande llega gente. Contra-ejemplo: la cifra desnuda («$1.000 al mes sin interés») no engancha. Refuerza H12."
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sin dato",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "sin dato",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [],
+ "nota_calidad_visual_1_10": "sin dato",
+ "recetas_remotion": [],
+ "mecanismo_humor": "ninguno",
+ "estilo_visual": "sin dato (miniatura)",
+ "jerga": "«troca» (mexicano norteño)",
+ "idea_para_ALIGN": "No copiar. Para ALIGN: el «sin interés» solo engancha si es el conflicto de una historia (la mensualidad que vuelve cada quincena), no una cifra de oferta. · Sirve para MATAR el gancho de cifra suelta.",
+ "apto_align": true,
+ "nota": "Plan B (28 nov 2026): Gemini sin cuota (429); ficha escrita con título, descripción, comentarios top y miniatura."
+}

@@ -1,0 +1,53 @@
+{
+ "id": "HRQo7bTLNCY",
+ "url": "https://www.youtube.com/shorts/HRQo7bTLNCY",
+ "titulo": "Abrió el bote de helado y era de frijoles 😂 | Mamás mexicanas #shorts",
+ "canal": "Telenovelitas",
+ "vistas": 2279933,
+ "suscriptores": 23500,
+ "ratio": 97,
+ "duracion_s": 89,
+ "formato": "Historia animada/actuada de 1 min 29 s (serie «Mamás mexicanas»)",
+ "formato_align": "Sketch de costumbre · serie",
+ "estructura": "sin dato",
+ "nicho": "Comedia MX",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Pregunta de identificación en la descripción («¿quién en tu casa guarda la comida en botes de helado?») y un giro visible en el título: abrió el helado y era frijoles",
+  "tecnica": "abre el recipiente y hay otra cosa",
+  "por_que_engancha": "2,3 M vistas con 23 k subs (ratio 97). Los comentarios confirman: «yo también lo hago, pero pongo nombre y fecha». Gente que se reconoce y confiesa su propia costumbre."
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sin dato",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "sin dato",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [],
+ "nota_calidad_visual_1_10": "sin dato",
+ "recetas_remotion": [],
+ "mecanismo_humor": "identificación + giro (el bote de helado contiene frijoles)",
+ "estilo_visual": "sin dato (miniatura)",
+ "jerga": "«mamá Chela», «caldo», «mole»: tono familiar real",
+ "idea_para_ALIGN": "Una costumbre doméstica mexicana con giro al abrir algo. Para ALIGN: abrir el «bote de la quincena» y descubrir el cargo oculto (H16 + identificación). Dar a la gente algo que confesar en comentarios. · Hay un gancho de identificación en la primera línea de la descripción.",
+ "apto_align": true,
+ "nota": "Plan B (28 nov 2026): Gemini sin cuota (429); ficha escrita con título, descripción, comentarios top y miniatura."
+}

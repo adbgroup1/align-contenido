@@ -1,0 +1,53 @@
+{
+ "id": "ZxoWmsxzPbs",
+ "url": "https://www.youtube.com/shorts/ZxoWmsxzPbs",
+ "titulo": "LA QUINCENA… #shorts #humor #comedia #youtubeshorts",
+ "canal": "Chema y doña Kiri",
+ "vistas": 227900,
+ "suscriptores": 1190000,
+ "ratio": 0.2,
+ "duracion_s": 69,
+ "formato": "Sketch de pareja de personajes (Chema y doña Kiri), 1 min 9 s",
+ "formato_align": "Sketch con cara, serie de personajes",
+ "estructura": "sin dato",
+ "nicho": "Finanzas con humor",
+ "fuente": "claude",
+ "hook": {
+  "texto_y_visual_0_3s": "Título de una sola palabra de calendario: «LA QUINCENA…»",
+  "tecnica": "personaje fijo que vuelve",
+  "por_que_engancha": "228 k vistas con 1,19 M subs (ratio 0,2): bajo para su tamaño. Comentarios: saludos a doña Kiri y «Black Friday edition»: la audiencia sigue al personaje, no el tema de la quincena. El tema solo no mueve vistas; el personaje fijo sí mueve comentarios."
+ },
+ "segundo_gancho": "sin dato",
+ "escenas": [],
+ "ritmo": "sin dato",
+ "momento_wow": "sin dato",
+ "cierre": {
+  "tipo": "sin dato",
+  "hace_bucle": "sin dato",
+  "cta": "sin dato"
+ },
+ "tipografia": {
+  "estilo": "sin dato",
+  "animacion": "sin dato",
+  "subtitulos": "sin dato"
+ },
+ "color_y_luz": "sin dato",
+ "camara_y_transiciones": [],
+ "efectos": [],
+ "graficos_y_datos": "sin dato",
+ "sonido": {
+  "voz": "sin dato",
+  "musica": "sin dato",
+  "efectos_sonido": [],
+  "mezcla": "sin dato"
+ },
+ "que_lo_hace_premium": [],
+ "nota_calidad_visual_1_10": "sin dato",
+ "recetas_remotion": [],
+ "mecanismo_humor": "personaje tipo (pareja fija) + situación del día de pago",
+ "estilo_visual": "sin dato (miniatura)",
+ "jerga": "«doña», «quincena»: natural",
+ "idea_para_ALIGN": "«La quincena» como tema ya es un gancho de calendario saturado (H12). Aprendizaje: serie con personaje fijo (H22), donde el tema es el escenario. · Tema sin conflicto = vistas bajas para un canal de 1 M.",
+ "apto_align": true,
+ "nota": "Plan B (28 nov 2026): Gemini sin cuota (429); ficha escrita con título, descripción, comentarios top y miniatura."
+}
