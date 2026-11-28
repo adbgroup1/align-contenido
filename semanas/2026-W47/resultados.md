@@ -53,3 +53,16 @@ Mediana IG (5 reels): 172 vistas (umbral VIRAL ×5 = 860). Retención %: sin dat
 Sin cambios desde el 26 nov: las cifras están congeladas. Mediana IG (5 reels): 172 vistas (umbral VIRAL ×5 = 860). Retención %: Metricool devuelve null.
 Publicado el 26 nov 20:30 (Madrid) y aún sin fila en métricas de reels: «Tres ardillas, paga extra» (IG DgN3JHuw3Oa; YT UZeA8RjNNBI); se mide mañana. Es el primero con 3 personajes y CTA numérico (1, 2 o 3).
 Programados: gimnasio de Dani (27 nov), Ana y Pablo (30 nov), 4 fugas (28 nov), polilla de Tomasa (29 nov). Todos en euros/«€»: siguen siendo contenido de España (H1).
+
+## Medida 28 nov 2026 (07:00) · Instagram Reels
+| ID | Subida (MX) | Vistas | Alcance | Likes | Coment. | Guard. | Comp. | Tiempo medio (s) | Pasa 3 s % |
+|---|---|---|---|---|---|---|---|---|---|
+| Tres ardillas, paga extra (IG DgN3JHuw3Oa; <24 h) | 26 nov | 210 | 189 | 7 | 1 | 0 | 0 | 14,8 | 64,7 |
+| W48-02 (12 o 14 pagas, España; 3 días) | 25 nov | 136 | 107 | 3 | 1 | 0 | 0 | 7,5 | 34,9 |
+| W48-01 (Black Friday 48 h; 4 días) | 24 nov | 172 | 145 | 1 | 1 | 0 | 0 | 11,2 | 62,1 |
+| W47-02 (8 días) | 20 nov | 209 | 173 | 5 | 1 | 0 | 1 | 12,4 | 56,2 |
+| W47-03 | 19 nov | 149 | 125 | 6 | 1 | 0 | 0 | 6,8 | 34,9 |
+| W47-01 | 16 nov | 193 | 148 | 6 | 1 | 0 | 1 | 7,0 | 32,0 |
+
+Mediana IG (6 reels): 182,5 vistas (umbral VIRAL ×5 = 913). Sin VIRAL. Retención %: null. YouTube por vídeo: sin dato.
+Gimnasio de Dani (programado 27 nov): aún sin fila en métricas de reels. Los programados siguen en euros (España).

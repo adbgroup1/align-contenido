@@ -16,9 +16,9 @@
 
 ## Estado (lo reescribe Resultados cada día)
 
-*Actualizado: 27 nov 2026 (Resultados; cifras sin cambios desde el 26 nov, sin VIRAL). Falta medir «Tres ardillas» (publicado 26 nov, aún sin métricas). Los 4 siguientes programados siguen en euros (España): H1 no se pone a prueba todavía. Anterior: 26 nov. Mediana de Instagram con 5 reels: 172 vistas. Ninguna publicación pasa de 5× la mediana (umbral 860): sin VIRAL. La mejor sigue siendo W47-02 (209 vistas, 12,4 s, 56,2 % pasa de 3 s).*
+*Actualizado: 28 nov 2026 (Resultados). Mediana de Instagram con 6 reels: 182,5 vistas; umbral VIRAL (×5) = 913. Ninguna publicación lo pasa: sin VIRAL. La mejor por vistas es «Tres ardillas, paga extra» (26 nov, <24 h): 210 vistas, 14,8 s de tiempo medio y el 64,7 % pasa de 3 s, ambos los mejores de la cuenta. Anterior: 27 nov.*
 
-**Lo nuevo:** W48-01 (Black Friday, regla de las 48 h) sube de 58 a 172 vistas (= mediana) y el 62,1 % pasa de los 3 s con 11,3 s de media: es el mejor retenedor de la cuenta, pero con 0 guardados y 0 compartidos. W48-02 («12 o 14 pagas», España; 25 nov, <24 h) lleva 94 vistas, un 45 % por debajo de la mediana, y el 34,7 % pasa de 3 s: el gancho de concepto vuelve a perder. Tres semanas con 0 guardados y 1 compartido en total: nadie guarda ni comparte contenido de España. Indicio fuerte para H1 (el contenido para México aún no se ha publicado).
+**Lo nuevo:** «Tres ardillas» (3 personajes + CTA numérico «1, 2 o 3») estrena como mejor retenedor: 14,8 s y 64,7 % pasa de 3 s frente a una mediana de ~12 s y ~45 %, pero 0 guardados, 0 compartidos y 1 comentario: retiene, no se comparte. Indicio a favor de H9/H7 (personajes y CTA numérico), sin cifras de comentarios que lo confirmen todavía (1 comentario, igual que el resto). W48-02 («12 o 14 pagas», España) sube de 94 a 136 vistas pero sigue peor que la mediana (-25 %) y el 34,9 % pasa de 3 s: el gancho de concepto vuelve a perder. Cuatro semanas con 0 guardados y 2 compartidos en total en 6 reels: nadie guarda ni comparte contenido de España. Indicio fuerte para H1 (contenido para México aún sin publicar). Los 4 siguientes programados siguen en euros.
 
 ### ESCALAR (hacer más, con variaciones)
 - *(nada todavía con datos suficientes)*
